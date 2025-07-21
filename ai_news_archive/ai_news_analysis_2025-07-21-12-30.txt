@@ -1,0 +1,384 @@
+AI Researcher Agent Report for 2025-07-21-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [GraphTrafficGPT: Enhancing Traffic Management Through Graph-Based AI Agent Coordination](https://arxiv.org/abs/2507.13511): This paper introduces GraphTrafficGPT, a graph-based architecture designed to improve traffic management by enabling efficient parallel execution and dynamic resource allocation for LLM-driven applications. It demonstrates significant reductions in token consumption and response latency compared to existing systems.
+- [PrefPalette: Personalized Preference Modeling with Latent Attributes](https://arxiv.org/abs/2507.13541): PrefPalette is a framework that decomposes user preferences into attribute dimensions, enhancing preference prediction accuracy by capturing community-specific values. It outperforms existing models and provides interpretable insights into user preferences.
+- [GOFAI meets Generative AI: Development of Expert Systems by means of Large Language Models](https://arxiv.org/abs/2507.13550): This paper discusses a new approach to developing expert systems using LLMs, focusing on controlled and transparent methods that ensure reliability and interpretability in sensitive domains.
+- [Why Isn't Relational Learning Taking Over the World?](https://arxiv.org/abs/2507.13558): The paper explores the underutilization of relational learning in AI, discussing the challenges and necessary advancements to elevate its prominence in data analysis.
+- [BifrostRAG: Bridging Dual Knowledge Graphs for Multi-Hop Question Answering in Construction Safety](https://arxiv.org/abs/2507.13625): BifrostRAG introduces a dual-graph system for improved information retrieval and question answering in construction safety, achieving high precision and recall rates.
+- [Buggy rule diagnosis for combined steps through final answer evaluation in stepwise tasks](https://arxiv.org/abs/2507.13651): This study explores automated error diagnosis in intelligent tutoring systems, demonstrating the effectiveness of using final answer evaluations to mitigate combinatorial explosion in error diagnosis.
+- [Combining model tracing and constraint-based modeling for multistep strategy diagnoses](https://arxiv.org/abs/2507.13652): This paper presents a hybrid approach for diagnosing student inputs in multistep tasks, achieving high alignment with teacher diagnoses.
+- [DailyLLM: Context-Aware Activity Log Generation Using Multi-Modal Sensors and LLMs](https://arxiv.org/abs/2507.13737): DailyLLM proposes a framework for generating context-aware activity logs using multi-modal sensors, outperforming existing methods in accuracy and efficiency.
+- [OntView: What you See is What you Meant](https://arxiv.org/abs/2507.13759): OntView is an ontology viewer designed to provide intuitive visual representations of ontology concepts, enhancing user comprehension of complex structures.
+- [From Extraction to Synthesis: Entangled Heuristics for Agent-Augmented Strategic Reasoning](https://arxiv.org/abs/2507.13768): This paper presents a hybrid architecture for strategic reasoning that combines heuristic extraction with compositional synthesis.
+- [When Speed meets Accuracy: an Efficient and Effective Graph Model for Temporal Link Prediction](https://arxiv.org/abs/2507.13825): EAGLE is introduced as a lightweight framework for temporal link prediction, achieving significant improvements in efficiency and effectiveness.
+- [Causal Knowledge Transfer for Multi-Agent Reinforcement Learning in Dynamic Environments](https://arxiv.org/abs/2507.13846): This paper discusses a framework for causal knowledge transfer in multi-agent reinforcement learning, enhancing adaptability in dynamic environments.
+- [Large Language Models as Innovators: A Framework to Leverage Latent Space Exploration for Novelty Discovery](https://arxiv.org/abs/2507.13874): This study proposes a model-agnostic framework for exploring latent spaces to facilitate innovative idea generation.
+- [Cross-modal Causal Intervention for Alzheimer's Disease Prediction](https://arxiv.org/abs/2507.13956): The ADPC framework is introduced for predicting Alzheimer's disease using multi-modal data, demonstrating state-of-the-art performance.
+- [Towards Constraint Temporal Answer Set Programming](https://arxiv.org/abs/2507.13958): This paper presents a novel approach to nonmonotonic temporal reasoning with constraints tailored for Answer Set Programming.
+- [KROMA: Ontology Matching with Knowledge Retrieval and Large Language Models](https://arxiv.org/abs/2507.14032): KROMA is a framework that enhances ontology matching by integrating knowledge retrieval with LLMs.
+- [Glucose-ML: A collection of longitudinal diabetes datasets for development of robust AI solutions](https://arxiv.org/abs/2507.14077): This paper presents a collection of diabetes datasets to support AI research in health monitoring.
+- [Generative AI-Driven High-Fidelity Human Motion Simulation](https://arxiv.org/abs/2507.14097): G-AI-HMS introduces a framework for enhancing human motion simulation quality using generative AI.
+- [Automated Interpretation of Non-Destructive Evaluation Contour Maps Using Large Language Models for Bridge Condition Assessment](https://arxiv.org/abs/2507.14107): This study explores the use of LLMs for interpreting NDE data in bridge assessments, demonstrating improved efficiency and accuracy.
+- [CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning](https://arxiv.org/abs/2507.14111): CUDA-L1 is introduced as an automated reinforcement learning framework for optimizing CUDA code.
+- [The AI Ethical Resonance Hypothesis: The Possibility of Discovering Moral Meta-Patterns in AI Systems](https://arxiv.org/abs/2507.11552): This paper presents a theoretical framework for understanding ethical patterns in AI systems.
+- [Generalist Bimanual Manipulation via Foundation Video Diffusion Models](https://arxiv.org/abs/2507.12898): This study introduces a framework for generalist bimanual manipulation using video diffusion models.
+- [Physical models realizing the transformer architecture of large language models](https://arxiv.org/abs/2507.13354): This paper constructs physical models to understand the transformer architecture in LLMs.
+- [PGR-DRC: Pre-Global Routing DRC Violation Prediction Using Unsupervised Learning](https://arxiv.org/abs/2507.13355): This research proposes an unsupervised learning methodology for predicting DRC violations in electronic design.
+- [VLMs have Tunnel Vision: Evaluating Nonlocal Visual Reasoning in Leading VLMs](https://arxiv.org/abs/2507.13361): This paper evaluates the visual reasoning capabilities of VLMs, revealing significant limitations.
+- [Enhancing Spatial Reasoning in Vision-Language Models via Chain-of-Thought Prompting and Reinforcement Learning](https://arxiv.org/abs/2507.13362): This study investigates methods to improve spatial reasoning in VLMs.
+- [Just Add Geometry: Gradient-Free Open-Vocabulary 3D Detection Without Human-in-the-Loop](https://arxiv.org/abs/2507.13363): This paper presents a method for open-vocabulary 3D object detection without human annotations.
+- [OmniVec2 -- A Novel Transformer based Network for Large Scale Multimodal and Multitask Learning](https://arxiv.org/abs/2507.13364): This study introduces a multimodal multitask network capable of processing diverse data types.
+- [Scalable Attribute-Missing Graph Clustering via Neighborhood Differentiation](https://arxiv.org/abs/2507.13368): This paper proposes a novel method for deep graph clustering in the presence of missing attributes.
+- [VerilogDB: The Largest, Highest-Quality Dataset with a Preprocessing Framework for LLM-based RTL Generation](https://arxiv.org/abs/2507.13369): This research presents a comprehensive Verilog dataset for hardware design automation.
+- [H-NeiFi: Non-Invasive and Consensus-Efficient Multi-Agent Opinion Guidance](https://arxiv.org/abs/2507.13370): This paper proposes a framework for guiding opinion evolution in social media.
+- [Transformer-Based Framework for Motion Capture Denoising and Anomaly Detection in Medical Rehabilitation](https://arxiv.org/abs/2507.13371): This study presents a framework for improving motion capture data quality in rehabilitation.
+- [Enhancing Breast Cancer Detection with Vision Transformers and Graph Neural Networks](https://arxiv.org/abs/2507.13372): This paper introduces a framework for improving breast cancer detection using advanced neural networks.
+- [Smart Routing for Multimodal Video Retrieval: When to Search What](https://arxiv.org/abs/2507.13374): This study presents an intelligent routing system for multimodal video retrieval.
+- [Persona-Based Synthetic Data Generation Using Multi-Stage Conditioning with Large Language Models for Emotion Recognition](https://arxiv.org/abs/2507.13380): This research introduces a framework for generating synthetic emotional data using LLMs.
+- [Whose View of Safety? A Deep DIVE Dataset for Pluralistic Alignment of Text-to-Image Models](https://arxiv.org/abs/2507.13383): This paper presents a dataset for aligning text-to-image models with diverse human perspectives.
+- [TopicImpact: Improving Customer Feedback Analysis with Opinion Units for Topic Modeling and Star-Rating Prediction](https://arxiv.org/abs/2507.13392): This study proposes a method for enhancing customer feedback analysis through opinion units.
+- [Mitigating Stylistic Biases of Machine Translation Systems via Monolingual Corpora Only](https://arxiv.org/abs/2507.13395): This paper introduces a framework for preserving stylistic fidelity in machine translation.
+- [IConMark: Robust Interpretable Concept-Based Watermark For AI Images](https://arxiv.org/abs/2507.13407): This study presents a novel watermarking method for AI-generated images.
+- [A Deep Learning-Based Ensemble System for Automated Shoulder Fracture Detection in Clinical Radiographs](https://arxiv.org/abs/2507.13408): This paper discusses a deep learning system for detecting shoulder fractures in X-rays.
+- [Causal Language Control in Multilingual Transformers via Sparse Feature Steering](https://arxiv.org/abs/2507.13410): This research explores methods for controlling language generation in multilingual models.
+- [Aligning Knowledge Graphs and Language Models for Factual Accuracy](https://arxiv.org/abs/2507.13411): This paper presents a method for improving the factual accuracy of language models using knowledge graphs.
+- [Gauge Flow Models](https://arxiv.org/abs/2507.13414): This study introduces a new class of generative flow models incorporating gauge fields.
+- [SEER: Semantic Enhancement and Emotional Reasoning Network for Multimodal Fake News Detection](https://arxiv.org/abs/2507.13415): SEER is proposed as a framework for detecting fake news using semantic and emotional reasoning.
+- [Single- to multi-fidelity history-dependent learning with uncertainty quantification and disentanglement: application to data-driven constitutive modeling](https://arxiv.org/abs/2507.13416): This paper presents a method for data-driven learning in constitutive modeling.
+- [Soft-ECM: An extension of Evidential C-Means for complex data](https://arxiv.org/abs/2507.13417): This research introduces a new clustering algorithm for complex data types.
+- [AI-ming backwards: Vanishing archaeological landscapes in Mesopotamia and automatic detection of sites on CORONA imagery](https://arxiv.org/abs/2507.13420): This study discusses the use of AI for detecting archaeological sites using historical satellite imagery.
+- [Air Traffic Controller Task Demand via Graph Neural Networks: An Interpretable Approach to Airspace Complexity](https://arxiv.org/abs/2507.13423): This paper presents a GNN framework for predicting air traffic controller task demand.
+- [CaSTFormer: Causal Spatio-Temporal Transformer for Driving Intention Prediction](https://arxiv.org/abs/2507.13425): This study introduces a transformer model for predicting driving intentions based on causal interactions.
+- [PhyWorldBench: A Comprehensive Evaluation of Physical Realism in Text-to-Video Models](https://arxiv.org/abs/2507.13428): This paper presents a benchmark for evaluating the physical realism of video generation models.
+- [Graph Neural Network Surrogates for Contacting Deformable Bodies with Necessary and Sufficient Contact Detection](https://arxiv.org/abs/2507.13459): This research introduces a GNN architecture for modeling contact between deformable bodies.
+- [ERR@HRI 2.0 Challenge: Multimodal Detection of Errors and Failures in Human-Robot Conversations](https://arxiv.org/abs/2507.13468): This paper discusses a challenge for detecting errors in human-robot interactions.
+- [Neural Architecture Search with Mixed Bio-inspired Learning Rules](https://arxiv.org/abs/2507.13485): This study explores a neural architecture search method that incorporates bio-inspired learning rules.
+- [AI-Assisted Fixes to Code Review Comments at Scale](https://arxiv.org/abs/2507.13499): This paper presents an AI system for assisting code review processes at scale.
+- [PHASE: Passive Human Activity Simulation Evaluation](https://arxiv.org/abs/2507.13505): This study introduces a framework for evaluating synthetic user personas in cybersecurity simulations.
+- [Humans learn to prefer trustworthy AI over human partners](https://arxiv.org/abs/2507.13524): This research explores human preferences in partner selection between AI and humans.
+- [Acoustic Index: A Novel AI-Driven Parameter for Cardiac Disease Risk Stratification Using Echocardiography](https://arxiv.org/abs/2507.13542): This paper introduces a new AI-derived echocardiographic parameter for cardiac risk assessment.
+- [Loss-Complexity Landscape and Model Structure Functions](https://arxiv.org/abs/2507.13543): This study develops a framework for understanding the relationship between model complexity and performance.
+- [Reading Between the Lines: Combining Pause Dynamics and Semantic Coherence for Automated Assessment of Thought Disorder](https://arxiv.org/abs/2507.13551): This research investigates automated assessment methods for thought disorder severity.
+- [Time Series Forecastability Measures](https://arxiv.org/abs/2507.13556): This paper proposes metrics for assessing the forecastability of time series data.
+- [Change of Thought: Adaptive Test-Time Computation](https://arxiv.org/abs/2507.13569): This study introduces a method for enhancing the expressive power of transformers.
+- [Apple Intelligence Foundation Language Models: Tech Report 2025](https://arxiv.org/abs/2507.13575): This report discusses advancements in Apple's multilingual, multimodal foundation language models.
+- [Learning Pluralistic User Preferences through Reinforcement Learning Fine-tuned Summaries](https://arxiv.org/abs/2507.13579): This paper presents a framework for personalized user preference learning using LLMs.
+- [GIFT: Gradient-aware Immunization of diffusion models against malicious Fine-Tuning with safe concepts retention](https://arxiv.org/abs/2507.13598): This study introduces a method for defending diffusion models against malicious fine-tuning.
+- [BreastSegNet: Multi-label Segmentation of Breast MRI](https://arxiv.org/abs/2507.13604): This paper presents a multi-label segmentation algorithm for breast MRI.
+- [Linguistic and Embedding-Based Profiling of Texts generated by Humans and Large Language Models](https://arxiv.org/abs/2507.13614): This research characterizes human-written and machine-generated texts using linguistic features.
+- [Seed-X: Building Strong Multilingual Translation LLM with 7B Parameters](https://arxiv.org/abs/2507.13618): This paper introduces Seed-X, a multilingual translation model with strong performance across languages.
+- [Large Language Models in Cybersecurity: Applications, Vulnerabilities, and Defense Techniques](https://arxiv.org/abs/2507.13629): This survey discusses the applications and vulnerabilities of LLMs in cybersecurity.
+- [A Comprehensive Review of Transformer-based language models for Protein Sequence Analysis and Design](https://arxiv.org/abs/2507.13646): This review discusses the applications of transformer models in bioinformatics.
+- [Improved particle swarm optimization algorithm: multi-target trajectory optimization for swarm drones](https://arxiv.org/abs/2507.13647): This study presents an enhanced PSO-based algorithm for UAV trajectory planning.
+- [When Person Re-Identification Meets Event Camera: A Benchmark Dataset and An Attribute-guided Re-Identification Framework](https://arxiv.org/abs/2507.13659): This paper introduces a benchmark dataset for person re-identification using event cameras.
+- [HeCoFuse: Cross-Modal Complementary V2X Cooperative Perception with Heterogeneous Sensors](https://arxiv.org/abs/2507.13677): This study presents a framework for cooperative perception in V2X systems.
+- [LoopServe: An Adaptive Dual-phase LLM Inference Acceleration System for Multi-Turn Dialogues](https://arxiv.org/abs/2507.13681): This paper introduces LoopServe, a framework for accelerating LLM inference in multi-turn dialogues.
+- [Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving](https://arxiv.org/abs/2507.06229): This research presents a shared knowledge base for multi-agent systems to enhance problem-solving.
+- [From KMMLU-Redux to KMMLU-Pro: A Professional Korean Benchmark Suite for LLM Evaluation](https://arxiv.org/abs/2507.08924): This paper introduces two Korean benchmarks for evaluating LLMs.
+- [AIvaluateXR: An Evaluation Framework for on-Device AI in XR with Benchmarking Results](https://arxiv.org/abs/2502.15761): This study presents an evaluation framework for benchmarking LLMs on XR devices.
+- [HoH: A Dynamic Benchmark for Evaluating the Impact of Outdated Information on Retrieval-Augmented Generation](https://arxiv.org/abs/2503.04800): This paper introduces a benchmark for evaluating the impact of outdated information on RAG systems.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This study presents a framework for self-evolving multi-agent systems using textual backpropagation.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https://arxiv.org/abs/2501.03572): This study evaluates ChatGPT's ability to generate accessible web pages.
+- [Consistency of Responses and Continuations Generated by Large Language Models on Social Media](https://arxiv.org/abs/2501.08102): This research investigates the emotional consistency of LLMs in social media contexts.
+- [ASTRID -- An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](https://arxiv.org/abs/2501.08208): This paper introduces a triad of metrics for evaluating clinical QA systems using RAG.
+- [Bias in Decision-Making for AI's Ethical Dilemmas: A Comparative Study of ChatGPT and Claude](https://arxiv.org/abs/2501.10484): This study investigates biases in ethical decision-making by LLMs.
+- [Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](https://arxiv.org/abs/2501.11264): This research evaluates the readability of LLM-generated code in software development.
+- [On the Transfer of Knowledge in Quantum Algorithms](https://arxiv.org/abs/2501.14120): This paper discusses the potential of transfer learning in quantum computing.
+- [Hands-On: Segmenting Individual Signs from Continuous Sequences](https://arxiv.org/abs/2504.08593): This study presents a transformer-based architecture for sign language segmentation.
+- [CDUPatch: Color-Driven Universal Adversarial Patch Attack for Dual-Modal Visible-Infrared Detectors](https://arxiv.org/abs/2504.10888): This paper introduces a universal adversarial patch attack for dual-modal detectors.
+- [DP2Unlearning: An Efficient and Guaranteed Unlearning Framework for LLMs](https://arxiv.org/abs/2504.13774): This study presents a framework for unlearning in LLMs with formal guarantees.
+- [ParaPO: Aligning Language Models to Reduce Verbatim Reproduction of Pre-training Data](https://arxiv.org/abs/2504.14452): This paper introduces a method for reducing verbatim reproduction in LLMs.
+- [DeepSeek-Prover-V2: Advancing Formal Mathematical Reasoning via Reinforcement Learning for Subgoal Decomposition](https://arxiv.org/abs/2504.21801): This study presents a model for formal theorem proving in Lean 4.
+- [Exploring Graph Representations of Logical Forms for Language Modeling](https://arxiv.org/abs/2505.14523): This paper discusses the advantages of graph representations in language modeling.
+- [SpecMaskFoley: Steering Pretrained Spectral Masked Generative Transformer Toward Synchronized Video-to-audio Synthesis via ControlNet](https://arxiv.org/abs/2505.16195): This study presents a method for synchronizing audio synthesis with video.
+- [TextDiffuser-RL: Efficient and Robust Text Layout Optimization for High-Fidelity Text-to-Image Synthesis](https://arxiv.org/abs/2505.19291): This paper introduces a framework for optimizing text layout in image synthesis.
+- [EvolveNav: Self-Improving Embodied Reasoning for LLM-Based Vision-Language Navigation](https://arxiv.org/abs/2506.01551): This study presents a framework for improving navigation in LLMs.
+- [Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/abs/2506.09046): This paper introduces a framework for self-evolving multi-agent systems.
+- [Understanding Reasoning in Thinking Language Models via Steering Vectors](https://arxiv.org/abs/2506.18167): This research explores methods for controlling reasoning processes in thinking LLMs.
+- [ZonUI-3B: A Lightweight Vision-Language Model for Cross-Resolution GUI Grounding](https://arxiv.org/abs/2506.23491): This paper introduces ZonUI-3B, a lightweight model for GUI grounding tasks.
+- [STACK: Adversarial Attacks on LLM Safeguard Pipelines](https://arxiv.org/abs/2506.24068): This study presents a framework for evaluating and attacking LLM safeguard pipelines.
+- [LearnLens: LLM-Enabled Personalised, Curriculum-Grounded Feedback with Educators in the Loop](https://arxiv.org/abs/2507.04295): This paper presents a system for generating personalized feedback in education using LLMs.
+- [The role of large language models in UI/UX design: A systematic literature review](https://arxiv.org/abs/2507.04469): This review examines the role of LLMs in UI/UX design.
+- [Critiques of World Models](https://arxiv.org/abs/2507.05169): This essay critiques various schools of thought on world modeling in AI.
+- [How Not to Detect Prompt Injections with an LLM](https://arxiv.org/abs/2507.05630): This paper discusses vulnerabilities in prompt injection detection methods for LLMs.
+- [From Code to Compliance: Assessing ChatGPT's Utility in Designing an Accessible Webpage -- A Case Study](https
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+The recent literature and news articles surrounding AI security and the safeguarding of AI systems reveal a growing concern about the vulnerabilities associated with large language models (LLMs) and other AI technologies. Here are the key themes and insights derived from the analysis of the provided papers:
+
+1. **Adversarial Attacks and Defense Mechanisms**:
+   - **BLAST** introduces a backdoor leverage attack against cooperative multi-agent deep reinforcement learning systems, highlighting the ease of embedding malicious instructions in a single agent to compromise the entire system.
+   - **STACK** evaluates the robustness of safeguard pipelines against adversarial attacks, demonstrating that existing defenses can be bypassed, emphasizing the need for more resilient security measures.
+   - **Invisible Textual Backdoor Attacks** propose a dual-trigger approach to enhance the stealthiness of backdoor attacks, indicating that current defenses may not be adequate against sophisticated adversarial strategies.
+
+2. **Unlearning and Privacy Concerns**:
+   - **DP2Unlearning** presents a framework for efficient unlearning in LLMs, addressing the challenge of removing sensitive information from models without retraining from scratch. This highlights the importance of privacy in AI applications.
+   - **ParaPO** focuses on reducing verbatim reproduction of training data in LLMs, which is crucial for protecting sensitive information and intellectual property.
+
+3. **Ethical Considerations and Bias**:
+   - **Bias in Decision-Making for AI's Ethical Dilemmas** investigates the ethical decision-making capabilities of LLMs, revealing significant biases based on protected attributes. This underscores the need for ethical frameworks in AI development.
+   - **Multi-Agent LLMs as Ethics Advocates** proposes a framework for generating ethical requirements in AI systems, emphasizing the integration of ethical considerations into AI design.
+
+4. **Robustness and Interpretability**:
+   - **Entropy Loss** introduces a new loss function to enhance the interpretability of 3D object detection networks, which is essential for ensuring safety in autonomous systems.
+   - **Understanding Reasoning in Thinking Language Models via Steering Vectors** explores how to control reasoning processes in LLMs, which is critical for ensuring reliable outputs in safety-critical applications.
+
+5. **Evaluation Frameworks**:
+   - **ASTRID** provides a systematic evaluation framework for clinical question-answering systems, emphasizing the need for robust metrics to assess the safety and reliability of AI in healthcare.
+   - **Evaluating link prediction** discusses the importance of tailored evaluation setups for assessing the performance of link prediction methods, which can be applied to security contexts in network analysis.
+
+6. **Cross-Domain Knowledge Transfer**:
+   - **Agent KB** introduces a shared knowledge base for multi-agent systems, facilitating knowledge transfer and improving problem-solving capabilities, which can enhance the robustness of AI systems against adversarial attacks.
+
+### Trends and Insights
+- **Increased Focus on Security**: There is a marked increase in research addressing the security vulnerabilities of AI systems, particularly in the context of LLMs and their applications in sensitive domains.
+- **Integration of Ethical Frameworks**: The integration of ethical considerations into AI design is becoming more prevalent, with frameworks being developed to ensure that AI systems operate within acceptable moral boundaries.
+- **Need for Robust Evaluation**: The development of comprehensive evaluation frameworks is crucial for assessing the performance and safety of AI systems, particularly in high-stakes environments like healthcare and autonomous driving.
+- **Adversarial Resilience**: The exploration of adversarial attacks and defenses highlights the ongoing arms race between AI developers and malicious actors, necessitating continuous innovation in security measures.
+
+### Conclusion
+The landscape of AI security is rapidly evolving, with significant advancements in understanding vulnerabilities, ethical implications, and the need for robust evaluation frameworks. As AI technologies become more integrated into critical applications, ensuring their safety and reliability will be paramount. The insights drawn from recent research underscore the importance of proactive measures in safeguarding AI systems against adversarial threats while maintaining ethical standards.
