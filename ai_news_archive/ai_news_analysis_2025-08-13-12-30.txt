@@ -1,0 +1,380 @@
+AI Researcher Agent Report for 2025-08-13-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Topos Theory for Generative AI and LLMs](https://arxiv.org/abs/2508.08293): This paper proposes novel categorical generative AI architectures using topos theory, exploring new LLM architectures that exploit the properties of LLM categories.
+- [Topos Causal Models](https://arxiv.org/abs/2508.08295): Introduces topos causal models (TCMs) that utilize topos category properties for causal inference, enabling complex causal diagrams to be solved and modeled.
+- [An Efficient Application of Goal Programming to Tackle Multiobjective Problems with Recurring Fitness Landscapes](https://arxiv.org/abs/2508.08297): Proposes a methodology combining multiobjective algorithms with goal programming to efficiently solve recurring fitness landscape problems.
+- [LLM-BI: Towards Fully Automated Bayesian Inference with Large Language Models](https://arxiv.org/abs/2508.08300): Investigates using LLMs to automate Bayesian inference processes, demonstrating the potential for automating key steps in Bayesian modeling.
+- [First Ask Then Answer: A Framework Design for AI Dialogue Based on Supplementary Questioning with Large Language Models](https://arxiv.org/abs/2508.08308): Proposes a new interaction paradigm for LLMs to generate supplementary questions before providing answers, improving response quality.
+- [What Breaks Knowledge Graph based RAG? Empirical Insights into Reasoning under Incomplete Knowledge](https://arxiv.org/abs/2508.08344): Analyzes the limitations of KG-RAG methods in reasoning under incomplete knowledge and proposes a new evaluation method.
+- [UrzaGPT: LoRA-Tuned Large Language Models for Card Selection in Collectible Card Games](https://arxiv.org/abs/2508.08382): Introduces UrzaGPT, a domain-adapted LLM for card selection in collectible card games, showing improved performance over existing models.
+- [Bilevel MCTS for Amortized O(1) Node Selection in Classical Planning](https://arxiv.org/abs/2508.08385): Proposes a bilevel MCTS approach to improve node selection efficiency in classical planning.
+- [Solver-Aided Expansion of Loops to Avoid Generate-and-Test](https://arxiv.org/abs/2508.08442): Presents a method to optimize loop unrolling in constraint modeling languages using solver assistance.
+- [OverFill: Two-Stage Models for Efficient Language Model Decoding](https://arxiv.org/abs/2508.08446): Introduces OverFill, a two-stage model for optimizing language model decoding efficiency.
+- [A Fast GRASP Metaheuristic for the Trigger Arc TSP with MIP-Based Construction and Multi-Neighborhood Local Search](https://arxiv.org/abs/2508.08477): Proposes a GRASP-based metaheuristic for solving the Trigger Arc Traveling Salesman Problem.
+- [Beyond Ordinal Preferences: Why Alignment Needs Cardinal Human Feedback](https://arxiv.org/abs/2508.08486): Argues for the necessity of cardinal feedback in aligning LLMs, presenting a dataset of cardinal judgments.
+- [POMO+: Leveraging starting nodes in POMO for solving Capacitated Vehicle Routing Problem](https://arxiv.org/abs/2508.08493): Introduces POMO+, an improved method for solving the Capacitated Vehicle Routing Problem.
+- [Large Language Models as Oracles for Ontology Alignment](https://arxiv.org/abs/2508.08500): Explores the use of LLMs for ontology alignment, assessing their performance against human experts.
+- [GVGAI-LLM: Evaluating Large Language Model Agents with Infinite Games](https://arxiv.org/abs/2508.08501): Introduces GVGAI-LLM, a benchmark for evaluating LLMs in video game scenarios, revealing limitations in spatial reasoning.
+- [SynLLM: A Comparative Analysis of Large Language Models for Medical Tabular Synthetic Data Generation via Prompt Engineering](https://arxiv.org/abs/2508.08529): Proposes SynLLM, a framework for generating synthetic medical tabular data using LLMs.
+- [UGM2N: An Unsupervised and Generalizable Mesh Movement Network via M-Uniform Loss](https://arxiv.org/abs/2508.08615): Introduces UGM2N, a network for mesh movement in simulations, demonstrating generalization across diverse PDEs.
+- [AgriGPT: a Large Language Model Ecosystem for Agriculture](https://arxiv.org/abs/2508.08632): Proposes AgriGPT, a domain-specialized LLM ecosystem for agriculture, enhancing factual grounding and evaluation.
+- [Diminution: On Reducing the Size of Grounding ASP Programs](https://arxiv.org/abs/2508.08633): Introduces a method for reducing the size of grounding ASP programs using a concept called diminution.
+- [P-CAFE: Personalized Cost-Aware Incremental Feature Selection For Electronic Health Records](https://arxiv.org/abs/2508.08646): Proposes a framework for personalized feature selection in EHR datasets, focusing on cost and patient-specific variations.
+- [Prompt-and-Check: Using Large Language Models to Evaluate Communication Protocol Compliance in Simulation-Based Training](https://arxiv.org/abs/2508.08652): Introduces a method for evaluating communication compliance using LLMs in simulation training.
+- [Hybrid Node-Destroyer Model with Large Neighborhood Search for Solving the Capacitated Vehicle Routing Problem](https://arxiv.org/abs/2508.08659): Proposes a hybrid optimization solver for the Capacitated Vehicle Routing Problem.
+- [Aryabhata: An exam-focused language model for JEE Math](https://arxiv.org/abs/2508.08665): Introduces Aryabhata, a math reasoning model optimized for the Indian JEE exam.
+- [STELAR-VISION: Self-Topology-Aware Efficient Learning for Aligned Reasoning in Vision](https://arxiv.org/abs/2508.08688): Proposes STELAR-Vision, a training framework for topology-aware reasoning in vision-language models.
+- [Simulating Generative Social Agents via Theory-Informed Workflow Design](https://arxiv.org/abs/2508.08726): Introduces a framework for designing generative social agents based on social cognition theory.
+- [Designing Memory-Augmented AR Agents for Spatiotemporal Reasoning in Personalized Task Assistance](https://arxiv.org/abs/2508.08774): Proposes a framework for memory-augmented AR agents that learn from user experiences.
+- [A Dual-Axis Taxonomy of Knowledge Editing for LLMs: From Mechanisms to Functions](https://arxiv.org/abs/2508.08795): Introduces a taxonomy for knowledge editing in LLMs, examining mechanisms and functions.
+- [GRainsaCK: a Comprehensive Software Library for Benchmarking Explanations of Link Prediction Tasks on Knowledge Graphs](https://arxiv.org/abs/2508.08815): Proposes GRainsaCK, a software resource for benchmarking explanations in link prediction tasks.
+- [Efficient Agent: Optimizing Planning Capability for Multimodal Retrieval Augmented Generation](https://arxiv.org/abs/2508.08816): Introduces E-Agent, an agent framework for optimizing multimodal retrieval-augmented generation.
+- [Silicon Minds versus Human Hearts: The Wisdom of Crowds Beats the Wisdom of AI in Emotion Recognition](https://arxiv.org/abs/2508.08830): Compares emotion recognition abilities of MLLMs and humans, highlighting the wisdom of crowds.
+- [Reducing Cognitive Load in Multi-Agent Reinforcement Learning for Mathematical Problem Solving: Decoupling Reasoning and Code Generation](https://arxiv.org/abs/2508.08882): Proposes a dual-agent framework for reducing cognitive load in mathematical reasoning tasks.
+- [Compass-Thinker-7B Technical Report](https://arxiv.org/abs/2508.08909): Reports on the Compass-Thinker-7B model, exploring its potential for reasoning tasks.
+- [Safe Semantics, Unsafe Interpretations: Tackling Implicit Reasoning Safety in Large Vision-Language Models](https://arxiv.org/abs/2508.08926): Introduces the concept of implicit reasoning safety in LVLMs and proposes a dataset for evaluation.
+- [Prospect Theory Fails for LLMs: Revealing Instability of Decision-Making under Epistemic Uncertainty](https://arxiv.org/abs/2508.08992): Investigates the applicability of Prospect Theory to LLM decision-making under uncertainty.
+- [Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory](https://arxiv.org/abs/2508.08997): Proposes a framework for multi-agent LLM systems that addresses memory limitations.
+- [Activation Steering for Bias Mitigation: An Interpretable Approach to Safer LLMs](https://arxiv.org/abs/2508.09019): Introduces a method for mitigating bias in LLMs through activation steering.
+- [A First Look at Predictability and Explainability of Pre-request Passenger Waiting Time in Ridesharing Systems](https://arxiv.org/abs/2508.09027): Investigates the predictability and explainability of passenger waiting time in ridesharing.
+- [CVCM Track Circuits Pre-emptive Failure Diagnostics for Predictive Maintenance Using Deep Neural Networks](https://arxiv.org/abs/2508.09054): Proposes a predictive maintenance framework for track circuits using deep neural networks.
+- [SMA: Who Said That? Auditing Membership Leakage in Semi-Black-box RAG Controlling](https://arxiv.org/abs/2508.09105): Introduces a source-aware membership audit method for RAG systems.
+- [OpenCUA: Open Foundations for Computer-Use Agents](https://arxiv.org/abs/2508.09123): Proposes an open-source framework for computer-use agents.
+- [BrowseMaster: Towards Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair](https://arxiv.org/abs/2508.09129): Introduces BrowseMaster, a scalable framework for web browsing using programmatic agents.
+- [A New Parallel Cooperative Landscape Smoothing Algorithm and Its Applications on TSP and UBQP](https://arxiv.org/abs/2401.03237): Proposes a new algorithm for smoothing the solution space of combinatorial optimization problems.
+- [On the Effects of Smoothing Rugged Landscape by Different Toy Problems: A Case Study on UBQP](https://arxiv.org/abs/2407.19676): Investigates the impact of smoothing rugged landscapes in optimization problems.
+- [TurQUaz at CheckThat! 2025: Debating Large Language Models for Scientific Web Discourse Detection](https://arxiv.org/abs/2508.08265): Presents a method for detecting scientific claims using debating LLMs.
+- [Benchmarking Large Language Models for Geolocating Colonial Virginia Land Grants](https://arxiv.org/abs/2508.08266): Evaluates LLMs in converting historical land patents into geographic coordinates.
+- [emg2tendon: From sEMG Signals to Tendon Control in Musculoskeletal Hands](https://arxiv.org/abs/2508.08269): Introduces a dataset for EMG-to-tendon control in robotic hands.
+- [Doctor Sun: A Bilingual Multimodal Large Language Model for Biomedical AI](https://arxiv.org/abs/2508.08270): Proposes a bilingual multimodal model for biomedical applications.
+- [Distilling Knowledge from Large Language Models: A Concept Bottleneck Model for Hate and Counter Speech Recognition](https://arxiv.org/abs/2508.08274): Introduces a transparent method for hate speech recognition using a concept bottleneck model.
+- [MLLM-CBench:A Comprehensive Benchmark for Continual Instruction Tuning of Multimodal LLMs with Chain-of-Thought Reasoning Analysis](https://arxiv.org/abs/2508.08275): Proposes a benchmark for evaluating continual instruction tuning in multimodal LLMs.
+- [Evaluating Contrast Localizer for Identifying Causal Units in Social & Mathematical Tasks in Language Models](https://arxiv.org/abs/2508.08276): Adapts a neuroscientific method to identify causal units in LLMs.
+- [Towards Heterogeneity-Aware and Energy-Efficient Topology Optimization for Decentralized Federated Learning in Edge Environment](https://arxiv.org/abs/2508.08278): Proposes a decentralized federated learning framework for energy efficiency.
+- [XFMNet: Decoding Cross-Site and Nonstationary Water Patterns via Stepwise Multimodal Fusion for Long-Term Water Quality Forecasting](https://arxiv.org/abs/2508.08279): Introduces a multimodal fusion network for water quality forecasting.
+- [MoSSDA: A Semi-Supervised Domain Adaptation Framework for Multivariate Time-Series Classification using Momentum Encoder](https://arxiv.org/abs/2508.08280): Proposes a semi-supervised domain adaptation framework for time-series classification.
+- [Multi-grained spatial-temporal feature complementarity for accurate online cellular traffic prediction](https://arxiv.org/abs/2508.08281): Introduces a method for online cellular traffic prediction using multi-grained features.
+- [MinionsLLM: a Task-adaptive Framework For The Training and Control of Multi-Agent Systems Through Natural Language](https://arxiv.org/abs/2508.08283): Proposes a framework for controlling multi-agent systems using natural language.
+- [The Illusion of Progress: Re-evaluating Hallucination Detection in LLMs](https://arxiv.org/abs/2508.08285): Critiques current hallucination detection methods for LLMs.
+- [Sacred or Synthetic? Evaluating LLM Reliability and Abstention for Religious Questions](https://arxiv.org/abs/2508.08287): Evaluates LLM performance in generating Islamic rulings.
+- [Understanding Transformers through the Lens of Pavlovian Conditioning](https://arxiv.org/abs/2508.08289): Proposes a theoretical framework for understanding transformers based on Pavlovian conditioning.
+- [Putnam-AXIOM: A Functional and Static Benchmark](https://arxiv.org/abs/2508.08292): Introduces a benchmark for assessing advanced mathematical reasoning in LLMs.
+- [Channel-Wise MLPs Improve the Generalization of Recurrent Convolutional Networks](https://arxiv.org/abs/2508.08298): Investigates the impact of channel-wise mixing on recurrent convolutional networks.
+- [Constrained PSLQ Search for Machin-like Identities Achieving Record-Low Lehmer Measures](https://arxiv.org/abs/2508.08307): Proposes a method for discovering low-measure Machin-like identities.
+- [Assessing the Quality of AI-Generated Exams: A Large-Scale Field Study](https://arxiv.org/abs/2508.08314): Evaluates the quality of AI-generated exam questions in educational settings.
+- [EU Digital Regulation and Guatemala: AI, 5G, and Cybersecurity](https://arxiv.org/abs/2508.08315): Examines the impact of EU digital regulations on Guatemala's AI and cybersecurity landscape.
+- [Evaluation of State-of-the-Art Deep Learning Techniques for Plant Disease and Pest Detection](https://arxiv.org/abs/2508.08317): Reviews modern techniques for detecting plant diseases and pests using AI.
+- [Between Fear and Desire, the Monster Artificial Intelligence (AI): Analysis through the Lenses of Monster Theory](https://arxiv.org/abs/2508.08318): Analyzes the conflicting representations of AI through monster theory.
+- [Context Engineering for Multi-Agent LLM Code Assistants Using Elicit, NotebookLM, ChatGPT, and Claude Code](https://arxiv.org/abs/2508.08322): Proposes a context engineering workflow for multi-agent code assistants.
+- [Algorithmic Collusion of Pricing and Advertising on E-commerce Platforms](https://arxiv.org/abs/2508.08325): Investigates the potential for collusion among AI pricing and advertising algorithms.
+- [Energy-Aware Code Generation with LLMs: Benchmarking Small vs. Large Language Models for Sustainable AI Programming](https://arxiv.org/abs/2508.08332): Evaluates the energy efficiency of small vs. large language models in code generation.
+- [Normative Moral Pluralism for AI: A Framework for Deliberation in Complex Moral Contexts](https://arxiv.org/abs/2508.08333): Proposes a deliberative moral reasoning system for AI.
+- [HSA-Net: Hierarchical and Structure-Aware Framework for Efficient and Scalable Molecular Language Modeling](https://arxiv.org/abs/2508.08334): Introduces a framework for molecular language modeling.
+- [Algorithmic Fairness amid Social Determinants: Reflection, Characterization, and Approach](https://arxiv.org/abs/2508.08337): Explores the role of social determinants in algorithmic fairness.
+- [ImageDDI: Image-enhanced Molecular Motif Sequence Representation for Drug-Drug Interaction Prediction](https://arxiv.org/abs/2508.08338): Proposes a framework for predicting drug-drug interactions using image-enhanced representations.
+- [Maximizing GPU Efficiency via Optimal Adapter Caching: An Analytical Approach for Multi-Tenant LLM Serving](https://arxiv.org/abs/2508.08343): Introduces an analytical approach for optimizing adapter caching in LLM serving.
+- [Do AI Companies Make Good on Voluntary Commitments to the White House?](https://arxiv.org/abs/2508.08345): Evaluates AI companies' adherence to voluntary commitments made to the White House.
+- [Fuzzy-Pattern Tsetlin Machine](https://arxiv.org/abs/2508.08350): Introduces a fuzzy-pattern Tsetlin machine for improved pattern matching.
+- [Processing of synthetic data in AI development for healthcare and the definition of personal data in EU law](https://arxiv.org/abs/2508.08353): Explores the implications of synthetic data in healthcare under EU law.
+- [The DNA of nuclear models: How AI predicts nuclear masses](https://arxiv.org/abs/2508.08370): Investigates the use of AI in predicting nuclear masses.
+- [Spatiotemporally Consistent Indoor Lighting Estimation with Diffusion Priors](https://arxiv.org/abs/2508.08384): Proposes a method for estimating indoor lighting using diffusion priors.
+- [Generative AI for Critical Infrastructure in Smart Grids: A Unified Framework for Synthetic Data Generation and Anomaly Detection](https://arxiv.org/abs/2508.08593): Proposes a framework for anomaly detection in smart grids using generative AI.
+- [Return Prediction for Mean-Variance Portfolio Selection: How Decision-Focused Learning Shapes Forecasting Models](https://arxiv.org/abs/2409.09684): Investigates the impact of decision-focused learning on portfolio selection.
+- [3DFacePolicy: Audio-Driven 3D Facial Animation Based on Action Control](https://arxiv.org/abs/2409.10848): Introduces a framework for audio-driven 3D facial animation.
+- [Zero-Shot Generalization of Vision-Based RL Without Data Augmentation](https://arxiv.org/abs/2410.07441): Proposes a model for zero-shot generalization in vision-based reinforcement learning.
+- [Dynamic Spectrum Access for Ambient Backscatter Communication-assisted D2D Systems with Quantum Reinforcement Learning](https://arxiv.org/abs/2410.17971): Introduces a quantum reinforcement learning approach for dynamic spectrum access in D2D systems.
+- [Learning Marmoset Vocal Patterns with a Masked Autoencoder for Robust Call Segmentation, Classification, and Caller Identification](https://arxiv.org/abs/2410.23279): Proposes a method for learning marmoset vocal patterns using a masked autoencoder.
+- [A Risk Taxonomy and Reflection Tool for Large Language Model Adoption in Public Health](https://arxiv.org/abs/2411.02594): Proposes a risk taxonomy for LLM adoption in public health.
+- [Adaptive Informed Deep Neural Networks for Power Flow Analysis](https://arxiv.org/abs/2412.02659): Introduces a deep learning architecture for power flow analysis.
+- [Chemist-aligned retrosynthesis by ensembling diverse inductive bias models](https://arxiv.org/abs/2412.05269): Proposes a retrosynthesis model using diverse inductive bias models.
+- [Federated Learning: A Survey on Privacy-Preserving Collaborative Intelligence](https://arxiv.org/abs/2504.17703): Surveys federated learning and its privacy-preserving aspects.
+- [Mj\"olnir: A Deep Learning Parametrization Framework for Global Lightning Flash Density](https://arxiv.org/abs/2412.19822): Introduces a deep learning framework for global lightning flash density parameterization.
+- [OSMa-Bench: Evaluating Open Semantic Mapping Under Varying Lighting Conditions](https://arxiv.org/abs/2503.10331): Proposes a benchmark for evaluating open semantic mapping algorithms under varying lighting conditions.
+- [Opioid Named Entity Recognition (ONER-2025) from Reddit](https://arxiv.org/abs/2504.00027): Introduces a dataset for opioid named entity recognition from Reddit.
+- [CrossWordBench: Evaluating the Reasoning Capabilities of LLMs and LVLMs with Controllable Puzzle Generation](https://arxiv.org/abs/2504.00043): Proposes a benchmark for evaluating reasoning capabilities of LLMs and LVLMs through crossword puzzles.
+- [AI-induced sexual harassment: Investigating Contextual Characteristics and User Reactions of Sexual Harassment by a Companion Chatbot](https://arxiv.org/abs/2504.04299): Investigates user experiences of sexual harassment by AI chatbots.
+- [Adaptive Computation Pruning for the Forgetting Transformer](https://arxiv.org/abs/2504.06949): Introduces a pruning method for the Forgetting Transformer to improve knowledge retention.
+- [ChatBench: From Static Benchmarks to Human-AI Evaluation](https://arxiv.org/abs/2504.07114): Proposes a new dataset for evaluating human-AI interactions in chatbots.
+- [ProtoECGNet: Case-Based Interpretable Deep Learning for Multi-Label ECG Classification with Contrastive Learning](https://arxiv.org/abs/2504.08713): Introduces a prototype-based model for ECG classification.
+- [Evaluating Trust in AI, Human, and Co-produced Feedback Among Undergraduate Students](https://arxiv.org/abs/2504.10961): Evaluates student trust in AI-generated feedback compared to human feedback.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent LLMs.
+- [Omni-Effects: Unified and Spatially-Controllable Visual Effects Generation](https://arxiv.org/abs/2508.07981): Introduces a framework for generating spatially controllable visual effects.
+- [DIVER: A Multi-Stage Approach for Reasoning-intensive Information Retrieval](https://arxiv.org/abs/2508.07995): Proposes a retrieval pipeline for reasoning-intensive tasks.
+- [Cut2Next: Generating Next Shot via In-Context Tuning](https://tldr.takara.ai/p/2508.08244): Introduces a framework for generating cinematic shots using in-context tuning.
+- [Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments](https://tldr.takara.ai/p/2508.08791): Proposes a framework for enhancing tool use in LLMs.
+- [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971): Proposes an operating system for managing LLM-based agents.
+- [Dynamic Uncertainty-aware Multimodal Fusion for Outdoor Health Monitoring](https://arxiv.org/abs/2508.09085): Introduces a framework for outdoor health monitoring using multimodal fusion.
+- [SPARC: Soft Probabilistic Adaptive multi-interest Retrieval Model via Codebooks for recommender system](https://arxiv.org/abs/2508.09090): Proposes a retrieval model for multi-interest recommendation systems.
+- [Echo: Decoupling Inference and Training for Large-Scale RL Alignment on Heterogeneous Swarms](https://arxiv.org/abs/2508.05387): Introduces a framework for decoupling inference and training in RL systems.
+- [RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory](https://arxiv.org/abs/2508.04903): Proposes a context routing framework for multi-agent LLM systems.
+- [Situated Epistemic Infrastructures: A Diagnostic Framework for Post-Coherence Knowledge](https://arxiv.org/abs/2508.04995): Introduces a framework for analyzing knowledge authority in hybrid human-machine systems.
+- [DynaSwarm: Dynamically Graph Structure Selection for LLM-based Multi-agent System](https://arxiv.org/abs/2507.23261): Proposes a dynamic graph structure selection framework for multi-agent LLM systems.
+- [Role-Aware Language Models for Secure and Contextualized Access Control in Organizations](https://arxiv.org/abs/2507.23465): Investigates role-aware language models for access control in organizations.
+- [Explaining Time Series Classifiers with PHAR: Rule Extraction and Fusion from Post-hoc Attributions](https://arxiv.org/abs/2508.01687): Introduces a framework for extracting and interpreting rules from time series classifiers.
+- [A Few Words Can Distort Graphs: Knowledge Poisoning Attacks on Graph-based Retrieval-Augmented Generation of Large Language Models](https://arxiv.org/abs/2508.04276): Proposes knowledge poisoning attacks on graph-based RAG systems.
+- [GTPO and GRPO-S: Token and Sequence-Level Reward Shaping with Policy Entropy](https://arxiv.org/abs/2508.04349): Introduces methods for shaping rewards in reinforcement learning for LLMs.
+- [Position: The Current AI Conference Model is Unsustainable! Diagnosing the Crisis of Centralized AI Conference](https://arxiv.org/abs/2508.04586): Critiques the sustainability of the current AI conference model.
+- [TurboBias: Universal ASR Context-Biasing powered by GPU-accelerated Phrase-Boosting Tree](https://arxiv.org/abs/2508.07014): Proposes a context-biasing framework for ASR systems.
+- [Klear-Reasoner: Advancing Reasoning Capability via Gradient-Preserving Clipping Policy Optimization](https://arxiv.org/abs/2508.07629): Introduces a model for enhancing reasoning capabilities in LLMs.
+- [Chimera: Harnessing Multi-Agent LLMs for Automatic Insider Threat Simulation](https://arxiv.org/abs/2508.07745): Proposes a framework for simulating insider threats using multi-agent
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **AI Security Map: Holistic Organization of AI Security Technologies and Impacts on Stakeholders**
+   - This paper presents a comprehensive AI security map that organizes interrelationships among elements related to AI security, focusing on both the information system aspect and external influences. It aims to help stakeholders understand potential negative impacts and countermeasures.
+
+#### 2. **Securing Educational LLMs: A Generalised Taxonomy of Attacks on LLMs and DREAD Risk Assessment**
+   - This study introduces a taxonomy of fifty attacks on LLMs, categorizing them as attacks targeting models or their infrastructure. It employs the DREAD risk assessment framework to evaluate the severity of these attacks, highlighting critical vulnerabilities in educational settings.
+
+#### 3. **Attacks and Defenses Against LLM Fingerprinting**
+   - This research investigates the vulnerabilities of LLMs to fingerprinting attacks and proposes a methodology for optimizing query selection to enhance fingerprinting accuracy. It also introduces a semantic-preserving output filtering method to obfuscate model identity while maintaining output quality.
+
+#### 4. **AI-induced Sexual Harassment: Investigating Contextual Characteristics and User Reactions of Sexual Harassment by a Companion Chatbot**
+   - This paper analyzes user experiences of sexual harassment by AI chatbots, revealing patterns of unsolicited sexual advances and the emotional impact on users. It emphasizes the need for ethical guidelines in AI development.
+
+#### 5. **When Deepfakes Look Real: Detecting AI-Generated Faces with Unlabeled Data due to Annotation Challenges**
+   - This study presents a method for detecting deepfake faces using a novel approach that leverages the patterns of spatial overlap in predictions to improve localization accuracy, addressing the challenges of labeling in the context of deepfake detection.
+
+#### 6. **Feedback-Driven Tool-Use Improvements in Large Language Models via Automated Build Environments**
+   - This paper discusses an automated environment construction pipeline that enhances LLMs' tool-use performance through feedback-driven training, addressing the challenges of stable training environments and verifiable reward mechanisms.
+
+### Trends and Insights
+
+- **Increased Focus on Security**: There is a growing recognition of the need for robust security measures in AI systems, particularly as they become more integrated into sensitive domains such as education and healthcare.
+- **Vulnerability Awareness**: Many papers emphasize the vulnerabilities of AI systems, particularly LLMs, to various attacks, including fingerprinting, knowledge poisoning, and adversarial attacks.
+- **Ethical Considerations**: The ethical implications of AI, especially in terms of user interactions and potential harms, are a recurring theme. This includes the need for ethical guidelines and responsible AI development practices.
+- **Data Scarcity Challenges**: Several studies highlight the difficulties in obtaining labeled data for training and evaluating AI models, particularly in the context of security and detection tasks.
+- **Integration of Human Feedback**: The importance of human feedback in improving AI systems is emphasized, particularly in the context of aligning AI behavior with human expectations and ethical standards.
+
+### Conclusion
+
+The landscape of AI security is rapidly evolving, with a clear need for frameworks that address vulnerabilities, ethical considerations, and the integration of human feedback. As AI systems become more prevalent, ensuring their security and ethical deployment will be critical for maintaining trust and efficacy in various applications.
