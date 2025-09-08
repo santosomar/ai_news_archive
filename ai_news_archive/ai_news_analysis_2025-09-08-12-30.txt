@@ -1,0 +1,125 @@
+AI Researcher Agent Report for 2025-09-08-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [The Ethical Compass of the Machine: Evaluating Large Language Models for Decision Support in Construction Project Management](https://arxiv.org/abs/2509.04505): This study evaluates the ethical viability and reliability of Large Language Models (LLMs) in construction project management, revealing deficiencies in contextual nuance and accountability, and advocating for human oversight.
+- [Maestro: Joint Graph & Config Optimization for Reliable AI Agents](https://arxiv.org/abs/2509.04642): Maestro is introduced as a framework for optimizing LLM agents by jointly searching over graphs and configurations, improving performance and efficiency in various benchmarks.
+- [Towards Personalized Explanations for Health Simulations: A Mixed-Methods Framework for Stakeholder-Centric Summarization](https://arxiv.org/abs/2509.04646): This paper presents a framework to generate tailored explanations for health simulations, addressing the diverse needs of stakeholders through mixed-methods research.
+- [An Approach to Grounding AI Model Evaluations in Human-derived Criteria](https://arxiv.org/abs/2509.04676): This work proposes a novel approach to enhance AI model evaluations by integrating human-derived criteria, focusing on cognitive skills critical for AI and human reasoning.
+- [Language-Driven Hierarchical Task Structures as Explicit World Models for Multi-Agent Learning](https://arxiv.org/abs/2509.04731): This position paper discusses the need for explicit hierarchical world models in multi-agent learning, proposing the use of LLMs to dynamically generate task structures.
+- [What-If Analysis of Large Language Models: Explore the Game World Using Proactive Thinking](https://arxiv.org/abs/2509.04791): WiA-LLM is proposed to enable LLMs to perform proactive thinking through what-if analysis, enhancing their utility in dynamic scenarios.
+- [TalkToAgent: A Human-centric Explanation of Reinforcement Learning Agents with Large Language Models](https://arxiv.org/abs/2509.04809): This paper introduces a framework for providing interactive explanations for RL agents' actions, improving transparency and understanding for users.
+- [Collaboration and Conflict between Humans and Language Models through the Lens of Game Theory](https://arxiv.org/abs/2509.04847): This study investigates language model behavior in cooperative and competitive settings, revealing adaptability and cooperative strategies in multi-party interactions.
+- [Cloning a Conversational Voice AI Agent from Call Recording Datasets for Telesales](https://arxiv.org/abs/2509.04871): This paper presents a methodology for creating a conversational voice AI agent from call recordings, evaluating its performance against human agents.
+- [OSC: Cognitive Orchestration through Dynamic Knowledge Alignment in Multi-Agent LLM Collaboration](https://arxiv.org/abs/2509.04876): OSC is introduced as a framework to enhance collaboration among LLM agents through real-time cognitive gap analysis and adaptive communication strategies.
+- [SparkUI-Parser: Enhancing GUI Perception with Robust Grounding and Parsing](https://arxiv.org/abs/2509.04908): This work proposes a new framework for improving GUI perception accuracy and parsing capabilities in multimodal LLMs.
+- [Towards Ontology-Based Descriptions of Conversations with Qualitatively-Defined Concepts](https://arxiv.org/abs/2509.04926): This paper presents an ontology-based approach to improve controllability in conversational agents, focusing on proficiency-level control.
+- [Internet 3.0: Architecture for a Web-of-Agents with its Algorithm for Ranking Agents](https://arxiv.org/abs/2509.04979): This work proposes a framework for a Web of Agents, focusing on agent ranking and performance-aware algorithms.
+- [Sticker-TTS: Learn to Utilize Historical Experience with a Sticker-driven Test-Time Scaling Framework](https://arxiv.org/abs/2509.05007): Sticker-TTS is introduced as a framework for improving reasoning efficiency in large reasoning models through historical experience utilization.
+- [Finding your MUSE: Mining Unexpected Solutions Engine](https://arxiv.org/abs/2509.05072): This paper presents a methodology for generating creative inspirations using Functional Concept Graphs.
+- [ProToM: Promoting Prosocial Behaviour via Theory of Mind-Informed Feedback](https://arxiv.org/abs/2509.05091): ProToM is introduced as a system to promote prosocial behavior in multi-agent systems through context-sensitive feedback.
+- [Evaluation and Comparison Semantics for ODRL](https://arxiv.org/abs/2509.05139): This work provides a formal semantics for the Open Digital Rights Language (ODRL) and studies the comparison of computational policies.
+- [LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation](https://arxiv.org/abs/2509.05263): LatticeWorld is proposed as a framework for generating interactive 3D worlds using LLMs and visual instructions.
+- [MLP-SRGAN: A Single-Dimension Super Resolution GAN using MLP-Mixer](https://arxiv.org/abs/2303.06298): This paper presents a novel architecture for super-resolution using MLP-Mixers, demonstrating improved performance on MRI datasets.
+- [Efficient Training-Free Online Routing for High-Volume Multi-LLM Serving](https://arxiv.org/abs/2509.02718): This work introduces a training-free algorithm for online routing of LLM queries, achieving significant performance improvements.
+- [Teacher-Student Model for Detecting and Classifying Mitosis in the MIDOG 2025 Challenge](https://arxiv.org/abs/2509.03614): This paper presents a teacher-student model for mitosis detection and classification, achieving high performance on the MIDOG challenge.
+- [CoCoNUTS: Concentrating on Content while Neglecting Uninformative Textual Styles for AI-Generated Peer Review Detection](https://arxiv.org/abs/2509.04460): CoCoNUTS is introduced as a content-oriented benchmark for detecting AI-generated peer reviews.
+- [Benchmarking GPT-5 for biomedical natural language processing](https://arxiv.org/abs/2509.04462): This study evaluates GPT-5's performance on biomedical NLP tasks, demonstrating significant improvements over previous models.
+- [Multiscale Graph Neural Network for Turbulent Flow-Thermal Prediction Around a Complex-Shaped Pin-Fin](https://arxiv.org/abs/2509.04463): This work presents a Graph Neural Network for predicting turbulent flow and thermal behavior in complex geometries.
+- [Can Multiple Responses from an LLM Reveal the Sources of Its Uncertainty?](https://arxiv.org/abs/2509.04464): This study explores how patterns of disagreement among LLM responses can help diagnose sources of uncertainty.
+- [Emotionally-Aware Agents for Dispute Resolution](https://arxiv.org/abs/2509.04465): This paper investigates the role of emotional expressions in dispute resolution and the potential of AI agents to recognize and mitigate emotional escalation.
+- [Just-in-time and distributed task representations in language models](https://arxiv.org/abs/2509.04466): This work examines how task representations are formed in language models and their implications for in-context learning.
+- [Enhancing LLM Efficiency: Targeted Pruning for Prefill-Decode Disaggregation in Inference](https://arxiv.org/abs/2509.04467): This paper proposes a pruning method for LLMs that improves efficiency in inference without sacrificing performance.
+- [Evaluating Large Language Models for Financial Reasoning: A CFA-Based Benchmark Study](https://arxiv.org/abs/2509.04468): This study evaluates LLMs on financial reasoning tasks using CFA exam questions, highlighting performance differences across models.
+- [Multi-Modal Vision vs. Text-Based Parsing: Benchmarking LLM Strategies for Invoice Processing](https://arxiv.org/abs/2509.04469): This paper benchmarks multi-modal LLMs for invoice processing, comparing image processing and structured parsing approaches.
+- [COCORELI: Cooperative, Compositional Reconstitution & Execution of Language Instructions](https://arxiv.org/abs/2509.04470): COCORELI is introduced as a hybrid agent framework for following complex instructions and minimizing hallucinations.
+- [MOSAIC: A Multilingual, Taxonomy-Agnostic, and Computationally Efficient Approach for Radiological Report Classification](https://arxiv.org/abs/2509.04471): MOSAIC is proposed as a multilingual approach for classifying radiological reports, achieving high performance with minimal resources.
+- [RECAP: REwriting Conversations for Intent Understanding in Agentic Planning](https://arxiv.org/abs/2509.04472): RECAP is introduced as a benchmark for evaluating intent rewriting in conversational agents, improving planning utility.
+- [SpeechLLM: Unified Speech and Language Model for Enhanced Multi-Task Understanding in Low Resource Settings](https://arxiv.org/abs/2509.04473): This paper presents a unified model for speech and language tasks, achieving significant performance improvements with fewer parameters.
+- [Scaling Up, Speeding Up: A Benchmark of Speculative Decoding for Efficient LLM Test-Time Scaling](https://arxiv.org/abs/2509.04474): This work benchmarks speculative decoding methods for enhancing LLM reasoning capabilities during inference.
+- [ParaThinker: Native Parallel Thinking as a New Paradigm to Scale LLM Test-time Compute](https://arxiv.org/abs/2509.04475): ParaThinker is introduced as a framework for generating multiple reasoning paths in parallel, improving LLM performance.
+- [Training Text-to-Molecule Models with Context-Aware Tokenization](https://arxiv.org/abs/2509.04476): This paper presents a context-aware tokenization method for text-to-molecule models, enhancing generation performance.
+- [No Clustering, No Routing: How Transformers Actually Process Rare Tokens](https://arxiv.org/abs/2509.04479): This study investigates how transformers process rare tokens, revealing insights into their functional organization.
+- [Narrative-to-Scene Generation: An LLM-Driven Pipeline for 2D Game Environments](https://arxiv.org/abs/2509.04481): This work presents a pipeline for generating 2D game scenes from narrative prompts, demonstrating scalability and effectiveness.
+- [Energy Landscapes Enable Reliable Abstention in Retrieval-Augmented Large Language Models for Healthcare](https://arxiv.org/abs/2509.04482): This paper introduces an energy-based model for reliable abstention in retrieval-augmented generation systems in healthcare.
+- [DecMetrics: Structured Claim Decomposition Scoring for Factually Consistent LLM Outputs](https://arxiv.org/abs/2509.04483): DecMetrics is proposed as a framework for evaluating the quality of claims produced by decomposition models.
+- [The Good, the Bad and the Constructive: Automatically Measuring Peer Review's Utility for Authors](https://arxiv.org/abs/2509.04484): This work identifies key aspects of review comments that drive utility for authors and introduces the RevUtil dataset for evaluation.
+- [ASCENDgpt: A Phenotype-Aware Transformer Model for Cardiovascular Risk Prediction from Electronic Health Records](https://arxiv.org/abs/2509.04485): ASCENDgpt is introduced as a transformer model for cardiovascular risk prediction, achieving strong performance with phenotype-aware tokenization.
+- [Serialized Output Prompting for Large Language Model-based Multi-Talker Speech Recognition](https://arxiv.org/abs/2509.04488): This paper proposes serialized output prompting to improve multi-talker speech recognition performance.
+- [Refining Transcripts With TV Subtitles by Prompt-Based Weakly Supervised Training of ASR](https://arxiv.org/abs/2509.04491): This study presents a method for refining ASR transcripts using TV subtitles in a weakly supervised framework.
+- [Learned Hallucination Detection in Black-Box LLMs using Token-level Entropy Production Rate](https://arxiv.org/abs/2509.04492): This work introduces a methodology for detecting hallucinations in LLM outputs using token-level entropy metrics.
+- [A Narrative-Driven Computational Framework for Clinician Burnout Surveillance](https://arxiv.org/abs/2509.04497): This paper presents a framework for analyzing clinician burnout using narrative information from clinical notes.
+- [Where Should I Study? Biased Language Models Decide! Evaluating Fairness in LMs for Academic Recommendations](https://arxiv.org/abs/2509.04498): This study examines biases in LLM recommendations for academic programs, proposing a multi-dimensional evaluation framework.
+- [DeepTRACE: Auditing Deep Research AI Systems for Tracking Reliability Across Citations and Evidence](https://arxiv.org/abs/2509.04499): DeepTRACE is introduced as an audit framework for evaluating the reliability of AI-generated research outputs.
+- [Context Engineering for Trustworthiness: Rescorla Wagner Steering Under Mixed and Inappropriate Contexts](https://arxiv.org/abs/2509.04500): This work explores how LLMs process mixed contexts and proposes RW-Steering to improve response quality.
+- [Understanding Reinforcement Learning for Model Training, and future directions with GRAPE](https://arxiv.org/abs/2509.04501): This paper provides an exposition of key RL algorithms for instruction tuning of models, presenting new ideas for research.
+- [VaccineRAG: Boosting Multimodal Large Language Models' Immunity to Harmful RAG Samples](https://arxiv.org/abs/2509.04502): VaccineRAG is proposed as a framework to enhance sample discrimination capabilities in retrieval-augmented generation models.
+- [Behavioral Fingerprinting of Large Language Models](https://arxiv.org/abs/2509.04504): This paper introduces a framework for evaluating LLMs' behavioral characteristics using a diagnostic prompt suite and automated evaluation pipeline.
+
+### Categories
+#### Security
+- [Zero Trust in the Era of Agentic AI](https://blogs.cisco.com/security/zero-trust-in-the-era-of-agentic-ai): Discusses the evolution of security solutions like zero trust in the context of AI agents.
+- [The Information Security Awareness of Large Language Models](https://arxiv.org/abs/2411.13207): Evaluates the security knowledge of LLMs and their vulnerability to cybersecurity threats.
+- [AgentArmor: Enforcing Program Analysis on Agent Runtime Trace to Defend Against Prompt Injection](https://arxiv.org/abs/2508.01249): Introduces a framework for analyzing agent runtime traces to defend against prompt injection attacks.
+- [Automatically Detecting Online Deceptive Patterns](https://arxiv.org/abs/2411.07441): Presents AutoBot, an automated detector for deceptive patterns in digital interfaces.
+- [Cutting Through Privacy: A Hyperplane-Based Data Reconstruction Attack in Federated Learning](https://arxiv.org/abs/2505.10264): Introduces a novel data reconstruction attack in federated learning that can reconstruct large data batches.
+- [PromptGuard: Soft Prompt-Guided Unsafe Content Moderation for Text-to-Image Models](https://arxiv.org/abs/2501.03544): Proposes a content moderation technique for text-to-image models to prevent NSFW content generation.
+
+#### Healthcare
+- [Towards Personalized Explanations for Health Simulations: A Mixed-Methods Framework for Stakeholder-Centric Summarization](https://arxiv.org/abs/2509.04646): Discusses generating tailored explanations for health simulations.
+- [ASCENDgpt: A Phenotype-Aware Transformer Model for Cardiovascular Risk Prediction from Electronic Health Records](https://arxiv.org/abs/2509.04485): Introduces a transformer model for cardiovascular risk prediction from EHRs.
+- [Automated detection of underdiagnosed medical conditions via opportunistic imaging](https://arxiv.org/abs/2409.11686): Explores the use of deep learning for detecting underdiagnosed conditions in CT scans.
+- [MitoDetect++: A Domain-Robust Pipeline for Mitosis Detection and Atypical Subtyping](https://arxiv.org/abs/2509.02586): Presents a pipeline for mitosis detection and classification in pathology.
+- [Adaptive Learning Strategies for Mitotic Figure Classification in MIDOG2025 Challenge](https://arxiv.org/abs/2509.02640): Investigates adapting models for classifying atypical mitotic figures.
+
+#### AI and Machine Learning
+- [Maestro: Joint Graph & Config Optimization for Reliable AI Agents](https://arxiv.org/abs/2509.04642): Introduces a framework for optimizing LLM agents.
+- [Language-Driven Hierarchical Task Structures as Explicit World Models for Multi-Agent Learning](https://arxiv.org/abs/2509.04731): Discusses the need for explicit hierarchical world models in multi-agent learning.
+- [What-If Analysis of Large Language Models: Explore the Game World Using Proactive Thinking](https://arxiv.org/abs/2509.04791): Proposes a framework for proactive thinking in LLMs.
+- [TalkToAgent: A Human-centric Explanation of Reinforcement Learning Agents with Large Language Models](https://arxiv.org/abs/2509.04809): Introduces a framework for providing interactive explanations for RL agents.
+- [Collaboration and Conflict between Humans and Language Models through the Lens of Game Theory](https://arxiv.org/abs/2509.04847): Investigates language model behavior in cooperative and competitive settings.
+- [Cloning a Conversational Voice AI Agent from Call Recording Datasets for Telesales](https://arxiv.org/abs/2509.04871): Presents a methodology for creating a conversational voice AI agent.
+- [OSC: Cognitive Orchestration through Dynamic Knowledge Alignment in Multi-Agent LLM Collaboration](https://arxiv.org/abs/2509.04876): Introduces a framework for enhancing collaboration among LLM agents.
+- [SparkUI-Parser: Enhancing GUI Perception with Robust Grounding and Parsing](https://arxiv.org/abs/2509.04908): Proposes a framework for improving GUI perception accuracy.
+- [Towards Ontology-Based Descriptions of Conversations with Qualitatively-Defined Concepts](https://arxiv.org/abs/2509.04926): Presents an ontology-based approach to improve controllability in conversational agents.
+- [Internet 3.0: Architecture for a Web-of-Agents with its Algorithm for Ranking Agents](https://arxiv.org/abs/2509.04979): Proposes a framework for a Web of Agents.
+- [Sticker-TTS: Learn to Utilize Historical Experience with a Sticker-driven Test-Time Scaling Framework](https://arxiv.org/abs/2509.05007): Introduces a framework for improving reasoning efficiency in large reasoning models.
+- [Finding your MUSE: Mining Unexpected Solutions Engine](https://arxiv.org/abs/2509.05072): Presents a methodology for generating creative inspirations using Functional Concept Graphs.
+- [ProToM: Promoting Prosocial Behaviour via Theory of Mind-Informed Feedback](https://arxiv.org/abs/2509.05091): Introduces a system to promote prosocial behavior in multi-agent systems.
+- [Evaluation and Comparison Semantics for ODRL](https://arxiv.org/abs/2509.05139): Provides a formal semantics for the Open Digital Rights Language (ODRL).
+- [LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation](https://arxiv.org/abs/2509.05263): Proposes a framework for generating interactive 3D worlds using LLMs.
+
+### Security Insights
+- The papers and articles related to security highlight the increasing importance of ensuring the safety and reliability of AI systems, particularly in the context of LLMs and their applications. The need for robust defenses against prompt injection attacks and the evaluation of information security awareness in LLMs are critical areas of focus. Additionally, the exploration of automated detection of deceptive patterns in digital interfaces emphasizes the necessity for proactive measures in safeguarding user interactions with AI systems. The findings suggest a growing recognition of the vulnerabilities inherent in AI technologies and the need for comprehensive strategies to mitigate risks associated with their deployment.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **AI and Security in Various Contexts**
+   - **Zero Trust in the Era of Agentic AI**: This article discusses the need for evolving security solutions like zero trust to protect AI agents that operate within the same network infrastructure as users and applications. The focus is on ensuring secure communications for AI agents.
+   - **The Information Security Awareness of Large Language Models**: This study evaluates the information security awareness (ISA) of LLMs, revealing that most popular models exhibit low levels of ISA, which exposes users to cybersecurity threats. It suggests incorporating security awareness instructions into model prompts to improve detection of unsafe requests.
+   - **PromptGuard: Soft Prompt-Guided Unsafe Content Moderation for Text-to-Image Models**: This paper introduces a method for moderating unsafe content generated by text-to-image models through the optimization of a safety soft prompt, effectively reducing the generation of not-safe-for-work (NSFW) content.
+
+#### 2. **Adversarial Attacks and Defense Mechanisms**
+   - **Cutting Through Privacy: A Hyperplane-Based Data Reconstruction Attack in Federated Learning**: This work presents a novel attack that reconstructs client data in federated learning settings, highlighting vulnerabilities in existing methods and the need for improved privacy measures.
+   - **AgentArmor: Enforcing Program Analysis on Agent Runtime Trace to Defend Against Prompt Injection**: This framework converts agent runtime traces into structured programs to enforce security policies and protect against prompt injection attacks, demonstrating a proactive approach to securing AI agents.
+
+#### 3. **Uncertainty and Robustness in AI Systems**
+   - **TokUR: Token-Level Uncertainty Estimation for Large Language Model Reasoning**: This framework enables LLMs to self-assess their generation quality in mathematical reasoning by estimating token-level uncertainties, which can help identify unreliable outputs.
+   - **Mitigating Hallucinations in LM-Based TTS Models via Distribution Alignment Using GFlowNets**: This paper proposes a method to reduce hallucinations in text-to-speech models by aligning distributions, which can enhance the reliability of AI-generated outputs.
+
+#### 4. **Ethical Considerations and Bias in AI**
+   - **Why Language Models Hallucinate**: This article discusses the reasons behind hallucinations in language models, attributing them to training and evaluation procedures that reward guessing over acknowledging uncertainty. It calls for socio-technical changes in benchmark scoring to improve model reliability.
+   - **Mitigating Hallucinations in LM-Based TTS Models via Distribution Alignment Using GFlowNets**: This work emphasizes the need for ethical considerations in AI, particularly in ensuring that models do not produce harmful or misleading outputs.
+
+### Trends and Insights
+- **Increased Focus on Security**: There is a growing recognition of the need for robust security measures in AI systems, particularly as they become more integrated into critical applications. This includes both proactive measures (like zero trust) and reactive measures (like content moderation).
+- **Vulnerability to Attacks**: Many AI models, especially LLMs, are susceptible to adversarial attacks, prompting the development of new frameworks and methodologies to enhance their robustness and security.
+- **Ethical AI Development**: The discourse around ethical AI is expanding, with a focus on understanding and mitigating biases, hallucinations, and ensuring that AI systems are safe and reliable for users.
+- **Uncertainty Quantification**: There is a significant emphasis on developing methods for uncertainty quantification in AI outputs, which is crucial for applications in high-stakes environments such as healthcare and finance.
+
+### Conclusion
+The intersection of AI and security is becoming increasingly critical as AI systems are deployed in sensitive and high-stakes environments. The research highlights the need for improved security measures, ethical considerations, and robust methodologies to ensure that AI systems are reliable and safe for users. The ongoing exploration of adversarial attacks and defenses, along with a focus on uncertainty and bias, will shape the future landscape of AI development and deployment.
