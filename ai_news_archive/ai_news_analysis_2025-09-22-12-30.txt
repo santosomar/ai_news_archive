@@ -1,0 +1,397 @@
+AI Researcher Agent Report for 2025-09-22-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [MICA: Multi-Agent Industrial Coordination Assistant](https://arxiv.org/abs/2509.15237): MICA is a speech-interactive system designed for industrial workflows, coordinating multiple specialized agents to provide real-time assistance for tasks like assembly and maintenance. It introduces a new coordination benchmark and evaluation metrics tailored for industrial assistance.
+- [KNARsack: Teaching Neural Algorithmic Reasoners to Solve Pseudo-Polynomial Problems](https://arxiv.org/abs/2509.15239): This paper focuses on developing a neural algorithmic reasoner for solving the Knapsack problem, utilizing a two-phase pipeline that constructs a dynamic programming table and reconstructs solutions, achieving better generalization than direct-prediction baselines.
+- [The Distribution Shift Problem in Transportation Networks using Reinforcement Learning and AI](https://arxiv.org/abs/2509.15291): This work evaluates the reliability of reinforcement learning agents in traffic signal control amidst changing data distributions, highlighting the challenges and proposing Meta Reinforcement Learning as a potential solution.
+- [An Artificial Intelligence Driven Semantic Similarity-Based Pipeline for Rapid Literature](https://arxiv.org/abs/2509.15292): This paper presents an automated literature review pipeline that uses semantic similarity to fetch and rank relevant papers based on input titles and abstracts, showing promise for preliminary research.
+- [Knowledge-Driven Hallucination in Large Language Models: An Empirical Study on Process Modeling](https://arxiv.org/abs/2509.15336): This study investigates knowledge-driven hallucination in LLMs during automated process modeling, emphasizing the need for rigorous validation of AI-generated outputs.
+- [Diagnostics of cognitive failures in multi-agent expert systems using dynamic evaluation protocols and subsequent mutation of the processing context](https://arxiv.org/abs/2509.15366): This paper introduces a framework for diagnosing cognitive failures in multi-agent systems, integrating expert behavior transfer and evaluation methods.
+- [FragmentRetro: A Quadratic Retrosynthetic Method Based on Fragmentation Algorithms](https://arxiv.org/abs/2509.15409): FragmentRetro is a new retrosynthetic method that leverages fragmentation algorithms to achieve quadratic complexity in identifying retrosynthetic solutions.
+- [Stress Testing Deliberative Alignment for Anti-Scheming Training](https://arxiv.org/abs/2509.15541): This work stress-tests deliberative alignment in AI systems to reduce covert actions and scheming behavior, emphasizing the importance of situational awareness.
+- [MicroRCA-Agent: Microservice Root Cause Analysis Method Based on Large Language Model Agents](https://arxiv.org/abs/2509.15635): This paper presents a method for root cause analysis in microservices using LLMs, integrating multimodal data for comprehensive fault analysis.
+- [CCrepairBench: A High-Fidelity Benchmark and Reinforcement Learning Framework for C++ Compilation Repair](https://arxiv.org/abs/2509.15690): This work introduces a framework for automated C++ compilation error repair, focusing on semantic quality of fixes.
+- [A Nascent Taxonomy of Machine Learning in Intelligent Robotic Process Automation](https://arxiv.org/abs/2509.15730): This paper presents a taxonomy for integrating machine learning with robotic process automation, exploring various dimensions of RPA-ML interaction.
+- [Ontology Creation and Management Tools: the Case of Anatomical Connectivity](https://arxiv.org/abs/2509.15780): This work discusses the development of tools for mapping anatomical data, emphasizing the integration of knowledge representation and management.
+- [Building Data-Driven Occupation Taxonomies: A Bottom-Up Multi-Stage Approach via Semantic Clustering and Multi-Agent Collaboration](https://arxiv.org/abs/2509.15786): This paper introduces a framework for creating occupation taxonomies from job postings using clustering and multi-agent collaboration.
+- [A Comparative Study of Rule-Based and Data-Driven Approaches in Industrial Monitoring](https://arxiv.org/abs/2509.15848): This study compares rule-based and data-driven approaches in industrial monitoring, proposing hybrid solutions for improved performance.
+- [EHR-MCP: Real-world Evaluation of Clinical Information Retrieval by Large Language Models via Model Context Protocol](https://arxiv.org/abs/2509.15957): This paper evaluates the use of LLMs in retrieving clinical information from EHR systems, demonstrating high accuracy in a real hospital setting.
+- [Structured Information for Improving Spatial Relationships in Text-to-Image Generation](https://arxiv.org/abs/2509.15962): This work presents a method for enhancing spatial accuracy in text-to-image generation using structured information.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): ASAC introduces a cognitive-inspired attention management approach in transformers, improving efficiency and robustness.
+- [Pre-Forgettable Models: Prompt Learning as a Native Mechanism for Unlearning](https://arxiv.org/abs/2509.15230): This paper proposes a prompt-based learning framework that allows for instant unlearning of specific data in foundation models.
+- [ChannelFlow-Tools: A Standardized Dataset Creation Pipeline for 3D Obstructed Channel Flows](https://arxiv.org/abs/2509.15236): This work presents a standardized pipeline for creating datasets for 3D channel flows, emphasizing reproducibility.
+- [Generating Plans for Belief-Desire-Intention (BDI) Agents Using Alternating-Time Temporal Logic (ATL)](https://arxiv.org/abs/2509.15238): This paper discusses a tool for automatically generating plans for BDI agents using ATL.
+- [GenCAD-3D: CAD Program Generation using Multimodal Latent Space Alignment and Synthetic Dataset Balancing](https://arxiv.org/abs/2509.15246): GenCAD-3D introduces a multimodal generative framework for CAD program generation, addressing dataset imbalance.
+- [Synthetic bootstrapped pretraining](https://arxiv.org/abs/2509.15248): This work presents a pretraining procedure for language models that synthesizes new data for joint training.
+- [Causal Reasoning Elicits Controllable 3D Scene Generation](https://arxiv.org/abs/2509.15249): This paper introduces a framework for generating 3D scenes using causal reasoning.
+- [Walk and Read Less: Improving the Efficiency of Vision-and-Language Navigation via Tuning-Free Multimodal Token Pruning](https://arxiv.org/abs/2509.15250): This work proposes a token pruning method for improving efficiency in vision-and-language navigation tasks.
+- [Emotion-Aware Speech Generation with Character-Specific Voices for Comics](https://arxiv.org/abs/2509.15253): This paper presents a pipeline for generating emotion-aware speech for comic characters.
+- [A Multi-Scale Graph Neural Process with Cross-Drug Co-Attention for Drug-Drug Interactions Prediction](https://arxiv.org/abs/2509.15256): This work introduces a framework for predicting drug-drug interactions using multi-scale graph neural processes.
+- [Generative AI Meets Wireless Sensing: Towards Wireless Foundation Model](https://arxiv.org/abs/2509.15258): This survey discusses the integration of generative AI into wireless sensing systems.
+- [IEFS-GMB: Gradient Memory Bank-Guided Feature Selection Based on Information Entropy for EEG Classification of Neurological Disorders](https://arxiv.org/abs/2509.15259): This paper presents a feature selection method for EEG classification guided by a gradient memory bank.
+- [Autoguided Online Data Curation for Diffusion Model Training](https://arxiv.org/abs/2509.15267): This work investigates online data selection methods for training generative diffusion models.
+- [Modeling Transformers as complex networks to analyze learning dynamics](https://arxiv.org/abs/2509.15269): This study analyzes the learning dynamics of transformers through complex network theory.
+- [PRISM: Phase-enhanced Radial-based Image Signature Mapping framework for fingerprinting AI-generated images](https://arxiv.org/abs/2509.15270): PRISM introduces a framework for fingerprinting AI-generated images based on radial image signatures.
+- [Large Vision Models Can Solve Mental Rotation Problems](https://arxiv.org/abs/2509.15271): This paper evaluates the ability of vision transformers to solve mental rotation tasks.
+- [Partial Column Generation with Graph Neural Networks for Team Formation and Routing](https://arxiv.org/abs/2509.15275): This work proposes a machine learning model for team formation and routing based on graph neural networks.
+- [Evaluating the Limitations of Local LLMs in Solving Complex Programming Challenges](https://arxiv.org/abs/2509.15283): This study examines the performance of local LLMs in handling complex programming tasks.
+- [Collective Voice: Recovered-Peer Support Mediated by An LLM-Based Chatbot for Eating Disorder Recovery](https://arxiv.org/abs/2509.15289): This paper presents a chatbot designed to provide peer support for eating disorder recovery.
+- [Emulating Human-like Adaptive Vision for Efficient and Flexible Machine Visual Perception](https://arxiv.org/abs/2509.15333): This work introduces a framework for adaptive vision models inspired by human perception.
+- [Beyond Spurious Signals: Debiasing Multimodal Large Language Models via Counterfactual Inference and Adaptive Expert Routing](https://arxiv.org/abs/2509.15361): This paper presents a framework for debiasing multimodal LLMs using counterfactual inference.
+- [Recent Advancements in Microscopy Image Enhancement using Deep Learning: A Survey](https://arxiv.org/abs/2509.15363): This survey reviews advancements in microscopy image enhancement using deep learning.
+- [Efficient and Versatile Model for Multilingual Information Retrieval of Islamic Text: Development and Deployment in Real-World Scenarios](https://arxiv.org/abs/2509.15380): This work discusses the development of a multilingual information retrieval system for Islamic texts.
+- [Generating Part-Based Global Explanations Via Correspondence](https://arxiv.org/abs/2509.15393): This paper proposes a method for generating global explanations for deep learning models.
+- [Exploring multimodal implicit behavior learning for vehicle navigation in simulated cities](https://arxiv.org/abs/2509.15400): This work investigates implicit behavioral cloning for vehicle navigation.
+- [Deep learning and abstractive summarisation for radiological reports: an empirical study for adapting the PEGASUS models' family with scarce data](https://arxiv.org/abs/2509.15419): This study explores adapting PEGASUS models for summarizing radiological reports.
+- [ORCA: Agentic Reasoning For Hallucination and Adversarial Robustness in Vision-Language Models](https://arxiv.org/abs/2509.15435): This paper presents a framework for improving the robustness of vision-language models against hallucinations.
+- [Region-Aware Deformable Convolutions](https://arxiv.org/abs/2509.15436): This work introduces a new convolutional operator for enhancing neural networks' adaptability to complex image structures.
+- [Impact of Phonetics on Speaker Identity in Adversarial Voice Attack](https://arxiv.org/abs/2509.15437): This study analyzes the effects of adversarial audio on speaker verification.
+- [Dual-Mode Visual System for Brain-Computer Interfaces: Integrating SSVEP and P300 Responses](https://arxiv.org/abs/2509.15439): This paper presents a dual stimulation apparatus for brain-computer interfaces.
+- [Where Do I 'Add the Egg'?: Exploring Agency and Ownership in AI Creative Co-Writing Systems](https://arxiv.org/abs/2509.15440): This work investigates the impact of interface metaphors on user agency in AI co-writing systems.
+- [Implicit Kinodynamic Motion Retargeting for Human-to-humanoid Imitation Learning](https://arxiv.org/abs/2509.15443): This paper presents a framework for motion retargeting in humanoid robots.
+- [PILOT: Steering Synthetic Data Generation with Psychological & Linguistic Output Targeting](https://arxiv.org/abs/2509.15447): This work introduces a framework for steering synthetic data generation using psycholinguistic profiles.
+- [Hierarchical Self-Attention: Generalizing Neural Attention Mechanics to Multi-Scale Problems](https://arxiv.org/abs/2509.15448): This paper proposes a new attention mechanism for transformers.
+- [CAGE: Continuity-Aware edGE Network Unlocks Robust Floorplan Reconstruction](https://arxiv.org/abs/2509.15459): This work presents a framework for reconstructing floorplans from point cloud data.
+- [Incorporating Visual Cortical Lateral Connection Properties into CNN: Recurrent Activation and Excitatory-Inhibitory Separation](https://arxiv.org/abs/2509.15460): This paper explores how lateral connections can be modeled within CNNs.
+- [Self-supervised learning of imaging and clinical signatures using a multimodal joint-embedding predictive architecture](https://arxiv.org/abs/2509.15470): This work discusses a self-supervised learning approach for pulmonary nodule diagnosis.
+- [Comparing Computational Pathology Foundation Models using Representational Similarity Analysis](https://arxiv.org/abs/2509.15482): This study analyzes the representational spaces of computational pathology foundation models.
+- [mucAI at BAREC Shared Task 2025: Towards Uncertainty Aware Arabic Readability Assessment](https://arxiv.org/abs/2509.15485): This paper presents a method for fine-grained Arabic readability classification.
+- [SmolRGPT: Efficient Spatial Reasoning for Warehouse Environments with 600M Parameters](https://arxiv.org/abs/2509.15490): This work introduces a compact vision-language architecture for spatial reasoning.
+- [Explainable AI-Enhanced Supervisory Control for Robust Multi-Agent Robotic Systems](https://arxiv.org/abs/2509.15491): This paper presents a framework for explainable AI in multi-agent robotics.
+- [The (Short-Term) Effects of Large Language Models on Unemployment and Earnings](https://arxiv.org/abs/2509.15510): This study examines the labor market effects of LLM adoption.
+- [How do Language Models Generate Slang: A Systematic Comparison between Human and Machine-Generated Slang Usages](https://arxiv.org/abs/2509.15518): This work compares human and machine-generated slang usages.
+- [GUI-ARP: Enhancing Grounding with Adaptive Region Perception for GUI Agents](https://arxiv.org/abs/2509.15532): This paper presents a framework for improving GUI grounding.
+- [Diffusion-Based Cross-Modal Feature Extraction for Multi-Label Classification](https://arxiv.org/abs/2509.15553): This work introduces a framework for multi-label classification using diffusion models.
+- [Exploring Polyglot Harmony: On Multilingual Data Allocation for Large Language Models Pretraining](https://arxiv.org/abs/2509.15556): This paper discusses strategies for optimizing multilingual data allocation in LLMs.
+- [Reward Hacking Mitigation using Verifiable Composite Rewards](https://arxiv.org/abs/2509.15557): This work addresses reward hacking in reinforcement learning.
+- [BTL-UI: Blink-Think-Link Reasoning Model for GUI Agent](https://arxiv.org/abs/2509.15566): This paper presents a framework for human-GUI interaction automation.
+- [LiteLong: Resource-Efficient Long-Context Data Synthesis for LLMs](https://arxiv.org/abs/2509.15568): This work introduces a method for synthesizing long-context data for LLMs.
+- [Contrastive Learning with Spectrum Information Augmentation in Abnormal Sound Detection](https://arxiv.org/abs/2509.15570): This paper presents a method for enhancing abnormal sound detection.
+- [Towards Size-invariant Salient Object Detection: A Generic Evaluation and Optimization Approach](https://arxiv.org/abs/2509.15573): This work introduces a framework for evaluating salient object detection.
+- [Relevance to Utility: Process-Supervised Rewrite for RAG](https://arxiv.org/abs/2509.15577): This paper discusses a framework for improving retrieval-augmented generation.
+- [Multimodal Learning for Fake News Detection in Short Videos Using Linguistically Verified Data and Heterogeneous Modality Fusion](https://arxiv.org/abs/2509.15578): This work presents a framework for detecting fake news in short videos.
+- [Momentum-constrained Hybrid Heuristic Trajectory Optimization Framework with Residual-enhanced DRL for Visually Impaired Scenarios](https://arxiv.org/abs/2509.15582): This paper presents a framework for assistive navigation in visually impaired scenarios.
+- [DivLogicEval: A Framework for Benchmarking Logical Reasoning Evaluation in Large Language Models](https://arxiv.org/abs/2509.15587): This work introduces a benchmark for evaluating logical reasoning in LLMs.
+- [CFDA & CLIP at TREC iKAT 2025: Enhancing Personalized Conversational Search via Query Reformulation and Rank Fusion](https://arxiv.org/abs/2509.15588): This paper discusses strategies for enhancing conversational search.
+- [Latent Zoning Network: A Unified Principle for Generative Modeling, Representation Learning, and Classification](https://arxiv.org/abs/2509.15591): This work introduces a unified framework for generative modeling and classification.
+- [Information Geometry of Variational Bayes](https://arxiv.org/abs/2509.15641): This paper discusses the connection between information geometry and variational Bayes.
+- [Towards Efficient Influence Function: Dropout as a Compression Tool](https://arxiv.org/abs/2509.15651): This work presents a method for efficiently computing influence functions.
+- [Chunk Knowledge Generation Model for Enhanced Information Retrieval: A Multi-task Learning Approach](https://arxiv.org/abs/2509.15658): This paper introduces a model for enhancing information retrieval.
+- [SWE-Effi: Re-Evaluating Software AI Agent System Effectiveness Under Resource Constraints](https://arxiv.org/abs/2509.09853): This work discusses a framework for evaluating AI systems in software engineering.
+- [Benchmark of stylistic variation in LLM-generated texts](https://arxiv.org/abs/2509.10179): This study investigates register variation in texts generated by LLMs.
+- [Hardness, Structural Knowledge, and Opportunity: An Analytical Framework for Modular Performance Modeling](https://arxiv.org/abs/2509.11000): This paper presents a framework for performance modeling in complex systems.
+- [Improving Anomalous Sound Detection with Attribute-aware Representation from Domain-adaptive Pre-training](https://arxiv.org/abs/2509.12845): This work discusses a method for improving sound detection.
+- [MapAnything: Universal Feed-Forward Metric 3D Reconstruction](https://arxiv.org/abs/2509.13414): This paper presents a framework for 3D scene reconstruction.
+- [TGPO: Tree-Guided Preference Optimization for Robust Web Agent Reinforcement Learning](https://arxiv.org/abs/2509.14172): This work introduces a framework for optimizing web agents.
+- [AToken: A Unified Tokenizer for Vision](https://arxiv.org/abs/2509.14476): This paper presents a unified visual tokenizer for various modalities.
+- [Threat Modeling for Enhancing Security of IoT Audio Classification Devices under a Secure Protocols Framework](https://arxiv.org/abs/2509.14657): This work discusses a framework for securing IoT audio classification devices.
+- [Empathy-R1: A Chain-of-Empathy and Reinforcement Learning Framework for Long-Form Mental Health Support](https://arxiv.org/abs/2509.14851): This paper presents a framework for enhancing mental health support using LLMs.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only LLMs.
+- [RegionMed-CLIP: A Region-Aware Multimodal Contrastive Learning Pre-trained Model for Medical Image Understanding](https://arxiv.org/abs/2508.05244): This paper presents a framework for medical image understanding.
+- [Using Natural Language for Human-Robot Collaboration in the Real World](https://arxiv.org/abs/2508.11759): This work explores the use of natural language in human-robot collaboration.
+- [Subjective Behaviors and Preferences in LLM: Language of Browsing](https://arxiv.org/abs/2508.15474): This study investigates subjective behaviors in LLMs.
+- [OpenWHO: A Document-Level Parallel Corpus for Health Translation in Low-Resource Languages](https://arxiv.org/abs/2508.16048): This paper presents a parallel corpus for health translation.
+- [CORE-RAG: Lossless Compression for Retrieval-Augmented LLMs via Reinforcement Learning](https://arxiv.org/abs/2508.19282): This work discusses a method for lossless compression in retrieval-augmented LLMs.
+- [PVPO: Pre-Estimated Value-Based Policy Optimization for Agentic Reasoning](https://arxiv.org/abs/2508.21104): This paper presents a method for policy optimization in reinforcement learning.
+- [Middo: Model-Informed Dynamic Data Optimization for Enhanced LLM Fine-Tuning via Closed-Loop Learning](https://arxiv.org/abs/2508.21589): This work introduces a framework for dynamic data optimization in LLM fine-tuning.
+- [MedCOD: Enhancing English-to-Spanish Medical Translation of Large Language Models Using Enriched Chain-of-Dictionary Framework](https://arxiv.org/abs/2509.00934): This paper presents a framework for improving medical translation.
+- [LongCat-Flash Technical Report](https://arxiv.org/abs/2509.01322): This report discusses a new Mixture-of-Experts language model.
+- [Do Retrieval Augmented Language Models Know When They Don't Know?](https://arxiv.org/abs/2509.01476): This study investigates the calibration of retrieval-augmented language models.
+- [MIDOG 2025: Mitotic Figure Detection with Attention-Guided False Positive Correction](https://arxiv.org/abs/2509.02598): This paper presents a method for mitotic figure detection.
+- [On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems: An Empirical Risk Assessment](https://arxiv.org/abs/2509.05755): This work investigates security risks in tool invocation prompts for LLMs.
+- [Riemannian Batch Normalization: A Gyro Approach](https://arxiv.org/abs/2509.07115): This paper presents a Riemannian batch normalization framework.
+- [DischargeSim: A Simulation Benchmark for Educational Doctor-Patient Communication at Discharge](https://arxiv.org/abs/2509.07188): This work introduces a benchmark for evaluating doctor-patient communication.
+- [Graph Neural Networks for Learnable and Scalable Influence Estimation of Instruction Fine-Tuning Data](https://arxiv.org/abs/2502.09969): This paper discusses a method for estimating influence in instruction fine-tuning data.
+- [SycEval: Evaluating LLM Sycophancy](https://arxiv.org/abs/2502.08177): This study evaluates sycophantic behavior in LLMs.
+- [Examining Deployment and Refinement of the VIOLA-AI Intracranial Hemorrhage Model Using an Interactive NeoMedSys Platform](https://arxiv.org/abs/2505.09380): This paper discusses the deployment of an AI model for intracranial hemorrhage detection.
+- [AttentionDrop: A Novel Regularization Method for Transformer Models](https://arxiv.org/abs/2504.12088): This work presents a regularization method for transformers.
+- [ConCISE: Confidence-guided Compression in Step-by-step Efficient Reasoning](https://arxiv.org/abs/2505.04881): This paper discusses a framework for efficient reasoning in LLMs.
+- [StreamBridge: Turning Your Offline Video Large Language Model into a Proactive Streaming Assistant](https://arxiv.org/abs/2505.05467): This work presents a framework for enhancing video LLMs for streaming applications.
+- [Attention Schema-based Attention Control (ASAC): A Cognitive-Inspired Approach for Attention Management in Transformers](https://arxiv.org/abs/2509.16058): This paper presents a cognitive-inspired attention management approach in transformers.
+- [MeanFlowSE: one-step generative speech enhancement via conditional mean flow](https://arxiv.org/abs/2509.14858): This work introduces a method for speech enhancement.
+- [DPANet: Dual Pyramid Attention Network for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.14868): This paper presents a network for time series forecasting.
+- [Sea-ing Through Scattered Rays: Revisiting the Image Formation Model for Realistic Underwater Image Generation](https://arxiv.org/abs/2509.15011): This work discusses a method for underwater image generation.
+- [VLA-Mark: A cross modal watermark for large vision-language alignment model](https://arxiv.org/abs/2507.14067): This paper presents a watermarking framework for vision-language models.
+- [Causal2Vec: Improving Decoder-only LLMs as Versatile Embedding Models](https://arxiv.org/abs/2507.23386): This work discusses a method for enhancing decoder-only L
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+The recent papers and articles highlight a variety of approaches and methodologies aimed at enhancing the security of AI systems, particularly in the context of large language models (LLMs) and their applications. Here are the key themes and insights drawn from the analysis:
+
+1. **Vulnerability and Threat Modeling**:
+   - Several papers focus on identifying vulnerabilities in AI systems, particularly in LLMs. For instance, the paper on "On the Security of Tool-Invocation Prompts for LLM-Based Agentic Systems" discusses the risks associated with tool invocation prompts, revealing vulnerabilities such as remote code execution (RCE) and denial of service (DoS). This highlights the need for robust security measures in AI systems that interact with external tools.
+
+2. **Robustness and Adversarial Attacks**:
+   - The exploration of adversarial robustness is evident in works like "Robust Vision-Language Models via Tensor Decomposition," which presents a method to enhance the robustness of vision-language models against adversarial attacks. This is crucial as AI systems are increasingly deployed in sensitive applications where security and reliability are paramount.
+
+3. **Fairness and Ethical Considerations**:
+   - The paper titled "Algorithmic Fairness: Not a Purely Technical but Socio-Technical Property" emphasizes that fairness in AI systems cannot be solely addressed through technical means. It calls for a broader understanding of fairness that incorporates social contexts, which is essential for ensuring ethical AI deployment.
+
+4. **Data Integrity and Quality**:
+   - The introduction of frameworks like "SeCodePLT: A Dataset for Evaluating the Security of Code GenAI" underscores the importance of data quality in training secure AI models. Ensuring that AI systems are trained on high-quality, representative datasets is critical for their performance and security.
+
+5. **Explainability and Interpretability**:
+   - The need for explainability in AI systems is highlighted in "No Black Box Anymore: Demystifying Clinical Predictive Modeling." This paper discusses the importance of understanding AI decision-making processes, especially in high-stakes domains like healthcare, where transparency is vital for trust and accountability.
+
+6. **Dynamic and Adaptive Security Measures**:
+   - The concept of dynamic security measures is explored in "Dynamic Policy Fusion for User Alignment Without Re-Interaction," which proposes a method for adapting AI policies based on user feedback without requiring extensive retraining. This adaptability is crucial for maintaining security in changing environments.
+
+7. **Integration of Human Feedback**:
+   - The role of human feedback in enhancing AI systems is emphasized in several papers, including "Empathy-R1: A Chain-of-Empathy and Reinforcement Learning Framework for Long-Form Mental Health Support." This approach suggests that incorporating human insights can improve the performance and safety of AI systems.
+
+8. **Cross-Modal and Multi-Agent Systems**:
+   - Papers like "Negotiative Alignment: Embracing Disagreement to Achieve Fairer Outcomes" explore the complexities of multi-agent systems and the need for collaborative approaches to ensure fairness and security in AI interactions.
+
+### Trends and Insights
+
+- **Interdisciplinary Approaches**: There is a clear trend towards integrating insights from various fields, including psychology, sociology, and computer science, to address the multifaceted challenges of AI security and fairness.
+- **Focus on Real-World Applications**: Many studies emphasize the practical implications of their findings, aiming to develop solutions that can be readily applied in real-world scenarios, such as healthcare, autonomous systems, and software engineering.
+- **Emphasis on Robustness and Adaptability**: The need for AI systems to be robust against adversarial attacks and adaptable to new contexts is a recurring theme, highlighting the dynamic nature of security in AI.
+- **Importance of Explainability**: As AI systems become more integrated into critical decision-making processes, the demand for explainable AI continues to grow, ensuring that stakeholders can understand and trust AI outputs.
+
+### Conclusion
+
+The landscape of AI security is rapidly evolving, with ongoing research addressing vulnerabilities, enhancing robustness, and ensuring fairness in AI systems. The integration of human feedback, interdisciplinary approaches, and a focus on real-world applicability are key trends that will shape the future of secure AI deployment. As AI technologies continue to advance, the importance of developing comprehensive frameworks that prioritize security, explainability, and ethical considerations will be paramount.
