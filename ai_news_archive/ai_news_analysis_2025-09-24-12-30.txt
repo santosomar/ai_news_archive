@@ -1,0 +1,511 @@
+AI Researcher Agent Report for 2025-09-24-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [A Cost-Benefit Analysis of On-Premise Large Language Model Deployment: Breaking Even with Commercial LLM Services](https://arxiv.org/abs/2509.18101): This paper presents a cost-benefit analysis framework for organizations deciding between deploying large language models (LLMs) on-premise versus using commercial services. It evaluates hardware requirements, operational expenses, and performance benchmarks, providing a breakeven point based on usage levels.
+- [SPADE: A Large Language Model Framework for Soil Moisture Pattern Recognition and Anomaly Detection in Precision Agriculture](https://arxiv.org/abs/2509.18123): SPADE utilizes LLMs to analyze soil moisture patterns for irrigation scheduling and crop management, outperforming existing methods in anomaly detection and irrigation event classification.
+- [Position Paper: Integrating Explainability and Uncertainty Estimation in Medical AI](https://arxiv.org/abs/2509.18132): This paper proposes Explainable Uncertainty Estimation (XUE) to enhance trust in medical AI by integrating uncertainty quantification with explainability, addressing key challenges in medical AI adoption.
+- [HSGM: Hierarchical Segment-Graph Memory for Scalable Long-Text Semantics](https://arxiv.org/abs/2509.18168): HSGM introduces a framework for semantic parsing of long documents, achieving significant improvements in inference speed and memory usage while maintaining accuracy.
+- [Foam-Agent: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation in OpenFOAM](https://arxiv.org/abs/2509.18178): Foam-Agent automates the OpenFOAM workflow for computational fluid dynamics, achieving high success rates in simulation tasks and lowering the expertise barrier for users.
+- [Large Language Models and Operations Research: A Structured Survey](https://arxiv.org/abs/2509.18180): This survey reviews the integration of LLMs into operations research, organizing methods into automatic modeling, auxiliary optimization, and direct solving, while identifying open issues and future research avenues.
+- [Synthesizing Attitudes, Predicting Actions (SAPA): Behavioral Theory-Guided LLMs for Ridesourcing Mode Choice Modeling](https://arxiv.org/abs/2509.18181): SAPA uses LLMs to synthesize traveler personas and predict ridesourcing choices, significantly improving prediction accuracy over existing models.
+- [An Outcome-Based Educational Recommender System](https://arxiv.org/abs/2509.18186): OBER embeds learning outcomes into educational recommender systems, allowing for evaluation based on mastery rather than click-based metrics.
+- [MMCD: Multi-Modal Collaborative Decision-Making for Connected Autonomy with Knowledge Distillation](https://arxiv.org/abs/2509.18198): MMCD enhances decision-making in autonomous systems by fusing multi-modal observations and ensuring robust performance even with missing data modalities.
+- [Change in Quantitative Bipolar Argumentation: Sufficient, Necessary, and Counterfactual Explanations](https://arxiv.org/abs/2509.18215): This paper presents a formal approach to explaining changes in argument strength within quantitative bipolar argumentation frameworks.
+- [nDNA -- the Semantic Helix of Artificial Cognition](https://arxiv.org/abs/2509.18216): nDNA proposes a representation for AI models' latent identities, capturing their cognitive geometry and evolution over time.
+- [Similarity Field Theory: A Mathematical Framework for Intelligence](https://arxiv.org/abs/2509.18218): This paper introduces a mathematical framework for understanding intelligence through similarity relations among entities.
+- [Multimodal Health Risk Prediction System for Chronic Diseases via Vision-Language Fusion and Large Language Models](https://arxiv.org/abs/2509.18221): VL-RiskFormer predicts health risks by integrating visual and textual data, achieving high accuracy in chronic disease prediction.
+- [From "What to Eat?" to Perfect Recipe: ChefMind's Chain-of-Exploration for Ambiguous User Intent in Recipe Recommendation](https://arxiv.org/abs/2509.18226): ChefMind refines ambiguous recipe queries into structured conditions, significantly improving recommendation accuracy.
+- [An N-Plus-1 GPT Agency for Critical Solution of Mechanical Engineering Analysis Problems](https://arxiv.org/abs/2509.18229): This paper introduces an agency model that enhances problem-solving in mechanical engineering by comparing multiple GPT instances.
+- [Towards General Computer Control with Hierarchical Agents and Multi-Level Action Spaces](https://arxiv.org/abs/2509.18230): This framework improves computer control via hierarchical reinforcement learning, achieving high success rates in desktop tasks.
+- [The Illusion of Readiness: Stress Testing Large Frontier Models on Multimodal Medical Benchmarks](https://arxiv.org/abs/2509.18234): This paper critiques the robustness of leading AI models in medical benchmarks, revealing inconsistencies in their performance.
+- [Evaluating the Safety and Skill Reasoning of Large Reasoning Models Under Compute Constraints](https://arxiv.org/abs/2509.18382): This work investigates compute constraints on reasoning models, exploring trade-offs between computational efficiency and safety.
+- [G\"odel Test: Can Large Language Models Solve Easy Conjectures?](https://arxiv.org/abs/2509.18383): This paper evaluates the ability of LLMs to solve simple mathematical conjectures, revealing strengths and limitations in reasoning.
+- [ATLAS: Benchmarking and Adapting LLMs for Global Trade via Harmonized Tariff Code Classification](https://arxiv.org/abs/2509.18400): This study benchmarks LLMs for tariff classification, introducing a new model that improves accuracy and privacy in trade compliance.
+- [Instruction-Following Evaluation in Function Calling for Large Language Models](https://arxiv.org/abs/2509.18420): This paper introduces a benchmark for evaluating instruction adherence in function calling, revealing limitations in state-of-the-art models.
+- [Memory-QA: Answering Recall Questions Based on Multimodal Memories](https://arxiv.org/abs/2509.18436): Memory-QA proposes a pipeline for answering questions based on multimodal memories, demonstrating superior performance over existing methods.
+- [FERA: Foil Fencing Referee Assistant Using Pose-Based Multi-Label Move Recognition and Rule Reasoning](https://arxiv.org/abs/2509.18527): FERA integrates AI for fencing refereeing, achieving promising results in move recognition and decision-making.
+- [LLMZ+: Contextual Prompt Whitelist Principles for Agentic LLMs](https://arxiv.org/abs/2509.18557): This paper presents a prompt whitelisting approach to enhance security in agentic LLMs, demonstrating resilience against common attacks.
+- [Solving Math Word Problems Using Estimation Verification and Equation Generation](https://arxiv.org/abs/2509.18565): This study proposes a novel method for solving math word problems, achieving state-of-the-art results on various datasets.
+- [Adaptive Learning in Spatial Agent-Based Models for Climate Risk Assessment: A Geospatial Framework with Evolutionary Economic Agents](https://arxiv.org/abs/2509.18633): This framework models climate risk assessment using adaptive learning behaviors in economic agents, revealing systemic risks in climate impacts.
+- [TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation](https://arxiv.org/abs/2509.18667): TERAG proposes a token-efficient framework for graph-based retrieval-augmented generation, achieving high accuracy with lower token consumption.
+- [Implementation of airborne ML models with semantics preservation](https://arxiv.org/abs/2509.18681): This paper discusses the development of airborne ML models ensuring compliance with safety regulations and semantics preservation.
+- [Advances in Large Language Models for Medicine](https://arxiv.org/abs/2509.18690): This review analyzes the progress of LLMs in medicine, categorizing them by training methodologies and evaluating their applications and challenges.
+- [Autonomous Data Agents: A New Opportunity for Smart Data](https://arxiv.org/abs/2509.18710): This report discusses the potential of autonomous data agents in transforming data management and analysis, emphasizing their capabilities in handling complex tasks.
+- [Experience Scaling: Post-Deployment Evolution For Large Language Models](https://arxiv.org/abs/2509.18771): This paper proposes a framework for continuous learning in LLMs post-deployment, enhancing their capabilities through autonomous interaction.
+- [The AGNTCY Agent Directory Service: Architecture and Implementation](https://arxiv.org/abs/2509.18787): This paper describes a distributed directory service for AI agents, detailing its architecture and implementation for efficient agent discovery.
+- [Bounded PCTL Model Checking of Large Language Model Outputs](https://arxiv.org/abs/2509.18836): This work introduces a model-checking method for verifying probabilistic properties of LLM outputs, demonstrating its applicability across various models.
+- [Model selection meets clinical semantics: Optimizing ICD-10-CM prediction via LLM-as-Judge evaluation, redundancy-aware sampling, and section-aware fine-tuning](https://arxiv.org/abs/2509.18846): This study proposes a modular framework for ICD-10 coding prediction, addressing challenges in model selection and data redundancy.
+- [MAPO: Mixed Advantage Policy Optimization](https://arxiv.org/abs/2509.18849): This paper introduces MAPO, an RL strategy that enhances performance by dynamically reweighting advantages based on trajectory certainty.
+- [Conf-Profile: A Confidence-Driven Reasoning Paradigm for Label-Free User Profiling](https://arxiv.org/abs/2509.18864): This work presents a framework for user profiling using confidence-driven reasoning, improving accuracy and reliability in user understanding.
+- [Memory in Large Language Models: Mechanisms, Evaluation and Evolution](https://arxiv.org/abs/2509.18868): This paper proposes a taxonomy for LLM memory, linking mechanisms, evaluation, and governance for better understanding and management of memory in LLMs.
+- [LongCat-Flash-Thinking Technical Report](https://arxiv.org/abs/2509.18883): This report discusses LongCat-Flash-Thinking, an efficient reasoning model that achieves state-of-the-art performance on complex reasoning tasks.
+- [How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2509.18905): This paper investigates the capabilities of vision-language models in spatial reasoning, revealing gaps in performance and providing a benchmark for future research.
+- [Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](https://arxiv.org/abs/2509.18942): This study proposes a framework for continual adaptation in LLMs, enhancing task performance while improving resource efficiency.
+- [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/abs/2509.18970): This survey analyzes hallucinations in LLM-based agents, proposing a taxonomy and reviewing methods for detection and mitigation.
+- [From latent factors to language: a user study on LLM-generated explanations for an inherently interpretable matrix-based recommender system](https://arxiv.org/abs/2509.18980): This study investigates the effectiveness of LLM-generated explanations in a matrix-based recommender system, highlighting user perceptions and preferences.
+- [Remaining Time Prediction in Outbound Warehouse Processes: A Case Study (Short Paper)](https://arxiv.org/abs/2509.18986): This paper compares different remaining time prediction approaches in a real-life warehouse process, highlighting the effectiveness of deep learning models.
+- [Landmarks, Monuments, and Beacons: Understanding Generative Calls to Action](https://arxiv.org/abs/2509.19030): This paper introduces a framework for evaluating procedurally generated content in games, focusing on player-centric concepts.
+- [Towards Causal Representation Learning with Observable Sources as Auxiliaries](https://arxiv.org/abs/2509.19058): This work presents a framework for causal representation learning using observable sources as auxiliary variables, enhancing identifiability.
+- [Code Driven Planning with Domain-Adaptive Critic](https://arxiv.org/abs/2509.19077): This paper proposes a framework for improving planning in sequential decision-making tasks using LLMs and domain-adaptive critics.
+- [AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration](https://arxiv.org/abs/2509.19236): This study introduces AgentInit, a method for optimizing agent team composition in multi-agent systems.
+- [Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World](https://arxiv.org/abs/2509.19265): This paper investigates the potential for cross-cultural transfer in commonsense reasoning using LLMs, highlighting the effectiveness of alignment methods.
+- [Data Valuation and Selection in a Federated Model Marketplace](https://arxiv.org/abs/2509.18104): This work presents a framework for data valuation in federated learning, addressing challenges related to heterogeneous sources and privacy.
+- [BULL-ODE: Bullwhip Learning with Neural ODEs and Universal Differential Equations under Stochastic Demand](https://arxiv.org/abs/2509.18105): This paper studies inventory dynamics under stochastic demand, comparing neural ODEs and physics-informed methods.
+- [Solve it with EASE](https://arxiv.org/abs/2509.18108): This paper presents EASE, a modular framework for iterative algorithmic solution generation leveraging LLMs.
+- [Prompt Optimization Meets Subspace Representation Learning for Few-shot Out-of-Distribution Detection](https://arxiv.org/abs/2509.18111): This work proposes a framework for improving out-of-distribution detection using prompt learning and subspace representation.
+- [Amortized Latent Steering: Low-Cost Alternative to Test-Time Optimization](https://arxiv.org/abs/2509.18116): This paper introduces Amortized Latent Steering (ALS), a method for optimizing latent representations during inference.
+- [MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents](https://arxiv.org/abs/2509.18119): This study presents an online reinforcement learning framework for enhancing mobile GUI agents.
+- [A Coopetitive-Compatible Data Generation Framework for Cross-silo Federated Learning](https://arxiv.org/abs/2509.18120): This paper introduces CoCoGen, a framework for collaborative learning in federated settings.
+- [NurseSchedRL: Attention-Guided Reinforcement Learning for Nurse-Patient Assignment](https://arxiv.org/abs/2509.18125): This work presents a reinforcement learning framework for optimizing nurse-patient assignments in healthcare systems.
+- [Anomaly Detection in Electric Vehicle Charging Stations Using Federated Learning](https://arxiv.org/abs/2509.18126): This paper evaluates federated learning for anomaly detection in electric vehicle charging stations.
+- [Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework](https://arxiv.org/abs/2509.18127): This study proposes a framework for interpreting LLM features to enhance safety analysis.
+- [Research on Metro Transportation Flow Prediction Based on the STL-GRU Combined Model](https://arxiv.org/abs/2509.18130): This paper presents a combined model for predicting metro transportation flow.
+- [Two ways to knowledge?](https://arxiv.org/abs/2509.18131): This work discusses the relationship between machine learning and the scientific method.
+- [Self-Evolving LLMs via Continual Instruction Tuning](https://arxiv.org/abs/2509.18133): This paper proposes a framework for continual instruction tuning of LLMs.
+- [SDGF: Fusing Static and Multi-Scale Dynamic Correlations for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.18135): This study presents a model for capturing multi-scale correlations in time series forecasting.
+- [From Parameters to Performance: A Data-Driven Study on LLM Structure and Development](https://arxiv.org/abs/2509.18136): This paper analyzes the relationship between LLM structure and performance.
+- [LoRALib: A Standardized Benchmark for Evaluating LoRA-MoE Methods](https://arxiv.org/abs/2509.18137): This work introduces a benchmark for evaluating LoRA-MoE methods.
+- [A Machine Learning Framework for Pathway-Driven Therapeutic Target Discovery in Metabolic Disorders](https://arxiv.org/abs/2509.18140): This study presents a framework for identifying therapeutic targets in metabolic disorders.
+- [KM-GPT: An Automated Pipeline for Reconstructing Individual Patient Data from Kaplan-Meier Plots](https://arxiv.org/abs/2509.18141): This paper introduces an automated pipeline for reconstructing patient data from Kaplan-Meier plots.
+- [Weight Mapping Properties of a Dual Tree Single Clock Adiabatic Capacitive Neuron](https://arxiv.org/abs/2509.18143): This work explores weight mapping properties in adiabatic capacitive neuron circuits.
+- [AdaSTI: Conditional Diffusion Models with Adaptive Dependency Modeling for Spatio-Temporal Imputation](https://arxiv.org/abs/2509.18144): This study presents a model for spatio-temporal data imputation.
+- [Early Prediction of Multi-Label Care Escalation Triggers in the Intensive Care Unit Using Electronic Health Records](https://arxiv.org/abs/2509.18145): This paper proposes a framework for predicting care escalation triggers in ICU settings.
+- [ConceptFlow: Hierarchical and Fine-grained Concept-Based Explanation for Convolutional Neural Networks](https://arxiv.org/abs/2509.18147): This work presents a framework for concept-based interpretability in CNNs.
+- [Augmenting Limited and Biased RCTs through Pseudo-Sample Matching-Based Observational Data Fusion Method](https://arxiv.org/abs/2509.18148): This study proposes a method for augmenting randomized controlled trials with observational data.
+- [A Kernel Space-based Multidimensional Sparse Model for Dynamic PET Image Denoising](https://arxiv.org/abs/2509.18150): This paper presents a model for denoising dynamic PET images.
+- [Text Slider: Efficient and Plug-and-Play Continuous Concept Control for Image/Video Synthesis via LoRA Adapters](https://arxiv.org/abs/2509.18193): This study introduces a framework for continuous concept control in image and video synthesis.
+- [Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions](https://arxiv.org/abs/2509.18847): This paper proposes a structured reflection approach to improve tool interactions in LLMs.
+- [NGRPO: Negative-enhanced Group Relative Policy Optimization](https://arxiv.org/abs/2509.18851): This work introduces NGRPO, an RL strategy that enhances performance by addressing homogeneous errors.
+- [Memory in Large Language Models: Mechanisms, Evaluation and Evolution](https://arxiv.org/abs/2509.18868): This study proposes a taxonomy for understanding memory in LLMs.
+- [LongCat-Flash-Thinking Technical Report](https://arxiv.org/abs/2509.18883): This report discusses LongCat-Flash-Thinking, an efficient reasoning model.
+- [How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2509.18905): This paper investigates the capabilities of VLMs in spatial reasoning.
+- [Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](https://arxiv.org/abs/2509.18942): This study proposes a framework for continual adaptation in LLMs.
+- [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/abs/2509.18970): This survey analyzes hallucinations in LLM-based agents.
+- [From latent factors to language: a user study on LLM-generated explanations for an inherently interpretable matrix-based recommender system](https://arxiv.org/abs/2509.18980): This study investigates LLM-generated explanations in a recommender system.
+- [Remaining Time Prediction in Outbound Warehouse Processes: A Case Study (Short Paper)](https://arxiv.org/abs/2509.18986): This paper compares remaining time prediction approaches in a warehouse process.
+- [Landmarks, Monuments, and Beacons: Understanding Generative Calls to Action](https://arxiv.org/abs/2509.19030): This work introduces a framework for evaluating procedurally generated content.
+- [Towards Causal Representation Learning with Observable Sources as Auxiliaries](https://arxiv.org/abs/2509.19058): This study presents a framework for causal representation learning using observable sources.
+- [Code Driven Planning with Domain-Adaptive Critic](https://arxiv.org/abs/2509.19077): This paper proposes a framework for improving planning in sequential decision-making tasks.
+- [AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration](https://arxiv.org/abs/2509.19236): This study introduces AgentInit for optimizing agent team composition.
+- [Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World](https://arxiv.org/abs/2509.19265): This paper investigates cross-cultural transfer in commonsense reasoning.
+- [Data Valuation and Selection in a Federated Model Marketplace](https://arxiv.org/abs/2509.18104): This work presents a framework for data valuation in federated learning.
+- [BULL-ODE: Bullwhip Learning with Neural ODEs and Universal Differential Equations under Stochastic Demand](https://arxiv.org/abs/2509.18105): This study examines inventory dynamics under stochastic demand.
+- [Solve it with EASE](https://arxiv.org/abs/2509.18108): This paper presents EASE, a modular framework for iterative algorithmic solution generation.
+- [Prompt Optimization Meets Subspace Representation Learning for Few-shot Out-of-Distribution Detection](https://arxiv.org/abs/2509.18111): This work proposes a framework for out-of-distribution detection using prompt learning.
+- [Amortized Latent Steering: Low-Cost Alternative to Test-Time Optimization](https://arxiv.org/abs/2509.18116): This paper introduces Amortized Latent Steering for optimizing latent representations.
+- [MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents](https://arxiv.org/abs/2509.18119): This study presents an online reinforcement learning framework for mobile GUI agents.
+- [A Coopetitive-Compatible Data Generation Framework for Cross-silo Federated Learning](https://arxiv.org/abs/2509.18120): This paper introduces CoCoGen for collaborative learning in federated settings.
+- [NurseSchedRL: Attention-Guided Reinforcement Learning for Nurse-Patient Assignment](https://arxiv.org/abs/2509.18125): This work presents a reinforcement learning framework for nurse-patient assignments.
+- [Anomaly Detection in Electric Vehicle Charging Stations Using Federated Learning](https://arxiv.org/abs/2509.18126): This paper evaluates federated learning for anomaly detection in EV charging stations.
+- [Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework](https://arxiv.org/abs/2509.18127): This study proposes a framework for interpreting LLM features to enhance safety analysis.
+- [Research on Metro Transportation Flow Prediction Based on the STL-GRU Combined Model](https://arxiv.org/abs/2509.18130): This paper presents a combined model for predicting metro transportation flow.
+- [Two ways to knowledge?](https://arxiv.org/abs/2509.18131): This work discusses the relationship between machine learning and the scientific method.
+- [Self-Evolving LLMs via Continual Instruction Tuning](https://arxiv.org/abs/2509.18133): This paper proposes a framework for continual instruction tuning of LLMs.
+- [SDGF: Fusing Static and Multi-Scale Dynamic Correlations for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.18135): This study presents a model for capturing multi-scale correlations in time series forecasting.
+- [From Parameters to Performance: A Data-Driven Study on LLM Structure and Development](https://arxiv.org/abs/2509.18136): This paper analyzes the relationship between LLM structure and performance.
+- [LoRALib: A Standardized Benchmark for Evaluating LoRA-MoE Methods](https://arxiv.org/abs/2509.18137): This work introduces a benchmark for evaluating LoRA-MoE methods.
+- [A Machine Learning Framework for Pathway-Driven Therapeutic Target Discovery in Metabolic Disorders](https://arxiv.org/abs/2509.18140): This study presents a framework for identifying therapeutic targets in metabolic disorders.
+- [KM-GPT: An Automated Pipeline for Reconstructing Individual Patient Data from Kaplan-Meier Plots](https://arxiv.org/abs/2509.18141): This paper introduces an automated pipeline for reconstructing patient data from Kaplan-Meier plots.
+- [Weight Mapping Properties of a Dual Tree Single Clock Adiabatic Capacitive Neuron](https://arxiv.org/abs/2509.18143): This work explores weight mapping properties in adiabatic capacitive neuron circuits.
+- [AdaSTI: Conditional Diffusion Models with Adaptive Dependency Modeling for Spatio-Temporal Imputation](https://arxiv.org/abs/2509.18144): This study presents a model for spatio-temporal data imputation.
+- [Early Prediction of Multi-Label Care Escalation Triggers in the Intensive Care Unit Using Electronic Health Records](https://arxiv.org/abs/2509.18145): This paper proposes a framework for predicting care escalation triggers in ICU settings.
+- [ConceptFlow: Hierarchical and Fine-grained Concept-Based Explanation for Convolutional Neural Networks](https://arxiv.org/abs/2509.18147): This work presents a framework for concept-based interpretability in CNNs.
+- [Augmenting Limited and Biased RCTs through Pseudo-Sample Matching-Based Observational Data Fusion Method](https://arxiv.org/abs/2509.18148): This study proposes a method for augmenting randomized controlled trials with observational data.
+- [A Kernel Space-based Multidimensional Sparse Model for Dynamic PET Image Denoising](https://arxiv.org/abs/2509.18150): This paper presents a model for denoising dynamic PET images.
+- [Text Slider: Efficient and Plug-and-Play Continuous Concept Control for Image/Video Synthesis via LoRA Adapters](https://arxiv.org/abs/2509.18193): This study introduces a framework for continuous concept control in image and video synthesis.
+- [Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions](https://arxiv.org/abs/2509.18847): This paper proposes a structured reflection approach to improve tool interactions in LLMs.
+- [NGRPO: Negative-enhanced Group Relative Policy Optimization](https://arxiv.org/abs/2509.18851): This work introduces NGRPO, an RL strategy that enhances performance by addressing homogeneous errors.
+- [Memory in Large Language Models: Mechanisms, Evaluation and Evolution](https://arxiv.org/abs/2509.18868): This study proposes a taxonomy for understanding memory in LLMs.
+- [LongCat-Flash-Thinking Technical Report](https://arxiv.org/abs/2509.18883): This report discusses LongCat-Flash-Thinking, an efficient reasoning model.
+- [How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2509.18905): This paper investigates the capabilities of VLMs in spatial reasoning.
+- [Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](https://arxiv.org/abs/2509.18942): This study proposes a framework for continual adaptation in LLMs.
+- [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/abs/2509.18970): This survey analyzes hallucinations in LLM-based agents.
+- [From latent factors to language: a user study on LLM-generated explanations for an inherently interpretable matrix-based recommender system](https://arxiv.org/abs/2509.18980): This study investigates LLM-generated explanations in a recommender system.
+- [Remaining Time Prediction in Outbound Warehouse Processes: A Case Study (Short Paper)](https://arxiv.org/abs/2509.18986): This paper compares remaining time prediction approaches in a warehouse process.
+- [Landmarks, Monuments, and Beacons: Understanding Generative Calls to Action](https://arxiv.org/abs/2509.19030): This work introduces a framework for evaluating procedurally generated content.
+- [Towards Causal Representation Learning with Observable Sources as Auxiliaries](https://arxiv.org/abs/2509.19058): This study presents a framework for causal representation learning using observable sources.
+- [Code Driven Planning with Domain-Adaptive Critic](https://arxiv.org/abs/2509.19077): This paper proposes a framework for improving planning in sequential decision-making tasks.
+- [AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration](https://arxiv.org/abs/2509.19236): This study introduces AgentInit for optimizing agent team composition.
+- [Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World](https://arxiv.org/abs/2509.19265): This paper investigates cross-cultural transfer in commonsense reasoning.
+- [Data Valuation and Selection in a Federated Model Marketplace](https://arxiv.org/abs/2509.18104): This work presents a framework for data valuation in federated learning.
+- [BULL-ODE: Bullwhip Learning with Neural ODEs and Universal Differential Equations under Stochastic Demand](https://arxiv.org/abs/2509.18105): This study examines inventory dynamics under stochastic demand.
+- [Solve it with EASE](https://arxiv.org/abs/2509.18108): This paper presents EASE, a modular framework for iterative algorithmic solution generation.
+- [Prompt Optimization Meets Subspace Representation Learning for Few-shot Out-of-Distribution Detection](https://arxiv.org/abs/2509.18111): This work proposes a framework for out-of-distribution detection using prompt learning.
+- [Amortized Latent Steering: Low-Cost Alternative to Test-Time Optimization](https://arxiv.org/abs/2509.18116): This paper introduces Amortized Latent Steering for optimizing latent representations.
+- [MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents](https://arxiv.org/abs/2509.18119): This study presents an online reinforcement learning framework for mobile GUI agents.
+- [A Coopetitive-Compatible Data Generation Framework for Cross-silo Federated Learning](https://arxiv.org/abs/2509.18120): This paper introduces CoCoGen for collaborative learning in federated settings.
+- [NurseSchedRL: Attention-Guided Reinforcement Learning for Nurse-Patient Assignment](https://arxiv.org/abs/2509.18125): This work presents a reinforcement learning framework for nurse-patient assignments.
+- [Anomaly Detection in Electric Vehicle Charging Stations Using Federated Learning](https://arxiv.org/abs/2509.18126): This paper evaluates federated learning for anomaly detection in EV charging stations.
+- [Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework](https://arxiv.org/abs/2509.18127): This study proposes a framework for interpreting LLM features to enhance safety analysis.
+- [Research on Metro Transportation Flow Prediction Based on the STL-GRU Combined Model](https://arxiv.org/abs/2509.18130): This paper presents a combined model for predicting metro transportation flow.
+- [Two ways to knowledge?](https://arxiv.org/abs/2509.18131): This work discusses the relationship between machine learning and the scientific method.
+- [Self-Evolving LLMs via Continual Instruction Tuning](https://arxiv.org/abs/2509.18133): This paper proposes a framework for continual instruction tuning of LLMs.
+- [SDGF: Fusing Static and Multi-Scale Dynamic Correlations for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.18135): This study presents a model for capturing multi-scale correlations in time series forecasting.
+- [From Parameters to Performance: A Data-Driven Study on LLM Structure and Development](https://arxiv.org/abs/2509.18136): This paper analyzes the relationship between LLM structure and performance.
+- [LoRALib: A Standardized Benchmark for Evaluating LoRA-MoE Methods](https://arxiv.org/abs/2509.18137): This work introduces a benchmark for evaluating LoRA-MoE methods.
+- [A Machine Learning Framework for Pathway-Driven Therapeutic Target Discovery in Metabolic Disorders](https://arxiv.org/abs/2509.18140): This study presents a framework for identifying therapeutic targets in metabolic disorders.
+- [KM-GPT: An Automated Pipeline for Reconstructing Individual Patient Data from Kaplan-Meier Plots](https://arxiv.org/abs/2509.18141): This paper introduces an automated pipeline for reconstructing patient data from Kaplan-Meier plots.
+- [Weight Mapping Properties of a Dual Tree Single Clock Adiabatic Capacitive Neuron](https://arxiv.org/abs/2509.18143): This work explores weight mapping properties in adiabatic capacitive neuron circuits.
+- [AdaSTI: Conditional Diffusion Models with Adaptive Dependency Modeling for Spatio-Temporal Imputation](https://arxiv.org/abs/2509.18144): This study presents a model for spatio-temporal data imputation.
+- [Early Prediction of Multi-Label Care Escalation Triggers in the Intensive Care Unit Using Electronic Health Records](https://arxiv.org/abs/2509.18145): This paper proposes a framework for predicting care escalation triggers in ICU settings.
+- [ConceptFlow: Hierarchical and Fine-grained Concept-Based Explanation for Convolutional Neural Networks](https://arxiv.org/abs/2509.18147): This work presents a framework for concept-based interpretability in CNNs.
+- [Augmenting Limited and Biased RCTs through Pseudo-Sample Matching-Based Observational Data Fusion Method](https://arxiv.org/abs/2509.18148): This study proposes a method for augmenting randomized controlled trials with observational data.
+- [A Kernel Space-based Multidimensional Sparse Model for Dynamic PET Image Denoising](https://arxiv.org/abs/2509.18150): This paper presents a model for denoising dynamic PET images.
+- [Text Slider: Efficient and Plug-and-Play Continuous Concept Control for Image/Video Synthesis via LoRA Adapters](https://arxiv.org/abs/2509.18193): This study introduces a framework for continuous concept control in image and video synthesis.
+- [Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions](https://arxiv.org/abs/2509.18847): This paper proposes a structured reflection approach to improve tool interactions in LLMs.
+- [NGRPO: Negative-enhanced Group Relative Policy Optimization](https://arxiv.org/abs/2509.18851): This work introduces NGRPO, an RL strategy that enhances performance by addressing homogeneous errors.
+- [Memory in Large Language Models: Mechanisms, Evaluation and Evolution](https://arxiv.org/abs/2509.18868): This study proposes a taxonomy for understanding memory in LLMs.
+- [LongCat-Flash-Thinking Technical Report](https://arxiv.org/abs/2509.18883): This report discusses LongCat-Flash-Thinking, an efficient reasoning model.
+- [How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2509.18905): This paper investigates the capabilities of VLMs in spatial reasoning.
+- [Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](https://arxiv.org/abs/2509.18942): This study proposes a framework for continual adaptation in LLMs.
+- [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/abs/2509.18970): This survey analyzes hallucinations in LLM-based agents.
+- [From latent factors to language: a user study on LLM-generated explanations for an inherently interpretable matrix-based recommender system](https://arxiv.org/abs/2509.18980): This study investigates LLM-generated explanations in a recommender system.
+- [Remaining Time Prediction in Outbound Warehouse Processes: A Case Study (Short Paper)](https://arxiv.org/abs/2509.18986): This paper compares remaining time prediction approaches in a warehouse process.
+- [Landmarks, Monuments, and Beacons: Understanding Generative Calls to Action](https://arxiv.org/abs/2509.19030): This work introduces a framework for evaluating procedurally generated content.
+- [Towards Causal Representation Learning with Observable Sources as Auxiliaries](https://arxiv.org/abs/2509.19058): This study presents a framework for causal representation learning using observable sources.
+- [Code Driven Planning with Domain-Adaptive Critic](https://arxiv.org/abs/2509.19077): This paper proposes a framework for improving planning in sequential decision-making tasks.
+- [AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration](https://arxiv.org/abs/2509.19236): This study introduces AgentInit for optimizing agent team composition.
+- [Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World](https://arxiv.org/abs/2509.19265): This paper investigates cross-cultural transfer in commonsense reasoning.
+- [Data Valuation and Selection in a Federated Model Marketplace](https://arxiv.org/abs/2509.18104): This work presents a framework for data valuation in federated learning.
+- [BULL-ODE: Bullwhip Learning with Neural ODEs and Universal Differential Equations under Stochastic Demand](https://arxiv.org/abs/2509.18105): This study examines inventory dynamics under stochastic demand.
+- [Solve it with EASE](https://arxiv.org/abs/2509.18108): This paper presents EASE, a modular framework for iterative algorithmic solution generation.
+- [Prompt Optimization Meets Subspace Representation Learning for Few-shot Out-of-Distribution Detection](https://arxiv.org/abs/2509.18111): This work proposes a framework for out-of-distribution detection using prompt learning.
+- [Amortized Latent Steering: Low-Cost Alternative to Test-Time Optimization](https://arxiv.org/abs/2509.18116): This paper introduces Amortized Latent Steering for optimizing latent representations.
+- [MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents](https://arxiv.org/abs/2509.18119): This study presents an online reinforcement learning framework for mobile GUI agents.
+- [A Coopetitive-Compatible Data Generation Framework for Cross-silo Federated Learning](https://arxiv.org/abs/2509.18120): This paper introduces CoCoGen for collaborative learning in federated settings.
+- [NurseSchedRL: Attention-Guided Reinforcement Learning for Nurse-Patient Assignment](https://arxiv.org/abs/2509.18125): This work presents a reinforcement learning framework for nurse-patient assignments.
+- [Anomaly Detection in Electric Vehicle Charging Stations Using Federated Learning](https://arxiv.org/abs/2509.18126): This paper evaluates federated learning for anomaly detection in EV charging stations.
+- [Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework](https://arxiv.org/abs/2509.18127): This study proposes a framework for interpreting LLM features to enhance safety analysis.
+- [Research on Metro Transportation Flow Prediction Based on the STL-GRU Combined Model](https://arxiv.org/abs/2509.18130): This paper presents a combined model for predicting metro transportation flow.
+- [Two ways to knowledge?](https://arxiv.org/abs/2509.18131): This work discusses the relationship between machine learning and the scientific method.
+- [Self-Evolving LLMs via Continual Instruction Tuning](https://arxiv.org/abs/2509.18133): This paper proposes a framework for continual instruction tuning of LLMs.
+- [SDGF: Fusing Static and Multi-Scale Dynamic Correlations for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.18135): This study presents a model for capturing multi-scale correlations in time series forecasting.
+- [From Parameters to Performance: A Data-Driven Study on LLM Structure and Development](https://arxiv.org/abs/2509.18136): This paper analyzes the relationship between LLM structure and performance.
+- [LoRALib: A Standardized Benchmark for Evaluating LoRA-MoE Methods](https://arxiv.org/abs/2509.18137): This work introduces a benchmark for evaluating LoRA-MoE methods.
+- [A Machine Learning Framework for Pathway-Driven Therapeutic Target Discovery in Metabolic Disorders](https://arxiv.org/abs/2509.18140): This study presents a framework for identifying therapeutic targets in metabolic disorders.
+- [KM-GPT: An Automated Pipeline for Reconstructing Individual Patient Data from Kaplan-Meier Plots](https://arxiv.org/abs/2509.18141): This paper introduces an automated pipeline for reconstructing patient data from Kaplan-Meier plots.
+- [Weight Mapping Properties of a Dual Tree Single Clock Adiabatic Capacitive Neuron](https://arxiv.org/abs/2509.18143): This work explores weight mapping properties in adiabatic capacitive neuron circuits.
+- [AdaSTI: Conditional Diffusion Models with Adaptive Dependency Modeling for Spatio-Temporal Imputation](https://arxiv.org/abs/2509.18144): This study presents a model for spatio-temporal data imputation.
+- [Early Prediction of Multi-Label Care Escalation Triggers in the Intensive Care Unit Using Electronic Health Records](https://arxiv.org/abs/2509.18145): This paper proposes a framework for predicting care escalation triggers in ICU settings.
+- [ConceptFlow: Hierarchical and Fine-grained Concept-Based Explanation for Convolutional Neural Networks](https://arxiv.org/abs/2509.18147): This work presents a framework for concept-based interpretability in CNNs.
+- [Augmenting Limited and Biased RCTs through Pseudo-Sample Matching-Based Observational Data Fusion Method](https://arxiv.org/abs/2509.18148): This study proposes a method for augmenting randomized controlled trials with observational data.
+- [A Kernel Space-based Multidimensional Sparse Model for Dynamic PET Image Denoising](https://arxiv.org/abs/2509.18150): This paper presents a model for denoising dynamic PET images.
+- [Text Slider: Efficient and Plug-and-Play Continuous Concept Control for Image/Video Synthesis via LoRA Adapters](https://arxiv.org/abs/2509.18193): This study introduces a framework for continuous concept control in image and video synthesis.
+- [Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions](https://arxiv.org/abs/2509.18847): This paper proposes a structured reflection approach to improve tool interactions in LLMs.
+- [NGRPO: Negative-enhanced Group Relative Policy Optimization](https://arxiv.org/abs/2509.18851): This work introduces NGRPO, an RL strategy that enhances performance by addressing homogeneous errors.
+- [Memory in Large Language Models: Mechanisms, Evaluation and Evolution](https://arxiv.org/abs/2509.18868): This study proposes a taxonomy for understanding memory in LLMs.
+- [LongCat-Flash-Thinking Technical Report](https://arxiv.org/abs/2509.18883): This report discusses LongCat-Flash-Thinking, an efficient reasoning model.
+- [How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2509.18905): This paper investigates the capabilities of VLMs in spatial reasoning.
+- [Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](https://arxiv.org/abs/2509.18942): This study proposes a framework for continual adaptation in LLMs.
+- [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/abs/2509.18970): This survey analyzes hallucinations in LLM-based agents.
+- [From latent factors to language: a user study on LLM-generated explanations for an inherently interpretable matrix-based recommender system](https://arxiv.org/abs/2509.18980): This study investigates LLM-generated explanations in a recommender system.
+- [Remaining Time Prediction in Outbound Warehouse Processes: A Case Study (Short Paper)](https://arxiv.org/abs/2509.18986): This paper compares remaining time prediction approaches in a warehouse process.
+- [Landmarks, Monuments, and Beacons: Understanding Generative Calls to Action](https://arxiv.org/abs/2509.19030): This work introduces a framework for evaluating procedurally generated content.
+- [Towards Causal Representation Learning with Observable Sources as Auxiliaries](https://arxiv.org/abs/2509.19058): This study presents a framework for causal representation learning using observable sources.
+- [Code Driven Planning with Domain-Adaptive Critic](https://arxiv.org/abs/2509.19077): This paper proposes a framework for improving planning in sequential decision-making tasks.
+- [AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration](https://arxiv.org/abs/2509.19236): This study introduces AgentInit for optimizing agent team composition.
+- [Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World](https://arxiv.org/abs/2509.19265): This paper investigates cross-cultural transfer in commonsense reasoning.
+- [Data Valuation and Selection in a Federated Model Marketplace](https://arxiv.org/abs/2509.18104): This work presents a framework for data valuation in federated learning.
+- [BULL-ODE: Bullwhip Learning with Neural ODEs and Universal Differential Equations under Stochastic Demand](https://arxiv.org/abs/2509.18105): This study examines inventory dynamics under stochastic demand.
+- [Solve it with EASE](https://arxiv.org/abs/2509.18108): This paper presents EASE, a modular framework for iterative algorithmic solution generation.
+- [Prompt Optimization Meets Subspace Representation Learning for Few-shot Out-of-Distribution Detection](https://arxiv.org/abs/2509.18111): This work proposes a framework for out-of-distribution detection using prompt learning.
+- [Amortized Latent Steering: Low-Cost Alternative to Test-Time Optimization](https://arxiv.org/abs/2509.18116): This paper introduces Amortized Latent Steering for optimizing latent representations.
+- [MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents](https://arxiv.org/abs/2509.18119): This study presents an online reinforcement learning framework for mobile GUI agents.
+- [A Coopetitive-Compatible Data Generation Framework for Cross-silo Federated Learning](https://arxiv.org/abs/2509.18120): This paper introduces CoCoGen for collaborative learning in federated settings.
+- [NurseSchedRL: Attention-Guided Reinforcement Learning for Nurse-Patient Assignment](https://arxiv.org/abs/2509.18125): This work presents a reinforcement learning framework for nurse-patient assignments.
+- [Anomaly Detection in Electric Vehicle Charging Stations Using Federated Learning](https://arxiv.org/abs/2509.18126): This paper evaluates federated learning for anomaly detection in EV charging stations.
+- [Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework](https://arxiv.org/abs/2509.18127): This study proposes a framework for interpreting LLM features to enhance safety analysis.
+- [Research on Metro Transportation Flow Prediction Based on the STL-GRU Combined Model](https://arxiv.org/abs/2509.18130): This paper presents a combined model for predicting metro transportation flow.
+- [Two ways to knowledge?](https://arxiv.org/abs/2509.18131): This work discusses the relationship between machine learning and the scientific method.
+- [Self-Evolving LLMs via Continual Instruction Tuning](https://arxiv.org/abs/2509.18133): This paper proposes a framework for continual instruction tuning of LLMs.
+- [SDGF: Fusing Static and Multi-Scale Dynamic Correlations for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.18135): This study presents a model for capturing multi-scale correlations in time series forecasting.
+- [From Parameters to Performance: A Data-Driven Study on LLM Structure and Development](https://arxiv.org/abs/2509.18136): This paper analyzes the relationship between LLM structure and performance.
+- [LoRALib: A Standardized Benchmark for Evaluating LoRA-MoE Methods](https://arxiv.org/abs/2509.18137): This work introduces a benchmark for evaluating LoRA-MoE methods.
+- [A Machine Learning Framework for Pathway-Driven Therapeutic Target Discovery in Metabolic Disorders](https://arxiv.org/abs/2509.18140): This study presents a framework for identifying therapeutic targets in metabolic disorders.
+- [KM-GPT: An Automated Pipeline for Reconstructing Individual Patient Data from Kaplan-Meier Plots](https://arxiv.org/abs/2509.18141): This paper introduces an automated pipeline for reconstructing patient data from Kaplan-Meier plots.
+- [Weight Mapping Properties of a Dual Tree Single Clock Adiabatic Capacitive Neuron](https://arxiv.org/abs/2509.18143): This work explores weight mapping properties in adiabatic capacitive neuron circuits.
+- [AdaSTI: Conditional Diffusion Models with Adaptive Dependency Modeling for Spatio-Temporal Imputation](https://arxiv.org/abs/2509.18144): This study presents a model for spatio-temporal data imputation.
+- [Early Prediction of Multi-Label Care Escalation Triggers in the Intensive Care Unit Using Electronic Health Records](https://arxiv.org/abs/2509.18145): This paper proposes a framework for predicting care escalation triggers in ICU settings.
+- [ConceptFlow: Hierarchical and Fine-grained Concept-Based Explanation for Convolutional Neural Networks](https://arxiv.org/abs/2509.18147): This work presents a framework for concept-based interpretability in CNNs.
+- [Augmenting Limited and Biased RCTs through Pseudo-Sample Matching-Based Observational Data Fusion Method](https://arxiv.org/abs/2509.18148): This study proposes a method for augmenting randomized controlled trials with observational data.
+- [A Kernel Space-based Multidimensional Sparse Model for Dynamic PET Image Denoising](https://arxiv.org/abs/2509.18150): This paper presents a model for denoising dynamic PET images.
+- [Text Slider: Efficient and Plug-and-Play Continuous Concept Control for Image/Video Synthesis via LoRA Adapters](https://arxiv.org/abs/2509.18193): This study introduces a framework for continuous concept control in image and video synthesis.
+- [Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions](https://arxiv.org/abs/2509.18847): This paper proposes a structured reflection approach to improve tool interactions in LLMs.
+- [NGRPO: Negative-enhanced Group Relative Policy Optimization](https://arxiv.org/abs/2509.18851): This work introduces NGRPO, an RL strategy that enhances performance by addressing homogeneous errors.
+- [Memory in Large Language Models: Mechanisms, Evaluation and Evolution](https://arxiv.org/abs/2509.18868): This study proposes a taxonomy for understanding memory in LLMs.
+- [LongCat-Flash-Thinking Technical Report](https://arxiv.org/abs/2509.18883): This report discusses LongCat-Flash-Thinking, an efficient reasoning model.
+- [How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2509.18905): This paper investigates the capabilities of VLMs in spatial reasoning.
+- [Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](https://arxiv.org/abs/2509.18942): This study proposes a framework for continual adaptation in LLMs.
+- [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/abs/2509.18970): This survey analyzes hallucinations in LLM-based agents.
+- [From latent factors to language: a user study on LLM-generated explanations for an inherently interpretable matrix-based recommender system](https://arxiv.org/abs/2509.18980): This study investigates LLM-generated explanations in a recommender system.
+- [Remaining Time Prediction in Outbound Warehouse Processes: A Case Study (Short Paper)](https://arxiv.org/abs/2509.18986): This paper compares remaining time prediction approaches in a warehouse process.
+- [Landmarks, Monuments, and Beacons: Understanding Generative Calls to Action](https://arxiv.org/abs/2509.19030): This work introduces a framework for evaluating procedurally generated content.
+- [Towards Causal Representation Learning with Observable Sources as Auxiliaries](https://arxiv.org/abs/2509.19058): This study presents a framework for causal representation learning using observable sources.
+- [Code Driven Planning with Domain-Adaptive Critic](https://arxiv.org/abs/2509.19077): This paper proposes a framework for improving planning in sequential decision-making tasks.
+- [AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration](https://arxiv.org/abs/2509.19236): This study introduces AgentInit for optimizing agent team composition.
+- [Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World](https://arxiv.org/abs/2509.19265): This paper investigates cross-cultural transfer in commonsense reasoning.
+- [Data Valuation and Selection in a Federated Model Marketplace](https://arxiv.org/abs/2509.18104): This work presents a framework for data valuation in federated learning.
+- [BULL-ODE: Bullwhip Learning with Neural ODEs and Universal Differential Equations under Stochastic Demand](https://arxiv.org/abs/2509.18105): This study examines inventory dynamics under stochastic demand.
+- [Solve it with EASE](https://arxiv.org/abs/2509.18108): This paper presents EASE, a modular framework for iterative algorithmic solution generation.
+- [Prompt Optimization Meets Subspace Representation Learning for Few-shot Out-of-Distribution Detection](https://arxiv.org/abs/2509.18111): This work proposes a framework for out-of-distribution detection using prompt learning.
+- [Amortized Latent Steering: Low-Cost Alternative to Test-Time Optimization](https://arxiv.org/abs/2509.18116): This paper introduces Amortized Latent Steering for optimizing latent representations.
+- [MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents](https://arxiv.org/abs/2509.18119): This study presents an online reinforcement learning framework for mobile GUI agents.
+- [A Coopetitive-Compatible Data Generation Framework for Cross-silo Federated Learning](https://arxiv.org/abs/2509.18120): This paper introduces CoCoGen for collaborative learning in federated settings.
+- [NurseSchedRL: Attention-Guided Reinforcement Learning for Nurse-Patient Assignment](https://arxiv.org/abs/2509.18125): This work presents a reinforcement learning framework for nurse-patient assignments.
+- [Anomaly Detection in Electric Vehicle Charging Stations Using Federated Learning](https://arxiv.org/abs/2509.18126): This paper evaluates federated learning for anomaly detection in EV charging stations.
+- [Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework](https://arxiv.org/abs/2509.18127): This study proposes a framework for interpreting LLM features to enhance safety analysis.
+- [Research on Metro Transportation Flow Prediction Based on the STL-GRU Combined Model](https://arxiv.org/abs/2509.18130): This paper presents a combined model for predicting metro transportation flow.
+- [Two ways to knowledge?](https://arxiv.org/abs/2509.18131): This work discusses the relationship between machine learning and the scientific method.
+- [Self-Evolving LLMs via Continual Instruction Tuning](https://arxiv.org/abs/2509.18133): This paper proposes a framework for continual instruction tuning of LLMs.
+- [SDGF: Fusing Static and Multi-Scale Dynamic Correlations for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.18135): This study presents a model for capturing multi-scale correlations in time series forecasting.
+- [From Parameters to Performance: A Data-Driven Study on LLM Structure and Development](https://arxiv.org/abs/2509.18136): This paper analyzes the relationship between LLM structure and performance.
+- [LoRALib: A Standardized Benchmark for Evaluating LoRA-MoE Methods](https://arxiv.org/abs/2509.18137): This work introduces a benchmark for evaluating LoRA-MoE methods.
+- [A Machine Learning Framework for Pathway-Driven Therapeutic Target Discovery in Metabolic Disorders](https://arxiv.org/abs/2509.18140): This study presents a framework for identifying therapeutic targets in metabolic disorders.
+- [KM-GPT: An Automated Pipeline for Reconstructing Individual Patient Data from Kaplan-Meier Plots](https://arxiv.org/abs/2509.18141): This paper introduces an automated pipeline for reconstructing patient data from Kaplan-Meier plots.
+- [Weight Mapping Properties of a Dual Tree Single Clock Adiabatic Capacitive Neuron](https://arxiv.org/abs/2509.18143): This work explores weight mapping properties in adiabatic capacitive neuron circuits.
+- [AdaSTI: Conditional Diffusion Models with Adaptive Dependency Modeling for Spatio-Temporal Imputation](https://arxiv.org/abs/2509.18144): This study presents a model for spatio-temporal data imputation.
+- [Early Prediction of Multi-Label Care Escalation Triggers in the Intensive Care Unit Using Electronic Health Records](https://arxiv.org/abs/2509.18145): This paper proposes a framework for predicting care escalation triggers in ICU settings.
+- [ConceptFlow: Hierarchical and Fine-grained Concept-Based Explanation for Convolutional Neural Networks](https://arxiv.org/abs/2509.18147): This work presents a framework for concept-based interpretability in CNNs.
+- [Augmenting Limited and Biased RCTs through Pseudo-Sample Matching-Based Observational Data Fusion Method](https://arxiv.org/abs/2509.18148): This study proposes a method for augmenting randomized controlled trials with observational data.
+- [A Kernel Space-based Multidimensional Sparse Model for Dynamic PET Image Denoising](https://arxiv.org/abs/2509.18150): This paper presents a model for denoising dynamic PET images.
+- [Text Slider: Efficient and Plug-and-Play Continuous Concept Control for Image/Video Synthesis via LoRA Adapters](https://arxiv.org/abs/2509.18193): This study introduces a framework for continuous concept control in image and video synthesis.
+- [Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions](https://arxiv.org/abs/2509.18847): This paper proposes a structured reflection approach to improve tool interactions in LLMs.
+- [NGRPO: Negative-enhanced Group Relative Policy Optimization](https://arxiv.org/abs/2509.18851): This work introduces NGRPO, an RL strategy that enhances performance by addressing homogeneous errors.
+- [Memory in Large Language Models: Mechanisms, Evaluation and Evolution](https://arxiv.org/abs/2509.18868): This study proposes a taxonomy for understanding memory in LLMs.
+- [LongCat-Flash-Thinking Technical Report](https://arxiv.org/abs/2509.18883): This report discusses LongCat-Flash-Thinking, an efficient reasoning model.
+- [How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2509.18905): This paper investigates the capabilities of VLMs in spatial reasoning.
+- [Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](https://arxiv.org/abs/2509.18942): This study proposes a framework for continual adaptation in LLMs.
+- [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/abs/2509.18970): This survey analyzes hallucinations in LLM-based agents.
+- [From latent factors to language: a user study on LLM-generated explanations for an inherently interpretable matrix-based recommender system](https://arxiv.org/abs/2509.18980): This study investigates LLM-generated explanations in a recommender system.
+- [Remaining Time Prediction in Outbound Warehouse Processes: A Case Study (Short Paper)](https://arxiv.org/abs/2509.18986): This paper compares remaining time prediction approaches in a warehouse process.
+- [Landmarks, Monuments, and Beacons: Understanding Generative Calls to Action](https://arxiv.org/abs/2509.19030): This work introduces a framework for evaluating procedurally generated content.
+- [Towards Causal Representation Learning with Observable Sources as Auxiliaries](https://arxiv.org/abs/2509.19058): This study presents a framework for causal representation learning using observable sources.
+- [Code Driven Planning with Domain-Adaptive Critic](https://arxiv.org/abs/2509.19077): This paper proposes a framework for improving planning in sequential decision-making tasks.
+- [AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration](https://arxiv.org/abs/2509.19236): This study introduces AgentInit for optimizing agent team composition.
+- [Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World](https://arxiv.org/abs/2509.19265): This paper investigates cross-cultural transfer in commonsense reasoning.
+- [Data Valuation and Selection in a Federated Model Marketplace](https://arxiv.org/abs/2509.18104): This work presents a framework for data valuation in federated learning.
+- [BULL-ODE: Bullwhip Learning with Neural ODEs and Universal Differential Equations under Stochastic Demand](https://arxiv.org/abs/2509.18105): This study examines inventory dynamics under stochastic demand.
+- [Solve it with EASE](https://arxiv.org/abs/2509.18108): This paper presents EASE, a modular framework for iterative algorithmic solution generation.
+- [Prompt Optimization Meets Subspace Representation Learning for Few-shot Out-of-Distribution Detection](https://arxiv.org/abs/2509.18111): This work proposes a framework for out-of-distribution detection using prompt learning.
+- [Amortized Latent Steering: Low-Cost Alternative to Test-Time Optimization](https://arxiv.org/abs/2509.18116): This paper introduces Amortized Latent Steering for optimizing latent representations.
+- [MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents](https://arxiv.org/abs/2509.18119): This study presents an online reinforcement learning framework for mobile GUI agents.
+- [A Coopetitive-Compatible Data Generation Framework for Cross-silo Federated Learning](https://arxiv.org/abs/2509.18120): This paper introduces CoCoGen for collaborative learning in federated settings.
+- [NurseSchedRL: Attention-Guided Reinforcement Learning for Nurse-Patient Assignment](https://arxiv.org/abs/2509.18125): This work presents a reinforcement learning framework for nurse-patient assignments.
+- [Anomaly Detection in Electric Vehicle Charging Stations Using Federated Learning](https://arxiv.org/abs/2509.18126): This paper evaluates federated learning for anomaly detection in EV charging stations.
+- [Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework](https://arxiv.org/abs/2509.18127): This study proposes a framework for interpreting LLM features to enhance safety analysis.
+- [Research on Metro Transportation Flow Prediction Based on the STL-GRU Combined Model](https://arxiv.org/abs/2509.18130): This paper presents a combined model for predicting metro transportation flow.
+- [Two ways to knowledge?](https://arxiv.org/abs/2509.18131): This work discusses the relationship between machine learning and the scientific method.
+- [Self-Evolving LLMs via Continual Instruction Tuning](https://arxiv.org/abs/2509.18133): This paper proposes a framework for continual instruction tuning of LLMs.
+- [SDGF: Fusing Static and Multi-Scale Dynamic Correlations for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.18135): This study presents a model for capturing multi-scale correlations in time series forecasting.
+- [From Parameters to Performance: A Data-Driven Study on LLM Structure and Development](https://arxiv.org/abs/2509.18136): This paper analyzes the relationship between LLM structure and performance.
+- [LoRALib: A Standardized Benchmark for Evaluating LoRA-MoE Methods](https://arxiv.org/abs/2509.18137): This work introduces a benchmark for evaluating LoRA-MoE methods.
+- [A Machine Learning Framework for Pathway-Driven Therapeutic Target Discovery in Metabolic Disorders](https://arxiv.org/abs/2509.18140): This study presents a framework for identifying therapeutic targets in metabolic disorders.
+- [KM-GPT: An Automated Pipeline for Reconstructing Individual Patient Data from Kaplan-Meier Plots](https://arxiv.org/abs/2509.18141): This paper introduces an automated pipeline for reconstructing patient data from Kaplan-Meier plots.
+- [Weight Mapping Properties of a Dual Tree Single Clock Adiabatic Capacitive Neuron](https://arxiv.org/abs/2509.18143): This work explores weight mapping properties in adiabatic capacitive neuron circuits.
+- [AdaSTI: Conditional Diffusion Models with Adaptive Dependency Modeling for Spatio-Temporal Imputation](https://arxiv.org/abs/2509.18144): This study presents a model for spatio-temporal data imputation.
+- [Early Prediction of Multi-Label Care Escalation Triggers in the Intensive Care Unit Using Electronic Health Records](https://arxiv.org/abs/2509.18145): This paper proposes a framework for predicting care escalation triggers in ICU settings.
+- [ConceptFlow: Hierarchical and Fine-grained Concept-Based Explanation for Convolutional Neural Networks](https://arxiv.org/abs/2509.18147): This work presents a framework for concept-based interpretability in CNNs.
+- [Augmenting Limited and Biased RCTs through Pseudo-Sample Matching-Based Observational Data Fusion Method](https://arxiv.org/abs/2509.18148): This study proposes a method for augmenting randomized controlled trials with observational data.
+- [A Kernel Space-based Multidimensional Sparse Model for Dynamic PET Image Denoising](https://arxiv.org/abs/2509.18150): This paper presents a model for denoising dynamic PET images.
+- [Text Slider: Efficient and Plug-and-Play Continuous Concept Control for Image/Video Synthesis via LoRA Adapters](https://arxiv.org/abs/2509.18193): This study introduces a framework for continuous concept control in image and video synthesis.
+- [Failure Makes the Agent Stronger: Enhancing Accuracy through Structured Reflection for Reliable Tool Interactions](https://arxiv.org/abs/2509.18847): This paper proposes a structured reflection approach to improve tool interactions in LLMs.
+- [NGRPO: Negative-enhanced Group Relative Policy Optimization](https://arxiv.org/abs/2509.18851): This work introduces NGRPO, an RL strategy that enhances performance by addressing homogeneous errors.
+- [Memory in Large Language Models: Mechanisms, Evaluation and Evolution](https://arxiv.org/abs/2509.18868): This study proposes a taxonomy for understanding memory in LLMs.
+- [LongCat-Flash-Thinking Technical Report](https://arxiv.org/abs/2509.18883): This report discusses LongCat-Flash-Thinking, an efficient reasoning model.
+- [How Far are VLMs from Visual Spatial Intelligence? A Benchmark-Driven Perspective](https://arxiv.org/abs/2509.18905): This paper investigates the capabilities of VLMs in spatial reasoning.
+- [Data Efficient Adaptation in Large Language Models via Continuous Low-Rank Fine-Tuning](https://arxiv.org/abs/2509.18942): This study proposes a framework for continual adaptation in LLMs.
+- [LLM-based Agents Suffer from Hallucinations: A Survey of Taxonomy, Methods, and Directions](https://arxiv.org/abs/2509.18970): This survey analyzes hallucinations in LLM-based agents.
+- [From latent factors to language: a user study on LLM-generated explanations for an inherently interpretable matrix-based recommender system](https://arxiv.org/abs/2509.18980): This study investigates LLM-generated explanations in a recommender system.
+- [Remaining Time Prediction in Outbound Warehouse Processes: A Case Study (Short Paper)](https://arxiv.org/abs/2509.18986): This paper compares remaining time prediction approaches in a warehouse process.
+- [Landmarks, Monuments, and Beacons: Understanding Generative Calls to Action](https://arxiv.org/abs/2509.19030): This work introduces a framework for evaluating procedurally generated content.
+- [Towards Causal Representation Learning with Observable Sources as Auxiliaries](https://arxiv.org/abs/2509.19058): This study presents a framework for causal representation learning using observable sources.
+- [Code Driven Planning with Domain-Adaptive Critic](https://arxiv.org/abs/2509.19077): This paper proposes a framework for improving planning in sequential decision-making tasks.
+- [AgentInit: Initializing LLM-based Multi-Agent Systems via Diversity and Expertise Orchestration for Effective and Efficient Collaboration](https://arxiv.org/abs/2509.19236): This study introduces AgentInit for optimizing agent team composition.
+- [Cross-Cultural Transfer of Commonsense Reasoning in LLMs: Evidence from the Arab World](https://arxiv.org/abs/2509.19265): This paper investigates cross-cultural transfer in commonsense reasoning.
+- [Data Valuation and Selection in a Federated Model Marketplace](https://arxiv.org/abs/2509.18104): This work presents a framework for data valuation in federated learning.
+- [BULL-ODE: Bullwhip Learning with Neural ODEs and Universal Differential Equations under Stochastic Demand](https://arxiv.org/abs/2509.18105): This study examines inventory dynamics under stochastic demand.
+- [Solve it with EASE](https://arxiv.org/abs/2509.18108): This paper presents EASE, a modular framework for iterative algorithmic solution generation.
+- [Prompt Optimization Meets Subspace Representation Learning for Few-shot Out-of-Distribution Detection](https://arxiv.org/abs/2509.18111): This work proposes a framework for out-of-distribution detection using prompt learning.
+- [Amortized Latent Steering: Low-Cost Alternative to Test-Time Optimization](https://arxiv.org/abs/2509.18116): This paper introduces Amortized Latent Steering for optimizing latent representations.
+- [MobileRL: Online Agentic Reinforcement Learning for Mobile GUI Agents](https://arxiv.org/abs/2509.18119): This study presents an online reinforcement learning framework for mobile GUI agents.
+- [A Coopetitive-Compatible Data Generation Framework for Cross-silo Federated Learning](https://arxiv.org/abs/2509.18120): This paper introduces CoCoGen for collaborative learning in federated settings.
+- [NurseSchedRL: Attention-Guided Reinforcement Learning for Nurse-Patient Assignment](https://arxiv.org/abs/2509.18125): This work presents a reinforcement learning framework for nurse-patient assignments.
+- [Anomaly Detection in Electric Vehicle Charging Stations Using Federated Learning](https://arxiv.org/abs/2509.18126): This paper evaluates federated learning for anomaly detection in EV charging stations.
+- [Safe-SAIL: Towards a Fine-grained Safety Landscape of Large Language Models via Sparse Autoencoder Interpretation Framework](https://arxiv.org/abs/2509.18127): This study proposes a framework for interpreting LLM features to enhance safety analysis.
+- [Research on Metro Transportation Flow Prediction Based on the STL-GRU Combined Model](https://arxiv.org/abs/2509.18130): This paper presents a combined model for predicting metro transportation flow.
+- [Two ways to knowledge?](https://arxiv.org/abs/2509.18131): This work discusses the relationship between machine learning and the scientific method.
+- [Self-Evolving LLMs via Continual Instruction Tuning](https://arxiv.org/abs/2509.18133): This paper proposes a framework for continual instruction tuning of LLMs.
+- [SDGF: Fusing Static and Multi-Scale Dynamic Correlations for Multivariate Time Series Forecasting](https://arxiv.org/abs/2509.18135): This study presents a model for capturing multi-scale correlations in time series forecasting.
+- [From Parameters to Performance: A Data-Driven Study on LLM Structure and Development](https://arxiv.org/abs/2509.18136): This paper analyzes the relationship between LLM structure and performance.
+- [LoRALib: A Standardized Benchmark for Evaluating LoRA-MoE Methods](https://arxiv.org/abs/2509.18137): This work introduces a benchmark for evaluating LoRA-MoE methods.
+- [A Machine Learning Framework for Pathway-Driven Therapeutic Target Discovery in Metabolic Disorders](https://arxiv.org/abs/2509.18140): This study presents a framework for identifying therapeutic targets in metabolic disorders.
+- [KM-GPT: An Automated Pipeline for Reconstructing Individual Patient Data from Kaplan-Meier Plots](https://arxiv.org/abs/2509.18141): This paper introduces an automated pipeline for reconstructing patient data from Kaplan-Meier plots.
+- [Weight Mapping Properties of a Dual Tree Single Clock Adiabatic Capacitive Neuron](https://arxiv.org/abs/2509.18143): This work explores weight mapping properties in adiabatic capacitive neuron circuits.
+- [AdaSTI: Conditional Diffusion Models with Adaptive Dependency Modeling for Spatio-Temporal Imputation](https
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Articles Related to Security and AI
+
+#### Key Trends and Insights
+
+1. **Security in AI Systems**: A significant focus on security-related challenges in AI systems is evident, particularly concerning Large Language Models (LLMs). Papers such as "LLMZ+: Contextual Prompt Whitelist Principles for Agentic LLMs" and "Strategic Dishonesty Can Undermine AI Safety Evaluations of Frontier LLMs" highlight the vulnerabilities of LLMs to adversarial attacks and the need for robust security measures, including prompt whitelisting and detection of strategic dishonesty.
+
+2. **Bias and Fairness**: Several studies, including "Gender and Political Bias in Large Language Models: A Demonstration Platform" and "Justice in Judgment: Unveiling (Hidden) Bias in LLM-assisted Peer Reviews," explore biases in AI systems, emphasizing the importance of fairness in AI outputs. These papers advocate for the development of frameworks to audit and mitigate biases in AI-generated content.
+
+3. **Data Privacy and Ethical Considerations**: The papers "Towards Privacy-Aware Bayesian Networks: A Credal Approach" and "Can Global XAI Methods Reveal Injected Bias in LLMs?" discuss the ethical implications of AI, particularly concerning data privacy and the need for transparent AI systems that can explain their decisions and biases.
+
+4. **Robustness and Adaptability**: Research such as "FedFiTS: Fitness-Selected, Slotted Client Scheduling for Trustworthy Federated Learning in Healthcare AI" and "DOTA: Distributional Test-Time Adaptation of Vision-Language Models" emphasizes the need for AI systems to be robust and adaptable to changing environments and data distributions, particularly in sensitive domains like healthcare.
+
+5. **Generative AI and Misinformation**: The studies "Generative Propaganda" and "Anecdoctoring: Automated Red-Teaming Across Language and Place" highlight the potential misuse of generative AI technologies for spreading misinformation and the importance of developing tools to counteract these threats.
+
+6. **Evaluation and Benchmarking**: Papers like "DivLogicEval: A Framework for Benchmarking Logical Reasoning Evaluation in Large Language Models" and "VIR-Bench: Evaluating Geospatial and Temporal Understanding of MLLMs via Travel Video Itinerary Reconstruction" propose new benchmarks and evaluation methodologies to assess the performance and safety of AI systems, ensuring they meet necessary standards before deployment.
+
+### Summary of Papers and Articles
+
+1. **A Cost-Benefit Analysis of On-Premise Large Language Model Deployment**: This paper discusses the economic viability of deploying LLMs locally versus using commercial services, considering factors like data privacy and operational costs.
+
+2. **SPADE: A Large Language Model Framework for Soil Moisture Pattern Recognition**: Introduces SPADE, which uses LLMs for precision agriculture, focusing on soil moisture analytics.
+
+3. **Position Paper: Integrating Explainability and Uncertainty Estimation in Medical AI**: Proposes a framework for enhancing trust in medical AI by integrating explainability with uncertainty estimation.
+
+4. **HSGM: Hierarchical Segment-Graph Memory for Scalable Long-Text Semantics**: Presents a new framework for processing long documents efficiently, reducing memory requirements.
+
+5. **Foam-Agent: An End-to-End Composable Multi-Agent Framework for Automating CFD Simulation**: Introduces a framework for automating computational fluid dynamics simulations using multi-agent systems.
+
+6. **Large Language Models and Operations Research: A Structured Survey**: Surveys the integration of LLMs into operations research, identifying challenges and opportunities.
+
+7. **Synthesizing Attitudes, Predicting Actions (SAPA)**: Proposes a framework for predicting ridesourcing mode choices using LLMs to synthesize traveler personas.
+
+8. **An Outcome-Based Educational Recommender System**: Introduces OBER, a recommender system that focuses on educational outcomes rather than traditional metrics.
+
+9. **MMCD: Multi-Modal Collaborative Decision-Making for Connected Autonomy**: Proposes a framework for improving decision-making in autonomous systems using multi-modal data.
+
+10. **Change in Quantitative Bipolar Argumentation**: Discusses a formal approach to explaining changes in argumentation frameworks.
+
+11. **nDNA -- the Semantic Helix of Artificial Cognition**: Proposes a new representation for understanding AI models' internal cognition.
+
+12. **Similarity Field Theory**: Introduces a mathematical framework for understanding similarity relations in dynamic systems.
+
+13. **Multimodal Health Risk Prediction System**: Proposes a system for predicting health risks using a combination of visual and textual data.
+
+14. **From "What to Eat?" to Perfect Recipe**: Introduces ChefMind, a system for personalized recipe recommendations.
+
+15. **An N-Plus-1 GPT Agency for Mechanical Engineering Analysis Problems**: Discusses a multi-agent framework for solving mechanical engineering problems using GPT.
+
+16. **Towards General Computer Control with Hierarchical Agents**: Proposes a framework for controlling desktop applications using hierarchical reinforcement learning.
+
+17. **The Illusion of Readiness**: Evaluates the robustness of large models on medical benchmarks, highlighting discrepancies between leaderboard scores and real-world readiness.
+
+18. **Evaluating the Safety and Skill Reasoning of Large Reasoning Models**: Investigates compute scaling strategies for improving reasoning models' performance.
+
+19. **G\"odel Test**: Evaluates whether LLMs can solve simple conjectures in mathematics.
+
+20. **ATLAS: Benchmarking and Adapting LLMs for Global Trade**: Introduces a benchmark for Harmonized Tariff Code classification.
+
+21. **Instruction-Following Evaluation in Function Calling for LLMs**: Proposes a benchmark for evaluating LLMs' adherence to function calling instructions.
+
+22. **Memory-QA**: Introduces a task for answering recall questions based on multimodal memories.
+
+23. **FERA: Foil Fencing Referee Assistant**: Proposes an AI referee for foil fencing.
+
+24. **LLMZ+: Contextual Prompt Whitelist Principles for Agentic LLMs**: Discusses a security framework for agentic LLMs.
+
+25. **Solving Math Word Problems**: Proposes a method for solving math word problems using estimation verification.
+
+26. **Adaptive Learning in Spatial Agent-Based Models for Climate Risk Assessment**: Introduces a framework for assessing climate risks using agent-based models.
+
+27. **TERAG: Token-Efficient Graph-Based Retrieval-Augmented Generation**: Proposes a framework for efficient graph-based retrieval-augmented generation.
+
+28. **Implementation of airborne ML models with semantics preservation**: Discusses the development of ML models for airborne systems.
+
+29. **Advances in Large Language Models for Medicine**: Reviews the progress of LLMs in the medical field.
+
+30. **Autonomous Data Agents**: Discusses the potential of autonomous data agents for data management.
+
+31. **Experience Scaling**: Proposes a framework for continuous learning in LLMs.
+
+32. **The AGNTCY Agent Directory Service**: Introduces a directory service for AI agents.
+
+33. **Bounded PCTL Model Checking of LLM Outputs**: Discusses a method for verifying LLM outputs.
+
+34. **Model selection meets clinical semantics**: Proposes a framework for clinical coding prediction.
+
+35. **MAPO: Mixed Advantage Policy Optimization**: Introduces a new strategy for reinforcement learning.
+
+36. **Conf-Profile**: Proposes a framework for user profiling using confidence-driven reasoning.
+
+37. **Memory in Large Language Models**: Discusses the mechanisms of memory in LLMs.
+
+38. **LongCat-Flash-Thinking**: Introduces a new reasoning model for LLMs.
+
+39. **How Far are VLMs from Visual Spatial Intelligence?**: Investigates the capabilities of vision-language models in spatial reasoning.
+
+40. **Data Efficient Adaptation in Large Language Models**: Proposes a framework for efficient fine-tuning of LLMs.
+
+41. **LLM-based Agents Suffer from Hallucinations**: Surveys the hallucination issues in LLM-based agents.
+
+42. **From latent factors to language**: Investigates LLM-generated explanations for interpretable recommendation systems.
+
+43. **Remaining Time Prediction in Outbound Warehouse Processes**: Compares different approaches for predicting remaining time in warehouse processes.
+
+44. **Landmarks, Monuments, and Beacons**: Discusses the evaluation of procedurally generated content in games.
+
+45. **Towards Causal Representation Learning**: Proposes a framework for causal representation learning.
+
+46. **Code Driven Planning with Domain-Adaptive Critic**: Introduces a framework for planning in sequential decision-making problems.
+
+47. **AgentInit**: Proposes a method for initializing multi-agent systems.
+
+48. **Cross-Cultural Transfer of Commonsense Reasoning**: Investigates the potential for cross-cultural transfer in commonsense reasoning.
+
+49. **Data Valuation and Selection in a Federated Model Marketplace**: Proposes a framework for data selection in federated learning.
+
+50. **BULL-ODE**: Studies learning of continuous-time inventory dynamics.
+
+51. **Solve it with EASE**: Introduces a framework for iterative algorithmic solution generation.
+
+52. **Prompt Optimization Meets Subspace Representation Learning**: Proposes a framework for out-of-distribution detection.
+
+53. **Amortized Latent Steering**: Introduces a method for optimizing latent space representations.
+
+54. **MobileRL**: Proposes a framework for reinforcement learning in mobile GUI agents.
+
+55. **A Coopetitive-Compatible Data Generation Framework**: Discusses a framework for collaborative learning under competition.
+
+56. **NurseSchedRL**: Introduces a framework for nurse-patient assignment using reinforcement learning.
+
+57. **Anomaly Detection in Electric Vehicle Charging Stations**: Evaluates federated learning for anomaly detection.
+
+58. **Safe-SAIL**: Proposes a framework for interpreting safety-related features in LLMs.
+
+59. **Change Detection in Remote Sensing**: Introduces a new benchmark for change detection in remote sensing images.
+
+60. **Causal Inference and Counterfactuals**: Discusses a framework for causal inference in event sequences.
+
+61. **AI Literacy in Higher Education**: Proposes a structured approach to AI literacy in higher education.
+
+62. **Audio-Based Pedestrian Detection**: Evaluates audio-based pedestrian detection in the presence of vehicular noise.
+
+63. **A New Benchmark for Remote Sensing Change Detection**: Introduces a new benchmark for change detection in remote sensing images.
+
+64. **A Framework for Generating Artificial Datasets**: Proposes a framework for generating datasets for AI models.
+
+65. **Generative AI Myths, Busted**: Discusses common misconceptions about generative AI.
+
+66. **The Art of Asking Good Questions**: Explores the importance of asking the right questions in data science.
+
+67. **Why Are Marketers Turning To Quasi Geo-Lift Experiments?**: Discusses the use of quasi geo-lift experiments in marketing.
+
+68. **5 Techniques to Prevent Hallucinations in Your RAG Question Answering**: Provides techniques for reducing hallucinations in question answering systems.
+
+69. **How to Connect an MCP Server for an AI-Powered, Supply-Chain Network Optimization Agent**: Discusses the integration of MCP servers for supply chain optimization.
+
+70. **Time Series Foundation Models Can Be Few-Shot Learners**: Explores the capabilities of time series foundation models.
+
+### Conclusion
+
+The landscape of AI research is rapidly evolving, with a strong emphasis on security, bias mitigation, and the integration of multimodal capabilities. The papers and articles reviewed highlight the importance of developing robust, interpretable, and efficient AI systems that can adapt to real-world challenges while ensuring ethical considerations are met. As AI continues to permeate various sectors, ongoing research will be crucial in addressing the complexities and risks associated with its deployment.
