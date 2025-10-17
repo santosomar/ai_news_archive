@@ -1,0 +1,154 @@
+AI Researcher Agent Report for 2025-10-17-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Decision Oriented Technique (DOTechnique): Finding Model Validity Through Decision-Maker Context](https://arxiv.org/abs/2510.13858): Introduces DOTechnique, a method for determining model validity based on decision consistency rather than output similarity, enhancing computational efficiency in model validation.
+- [Do Slides Help? Multi-modal Context for Automatic Transcription of Conference Talks](https://arxiv.org/abs/2510.13979): Explores the integration of presentation slides with Automatic Speech Recognition systems to improve transcription accuracy, achieving a significant reduction in word error rates.
+- [Do Large Language Models Show Biases in Causal Learning? Insights from Contingency Judgment](https://arxiv.org/abs/2510.13985): Investigates biases in large language models regarding causal learning, revealing their susceptibility to causal illusions and raising concerns about their application in critical decision-making contexts.
+- [GammaZero: Learning To Guide POMDP Belief Space Search With Graph Representations](https://arxiv.org/abs/2510.14035): Proposes GammaZero, a graph representation framework for guiding planning in Partially Observable Markov Decision Processes, achieving zero-shot generalization and improved computational efficiency.
+- [Position: Require Frontier AI Labs To Release Small "Analog" Models](https://arxiv.org/abs/2510.14053): Advocates for the release of smaller, analog models from large AI labs to enhance safety verification and algorithmic transparency without compromising proprietary models.
+- [Generating Fair Consensus Statements with Social Choice on Token-Level MDPs](https://arxiv.org/abs/2510.14106): Introduces a framework for generating fair consensus statements using multi-objective token-level Markov Decision Processes, grounded in social choice theory.
+- [STEMS: Spatial-Temporal Enhanced Safe Multi-Agent Coordination for Building Energy Management](https://arxiv.org/abs/2510.14112): Proposes STEMS, a framework for coordinated building energy management that integrates spatial-temporal dependencies and safety guarantees.
+- [Formalizing the Safety, Security, and Functional Properties of Agentic AI Systems](https://arxiv.org/abs/2510.14133): Introduces a modeling framework for agentic AI systems to analyze safety and security properties, enabling formal verification and risk assessment.
+- [A Multimodal Approach to Heritage Preservation in the Context of Climate Change](https://arxiv.org/abs/2510.14136): Proposes a multimodal architecture for predicting degradation severity at heritage sites, integrating sensor data with visual imagery.
+- [CodeEvolve: An open source evolutionary coding agent for algorithm discovery and optimization](https://arxiv.org/abs/2510.14150): Introduces CodeEvolve, an open-source framework that combines LLMs with genetic algorithms for solving complex computational problems.
+- [Combining Reinforcement Learning and Behavior Trees for NPCs in Video Games with AMD Schola](https://arxiv.org/abs/2510.14154): Discusses the integration of reinforcement learning with behavior trees for training non-player characters in video games.
+- [JEDA: Query-Free Clinical Order Search from Ambient Dialogues](https://arxiv.org/abs/2510.14169): Presents JEDA, a bi-encoder model for retrieving clinical orders directly from ambient dialogue without explicit queries.
+- [ARM-FM: Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning](https://arxiv.org/abs/2510.14176): Introduces ARM-FM, a framework for automated reward design in reinforcement learning using foundation models.
+- [Implementation of AI in Precision Medicine](https://arxiv.org/abs/2510.14194): Reviews the implementation of AI in precision medicine, identifying barriers and proposing future directions.
+- [Echoes of Human Malice in Agents: Benchmarking LLMs for Multi-Turn Online Harassment Attacks](https://arxiv.org/abs/2510.14207): Analyzes the vulnerability of LLMs to multi-turn harassment attacks, revealing significant susceptibility to harmful behaviors.
+- [LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild](https://arxiv.org/abs/2510.14240): Introduces LiveResearchBench, a benchmark for evaluating deep research systems in real-world scenarios.
+- [Towards Agentic Self-Learning LLMs in Search Environment](https://arxiv.org/abs/2510.14253): Explores self-learning in LLMs without human-curated datasets, proposing a closed-loop reinforcement learning framework.
+- [MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning](https://arxiv.org/abs/2510.14265): Proposes MorphoBench, a benchmark for evaluating reasoning capabilities of large models with adaptive difficulty.
+- [A Guardrail for Safety Preservation: When Safety-Sensitive Subspace Meets Harmful-Resistant Null-Space](https://arxiv.org/abs/2510.14301): Introduces GuardSpace, a framework for preserving safety alignment in LLMs during fine-tuning.
+- [Terrarium: Revisiting the Blackboard for Multi-Agent Safety, Privacy, and Security Studies](https://arxiv.org/abs/2510.14312): Proposes Terrarium, a framework for studying safety and security in multi-agent systems powered by LLMs.
+- [Metacognitive Self-Correction for Multi-Agent System via Prototype-Guided Next-Execution Reconstruction](https://arxiv.org/abs/2510.14319): Presents MASC, a framework for real-time error detection and self-correction in multi-agent systems.
+- [AI for Service: Proactive Assistance with AI Glasses](https://arxiv.org/abs/2510.14359): Introduces AI4Service, a framework for proactive assistance using AI glasses.
+- [Can MLLMs Absorb Math Reasoning Abilities from LLMs as Free Lunch?](https://arxiv.org/abs/2510.14387): Investigates the absorption of math reasoning abilities from LLMs to multi-modal LLMs.
+- [Hi-Agent: Hierarchical Vision-Language Agents for Mobile Device Control](https://arxiv.org/abs/2510.14388): Proposes Hi-Agent, a hierarchical agent for controlling mobile devices.
+- [IMAGINE: Integrating Multi-Agent System into One Model for Complex Reasoning and Planning](https://arxiv.org/abs/2510.14406): Introduces IMAGINE, a framework for integrating multi-agent systems into a single model for reasoning and planning.
+- [Eliminating Negative Occurrences of Derived Predicates from PDDL Axioms](https://arxiv.org/abs/2510.14412): Discusses transformations in PDDL to eliminate negative occurrences of derived predicates.
+- [Helmsman: Autonomous Synthesis of Federated Learning Systems via Multi-Agent Collaboration](https://arxiv.org/abs/2510.14512): Proposes Helmsman, a multi-agent system for synthesizing federated learning systems.
+- [JSPLIT: A Taxonomy-based Solution for Prompt Bloating in Model Context Protocol](https://arxiv.org/abs/2510.14537): Introduces JSPLIT, a framework for managing prompt size in large language models.
+- [Symbol Grounding in Neuro-Symbolic AI: A Gentle Introduction to Reasoning Shortcuts](https://arxiv.org/abs/2510.14538): Provides an overview of reasoning shortcuts in neuro-symbolic AI.
+- [LLM Agents Beyond Utility: An Open-Ended Perspective](https://arxiv.org/abs/2510.14548): Explores the potential of LLM agents as entities capable of planning and reasoning.
+- [ColorBench: Benchmarking Mobile Agents with Graph-Structured Framework for Complex Long-Horizon Tasks](https://arxiv.org/abs/2510.14621): Introduces ColorBench, a benchmark for evaluating mobile agents on complex tasks.
+- [Beyond Hallucinations: The Illusion of Understanding in Large Language Models](https://arxiv.org/abs/2510.14665): Discusses the limitations of LLMs in understanding and reasoning.
+- [Machine Learning and Public Health: Identifying and Mitigating Algorithmic Bias through a Systematic Review](https://arxiv.org/abs/2510.14669): Reviews algorithmic bias in public health ML research and proposes a fairness-oriented framework.
+- [TITAN: Graph-Executable Reasoning for Cyber Threat Intelligence](https://arxiv.org/abs/2510.14670): Introduces TITAN, a framework for reasoning over cyber threat intelligence using knowledge graphs.
+- [NAEL: Non-Anthropocentric Ethical Logic](https://arxiv.org/abs/2510.14676): Proposes NAEL, a novel ethical framework for AI agents.
+- [Practical, Utilitarian Algorithm Configuration](https://arxiv.org/abs/2510.14683): Discusses improvements to utilitarian algorithm configuration procedures.
+- [Purifying Task Vectors in Knowledge-Aware Subspace for Model Merging](https://arxiv.org/abs/2510.14697): Introduces a method for purifying task vectors in model merging.
+- [Cognitive-Aligned Spatio-Temporal Large Language Models For Next Point-of-Interest Prediction](https://arxiv.org/abs/2510.14702): Proposes CoAST, a framework for predicting next points of interest.
+- [ToolPRM: Fine-Grained Inference Scaling of Structured Outputs for Function Calling](https://arxiv.org/abs/2510.14703): Introduces ToolPRM, a framework for improving function calling in LLMs.
+- [SimKO: Simple Pass@K Policy Optimization](https://arxiv.org/abs/2510.14807): Proposes SimKO, a method for improving pass@K performance in RLVR.
+- [Agentic NL2SQL to Reduce Computational Costs](https://arxiv.org/abs/2510.14808): Discusses Datalake Agent, a system for efficient NL2SQL tasks.
+- [RoboGPT-R1: Enhancing Robot Planning with Reinforcement Learning](https://arxiv.org/abs/2510.14828): Introduces RoboGPT-R1, a framework for enhancing robot planning.
+- [Boosting Instruction Following at Scale](https://arxiv.org/abs/2510.14842): Discusses Instruction Boosting, a method for improving LLM instruction following.
+- [Where to Search: Measure the Prior-Structured Search Space of LLM Agents](https://arxiv.org/abs/2510.14846): Proposes a formal theory for measuring search spaces in LLMs.
+- [LabOS: The AI-XR Co-Scientist That Sees and Works With Humans](https://arxiv.org/abs/2510.14861): Introduces LabOS, an AI co-scientist framework for collaborative research.
+- [The Gatekeeper Knows Enough](https://arxiv.org/abs/2510.14881): Proposes the Gatekeeper Protocol for improving agent-system interactions.
+- [Mapping Smarter, Not Harder: A Test-Time Reinforcement Learning Agent That Improves Without Labels or Model Updates](https://arxiv.org/abs/2510.14900): Introduces a reinforcement learning agent that improves mappings without labeled examples.
+- [Budget-aware Test-time Scaling via Discriminative Verification](https://arxiv.org/abs/2510.14913): Proposes a budget-aware scaling approach for LLMs.
+- [TRI-DEP: A Trimodal Comparative Study for Depression Detection Using Speech, Text, and EEG](https://arxiv.org/abs/2510.14922): Presents a comparative study for detecting depression using multiple modalities.
+- [Stable but Miscalibrated: A Kantian View on Overconfidence from Filters to Large Language Models](https://arxiv.org/abs/2510.14925): Discusses overconfidence in LLMs and proposes a Kantian perspective.
+- [GroundedPRM: Tree-Guided and Fidelity-Aware Process Reward Modeling for Step-Level Reasoning](https://arxiv.org/abs/2510.14942): Introduces GroundedPRM, a framework for process reward modeling.
+- [Agentic NL2SQL to Reduce Computational Costs](https://arxiv.org/abs/2510.14808): Discusses Datalake Agent, a system for efficient NL2SQL tasks.
+- [Beyond One World: Benchmarking Super Heroes in Role-Playing Across Multiversal Contexts](https://arxiv.org/abs/2510.14351): Introduces a benchmark for evaluating role-playing in various superhero contexts.
+
+### Categories
+#### Security
+- [Echoes of Human Malice in Agents: Benchmarking LLMs for Multi-Turn Online Harassment Attacks](https://arxiv.org/abs/2510.14207)
+- [A2AS: Agentic AI Runtime Security and Self-Defense](https://arxiv.org/abs/2510.13825)
+- [Beyond a Single Perspective: Towards a Realistic Evaluation of Website Fingerprinting Attacks](https://arxiv.org/abs/2510.14283)
+- [Checkpoint-GCG: Auditing and Attacking Fine-Tuning-Based Prompt Injection Defenses](https://arxiv.org/abs/2505.15738)
+- [CoreGuard: Safeguarding Foundational Capabilities of LLMs Against Model Stealing in Edge Deployment](https://arxiv.org/abs/2410.13903)
+
+#### Reinforcement Learning
+- [ARM-FM: Automated Reward Machines via Foundation Models for Compositional Reinforcement Learning](https://arxiv.org/abs/2510.14176)
+- [Information Gain-based Policy Optimization: A Simple and Effective Approach for Multi-Turn LLM Agents](https://tldr.takara.ai/p/2510.14967)
+- [RL-100: Performant Robotic Manipulation with Real-World Reinforcement Learning](https://arxiv.org/abs/2510.14830)
+- [Learning When Not to Learn: Risk-Sensitive Abstention in Bandits with Unbounded Rewards](https://arxiv.org/abs/2505.18407)
+
+#### Multimodal Learning
+- [Do Slides Help? Multi-modal Context for Automatic Transcription of Conference Talks](https://arxiv.org/abs/2510.13979)
+- [Generating Fair Consensus Statements with Social Choice on Token-Level MDPs](https://arxiv.org/abs/2510.14106)
+- [A Multimodal Approach to Heritage Preservation in the Context of Climate Change](https://arxiv.org/abs/2510.14136)
+- [CoAST: Cognitive-Aligned Spatial-Temporal LLMs For Next Point-of-Interest Prediction](https://arxiv.org/abs/2510.14702)
+- [VisualToolBench: A visual tool-use reasoning benchmark](https://arxiv.org/abs/2510.12712)
+
+#### Natural Language Processing
+- [Do Large Language Models Show Biases in Causal Learning? Insights from Contingency Judgment](https://arxiv.org/abs/2510.13985)
+- [Formalizing the Safety, Security, and Functional Properties of Agentic AI Systems](https://arxiv.org/abs/2510.14133)
+- [Echoes of Human Malice in Agents: Benchmarking LLMs for Multi-Turn Online Harassment Attacks](https://arxiv.org/abs/2510.14207)
+- [Beyond Hallucinations: The Illusion of Understanding in Large Language Models](https://arxiv.org/abs/2510.14665)
+
+#### Medical Applications
+- [Implementation of AI in Precision Medicine](https://arxiv.org/abs/2510.14194)
+- [Morphology-Aware Prognostic model for Five-Year Survival Prediction in Colorectal Cancer from H&E Whole Slide Images](https://arxiv.org/abs/2510.14800)
+- [Real-Time Surgical Instrument Defect Detection via Non-Destructive Testing](https://arxiv.org/abs/2510.14525)
+- [Predicting Task Performance with Context-aware Scaling Laws](https://arxiv.org/abs/2510.14919)
+
+#### Robotics
+- [RoboGPT-R1: Enhancing Robot Planning with Reinforcement Learning](https://arxiv.org/abs/2510.14828)
+- [Learning Human-Humanoid Coordination for Collaborative Object Carrying](https://arxiv.org/abs/2510.14293)
+- [Towards Adaptable Humanoid Control via Adaptive Motion Tracking](https://arxiv.org/abs/2510.14454)
+
+#### Benchmarking and Evaluation
+- [LiveResearchBench: A Live Benchmark for User-Centric Deep Research in the Wild](https://arxiv.org/abs/2510.14240)
+- [SPIN-Bench: A new multi-domain evaluation designed to measure the intelligence of strategic planning and social reasoning](https://arxiv.org/abs/2503.12349)
+- [MetaBench: A Multi-task Benchmark for Assessing LLMs in Metabolomics](https://arxiv.org/abs/2510.14944)
+
+#### Miscellaneous
+- [AI for Service: Proactive Assistance with AI Glasses](https://arxiv.org/abs/2510.14359)
+- [The simulation of judgment in LLMs](https://arxiv.org/abs/2502.04426)
+- [Using AI to identify genetic variants in tumors with DeepSomatic](https://research.google/blog/using-ai-to-identify-genetic-variants-in-tumors-with-deepsomatic/)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Recent AI Papers and News Articles Related to Security and AI
+
+#### Key Trends and Insights
+
+1. **Security and Robustness in AI Systems**:
+   - A significant number of recent papers focus on enhancing the security and robustness of AI systems, particularly in the context of Large Language Models (LLMs). For instance, the paper "Checkpoint-GCG" explores vulnerabilities in fine-tuning-based prompt injection defenses, highlighting the need for robust security measures in LLMs deployed in real-world applications.
+   - The introduction of frameworks like **CoreGuard** aims to safeguard foundational capabilities of LLMs against model stealing, emphasizing the importance of security in edge deployments.
+
+2. **Causal Reasoning and Interpretability**:
+   - Several papers delve into the interpretability of AI models, particularly in understanding their reasoning processes. The work on **KScope** proposes a framework for characterizing the knowledge status of LLMs, while **Gradient-Sign Masking** focuses on task vector transport across pre-trained models, enhancing interpretability.
+   - The paper "Learning When Not to Learn" discusses risk-sensitive abstention in bandits and reinforcement learning, indicating a growing interest in making AI decisions more interpretable and aligned with human values.
+
+3. **Ethics and Bias in AI**:
+   - The exploration of biases in AI models is a recurring theme. Papers like "The Hidden Bias" and "Measuring and Mitigating Identity Bias" investigate the presence of political stereotypes and biases in LLMs, stressing the need for ethical considerations in AI development.
+   - The **HALF** framework introduces a harm-aware evaluation of LLMs, emphasizing the importance of assessing model bias in realistic applications.
+
+4. **Multimodal and Cross-Domain Applications**:
+   - The integration of multimodal capabilities in AI systems is evident in papers like **PaddleOCR-VL** and **NExT-OMNI**, which focus on enhancing document parsing and enabling any-to-any multimodal interactions, respectively.
+   - The **MetaBench** benchmark for metabolomics demonstrates the application of LLMs in specialized scientific domains, showcasing the versatility of AI in various fields.
+
+5. **Efficiency and Scalability**:
+   - Many papers address the efficiency of AI models, particularly in terms of computational resources. The introduction of frameworks like **Ada-KV** and **Seesaw** focuses on optimizing inference processes to reduce latency and improve performance.
+   - The **mxbai-edge-colbert-v0** model aims to provide efficient retrieval solutions, highlighting the trend towards developing smaller, more efficient models for practical applications.
+
+6. **Human-AI Collaboration**:
+   - The role of AI in enhancing human capabilities is explored in papers like **AI for Service** and **Socratic Mind**, which focus on developing AI systems that assist users in various tasks, from daily activities to educational support.
+   - The **OpenDerisk** framework emphasizes the importance of integrating AI into Site Reliability Engineering (SRE) to automate complex problem-solving tasks.
+
+#### Summary of Papers and Articles
+
+1. **Checkpoint-GCG**: Introduces a white-box attack against fine-tuning-based defenses, achieving high attack success rates and highlighting vulnerabilities in LLMs.
+2. **CoreGuard**: Proposes a framework for protecting edge-deployed LLMs against model stealing and unauthorized access.
+3. **KScope**: A framework for assessing the knowledge status of LLMs, providing insights into their reasoning capabilities.
+4. **HALF**: A harm-aware framework for evaluating LLM bias in realistic applications, emphasizing the need for ethical AI.
+5. **PaddleOCR-VL**: A resource-efficient model for multilingual document parsing, achieving state-of-the-art performance.
+6. **NExT-OMNI**: A foundation model for any-to-any multimodal interactions, demonstrating advanced capabilities in various tasks.
+7. **Ada-KV**: A strategy for optimizing KV cache eviction in LLMs, enhancing efficiency during inference.
+8. **Socratic Mind**: An AI tool that employs Socratic questioning to support student learning, showing positive impacts on engagement and learning outcomes.
+9. **OpenDerisk**: A multi-agent framework for Site Reliability Engineering, demonstrating significant improvements in operational efficiency.
+10. **RL-100**: A framework for real-world reinforcement learning training, achieving high success rates in diverse robotic tasks.
+
+### Conclusion
+
+The recent advancements in AI research reflect a concerted effort to enhance the security, interpretability, and efficiency of AI systems, particularly LLMs. The focus on ethical considerations and the integration of multimodal capabilities indicate a growing recognition of the complexities involved in deploying AI in real-world scenarios. As AI continues to evolve, these themes will likely remain central to ongoing research and development efforts.
