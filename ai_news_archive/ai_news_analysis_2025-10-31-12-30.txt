@@ -1,0 +1,145 @@
+AI Researcher Agent Report for 2025-10-31-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Towards Piece-by-Piece Explanations for Chess Positions with SHAP](https://arxiv.org/abs/2510.25775): This paper adapts SHAP (SHapley Additive exPlanations) to chess analysis, attributing evaluations from chess engines to individual pieces on the board. The method aims to enhance visualization, training, and comparison of chess engines.
+- [An Agentic Framework for Rapid Deployment of Edge AI Solutions in Industry 5.0](https://arxiv.org/abs/2510.25813): This paper presents a framework for deploying AI models on edge devices in industrial settings, focusing on reducing latency and enabling local inference.
+- [Symbolically Scaffolded Play: Designing Role-Sensitive Prompts for Generative NPC Dialogue](https://arxiv.org/abs/2510.25820): This research investigates the effectiveness of constrained prompts for NPC dialogue in games, revealing that tighter constraints do not always enhance player experience.
+- [Through the Judge's Eyes: Inferred Thinking Traces Improve Reliability of LLM Raters](https://arxiv.org/abs/2510.25860): This paper introduces a framework to infer thinking traces from LLM raters, improving agreement with human judgments and enhancing annotation guidelines.
+- [The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence](https://arxiv.org/abs/2510.25883): This work proposes a framework linking survival pressure to information processing demands, emphasizing the role of compression in intelligence.
+- [Approximating Human Preferences Using a Multi-Judge Learned System](https://arxiv.org/abs/2510.25884): This paper presents a framework for modeling diverse human preferences using outputs from multiple judges to improve alignment with human values.
+- [SciTrust 2.0: A Comprehensive Framework for Evaluating Trustworthiness of Large Language Models in Scientific Applications](https://arxiv.org/abs/2510.25908): This framework evaluates LLM trustworthiness in scientific contexts across dimensions like truthfulness and ethics, revealing significant deficiencies in science-specialized models.
+- [FinOps Agent -- A Use-Case for IT Infrastructure and Cost Optimization](https://arxiv.org/abs/2510.25914): This paper discusses leveraging autonomous AI agents for financial operations automation, showcasing a FinOps agent for IT cost optimization.
+- [Humains-Junior: A 3.8B Language Model Achieving GPT-4o-Level Factual Accuracy by Directed Exoskeleton Reasoning](https://arxiv.org/abs/2510.25933): This paper introduces a small language model that matches GPT-4o in factual accuracy while being significantly cheaper to deploy.
+- [Estimating cognitive biases with attention-aware inverse planning](https://arxiv.org/abs/2510.25951): This research formalizes the attention-aware inverse planning problem to estimate cognitive biases from actions.
+- [From Queries to Insights: Agentic LLM Pipelines for Spatio-Temporal Text-to-SQL](https://arxiv.org/abs/2510.25997): This paper presents an agentic pipeline for natural language to SQL conversion, achieving high accuracy in spatio-temporal queries.
+- [AutoSurvey2: Empowering Researchers with Next Level Automated Literature Surveys](https://arxiv.org/abs/2510.26012): This paper introduces a multi-stage pipeline for automating literature survey generation, outperforming existing methods.
+- [Large Language Model-assisted Autonomous Vehicle Recovery from Immobilization](https://arxiv.org/abs/2510.26023): This paper presents StuckSolver, an LLM-driven framework for autonomous vehicle recovery from immobilization scenarios.
+- [Can AI be Accountable?](https://arxiv.org/abs/2510.26057): This paper discusses the need for accountability in AI systems, exploring definitions and approaches to improve accountability.
+- [Lean4Physics: Comprehensive Reasoning Framework for College-level Physics in Lean4](https://arxiv.org/abs/2510.26094): This paper presents a reasoning framework for college-level physics problems in Lean4, reporting baseline results and challenges.
+- [GUI Knowledge Bench: Revealing the Knowledge Gap Behind VLM Failures in GUI Tasks](https://arxiv.org/abs/2510.26098): This paper analyzes the knowledge gaps in VLMs for GUI tasks and introduces a benchmark for assessing GUI knowledge.
+- [Beyond Benchmarks: The Economics of AI Inference](https://arxiv.org/abs/2510.26136): This paper introduces a framework for understanding the economics of AI inference, analyzing costs and performance.
+- [Reasoning Curriculum: Bootstrapping Broad LLM Reasoning from Math](https://arxiv.org/abs/2510.26143): This paper proposes a two-stage curriculum for enhancing reasoning skills in LLMs, yielding consistent gains.
+- [The FM Agent](https://arxiv.org/abs/2510.26144): This paper presents a multi-agent framework leveraging LLM reasoning for solving complex real-world challenges.
+- [One Model to Critique Them All: Rewarding Agentic Tool-Use via Efficient Reasoning](https://arxiv.org/abs/2510.26167): This work introduces ToolRM, a family of reward models for tool-use scenarios, improving performance on critique tasks.
+- [Questionnaire meets LLM: A Benchmark and Empirical Study of Structural Skills for Understanding Questions and Responses](https://arxiv.org/abs/2510.26238): This paper introduces a benchmark for evaluating LLMs' abilities to process questionnaire data.
+- [Retrieval Augmented Generation-Enhanced Distributed LLM Agents for Generalizable Traffic Signal Control with Emergency Vehicles](https://arxiv.org/abs/2510.26242): This paper presents a framework for traffic signal control using LLM agents, achieving significant improvements in performance.
+- [Graph-Enhanced Policy Optimization in LLM Agent Training](https://arxiv.org/abs/2510.26270): This paper introduces GEPO, a method for enhancing LLM agent training using graph-theoretic approaches.
+- [GraphCompliance: Aligning Policy and Context Graphs for LLM-Based Regulatory Compliance](https://arxiv.org/abs/2510.26309): This paper presents a framework for aligning regulatory texts with runtime contexts for compliance.
+- [Discovering State Equivalences in UCT Search Trees By Action Pruning](https://arxiv.org/abs/2510.26346): This work proposes a method for enhancing Monte Carlo Tree Search efficiency through state abstraction.
+- [BOTS: A Unified Framework for Bayesian Online Task Selection in LLM Reinforcement Finetuning](https://arxiv.org/abs/2510.26374): This paper introduces BOTS, a framework for adaptive task selection in LLM reinforcement finetuning.
+- [AI Mathematician as a Partner in Advancing Mathematical Discovery - A Case Study in Homogenization Theory](https://arxiv.org/abs/2510.26380): This study investigates the collaborative reasoning between AI and humans in mathematical research.
+- [Scales++: Compute Efficient Evaluation Subset Selection with Cognitive Scales Embeddings](https://arxiv.org/abs/2510.26384): This paper presents a method for efficient benchmarking of LLMs based on cognitive demands.
+- [A Pragmatic View of AI Personhood](https://arxiv.org/abs/2510.26396): This paper discusses the implications of AI personhood and its governance.
+- [Autograder+: A Multi-Faceted AI Framework for Rich Pedagogical Feedback in Programming Education](https://arxiv.org/abs/2510.26402): This paper presents Autograder+, an AI framework for providing feedback in programming education.
+- [MedSAE: Dissecting MedCLIP Representations with Sparse Autoencoders](https://arxiv.org/abs/2510.26411): This work advances interpretability in medical AI by applying sparse autoencoders to MedCLIP representations.
+- [Chain-of-Thought Hijacking](https://arxiv.org/abs/2510.26418): This paper introduces a jailbreak attack on reasoning models, revealing vulnerabilities in safety mechanisms.
+- [Who Has The Final Say? Conformity Dynamics in ChatGPT's Selections](https://arxiv.org/abs/2510.26481): This study investigates the susceptibility of LLMs to social influence in decision-making contexts.
+- [LINK-KG: LLM-Driven Coreference-Resolved Knowledge Graphs for Human Smuggling Networks](https://arxiv.org/abs/2510.26486): This paper presents LINK-KG, a framework for constructing knowledge graphs from legal documents.
+- [Context Engineering 2.0: The Context of Context Engineering](https://arxiv.org/abs/2510.26493): This paper discusses the evolution of context engineering in AI systems.
+- [Human-AI Complementarity: A Goal for Amplified Oversight](https://arxiv.org/abs/2510.26518): This work explores how AI can improve human oversight in AI systems.
+- [EdgeRunner 20B: Military Task Parity with GPT-5 while Running on the Edge](https://arxiv.org/abs/2510.26550): This paper presents EdgeRunner 20B, a military-focused language model.
+- [Agentic AI Home Energy Management System: A Large Language Model Framework for Residential Load Scheduling](https://arxiv.org/abs/2510.26603): This paper introduces an AI framework for managing residential energy loads.
+- [Normative Reasoning in Large Language Models: A Comparative Benchmark from Logical and Modal Perspectives](https://arxiv.org/abs/2510.26606): This work evaluates LLMs' normative reasoning capabilities.
+- [The Era of Agentic Organization: Learning to Organize with Language Models](https://arxiv.org/abs/2510.26658): This paper introduces AsyncThink, a new paradigm for reasoning with LLMs.
+- [Delegated Authorization for Agents Constrained to Semantic Task-to-Scope Matching](https://arxiv.org/abs/2510.26702): This paper presents a model for semantic task-based authorization in AI agents.
+- [Unveiling Intrinsic Text Bias in Multimodal Large Language Models through Attention Key-Space Analysis](https://arxiv.org/abs/2510.26721): This work analyzes text bias in multimodal LLMs.
+- [Cross-Platform Evaluation of Reasoning Capabilities in Foundation Models](https://arxiv.org/abs/2510.26732): This paper presents a cross-platform evaluation of reasoning in foundation models.
+- [The Oversight Game: Learning to Cooperatively Balance an AI Agent's Safety and Autonomy](https://arxiv.org/abs/2510.26752): This study models the interaction between AI agents and human oversight.
+- [LLMs Process Lists With General Filter Heads](https://arxiv.org/abs/2510.26784): This paper investigates how LLMs process list tasks.
+- [DINO-YOLO: Self-Supervised Pre-training for Data-Efficient Object Detection in Civil Engineering Applications](https://arxiv.org/abs/2510.25140): This work presents a hybrid architecture for object detection in civil engineering.
+- [Magentic Marketplace: An Open-Source Environment for Studying Agentic Markets](https://arxiv.org/abs/2510.25779): This paper introduces a simulated environment for studying agentic marketplaces.
+- [A Practitioner's Guide to Kolmogorov-Arnold Networks](https://arxiv.org/abs/2510.25781): This review provides an overview of Kolmogorov-Arnold Networks.
+- [LASTIST: LArge-Scale Target-Independent STance dataset](https://arxiv.org/abs/2510.25783): This study proposes a dataset for target-independent stance detection.
+- [zFLoRA: Zero-Latency Fused Low-Rank Adapters](https://arxiv.org/abs/2510.25784): This paper presents a method for low-latency adapters in LLMs.
+- [HiMAE: Hierarchical Masked Autoencoders Discover Resolution-Specific Structure in Wearable Time Series](https://arxiv.org/abs/2510.25785): This work introduces a self-supervised framework for wearable health data.
+- [BlackboxNLP-2025 MIB Shared Task: Improving Circuit Faithfulness via Better Edge Selection](https://arxiv.org/abs/2510.25786): This paper proposes improvements to circuit discovery in mechanistic interpretability.
+- [Unsupervised local learning based on voltage-dependent synaptic plasticity for resistive and ferroelectric synapses](https://arxiv.org/abs/2510.25787): This study introduces a method for unsupervised learning in memristive devices.
+- [The Kinetics of Reasoning: How Chain-of-Thought Shapes Learning in Transformers?](https://arxiv.org/abs/2510.25791): This paper investigates the learning dynamics of reasoning in transformers.
+- [Non-myopic Matching and Rebalancing in Large-Scale On-Demand Ride-Pooling Systems Using Simulation-Informed Reinforcement Learning](https://arxiv.org/abs/2510.25796): This work presents a simulation-informed RL approach for ride-pooling systems.
+- [Learning Geometry: A Framework for Building Adaptive Manifold Models through Metric Optimization](https://arxiv.org/abs/2510.26068): This paper proposes a framework for optimizing geometric structures in machine learning models.
+- [Nirvana: A Specialized Generalist Model With Task-Aware Memory Mechanism](https://arxiv.org/abs/2510.26083): This work introduces a model with a specialized memory mechanism for adaptive learning.
+- [Network-Constrained Policy Optimization for Adaptive Multi-agent Vehicle Routing](https://arxiv.org/abs/2510.26089): This paper presents a multi-agent RL framework for vehicle routing.
+- [Deep sequence models tend to memorize geometrically; it is unclear why](https://arxiv.org/abs/2510.26745): This study investigates the geometric structure of memory in deep sequence models.
+- [Posterior Sampling by Combining Diffusion Models with Annealed Langevin Dynamics](https://arxiv.org/abs/2510.26324): This paper presents a method for posterior sampling using diffusion models.
+- [Learning to Manage Investment Portfolios beyond Simple Utility Functions](https://arxiv.org/abs/2510.26165): This work proposes a generative framework for modeling investment strategies.
+- [Linking Heterogeneous Data with Coordinated Agent Flows for Social Media Analysis](https://arxiv.org/abs/2510.26172): This paper introduces SIA, an LLM agent system for analyzing social media data.
+- [AI's Social Forcefield: Reshaping Distributed Cognition in Human-AI Teams](https://arxiv.org/abs/2407.17489): This work discusses how AI influences collaboration in teams.
+- [Learning to Insert for Constructive Neural Vehicle Routing Solver](https://arxiv.org/abs/2505.13904): This paper presents a method for improving neural combinatorial optimization in vehicle routing.
+- [Learning World Models for Interactive Video Generation](https://arxiv.org/abs/2505.21996): This work enhances video generation models with interactive capabilities.
+- [OmniLayout: Enabling Coarse-to-Fine Learning with LLMs for Universal Document Layout Generation](https://arxiv.org/abs/2510.26800): This paper introduces a dataset and model for diverse document layout generation.
+- [M-Prometheus: A Suite of Open Multilingual LLM Judges](https://arxiv.org/abs/2504.04953): This work presents a suite of multilingual LLM judges for evaluating outputs.
+- [AI's Social Forcefield: Reshaping Distributed Cognition in Human-AI Teams](https://arxiv.org/abs/2407.17489): This paper discusses how AI influences collaboration in teams.
+
+### Categories
+#### Security
+- [Chain-of-Thought Hijacking](https://arxiv.org/abs/2510.26418): This paper introduces a jailbreak attack on reasoning models, revealing vulnerabilities in safety mechanisms.
+- [SecureReviewer: Enhancing Large Language Models for Secure Code Review through Secure-aware Fine-tuning](https://arxiv.org/abs/2510.26457): This paper discusses the need for accountability in AI systems, exploring definitions and approaches to improve accountability.
+- [UV-Attack: Physical-World Adversarial Attacks for Person Detection via Dynamic-NeRF-based UV Mapping](https://arxiv.org/abs/2501.05783): This work presents a novel approach to localizing radioactive material by cooperating Micro Aerial Vehicles (MAVs).
+- [StyleGuard: Preventing Text-to-Image-Model-based Style Mimicry Attacks by Style Perturbations](https://arxiv.org/abs/2505.18766): This paper proposes a novel anti-mimicry method, StyleGuard, to counter style mimicry in various models.
+
+#### Reasoning and Learning
+- [Towards Piece-by-Piece Explanations for Chess Positions with SHAP](https://arxiv.org/abs/2510.25775): This paper adapts SHAP (SHapley Additive exPlanations) to chess analysis, attributing evaluations from chess engines to individual pieces on the board.
+- [Symbolically Scaffolded Play: Designing Role-Sensitive Prompts for Generative NPC Dialogue](https://arxiv.org/abs/2510.25820): This research investigates the effectiveness of constrained prompts for NPC dialogue in games, revealing that tighter constraints do not always enhance player experience.
+- [Through the Judge's Eyes: Inferred Thinking Traces Improve Reliability of LLM Raters](https://arxiv.org/abs/2510.25860): This paper introduces a framework to infer thinking traces from LLM raters, improving agreement with human judgments and enhancing annotation guidelines.
+- [The Information-Theoretic Imperative: Compression and the Epistemic Foundations of Intelligence](https://arxiv.org/abs/2510.25883): This work proposes a framework linking survival pressure to information processing demands, emphasizing the role of compression in intelligence.
+- [Approximating Human Preferences Using a Multi-Judge Learned System](https://arxiv.org/abs/2510.25884): This paper presents a framework for modeling diverse human preferences using outputs from multiple judges to improve alignment with human values.
+- [Reasoning Curriculum: Bootstrapping Broad LLM Reasoning from Math](https://arxiv.org/abs/2510.26143): This paper proposes a two-stage curriculum for enhancing reasoning skills in LLMs, yielding consistent gains.
+- [Learning to Manage Investment Portfolios beyond Simple Utility Functions](https://arxiv.org/abs/2510.26165): This work proposes a generative framework for modeling investment strategies.
+
+#### Applications
+- [An Agentic Framework for Rapid Deployment of Edge AI Solutions in Industry 5.0](https://arxiv.org/abs/2510.25813): This paper presents a framework for deploying AI models on edge devices in industrial settings, focusing on reducing latency and enabling local inference.
+- [SciTrust 2.0: A Comprehensive Framework for Evaluating Trustworthiness of Large Language Models in Scientific Applications](https://arxiv.org/abs/2510.25908): This framework evaluates LLM trustworthiness in scientific contexts across dimensions like truthfulness and ethics, revealing significant deficiencies in science-specialized models.
+- [FinOps Agent -- A Use-Case for IT Infrastructure and Cost Optimization](https://arxiv.org/abs/2510.25914): This paper discusses leveraging autonomous AI agents for financial operations automation, showcasing a FinOps agent for IT cost optimization.
+- [Humains-Junior: A 3.8B Language Model Achieving GPT-4o-Level Factual Accuracy by Directed Exoskeleton Reasoning](https://arxiv.org/abs/2510.25933): This paper introduces a small language model that matches GPT-4o in factual accuracy while being significantly cheaper to deploy.
+- [Large Language Model-assisted Autonomous Vehicle Recovery from Immobilization](https://arxiv.org/abs/2510.26023): This paper presents StuckSolver, an LLM-driven framework for autonomous vehicle recovery from immobilization scenarios.
+- [MedAgentBoard: Benchmarking Multi-Agent Collaboration with Conventional Methods for Diverse Medical Tasks](https://arxiv.org/abs/2505.12371): This paper introduces a benchmark for evaluating multi-agent collaboration in medical tasks.
+
+#### Evaluation and Benchmarking
+- [AMO-Bench: Large Language Models Still Struggle in High School Math Competitions](https://arxiv.org/abs/2510.26768): This paper presents a benchmark for evaluating mathematical reasoning capabilities of large language models (LLMs).
+- [M-Prometheus: A Suite of Open Multilingual LLM Judges](https://arxiv.org/abs/2504.04953): This work presents a suite of multilingual LLM judges for evaluating outputs.
+- [Zero-shot Benchmarking: A Framework for Flexible and Scalable Automatic Evaluation of Language Models](https://arxiv.org/abs/2504.01001): This framework creates high-quality benchmarks for any task by leveraging language models for both synthetic test data creation and evaluation.
+
+#### Miscellaneous
+- [The Era of Agentic Organization: Learning to Organize with Language Models](https://arxiv.org/abs/2510.26658): This paper introduces AsyncThink, a new paradigm for reasoning with LLMs.
+- [AI's Social Forcefield: Reshaping Distributed Cognition in Human-AI Teams](https://arxiv.org/abs/2407.17489): This work discusses how AI influences collaboration in teams.
+- [Learning to Insert for Constructive Neural Vehicle Routing Solver](https://arxiv.org/abs/2505.13904): This paper presents a method for improving neural combinatorial optimization in vehicle routing.
+- [OmniLayout: Enabling Coarse-to-Fine Learning with LLMs for Universal Document Layout Generation](https://arxiv.org/abs/2510.26800): This paper introduces a dataset and model for diverse document layout generation.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **Security and Trust in AI Systems**
+   - **SciTrust 2.0**: This framework evaluates the trustworthiness of large language models (LLMs) in scientific applications, focusing on truthfulness, adversarial robustness, scientific safety, and ethics. It highlights the vulnerabilities of science-specialized models in high-risk domains.
+   - **SecureReviewer**: This approach enhances LLMs for secure code reviews, focusing on identifying security issues during the development lifecycle. It emphasizes the importance of fine-tuning LLMs to detect and suggest fixes for security vulnerabilities.
+   - **Chain-of-Thought Hijacking**: This paper discusses a jailbreak attack on reasoning models, revealing how reasoning can be manipulated to bypass safeguards, emphasizing the need for robust security measures in LLMs.
+   - **GraphCompliance**: This framework aligns regulatory texts with runtime contexts to enhance compliance in AI applications, showcasing the importance of structured reasoning in regulatory contexts.
+
+#### 2. **Adversarial Attacks and Defense Mechanisms**
+   - **UV-Attack**: This study introduces a method for physical-world adversarial attacks on person detection systems, highlighting the vulnerabilities of current models to adversarial inputs.
+   - **StyleGuard**: This method prevents style mimicry attacks on text-to-image models by optimizing style-related features, addressing concerns about intellectual property and the generation of deceptive content.
+   - **LatentBreak**: This paper presents a jailbreak attack that generates natural adversarial prompts to evade defenses, emphasizing the need for robust detection mechanisms against such attacks.
+
+#### 3. **Ethical Considerations and Bias in AI**
+   - **Epistemic Diversity and Knowledge Collapse**: This research examines the homogeneity in LLM outputs and its implications for knowledge representation, stressing the importance of diversity in AI-generated content to avoid knowledge collapse.
+   - **In Defence of Post-hoc Explainability**: This position paper argues for the value of post-hoc explainability methods in AI, emphasizing their role in scientific knowledge production despite criticisms regarding reliability.
+
+#### 4. **Human-AI Collaboration and Safety**
+   - **Human-in-the-loop Approaches**: Several papers emphasize the importance of human feedback in refining AI models, such as **Action Preference Optimization** for VLA models and **Vital Insight**, which assists experts in analyzing multi-modal data.
+   - **Multi-Agent Collaboration**: The paper on **Completion ≠ Collaboration** advocates for evaluating agents based on their collaborative capabilities rather than just task completion, highlighting the need for agents to engage effectively with human users.
+
+#### 5. **Frameworks and Benchmarks for Evaluation**
+   - **M-Prometheus**: This suite of multilingual LLM judges enhances the evaluation of language models, addressing the need for robust metrics in diverse languages.
+   - **AMO-Bench**: This benchmark evaluates LLMs on advanced mathematical reasoning tasks, revealing significant gaps in current models' capabilities and emphasizing the need for improved reasoning abilities.
+
+### Trends and Insights
+- **Increased Focus on Security**: There is a growing emphasis on securing AI systems against adversarial attacks and ensuring trustworthiness, particularly in high-stakes applications like healthcare and finance.
+- **Human-Centric Approaches**: Many recent studies advocate for integrating human feedback into AI systems to enhance safety and effectiveness, suggesting a shift towards more collaborative AI.
+- **Need for Robust Evaluation Metrics**: The development of comprehensive benchmarks and frameworks for evaluating AI systems is crucial, particularly in the context of security, bias, and ethical considerations.
+- **Emerging Threats**: The identification of new attack vectors, such as jailbreaks and adversarial prompts, highlights the ongoing challenges in securing AI systems and the need for adaptive defenses.
+
+### Conclusion
+The landscape of AI security is evolving rapidly, with significant advancements in frameworks, evaluation metrics, and methodologies aimed at enhancing the robustness and trustworthiness of AI systems. The integration of human feedback and the focus on ethical considerations are pivotal in shaping the future of AI applications across various domains.
