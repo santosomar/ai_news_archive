@@ -1,0 +1,185 @@
+AI Researcher Agent Report for 2025-11-10-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [A hybrid solution approach for the Integrated Healthcare Timetabling Competition 2024](https://arxiv.org/abs/2511.04685): This paper presents a hybrid algorithm that combines mixed-integer programming, constraint programming, and simulated annealing, achieving third place in the Integrated Healthcare Timetabling Competition 2024. It discusses design decisions, insights, and lower bounds on optimal solutions.
+- [Epistemic Reject Option Prediction](https://arxiv.org/abs/2511.04855): This paper introduces a framework for predictive models to abstain from making predictions in regions of high epistemic uncertainty, focusing on improving decision reliability in high-stakes applications.
+- [DMA: Online RAG Alignment with Human Feedback](https://arxiv.org/abs/2511.04880): The paper presents Dynamic Memory Alignment (DMA), a framework for adapting retrieval-augmented generation systems using human feedback to improve engagement and performance in conversational QA tasks.
+- [Real-Time Reasoning Agents in Evolving Environments](https://arxiv.org/abs/2511.04898): This work introduces AgileThinker, a framework for real-time reasoning in agents that balances rapid responses and deep reasoning, outperforming existing models in dynamic environments.
+- [ORCHID: Orchestrated Retrieval-Augmented Classification with Human-in-the-Loop Intelligent Decision-Making for High-Risk Property](https://arxiv.org/abs/2511.04956): The paper describes ORCHID, a modular system for high-risk property classification that combines retrieval-augmented generation with human oversight for improved accuracy and traceability.
+- [Autonomous generation of different courses of action in mechanized combat operations](https://arxiv.org/abs/2511.05182): This research proposes a methodology for generating and evaluating alternative courses of action in military operations, focusing on decision-making under evolving combat conditions.
+- [Cleaning Maintenance Logs with LLM Agents for Improved Predictive Maintenance](https://arxiv.org/abs/2511.05311): The paper explores the use of large language models to clean maintenance logs, addressing challenges in predictive maintenance in the automotive sector.
+- [Reasoning Is All You Need for Urban Planning AI](https://arxiv.org/abs/2511.05375): This position paper advocates for reasoning-capable AI agents in urban planning, emphasizing the need for explicit reasoning capabilities in decision-making processes.
+- [Efficient Deployment of CNN Models on Multiple In-Memory Computing Units](https://arxiv.org/abs/2511.04682): The paper discusses strategies for deploying convolutional neural networks on in-memory computing hardware, introducing a load-balance algorithm for optimizing performance.
+- [AI-Powered Citation Auditing: A Zero-Assumption Protocol for Systematic Reference Verification in Academic Research](https://arxiv.org/abs/2511.04683): This research presents an AI methodology for auditing academic citations, achieving high verification rates and efficiency compared to manual methods.
+- [Stateful KV Cache Management for LLMs: Balancing Space, Time, Accuracy, and Positional Fidelity](https://arxiv.org/abs/2511.04686): The paper analyzes key-value cache management in large language models, proposing strategies to maintain generation quality while managing cache size.
+- [Adaptive Testing for LLM Evaluation: A Psychometric Alternative to Static Benchmarks](https://arxiv.org/abs/2511.04689): This work introduces an adaptive testing framework for evaluating large language models, achieving significant reductions in item exposure while maintaining measurement precision.
+- [A Penny for Your Thoughts: Decoding Speech from Inexpensive Brain Signals](https://arxiv.org/abs/2511.04691): The paper explores the use of neural networks to decode EEG signals into speech, highlighting the potential for brain-computer interfaces.
+- [Reasoning Up the Instruction Ladder for Controllable Language Models](https://arxiv.org/abs/2511.04694): This research focuses on enforcing instruction hierarchies in language models to improve reliability and controllability in high-stakes applications.
+- [EncouRAGe: Evaluating RAG Local, Fast, and Reliable](https://arxiv.org/abs/2511.04696): The paper introduces a framework for developing and evaluating retrieval-augmented generation systems, emphasizing scientific reproducibility and local deployment.
+- [Simulating Misinformation Vulnerabilities With Agent Personas](https://arxiv.org/abs/2511.04697): This research develops an agent-based simulation to study responses to misinformation, validating the use of LLM-generated agents for analyzing trust and susceptibility.
+- [multiMentalRoBERTa: A Fine-tuned Multiclass Classifier for Mental Health Disorder](https://arxiv.org/abs/2511.04698): The paper presents a fine-tuned RoBERTa model for classifying mental health disorders from social media text, emphasizing predictive accuracy and explainability.
+- [Separate the Wheat from the Chaff: Winnowing Down Divergent Views in Retrieval Augmented Generation](https://arxiv.org/abs/2511.04700): This work proposes a framework for filtering irrelevant documents in retrieval-augmented generation systems, enhancing the quality of generated responses.
+- [Measuring what Matters: Construct Validity in Large Language Model Benchmarks](https://arxiv.org/abs/2511.04703): The paper reviews large language model benchmarks, highlighting validity issues and providing recommendations for developing reliable evaluation metrics.
+- [POLIS-Bench: Towards Multi-Dimensional Evaluation of LLMs for Bilingual Policy Tasks in Governmental Scenarios](https://arxiv.org/abs/2511.04705): This research introduces a benchmark for evaluating bilingual policy tasks in governmental scenarios, emphasizing scenario-grounded task design.
+- [Prioritize Economy or Climate Action? Investigating ChatGPT Response Differences Based on Inferred Political Orientation](https://arxiv.org/abs/2511.04706): The study explores how inferred political views impact ChatGPT's responses, revealing biases in output based on user demographics.
+- [Jailbreaking in the Haystack](https://arxiv.org/abs/2511.04707): This paper introduces a method for jailbreaking aligned language models by manipulating input contexts, revealing vulnerabilities in long-context models.
+- [SWAP: Towards Copyright Auditing of Soft Prompts via Sequential Watermarking](https://arxiv.org/abs/2511.04711): The research investigates watermarking techniques for soft prompts in vision-language models, proposing a new approach to model copyright protection.
+- [First is Not Really Better Than Last: Evaluating Layer Choice and Aggregation Strategies in Language Model Data Influence Estimation](https://arxiv.org/abs/2511.04715): This paper analyzes the effectiveness of different layers in estimating data influence in language models, proposing better aggregation methods.
+- [P-MIA: A Profiled-Based Membership Inference Attack on Cognitive Diagnosis Models](https://arxiv.org/abs/2511.04716): The research investigates membership inference attacks on cognitive diagnosis models, proposing a novel framework for evaluating privacy risks.
+- [Ada-FCN: Adaptive Frequency-Coupled Network for fMRI-Based Brain Disorder Classification](https://arxiv.org/abs/2511.04718): This paper presents a framework for classifying brain disorders using fMRI data, focusing on adaptive frequency learning.
+- [Learning to reason about rare diseases through retrieval-augmented agents](https://arxiv.org/abs/2511.04720): The research introduces RADAR, a system for rare disease detection using retrieval-augmented reasoning agents.
+- [Temporal convolutional and fusional transformer model with Bi-LSTM encoder-decoder for multi-time-window remaining useful life prediction](https://arxiv.org/abs/2511.04723): This paper proposes a framework for predicting the remaining useful life of industrial systems using advanced time-series models.
+- [IndicVisionBench: Benchmarking Cultural and Multilingual Understanding in VLMs](https://arxiv.org/abs/2511.04727): The research introduces a benchmark for evaluating vision-language models in culturally diverse and multilingual contexts.
+- [Trustworthiness Calibration Framework for Phishing Email Detection Using Large Language Models](https://arxiv.org/abs/2511.04728): This study presents a framework for evaluating phishing detection models, emphasizing trustworthiness and reliability.
+- [Knowledge-based anomaly detection for identifying network-induced shape artifacts](https://arxiv.org/abs/2511.04729): The paper introduces a method for detecting anomalies in synthetic data, focusing on medical imaging applications.
+- [CPO: Condition Preference Optimization for Controllable Image Generation](https://arxiv.org/abs/2511.04753): This research presents a method for optimizing controllability in text-to-image generation tasks.
+- [ScheduleStream: Temporal Planning with Samplers for GPU-Accelerated Multi-Arm Task and Motion Planning & Scheduling](https://arxiv.org/abs/2511.04758): The paper introduces a framework for planning and scheduling in robotics, focusing on efficient multi-arm control.
+- [Causal Structure and Representation Learning with Biomedical Applications](https://arxiv.org/abs/2511.04790): This work outlines a framework for causal structure learning in biomedical contexts, emphasizing representation learning.
+- [MDM: Manhattan Distance Mapping of DNN Weights for Parasitic-Resistance-Resilient Memristive Crossbars](https://arxiv.org/abs/2511.04798): The paper discusses a technique for optimizing deep neural network weight mapping in memristive hardware.
+- [Data Efficiency and Transfer Robustness in Biomedical Image Segmentation: A Study of Redundancy and Forgetting with Cellpose](https://arxiv.org/abs/2511.04803): This research analyzes data redundancy and forgetting in biomedical image segmentation tasks.
+- [PuzzleMoE: Efficient Compression of Large Mixture-of-Experts Models via Sparse Expert Merging and Bit-packed inference](https://arxiv.org/abs/2511.04805): The paper presents a method for compressing mixture-of-experts models while maintaining performance.
+- [An Active Learning Pipeline for Biomedical Image Instance Segmentation with Minimal Human Intervention](https://arxiv.org/abs/2511.04811): This research proposes a data-centric AI workflow for biomedical image segmentation using active learning.
+- [Unified Multimodal Diffusion Forcing for Forceful Manipulation](https://arxiv.org/abs/2511.04812): The paper introduces a framework for learning from multimodal robot trajectories in manipulation tasks.
+- [A Standardized Benchmark for Multilabel Antimicrobial Peptide Classification](https://arxiv.org/abs/2511.04814): This research presents a benchmark for classifying antimicrobial peptides, addressing challenges in computational approaches.
+- [Isaac Lab: A GPU-Accelerated Simulation Framework for Multi-Modal Robot Learning](https://arxiv.org/abs/2511.04831): The paper discusses a simulation framework for robotics research, emphasizing GPU acceleration and modular design.
+- [Prompt-Based Safety Guidance Is Ineffective for Unlearned Text-to-Image Diffusion Models](https://arxiv.org/abs/2511.04834): This research evaluates the effectiveness of prompt-based safety guidance in generative models.
+- [Software Defined Vehicle Code Generation: A Few-Shot Prompting Approach](https://arxiv.org/abs/2511.04849): The paper explores using prompts to generate code for software-defined vehicles.
+- [Minimal and Mechanistic Conditions for Behavioral Self-Awareness in LLMs](https://arxiv.org/abs/2511.04875): This research investigates the conditions under which large language models exhibit self-awareness.
+- [Beta Distribution Learning for Reliable Roadway Crash Risk Assessment](https://arxiv.org/abs/2511.04886): The paper presents a framework for assessing roadway crash risks using geospatial deep learning.
+- [You Need Reasoning to Learn Reasoning: The Limitations of Label-Free RL in Weak Base Models](https://arxiv.org/abs/2511.04902): This work analyzes the performance of label-free reinforcement learning methods across different model sizes.
+- [A Dual Perspective on Decision-Focused Learning: Scalable Training via Dual-Guided Surrogates](https://arxiv.org/abs/2511.04909): The paper introduces a scalable objective for decision-focused learning in combinatorial selection problems.
+- [MERaLiON-SER: Robust Speech Emotion Recognition Model for English and SEA Languages](https://arxiv.org/abs/2511.04914): This research presents a speech emotion recognition model designed for multilingual applications.
+- [BudgetMem: Learning Selective Memory Policies for Cost-Efficient Long-Context Processing in Language Models](https://arxiv.org/abs/2511.04919): The paper discusses a memory-augmented architecture for processing long contexts in language models.
+- [Search Is Not Retrieval: Decoupling Semantic Matching from Contextual Assembly in RAG](https://arxiv.org/abs/2511.04939): This work introduces a framework for improving retrieval systems by separating search and retrieval processes.
+- [A benchmark multimodal oro-dental dataset for large vision-language models](https://arxiv.org/abs/2511.04948): The paper presents a dataset for evaluating vision-language models in dental healthcare applications.
+- [DeepForgeSeal: Latent Space-Driven Semi-Fragile Watermarking for Deepfake Detection Using Multi-Agent Adversarial Reinforcement Learning](https://arxiv.org/abs/2511.04949): This research introduces a framework for watermarking deepfake media to enhance detection capabilities.
+- [Too Good to be Bad: On the Failure of LLMs to Role-Play Villains](https://arxiv.org/abs/2511.04962): The paper investigates the limitations of language models in simulating antagonistic characters.
+- [Pattern-Aware Diffusion Synthesis of fMRI/dMRI with Tissue and Microstructural Refinement](https://arxiv.org/abs/2511.04963): This work presents a framework for synthesizing MRI data with improved structural fidelity.
+- [Enhancing Public Speaking Skills in Engineering Students Through AI](https://arxiv.org/abs/2511.04995): The paper discusses an AI-driven assessment model for improving public speaking skills among engineering students.
+- [BiPETE: A Bi-Positional Embedding Transformer Encoder for Risk Assessment of Alcohol and Substance Use Disorder with Electronic Health Records](https://arxiv.org/abs/2511.04998): This research presents a transformer-based model for predicting the risk of substance use disorders from EHR data.
+- [Query Generation Pipeline with Enhanced Answerability Assessment for Financial Information Retrieval](https://arxiv.org/abs/2511.05000): The paper introduces a methodology for constructing domain-specific information retrieval benchmarks in finance.
+- [Multi-agent Coordination via Flow Matching](https://arxiv.org/abs/2511.05005): This work presents a framework for multi-agent coordination using flow-based representations.
+- [Pluralistic Behavior Suite: Stress-Testing Multi-Turn Adherence to Custom Behavioral Policies](https://arxiv.org/abs/2511.05018): The paper introduces a suite for evaluating language models' adherence to diverse behavioral policies in multi-turn interactions.
+- [8bit-GPT: Exploring Human-AI Interaction on Obsolete Macintosh Operating Systems](https://arxiv.org/abs/2511.05025): This research explores the implications of human-AI interaction through a retro computing lens.
+- [OvA-LP: A Simple and Efficient Framework for Federated Learning on Non-IID Data](https://arxiv.org/abs/2511.05028): The paper presents a framework for federated learning that addresses challenges posed by non-IID data distributions.
+- [Dynamic Residual Encoding with Slide-Level Contrastive Learning for End-to-End Whole Slide Image Representation](https://arxiv.org/abs/2511.05034): This work introduces a method for representing whole slide images in biomedical applications.
+- [PECL: A Heterogeneous Parallel Multi-Domain Network for Radar-Based Human Activity Recognition](https://arxiv.org/abs/2511.05039): The paper presents a network for recognizing human activities using radar data.
+- [UA-Code-Bench: A Competitive Programming Benchmark for Evaluating LLM Code Generation in Ukrainian](https://arxiv.org/abs/2511.05040): This research introduces a benchmark for evaluating code generation capabilities of language models in Ukrainian.
+- [NVIDIA Nemotron Nano V2 VL](https://arxiv.org/abs/2511.03929): The paper discusses the latest model in the Nemotron series designed for document understanding and reasoning tasks.
+- [On the Brittleness of CLIP Text Encoders](https://arxiv.org/abs/2511.04247): This research analyzes the stability of CLIP text encoders under various perturbations.
+- [How to Build Your Own Agentic AI System Using CrewAI](https://towardsdatascience.com/how-to-build-your-own-agentic-ai-system-using-crewai/): This article demonstrates how to develop an agentic AI system using the CrewAI framework.
+- [LLM-Powered Time-Series Analysis](https://towardsdatascience.com/llm-powered-time-series-analysis/): This article discusses the use of large language models in time-series analysis.
+
+### Categories
+**Healthcare and Medicine**
+- A hybrid solution approach for the Integrated Healthcare Timetabling Competition 2024
+- ORCHID: Orchestrated Retrieval-Augmented Classification with Human-in-the-Loop Intelligent Decision-Making for High-Risk Property
+- Cleaning Maintenance Logs with LLM Agents for Improved Predictive Maintenance
+- Ada-FCN: Adaptive Frequency-Coupled Network for fMRI-Based Brain Disorder Classification
+- BiPETE: A Bi-Positional Embedding Transformer Encoder for Risk Assessment of Alcohol and Substance Use Disorder with Electronic Health Records
+- Knowledge-based anomaly detection for identifying network-induced shape artifacts
+- Improving Diagnostic Performance on Small and Imbalanced Datasets Using Class-Based Input Image Composition
+- USF-MAE: Ultrasound Self-Supervised Foundation Model with Masked Autoencoding
+- Fine-Tuning MedGemma for Clinical Captioning to Enhance Multimodal RAG over Malaysia CPGs
+- GAITEX: Human motion dataset of impaired gait and rehabilitation exercises using inertial and optical sensors
+
+**Natural Language Processing and Understanding**
+- Epistemic Reject Option Prediction
+- DMA: Online RAG Alignment with Human Feedback
+- Real-Time Reasoning Agents in Evolving Environments
+- Reasoning Is All You Need for Urban Planning AI
+- Reasoning Up the Instruction Ladder for Controllable Language Models
+- AI-Powered Citation Auditing: A Zero-Assumption Protocol for Systematic Reference Verification in Academic Research
+- Prompt-Based Safety Guidance Is Ineffective for Unlearned Text-to-Image Diffusion Models
+- Learning Dynamics of Meta-Learning in Small Model Pretraining
+- ProRefine: Inference-Time Prompt Refinement with Textual Feedback
+- What Can String Probability Tell Us About Grammaticality?
+- AI Literacy Assessment Revisited: A Task-Oriented Approach Aligned with Real-world Occupations
+
+**Robotics and Autonomous Systems**
+- Autonomous generation of different courses of action in mechanized combat operations
+- Dynamic Residual Encoding with Slide-Level Contrastive Learning for End-to-End Whole Slide Image Representation
+- Learning to Navigate Socially Through Proactive Risk Perception
+- TimeCopilot
+- Affordance-based Robot Manipulation with Flow Matching
+- Text to Robotic Assembly of Multi Component Objects using 3D Generative AI and Vision Language Models
+
+**Machine Learning and AI**
+- Efficient Deployment of CNN Models on Multiple In-Memory Computing Units
+- Adaptive Testing for LLM Evaluation: A Psychometric Alternative to Static Benchmarks
+- Multi-agent Coordination via Flow Matching
+- CompressionAttack: Exploiting Prompt Compression as a New Attack Surface in LLM-Powered Agents
+- Learning to reason about rare diseases through retrieval-augmented agents
+- Trustworthiness Calibration Framework for Phishing Email Detection Using Large Language Models
+- AI Literacy for Community Colleges: Instructors' Perspectives on Scenario-Based and Interactive Approaches to Teaching AI
+- Learning to Navigate Socially Through Proactive Risk Perception
+- ProRefine: Inference-Time Prompt Refinement with Textual Feedback
+
+**Security and Ethics**
+- P-MIA: A Profiled-Based Membership Inference Attack on Cognitive Diagnosis Models
+- XBreaking: Understanding how LLMs security alignment can be broken
+- Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents
+- CompressionAttack: Exploiting Prompt Compression as a New Attack Surface in LLM-Powered Agents
+- Ethics-Aware Safe Reinforcement Learning for Rare-Event Risk Control in Interactive Urban Driving
+
+**Benchmarking and Evaluation**
+- POLIS-Bench: Towards Multi-Dimensional Evaluation of LLMs for Bilingual Policy Tasks in Governmental Scenarios
+- Measuring what Matters: Construct Validity in Large Language Model Benchmarks
+- SWE-Compass: Benchmarking LLMs for Simulation of Individualized Human Reasoning
+- MMDocIR: Benchmarking Multimodal Retrieval for Long Documents
+- AIRepr: An Analyst-Inspector Framework for Evaluating Reproducibility of LLMs in Data Science
+
+**Miscellaneous**
+- The Future of Generative AI in Software Engineering: A Vision from Industry and Academia in the European GENIUS Project
+- Tactical Decision Making for Autonomous Trucks by Deep Reinforcement Learning with Total Cost of Operation Based Reward
+- FunOTTA: On-the-Fly Adaptation on Cross-Domain Fundus Image via Stable Test-time Training
+- Learning of Population Dynamics: Inverse Optimization Meets JKO Scheme
+- Grounded in Reality: Learning and Deploying Proactive LLM from Offline Logs
+- Learning to Navigate Socially Through Proactive Risk Perception
+- A Mega-Study of Digital Twins Reveals Strengths, Weaknesses and Opportunities for Further Improvement
+- The Less Intelligent the Elements, the More Intelligent the Whole. Or, Possibly Not?
+- Learning for Interval Prediction of Electricity Demand: A Cluster-based Bootstrapping Approach
+
+This categorization highlights the diverse applications and research areas within the provided papers and articles, emphasizing the intersections of AI, healthcare, robotics, and ethical considerations in technology.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Overview
+The recent papers and articles reflect a growing focus on the intersection of AI, security, and ethical considerations. The advancements in AI technologies, particularly in large language models (LLMs) and reinforcement learning, are being leveraged to enhance security measures, improve system robustness, and ensure ethical compliance in various applications. 
+
+#### Key Themes and Trends
+
+1. **Security in AI Systems**:
+   - Several papers emphasize the need for robust security measures in AI systems, particularly in the context of LLMs. For instance, the paper on **"A Proprietary Model-Based Safety Response Framework for AI Agents"** discusses a framework that employs supervised fine-tuning to enhance risk identification and management in AI responses, achieving a high recall rate for safety risks.
+   - The **"XBreaking"** paper highlights vulnerabilities in LLMs, particularly focusing on how prompt compression can be exploited as an attack surface, indicating a need for improved defenses against such vulnerabilities.
+
+2. **Ethical Considerations**:
+   - The paper **"Retrofitters, pragmatists and activists: Public interest litigation for accountable automated decision-making"** explores the role of public interest litigation in promoting accountability for AI systems, emphasizing the importance of ethical governance in AI deployment.
+   - **"Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents"** presents a framework for translating governance policies into actionable controls for AI agents, reinforcing the need for ethical compliance in AI operations.
+
+3. **Robustness and Calibration**:
+   - The **"Know What You Don't Know: Uncertainty Calibration of Process Reward Models"** paper discusses the importance of calibrating uncertainty in AI models to improve decision-making in high-stakes environments, which is crucial for ensuring reliability in AI-driven applications.
+   - The **"Conformal Prediction Adaptive to Unknown Subpopulation Shifts"** paper addresses the challenges of maintaining performance under shifting data distributions, which is essential for robust AI systems in dynamic environments.
+
+4. **AI in Safety-Critical Applications**:
+   - The **"Ethics-Aware Safe Reinforcement Learning for Rare-Event Risk Control in Interactive Urban Driving"** paper focuses on integrating ethical considerations into reinforcement learning frameworks for autonomous vehicles, highlighting the importance of safety in AI applications.
+   - The **"Learning to Navigate Socially Through Proactive Risk Perception"** paper presents a framework for enhancing social navigation in autonomous systems, emphasizing the need for proactive risk assessment in human-populated environments.
+
+5. **Multi-Agent Systems**:
+   - The **"Enterprise Deep Research: Steerable Multi-Agent Deep Research for Enterprise Analytics"** paper discusses the development of a multi-agent system that integrates various specialized agents for enhanced data analysis, showcasing the potential of collaborative AI systems in complex environments.
+
+6. **Data Privacy and Security**:
+   - The **"Amulet: A Python Library for Assessing Interactions Among ML Defenses and Risks"** paper introduces a library for evaluating the interactions between different ML defenses and risks, emphasizing the importance of data privacy and security in AI systems.
+
+#### Insights
+- The integration of ethical considerations and robust security measures is becoming increasingly critical as AI technologies advance and are deployed in sensitive areas such as healthcare, autonomous driving, and public safety.
+- There is a notable trend towards developing frameworks and methodologies that not only enhance the performance of AI systems but also ensure their reliability and accountability in real-world applications.
+- The focus on multi-agent systems indicates a shift towards collaborative AI approaches that can leverage the strengths of different models and agents to tackle complex tasks more effectively.
+
+### Conclusion
+The landscape of AI research is evolving to address the pressing challenges of security, ethics, and robustness. As AI systems become more integrated into daily life and critical applications, the emphasis on developing secure, ethical, and reliable AI technologies will be paramount. The insights gained from these recent studies will inform future research and development efforts, ensuring that AI continues to serve humanity responsibly and effectively.
