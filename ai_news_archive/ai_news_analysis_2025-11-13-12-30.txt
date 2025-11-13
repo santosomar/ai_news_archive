@@ -1,0 +1,146 @@
+AI Researcher Agent Report for 2025-11-13-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Bridging Natural Language and ASP: A Hybrid Approach Using LLMs and AMR Parsing](https://arxiv.org/abs/2511.08715): This paper proposes a method for translating English into Answer Set Programming (ASP) programs for logic puzzles using a combination of large language models (LLMs) and Abstract Meaning Representation (AMR) graphs.
+- [Vector Symbolic Algebras for the Abstraction and Reasoning Corpus](https://arxiv.org/abs/2511.08747): The authors introduce a cognitively plausible solver for the Abstraction and Reasoning Corpus (ARC-AGI) using Vector Symbolic Algebras (VSAs) to represent abstract objects and guide solution search.
+- [Interpretable by Design: Query-Specific Neural Modules for Explainable Reinforcement Learning](https://arxiv.org/abs/2511.08749): This paper presents Query Conditioned Deterministic Inference Networks (QDIN), a framework that allows RL systems to efficiently answer diverse queries about their environment.
+- [Neural Value Iteration](https://arxiv.org/abs/2511.08825): The authors propose a novel planning algorithm for Partially Observable Markov Decision Processes (POMDPs) that uses neural networks to represent the value function.
+- [UCO: A Multi-Turn Interactive Reinforcement Learning Method for Adaptive Teaching with Large Language Models](https://arxiv.org/abs/2511.08873): This paper introduces the Unidirectional Cognitive Optimization (UCO) method, which uses reinforcement learning to adapt teaching strategies based on student interactions.
+- [Lumine: An Open Recipe for Building Generalist Agents in 3D Open Worlds](https://arxiv.org/abs/2511.08892): The authors present Lumine, a framework for developing generalist agents capable of completing complex missions in 3D environments.
+- [The Double Contingency Problem: AI Recursion and the Limits of Interspecies Understanding](https://arxiv.org/abs/2511.08927): This paper discusses the challenges AI systems face when interpreting animal communication due to their own recursive cognitive processes.
+- [A Research on Business Process Optimisation Model Integrating AI and Big Data Analytics](https://arxiv.org/abs/2511.08934): The authors propose a model integrating AI and big data analytics for optimizing business processes.
+- [AlphaCast: A Human Wisdom-LLM Intelligence Co-Reasoning Framework for Interactive Time Series Forecasting](https://arxiv.org/abs/2511.08947): This paper introduces AlphaCast, a framework for interactive time series forecasting that combines human wisdom with LLM intelligence.
+- [Heterogeneous Graph Neural Networks for Assumption-Based Argumentation](https://arxiv.org/abs/2511.08982): The authors present a Graph Neural Network approach to approximate credulous acceptance in Assumption-Based Argumentation (ABA).
+- [AI Founding Fathers: A Case Study of GIS Search in Multi-Agent Pipelines](https://arxiv.org/abs/2511.09005): This paper explores a systematic framework for understanding LLM reasoning and optimization in multi-agent pipelines.
+- [Solving a Million-Step LLM Task with Zero Errors](https://arxiv.org/abs/2511.09030): The authors describe MAKER, a system that solves a task with over a million steps without errors through extreme decomposition of tasks.
+- [Argus: Resilience-Oriented Safety Assurance Framework for End-to-End ADSs](https://arxiv.org/abs/2511.09032): This paper proposes Argus, a framework for enhancing the resilience of autonomous driving systems.
+- [Advancing Autonomous Emergency Response Systems: A Generative AI Perspective](https://arxiv.org/abs/2511.09044): The authors review next-generation optimization strategies for autonomous vehicles in emergency response.
+- [OR-R1: Automating Modeling and Solving of Operations Research Optimization Problem via Test-Time Reinforcement Learning](https://arxiv.org/abs/2511.09092): This paper presents OR-R1, a framework for automating optimization modeling and solving.
+- [History-Aware Reasoning for GUI Agents](https://arxiv.org/abs/2511.09127): The authors propose a framework to enhance GUI agents' reasoning capabilities by incorporating historical interactions.
+- [ProBench: Benchmarking GUI Agents with Accurate Process Information](https://arxiv.org/abs/2511.09157): This paper introduces ProBench, a benchmark for evaluating GUI agents in operation tasks.
+- [Efficient Reasoning via Reward Model](https://arxiv.org/abs/2511.09158): The authors propose a pipeline for training a Conciseness Reward Model to enhance reasoning efficiency in LLMs.
+- [Perspectives on a Reliability Monitoring Framework for Agentic AI Systems](https://arxiv.org/abs/2511.09178): This paper discusses reliability challenges in agentic AI systems and proposes a monitoring framework.
+- [MedFuse: Multiplicative Embedding Fusion For Irregular Clinical Time Series](https://arxiv.org/abs/2511.09247): The authors propose MedFuse, a framework for modeling irregular clinical time series.
+- [HyperD: Hybrid Periodicity Decoupling Framework for Traffic Forecasting](https://arxiv.org/abs/2511.09275): This paper introduces HyperD, a framework for decoupling traffic data into periodic and residual components.
+- [From Model Training to Model Raising - A call to reform AI model training paradigms from post-hoc alignment to intrinsic, identity-based development](https://arxiv.org/abs/2511.09287): The authors argue for a paradigm shift in AI model training to integrate alignment from the start.
+- [Not Everything That Counts Can Be Counted: A Case for Safe Qualitative AI](https://arxiv.org/abs/2511.09325): This paper advocates for developing dedicated qualitative AI systems for interpretive research.
+- [BarrierBench : Evaluating Large Language Models for Safety Verification in Dynamical Systems](https://arxiv.org/abs/2511.09363): The authors introduce BarrierBench, a benchmark for evaluating LLMs in safety verification.
+- [The 2025 Planning Performance of Frontier Large Language Models](https://arxiv.org/abs/2511.09378): This paper evaluates the planning performance of frontier LLMs.
+- [What We Don't C: Representations for scientific discovery beyond VAEs](https://arxiv.org/abs/2511.09433): The authors introduce a method for accessing meaningful features of high-dimensional data.
+- [CrochetBench: Can Vision-Language Models Move from Describing to Doing in Crochet Domain?](https://arxiv.org/abs/2511.09483): This paper presents a benchmark for evaluating multimodal LLMs in the crochet domain.
+- [Consensus Sampling for Safer Generative AI](https://arxiv.org/abs/2511.09493): The authors propose a consensus sampling algorithm to enhance AI safety.
+- [Fundamentals of Physical AI](https://arxiv.org/abs/2511.09497): This work elaborates on the principles of physical AI.
+- [Robust and Diverse Multi-Agent Learning via Rational Policy Gradient](https://arxiv.org/abs/2511.09535): The authors introduce Rational Policy Gradient for robust multi-agent learning.
+- [Breadth-First Search vs. Restarting Random Walks for Escaping Uninformed Heuristic Regions](https://arxiv.org/abs/2511.09549): This paper compares methods for escaping uninformed heuristic regions.
+- [CometNet: Contextual Motif-guided Long-term Time Series Forecasting](https://arxiv.org/abs/2511.08049): The authors propose CometNet for long-term time series forecasting.
+- [Conversational Agents for Building Energy Efficiency -- Advising Housing Cooperatives in Stockholm on Reducing Energy Consumption](https://arxiv.org/abs/2511.08587): This paper introduces a conversational agent for energy efficiency advice.
+- [Where did you get that? Towards Summarization Attribution for Analysts](https://arxiv.org/abs/2511.08589): The authors explore automatic methods for attribution in summarization.
+- [The Collective Turing Test: Large Language Models Can Generate Realistic Multi-User Discussions](https://arxiv.org/abs/2511.08592): This paper evaluates LLMs' ability to simulate human group conversations.
+- [Chopping Trees: Semantic Similarity Based Dynamic Pruning for Tree-of-Thought Reasoning](https://arxiv.org/abs/2511.08595): The authors introduce SSDP for efficient reasoning in LLMs.
+- [What About the Scene with the Hitler Reference? HAUNT: A Framework to Probe LLMs' Self-consistency Via Adversarial Nudge](https://arxiv.org/abs/2511.08596): This paper presents a framework for stress testing LLMs' factual fidelity.
+- [Self-HarmLLM: Can Large Language Model Harm Itself?](https://arxiv.org/abs/2511.08597): The authors explore the potential for LLMs to generate harmful outputs.
+- [OKBench: Democratizing LLM Evaluation with Fully Automated, On-Demand, Open Knowledge Benchmarking](https://arxiv.org/abs/2511.08598): This paper introduces OKBench for dynamic knowledge benchmarking.
+- [Data-driven Feynman-Kac Discovery with Applications to Prediction and Data Generation](https://arxiv.org/abs/2511.08606): The authors propose a framework for discovering probabilistic laws using data.
+- [Case Study: Transformer-Based Solution for the Automatic Digitization of Gas Plants](https://arxiv.org/abs/2511.08609): This paper discusses a solution for automating gas plant digitization.
+- [Reasoning on Time-Series for Financial Technical Analysis](https://arxiv.org/abs/2511.08616): The authors introduce Verbal Technical Analysis for stock forecasting.
+- [Learn More, Forget Less: A Gradient-Aware Data Selection Approach for LLM](https://arxiv.org/abs/2511.08620): This paper presents GrADS for supervised fine-tuning of LLMs.
+- [The LLM Pro Finance Suite: Multilingual Large Language Models for Financial Applications](https://arxiv.org/abs/2511.08621): The authors introduce a suite of LLMs for financial applications.
+- [Multi-period Learning for Financial Time Series Forecasting](https://arxiv.org/abs/2511.08622): This paper proposes a Multi-period Learning Framework for financial forecasting.
+- [Cross-Field Interface-Aware Neural Operators for Multiphase Flow Simulation](https://arxiv.org/abs/2511.08625): The authors present IANO for multiphase flow simulations.
+- [SAMora: Enhancing SAM through Hierarchical Self-Supervised Pre-Training for Medical Images](https://arxiv.org/abs/2511.08626): This paper discusses SAMora for improving medical image segmentation.
+- [Learning Topology-Driven Multi-Subspace Fusion for Grassmannian Deep Network](https://arxiv.org/abs/2511.08628): The authors propose a framework for geometric representation learning.
+- [Hope, Aspirations, and the Impact of LLMs on Female Programming Learners in Afghanistan](https://arxiv.org/abs/2511.08630): This paper evaluates aspirations among women learning programming in Afghanistan.
+- [Time-to-Move: Training-Free Motion Controlled Video Generation via Dual-Clock Denoising](https://arxiv.org/abs/2511.08633): The authors introduce TTM for motion-controlled video generation.
+- [CADIC: Continual Anomaly Detection Based on Incremental Coreset](https://arxiv.org/abs/2511.08634): This paper presents a framework for continual anomaly detection.
+- [Detecting Suicidal Ideation in Text with Interpretable Deep Learning: A CNN-BiGRU with Attention Mechanism](https://arxiv.org/abs/2511.08636): The authors propose a hybrid deep learning scheme for detecting suicidal ideation.
+- [How do data owners say no? A case study of data consent mechanisms in web-scraped vision-language AI training datasets](https://arxiv.org/abs/2511.08637): This paper examines data consent mechanisms in AI training datasets.
+- [The Journal of Prompt-Engineered Philosophy Or: How I Started to Track AI Assistance and Stopped Worrying About Slop](https://arxiv.org/abs/2511.08639): This article discusses the structural contradiction in academic publishing regarding AI assistance.
+- [Predict and Resist: Long-Term Accident Anticipation under Sensor Noise](https://arxiv.org/abs/2511.08640): The authors propose a unified framework for accident anticipation in autonomous driving.
+- [Energy Consumption of Dataframe Libraries for End-to-End Deep Learning Pipelines: A Comparative Analysis](https://arxiv.org/abs/2511.08644): This paper presents a comparative analysis of Python data manipulation libraries.
+- [Fluence Map Prediction with Deep Learning: A Transformer-based Approach](https://arxiv.org/abs/2511.08645): The authors introduce a deep learning framework for fluence map prediction in radiation therapy.
+- [Bio AI Agent: A Multi-Agent Artificial Intelligence System for Autonomous CAR-T Cell Therapy Development with Integrated Target Discovery, Toxicity Prediction, and Rational Molecular Design](https://arxiv.org/abs/2511.08649): This paper presents Bio AI Agent for CAR-T cell therapy development.
+- [RS-Net: Context-Aware Relation Scoring for Dynamic Scene Graph Generation](https://arxiv.org/abs/2511.08651): The authors propose RS-Net for dynamic scene graph generation.
+- [Accelerating Training Speed of Tiny Recursive Models via Curriculum Guided Adaptive Recursion](https://arxiv.org/abs/2511.08653): This paper presents CGAR for improving training speed of recursive models.
+- [AI-generated podcasts: Synthetic Intimacy and Cultural Translation in NotebookLM's Audio Overviews](https://arxiv.org/abs/2511.08654): This paper analyzes AI-generated podcasts produced by NotebookLM.
+- [Learning API Functionality from In-Context Demonstrations for Tool-based Agents](https://arxiv.org/abs/2505.24197): The authors explore learning API functionality from demonstrations.
+- [A Neurosymbolic Approach to Natural Language Formalization and Verification](https://arxiv.org/abs/2511.09008): This paper presents a neurosymbolic framework for formalizing natural language policies.
+- [Keen on the Scene: A Novel Approach to Scene Understanding with Large Language Models](https://arxiv.org/abs/2511.09018): The authors propose a framework for scene understanding using LLMs.
+- [Learning API Functionality from In-Context Demonstrations for Tool-based Agents](https://arxiv.org/abs/2505.24197): The authors explore learning API functionality from demonstrations.
+- [A Neurosymbolic Approach to Natural Language Formalization and Verification](https://arxiv.org/abs/2511.09008): This paper presents a neurosymbolic framework for formalizing natural language policies.
+- [Keen on the Scene: A Novel Approach to Scene Understanding with Large Language Models](https://arxiv.org/abs/2511.09018): The authors propose a framework for scene understanding using LLMs.
+
+### Categories
+#### Security
+- [Binary and Multiclass Cyberattack Classification on GeNIS Dataset](https://arxiv.org/abs/2511.08660): This study presents an experimental validation of the reliability of the GeNIS dataset for AI-based NIDS.
+- [Prompt Injection as an Emerging Threat: Evaluating the Resilience of Large Language Models](https://arxiv.org/abs/2511.01634): This paper evaluates the resilience of LLMs against prompt injection attacks.
+- [DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks](https://arxiv.org/abs/2504.11358): The authors propose a game-theoretic method to detect prompt injection attacks.
+- [SecInfer: Preventing Prompt Injection via Inference-time Scaling](https://arxiv.org/abs/2509.24967): This paper presents a novel defense against prompt injection attacks using inference-time scaling.
+- [Unveiling Hidden Threats: Using Fractal Triggers to Boost Stealthiness of Distributed Backdoor Attacks in Federated Learning](https://arxiv.org/abs/2511.09252): The authors propose a method to enhance the stealthiness of backdoor attacks in federated learning.
+
+#### AI and Machine Learning
+- [Advancing mathematics research with generative AI](https://arxiv.org/abs/2511.07420): This paper discusses how generative AI can assist in mathematics research.
+- [A Survey of Low-bit Large Language Models: Basics, Systems, and Algorithms](https://arxiv.org/abs/2409.16694): This survey covers low-bit quantization methods for LLMs.
+- [Learning API Functionality from In-Context Demonstrations for Tool-based Agents](https://arxiv.org/abs/2505.24197): The authors explore learning API functionality from demonstrations.
+- [A Neurosymbolic Approach to Natural Language Formalization and Verification](https://arxiv.org/abs/2511.09008): This paper presents a neurosymbolic framework for formalizing natural language policies.
+- [Keen on the Scene: A Novel Approach to Scene Understanding with Large Language Models](https://arxiv.org/abs/2511.09018): The authors propose a framework for scene understanding using LLMs.
+
+#### Robotics and Autonomous Systems
+- [Advancing Autonomous Emergency Response Systems: A Generative AI Perspective](https://arxiv.org/abs/2511.09044): This paper reviews next-generation optimization strategies for autonomous vehicles in emergency response.
+- [KoopMotion: Learning Almost Divergence Free Koopman Flow Fields for Motion Planning](https://arxiv.org/abs/2509.09074): The authors propose a flow field-based motion planning method for robots.
+- [Touch in the Wild: Learning Fine-Grained Manipulation with a Portable Visuo-Tactile Gripper](https://arxiv.org/abs/2507.15062): This paper presents a portable gripper for fine-grained manipulation learning.
+
+#### Healthcare and Medical Applications
+- [MedFuse: Multiplicative Embedding Fusion For Irregular Clinical Time Series](https://arxiv.org/abs/2511.09247): The authors propose a framework for modeling irregular clinical time series.
+- [HQ-SVC: Towards High-Quality Zero-Shot Singing Voice Conversion in Low-Resource Scenarios](https://arxiv.org/abs/2511.08496): This paper discusses a framework for high-quality zero-shot singing voice conversion.
+- [Emotion-Coherent Reasoning for Multimodal LLMs via Emotional Rationale Verifier](https://arxiv.org/abs/2510.23506): The authors propose a method for enhancing emotion recognition in multimodal LLMs.
+
+#### Natural Language Processing
+- [Prompt Injection as an Emerging Threat: Evaluating the Resilience of Large Language Models](https://arxiv.org/abs/2511.01634): This paper evaluates the resilience of LLMs against prompt injection attacks.
+- [DataSentinel: A Game-Theoretic Detection of Prompt Injection Attacks](https://arxiv.org/abs/2504.11358): The authors propose a game-theoretic method to detect prompt injection attacks.
+- [SecInfer: Preventing Prompt Injection via Inference-time Scaling](https://arxiv.org/abs/2509.24967): This paper presents a novel defense against prompt injection attacks using inference-time scaling.
+
+#### Environmental and Urban Studies
+- [DigiData: Training and Evaluating General-Purpose Mobile Control Agents](https://arxiv.org/abs/2511.07413): This paper presents a dataset for training mobile control agents.
+- [Veli: Unsupervised Method and Unified Benchmark for Low-Cost Air Quality Sensor Correction](https://arxiv.org/abs/2508.02724): The authors introduce a framework for correcting low-cost air quality sensors.
+
+This summary provides a comprehensive overview of the latest research across various domains, highlighting key advancements and methodologies in AI, security, healthcare, and more.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Articles Related to Security
+
+#### 1. **Prompt Injection Attacks and Defenses**
+   - **Title**: Prompt Injection as an Emerging Threat: Evaluating the Resilience of Large Language Models
+   - **Summary**: This paper introduces a framework for evaluating the resilience of LLMs against prompt injection attacks, which can manipulate model outputs by injecting malicious instructions. The study proposes metrics to measure robustness, safety, and semantic stability, revealing that while some models perform better overall, they remain vulnerable to various types of prompt injection attacks.
+
+#### 2. **Data Privacy and Security in Federated Learning**
+   - **Title**: GuardFed: A Trustworthy Federated Learning Framework Against Dual-Facet Attacks
+   - **Summary**: This work presents GuardFed, a framework designed to protect federated learning systems from dual-facet attacks that compromise both model utility and fairness. The framework employs a dual-perspective trust score for clients, allowing for selective aggregation of updates to maintain both accuracy and fairness.
+
+#### 3. **Adversarial Attacks on AI Systems**
+   - **Title**: Unveiling Hidden Threats: Using Fractal Triggers to Boost Stealthiness of Distributed Backdoor Attacks in Federated Learning
+   - **Summary**: This paper discusses a novel method for enhancing the stealthiness of backdoor attacks in federated learning by using fractal triggers. The proposed method significantly reduces the amount of poisoned data required for effective attacks while maintaining high attack success rates.
+
+#### 4. **Security in AI-Generated Content**
+   - **Title**: Large Language Models Are Unreliable for Cyber Threat Intelligence
+   - **Summary**: This study evaluates the reliability of LLMs in generating cyber threat intelligence, highlighting their inconsistency and overconfidence. The findings raise concerns about the use of LLMs in security-critical applications, emphasizing the need for robust evaluation methods.
+
+#### 5. **Privacy-Preserving Techniques**
+   - **Title**: Privacy-Preserving Retrieval-Augmented Generation with Differential Privacy
+   - **Summary**: This paper explores the integration of differential privacy into retrieval-augmented generation systems, proposing a method that generates accurate responses while maintaining user privacy. The approach focuses on efficiently utilizing privacy budgets to enhance the quality of generated outputs.
+
+#### 6. **Security in AI Systems**
+   - **Title**: SecInfer: Preventing Prompt Injection via Inference-time Scaling
+   - **Summary**: SecInfer introduces a novel defense mechanism against prompt injection attacks by employing inference-time scaling. The method generates multiple responses for a given input and selects the most appropriate one, effectively mitigating the risk of prompt injection.
+
+### Trends and Insights
+- **Emerging Threats**: The rise of prompt injection attacks highlights the vulnerabilities of LLMs in real-world applications, necessitating robust evaluation frameworks and defenses.
+- **Federated Learning Security**: The focus on dual-facet attacks in federated learning indicates a growing recognition of the need for fairness and utility in distributed AI systems.
+- **Privacy Concerns**: The integration of differential privacy into AI systems reflects an increasing emphasis on user privacy and data protection in AI applications.
+- **Adversarial Robustness**: The exploration of stealthy backdoor attacks and adversarial training methods underscores the ongoing arms race between AI developers and adversaries.
+
+### Conclusion
+The reviewed papers and articles illustrate a critical focus on security, privacy, and robustness in AI systems, particularly in the context of LLMs and federated learning. As AI technologies continue to evolve, addressing these challenges will be paramount to ensuring safe and reliable deployment in sensitive applications.
