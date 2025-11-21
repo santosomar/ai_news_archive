@@ -1,0 +1,404 @@
+AI Researcher Agent Report for 2025-11-21-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Majority Rules: LLM Ensemble is a Winning Approach for Content Categorization](https://arxiv.org/abs/2511.15714): This paper introduces an ensemble framework for text categorization using large language models (LLMs), achieving significant performance improvements by addressing individual model weaknesses.
+- [Graph-Memoized Reasoning: Foundations Structured Workflow Reuse in Intelligent Systems](https://arxiv.org/abs/2511.15715): The study presents a framework for reusing reasoning workflows in LLMs, enhancing efficiency and reproducibility in intelligent systems.
+- [MACIE: Multi-Agent Causal Intelligence Explainer for Collective Behavior Understanding](https://arxiv.org/abs/2511.15716): This framework provides explanations for multi-agent reinforcement learning systems, focusing on causal contributions and emergent behaviors.
+- [How Modality Shapes Perception and Reasoning: A Study of Error Propagation in ARC-AGI](https://arxiv.org/abs/2511.15717): The paper investigates how different modalities affect perception and reasoning in AI systems, revealing insights into error propagation.
+- [ToolMind Technical Report: A Large-Scale, Reasoning-Enhanced Tool-Use Dataset](https://arxiv.org/abs/2511.15718): This report introduces a dataset for training LLM agents to use tools effectively, addressing issues of trajectory-level validation.
+- [Chain of Summaries: Summarization Through Iterative Questioning](https://arxiv.org/abs/2511.15719): The proposed method refines summaries through iterative questioning, improving information density and accessibility for LLMs.
+- [Automated Hazard Detection in Construction Sites Using Large Language and Vision-Language Models](https://arxiv.org/abs/2511.15720): This research explores a multimodal AI framework for identifying safety hazards on construction sites using text and image analysis.
+- [Spatial Reasoning in Multimodal Large Language Models: A Survey of Tasks, Benchmarks and Methods](https://arxiv.org/abs/2511.15722): A survey that categorizes spatial reasoning tasks and benchmarks in multimodal LLMs, highlighting gaps in current capabilities.
+- [Uncertainty-Resilient Multimodal Learning via Consistency-Guided Cross-Modal Transfer](https://arxiv.org/abs/2511.15741): This paper proposes a framework for robust multimodal learning that addresses uncertainty through cross-modal consistency.
+- [Build AI Assistants using Large Language Models and Agents to Enhance the Engineering Education of Biomechanics](https://arxiv.org/abs/2511.15752): The study presents a dual-module framework for enhancing LLM performance in biomechanics education.
+- [Multi-Agent LLM Orchestration Achieves Deterministic, High-Quality Decision Support for Incident Response](https://arxiv.org/abs/2511.15755): This paper discusses a multi-agent orchestration framework that significantly improves incident response quality in production systems.
+- [Identifying the Supply Chain of AI for Trustworthiness and Risk Management in Critical Applications](https://arxiv.org/abs/2511.15763): The paper surveys AI risk assessment and management, focusing on supply chain risks in critical applications.
+- [Balancing Natural Language Processing Accuracy and Normalisation in Extracting Medical Insights](https://arxiv.org/abs/2511.15778): A comparative analysis of NLP methods for extracting medical insights from clinical text, emphasizing the trade-offs between accuracy and normalization.
+- [IMACT-CXR - An Interactive Multi-Agent Conversational Tutoring System for Chest X-Ray Interpretation](https://arxiv.org/abs/2511.15825): This report describes an interactive tutoring system for chest X-ray interpretation, integrating various AI techniques for enhanced learning.
+- [Mini Amusement Parks (MAPs): A Testbed for Modelling Business Decisions](https://arxiv.org/abs/2511.15830): The paper introduces a simulator for evaluating agents' decision-making competence in business management.
+- [Step-Audio-R1 Technical Report](https://arxiv.org/abs/2511.15848): This report presents an audio reasoning model that successfully integrates reasoning capabilities in the audio domain.
+- [Decomposing Theory of Mind: How Emotional Processing Mediates ToM Abilities in LLMs](https://arxiv.org/abs/2511.15895): The study explores how emotional processing influences Theory of Mind abilities in LLMs.
+- [Thinking, Faithful and Stable: Mitigating Hallucinations in LLMs](https://arxiv.org/abs/2511.15921): This project develops a framework for detecting and mitigating hallucinations in LLMs during multi-step reasoning.
+- [JudgeBoard: Benchmarking and Enhancing Small Language Models for Reasoning Evaluation](https://arxiv.org/abs/2511.15958): The paper proposes a novel evaluation pipeline for small language models focused on reasoning tasks.
+- [KRAL: Knowledge and Reasoning Augmented Learning for LLM-assisted Clinical Antimicrobial Therapy](https://arxiv.org/abs/2511.15974): This study presents a framework for enhancing LLMs' clinical diagnostic capabilities in antimicrobial therapy.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs using semantic drift analysis.
+- [CARE-RAG - Clinical Assessment and Reasoning in RAG](https://arxiv.org/abs/2511.15994): This work evaluates the reasoning capabilities of retrieval-augmented generation in clinical settings.
+- [Sensorium Arc: AI Agent System for Oceanic Data Exploration and Interactive Eco-Art](https://arxiv.org/abs/2511.15997): The paper describes an AI agent system for exploring oceanic data through interactive eco-art.
+- [MUSEKG: A Knowledge Graph Over Museum Collections](https://arxiv.org/abs/2511.16014): This study presents a knowledge graph framework for integrating museum collections into a coherent and queryable form.
+- [SpellForger: Prompting Custom Spell Properties In-Game using BERT supervised-trained model](https://arxiv.org/abs/2511.16018): The paper proposes a game where players create custom spells using a supervised BERT model.
+- [An Aligned Constraint Programming Model For Serial Batch Scheduling With Minimum Batch Size](https://arxiv.org/abs/2511.16045): This work presents a novel constraint programming model for serial batch scheduling in semiconductor manufacturing.
+- [Artificial Intelligence and Accounting Research: A Framework and Agenda](https://arxiv.org/abs/2511.16055): The paper proposes a framework for classifying AI-accounting research and identifies research opportunities.
+- [A Hybrid Proactive And Predictive Framework For Edge Cloud Resource Management](https://arxiv.org/abs/2511.16075): This study presents a proactive framework for managing edge cloud resources using predictive algorithms.
+- [SkyRL-Agent: Efficient RL Training for Multi-turn LLM Agent](https://arxiv.org/abs/2511.16108): The paper introduces a framework for efficient training and evaluation of multi-turn LLM agents.
+- [Multidimensional Rubric-oriented Reward Model Learning via Geometric Projection Reference Constraints](https://arxiv.org/abs/2511.16139): This work proposes a reward model learning framework for aligning medical standards with LLM training.
+- [Footpass: A Multi-Modal Multi-Agent Tactical Context Dataset for Play-by-Play Action Spotting in Soccer Broadcast Videos](https://arxiv.org/abs/2511.16183): The paper introduces a dataset for play-by-play action spotting in soccer videos.
+- [From Performance to Understanding: A Vision for Explainable Automated Algorithm Design](https://arxiv.org/abs/2511.16201): This paper outlines a vision for explainable automated algorithm design.
+- [Multi-Agent Collaborative Reward Design for Enhancing Reasoning in Reinforcement Learning](https://arxiv.org/abs/2511.16202): The study presents a framework for collaborative reward design in reinforcement learning.
+- [ChemLabs on ChemO: A Multi-Agent System for Multimodal Reasoning on IChO 2025](https://arxiv.org/abs/2511.16205): This work introduces a multi-agent system for solving chemistry problems in the International Chemistry Olympiad.
+- [FlipVQA-Miner: Cross-Page Visual Question-Answer Mining from Textbooks](https://arxiv.org/abs/2511.16216): The paper proposes a method for extracting question-answer pairs from educational documents.
+- [Revisiting Fairness-aware Interactive Recommendation: Item Lifecycle as a Control Knob](https://arxiv.org/abs/2511.16248): This study introduces a lifecycle-aware framework for interactive recommendation systems.
+- [MuISQA: Multi-Intent Retrieval-Augmented Generation for Scientific Question Answering](https://arxiv.org/abs/2511.16283): The paper presents a benchmark for evaluating multi-intent scientific question answering systems.
+- [Distributed Agent Reasoning Across Independent Systems With Strict Data Locality](https://arxiv.org/abs/2511.16292): This work explores agent-to-agent communication across distributed systems while maintaining data locality.
+- [OpenMMReasoner: Pushing the Frontiers for Multimodal Reasoning with an Open and General Recipe](https://arxiv.org/abs/2511.16334): The paper introduces a training recipe for multimodal reasoning models.
+- [Reducing Instability in Synthetic Data Evaluation with a Super-Metric in MalDataGen](https://arxiv.org/abs/2511.16373): This study presents a super-metric for evaluating synthetic data quality in the Android malware domain.
+- [An Agent-Based Framework for the Automatic Validation of Mathematical Optimization Models](https://arxiv.org/abs/2511.16383): The paper proposes an agent-based method for validating optimization models.
+- [CorrectHDL: Agentic HDL Design with LLMs Leveraging High-Level Synthesis as Reference](https://arxiv.org/abs/2511.16395): This work presents a framework for correcting HDL designs generated by LLMs.
+- [Trustworthy AI in the Agentic Lakehouse: from Concurrency to Governance](https://arxiv.org/abs/2511.16402): The paper discusses the design of trustworthy agentic workflows in data lakehouses.
+- [Pharos-ESG: A Framework for Multimodal Parsing, Contextual Narration, and Hierarchical Labeling of ESG Report](https://arxiv.org/abs/2511.16417): This study presents a framework for processing ESG reports.
+- [TOFA: Training-Free One-Shot Federated Adaptation for Vision-Language Models](https://arxiv.org/abs/2511.16423): The paper introduces a training-free method for adapting vision-language models in federated settings.
+- [From generative AI to the brain: five takeaways](https://arxiv.org/abs/2511.16432): This article discusses insights from generative AI research relevant to cognitive neuroscience.
+- [PersonaDrift: A Benchmark for Temporal Anomaly Detection in Language-Based Dementia Monitoring](https://arxiv.org/abs/2511.16445): The paper introduces a benchmark for detecting changes in communication patterns in dementia patients.
+- [Utilizing Large Language Models for Zero-Shot Medical Ontology Extension from Clinical Notes](https://arxiv.org/abs/2511.16548): This study presents a framework for extending medical ontologies using LLMs.
+- [Consciousness in Artificial Intelligence? A Framework for Classifying Objections and Constraints](https://arxiv.org/abs/2511.16582): The paper develops a framework for classifying challenges to the possibility of consciousness in AI.
+- [Formal Abductive Latent Explanations for Prototype-Based Networks](https://arxiv.org/abs/2511.16588): This work proposes a formalism for generating explanations in case-based reasoning networks.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](https://arxiv.org/abs/2511.15738): The paper introduces a framework for enhancing test-time scaling in reasoning models.
+- [Writing With Machines and Peers: Designing for Critical Engagement with Generative AI](https://arxiv.org/abs/2511.15750): This study proposes a pedagogical design for integrating AI into academic writing.
+- [Securing AI Agents Against Prompt Injection Attacks](https://arxiv.org/abs/2511.15759): The paper presents a benchmark for evaluating prompt injection risks in AI agents.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation](https://arxiv.org/abs/2511.15767): The paper presents a framework for automated stimulus generation in hardware verification.
+- [TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models](https://arxiv.org/abs/2511.15807): This study introduces a model-agnostic pipeline for mitigating adversarial perturbations in OCR systems.
+- [EfficientSAM3: Progressive Hierarchical Distillation for Video Concept Segmentation from SAM1, 2, and 3](https://arxiv.org/abs/2511.15833): The paper presents a framework for efficient video concept segmentation.
+- [The Loss of Control Playbook: Degrees, Dynamics, and Preparedness](https://arxiv.org/abs/2511.15846): This research report develops a taxonomy and preparedness framework for Loss of Control in AI systems.
+- [A Crowdsourced Study of ChatBot Influence in Value-Driven Decision Making Scenarios](https://arxiv.org/abs/2511.15857): The study examines how AI chatbots influence decision-making.
+- [A time for monsters: Organizational knowing after LLMs](https://arxiv.org/abs/2511.15762): This work explores the impact of LLMs on organizational knowledge.
+- [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](https://arxiv.org/abs/2511.15998): The paper discusses a command and control architecture for red teaming using LLMs.
+- [InfCode: Adversarial Iterative Refinement of Tests and Patches for Reliable Software Issue Resolution](https://arxiv.org/abs/2511.16004): This work presents a framework for automated software issue resolution.
+- [InfCode-C++: Intent-Guided Semantic Retrieval and AST-Structured Search for C++ Issue Resolution](https://arxiv.org/abs/2511.16005): The paper introduces a C++-aware system for issue resolution.
+- [Synergizing Deconfounding and Temporal Generalization For Time-series Counterfactual Outcome Estimation](https://arxiv.org/abs/2511.16006): This study presents a framework for estimating counterfactual outcomes in time-series data.
+- [Physics-Guided Inductive Spatiotemporal Kriging for PM2.5 with Satellite Gradient Constraints](https://arxiv.org/abs/2511.16013): The paper proposes a framework for estimating PM2.5 levels using satellite data.
+- [CARE: Turning LLMs Into Causal Reasoning Expert](https://arxiv.org/abs/2511.16016): This work enhances LLMs' causal reasoning abilities through supervised fine-tuning.
+- [Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis](https://arxiv.org/abs/2511.15992): The paper introduces a detection system for identifying backdoored LLMs.
+- [D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](https://arxiv.org/abs/2511.16590): The paper presents a framework for evaluating the robustness of GUI agents.
+- [You Only Forward Once: An Efficient Compositional Judging Paradigm](https://arxiv.org/abs/2511.16600): This study introduces a method for efficient judging in multimodal large language models.
+- [Bridging VLMs and Embodied Intelligence with Deliberate Practice Policy Optimization](https://arxiv.org/abs/2511.16602): The paper presents a training framework for embodied intelligence systems.
+- [MedBayes-Lite: Bayesian Uncertainty Quantification for Safe Clinical Decision Support](https://arxiv.org/abs/2511.16625): This study introduces a framework for uncertainty quantification in clinical decision support.
+- [Enhancing Forex Forecasting Accuracy: The Impact of Hybrid Variable Sets in Cognitive Algorithmic Trading Systems](https://arxiv.org/abs/2511.16657): The paper presents an AI-based trading system for Forex markets.
+- [Cognitive Foundations for Reasoning and Their Manifestation in LLMs](https://arxiv.org/abs/2511.16660): This work synthesizes cognitive science research to analyze reasoning in LLMs.
+- [Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment](https://arxiv.org/abs/2511.15712): The paper presents a blockchain-based framework for securing AI agent transactions.
+- [The Future of Food: How Artificial Intelligence is Transforming Food Manufacturing](https://arxiv.org/abs/2511.15728): This article discusses the impact of AI on food manufacturing.
+- [Just Asking Questions: Doing Our Own Research on Conspiratorial Ideation by Generative AI Chatbots](https://arxiv.org/abs/2511.15732): The study examines how generative AI chatbots respond to conspiracy theories.
+- [Technique to Baseline QE Artefact Generation Aligned to Quality Metrics](https://arxiv.org/abs/2511.15733): The paper presents a technique for evaluating quality engineering artefacts generated by LLMs.
+- [Sovereign AI: Rethinking Autonomy in the Age of Global Interdependence](https://arxiv.org/abs/2511.15734): This work discusses the implications of AI as a foundational technology in a global context.
+- [Extending Test-Time Scaling: A 3D Perspective with Context, Batch, and Turn](
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **Security Vulnerabilities in AI Systems**
+   - **Title:** *Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis*
+     - **Summary:** This paper presents a dual-method detection system to identify backdoored LLMs, achieving high accuracy in real-time detection of malicious behavior without modifying the model.
+   
+   - **Title:** *Securing Smart Contract Languages with a Unified Agentic Framework for Vulnerability Repair in Solidity and Move*
+     - **Summary:** The paper introduces Smartify, a multi-agent framework that uses LLMs to automatically detect and repair vulnerabilities in smart contracts, enhancing security in blockchain applications.
+
+   - **Title:** *When Alignment Fails: Multimodal Adversarial Attacks on Vision-Language-Action Models*
+     - **Summary:** This study explores vulnerabilities in VLA models, introducing a comprehensive framework for multimodal adversarial robustness, highlighting the need for improved defenses against such attacks.
+
+   - **Title:** *Fast-DataShapley: Neural Modeling for Training Data Valuation*
+     - **Summary:** This work emphasizes the importance of training data quality and proposes a method for efficiently calculating the Shapley value of training data, which can help in identifying and mitigating biases in AI systems.
+
+#### 2. **AI in Cybersecurity**
+   - **Title:** *Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment*
+     - **Summary:** This paper presents a blockchain-based framework to ensure the authenticity and intent of AI-initiated transactions, addressing security gaps in autonomous economic agents.
+
+   - **Title:** *Adversarial Poetry as a Universal Single-Turn Jailbreak Mechanism in Large Language Models*
+     - **Summary:** The research identifies poetic prompts as effective jailbreak techniques for LLMs, revealing vulnerabilities in safety mechanisms and suggesting the need for improved alignment methods.
+
+   - **Title:** *Learning to Detect Unknown Jailbreak Attacks in Large Vision-Language Models*
+     - **Summary:** This framework focuses on detecting unknown jailbreak attacks in LVLMs, emphasizing the need for robust defenses against adversarial manipulation.
+
+#### 3. **AI for Safety and Compliance**
+   - **Title:** *SafeRBench: A Comprehensive Benchmark for Safety Assessment in Large Reasoning Models*
+     - **Summary:** SafeRBench introduces a benchmark for assessing safety in LLMs, focusing on the entire reasoning process rather than just outputs, highlighting the importance of comprehensive safety evaluations.
+
+   - **Title:** *Diagnosing Hallucination Risk in AI Surgical Decision-Support: A Sequential Framework for Sequential Validation*
+     - **Summary:** This study proposes a framework to evaluate hallucination risks in LLMs used for surgical decision support, emphasizing the need for interpretability and safety in clinical applications.
+
+   - **Title:** *Do Not Merge My Model! Safeguarding Open-Source LLMs Against Unauthorized Model Merging*
+     - **Summary:** The paper introduces MergeBarrier, a defense mechanism to prevent unauthorized merging of LLMs, addressing security concerns in open-source AI models.
+
+#### 4. **AI for Ethical and Fair Use**
+   - **Title:** *Beyond Bias Scores: Unmasking Vacuous Neutrality in Small Language Models*
+     - **Summary:** This work introduces the Vacuous Neutrality Framework to assess fairness in small language models, highlighting the need for comprehensive evaluations beyond simple bias scores.
+
+   - **Title:** *CoBA: Counterbias Text Augmentation for Mitigating Various Spurious Correlations via Semantic Triples*
+     - **Summary:** CoBA proposes a method for counteracting biases in AI models by generating counterbias data, enhancing robustness and fairness in model predictions.
+
+### Trends and Insights
+- **Increased Focus on Security:** There is a growing emphasis on identifying and mitigating vulnerabilities in AI systems, particularly in LLMs and smart contracts, reflecting the need for robust security measures as AI becomes more integrated into critical applications.
+  
+- **Adversarial Robustness:** Many papers are exploring adversarial attacks and defenses, indicating a recognition of the potential risks posed by malicious actors and the necessity for proactive security strategies.
+
+- **Ethical Considerations:** The integration of fairness and ethical considerations in AI development is becoming more prominent, with frameworks being proposed to ensure responsible AI usage and mitigate biases.
+
+- **Interdisciplinary Approaches:** The intersection of AI with fields like cybersecurity, healthcare, and finance is evident, showcasing the versatility of AI technologies and the need for tailored solutions in diverse domains.
+
+### Conclusion
+The landscape of AI security is rapidly evolving, with significant advancements in methodologies for detecting vulnerabilities, ensuring compliance, and enhancing ethical standards. As AI technologies continue to permeate various sectors, the emphasis on robust security frameworks and ethical considerations will be crucial for fostering trust and reliability in AI applications.
