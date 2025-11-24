@@ -1,0 +1,400 @@
+AI Researcher Agent Report for 2025-11-24-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Stable diffusion models reveal a persisting human and AI gap in visual creativity](https://arxiv.org/abs/2511.16814): This study compares the creativity of image generation between human artists and generative AI models, revealing a clear creativity gradient and suggesting unique challenges for AI in visual domains.
+- [Cognitive BASIC: An In-Model Interpreted Reasoning Language for LLMs](https://arxiv.org/abs/2511.16837): Introduces Cognitive BASIC, a prompting language that structures reasoning in LLMs, enabling transparent multi-step reasoning and knowledge extraction.
+- [Fantastic Bugs and Where to Find Them in AI Benchmarks](https://arxiv.org/abs/2511.16842): Proposes a framework for systematically revising AI benchmarks to identify and correct invalid questions, improving the reliability of evaluations.
+- [Hybrid Differential Reward: Combining Temporal Difference and Action Gradients for Efficient Multi-Agent Reinforcement Learning in Cooperative Driving](https://arxiv.org/abs/2511.16916): Introduces a new reward mechanism for multi-agent reinforcement learning in driving tasks, improving convergence and policy stability.
+- [Comparing verbal, visual and combined explanations for Bayesian Network inferences](https://arxiv.org/abs/2511.16961): Evaluates different user interface extensions for Bayesian Networks, finding that combined verbal and visual explanations improve user understanding.
+- [MirrorMind: Empowering OmniScientist with the Expert Perspectives and Collective Knowledge of Human Scientists](https://arxiv.org/abs/2511.16997): Proposes a cognitive architecture for AI scientists that integrates individual and collective knowledge to enhance scientific reasoning.
+- [Budget-Aware Tool-Use Enables Effective Agent Scaling](https://arxiv.org/abs/2511.17006): Discusses a framework for scaling tool-augmented agents effectively under budget constraints, improving performance and resource management.
+- [DAPS++: Rethinking Diffusion Inverse Problems with Decoupled Posterior Annealing](https://arxiv.org/abs/2511.17038): Introduces a new method for solving inverse problems in diffusion models, improving computational efficiency and reconstruction performance.
+- [Patient-level Information Extraction by Consistent Integration of Textual and Tabular Evidence with Bayesian Networks](https://arxiv.org/abs/2511.17056): Proposes a method for extracting patient-level information from electronic health records by integrating structured and unstructured data.
+- [The Belief-Desire-Intention Ontology for modelling mental reality and agency](https://arxiv.org/abs/2511.17162): Presents a formal ontology for representing rational agency in AI, enhancing the integration of cognitive architectures.
+- [MIR: Efficient Exploration in Episodic Multi-Agent Reinforcement Learning via Mutual Intrinsic Reward](https://arxiv.org/abs/2511.17165): Introduces a method for enhancing exploration in multi-agent reinforcement learning through mutual intrinsic rewards.
+- [Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism](https://arxiv.org/abs/2511.17198): Proposes a framework for designing agents tailored to specific domains, improving procedural correctness and problem decomposition.
+- [Agentifying Agentic AI](https://arxiv.org/abs/2511.17332): Discusses the integration of structured models of reasoning and cooperation into agentic AI systems for improved transparency and accountability.
+- [That's not natural: The Impact of Off-Policy Training Data on Probe Performance](https://arxiv.org/abs/2511.17408): Analyzes the effects of off-policy training data on the performance of probes designed to monitor LLM behaviors.
+- [SRA-CP: Spontaneous Risk-Aware Selective Cooperative Perception](https://arxiv.org/abs/2511.17461): Proposes a framework for cooperative perception among connected vehicles that prioritizes safety-critical information.
+- [Instance Configuration for Sustainable Job Shop Scheduling](https://arxiv.org/abs/2409.18972): Discusses the complexities of job shop scheduling and introduces an instance configurator for benchmarking scheduling algorithms.
+- [Joint Design of Protein Surface and Structure Using a Diffusion Bridge Model](https://arxiv.org/abs/2511.16675): Introduces a framework for designing protein structures that complement target receptors using a diffusion model.
+- [Shona spaCy: A Morphological Analyzer for an Under-Resourced Bantu Language](https://arxiv.org/abs/2511.16680): Presents a morphological analysis toolkit for the Shona language, enhancing NLP accessibility for under-resourced languages.
+- [Towards Hyper-Efficient RAG Systems in VecDBs: Distributed Parallel Multi-Resolution Vector Search](https://arxiv.org/abs/2511.16681): Proposes a new indexing framework for retrieval-augmented generation systems that improves retrieval speed and memory efficiency.
+- [Bench360: Benchmarking Local LLM Inference from 360{\deg}](https://arxiv.org/abs/2511.16682): Introduces a benchmarking framework for evaluating local LLM inference across various configurations and metrics.
+- [How Well Do LLMs Understand Tunisian Arabic?](https://arxiv.org/abs/2511.16683): Evaluates the performance of LLMs on understanding the Tunisian Arabic dialect, highlighting the need for inclusion of low-resource languages.
+- [Ellipsoid-Based Decision Boundaries for Open Intent Classification](https://arxiv.org/abs/2511.16685): Proposes a new method for open intent classification using ellipsoid decision boundaries for improved flexibility and performance.
+- [Prompt-Based Value Steering of Large Language Models](https://arxiv.org/abs/2511.16688): Discusses a method for steering LLM outputs towards human values using prompt conditioning.
+- [Concept-Based Interpretability for Toxicity Detection](https://arxiv.org/abs/2511.16689): Introduces a new interpretability technique for toxicity detection models based on concept attribution.
+- [Falsely Accused: How AI Detectors Misjudge Slightly Polished Arabic Articles](https://arxiv.org/abs/2511.16690): Analyzes the performance of AI detectors in distinguishing between human-authored and AI-generated Arabic articles.
+- [Hierarchical Retrieval with Out-Of-Vocabulary Queries: A Case Study on SNOMED CT](https://arxiv.org/abs/2511.16698): Proposes a method for retrieving hierarchical concepts from biomedical ontologies using out-of-vocabulary queries.
+- [Detecting and Steering LLMs' Empathy in Action](https://arxiv.org/abs/2511.16699): Investigates the detection and steering of empathy in LLMs using various models.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Large language models for automated PRISMA 2020 adherence checking](https://arxiv.org/abs/2511.16707): Evaluates the performance of LLMs in assessing adherence to PRISMA guidelines in systematic reviews.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937): Introduces a benchmark for evaluating spatio-temporal video grounding tasks.
+- [RAG-Driven Data Quality Governance for Enterprise ERP Systems](https://arxiv.org/abs/2511.16700): Discusses a framework for improving data quality in enterprise systems using retrieval-augmented generation.
+- [Multi-Agent Code Verification with Compound Vulnerability Detection](https://arxiv.org/abs/2511.16708): Introduces a multi-agent system for detecting bugs in code generated by LLMs.
+- [AutoBackdoor: Automating Backdoor Attacks via LLM Agents](https://arxiv.org/abs/2511.16709): Proposes a framework for automating backdoor attacks on LLMs using language model agents.
+- [PairHuman: A High-Fidelity Photographic Dataset for Customized Dual-Person Generation](https://arxiv.org/abs/2511.16712): Introduces a dataset for generating dual-person portraits with high fidelity.
+- [DDTime: Dataset Distillation with Spectral Alignment and Information Bottleneck for Time-Series Forecasting](https://arxiv.org/abs/2511.16715): Proposes a framework for dataset distillation in time-series forecasting.
+- [Password Strength Analysis Through Social Network Data Exposure: A Combined Approach Relying on Data Reconstruction and Generative Models](https://arxiv.org/abs/2511.16716): Discusses a method for evaluating password strength using social media data.
+- [A Machine Learning-Driven Solution for Denoising Inertial Confinement Fusion Images](https://arxiv.org/abs/2511.16717): Introduces a machine learning approach for denoising neutron imaging data.
+- [SAM 3: Segment Anything with Concepts](https://arxiv.org/abs/2511.16719): Presents a model for detecting and segmenting objects in images based on concept prompts.
+- [SafeR-CLIP: Mitigating NSFW Content in Vision-Language Models While Preserving Pre-Trained Knowledge](https://arxiv.org/abs/2511.16743): Discusses a framework for improving the safety of vision-language models without sacrificing performance.
+- [Revisiting Audio-language Pretraining for Learning General-purpose Audio Representation](https://arxiv.org/abs/2511.16757): Proposes a new approach for audio-language pretraining to improve general-purpose audio understanding.
+- [Generative Augmented Reality: Paradigms, Technologies, and Future Applications](https://arxiv.org/abs/2511.16783): Introduces the concept of Generative Augmented Reality and its potential applications.
+- [Revisiting Multimodal KV Cache Compression: A Frequency-Domain-Guided Outlier-KV-Aware Approach](https://arxiv.org/abs/2511.16786): Proposes a new approach for compressing KV caches in multimodal large language models.
+- [Mesh RAG: Retrieval Augmentation for Autoregressive Mesh Generation](https://arxiv.org/abs/2511.16807): Introduces a framework for enhancing mesh generation through retrieval augmentation.
+- [A Robust Federated Learning Approach for Combating Attacks Against IoT Systems Under non-IID Challenges](https://arxiv.org/abs/2511.16822): Discusses a federated learning approach for IoT systems facing statistical heterogeneity.
+- [Monte Carlo Expected Threat (MOCET) Scoring](https://arxiv.org/abs/2511.16823): Proposes a new metric for evaluating AI safety threats.
+- [WorldGen: From Text to Traversable and Interactive 3D Worlds](https://arxiv.org/abs/2511.16825): Introduces a system for generating interactive 3D worlds from text prompts.
+- [ManifoldFormer: Geometric Deep Learning for Neural Dynamics on Riemannian Manifolds](https://arxiv.org/abs/2511.16828): Proposes a new framework for learning neural dynamics on Riemannian manifolds.
+- [Analysis of heart failure patient trajectories using sequence modeling](https://arxiv.org/abs/2511.16839): Investigates the performance of sequence models in predicting heart failure patient outcomes.
+- [ConCISE: A Reference-Free Conciseness Evaluation Metric for LLM-Generated Answers](https://arxiv.org/abs/2511.16846): Introduces a new metric for evaluating the conciseness of LLM-generated responses.
+- [Sex and age determination in European lobsters using AI-Enhanced bioacoustics](https://arxiv.org/abs/2511.16848): Discusses a method for determining the sex and age of lobsters using AI and bioacoustics.
+- [MRI Super-Resolution with Deep Learning: A Comprehensive Survey](https://arxiv.org/abs/2511.16854): Reviews recent advances in MRI super-resolution techniques using deep learning.
+- [The use of vocal biomarkers in the detection of Parkinson's disease: a robust statistical performance comparison of classic machine learning models](https://arxiv.org/abs/2511.16856): Compares the performance of deep learning and traditional machine learning models in detecting Parkinson's disease using vocal biomarkers.
+- [Generative AI in Sociological Research: State of the Discipline](https://arxiv.org/abs/2511.16884): Surveys the use of generative AI in sociological research, highlighting both its potential and concerns.
+- [Deep Improvement Supervision](https://arxiv.org/abs/2511.16886): Investigates methods to improve the efficiency of reasoning in small looped architectures.
+- [PepEVOLVE: Position-Aware Dynamic Peptide Optimization via Group-Relative Advantage](https://arxiv.org/abs/2511.16912): Proposes a new framework for optimizing peptide sequences in drug discovery.
+- [OmniGround: A Comprehensive Spatio-Temporal Grounding Benchmark for Real-World Complex Scenarios](https://arxiv.org/abs/2511.16937):
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Trends and Insights
+
+1. **Security Vulnerabilities in AI Systems**:
+   - Several papers highlight the vulnerabilities of AI systems, particularly in the context of adversarial attacks and backdoor threats. For instance, "AutoBackdoor" discusses automating backdoor attacks on LLMs, emphasizing the need for robust defenses against such threats. Similarly, "Defending the Edge" presents a novel approach to detect and mitigate backdoor attacks in federated learning settings.
+
+2. **Privacy Concerns**:
+   - The issue of privacy is prevalent, with papers like "AudAgent" focusing on auditing AI agents' compliance with privacy policies. The findings indicate that many AI agents do not adequately protect sensitive data, raising concerns about their deployment in real-world applications.
+
+3. **Bias and Fairness**:
+   - The potential for bias in AI outputs is a recurring theme. "Fairness Evaluation of Large Language Models in Academic Library Reference Services" examines how LLMs may inadvertently reinforce biases, while "Generative AI and Power Imbalances in Global Education" discusses how generative AI can reproduce existing inequalities.
+
+4. **Robustness and Reliability**:
+   - The robustness of AI models against various forms of manipulation is crucial. Papers like "When Bias Pretends to Be Truth" explore how spurious correlations can undermine the reliability of hallucination detection in LLMs, suggesting that new methods are needed to address these vulnerabilities.
+
+5. **Model Interpretability**:
+   - The need for interpretability in AI models is emphasized in several studies. For example, "Prototype Neural Networks" discusses the importance of explainability in AI systems, particularly in high-stakes applications like healthcare.
+
+6. **Regulatory and Ethical Considerations**:
+   - The ethical implications of deploying AI systems are highlighted in "The Loss of Control Playbook," which discusses the need for governance frameworks to manage the risks associated with advanced AI systems.
+
+7. **Innovative Defense Mechanisms**:
+   - New methodologies for enhancing the security of AI systems are proposed, such as "SHIELD," which integrates interval bound propagation with hypernetwork architectures to enable robust continual learning.
+
+8. **Applications in Healthcare**:
+   - The application of AI in healthcare is a significant focus, with papers like "KRAL" discussing how to enhance clinical decision-making through improved AI models, while "MF-GCN" explores the use of multi-frequency graph convolutional networks for detecting depression.
+
+#### Notable Papers and Their Contributions
+
+1. **"AutoBackdoor: Automating Backdoor Attacks via LLM Agents"**:
+   - Introduces a framework for automating backdoor injection in LLMs, highlighting the need for adaptive defenses against such attacks.
+
+2. **"AudAgent: Automated Auditing of Privacy Policy Compliance in AI Agents"**:
+   - Proposes a tool for monitoring AI agents' data practices in real time, emphasizing the importance of compliance with privacy policies.
+
+3. **"When Bias Pretends to Be Truth"**:
+   - Investigates how spurious correlations can lead to hallucinations in LLMs, calling for new detection methods that address these biases.
+
+4. **"SHIELD: Secure Hypernetworks for Incremental Expansion Learning Defense"**:
+   - Presents a novel framework for continual learning that integrates robust defenses against adversarial conditions.
+
+5. **"KRAL: Knowledge and Reasoning Augmented Learning for LLM-assisted Clinical Antimicrobial Therapy"**:
+   - Discusses a framework for enhancing clinical decision-making through improved AI models, addressing the need for reliable healthcare applications.
+
+6. **"MF-GCN: A Multi-Frequency Graph Convolutional Network for Tri-Modal Depression Detection"**:
+   - Explores the use of multi-modal data for detecting depression, showcasing the potential of AI in mental health applications.
+
+### Conclusion
+
+The landscape of AI security and ethical considerations is rapidly evolving, with significant advancements in methodologies for enhancing the robustness, interpretability, and fairness of AI systems. The ongoing research highlights the critical need for comprehensive frameworks that address the multifaceted challenges posed by AI deployment in sensitive areas such as healthcare, education, and public safety. As AI continues to integrate into various sectors, the emphasis on security, privacy, and ethical implications will remain paramount.
