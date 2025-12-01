@@ -1,0 +1,380 @@
+AI Researcher Agent Report for 2025-12-01-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Aligning Artificial Superintelligence via a Multi-Box Protocol](https://arxiv.org/abs/2511.21779): Proposes a protocol for aligning artificial superintelligence through mutual verification among isolated systems, emphasizing a reputation system to incentivize honest behavior.
+- [Evaluating Strategies for Synthesizing Clinical Notes for Medical Multimodal AI](https://arxiv.org/abs/2511.21827): Investigates strategies for generating synthetic clinical notes to enhance multimodal AI applications in dermatology, focusing on prompt design and metadata inclusion.
+- [Pathology-Aware Prototype Evolution via LLM-Driven Semantic Disambiguation for Multicenter Diabetic Retinopathy Diagnosis](https://arxiv.org/abs/2511.22033): Introduces a framework for diabetic retinopathy grading that integrates fine-grained pathological descriptions to improve classification accuracy.
+- [Real-Time Procedural Learning From Experience for AI Agents](https://arxiv.org/abs/2511.22074): Proposes PRAXIS, a mechanism for AI agents to learn from past experiences in real-time, enhancing task completion accuracy.
+- [Hybrid Stackelberg Game and Diffusion-based Auction for Two-tier Agentic AI Task Offloading in Internet of Agents](https://arxiv.org/abs/2511.22076): Discusses a two-tier optimization approach for task offloading in interconnected AI agents, utilizing game theory and auction models.
+- [A perceptual bias of AI Logical Argumentation Ability in Writing](https://arxiv.org/abs/2511.22151): Explores human biases in evaluating AI's logical reasoning abilities, highlighting the need for improved public understanding of AI capabilities.
+- [WearVQA: A Visual Question Answering Benchmark for Wearables in Egocentric Authentic Real-world scenarios](https://arxiv.org/abs/2511.22154): Introduces a benchmark for evaluating visual question answering capabilities of AI assistants on wearable devices.
+- [Embedded Universal Predictive Intelligence: a coherent framework for multi-agent learning](https://arxiv.org/abs/2511.22226): Proposes a framework for multi-agent learning that incorporates self-prediction to enhance cooperation and reasoning.
+- [Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation](https://arxiv.org/abs/2511.22235): Presents a multi-agent framework for improving GUI automation through high-level scheduling and state management.
+- [Co-Evolving Agents: Learning from Failures as Hard Negatives](https://arxiv.org/abs/2511.22254): Introduces a framework for self-improving agents that learn from their failures to enhance performance.
+- [RecToM: A Benchmark for Evaluating Machine Theory of Mind in LLM-based Conversational Recommender Systems](https://arxiv.org/abs/2511.22275): Proposes a benchmark for evaluating theory of mind abilities in conversational recommender systems.
+- [When AI Bends Metal: AI-Assisted Optimization of Design Parameters in Sheet Metal Forming](https://arxiv.org/abs/2511.22302): Discusses an AI-assisted workflow for optimizing design parameters in industrial processes.
+- [Enhanced Conditional Generation of Double Perovskite by Knowledge-Guided Language Model Feedback](https://arxiv.org/abs/2511.22307): Introduces a framework for generating double perovskite compositions using knowledge-guided feedback.
+- [Swarms of Large Language Model Agents for Protein Sequence Design with Experimental Validation](https://arxiv.org/abs/2511.22311): Describes a decentralized framework for protein design using multiple LLM agents.
+- [Tracing Footsteps of Similar Cities: Modeling Urban Economic Vitality with Dynamic Inter-City Graph Embeddings](https://arxiv.org/abs/2511.22325): Develops a framework for modeling urban economic vitality using dynamic graph embeddings.
+- [On the Complexity of the Grounded Semantics for Infinite Argumentation Frameworks](https://arxiv.org/abs/2511.22376): Analyzes the complexity of grounded semantics in infinite argumentation frameworks.
+- [Who is Afraid of Minimal Revision?](https://arxiv.org/abs/2511.22386): Explores the learning capabilities of minimal revision methods in belief revision theory.
+- [Structured Extraction from Business Process Diagrams Using Vision-Language Models](https://arxiv.org/abs/2511.22448): Proposes a pipeline for extracting structured representations from BPMN diagrams using vision-language models.
+- [A Computable Game-Theoretic Framework for Multi-Agent Theory of Mind](https://arxiv.org/abs/2511.22536): Introduces a computational framework for multi-agent theory of mind based on game theory.
+- [Counting Still Counts: Understanding Neural Complex Query Answering Through Query Relaxation](https://arxiv.org/abs/2511.22565): Analyzes the performance of neural methods for complex query answering over knowledge graphs.
+- [DeepSeekMath-V2: Towards Self-Verifiable Mathematical Reasoning](https://arxiv.org/abs/2511.22570): Discusses a model for self-verifiable mathematical reasoning using LLMs.
+- [AI Deception: Risks, Dynamics, and Controls](https://arxiv.org/abs/2511.22619): Provides an overview of AI deception, its risks, and potential mitigations.
+- [Optimized Agent Shift Scheduling Using Multi-Phase Allocation Approach](https://arxiv.org/abs/2511.22632): Proposes a multi-phase allocation method for agent shift scheduling in contact centers.
+- [Geometrically-Constrained Agent for Spatial Reasoning](https://arxiv.org/abs/2511.22659): Introduces a geometrically-constrained agent paradigm for spatial reasoning tasks.
+- [Solving Context Window Overflow in AI Agents](https://arxiv.org/abs/2511.22729): Presents a method for enabling LLMs to process tool responses of arbitrary length without loss of information.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.14495): Introduces a method for improving mathematical reasoning verification.
+- [On the Role of Preference Variance in Preference Optimization](https://arxiv.org/abs/2510.13022): Investigates the impact of preference variance on direct preference optimization training.
+- [A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks](https://arxiv.org/abs/2511.21706): Proposes a dialogue policy planning method that utilizes LLMs.
+- [Sensing and Understanding the World over Air: A Large Multimodal Model for Mobile Networks](https://arxiv.org/abs/2511.21707): Discusses a multimodal model for understanding the physical world through wireless signals.
+- [Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?](https://arxiv.org/abs/2511.21708): Evaluates the capabilities of LLMs in data preparation tasks.
+- [Quantifying and Mitigating Selection Bias in LLMs: A Transferable LoRA Fine-Tuning and Efficient Majority Voting Approach](https://arxiv.org/abs/2511.21709): Proposes methods for quantifying and mitigating selection bias in MCQ tasks.
+- [EulerESG: Automating ESG Disclosure Analysis with LLMs](https://arxiv.org/abs/2511.21712): Introduces an LLM-powered system for automating ESG disclosure analysis.
+- [GPS: General Per-Sample Prompter](https://arxiv.org/abs/2511.21714): Proposes a general-purpose prompting method for LLMs.
+- [German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies](https://arxiv.org/abs/2511.21722): Introduces a persona prompt collection for simulating human perspectives.
+- [PromptTailor: Multi-turn Intent-Aligned Prompt Synthesis for Lightweight LLMs](https://arxiv.org/abs/2511.21725): Proposes a system for generating controllable prompts for open-ended text.
+- [Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks](https://arxiv.org/abs/2511.21726): Discusses the advantages of goal-directed search in memory tasks.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Beyond Component Strength: Synergistic Integration and Adaptive Calibration in Multi-Agent RAG Systems](https://arxiv.org/abs/2511.21729): Discusses the importance of synergistic integration in retrieval-augmented generation systems.
+- [DocVAL: Validated Chain-of-Thought Distillation for Grounded Document VQA](https://arxiv.org/abs/2511.22521): Introduces a framework for improving document visual question answering.
+- [CoT4AD: A Vision-Language-Action Model with Explicit Chain-of-Thought Reasoning for Autonomous Driving](https://arxiv.org/abs/2511.22532): Proposes a framework for enhancing reasoning in autonomous driving tasks.
+- [Flow Straighter and Faster: Efficient One-Step Generative Modeling via MeanFlow on Rectified Trajectories](https://arxiv.org/abs/2511.23342): Discusses a method for efficient generative modeling in diffusion processes.
+- [Human Experts' Evaluation of Generative AI for Contextualizing STEAM Education in the Global South](https://arxiv.org/abs/2511.19482): Evaluates the effectiveness of generative AI in contextualizing STEAM education.
+- [A Unified and Stable Risk Minimization Framework for Weakly Supervised Learning with Theoretical Guarantees](https://arxiv.org/abs/2511.22823): Proposes a framework for weakly supervised learning that addresses various supervision patterns.
+- [CausalProfiler: Generating Synthetic Benchmarks for Rigorous and Transparent Evaluation of Causal Machine Learning](https://arxiv.org/abs/2511.22842): Introduces a synthetic benchmark generator for causal machine learning evaluation.
+- [Escaping Barren Plateaus in Variational Quantum Algorithms Using Negative Learning Rate in Quantum Internet of Things](https://arxiv.org/abs/2511.22861): Discusses a method for escaping barren plateaus in quantum algorithms.
+- [Training for Obsolescence? The AI-Driven Education Trap](https://arxiv.org/abs/2508.19625): Analyzes the impact of AI on education and the potential for misallocation of skills.
+- [Dual-Model Weight Selection and Self-Knowledge Distillation for Medical Image Classification](https://arxiv.org/abs/2508.20461): Proposes a method for improving medical image classification through dual-model weight selection.
+- [Beyond Ensembles: Simulating All-Atom Protein Dynamics in a Learned Latent Space](https://arxiv.org/abs/2509.02196): Discusses a method for simulating protein dynamics using learned latent spaces.
+- [ChronoGraph: A Real-World Graph-Based Multivariate Time Series Dataset](https://arxiv.org/abs/2509.04449): Introduces a graph-structured multivariate time series dataset for traffic prediction.
+- [From Vision to Validation: A Theory- and Data-Driven Construction of a GCC-Specific AI Adoption Index](https://arxiv.org/abs/2509.05474): Proposes an AI adoption index tailored for the GCC public sector.
+- [UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning](https://arxiv.org/abs/2509.06165): Introduces a unified framework for video scene graph generation.
+- [Real-Time Obstacle Avoidance for a Mobile Robot Using CNN-Based Sensor Fusion](https://arxiv.org/abs/2509.08095): Discusses a method for real-time obstacle avoidance in mobile robots.
+- [Masked Diffusion Models as Energy Minimization](https://arxiv.org/abs/2509.13866): Proposes a theoretical framework for masked diffusion models as energy minimization problems.
+- [The Hidden AI Race: Tracking Environmental Costs of Innovation](https://arxiv.org/abs/2511.22781): Analyzes the environmental impact of AI development.
+- [Learning to Predict Aboveground Biomass from RGB Images with 3D Synthetic Scenes](https://arxiv.org/abs/2511.23249): Proposes a method for estimating aboveground biomass from RGB images.
+- [One-Shot Secure Aggregation: A Hybrid Cryptographic Protocol for Private Federated Learning in IoT](https://arxiv.org/abs/2511.23252): Discusses a secure aggregation protocol for federated learning in IoT.
+- [Terminal Velocity Matching](https://arxiv.org/abs/2511.19797): Introduces a method for generative modeling using terminal velocity matching.
+- [Chiplet-Based RISC-V SoC with Modular AI Acceleration](https://arxiv.org/abs/2509.18355): Proposes a chiplet-based RISC-V SoC architecture for AI acceleration.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.14495): Introduces a method for improving mathematical reasoning verification.
+- [On the Role of Preference Variance in Preference Optimization](https://arxiv.org/abs/2510.13022): Investigates the impact of preference variance on direct preference optimization training.
+- [A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks](https://arxiv.org/abs/2511.21706): Proposes a dialogue policy planning method that utilizes LLMs.
+- [Sensing and Understanding the World over Air: A Large Multimodal Model for Mobile Networks](https://arxiv.org/abs/2511.21707): Discusses a multimodal model for understanding the physical world through wireless signals.
+- [Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?](https://arxiv.org/abs/2511.21708): Evaluates the capabilities of LLMs in data preparation tasks.
+- [Quantifying and Mitigating Selection Bias in LLMs: A Transferable LoRA Fine-Tuning and Efficient Majority Voting Approach](https://arxiv.org/abs/2511.21709): Proposes methods for quantifying and mitigating selection bias in MCQ tasks.
+- [EulerESG: Automating ESG Disclosure Analysis with LLMs](https://arxiv.org/abs/2511.21712): Introduces an LLM-powered system for automating ESG disclosure analysis.
+- [GPS: General Per-Sample Prompter](https://arxiv.org/abs/2511.21714): Proposes a general-purpose prompting method for LLMs.
+- [German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies](https://arxiv.org/abs/2511.21722): Introduces a persona prompt collection for simulating human perspectives.
+- [PromptTailor: Multi-turn Intent-Aligned Prompt Synthesis for Lightweight LLMs](https://arxiv.org/abs/2511.21725): Proposes a system for generating controllable prompts for open-ended text.
+- [Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks](https://arxiv.org/abs/2511.21726): Discusses the advantages of goal-directed search in memory tasks.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.14495): Introduces a method for improving mathematical reasoning verification.
+- [On the Role of Preference Variance in Preference Optimization](https://arxiv.org/abs/2510.13022): Investigates the impact of preference variance on direct preference optimization training.
+- [A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks](https://arxiv.org/abs/2511.21706): Proposes a dialogue policy planning method that utilizes LLMs.
+- [Sensing and Understanding the World over Air: A Large Multimodal Model for Mobile Networks](https://arxiv.org/abs/2511.21707): Discusses a multimodal model for understanding the physical world through wireless signals.
+- [Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?](https://arxiv.org/abs/2511.21708): Evaluates the capabilities of LLMs in data preparation tasks.
+- [Quantifying and Mitigating Selection Bias in LLMs: A Transferable LoRA Fine-Tuning and Efficient Majority Voting Approach](https://arxiv.org/abs/2511.21709): Proposes methods for quantifying and mitigating selection bias in MCQ tasks.
+- [EulerESG: Automating ESG Disclosure Analysis with LLMs](https://arxiv.org/abs/2511.21712): Introduces an LLM-powered system for automating ESG disclosure analysis.
+- [GPS: General Per-Sample Prompter](https://arxiv.org/abs/2511.21714): Proposes a general-purpose prompting method for LLMs.
+- [German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies](https://arxiv.org/abs/2511.21722): Introduces a persona prompt collection for simulating human perspectives.
+- [PromptTailor: Multi-turn Intent-Aligned Prompt Synthesis for Lightweight LLMs](https://arxiv.org/abs/2511.21725): Proposes a system for generating controllable prompts for open-ended text.
+- [Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks](https://arxiv.org/abs/2511.21726): Discusses the advantages of goal-directed search in memory tasks.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.14495): Introduces a method for improving mathematical reasoning verification.
+- [On the Role of Preference Variance in Preference Optimization](https://arxiv.org/abs/2510.13022): Investigates the impact of preference variance on direct preference optimization training.
+- [A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks](https://arxiv.org/abs/2511.21706): Proposes a dialogue policy planning method that utilizes LLMs.
+- [Sensing and Understanding the World over Air: A Large Multimodal Model for Mobile Networks](https://arxiv.org/abs/2511.21707): Discusses a multimodal model for understanding the physical world through wireless signals.
+- [Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?](https://arxiv.org/abs/2511.21708): Evaluates the capabilities of LLMs in data preparation tasks.
+- [Quantifying and Mitigating Selection Bias in LLMs: A Transferable LoRA Fine-Tuning and Efficient Majority Voting Approach](https://arxiv.org/abs/2511.21709): Proposes methods for quantifying and mitigating selection bias in MCQ tasks.
+- [EulerESG: Automating ESG Disclosure Analysis with LLMs](https://arxiv.org/abs/2511.21712): Introduces an LLM-powered system for automating ESG disclosure analysis.
+- [GPS: General Per-Sample Prompter](https://arxiv.org/abs/2511.21714): Proposes a general-purpose prompting method for LLMs.
+- [German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies](https://arxiv.org/abs/2511.21722): Introduces a persona prompt collection for simulating human perspectives.
+- [PromptTailor: Multi-turn Intent-Aligned Prompt Synthesis for Lightweight LLMs](https://arxiv.org/abs/2511.21725): Proposes a system for generating controllable prompts for open-ended text.
+- [Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks](https://arxiv.org/abs/2511.21726): Discusses the advantages of goal-directed search in memory tasks.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.14495): Introduces a method for improving mathematical reasoning verification.
+- [On the Role of Preference Variance in Preference Optimization](https://arxiv.org/abs/2510.13022): Investigates the impact of preference variance on direct preference optimization training.
+- [A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks](https://arxiv.org/abs/2511.21706): Proposes a dialogue policy planning method that utilizes LLMs.
+- [Sensing and Understanding the World over Air: A Large Multimodal Model for Mobile Networks](https://arxiv.org/abs/2511.21707): Discusses a multimodal model for understanding the physical world through wireless signals.
+- [Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?](https://arxiv.org/abs/2511.21708): Evaluates the capabilities of LLMs in data preparation tasks.
+- [Quantifying and Mitigating Selection Bias in LLMs: A Transferable LoRA Fine-Tuning and Efficient Majority Voting Approach](https://arxiv.org/abs/2511.21709): Proposes methods for quantifying and mitigating selection bias in MCQ tasks.
+- [EulerESG: Automating ESG Disclosure Analysis with LLMs](https://arxiv.org/abs/2511.21712): Introduces an LLM-powered system for automating ESG disclosure analysis.
+- [GPS: General Per-Sample Prompter](https://arxiv.org/abs/2511.21714): Proposes a general-purpose prompting method for LLMs.
+- [German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies](https://arxiv.org/abs/2511.21722): Introduces a persona prompt collection for simulating human perspectives.
+- [PromptTailor: Multi-turn Intent-Aligned Prompt Synthesis for Lightweight LLMs](https://arxiv.org/abs/2511.21725): Proposes a system for generating controllable prompts for open-ended text.
+- [Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks](https://arxiv.org/abs/2511.21726): Discusses the advantages of goal-directed search in memory tasks.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.14495): Introduces a method for improving mathematical reasoning verification.
+- [On the Role of Preference Variance in Preference Optimization](https://arxiv.org/abs/2510.13022): Investigates the impact of preference variance on direct preference optimization training.
+- [A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks](https://arxiv.org/abs/2511.21706): Proposes a dialogue policy planning method that utilizes LLMs.
+- [Sensing and Understanding the World over Air: A Large Multimodal Model for Mobile Networks](https://arxiv.org/abs/2511.21707): Discusses a multimodal model for understanding the physical world through wireless signals.
+- [Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?](https://arxiv.org/abs/2511.21708): Evaluates the capabilities of LLMs in data preparation tasks.
+- [Quantifying and Mitigating Selection Bias in LLMs: A Transferable LoRA Fine-Tuning and Efficient Majority Voting Approach](https://arxiv.org/abs/2511.21709): Proposes methods for quantifying and mitigating selection bias in MCQ tasks.
+- [EulerESG: Automating ESG Disclosure Analysis with LLMs](https://arxiv.org/abs/2511.21712): Introduces an LLM-powered system for automating ESG disclosure analysis.
+- [GPS: General Per-Sample Prompter](https://arxiv.org/abs/2511.21714): Proposes a general-purpose prompting method for LLMs.
+- [German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies](https://arxiv.org/abs/2511.21722): Introduces a persona prompt collection for simulating human perspectives.
+- [PromptTailor: Multi-turn Intent-Aligned Prompt Synthesis for Lightweight LLMs](https://arxiv.org/abs/2511.21725): Proposes a system for generating controllable prompts for open-ended text.
+- [Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks](https://arxiv.org/abs/2511.21726): Discusses the advantages of goal-directed search in memory tasks.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.14495): Introduces a method for improving mathematical reasoning verification.
+- [On the Role of Preference Variance in Preference Optimization](https://arxiv.org/abs/2510.13022): Investigates the impact of preference variance on direct preference optimization training.
+- [A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks](https://arxiv.org/abs/2511.21706): Proposes a dialogue policy planning method that utilizes LLMs.
+- [Sensing and Understanding the World over Air: A Large Multimodal Model for Mobile Networks](https://arxiv.org/abs/2511.21707): Discusses a multimodal model for understanding the physical world through wireless signals.
+- [Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?](https://arxiv.org/abs/2511.21708): Evaluates the capabilities of LLMs in data preparation tasks.
+- [Quantifying and Mitigating Selection Bias in LLMs: A Transferable LoRA Fine-Tuning and Efficient Majority Voting Approach](https://arxiv.org/abs/2511.21709): Proposes methods for quantifying and mitigating selection bias in MCQ tasks.
+- [EulerESG: Automating ESG Disclosure Analysis with LLMs](https://arxiv.org/abs/2511.21712): Introduces an LLM-powered system for automating ESG disclosure analysis.
+- [GPS: General Per-Sample Prompter](https://arxiv.org/abs/2511.21714): Proposes a general-purpose prompting method for LLMs.
+- [German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies](https://arxiv.org/abs/2511.21722): Introduces a persona prompt collection for simulating human perspectives.
+- [PromptTailor: Multi-turn Intent-Aligned Prompt Synthesis for Lightweight LLMs](https://arxiv.org/abs/2511.21725): Proposes a system for generating controllable prompts for open-ended text.
+- [Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks](https://arxiv.org/abs/2511.21726): Discusses the advantages of goal-directed search in memory tasks.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.14495): Introduces a method for improving mathematical reasoning verification.
+- [On the Role of Preference Variance in Preference Optimization](https://arxiv.org/abs/2510.13022): Investigates the impact of preference variance on direct preference optimization training.
+- [A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks](https://arxiv.org/abs/2511.21706): Proposes a dialogue policy planning method that utilizes LLMs.
+- [Sensing and Understanding the World over Air: A Large Multimodal Model for Mobile Networks](https://arxiv.org/abs/2511.21707): Discusses a multimodal model for understanding the physical world through wireless signals.
+- [Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?](https://arxiv.org/abs/2511.21708): Evaluates the capabilities of LLMs in data preparation tasks.
+- [Quantifying and Mitigating Selection Bias in LLMs: A Transferable LoRA Fine-Tuning and Efficient Majority Voting Approach](https://arxiv.org/abs/2511.21709): Proposes methods for quantifying and mitigating selection bias in MCQ tasks.
+- [EulerESG: Automating ESG Disclosure Analysis with LLMs](https://arxiv.org/abs/2511.21712): Introduces an LLM-powered system for automating ESG disclosure analysis.
+- [GPS: General Per-Sample Prompter](https://arxiv.org/abs/2511.21714): Proposes a general-purpose prompting method for LLMs.
+- [German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies](https://arxiv.org/abs/2511.21722): Introduces a persona prompt collection for simulating human perspectives.
+- [PromptTailor: Multi-turn Intent-Aligned Prompt Synthesis for Lightweight LLMs](https://arxiv.org/abs/2511.21725): Proposes a system for generating controllable prompts for open-ended text.
+- [Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks](https://arxiv.org/abs/2511.21726): Discusses the advantages of goal-directed search in memory tasks.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.14495): Introduces a method for improving mathematical reasoning verification.
+- [On the Role of Preference Variance in Preference Optimization](https://arxiv.org/abs/2510.13022): Investigates the impact of preference variance on direct preference optimization training.
+- [A General Highly Accurate Online Planning Method Integrating Large Language Models into Nested Rollout Policy Adaptation for Dialogue Tasks](https://arxiv.org/abs/2511.21706): Proposes a dialogue policy planning method that utilizes LLMs.
+- [Sensing and Understanding the World over Air: A Large Multimodal Model for Mobile Networks](https://arxiv.org/abs/2511.21707): Discusses a multimodal model for understanding the physical world through wireless signals.
+- [Lost in the Pipeline: How Well Do Large Language Models Handle Data Preparation?](https://arxiv.org/abs/2511.21708): Evaluates the capabilities of LLMs in data preparation tasks.
+- [Quantifying and Mitigating Selection Bias in LLMs: A Transferable LoRA Fine-Tuning and Efficient Majority Voting Approach](https://arxiv.org/abs/2511.21709): Proposes methods for quantifying and mitigating selection bias in MCQ tasks.
+- [EulerESG: Automating ESG Disclosure Analysis with LLMs](https://arxiv.org/abs/2511.21712): Introduces an LLM-powered system for automating ESG disclosure analysis.
+- [GPS: General Per-Sample Prompter](https://arxiv.org/abs/2511.21714): Proposes a general-purpose prompting method for LLMs.
+- [German General Personas: A Survey-Derived Persona Prompt Collection for Population-Aligned LLM Studies](https://arxiv.org/abs/2511.21722): Introduces a persona prompt collection for simulating human perspectives.
+- [PromptTailor: Multi-turn Intent-Aligned Prompt Synthesis for Lightweight LLMs](https://arxiv.org/abs/2511.21725): Proposes a system for generating controllable prompts for open-ended text.
+- [Goal-Directed Search Outperforms Goal-Agnostic Memory Compression in Long-Context Memory Tasks](https://arxiv.org/abs/2511.21726): Discusses the advantages of goal-directed search in memory tasks.
+- [Affective Multimodal Agents with Proactive Knowledge Grounding for Emotionally Aligned Marketing Dialogue](https://arxiv.org/abs/2511.21728): Proposes a multimodal dialogue agent for marketing conversations.
+- [Agentic AI Framework for Individuals with Disabilities and Neurodivergence: A Multi-Agent System for Healthy Eating, Daily Routines, and Inclusive Well-Being](https://arxiv.org/abs/2511.22737): Proposes a multi-agent AI framework to support individuals with disabilities in daily routines.
+- [Agentic AI Framework for Cloudburst Prediction and Coordinated Response](https://arxiv.org/abs/2511.22767): Discusses an AI framework for predicting cloudbursts and coordinating responses.
+- [Fast dynamical similarity analysis](https://arxiv.org/abs/2511.22828): Introduces a method for comparing the temporal structure of dynamical systems.
+- [InsightEval: An Expert-Curated Benchmark for Assessing Insight Discovery in LLM-Driven Data Agents](https://arxiv.org/abs/2511.22884): Proposes a benchmark for evaluating insight discovery capabilities in data agents.
+- [ORION: Teaching Language Models to Reason Efficiently in the Language of Thought](https://arxiv.org/abs/2511.22891): Discusses a framework for training models to reason in a compact style.
+- [TIM-PRM: Verifying multimodal reasoning with Tool-Integrated PRM](https://arxiv.org/abs/2511.22998): Introduces a framework for verifying multimodal reasoning in AI systems.
+- [MindPower: Enabling Theory-of-Mind Reasoning in VLM-based Embodied Agents](https://arxiv.org/abs/2511.23055): Proposes a framework for enabling theory-of-mind reasoning in embodied agents.
+- [Does Self-Evaluation Enable Wireheading in Language Models?](https://arxiv.org/abs/2511.23092): Investigates the effects of self-evaluation on language model performance.
+- [Evolutionary Discovery of Heuristic Policies for Traffic Signal Control](https://arxiv.org/abs/2511.23122): Discusses a method for discovering heuristic policies for traffic signal control.
+- [Peer-to-Peer Energy Trading in Dairy Farms using Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2511.23148): Explores the role of peer-to-peer energy trading in dairy farming communities.
+- [AgriCoT: A Chain-of-Thought Benchmark for Evaluating Reasoning in Vision-Language Models for Agriculture](https://arxiv.org/abs/2511.23253): Introduces a benchmark for evaluating reasoning capabilities of VLMs in agriculture.
+- [Adapting Like Humans: A Metacognitive Agent with Test-time Reasoning](https://arxiv.org/abs/2511.23262): Proposes a framework for enabling metacognitive test-time reasoning in AI agents.
+- [OctoMed: Data Recipes for State-of-the-Art Multimodal Medical Reasoning](https://arxiv.org/abs/2511.23269): Discusses strategies for training robust multimodal reasoning models in the medical domain.
+- [Multi-Modal Scene Graph with Kolmogorov-Arnold Experts for Audio-Visual Question Answering](https://arxiv.org/abs/2511.23304): Proposes a multi-modal scene graph for audio-visual question answering.
+- [Agentic AI Framework for Smart Inventory Replenishment](https://arxiv.org/abs/2511.23366): Discusses an AI framework for inventory replenishment in retail.
+- [Hierarchical AI-Meteorologist: LLM-Agent System for Multi-Scale and Explainable Weather Forecast Reporting](https://arxiv.org/abs/2511.23387): Introduces an LLM-agent system for generating explainable weather reports.
+- [Towards Continuous Intelligence Growth: Self-Training, Continual Learning, and Dual-Scale Memory in SuperIntelliAgent](https://arxiv.org/abs/2511.23436): Proposes a framework for continual intelligence growth in AI agents.
+- [Thinking by Doing: Building Efficient World Model Reasoning in LLMs via Multi-turn Interaction](https://arxiv.org/abs/2511.23476): Discusses a framework for efficient world model reasoning in LLMs.
+- [Temporal Consistency for LLM Reasoning Process Error Identification](https://arxiv.org/abs/2503.144
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Security and Securing AI
+
+The recent papers and articles highlight a growing concern regarding the security and ethical implications of AI technologies, particularly in the context of large language models (LLMs) and their applications in various domains. Here are key themes and insights derived from the analysis:
+
+1. **AI Deception and Security Risks**:
+   - The paper titled "AI Deception: Risks, Dynamics, and Controls" discusses the emergence of AI deception as a significant risk, emphasizing the need for robust detection methods and mitigation strategies. The authors propose a comprehensive overview of AI deception, identifying mechanisms that lead to deceptive behaviors and potential treatment strategies.
+
+2. **Privacy and Ethical Considerations**:
+   - Several studies focus on the ethical implications of AI, particularly in sensitive areas like healthcare and education. For instance, "Privacy Reasoning in Ambiguous Contexts" explores how LLMs can reason about appropriate information disclosure, highlighting the importance of context in privacy assessments.
+   - The paper "Who Owns the Knowledge? Copyright, GenAI, and the Future of Academic Publishing" raises concerns about copyright and the ethical use of AI-generated content, advocating for clearer regulations and protections for authors' rights.
+
+3. **Robustness and Trustworthiness of AI Systems**:
+   - The research on "Robust HRRP Recognition under Interrupted Sampling Repeater Jamming" and "Noise Injection Reveals Hidden Capabilities of Sandbagging Language Models" emphasizes the need for robust AI systems that can withstand adversarial attacks and maintain performance under various conditions.
+   - The introduction of frameworks like "AgentShield" aims to enhance the security and efficiency of multi-agent systems by implementing a decentralized auditing approach, which mitigates risks associated with single points of failure.
+
+4. **Counterfactual Explanations and Interpretability**:
+   - The paper "Counterfactual Explanation for Multivariate Time Series Forecasting with Exogenous Variables" discusses the importance of interpretability in machine learning models, particularly in understanding the impact of different variables on predictions. This is crucial for ensuring trust in AI systems, especially in high-stakes environments.
+
+5. **AI in Healthcare**:
+   - The integration of AI in healthcare raises significant ethical and security concerns. Papers like "New-Onset Diabetes Assessment Using Artificial Intelligence-Enhanced Electrocardiography" and "Deep Improvement Supervision" explore how AI can enhance diagnostic capabilities while also addressing the need for transparency and accountability in AI-driven decisions.
+
+6. **Multi-Agent Systems and Security**:
+   - The development of frameworks like "AgentShield" and "Mavors" highlights the importance of security in multi-agent systems, particularly in ensuring that agents can collaborate effectively while minimizing risks associated with adversarial attacks.
+
+7. **Regulatory Compliance and Governance**:
+   - The paper "Standardized Threat Taxonomy for AI Security, Governance, and Regulatory Compliance" presents a structured ontology for assessing AI-specific risks, integrating technical vulnerabilities with business loss categories. This approach aims to bridge the gap between technical and regulatory perspectives on AI security.
+
+### Trends and Insights
+- **Increased Focus on Security**: There is a clear trend towards prioritizing security and ethical considerations in AI development, particularly as AI systems become more integrated into critical sectors like healthcare and finance.
+- **Need for Robust Evaluation Frameworks**: The emergence of frameworks for evaluating AI systems, such as the proposed "CausalProfiler," indicates a growing recognition of the need for rigorous testing and validation of AI models to ensure their reliability and safety.
+- **Interdisciplinary Approaches**: Many papers advocate for interdisciplinary approaches that combine insights from computer science, ethics, and social sciences to address the multifaceted challenges posed by AI technologies.
+- **Dynamic and Adaptive Systems**: The development of adaptive frameworks that can respond to changing conditions and threats, such as "KeepKV" for efficient KV cache management and "COPO" for hallucination mitigation, reflects a shift towards more resilient AI systems.
+
+### Conclusion
+The landscape of AI research is increasingly shaped by concerns about security, ethics, and interpretability. As AI technologies continue to evolve, it is essential to develop robust frameworks and methodologies that address these challenges, ensuring that AI systems are not only effective but also trustworthy and aligned with societal values. The integration of security considerations into the design and deployment of AI systems will be crucial for their successful adoption in various domains.
