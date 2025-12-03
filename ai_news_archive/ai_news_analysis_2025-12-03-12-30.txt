@@ -1,0 +1,137 @@
+AI Researcher Agent Report for 2025-12-03-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [The 4/$\delta$ Bound: Designing Predictable LLM-Verifier Systems for Formal Method Guarantee](https://arxiv.org/abs/2512.02080): This paper develops a formal framework for LLM-assisted software verification, introducing an LLM-Verifier Convergence Theorem that provides guarantees for termination and convergence, enhancing reliability in safety-critical software environments.
+- [Flowchart2Mermaid: A Vision-Language Model Powered System for Converting Flowcharts into Editable Diagram Code](https://arxiv.org/abs/2512.02170): This work presents a system that converts flowchart images into editable Mermaid.js code, allowing for mixed-initiative refinement through AI-assisted editing.
+- [From monoliths to modules: Decomposing transducers for efficient world modelling](https://arxiv.org/abs/2512.02193): This paper explores a framework for decomposing complex world models into modular components, enhancing computational efficiency and interpretability.
+- [STRIDE: A Systematic Framework for Selecting AI Modalities - Agentic AI, AI Assistants, or LLM Calls](https://arxiv.org/abs/2512.02228): STRIDE is introduced as a framework for selecting between different AI modalities based on task requirements, achieving significant accuracy in modality selection.
+- [Benchmarking LLM Agents for Wealth-Management Workflows](https://arxiv.org/abs/2512.02230): This study benchmarks LLM agents in wealth management tasks, highlighting the importance of workflow reliability over mathematical reasoning.
+- [TradeTrap: Are LLM-based Trading Agents Truly Reliable and Faithful?](https://arxiv.org/abs/2512.02261): This paper presents a framework for stress-testing LLM-based trading agents, revealing vulnerabilities in their decision-making processes.
+- [Bridging the Gap: Toward Cognitive Autonomy in Artificial Intelligence](https://arxiv.org/abs/2512.02280): The paper discusses the limitations of current AI systems in self-monitoring and self-correction, advocating for architectures that mirror neurocognitive principles.
+- [DialogGuard: Multi-Agent Psychosocial Safety Evaluation of Sensitive LLM Responses](https://arxiv.org/abs/2512.02282): DialogGuard is introduced as a framework for assessing psychosocial risks in LLM-generated responses, improving safety in sensitive applications.
+- [Model Recovery at the Edge under Resource Constraints for Physical AI](https://arxiv.org/abs/2512.02283): This work proposes a framework for model recovery in resource-constrained environments, achieving significant improvements in efficiency.
+- [Breast Cell Segmentation Under Extreme Data Constraints: Quantum Enhancement Meets Adaptive Loss Stabilization](https://arxiv.org/abs/2512.02302): The paper presents a method for breast cell segmentation using quantum-inspired techniques, achieving high accuracy with limited training data.
+- [OmniGuard: Unified Omni-Modal Guardrails with Deliberate Reasoning](https://arxiv.org/abs/2512.02306): OmniGuard is proposed as a framework for ensuring safety in omni-modal AI systems, enhancing robustness across diverse modalities.
+- [Reasoning Path and Latent State Analysis for Multi-view Visual Spatial Reasoning: A Cognitive Science Perspective](https://arxiv.org/abs/2512.02340): This paper introduces a benchmark for evaluating visual spatial reasoning in multi-view settings, revealing limitations in current models.
+- [Beyond Playtesting: A Generative Multi-Agent Simulation System for Massively Multiplayer Online Games](https://arxiv.org/abs/2512.02358): The paper discusses a generative agent-based simulation system for optimizing game design through realistic player behavior modeling.
+- [Synthetic Error Injection Fails to Elicit Self-Correction In Language Models](https://arxiv.org/abs/2512.02389): This study investigates the effectiveness of synthetic error injection in improving self-correction capabilities in language models.
+- [Semantic Trading: Agentic AI for Clustering and Relationship Discovery in Prediction Markets](https://arxiv.org/abs/2512.02436): The paper presents an agentic AI pipeline for clustering prediction markets, demonstrating its effectiveness in identifying relationships and actionable signals.
+- [Guided Self-Evolving LLMs with Minimal Human Supervision](https://arxiv.org/abs/2512.02472): This work introduces a framework for enabling self-evolution in LLMs with minimal human oversight, achieving iterative improvements in performance.
+- [COPE: Chain-Of-Thought Prediction Engine for Open-Source Large Language Model Based Stroke Outcome Prediction from Clinical Notes](https://arxiv.org/abs/2512.02499): COPE is proposed as a framework for predicting stroke outcomes from clinical notes, demonstrating competitive performance against existing models.
+- [Aetheria: A multimodal interpretable content safety framework based on multi-agent debate and collaboration](https://arxiv.org/abs/2512.02530): Aetheria is introduced as a framework for content safety evaluation, enhancing the identification of implicit risks in multimodal content.
+- [Empathy Level Prediction in Multi-Modal Scenario with Supervisory Documentation Assistance](https://arxiv.org/abs/2512.02558): The paper presents a multi-modal empathy prediction method that integrates various modalities for improved accuracy.
+- [PaperDebugger: A Plugin-Based Multi-Agent System for In-Editor Academic Writing, Review, and Editing](https://arxiv.org/abs/2512.02589): PaperDebugger is introduced as an in-editor academic writing assistant that integrates LLM-driven reasoning for enhanced writing workflows.
+- [IACT: A Self-Organizing Recursive Model for General AI Agents: A Technical White Paper on the Architecture Behind kragent.ai](https://arxiv.org/abs/2512.02605): This white paper presents a self-organizing model for general AI agents, detailing its architecture and practical applications.
+- [Target-specific Adaptation and Consistent Degradation Alignment for Cross-Domain Remaining Useful Life Prediction](https://arxiv.org/abs/2512.02610): The paper proposes a novel domain adaptation approach for predicting the remaining useful life of machinery, demonstrating improved performance across domains.
+- [Zero-Shot Instruction Following in RL via Structured LTL Representations](https://arxiv.org/abs/2512.02633): This work introduces a method for learning multi-task policies for following LTL instructions, addressing challenges in complex environments.
+- [Exploring Depth Generalization in Large Language Models for Solving Recursive Logic Tasks](https://arxiv.org/abs/2512.02677): The paper investigates depth generalization in LLMs, revealing limitations in handling recursive reasoning problems.
+- [Learning What to Attend First: Modality-Importance-Guided Reasoning for Reliable Multimodal Emotion Understanding](https://arxiv.org/abs/2512.02699): This study presents a framework for improving emotion understanding in multimodal models through guided reasoning.
+- [Training Data Attribution for Image Generation using Ontology-Aligned Knowledge Graphs](https://arxiv.org/abs/2512.02713): The paper introduces a framework for interpreting generative outputs through knowledge graphs, enhancing transparency and accountability.
+- [Menta: A Small Language Model for On-Device Mental Health Prediction](https://arxiv.org/abs/2512.02716): Menta is proposed as a lightweight model for mental health prediction from social media data, demonstrating competitive performance against larger models.
+- [StockMem: An Event-Reflection Memory Framework for Stock Forecasting](https://arxiv.org/abs/2512.02720): This work presents a memory framework for stock forecasting that integrates event analysis to improve prediction accuracy.
+- [AuditCopilot: Leveraging LLMs for Fraud Detection in Double-Entry Bookkeeping](https://arxiv.org/abs/2512.02726): The paper investigates the use of LLMs for detecting anomalies in bookkeeping, demonstrating improved performance over traditional methods.
+- [Self-Improving AI Agents through Self-Play](https://arxiv.org/abs/2512.02731): This study formalizes self-improvement in AI agents through a recursive model, providing insights into agent capabilities.
+- [A Framework for Causal Concept-based Model Explanations](https://arxiv.org/abs/2512.02735): The paper presents a framework for generating causal explanations for model predictions, enhancing interpretability.
+- [Enhancing Automated Paper Reproduction via Prompt-Free Collaborative Agents](https://arxiv.org/abs/2512.02812): This work introduces a collaborative agent framework for improving the quality of automated paper-to-code generation.
+- [Radiologist Copilot: An Agentic Assistant with Orchestrated Tools for Radiology Reporting with Quality Control](https://arxiv.org/abs/2512.02814): The paper presents a framework for automated radiology reporting that incorporates quality control mechanisms.
+- [The future of AI in critical mineral exploration](https://arxiv.org/abs/2512.02879): This work proposes a solution for critical mineral exploration using AI to reduce cognitive bias and improve decision-making.
+- [Martingale Score: An Unsupervised Metric for Bayesian Rationality in LLM Reasoning](https://arxiv.org/abs/2512.02914): The paper introduces a metric for evaluating belief updates in LLM reasoning, revealing issues of belief entrenchment.
+- [Invasive Context Engineering to Control Large Language Models](https://arxiv.org/abs/2512.03001): This study proposes a technique for controlling LLMs through context engineering to enhance robustness against adversarial attacks.
+- [From Moderation to Mediation: Can LLMs Serve as Mediators in Online Flame Wars?](https://arxiv.org/abs/2512.03005): The paper explores the potential of LLMs to mediate online conflicts, proposing a framework for evaluating mediation quality.
+- [Graphing the Truth: Structured Visualizations for Automated Hallucination Detection in LLMs](https://arxiv.org/abs/2512.00663): This work introduces a framework for visualizing model-generated content to detect hallucinations and enhance reliability.
+- [Do Large Language Models Walk Their Talk? Measuring the Gap Between Implicit Associations, Self-Report, and Behavioral Altruism](https://arxiv.org/abs/2512.01568): The paper investigates altruistic tendencies in LLMs, revealing discrepancies between implicit associations and actual behavior.
+- [DySTAN: Joint Modeling of Sedentary Activity and Social Context from Smartphone Sensors](https://arxiv.org/abs/2512.02025): This study presents a framework for recognizing human context from smartphone sensor data, improving accuracy in sedentary activity classification.
+- [Towards Sustainable Precision: Machine Learning for Laser Micromachining Optimization](https://arxiv.org/abs/2512.02026): The paper introduces a machine learning framework for optimizing laser micromachining processes, enhancing surface quality assessment.
+- [On the Difficulty of Token-Level Modeling of Dysfluency and Fluency Shaping Artifacts](https://arxiv.org/abs/2512.02027): This work investigates the challenges of automatic transcription of stuttered speech, proposing adaptation methods for improved performance.
+- [Characterizing Continuous and Discrete Hybrid Latent Spaces for Structural Connectomes](https://arxiv.org/abs/2512.02032): The paper presents a hybrid latent space model for analyzing structural connectomes, improving interpretability and analysis.
+- [CONFIDE: Hallucination Assessment for Reliable Biomolecular Structure Prediction and Design](https://arxiv.org/abs/2512.02033): This work introduces a framework for evaluating protein structure predictions, enhancing reliability in molecular design tasks.
+- [Integration of LSTM Networks in Random Forest Algorithms for Stock Market Trading Predictions](https://arxiv.org/abs/2512.02036): The paper discusses a hybrid approach for stock trading predictions, integrating LSTM networks with decision tree algorithms.
+- [Statistical Arbitrage in Polish Equities Market Using Deep Learning Techniques](https://arxiv.org/abs/2512.02037): This study presents a systematic approach to pairs trading in the Polish market using deep learning methods.
+- [Deep Research: A Systematic Survey](https://arxiv.org/abs/2512.02038): This survey provides an overview of deep research systems, outlining foundational components and challenges in the field.
+- [The Impact of Artificial Intelligence on Enterprise Decision-Making Process](https://arxiv.org/abs/2512.02048): This paper examines the influence of AI on enterprise decision-making, highlighting barriers to implementation and critical competencies for success.
+- [Leveraging AI multimodal geospatial foundation models for improved near-real-time flood mapping at a global scale](https://arxiv.org/abs/2512.02055): The work discusses the use of geospatial foundation models for flood mapping, demonstrating improved accuracy through multimodal data integration.
+- [Reversing Large Language Models for Efficient Training and Fine-Tuning](https://arxiv.org/abs/2512.02056): This study introduces reversible architectures for LLMs, reducing memory consumption and improving training efficiency.
+- [WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning](https://arxiv.org/abs/2512.02425): This paper presents a multimodal memory agent for reasoning over long videos, significantly improving performance on video question-answering benchmarks.
+- [Video4Spatial: Towards Visuospatial Intelligence with Context-Guided Video Generation](https://arxiv.org/abs/2512.03040): The work investigates the ability of video generative models to exhibit visuospatial intelligence, demonstrating strong performance in scene navigation and object grounding tasks.
+- [SQLBarber: A System Leveraging Large Language Models to Generate Customized and Realistic SQL Workloads](https://arxiv.org/abs/2507.06192): This paper introduces SQLBarber, a system for generating customized SQL workloads using LLMs, significantly improving query generation efficiency.
+- [Keeping Medical AI Healthy and Trustworthy: A Review of Detection and Correction Methods for System Degradation](https://arxiv.org/abs/2506.17442): This review discusses the importance of continuous performance monitoring and correction mechanisms for medical AI systems to ensure reliability.
+- [Multi-User Personalisation in Human-Robot Interaction: Resolving Preference Conflicts Using Gradual Argumentation](https://arxiv.org/abs/2511.03576): The paper presents a framework for resolving preference conflicts in multi-user human-robot interactions using argumentation techniques.
+- [AdvisingWise: Supporting Academic Advising in Higher Education Settings Through a Human-in-the-Loop Multi-Agent Framework](https://arxiv.org/abs/2511.05706): AdvisingWise is introduced as a multi-agent system for automating academic advising tasks while preserving human oversight.
+- [Test-Time Spectrum-Aware Latent Steering for Zero-Shot Generalization in Vision-Language Models](https://arxiv.org/abs/2511.09809): This work presents a framework for adapting vision-language models at inference time to improve performance under domain shifts.
+- [Multi-Agent Code Verification via Information Theory](https://arxiv.org/abs/2511.16708): The paper discusses a multi-agent system for detecting bugs in code, demonstrating improved performance through diverse detection strategies.
+- [Membership Inference Attack against Large Language Model-based Recommendation Systems: A New Distillation-based Paradigm](https://arxiv.org/abs/2511.14763): This study introduces a novel approach for conducting membership inference attacks on LLM-based recommendation systems using knowledge distillation.
+- [AI Text Detectors and the Misclassification of Slightly Polished Arabic Text](https://arxiv.org/abs/2511.16690): The paper investigates the misclassification of slightly polished Arabic text by AI detectors, highlighting the need for improved detection methods.
+- [Could AI Leapfrog the Web? Evidence from Teachers in Sierra Leone](https://arxiv.org/abs/2502.12397): This study explores the effectiveness of an AI-powered chatbot in providing educational support in Sierra Leone, demonstrating its advantages over traditional web search.
+- [Pricing AI Model Accuracy](https://arxiv.org/abs/2504.13375): The paper examines the market dynamics of AI model accuracy, revealing insights into competitive behavior and the implications for model development.
+- [Deep Research: A Systematic Survey](https://arxiv.org/abs/2512.02038): This survey provides an overview of deep research systems, outlining foundational components and challenges in the field.
+- [Multi-Agent Systems with Zero Supervision](https://arxiv.org/abs/2505.14996): This paper introduces a self-evolved framework for automatic multi-agent system design without requiring a validation set.
+- [AI-Driven Productivity in Brownfield Engineering](https://arxiv.org/abs/2509.14233): The paper presents a framework for enhancing productivity in brownfield engineering through structured workflows and LLM integration.
+
+### Categories
+#### Security
+- [TradeTrap: Are LLM-based Trading Agents Truly Reliable and Faithful?](https://arxiv.org/abs/2512.02261)
+- [AuditCopilot: Leveraging LLMs for Fraud Detection in Double-Entry Bookkeeping](https://arxiv.org/abs/2512.02726)
+- [Membership Inference Attack against Large Language Model-based Recommendation Systems: A New Distillation-based Paradigm](https://arxiv.org/abs/2511.14763)
+- [AI Text Detectors and the Misclassification of Slightly Polished Arabic Text](https://arxiv.org/abs/2511.16690)
+- [Invasive Context Engineering to Control Large Language Models](https://arxiv.org/abs/2512.03001)
+
+#### AI and Robotics
+- [STRIDE: A Systematic Framework for Selecting AI Modalities - Agentic AI, AI Assistants, or LLM Calls](https://arxiv.org/abs/2512.02228)
+- [AdvisingWise: Supporting Academic Advising in Higher Education Settings Through a Human-in-the-Loop Multi-Agent Framework](https://arxiv.org/abs/2511.05706)
+- [Agentic UAVs: LLM-Driven Autonomy with Integrated Tool-Calling and Cognitive Reasoning](https://arxiv.org/abs/2509.13352)
+
+#### Medical Applications
+- [COPE: Chain-Of-Thought Prediction Engine for Open-Source Large Language Model Based Stroke Outcome Prediction from Clinical Notes](https://arxiv.org/abs/2512.02499)
+- [Menta: A Small Language Model for On-Device Mental Health Prediction](https://arxiv.org/abs/2512.02716)
+- [Radiologist Copilot: An Agentic Assistant with Orchestrated Tools for Radiology Reporting with Quality Control](https://arxiv.org/abs/2512.02814)
+
+#### Benchmarking and Evaluation
+- [Benchmarking LLM Agents for Wealth-Management Workflows](https://arxiv.org/abs/2512.02230)
+- [VideoScience-Bench](https://arxiv.org/abs/2512.02942)
+- [TCC-Bench: Benchmarking the Traditional Chinese Culture Understanding Capabilities of MLLMs](https://arxiv.org/abs/2505.11275)
+
+#### Learning and Adaptation
+- [Guided Self-Evolving LLMs with Minimal Human Supervision](https://arxiv.org/abs/2512.02472)
+- [Multi-User Personalisation in Human-Robot Interaction: Resolving Preference Conflicts Using Gradual Argumentation](https://arxiv.org/abs/2511.03576)
+- [Dynamic Feature Selection based on Rule-based Learning for Explainable Classification with Uncertainty Quantification](https://arxiv.org/abs/2508.02566)
+
+#### Generative Models
+- [ViSAudio: End-to-End Video-Driven Binaural Spatial Audio Generation](https://arxiv.org/abs/2512.03036)
+- [Video4Spatial: Towards Visuospatial Intelligence with Context-Guided Video Generation](https://arxiv.org/abs/2512.03040)
+- [YingVideo-MV: Music-Driven Multi-Stage Video Generation](https://arxiv.org/abs/2512.02492)
+
+#### Miscellaneous
+- [The future of AI in critical mineral exploration](https://arxiv.org/abs/2512.02879)
+- [Deep Research: A Systematic Survey](https://arxiv.org/abs/2512.02038)
+- [AI-Driven Productivity in Brownfield Engineering](https://arxiv.org/abs/2509.14233)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends:
+1. **Security and Robustness of AI Systems**: A significant number of papers focus on enhancing the security and robustness of AI models, particularly in the context of adversarial attacks and vulnerabilities. For instance, the paper "TradeTrap: Are LLM-based Trading Agents Truly Reliable and Faithful?" investigates the robustness of trading agents under adversarial conditions, highlighting the need for systematic stress testing.
+
+2. **Ethical Considerations and Bias Mitigation**: Several studies address the ethical implications of AI, particularly in terms of bias and fairness. The paper "Membership Inference Attack against Large Language Model-based Recommendation Systems" explores the risks of privacy breaches in AI systems, while "An Empirical Survey of Model Merging Algorithms for Social Bias Mitigation" examines methods to reduce bias in LLMs.
+
+3. **AI in Healthcare**: The application of AI in healthcare is a recurring theme, with papers like "Can-SAVE: Robust Advantage Estimation for Real-World Code LLMs" and "Kardia-R1: Unleashing LLMs to Reason toward Understanding and Empathy for Emotional Support" focusing on using AI for clinical decision support and patient interaction. These studies emphasize the importance of ensuring AI systems are reliable and trustworthy in sensitive environments.
+
+4. **Multi-Agent Systems and Collaboration**: The exploration of multi-agent systems is prevalent, with frameworks like "MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision" and "iMAD: Intelligent Multi-Agent Debate for Efficient and Accurate LLM Inference" showcasing how multiple agents can work together to enhance decision-making and reasoning capabilities.
+
+5. **Data Privacy and Compliance**: The challenge of ensuring data privacy in AI applications is highlighted in works like "OpenLVLM-MIA: A Controlled Benchmark Revealing the Limits of Membership Inference Attacks on Large Vision-Language Models," which emphasizes the need for robust privacy-preserving techniques in AI systems.
+
+6. **Benchmarking and Evaluation**: The development of benchmarks for evaluating AI systems is a critical focus, as seen in "BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems" and "TCC-Bench: Benchmarking the Traditional Chinese Culture Understanding Capabilities of MLLMs." These benchmarks aim to provide standardized methods for assessing the performance and safety of AI models.
+
+7. **Integration of AI with Traditional Systems**: Papers like "Beyond Greenfield: The D3 Framework for AI-Driven Productivity in Brownfield Engineering" discuss the integration of AI with existing systems, highlighting the importance of adapting AI technologies to work alongside traditional methods in various industries.
+
+### Insights:
+- **Need for Robustness**: The findings across various studies indicate a pressing need for AI systems to be robust against adversarial attacks and capable of maintaining performance in real-world scenarios.
+- **Ethical AI Development**: As AI systems become more integrated into critical sectors like healthcare, the ethical implications of their deployment must be carefully considered, particularly regarding bias and privacy.
+- **Collaborative Intelligence**: The exploration of multi-agent systems suggests that leveraging the strengths of multiple AI agents can lead to improved decision-making and reasoning capabilities, particularly in complex environments.
+- **Benchmarking Importance**: The establishment of comprehensive benchmarks is essential for evaluating the effectiveness and safety of AI systems, ensuring they meet the necessary standards for deployment in sensitive applications.
+
+### Conclusion:
+The landscape of AI research is increasingly focused on security, ethical considerations, and the integration of AI into existing systems. The studies reviewed highlight the importance of developing robust, fair, and effective AI systems that can operate safely in real-world environments, particularly in high-stakes fields like healthcare and cybersecurity.
