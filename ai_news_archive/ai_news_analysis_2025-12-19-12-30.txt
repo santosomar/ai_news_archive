@@ -1,0 +1,238 @@
+AI Researcher Agent Report for 2025-12-19-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Anubuddhi: A Multi-Agent AI System for Designing and Simulating Quantum Optics Experiments](https://arxiv.org/abs/2512.15736): Introduces Anubuddhi, an AI system that designs quantum optics experiments from natural language prompts, achieving high alignment scores in design and simulation.
+- [The Principle of Proportional Duty: A Knowledge-Duty Framework for Ethical Equilibrium in Human and Artificial Systems](https://arxiv.org/abs/2512.15740): Proposes the Principle of Proportional Duty (PPD) to model ethical responsibility under uncertainty, emphasizing dynamic moral duty allocation.
+- [Prompt-to-Parts: Generative AI for Physical Assembly and Scalable Instructions](https://arxiv.org/abs/2512.15743): Presents a framework for generating assembly instructions from natural language, ensuring geometric validity and scalability.
+- [Emergence: Overcoming Privileged Information Bias in Asymmetric Embodied Agents via Active Querying](https://arxiv.org/abs/2512.15776): Investigates communication errors in multi-agent systems and proposes active querying to enhance collaborative reasoning.
+- [AI Epidemiology: achieving explainable AI through expert oversight patterns](https://arxiv.org/abs/2512.15783): Introduces a framework for governing AI systems through expert oversight, enabling reliable AI outputs without requiring machine learning expertise.
+- [Beyond Training: Enabling Self-Evolution of Agents with MOBIMEM](https://arxiv.org/abs/2512.15784): Proposes MOBIMEM, a memory-centric agent system that allows agents to self-evolve without retraining, improving efficiency and personalization.
+- [State-Augmented Graphs for Circular Economy Triage](https://arxiv.org/abs/2512.15824): Presents a decision-making framework for assessing products in a circular economy, integrating operational constraints and utility evaluations.
+- [PediatricAnxietyBench: Evaluating Large Language Model Safety Under Parental Anxiety and Pressure in Pediatric Consultations](https://arxiv.org/abs/2512.15894): Evaluates LLMs' safety in pediatric contexts under parental pressure, revealing vulnerabilities in critical scenarios.
+- [Darth Vecdor: An Open-Source System for Generating Knowledge Graphs Through Large Language Model Queries](https://arxiv.org/abs/2512.15906): Introduces Darth Vecdor, a system for extracting knowledge into structured databases, addressing issues of LLM responses.
+- [Leveraging Spreading Activation for Improved Document Retrieval in Knowledge-Graph-Based RAG Systems](https://arxiv.org/abs/2512.15922): Proposes a new RAG framework using spreading activation for better document retrieval in complex reasoning tasks.
+- [Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning](https://arxiv.org/abs/2512.15943): Investigates the effectiveness of small language models in executing tasks traditionally handled by larger models.
+- [Subjective functions](https://arxiv.org/abs/2512.15948): Proposes a framework for understanding how subjective functions can be synthesized in AI systems.
+- [Conversational Time Series Foundation Models: Towards Explainable and Effective Forecasting](https://arxiv.org/abs/2512.16022): Introduces a framework for using LLMs to evaluate and explain ensemble models for time series forecasting.
+- [Do Large Language Models Know What They Don't Know? Kalshibench: A New Benchmark for Evaluating Epistemic Calibration via Prediction Markets](https://arxiv.org/abs/2512.16030): Introduces KalshiBench, a benchmark for evaluating LLMs' epistemic calibration through prediction markets.
+- [Topic Discovery and Classification for Responsible Generative AI Adaptation in Higher Education](https://arxiv.org/abs/2512.16036): Develops a system for discovering and categorizing AI-related policies in educational contexts.
+- [WeMusic-Agent: Efficient Conversational Music Recommendation via Knowledge Internalization and Agentic Boundary Learning](https://arxiv.org/abs/2512.16108): Proposes a framework for conversational music recommendation that balances internalized knowledge with external tool invocation.
+- [ToolForge: A Data Synthesis Pipeline for Multi-Hop Search without Real-World APIs](https://arxiv.org/abs/2512.16149): Introduces ToolForge, a framework for synthesizing data for tool-learning in multi-hop search scenarios.
+- [Science Consultant Agent](https://arxiv.org/abs/2512.16171): Describes a web-based AI tool for assisting in modeling strategies for AI solutions.
+- [Weighted K-Harmonic Means Clustering: Convergence Analysis and Applications to Wireless Communications](https://arxiv.org/abs/2512.16185): Proposes a new clustering algorithm for wireless networks with convergence guarantees.
+- [PDE-Agent: A toolchain-augmented multi-agent framework for PDE solving](https://arxiv.org/abs/2512.16214): Introduces a framework for solving partial differential equations using LLM-driven agents.
+- [Scaling Spatial Reasoning in MLLMs through Programmatic Data Synthesis](https://arxiv.org/abs/2512.16237): Proposes a framework for synthesizing spatial reasoning data using simulators and LLMs.
+- [AlignMerge - Alignment-Preserving Large Language Model Merging via Fisher-Guided Geometric Constraints](https://arxiv.org/abs/2512.16245): Introduces a merging framework for LLMs that preserves alignment during the merging process.
+- [AMUSE: Audio-Visual Benchmark and Alignment Framework for Agentic Multi-Speaker Understanding](https://arxiv.org/abs/2512.16250): Proposes a benchmark for evaluating multi-speaker understanding in audio-visual models.
+- [Learning to Wait: Synchronizing Agents with the Physical World](https://arxiv.org/abs/2512.16262): Introduces a framework for synchronizing LLMs with real-world timing.
+- [QuadSentinel: Sequent Safety for Machine-Checkable Control in Multi-agent Systems](https://arxiv.org/abs/2512.16279): Proposes a framework for enforcing safety policies in multi-agent systems.
+- [OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models](https://arxiv.org/abs/2512.16295): Introduces a framework for synthesizing cross-platform GUI critic data.
+- [Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection](https://arxiv.org/abs/2512.16300): Proposes a framework for image forgery detection using LLMs and low-level tools.
+- [Adaptation of Agentic AI](https://arxiv.org/abs/2512.16301): Proposes a framework for adapting agentic AI systems to improve performance and reliability.
+- [Design and Evaluation of Cost-Aware PoQ for Decentralized LLM Inference](https://arxiv.org/abs/2512.16317): Introduces a cost-aware framework for decentralized LLM inference.
+- [AI Needs Physics More Than Physics Needs AI](https://arxiv.org/abs/2512.16344): Discusses the relationship between AI and physics, emphasizing the need for theoretical rigor in AI development.
+- [PCIA: A Path Construction Imitation Algorithm for Global Optimization](https://arxiv.org/abs/2512.16392): Proposes a new metaheuristic optimization algorithm inspired by human path construction.
+- [Synthelite: Chemist-aligned and feasibility-aware synthesis planning with LLMs](https://arxiv.org/abs/2512.16424): Introduces a synthesis planning framework using LLMs for chemical synthesis.
+- [TIB AIssistant: a Platform for AI-Supported Research Across Research Life Cycles](https://arxiv.org/abs/2512.16442): Describes an AI-supported research platform for assisting researchers throughout the research life cycle.
+- [StarCraft+: Benchmarking Multi-agent Algorithms in Adversary Paradigm](https://arxiv.org/abs/2512.16444): Introduces a benchmarking environment for multi-agent reinforcement learning algorithms.
+- [Towards AI-Supported Research: a Vision of the TIB AIssistant](https://arxiv.org/abs/2512.16447): Discusses the vision for an AI-supported research platform.
+- [TimeSeries2Report prompting enables adaptive large language model management of lithium-ion batteries](https://arxiv.org/abs/2512.16453): Proposes a prompting framework for managing lithium-ion battery systems using LLMs.
+- [cuPilot: A Strategy-Coordinated Multi-agent Framework for CUDA Kernel Evolution](https://arxiv.org/abs/2512.16465): Introduces a multi-agent framework for optimizing CUDA kernels.
+- [Quantifying and Bridging the Fidelity Gap: A Decisive-Feature Approach to Comparing Synthetic and Real Imagery](https://arxiv.org/abs/2512.16468): Proposes a new fidelity measure for comparing synthetic and real images.
+- [Best Practices For Empirical Meta-Algorithmic Research Guidelines from the COSEAL Research Network](https://arxiv.org/abs/2512.16491): Provides best practices for empirical meta-algorithmic research.
+- [ParamExplorer: A framework for exploring parameters in generative art](https://arxiv.org/abs/2512.16529): Introduces a framework for exploring parameter spaces in generative art.
+- [Scaling Laws for Energy Efficiency of Local LLMs](https://arxiv.org/abs/2512.16531): Analyzes the energy efficiency of local LLMs on edge devices.
+- [From Personalization to Prejudice: Bias and Discrimination in Memory-Enhanced AI Agents for Recruitment](https://arxiv.org/abs/2512.16532): Investigates bias in memory-enhanced AI agents in recruitment.
+- [Needle in the Web: A Benchmark for Retrieving Targeted Web Pages in the Wild](https://arxiv.org/abs/2512.16553): Introduces a benchmark for evaluating web page retrieval systems.
+- [Implementing a Sharia Chatbot as a Consultation Medium for Questions About Islam](https://arxiv.org/abs/2512.16644): Describes the implementation of a Sharia-compliant chatbot for Islamic consultation.
+- [Prefix Probing: Lightweight Harmful Content Detection for Large Language Models](https://arxiv.org/abs/2512.16650): Proposes a method for detecting harmful content in LLMs.
+- [Comprehensive AI Literacy: The Case for Centering Human Agency](https://arxiv.org/abs/2512.16656): Advocates for a shift towards comprehensive AI literacy centered on human agency.
+- [Unsupervised Thematic Clustering Of hadith Texts Using The Apriori Algorithm](https://arxiv.org/abs/2512.16694): Proposes a method for thematic clustering of hadith texts.
+- [Do Multi-Agents Solve Better Than Single? Evaluating Agentic Frameworks for Diagram-Grounded Geometry Problem Solving and Reasoning](https://arxiv.org/abs/2512.16698): Compares single-agent and multi-agent frameworks for geometry problem solving.
+- [Cyber Humanism in Education: Reclaiming Agency through AI and Learning Sciences](https://arxiv.org/abs/2512.16701): Proposes a framework for reclaiming human agency in AI-enabled education.
+- [Dual Computational Horizons: Incompleteness and Unpredictability in Intelligent Systems](https://arxiv.org/abs/2512.16707): Discusses computational limitations in intelligent systems.
+- [Discovering and Learning Probabilistic Models of Black-Box AI Capabilities](https://arxiv.org/abs/2512.16733): Proposes methods for learning models of black-box AI capabilities.
+- [AI-Driven Prediction of Cancer Pain Episodes: A Hybrid Decision Support Approach](https://arxiv.org/abs/2512.16739): Introduces a hybrid approach for predicting cancer pain episodes using AI.
+- [CitySeeker: How Do VLMS Explore Embodied Urban Navigation With Implicit Human Needs?](https://arxiv.org/abs/2512.16755): Proposes a benchmark for evaluating VLMs' navigation capabilities in urban environments.
+- [TOGGLE: Temporal Logic-Guided Large Language Model Compression for Edge](https://arxiv.org/abs/2512.16855): Introduces a framework for compressing LLMs while preserving linguistic properties.
+- [Distributional AGI Safety](https://arxiv.org/abs/2512.16856): Discusses safety considerations for distributed AGI systems.
+- [The Social Responsibility Stack: A Control-Theoretic Architecture for Governing Socio-Technical AI](https://arxiv.org/abs/2512.16873): Proposes a framework for embedding societal values into AI systems.
+- [Generative Adversarial Reasoner: Enhancing LLM Reasoning with Adversarial Reinforcement Learning](https://arxiv.org/abs/2512.16917): Introduces a framework for enhancing LLM reasoning through adversarial reinforcement learning.
+- [Weakly Supervised Pneumonia Localization from Chest X-Rays Using Deep Neural Network and Grad-CAM Explanations](https://arxiv.org/abs/2511.00456): Proposes a weakly supervised framework for pneumonia localization using deep learning.
+- [Large Model Enabled Embodied Intelligence for 6G Integrated Perception, Communication, and Computation Network](https://arxiv.org/abs/2512.15109): Discusses the role of large AI models in 6G networks.
+- [DiscoverDCP: A Data-Driven Approach for Construction of Disciplined Convex Programs via Symbolic Regression](https://arxiv.org/abs/2512.15721): Proposes a data-driven framework for discovering convex programs.
+- [Value Lens: Using Large Language Models to Understand Human Values](https://arxiv.org/abs/2512.15722): Introduces a model for detecting human values using LLMs.
+- [FedSight AI: Multi-Agent System Architecture for Federal Funds Target Rate Prediction](https://arxiv.org/abs/2512.15728): Proposes a multi-agent framework for predicting federal funds rates.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Introduces a lightweight foundation model for EMG signal processing.
+- [A Context-Free Smart Grid Model Using Complex System Approach](https://arxiv.org/abs/2512.15733): Proposes a complex systems approach to smart grid modeling.
+- [Deep Reinforcement Learning Optimization for Uncertain Nonlinear Systems via Event-Triggered Robust Adaptive Dynamic Programming](https://arxiv.org/abs/2512.15735): Introduces a unified control architecture for uncertain nonlinear systems.
+- [Hybrid Quantum-Classical Ensemble Learning for S&P 500 Directional Prediction](https://arxiv.org/abs/2512.15738): Proposes a hybrid ensemble framework for predicting S&P 500 directions.
+- [Bayesian Modeling for Uncertainty Management in Financial Risk Forecasting and Compliance](https://arxiv.org/abs/2512.15739): Develops a Bayesian analytics framework for financial risk management.
+- [LLaDA2.0: Scaling Up Diffusion Language Models to 100B](https://arxiv.org/abs/2512.15745): Introduces a framework for scaling diffusion language models.
+- [Knowledge-Driven Agentic Scientific Corpus Distillation Framework for Biomedical Large Language Models Training](https://arxiv.org/abs/2504.19565): Proposes a framework for distilling scientific corpora for biomedical LLM training.
+- [A Token is Worth over 1,000 Tokens: Efficient Knowledge Distillation through Low-Rank Clone](https://arxiv.org/abs/2505.12781): Introduces a method for efficient knowledge distillation in language models.
+- [Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies](https://arxiv.org/abs/2505.21236): Discusses the importance of inference strategies in RL.
+- [Evaluating Large Language Models in Crisis Detection: A Real-World Benchmark from Psychological Support Hotlines](https://arxiv.org/abs/2506.01329): Introduces a benchmark for evaluating LLMs in crisis detection.
+- [Towards Practical Alzheimer's Disease Diagnosis: A Lightweight and Interpretable Spiking Neural Model](https://arxiv.org/abs/2506.09695): Proposes a lightweight spiking neural model for Alzheimer's diagnosis.
+- [Scene-aware SAR ship detection guided by unsupervised sea-land segmentation](https://arxiv.org/abs/2506.12775): Introduces a method for SAR ship detection using unsupervised segmentation.
+- [Echoes of AI: Investigating the Downstream Effects of AI Assistants on Software Maintainability](https://arxiv.org/abs/2507.00788): Examines the impact of AI assistants on software maintainability.
+- [An Efficient Deep Learning Framework for Brain Stroke Diagnosis Using Computed Tomography Images](https://arxiv.org/abs/2507.03558): Proposes a deep learning framework for brain stroke diagnosis using CT images.
+- [Improving Action Smoothness for a Cascaded Online Learning Flight Control System](https://arxiv.org/abs/2507.04346): Introduces techniques to improve action smoothness in flight control systems.
+- [Beyond Rate Coding: Surrogate Gradients Enable Spike Timing Learning in Spiking Neural Networks](https://arxiv.org/abs/2507.16043): Investigates the use of surrogate gradients in spiking neural networks.
+- [Vibe Coding as a Reconfiguration of Intent Mediation in Software Development: Definition, Implications, and Research Agenda](https://arxiv.org/abs/2507.21928): Discusses the implications of vibe coding in software development.
+- [RL from Teacher-Model Refinement: Gradual Imitation Learning for Machine Translation](https://arxiv.org/abs/2507.22219): Proposes a framework for machine translation using teacher-model refinement.
+- [Constitutional Law and AI Governance: Constraints on Model Licensing and Research Classification](https://arxiv.org/abs/2509.05361): Examines legal constraints on AI governance.
+- [Long-Horizon Visual Imitation Learning via Plan and Code Reflection](https://arxiv.org/abs/2509.05368): Introduces a framework for long-horizon visual imitation learning.
+- [Uncovering Alzheimer's Disease Progression via SDE-based Spatio-Temporal Graph Deep Learning on Longitudinal Brain Networks](https://arxiv.org/abs/2509.21735): Proposes a framework for predicting Alzheimer's progression using graph deep learning.
+- [CompareBench: A Benchmark for Visual Comparison Reasoning in Vision-Language Models](https://arxiv.org/abs/2509.22737): Introduces a benchmark for evaluating visual comparison reasoning in VLMs.
+- [TACOS: Task Agnostic COordinator of a multi-drone System](https://arxiv.org/abs/2510.01869): Proposes a framework for natural language control of multi-drone systems.
+- [BigCodeArena: Unveiling More Reliable Human Preferences in Code Generation via Execution](https://arxiv.org/abs/2510.08697): Introduces a platform for evaluating code generation models.
+- [Reverse Supervision at Scale: Exponential Search Meets the Economics of Annotation](https://arxiv.org/abs/2510.10446): Discusses a reversed-supervision strategy for optimizing labelings.
+- [DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving](https://arxiv.org/abs/2510.12796): Proposes a framework for scaling VLA models in autonomous driving.
+- [LLM one-shot style transfer for Authorship Attribution and Verification](https://arxiv.org/abs/2510.13302): Introduces a framework for authorship attribution using LLMs.
+- [Alternative Fairness and Accuracy Optimization in Criminal Justice](https://arxiv.org/abs/2511.04505): Proposes a modification to standard group fairness in criminal justice.
+- [Voice-Interactive Surgical Agent for Multimodal Patient Data Control](https://arxiv.org/abs/2511.07392): Describes a voice-interactive agent for surgical data control.
+- [Advancing mathematics research with generative AI](https://arxiv.org/abs/2511.07420): Discusses the use of generative AI in mathematics research.
+- [Biologically-Informed Hybrid Membership Inference Attacks on Generative Genomic Models](https://arxiv.org/abs/2511.07503): Explores membership inference attacks on genomic models.
+- [EnviSAgE: A Survey of Environment Scaling for Qualitative Agentic Experience Collection](https://arxiv.org/abs/2511.09586): Reviews methods for scaling environments in agentic experience collection.
+- [Wrist Photoplethysmography Predicts Dietary Information](https://arxiv.org/abs/2511.19260): Investigates the use of PPG for dietary information prediction.
+- [Computing ESS in Multiplayer Games](https://arxiv.org/abs/2511.20859): Presents an algorithm for computing evolutionarily stable strategies in multiplayer games.
+- [First, do NOHARM: towards clinically safe large language models](https://arxiv.org/abs/2512.01241): Introduces a benchmark for assessing LLM safety in clinical settings.
+- [D2E: Scaling Vision-Action Pretraining on Desktop Data for Transfer to Embodied AI](https://arxiv.org/abs/2510.05684): Proposes a framework for scaling vision-action models using desktop data.
+- [ProtoSiTex: Learning Semi-Interpretable Prototypes for Multi-label Text Classification](https://arxiv.org/abs/2510.12534): Introduces a framework for multi-label text classification using prototypes.
+- [KarmaTS: A Universal Simulation Platform for Multivariate Time Series with Functional Causal Dynamics](https://arxiv.org/abs/2511.11357): Proposes a simulation platform for multivariate time series.
+- [N2N: A Parallel Framework for Large-Scale MILP under Distributed Memory](https://arxiv.org/abs/2511.18723): Introduces a parallel framework for solving large-scale MILP problems.
+- [Towards Closed-loop Molecular Discovery via Language Model, Property Alignment and Strategic Search](https://arxiv.org/abs/2512.09566): Proposes a framework for molecular discovery using language models.
+- [TiCard: Deployable EXPLAIN-only Residual Learning for Cardinality Estimation](https://arxiv.org/abs/2512.14358): Introduces a framework for cardinality estimation using residual learning.
+- [LADY: Linear Attention for Autonomous Driving Efficiency without Transformers](https://arxiv.org/abs/2512.15038): Proposes a linear attention-based model for autonomous driving.
+- [Bandits with Preference Feedback: A Stackelberg Game Perspective](https://arxiv.org/abs/2406.16745): Discusses bandits with preference feedback in a Stackelberg game context.
+- [WildFit: Autonomous In-situ Model Adaptation for Resource-Constrained IoT Systems](https://arxiv.org/abs/2409.07796): Introduces a framework for model adaptation in IoT systems.
+- [MindShift: Analyzing Language Models' Reactions to Psychological Prompts](https://arxiv.org/abs/2512.09149): Investigates LLMs' adaptability to psychological prompts.
+- [AI Autonomy Coefficient ($\alpha$): Defining Boundaries for Responsible AI Systems](https://arxiv.org/abs/2512.11295): Proposes a framework for measuring AI autonomy.
+- [Adaptive Edge-Cloud Inference for Speech-to-Action Systems Using ASR and Large Language Models](https://arxiv.org/abs/2512.12769): Introduces a framework for adaptive inference in speech-to-action systems.
+- [UniVCD: A New Method for Unsupervised Change Detection in the Open-Vocabulary Era](https://arxiv.org/abs/2512.13089): Proposes a method for unsupervised change detection using vision foundation models.
+- [Diffusion-Based Restoration for Multi-Modal 3D Object Detection in Adverse Weather](https://arxiv.org/abs/2512.13107): Introduces a framework for enhancing 3D object detection in adverse weather conditions.
+- [Non-Resolution Reasoning (NRR): A Computational Framework for Contextual Identity and Ambiguity Preservation](https://arxiv.org/abs/2512.13478): Proposes a framework for preserving ambiguity in AI systems.
+- [From Context to EDUs: Faithful and Structured Context Compression via Elementary Discourse Unit Decomposition](https://arxiv.org/abs/2512.14244): Introduces a context compression framework based on discourse units.
+- [Spoken DialogSum: An Emotion-Rich Conversational Dataset for Spoken Dialogue Summarization](https://arxiv.org/abs/2512.14687): Presents a dataset for summarizing spoken dialogues with emotional context.
+- [SEED: Spectral Entropy-Guided Evaluation of SpatialTemporal Dependencies for Multivariate Time Series Forecasting](https://arxiv.org/abs/2512.14718): Proposes a framework for evaluating dependencies in multivariate time series forecasting.
+- [Let the Barbarians In: How AI Can Accelerate Systems Performance Research](https://arxiv.org/abs/2512.14806): Discusses the role of AI in systems performance research.
+- [Meta-learners for few-shot weakly-supervised optic disc and cup segmentation on fundus images](https://arxiv.org/abs/2512.15061): Proposes a meta-learning approach for optic disc and cup segmentation.
+- [“I am here for you”: How relational conversational AI appeals to adolescents, especially those who are socially and emotionally vulnerable](https://arxiv.org/abs/2512.15117): Investigates the impact of conversational AI on adolescents' emotional reliance.
+- [Six Lessons Learned Building RAG Systems in Production](https://towardsdatascience.com/six-lessons-learned-building-rag-systems-in-production/): Discusses best practices for building RAG systems.
+- [The Machine Learning “Advent Calendar” Day 18: Neural Network Classifier in Excel](https://towardsdatascience.com/the-machine-learning-advent-calendar-day-18-neural-network-classifier-in-excel/): Explains neural network concepts through Excel.
+- [4 Ways to Supercharge Your Data Science Workflow with Google AI Studio](https://towardsdatascience.com/4-ways-to-supercharge-your-data-science-workflow-with-google-ai-studio/): Discusses using Google AI Studio for data science.
+- [The Subset Sum Problem Solved in Linear Time for Dense Enough Inputs](https://towardsdatascience.com/subset-sum-problem-solved-in-linear-time-for-dense-enough-inputs/): Presents a solution to the subset sum problem.
+- [Generating Artwork in Python Inspired by Hirst’s Million-Dollar Spots Painting](https://towardsdatascience.com/recreating-hirsts-million-dollars-spots-painting/): Describes generating art using Python.
+- [Google Research 2025: Bolder breakthroughs, bigger impact](https://research.google/blog/google-research-2025-bolder-breakthroughs-bigger-impact/): Year in review for Google Research.
+- [Transforming Wi-Fi Performance with AgenticOps: From Anxiety to Autonomy](https://blogs.cisco.com/networking/transforming-wi-fi-performance-with-agenticops-from-anxiety-to-autonomy): Discusses Cisco's AI-enhanced RRM for optimizing wireless networks.
+
+### Categories
+#### AI and Machine Learning
+- [Anubuddhi: A Multi-Agent AI System for Designing and Simulating Quantum Optics Experiments](https://arxiv.org/abs/2512.15736)
+- [The Principle of Proportional Duty: A Knowledge-Duty Framework for Ethical Equilibrium in Human and Artificial Systems](https://arxiv.org/abs/2512.15740)
+- [Prompt-to-Parts: Generative AI for Physical Assembly and Scalable Instructions](https://arxiv.org/abs/2512.15743)
+- [Emergence: Overcoming Privileged Information Bias in Asymmetric Embodied Agents via Active Querying](https://arxiv.org/abs/2512.15776)
+- [AI Epidemiology: achieving explainable AI through expert oversight patterns](https://arxiv.org/abs/2512.15783)
+- [Beyond Training: Enabling Self-Evolution of Agents with MOBIMEM](https://arxiv.org/abs/2512.15784)
+- [State-Augmented Graphs for Circular Economy Triage](https://arxiv.org/abs/2512.15824)
+- [PediatricAnxietyBench: Evaluating Large Language Model Safety Under Parental Anxiety and Pressure in Pediatric Consultations](https://arxiv.org/abs/2512.15894)
+- [Darth Vecdor: An Open-Source System for Generating Knowledge Graphs Through Large Language Model Queries](https://arxiv.org/abs/2512.15906)
+- [Leveraging Spreading Activation for Improved Document Retrieval in Knowledge-Graph-Based RAG Systems](https://arxiv.org/abs/2512.15922)
+- [Small Language Models for Efficient Agentic Tool Calling: Outperforming Large Models with Targeted Fine-tuning](https://arxiv.org/abs/2512.15943)
+- [Conversational Time Series Foundation Models: Towards Explainable and Effective Forecasting](https://arxiv.org/abs/2512.16022)
+- [Do Large Language Models Know What They Don't Know? Kalshibench: A New Benchmark for Evaluating Epistemic Calibration via Prediction Markets](https://arxiv.org/abs/2512.16030)
+- [Topic Discovery and Classification for Responsible Generative AI Adaptation in Higher Education](https://arxiv.org/abs/2512.16036)
+- [WeMusic-Agent: Efficient Conversational Music Recommendation via Knowledge Internalization and Agentic Boundary Learning](https://arxiv.org/abs/2512.16108)
+- [ToolForge: A Data Synthesis Pipeline for Multi-Hop Search without Real-World APIs](https://arxiv.org/abs/2512.16149)
+- [Weighted K-Harmonic Means Clustering: Convergence Analysis and Applications to Wireless Communications](https://arxiv.org/abs/2512.16185)
+- [PDE-Agent: A toolchain-augmented multi-agent framework for PDE solving](https://arxiv.org/abs/2512.16214)
+- [Scaling Spatial Reasoning in MLLMs through Programmatic Data Synthesis](https://arxiv.org/abs/2512.16237)
+- [AlignMerge - Alignment-Preserving Large Language Model Merging via Fisher-Guided Geometric Constraints](https://arxiv.org/abs/2512.16245)
+- [AMUSE: Audio-Visual Benchmark and Alignment Framework for Agentic Multi-Speaker Understanding](https://arxiv.org/abs/2512.16250)
+- [Learning to Wait: Synchronizing Agents with the Physical World](https://arxiv.org/abs/2512.16262)
+- [QuadSentinel: Sequent Safety for Machine-Checkable Control in Multi-agent Systems](https://arxiv.org/abs/2512.16279)
+- [OS-Oracle: A Comprehensive Framework for Cross-Platform GUI Critic Models](https://arxiv.org/abs/2512.16295)
+- [Adaptation of Agentic AI](https://arxiv.org/abs/2512.16301)
+- [AI Needs Physics More Than Physics Needs AI](https://arxiv.org/abs/2512.16344)
+- [Knowledge-Driven Agentic Scientific Corpus Distillation Framework for Biomedical Large Language Models Training](https://arxiv.org/abs/2504.19565)
+- [AI Autonomy Coefficient ($\alpha$): Defining Boundaries for Responsible AI Systems](https://arxiv.org/abs/2512.11295)
+
+#### Healthcare and Medicine
+- [PediatricAnxietyBench: Evaluating Large Language Model Safety Under Parental Anxiety and Pressure in Pediatric Consultations](https://arxiv.org/abs/2512.15894)
+- [AI-Driven Prediction of Cancer Pain Episodes: A Hybrid Decision Support Approach](https://arxiv.org/abs/2512.16739)
+- [Towards Practical Alzheimer's Disease Diagnosis: A Lightweight and Interpretable Spiking Neural Model](https://arxiv.org/abs/2506.09695)
+- [AI-Powered Dermatological Diagnosis: From Interpretable Models to Clinical Implementation A Comprehensive Framework for Accessible and Trustworthy Skin Disease Detection](https://arxiv.org/abs/2512.16235)
+
+#### Ethics and Governance
+- [The Principle of Proportional Duty: A Knowledge-Duty Framework for Ethical Equilibrium in Human and Artificial Systems](https://arxiv.org/abs/2512.15740)
+- [AI Needs Physics More Than Physics Needs AI](https://arxiv.org/abs/2512.16344)
+- [Constitutional Law and AI Governance: Constraints on Model Licensing and Research Classification](https://arxiv.org/abs/2509.05361)
+- [Alternative Fairness and Accuracy Optimization in Criminal Justice](https://arxiv.org/abs/2511.04505)
+- [First, do NOHARM: towards clinically safe large language models](https://arxiv.org/abs/2512.01241)
+
+#### Robotics and Autonomous Systems
+- [WeMusic-Agent: Efficient Conversational Music Recommendation via Knowledge Internalization and Agentic Boundary Learning](https://arxiv.org/abs/2512.16108)
+- [Voice-Interactive Surgical Agent for Multimodal Patient Data Control](https://arxiv.org/abs/2511.07392)
+- [Towards Practical Alzheimer's Disease Diagnosis: A Lightweight and Interpretable Spiking Neural Model](https://arxiv.org/abs/2506.09695)
+- [DriveVLA-W0: World Models Amplify Data Scaling Law in Autonomous Driving](https://arxiv.org/abs/2510.12796)
+- [TACOS: Task Agnostic COordinator of a multi-drone System](https://arxiv.org/abs/2510.01869)
+
+#### Data Science and Machine Learning
+- [The Principle of Proportional Duty: A Knowledge-Duty Framework for Ethical Equilibrium in Human and Artificial Systems](https://arxiv.org/abs/2512.15740)
+- [Prompt-to-Parts: Generative AI for Physical Assembly and Scalable Instructions](https://arxiv.org/abs/2512.15743)
+- [Leveraging Spreading Activation for Improved Document Retrieval in Knowledge-Graph-Based RAG Systems](https://arxiv.org/abs/2512.15922)
+- [Weighted K-Harmonic Means Clustering: Convergence Analysis and Applications to Wireless Communications](https://arxiv.org/abs/2512.16185)
+- [Scaling Spatial Reasoning in MLLMs through Programmatic Data Synthesis](https://arxiv.org/abs/2512.16237)
+- [AlignMerge - Alignment-Preserving Large Language Model Merging via Fisher-Guided Geometric Constraints](https://arxiv.org/abs/2512.16245)
+
+#### Security and Privacy
+- [Prefix Probing: Lightweight Harmful Content Detection for Large Language Models](https://arxiv.org/abs/2512.16650)
+- [Cyber Humanism in Education: Reclaiming Agency through AI and Learning Sciences](https://arxiv.org/abs/2512.16701)
+- [Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies](https://arxiv.org/abs/2505.21236)
+
+#### Miscellaneous
+- [AI Needs Physics More Than Physics Needs AI](https://arxiv.org/abs/2512.16344)
+- [Advancing mathematics research with generative AI](https://arxiv.org/abs/2511.07420)
+- [Echoes of AI: Investigating the Downstream Effects of AI Assistants on Software Maintainability](https://arxiv.org/abs/2507.00788)
+- [Towards Practical Alzheimer's Disease Diagnosis: A Lightweight and Interpretable Spiking Neural Model](https://arxiv.org/abs/2506.09695)
+- [AI Autonomy Coefficient ($\alpha$): Defining Boundaries for Responsible AI Systems](https://arxiv.org/abs/2512.11295)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Security
+
+The recent papers and articles highlight a growing concern for security in AI systems, particularly as they become more integrated into critical applications such as healthcare, finance, and autonomous systems. Here are the key themes and insights derived from the analysis:
+
+1. **Adversarial Robustness**: Several papers focus on enhancing the robustness of AI models against adversarial attacks. For instance, the paper on **"Autoencoder-based Denoising Defense against Adversarial Attacks on Object Detection"** proposes a method to recover object detection performance degraded by adversarial perturbations. Similarly, **"Breaking the Performance Ceiling in Reinforcement Learning requires Inference Strategies"** discusses the importance of inference strategies in overcoming performance limitations in complex environments.
+
+2. **Privacy Concerns**: The **"PrivateXR"** paper emphasizes the need for privacy in extended reality applications, proposing a method that combines explainable AI with differential privacy to protect sensitive data. This highlights the increasing recognition of privacy as a critical aspect of AI deployment, especially in contexts where personal data is involved.
+
+3. **Bias and Fairness**: The **"Impacts of Racial Bias in Historical Training Data for News AI"** paper investigates how biases in training data can lead to unfair outcomes in AI systems. This is echoed in the **"Alternative Fairness and Accuracy Optimization in Criminal Justice"** paper, which discusses the need for balancing fairness and accuracy in algorithmic decision-making, particularly in sensitive areas like criminal justice.
+
+4. **Model Interpretability**: The importance of interpretability in AI systems is underscored in various papers, such as **"Towards Clinically Safe Large Language Models"** and **"MindShift: Analyzing Language Models' Reactions to Psychological Prompts."** These works emphasize the need for AI systems to provide transparent and understandable outputs, especially when used in critical decision-making contexts.
+
+5. **Federated Learning and Collaboration**: The **"Federated Learning for Collagen VI-Related Dystrophies"** paper illustrates how federated learning can enhance model performance while preserving patient privacy. This approach is crucial for developing AI systems in healthcare, where data privacy is paramount.
+
+6. **Security Mechanisms**: The **"Protecting Deep Neural Network Intellectual Property with Chaos-Based White-Box Watermarking"** paper introduces a watermarking framework to assert and verify model ownership, addressing concerns about model misuse and intellectual property theft.
+
+7. **Ethical Considerations**: The **"Constitutional Law and AI Governance"** paper discusses the legal implications of AI governance, emphasizing the need for ethical frameworks that guide the development and deployment of AI technologies.
+
+8. **Human-AI Collaboration**: The **"Voice-Interactive Surgical Agent for Multimodal Patient Data Control"** paper highlights the potential for AI to assist in clinical settings, emphasizing the need for AI systems that can work collaboratively with human operators while ensuring safety and reliability.
+
+### Trends and Insights
+
+- **Integration of AI in Critical Domains**: There is a clear trend towards using AI in sensitive areas such as healthcare and finance, necessitating robust security measures to protect against adversarial attacks and ensure privacy.
+  
+- **Focus on Interpretability and Trust**: As AI systems become more prevalent, the demand for interpretability and trustworthiness is increasing. Stakeholders are seeking AI solutions that can explain their reasoning and decisions, particularly in high-stakes environments.
+
+- **Emerging Security Frameworks**: New frameworks and methodologies are being developed to address security concerns, such as watermarking for intellectual property protection and federated learning for privacy-preserving model training.
+
+- **Ethical and Legal Frameworks**: The intersection of AI with ethical and legal considerations is becoming more pronounced, with calls for governance structures that ensure responsible AI deployment.
+
+### Conclusion
+
+The landscape of AI research and application is rapidly evolving, with a strong emphasis on security, privacy, and ethical considerations. As AI systems become more integrated into critical sectors, the need for robust defenses against adversarial threats, transparent decision-making processes, and adherence to ethical standards will be paramount. The ongoing development of frameworks that address these challenges will be crucial for the responsible advancement of AI technologies.
