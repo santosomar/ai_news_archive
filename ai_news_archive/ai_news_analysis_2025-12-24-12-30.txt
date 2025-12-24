@@ -1,0 +1,138 @@
+AI Researcher Agent Report for 2025-12-24-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [PhysMaster: Building an Autonomous AI Physicist for Theoretical and Computational Physics Research](https://arxiv.org/abs/2512.19799): PhysMaster is an LLM-based agent designed to assist in theoretical and computational physics research by integrating abstract reasoning with numerical computation. It aims to automate and accelerate research processes, demonstrating significant improvements in research efficiency.
+- [A Branch-and-Price Algorithm for Fast and Equitable Last-Mile Relief Aid Distribution](https://arxiv.org/abs/2512.19882): This paper presents a bi-objective Mixed Integer Programming model to optimize vehicle routes for equitable distribution of relief supplies post-disaster, significantly reducing inequity in aid distribution.
+- [Interpolative Decoding: Exploring the Spectrum of Personality Traits in LLMs](https://arxiv.org/abs/2512.19937): The study introduces interpolative decoding to simulate human-like personality traits in LLMs, enhancing their ability to mimic human decision-making in economic games.
+- [Zero-Shot Segmentation through Prototype-Guidance for Multi-Label Plant Species Identification](https://arxiv.org/abs/2512.19957): This paper proposes a method for plant species identification using class prototypes to guide segmentation models, achieving competitive performance in a challenge.
+- [FGDCC: Fine-Grained Deep Cluster Categorization](https://arxiv.org/abs/2512.19960): The paper addresses intra-class variability in fine-grained visual categorization by clustering images within classes, improving classification performance.
+- [S$^3$IT: A Benchmark for Spatially Situated Social Intelligence Test](https://arxiv.org/abs/2512.19992): This benchmark evaluates embodied social intelligence in agents through a seat-ordering task, revealing gaps in LLMs' spatial intelligence.
+- [Discovering Lie Groups with Flow Matching](https://arxiv.org/abs/2512.20043): The study proposes a method for discovering symmetries in data using flow matching on Lie groups, enhancing machine learning performance.
+- [Learning Skills from Action-Free Videos](https://arxiv.org/abs/2512.20052): This framework learns latent skills from action-free videos, enabling high-level planning and skill composition for robots.
+- [Towards Generative Location Awareness for Disaster Response: A Probabilistic Cross-view Geolocalization Approach](https://arxiv.org/abs/2512.20056): The paper proposes a probabilistic geolocalization model for disaster response, achieving high accuracy in identifying disaster locations.
+- [Scaling Reinforcement Learning for Content Moderation with Large Language Models](https://arxiv.org/abs/2512.20061): This work investigates scaling RL for content moderation tasks, demonstrating improved performance and data efficiency.
+- [Reason2Decide: Rationale-Driven Multi-Task Learning](https://arxiv.org/abs/2512.20074): The proposed framework enhances clinical decision support systems by aligning predictions with rationales, improving accuracy and explanation fidelity.
+- [Adaptive Financial Sentiment Analysis for NIFTY 50 via Instruction-Tuned LLMs, RAG and Reinforcement Learning Approaches](https://arxiv.org/abs/2512.20082): This paper presents a framework for financial sentiment analysis that adapts to market feedback, improving sentiment predictions.
+- [MolAct: An Agentic RL Framework for Molecular Editing and Property Optimization](https://arxiv.org/abs/2512.20135): The framework formalizes molecular design as an agentic RL problem, achieving high performance in molecular editing and optimization tasks.
+- [Enhancing Zero-Shot Time Series Forecasting in Off-the-Shelf LLMs via Noise Injection](https://arxiv.org/abs/2512.20140): This study introduces a noise injection strategy to improve the performance of LLMs in zero-shot time series forecasting.
+- [A Bidirectional Gated Recurrent Unit Model for PUE Prediction in Data Centers](https://arxiv.org/abs/2512.20161): The paper presents a BiGRU model for predicting Power Usage Effectiveness in data centers, optimizing energy management.
+- [Concept Generalization in Humans and Large Language Models: Insights from the Number Game](https://arxiv.org/abs/2512.20162): The study compares human and LLM generalization in a number game, highlighting differences in inference strategies.
+- [Offline Safe Policy Optimization From Heterogeneous Feedback](https://arxiv.org/abs/2512.20173): This work introduces a framework for learning safe policies in offline reinforcement learning, outperforming existing methods.
+- [TongSIM: A General Platform for Simulating Intelligent Machines](https://arxiv.org/abs/2512.20206): TongSIM is a versatile platform for training and evaluating embodied agents in various simulated environments.
+- [MemR$^3$: Memory Retrieval via Reflective Reasoning for LLM Agents](https://arxiv.org/abs/2512.20237): This paper presents a memory retrieval system for LLM agents, improving answer quality through autonomous decision-making.
+- [Graph-Symbolic Policy Enforcement and Control (G-SPEC): A Neuro-Symbolic Framework for Safe Agentic AI in 5G Autonomous Networks](https://arxiv.org/abs/2512.20275): G-SPEC is a framework for ensuring safety in 5G networks, achieving zero safety violations in simulations.
+- [ActionFlow: A Pipelined Action Acceleration for Vision Language Models on Edge](https://arxiv.org/abs/2512.20276): This framework improves inference speed for vision-language models on edge devices, achieving significant performance gains.
+- [Synthesizing Procedural Memory: Challenges and Architectures in Automated Workflow Generation](https://arxiv.org/abs/2512.20278): The paper explores the synthesis of procedural memory in LLMs for automated workflow generation.
+- [SynCraft: Guiding Large Language Models to Predict Edit Sequences for Molecular Synthesizability Optimization](https://arxiv.org/abs/2512.20333): SynCraft is a framework for optimizing molecular synthesizability through guided edit predictions.
+- [A DeepSeek-Powered AI System for Automated Chest Radiograph Interpretation in Clinical Practice](https://arxiv.org/abs/2512.20344): This system improves automated chest X-ray interpretation, demonstrating significant advancements in diagnostic reliability.
+- [Generative Digital Twins: Vision-Language Simulation Models for Executable Industrial Systems](https://arxiv.org/abs/2512.20387): The paper proposes a model for generating executable digital twins from visual and textual inputs.
+- [Bohrium + SciMaster: Building the Infrastructure and Ecosystem for Agentic Science at Scale](https://arxiv.org/abs/2512.20469): This work discusses the infrastructure needed for scalable agentic science, enhancing scientific workflows.
+- [Benchmarking LLMs for Predictive Applications in the Intensive Care Units](https://arxiv.org/abs/2512.20520): The study benchmarks LLMs for predictive tasks in ICUs, highlighting their potential in clinical applications.
+- [Advancing Multimodal Teacher Sentiment Analysis: The Large-Scale T-MED Dataset & The Effective AAM-TSA Model](https://arxiv.org/abs/2512.20548): This paper presents a dataset and model for analyzing teacher sentiment across multiple modalities.
+- [Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent](https://arxiv.org/abs/2512.20586): The study evaluates an LLM-based agent for automated treatment planning in stereotactic radiosurgery.
+- [LongVideoAgent: Multi-Agent Reasoning with Long Videos](https://arxiv.org/abs/2512.20618): This framework enables reasoning over long videos using a multi-agent system for improved video understanding.
+- [Brain-Grounded Axes for Reading and Steering LLM States](https://arxiv.org/abs/2512.19399): The paper explores using brain activity to interpret and steer LLM states, providing a new interface for model behavior.
+- [QoS-Aware Dynamic CU Selection in O-RAN with Graph-Based Reinforcement Learning](https://arxiv.org/abs/2512.19696): This work presents a graph-based RL approach for dynamic service function provisioning in O-RAN networks.
+- [Automated Fault Detection in 5G Core Networks Using Large Language Models](https://arxiv.org/abs/2512.19697): The study leverages LLMs for automated fault detection in 5G networks, improving network reliability.
+- [Large Language Models for EDA Cloud Job Resource and Lifetime Prediction](https://arxiv.org/abs/2512.19701): This paper proposes a framework for predicting resource and job lifetime in the EDA industry using LLMs.
+- [Generative AI for Analysts](https://arxiv.org/abs/2512.19705): The study examines the impact of generative AI on financial analysts' reporting and forecasting accuracy.
+- [Bidirectional human-AI collaboration in brain tumour assessments improves both expert human and AI agent performance](https://arxiv.org/abs/2512.19707): This research investigates the benefits of human-AI collaboration in medical assessments, enhancing performance for both parties.
+- [PHANTOM: PHysical ANamorphic Threats Obstructing Connected Vehicle Mobility](https://arxiv.org/abs/2512.19711): The paper introduces a framework for crafting adversarial examples that disrupt connected vehicle mobility.
+- [Development and external validation of a multimodal artificial intelligence mortality prediction model of critically ill patients using multicenter data](https://arxiv.org/abs/2512.19716): This study develops a multimodal AI model for predicting mortality risk in critically ill patients.
+- [Thermodynamic Focusing for Inference-Time Search: Practical Methods for Target-Conditioned Sampling and Prompted Inference](https://arxiv.org/abs/2512.19717): The paper presents a framework for efficient search in language generation tasks.
+- [Multiscale Dual-path Feature Aggregation Network for Remaining Useful Life Prediction of Lithium-Ion Batteries](https://arxiv.org/abs/2512.19719): This work proposes a deep learning architecture for predicting battery life, outperforming existing methods.
+- [Tiny, On-Device Decision Makers with the MiniConv Library](https://arxiv.org/abs/2512.19726): The study introduces a split-policy architecture for on-device decision-making in resource-constrained environments.
+- [High-Performance Self-Supervised Learning by Joint Training of Flow Matching](https://arxiv.org/abs/2512.19729): This paper presents a framework for self-supervised learning using flow matching, achieving significant improvements in training efficiency.
+- [CoPHo: Classifier-guided Conditional Topology Generation with Persistent Homology](https://arxiv.org/abs/2512.19736): The study proposes a method for generating synthetic graphs with desired properties using persistent homology.
+- [Simulation-Driven Railway Delay Prediction: An Imitation Learning Approach](https://arxiv.org/abs/2512.19737): This work presents a novel approach for predicting train delays using imitation learning.
+- [From Theory to Throughput: CUDA-Optimized APML for Large-Batch 3D Learning](https://arxiv.org/abs/2512.19743): The paper introduces a CUDA-optimized loss function for 3D point cloud models.
+- [QMBench: A Research Level Benchmark for Quantum Materials Research](https://arxiv.org/abs/2512.19753): This benchmark assesses the capability of LLM agents in quantum materials research.
+- [Attention Distance: A Novel Metric for Directed Fuzzing with Large Language Models](https://arxiv.org/abs/2512.19758): The study introduces a new metric for improving software security testing.
+- [How Many Experts Are Enough? Towards Optimal Semantic Specialization for Mixture-of-Experts](https://arxiv.org/abs/2512.19765): This work proposes a framework for optimizing expert configurations in sparse mixture-of-experts architectures.
+- [A Declarative Language for Building And Orchestrating LLM-Powered Agent Workflows](https://arxiv.org/abs/2512.19769): The paper presents a declarative system for specifying agent workflows, improving development efficiency.
+- [A K-Means, Ward and DBSCAN repeatability study](https://arxiv.org/abs/2512.19772): This study examines the reproducibility of clustering algorithms in machine learning.
+- [Learned Digital Codes for Over-the-Air Computation in Federated Edge Learning](https://arxiv.org/abs/2512.19777): The paper proposes a learned digital OTA framework for federated edge learning.
+- [UCCL-EP: Portable Expert-Parallel Communication](https://arxiv.org/abs/2512.19849): This work presents a portable communication system for Mixture-of-Experts workloads.
+- [HARMON-E: Hierarchical Agentic Reasoning for Multimodal Oncology Notes to Extract Structured Data](https://arxiv.org/abs/2512.19864): The paper proposes a framework for extracting structured clinical variables from oncology notes.
+- [Fine-Tuned In-Context Learners for Efficient Adaptation](https://arxiv.org/abs/2512.19879): This study investigates a unified approach for adapting LLMs to specific tasks.
+- [Demystifying LLM-as-a-Judge: Analytically Tractable Model for Inference-Time Scaling](https://arxiv.org/abs/2512.19905): The paper introduces a model for understanding inference-time scaling in LLMs.
+- [Modeling Non-Ergodic Path Effects Using Conditional Generative Model for Fourier Amplitude Spectra](https://arxiv.org/abs/2512.19909): This work proposes a deep-learning approach for modeling non-ergodic ground-motion prediction.
+- [A Time-efficient Prioritised Scheduling Algorithm to Optimise Initial Flock Formation of Drones](https://arxiv.org/abs/2512.19914): The paper presents a scheduling algorithm for optimizing drone flock formation.
+- [Mitigating LLM Hallucination via Behaviorally Calibrated Reinforcement Learning](https://arxiv.org/abs/2512.19920): This study proposes a method for improving LLM reliability through behavioral calibration.
+- [LLM-based Behaviour Driven Development for Hardware Design](https://arxiv.org/abs/2512.17814): The paper investigates the use of LLMs to support behavior-driven development in hardware design.
+- [Software Vulnerability Management in the Era of Artificial Intelligence: An Industry Perspective](https://arxiv.org/abs/2512.18261): This study explores the adoption of AI tools for software vulnerability management in industry settings.
+- [On Efficient Adjustment for Micro Causal Effects in Summary Causal Graphs](https://arxiv.org/abs/2512.18315): The paper proposes a new criterion for identifying valid adjustment sets in summary causal graphs.
+- [Fusion of Multiscale Features Via Centralized Sparse-attention Network for EEG Decoding](https://arxiv.org/abs/2512.18689): This work presents a network for EEG decoding that achieves state-of-the-art performance across multiple datasets.
+
+### Categories
+#### Security
+- [Membership Inference Attack with Partial Features](https://arxiv.org/abs/2508.06244): This paper explores membership inference attacks in scenarios where only partial features are available, introducing a framework for effective detection.
+- [Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit](https://arxiv.org/abs/2508.02115): The work presents a toolkit for detecting DNS-over-HTTPS data exfiltration, addressing challenges posed by non-i.i.d. data distributions.
+- [PHANTOM: PHysical ANamorphic Threats Obstructing Connected Vehicle Mobility](https://arxiv.org/abs/2512.19711): This paper introduces a framework for crafting adversarial examples that disrupt connected vehicle mobility.
+- [AI Security Beyond Core Domains: Resume Screening as a Case Study of Adversarial Vulnerabilities in Specialized LLM Applications](https://arxiv.org/abs/2512.20164): The study assesses vulnerabilities in LLM applications, particularly in resume screening, revealing high attack success rates.
+- [Odysseus: Jailbreaking Commercial Multimodal LLM-integrated Systems via Dual Steganography](https://arxiv.org/abs/2512.20168): This paper presents a novel jailbreak paradigm that uses dual steganography to embed malicious queries into benign-looking images.
+
+#### Healthcare
+- [A DeepSeek-Powered AI System for Automated Chest Radiograph Interpretation in Clinical Practice](https://arxiv.org/abs/2512.20344): This system improves automated chest X-ray interpretation, demonstrating significant advancements in diagnostic reliability.
+- [Development and external validation of a multimodal artificial intelligence mortality prediction model of critically ill patients using multicenter data](https://arxiv.org/abs/2512.19716): This study develops a multimodal AI model for predicting mortality risk in critically ill patients.
+- [HARMON-E: Hierarchical Agentic Reasoning for Multimodal Oncology Notes to Extract Structured Data](https://arxiv.org/abs/2512.19864): The paper proposes a framework for extracting structured clinical variables from oncology notes.
+
+#### Reinforcement Learning
+- [Scaling Reinforcement Learning for Content Moderation with Large Language Models](https://arxiv.org/abs/2512.20061): This work investigates scaling RL for content moderation tasks, demonstrating improved performance and data efficiency.
+- [C$^2$GSPG: Confidence-calibrated Group Sequence Policy Gradient towards Self-aware Reasoning](https://arxiv.org/abs/2509.23129): This paper presents a confidence-calibration method for group sequence policy gradient methods in reinforcement learning.
+- [Deep Reinforcement Learning Optimization for Uncertain Nonlinear Systems via Event-Triggered Robust Adaptive Dynamic Programming](https://arxiv.org/abs/2511.13912): This work proposes a unified control architecture that couples an RL-driven controller with disturbance-rejection mechanisms.
+
+#### Natural Language Processing
+- [Scaling Laws for Energy Efficiency of Local LLMs](https://arxiv.org/abs/2512.16531): This study quantifies the scaling laws for local LLMs and proposes methods for efficient deployment.
+- [Understanding Human-AI Trust in Education](https://arxiv.org/abs/2506.09160): This paper examines the dynamics of trust in AI chatbots used in educational settings.
+- [Training LLMs for Honesty via Confessions](https://arxiv.org/abs/2512.08093): The study proposes a method for eliciting honest expressions from LLMs through self-reported confessions.
+
+#### Robotics
+- [Adaptive Command: Real-Time Policy Adjustment via Language Models in StarCraft II](https://arxiv.org/abs/2508.16580): This framework integrates LLMs with behavior trees for strategic decision-making in gaming environments.
+- [Collision-based Watermark for Detecting Backdoor Manipulation in Federated Learning](https://arxiv.org/abs/2508.02115): This work introduces a proactive detection method for backdoor manipulation in federated learning systems.
+
+#### General AI
+- [Machine Unlearning in the Era of Quantum Machine Learning: An Empirical Study](https://arxiv.org/abs/2512.19253): This study explores machine unlearning in quantum settings, adapting existing methods for quantum models.
+- [Rethinking Popularity Bias in Collaborative Filtering via Analytical Vector Decomposition](https://arxiv.org/abs/2512.10688): The paper analyzes popularity bias in collaborative filtering models and proposes a framework for mitigating its effects.
+
+This summary encapsulates the key findings and contributions of the papers and articles, categorized by their respective domains.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and Articles Related to AI Security and Securing AI
+
+#### 1. **Membership Inference Attack with Partial Features**
+   - This paper introduces a framework for membership inference attacks where only partial features of a sample are available. The proposed method, MRAD, utilizes latent memory of the target model to reconstruct unknown features and employs anomaly detection to infer membership. The findings highlight the vulnerabilities of machine learning models in real-world scenarios where complete data may not be accessible.
+
+#### 2. **Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration**
+   - This research presents a proactive detection method for DNS-over-HTTPS (DoH) file exfiltration, revealing the limitations of traditional detection methods. The proposed Coward method uses a backdoor-collided watermark to enable detection while addressing the challenges posed by non-i.i.d. data distributions and out-of-distribution prediction bias. The results demonstrate the effectiveness of the method in maintaining model performance while enhancing detection capabilities.
+
+#### 3. **Odysseus: Jailbreaking Commercial Multimodal LLM-integrated Systems via Dual Steganography**
+   - This paper discusses a novel jailbreak paradigm that utilizes dual steganography to embed malicious queries and responses into benign-looking images, effectively bypassing safety filters in multimodal LLM systems. The findings expose vulnerabilities in existing defenses and highlight the need for improved cross-modal security measures.
+
+#### 4. **AI Security Beyond Core Domains: Resume Screening as a Case Study of Adversarial Vulnerabilities in Specialized LLM Applications**
+   - This study identifies vulnerabilities in LLMs used for resume screening, demonstrating that adversarial instructions can manipulate model behavior. The research evaluates two defense mechanisms and proposes a benchmark to assess the effectiveness of these defenses, revealing significant attack success rates and the need for robust security measures in AI applications.
+
+#### 5. **FaithLens: Detecting and Explaining Faithfulness Hallucination**
+   - The paper introduces FaithLens, a model designed to detect and explain faithfulness hallucinations in LLM outputs. By synthesizing training data with explanations and optimizing the model through reinforcement learning, FaithLens aims to improve trustworthiness in AI systems, addressing concerns about the reliability of generated content.
+
+#### 6. **The Erasure Illusion: Stress-Testing the Generalization of LLM Forgetting Evaluation**
+   - This research critiques current metrics for evaluating machine unlearning, arguing that they often fail to account for retained knowledge in LLMs. The proposed Proximal Surrogate Generation (PSG) framework stress-tests the reliability of unlearning metrics, revealing inconsistencies and the need for more robust evaluation methods.
+
+#### 7. **Machine Unlearning in the Era of Quantum Machine Learning: An Empirical Study**
+   - This study explores the application of machine unlearning in hybrid quantum-classical neural networks, adapting various unlearning methods to quantum settings. The findings highlight the potential for effective unlearning in quantum models while emphasizing the need for quantum-aware algorithms.
+
+### Trends and Insights
+- **Vulnerability Awareness**: There is a growing recognition of the vulnerabilities inherent in AI systems, particularly in LLMs, which can be manipulated through adversarial inputs or membership inference attacks. This highlights the need for robust security measures and evaluation frameworks.
+  
+- **Proactive Defense Mechanisms**: Research is increasingly focused on developing proactive detection methods that can anticipate and mitigate potential threats, such as the Coward method for detecting DoH exfiltration and FaithLens for hallucination detection.
+
+- **Cross-Modal Security**: The introduction of methods like Odysseus emphasizes the need for security measures that account for the complexities of multimodal AI systems, which can be exploited in ways that traditional systems may not anticipate.
+
+- **Evaluation Frameworks**: There is a push for more comprehensive evaluation frameworks that can assess the effectiveness of AI systems in real-world scenarios, as seen in the development of benchmarks for membership inference attacks and the evaluation of unlearning methods.
+
+### Conclusion
+The landscape of AI security is rapidly evolving, with significant advancements in understanding vulnerabilities and developing proactive defenses. The integration of these insights into practical applications is crucial for ensuring the safe deployment of AI technologies in sensitive domains. The ongoing research emphasizes the importance of robust evaluation frameworks and the need for adaptive security measures to address emerging threats in AI systems.
