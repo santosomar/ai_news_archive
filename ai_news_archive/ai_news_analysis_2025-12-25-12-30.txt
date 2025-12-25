@@ -1,0 +1,828 @@
+AI Researcher Agent Report for 2025-12-25-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [BitRL-Light: 1-bit LLM Agents with Deep Reinforcement Learning for Energy-Efficient Smart Home Lighting Optimization](https://arxiv.org/abs/2512.20623): Introduces BitRL-Light, a framework using 1-bit quantized LLMs and DQN for optimizing smart home lighting, achieving significant energy savings and user satisfaction.
+- [Quantum-Inspired Multi Agent Reinforcement Learning for Exploration Exploitation Optimization in UAV-Assisted 6G Network Deployment](https://arxiv.org/abs/2512.20624): Proposes a quantum-inspired framework for optimizing UAV-assisted 6G networks using multi-agent reinforcement learning, enhancing signal coverage and efficiency.
+- [MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation](https://arxiv.org/abs/2512.20626): Presents MegaRAG, a multimodal RAG framework that integrates visual cues into knowledge graphs for improved reasoning and content understanding.
+- [MicroProbe: Efficient Reliability Assessment for Foundation Models with Minimal Data](https://arxiv.org/abs/2512.20630): Introduces MicroProbe, a method for assessing foundation model reliability using only 100 examples, achieving high reliability scores with reduced costs.
+- [Erkang-Diagnosis-1.1 Technical Report](https://arxiv.org/abs/2512.20632): Details the Erkang-Diagnosis-1.1 model, an AI healthcare assistant that provides diagnostic suggestions based on user symptoms.
+- [Reasoning Relay: Evaluating Stability and Interchangeability of Large Language Models in Mathematical Reasoning](https://arxiv.org/abs/2512.20647): Explores the interchangeability of reasoning chains in LLMs, assessing their coherence and reliability across different models.
+- [AIAuditTrack: A Framework for AI Security system](https://arxiv.org/abs/2512.20649): Proposes AiAuditTrack, a blockchain-based framework for AI usage tracking and governance, enhancing accountability and risk management.
+- [Mixture of Attention Schemes (MoAS): Learning to Route Between MHA, GQA, and MQA](https://arxiv.org/abs/2512.20650): Introduces MoAS, a dynamic attention mechanism that optimally selects between different attention schemes for improved efficiency and performance.
+- [Memory Bear AI A Breakthrough from Memory to Cognition Toward Artificial General Intelligence](https://arxiv.org/abs/2512.20651): Proposes Memory Bear, a system that enhances LLM memory capabilities for improved dialogue and personalized services.
+- [AI-Driven Decision-Making System for Hiring Process](https://arxiv.org/abs/2512.20652): Describes an AI system that streamlines the hiring process by integrating various candidate evaluation methods and human oversight.
+- [From Fake Focus to Real Precision: Confusion-Driven Adversarial Attention Learning in Transformers](https://arxiv.org/abs/2512.20661): Proposes a mechanism to improve attention distribution in Transformers for better performance in sentiment analysis tasks.
+- [Quantifying Laziness, Decoding Suboptimality, and Context Degradation in Large Language Models](https://arxiv.org/abs/2512.20662): Analyzes behavioral artifacts in LLMs, identifying issues like laziness and context degradation, and suggests strategies for improvement.
+- [Eidoku: A Neuro-Symbolic Verification Gate for LLM Reasoning via Structural Constraint Satisfaction](https://arxiv.org/abs/2512.20664): Introduces Eidoku, a method for verifying LLM reasoning by modeling it as a constraint satisfaction problem.
+- [Bridging the AI Trustworthiness Gap between Functions and Norms](https://arxiv.org/abs/2512.20671): Discusses the need for a semantic language to bridge functional and normative aspects of AI trustworthiness.
+- [From Pilots to Practices: A Scoping Review of GenAI-Enabled Personalization in Computer Science Education](https://arxiv.org/abs/2512.20714): Reviews the effectiveness of generative AI in personalizing computer science education.
+- [From artificial to organic: Rethinking the roots of intelligence for digital health](https://arxiv.org/abs/2512.20723): Discusses the organic origins of AI and its implications for digital health.
+- [AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent](https://arxiv.org/abs/2512.20745): Presents AgentMath, a framework that combines LLM reasoning with code interpreters for solving complex mathematical problems.
+- [A Benchmark for Evaluating Outcome-Driven Constraint Violations in Autonomous AI Agents](https://arxiv.org/abs/2512.20798): Introduces a benchmark for assessing constraint violations in AI agents during multi-step tasks.
+- [Safety Alignment of LMs via Non-cooperative Games](https://arxiv.org/abs/2512.20806): Proposes a game-theoretic approach to improve the safety alignment of language models.
+- [Context-Sensitive Abstractions for Reinforcement Learning with Parameterized Actions](https://arxiv.org/abs/2512.20831): Discusses a framework for RL that learns state and action abstractions for better performance in decision-making tasks.
+- [MAR: Multi-Agent Reflexion Improves Reasoning Abilities in LLMs](https://arxiv.org/abs/2512.20845): Introduces a multi-agent reflection method to enhance reasoning in LLMs.
+- [The Silent Scholar Problem: A Probabilistic Framework for Breaking Epistemic Asymmetry in LLM Agents](https://arxiv.org/abs/2512.20884): Proposes a framework for improving knowledge exchange among LLM agents.
+- [A Blockchain-Monitored Agentic AI Architecture for Trusted Perception-Reasoning-Action Pipelines](https://arxiv.org/abs/2512.20985): Introduces a blockchain-based architecture for monitoring AI decision-making processes.
+- [FinAgent: An Agentic AI Framework Integrating Personal Finance and Nutrition Planning](https://arxiv.org/abs/2512.20991): Describes an AI system that combines personal finance management with nutrition planning.
+- [TrafficSimAgent: A Hierarchical Agent Framework for Autonomous Traffic Simulation with MCP Control](https://arxiv.org/abs/2512.20996): Presents TrafficSimAgent, an LLM-based framework for traffic simulation.
+- [Agentic Explainable Artificial Intelligence (Agentic XAI) Approach To Explore Better Explanation](https://arxiv.org/abs/2512.21066): Proposes an agentic XAI framework for generating better explanations in AI systems.
+- [LLM Personas as a Substitute for Field Experiments in Method Benchmarking](https://arxiv.org/abs/2512.21080): Discusses the use of LLM personas for benchmarking methods in societal systems.
+- [Beyond Context: Large Language Models Failure to Grasp Users Intent](https://arxiv.org/abs/2512.21110): Analyzes LLMs' limitations in understanding user intent and context.
+- [A Real-World Evaluation of LLM Medication Safety Reviews in NHS Primary Care](https://arxiv.org/abs/2512.21127): Evaluates LLMs in real clinical settings for medication safety reviews.
+- [RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic](https://arxiv.org/abs/2512.21220): Introduces RoboSafe, a safety framework for embodied agents.
+- [Inspection Planning Primitives with Implicit Models](https://arxiv.org/abs/2510.07611): Proposes a method for efficient inspection planning using implicit models.
+- [Cooperation Through Indirect Reciprocity in Child-Robot Interactions](https://arxiv.org/abs/2512.20621): Studies indirect reciprocity in human-robot interactions.
+- [Parameter-Efficient Neural CDEs via Implicit Function Jacobians](https://arxiv.org/abs/2512.20625): Discusses parameter-efficient methods for neural controlled differential equations.
+- [Efficient Asynchronous Federated Evaluation with Strategy Similarity Awareness for Intent-Based Networking in Industrial Internet of Things](https://arxiv.org/abs/2512.20627): Proposes a federated evaluation framework for intent-based networking in IIoT.
+- [Learning Evolving Latent Strategies for Multi-Agent Language Systems without Model Fine-Tuning](https://arxiv.org/abs/2512.20629): Introduces a framework for evolving strategies in multi-agent language systems.
+- [Zero-Training Temporal Drift Detection for Transformer Sentiment Models: A Comprehensive Analysis on Authentic Social Media Streams](https://arxiv.org/abs/2512.20631): Proposes a method for detecting temporal drift in sentiment models.
+- [Enhancing Lung Cancer Treatment Outcome Prediction through Semantic Feature Engineering Using Large Language Models](https://arxiv.org/abs/2512.20633): Introduces a framework for improving lung cancer treatment predictions using LLMs.
+- [Real Time Detection and Quantitative Analysis of Spurious Forgetting in Continual Learning](https://arxiv.org/abs/2512.20634): Discusses methods for detecting spurious forgetting in continual learning.
+- [Data-Free Pruning of Self-Attention Layers in LLMs](https://arxiv.org/abs/2512.20636): Proposes a method for pruning self-attention layers in LLMs without data.
+- [Uncovering Competency Gaps in Large Language Models and Their Benchmarks](https://arxiv.org/abs/2512.20638): Analyzes gaps in LLM competencies and benchmarks.
+- [Forecasting N-Body Dynamics: A Comparative Study of Neural Ordinary Differential Equations and Universal Differential Equations](https://arxiv.org/abs/2512.20643): Compares different methods for forecasting N-body dynamics.
+- [MaskOpt: A Large-Scale Mask Optimization Dataset to Advance AI in Integrated Circuit Manufacturing](https://arxiv.org/abs/2512.20655): Introduces a dataset for mask optimization in IC manufacturing.
+- [Managing the Stochastic: Foundations of Learning in Neuro-Symbolic Systems for Software Engineering](https://arxiv.org/abs/2512.20660): Discusses managing stochastic processes in AI coding agents.
+- [Dominating vs. Dominated: Generative Collapse in Diffusion Models](https://arxiv.org/abs/2512.20666): Analyzes generative collapse in diffusion models.
+- [Forward Only Learning for Orthogonal Neural Networks of any Depth](https://arxiv.org/abs/2512.20668): Proposes a forward-only learning algorithm for neural networks.
+- [Improving Cardiac Risk Prediction Using Data Generation Techniques](https://arxiv.org/abs/2512.20669): Introduces a method for generating synthetic data for cardiac risk prediction.
+- [Disentangling Fact from Sentiment: A Dynamic Conflict-Consensus Framework for Multimodal Fake News Detection](https://arxiv.org/abs/2512.20670): Proposes a framework for detecting fake news using multimodal data.
+- [HyDRA: Hierarchical and Dynamic Rank Adaptation for Mobile Vision Language Model](https://arxiv.org/abs/2512.20674): Introduces a framework for adapting mobile vision language models.
+- [Revisiting the Learning Objectives of Vision-Language Reward Models](https://arxiv.org/abs/2512.20675): Analyzes learning objectives for vision-language reward models.
+- [PHOTON: Hierarchical Autoregressive Modeling for Lightspeed and Memory-Efficient Language Generation](https://arxiv.org/abs/2512.20687): Proposes a hierarchical autoregressive model for efficient language generation.
+- [Mechanism-Based Intelligence (MBI): Differentiable Incentives for Rational Coordination and Guaranteed Alignment in Multi-Agent Systems](https://arxiv.org/abs/2512.20688): Introduces a framework for coordinating multi-agent systems.
+- [SA-DiffuSeq: Addressing Computational and Scalability Challenges in Long-Document Generation with Sparse Attention](https://arxiv.org/abs/2512.20724): Proposes a method for long-document generation using sparse attention.
+- [FEM-Bench: A Structured Scientific Reasoning Benchmark for Evaluating Code-Generating LLMs](https://arxiv.org/abs/2512.20732): Introduces a benchmark for evaluating code-generating models in scientific reasoning.
+- [AI-Driven Green Cognitive Radio Networks for Sustainable 6G Communication](https://arxiv.org/abs/2512.20739): Proposes a framework for sustainable 6G communication using AI.
+- [A Physics Informed Neural Network For Deriving MHD State Vectors From Global Active Regions Observations](https://arxiv.org/abs/2512.20747): Introduces a method for deriving MHD state vectors using neural networks.
+- [Stabilizing Multimodal Autoencoders: A Theoretical and Empirical Analysis of Fusion Strategies](https://arxiv.org/abs/2512.20749): Analyzes fusion strategies in multimodal autoencoders.
+- [Bridging Efficiency and Safety: Formal Verification of Neural Networks with Early Exits](https://arxiv.org/abs/2512.20755): Discusses formal verification of neural networks with early exits.
+- [Generalization of RLVR Using Causal Reasoning as a Testbed](https://arxiv.org/abs/2512.20760): Explores generalization in reinforcement learning with verifiable rewards.
+- [TS-Arena Technical Report -- A Pre-registered Live Forecasting Platform](https://arxiv.org/abs/2512.20761): Introduces a platform for live forecasting evaluation.
+- [Towards Optimal Performance and Action Consistency Guarantees in Dec-POMDPs with Inconsistent Beliefs and Limited Communication](https://arxiv.org/abs/2512.20778): Proposes a framework for optimal action selection in decentralized POMDPs.
+- [NULLBUS: Multimodal Mixed-Supervision for Breast Ultrasound Segmentation via Nullable Global-Local Prompts](https://arxiv.org/abs/2512.20783): Introduces a framework for breast ultrasound segmentation.
+- [DGSAN: Dual-Graph Spatiotemporal Attention Network for Pulmonary Nodule Malignancy Prediction](https://arxiv.org/abs/2512.20898): Proposes a network for predicting pulmonary nodule malignancy.
+- [Embodied AI-Enhanced IoMT Edge Computing: UAV Trajectory Optimization and Task Offloading with Mobility Prediction](https://arxiv.org/abs/2512.20902): Discusses UAV optimization in IoMT.
+- [DiEC: Diffusion Embedded Clustering](https://arxiv.org/abs/2512.20905): Introduces a clustering method using diffusion models.
+- [RevFFN: Memory-Efficient Full-Parameter Fine-Tuning of Mixture-of-Experts LLMs with Reversible Blocks](https://arxiv.org/abs/2512.20920): Proposes a method for efficient fine-tuning of LLMs.
+- [Guardrailed Elasticity Pricing: A Churn-Aware Forecasting Playbook for Subscription Strategy](https://arxiv.org/abs/2512.20932): Introduces a framework for subscription pricing optimization.
+- [Transductive Visual Programming: Evolving Tool Libraries from Experience for Spatial Reasoning](https://arxiv.org/abs/2512.20934): Proposes a framework for evolving tools in visual programming.
+- [A Multi-fidelity Double-Delta Wing Dataset and Empirical Scaling Laws for GNN-based Aerodynamic Field Surrogate](https://arxiv.org/abs/2512.20941): Introduces a dataset for aerodynamic field prediction.
+- [Neural Probe-Based Hallucination Detection for Large Language Models](https://arxiv.org/abs/2512.20949): Proposes a method for detecting hallucinations in LLMs.
+- [MultiMind at SemEval-2025 Task 7: Crosslingual Fact-Checked Claim Retrieval via Multi-Source Alignment](https://arxiv.org/abs/2512.20950): Describes a system for multilingual fact-checking.
+- [Reflection Pretraining Enables Token-Level Self-Correction in Biological Sequence Models](https://arxiv.org/abs/2512.20954): Introduces a method for self-correction in biological models.
+- [One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents](https://arxiv.org/abs/2512.20957): Proposes a framework for LLM agents in software repositories.
+- [ReACT-Drug: Reaction-Template Guided Reinforcement Learning for de novo Drug Design](https://arxiv.org/abs/2512.20958): Introduces a framework for drug design using reinforcement learning.
+- [Can Agentic AI Match the Performance of Human Data Scientists?](https://arxiv.org/abs/2512.20959): Compares AI performance to human data scientists.
+- [Mesh-Attention: A New Communication-Efficient Distributed Attention with Improved Data Locality](https://arxiv.org/abs/2512.20968): Proposes a new distributed attention algorithm.
+- [Generalized Linear Models in Deep Bayesian RL with Learnable Basis Functions](https://arxiv.org/abs/2512.20974): Introduces a method for Bayesian reinforcement learning.
+- [GenTSE: Enhancing Target Speaker Extraction via a Coarse-to-Fine Generative Language Model](https://arxiv.org/abs/2512.20978): Proposes a generative model for target speaker extraction.
+- [Automatic Replication of LLM Mistakes in Medical Conversations](https://arxiv.org/abs/2512.20983): Introduces a method for replicating LLM mistakes in medical contexts.
+- [Distilling the Essence: Efficient Reasoning Distillation via Sequence Truncation](https://arxiv.org/abs/2512.21002): Proposes a method for efficient reasoning distillation.
+- [Hearing to Translate: The Effectiveness of Speech Modality Integration into LLMs](https://arxiv.org/abs/2512.16378): Analyzes the integration of speech in LLMs.
+- [When F1 Fails: Granularity-Aware Evaluation for Dialogue Topic Segmentation](https://arxiv.org/abs/2512.17083): Introduces a new evaluation framework for dialogue segmentation.
+- [Interpretable Plant Leaf Disease Detection Using Attention-Enhanced CNN](https://arxiv.org/abs/2512.17864): Proposes a method for plant disease detection using attention-enhanced CNNs.
+- [SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios](https://arxiv.org/abs/2512.18470): Introduces a benchmark for evaluating coding agents in software evolution.
+- [Code2Doc: A Quality-First Curated Dataset for Code Documentation](https://arxiv.org/abs/2512.18748): Presents a curated dataset for code documentation generation.
+- [Psychometric Validation of the Sophotechnic Mediation Scale and a New Understanding of the Development of GenAI Mastery: Lessons from 3,932 Adult Brazilian Workers](https://arxiv.org/abs/2512.18871): Validates a scale for understanding GenAI mastery.
+- [Anatomy-R1: Enhancing Anatomy Reasoning in Multimodal Large Language Models via Anatomical Similarity Curriculum and Group Diversity Augmentation](https://arxiv.org/abs/2512.19512): Proposes methods for enhancing anatomy reasoning in MLLMs.
+- [M$^3$KG-RAG: Multi-hop Multimodal Knowledge Graph-enhanced Retrieval-Augmented Generation](https://arxiv.org/abs/2512.20136): Introduces a framework for multimodal RAG using knowledge graphs.
+- [Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning](https://arxiv.org/abs/2512.20605): Discusses hierarchical reinforcement learning in autoregressive models.
+- [The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel](https://towardsdatascience.com/the-machine-learning-advent-calendar-day-24-transformers-for-text-in-excel/): Explains how Transformers use self-attention for contextual representations.
+- [Is Your Model Time-Blind? The Case for Cyclical Feature Encoding](https://towardsdatascience.com/is-your-model-time-blind-the-case-for-cyclical-feature-encoding/): Discusses how cyclical encoding improves predictions.
+- [4 Techniques to Optimize AI Coding Efficiency](https://towardsdatascience.com/4-techniques-to-optimize-ai-coding-efficiency/): Offers tips for effective coding using AI.
+- [Bonferroni vs. Benjamini-Hochberg: Choosing Your P-Value Correction](https://towardsdatascience.com/the-time-10-99-was-too-big-superheavy-elements-and-deceit/): Compares two methods for p-value correction.
+- [The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel](https://towardsdatascience.com/the-machine-learning-advent-calendar-day-23-cnn-in-excel/): Walkthrough of a 1D CNN for text in Excel.
+
+### Categories
+#### Energy Efficiency and Optimization
+- BitRL-Light: 1-bit LLM Agents with Deep Reinforcement Learning for Energy-Efficient Smart Home Lighting Optimization
+- AI-Driven Green Cognitive Radio Networks for Sustainable 6G Communication
+
+#### Reinforcement Learning and Decision Making
+- Quantum-Inspired Multi Agent Reinforcement Learning for Exploration Exploitation Optimization in UAV-Assisted 6G Network Deployment
+- MicroProbe: Efficient Reliability Assessment for Foundation Models with Minimal Data
+- Reasoning Relay: Evaluating Stability and Interchangeability of Large Language Models in Mathematical Reasoning
+- AIAuditTrack: A Framework for AI Security system
+- Safety Alignment of LMs via Non-cooperative Games
+- Context-Sensitive Abstractions for Reinforcement Learning with Parameterized Actions
+- MAR: Multi-Agent Reflexion Improves Reasoning Abilities in LLMs
+- Generalization of RLVR Using Causal Reasoning as a Testbed
+- Optimal Control with Natural Images: Efficient Reinforcement Learning using Overcomplete Sparse Codes
+
+#### Medical and Healthcare Applications
+- Erkang-Diagnosis-1.1 Technical Report
+- Enhancing Lung Cancer Treatment Outcome Prediction through Semantic Feature Engineering Using Large Language Models
+- A Real-World Evaluation of LLM Medication Safety Reviews in NHS Primary Care
+- NULLBUS: Multimodal Mixed-Supervision for Breast Ultrasound Segmentation via Nullable Global-Local Prompts
+- DGSAN: Dual-Graph Spatiotemporal Attention Network for Pulmonary Nodule Malignancy Prediction
+- Anatomy-R1: Enhancing Anatomy Reasoning in Multimodal Large Language Models via Anatomical Similarity Curriculum and Group Diversity Augmentation
+
+#### Natural Language Processing and Understanding
+- MegaRAG: Multimodal Knowledge Graph-Based Retrieval Augmented Generation
+- AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent
+- Eidoku: A Neuro-Symbolic Verification Gate for LLM Reasoning via Structural Constraint Satisfaction
+- AI-Driven Decision-Making System for Hiring Process
+- Reflection Pretraining Enables Token-Level Self-Correction in Biological Sequence Models
+- Improving Action Smoothness for a Cascaded Online Learning Flight Control System
+- Improving Coverage in Combined Prediction Sets with Weighted p-values
+- Learning to Compress: Unlocking the Potential of Large Language Models for Text Representation
+- Large Language Model for Verilog Code Generation: Literature Review and the Road Ahead
+
+#### Security and Trustworthiness
+- AIAuditTrack: A Framework for AI Security system
+- Evolving Security in LLMs: A Study of Jailbreak Attacks and Defenses
+- WGLE: Backdoor-free and Multi-bit Black-box Watermarking for Graph Neural Networks
+
+#### Evaluation and Benchmarking
+- A Benchmark for Evaluating Outcome-Driven Constraint Violations in Autonomous AI Agents
+- FEM-Bench: A Structured Scientific Reasoning Benchmark for Evaluating Code-Generating LLMs
+- VLegal-Bench: Cognitively Grounded Benchmark for Vietnamese Legal Reasoning of Large Language Models
+- SWE-EVO: Benchmarking Coding Agents in Long-Horizon Software Evolution Scenarios
+- Code2Doc: A Quality-First Curated Dataset for Code Documentation
+
+#### Human-AI Interaction and Collaboration
+- Interaction, Process, Infrastructure: A Unified Framework for Human-Agent Collaboration
+- "She's Like a Person but Better": Characterizing Companion-Assistant Dynamics in Human-AI Relationships
+
+#### Miscellaneous
+- Memory Bear AI A Breakthrough from Memory to Cognition Toward Artificial General Intelligence
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Is Your Model Time-Blind? The Case for Cyclical Feature Encoding
+- 4 Techniques to Optimize AI Coding Efficiency
+- Bonferroni vs. Benjamini-Hochberg: Choosing Your P-Value Correction
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- T2AV-Compass: Towards Unified Evaluation for Text-to-Audio-Video Generation
+- Streaming Video Instruction Tuning
+- LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics
+- C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling
+- V-Rex: Real-Time Streaming Video LLM Acceleration via Dynamic KV Cache Retrieval
+- TimeBridge: Better Diffusion Prior Design with Bridge Models for Time Series Generation
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Action Smoothness for a Cascaded Online Learning Flight Control System
+- Improving Coverage in Combined Prediction Sets with Weighted p-values
+- Learning to Compress: Unlocking the Potential of Large Language Models for Text Representation
+- Large Language Model for Verilog Code Generation: Literature Review and the Road Ahead
+- ART: Adaptive Response Tuning Framework -- A Multi-Agent Tournament-Based Approach to LLM Response Optimization
+- Rethinking Popularity Bias in Collaborative Filtering via Analytical Vector Decomposition
+- Hierarchical Dataset Selection for High-Quality Data Sharing
+- Fast AI Model Splitting over Edge Networks
+- Epitome: Pioneering an Experimental Platform for AI-Social Science Integration
+- EEG Foundation Models: A Critical Review of Current Progress and Future Directions
+- Consistent Opponent Modeling in Imperfect-Information Games
+- ChainReaction: Causal Chain-Guided Reasoning for Modular and Explainable Causal-Why Video Question Answering
+- Stochastic activations
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- Improving Autoformalization Using Direct Dependency Retrieval
+- Bootstrapping LLMs via Preference-Based Policy Optimization
+- GaussianVision: Vision-Language Alignment from Compressed Image Representations using 2D Gaussian Splatting
+- Reinforcement Learning with Verifiable yet Noisy Rewards under Imperfect Verifiers
+- DiTSinger: Scaling Singing Voice Synthesis with Diffusion Transformer and Implicit Alignment
+- The Machine Learning “Advent Calendar” Day 24: Transformers for Text in Excel
+- The Machine Learning “Advent Calendar” Day 23: 1D CNN for Text in Excel
+- The Machine Learning “Advent Calendar” Day
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Articles Related to Security
+
+The recent advancements in AI, particularly in the context of security, have highlighted the importance of developing robust frameworks to ensure the safety and reliability of AI systems. Below is a summary of key themes and findings from the papers and articles reviewed:
+
+1. **AI Security Frameworks**:
+   - **AiAuditTrack**: This paper presents a blockchain-based framework for AI usage traffic recording and governance, emphasizing the need for accountability and risk traceability in AI interactions. The framework allows for decentralized identity management and enables cross-system supervision, which is crucial for ensuring the integrity of AI applications.
+   - **Evolving Security in LLMs**: This study explores the vulnerabilities of large language models (LLMs) to jailbreak attacks, emphasizing the need for effective detection techniques and the evaluation of newer model versions for improved security.
+
+2. **Reinforcement Learning and Security**:
+   - **Safety Alignment of LMs via Non-cooperative Games**: This paper introduces a novel approach to aligning LLMs with safety protocols through a non-zero-sum game framework, which allows for iterative improvements in model safety and utility.
+   - **Reinforcement Learning with Verifiable yet Noisy Rewards**: This work addresses the challenges of using automated verifiers in reinforcement learning, proposing methods to mitigate the effects of false positives and negatives in reward systems.
+
+3. **Model Evaluation and Bias**:
+   - **Beyond Consensus**: This paper discusses the limitations of LLM evaluations, particularly the tendency of models to exhibit a positive bias. It introduces a minority-veto strategy to improve the accuracy of evaluations and reduce biases in model outputs.
+   - **Measuring Noise in LLM Evaluations**: This work emphasizes the importance of understanding different types of noise in LLM evaluations, proposing methods to enhance the reliability of performance assessments.
+
+4. **Human-AI Collaboration**:
+   - **Interaction, Process, Infrastructure**: This framework emphasizes the need for structured representations of collaborative work between humans and AI systems, highlighting the importance of process management in ensuring effective human-agent collaboration.
+
+5. **Data Security and Privacy**:
+   - **AutoBaxBuilder**: This framework addresses the challenges of assessing the security of LLM-generated code, proposing a method for generating tasks and tests for code security benchmarking. It emphasizes the need for automated solutions to ensure the reliability of AI-generated code.
+
+6. **Ethical Considerations**:
+   - **Intersectional Fairness in Vision-Language Models**: This study highlights the importance of addressing intersectional biases in AI systems, particularly in medical imaging, to ensure equitable outcomes across diverse patient groups.
+
+### Trends and Insights
+
+- **Integration of Blockchain for Accountability**: The use of blockchain technology in AI governance is emerging as a key trend, providing a transparent and verifiable method for tracking AI interactions and ensuring accountability.
+  
+- **Focus on Robust Evaluation Metrics**: There is a growing recognition of the need for more nuanced evaluation metrics that account for biases and noise in AI systems, particularly in the context of LLMs.
+
+- **Emphasis on Human-Centric AI**: The importance of human-AI collaboration is being increasingly recognized, with frameworks being developed to enhance the interaction between humans and AI systems.
+
+- **Addressing Security Vulnerabilities**: The exploration of vulnerabilities in AI systems, particularly in LLMs, is a critical area of research, with a focus on developing methods to mitigate risks associated with model misuse.
+
+- **Ethical AI Development**: The need for ethical considerations in AI development is gaining traction, with calls for frameworks that ensure fairness and equity in AI applications.
+
+### Conclusion
+
+The reviewed papers and articles reflect a significant shift towards ensuring the security, reliability, and ethical deployment of AI systems. As AI technologies continue to evolve, the integration of robust frameworks for accountability, evaluation, and human-AI collaboration will be essential in addressing the challenges posed by security vulnerabilities and biases in AI applications.
