@@ -1,0 +1,395 @@
+AI Researcher Agent Report for 2026-01-14-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Bridging the Trust Gap: Clinician-Validated Hybrid Explainable AI for Maternal Health Risk Assessment in Bangladesh](https://arxiv.org/abs/2601.07866): This paper presents a hybrid explainable AI framework for maternal health risk prediction, validated through clinician feedback, achieving high accuracy and demonstrating the importance of explainability in clinical settings.
+- [Executable Ontologies in Game Development: From Algorithmic Control to Semantic World Modeling](https://arxiv.org/abs/2601.07964): This study explores the application of Executable Ontologies in game development, emphasizing a shift from algorithmic behavior programming to semantic modeling, enhancing agent behavior through declarative rules.
+- [When Models Know When They Do Not Know: Calibration, Cascading, and Cleaning](https://arxiv.org/abs/2601.07965): This work introduces a method for enabling models to recognize their uncertainty, proposing a training-free approach for calibration and data cleaning to improve model reliability.
+- [Reasoning over Precedents Alongside Statutes: Case-Augmented Deliberative Alignment for LLM Safety](https://arxiv.org/abs/2601.08000): The paper evaluates the effectiveness of case-augmented reasoning for enhancing the safety of LLMs, proposing a new alignment method that improves robustness against harmful outputs.
+- [Internal Deployment Gaps in AI Regulation](https://arxiv.org/abs/2601.08005): This paper discusses the regulatory gaps in internal AI deployments, highlighting the need for oversight in high-stakes applications within organizations.
+- [Integrating Attendance Tracking and Emotion Detection for Enhanced Student Engagement in Smart Classrooms](https://arxiv.org/abs/2601.08049): The study presents a system that combines attendance tracking with emotion detection to enhance classroom engagement, providing instructors with insights into student dynamics.
+- [Forecast Aware Deep Reinforcement Learning for Efficient Electricity Load Scheduling in Dairy Farms](https://arxiv.org/abs/2601.08052): This research proposes a deep reinforcement learning framework for optimizing electricity load scheduling in dairy farms, addressing challenges posed by renewable energy integration.
+- [A New Strategy for Verifying Reach-Avoid Specifications in Neural Feedback Systems](https://arxiv.org/abs/2601.08065): The paper introduces new algorithms for verifying reach-avoid properties in neural feedback systems, integrating forward and backward reachability methods.
+- [Semantic Gravity Wells: Why Negative Constraints Backfire](https://arxiv.org/abs/2601.08070): This work investigates the failure of negative constraints in LLMs, revealing mechanisms behind instruction-following failures and proposing insights for better constraint design.
+- [MemoBrain: Executive Memory as an Agentic Brain for Reasoning](https://arxiv.org/abs/2601.08079): The paper proposes MemoBrain, a memory model for tool-augmented agents that enhances reasoning over long horizons by managing cognitive load effectively.
+- [MirrorBench: An Extensible Framework to Evaluate User-Proxy Agents for Human-Likeness](https://arxiv.org/abs/2601.08118): This framework evaluates user proxies based on their ability to produce human-like utterances, supporting diverse conversational tasks.
+- [How vehicles change lanes after encountering crashes: Empirical analysis and modeling](https://arxiv.org/abs/2601.08125): The study analyzes vehicle behavior during post-crash lane changes, developing a trajectory prediction framework to improve safety.
+- [Embedded AI Companion System on Edge Devices](https://arxiv.org/abs/2601.08128): This paper presents a memory paradigm for AI companions on edge devices, balancing real-time interaction with long-term personalization.
+- [Project Synapse: A Hierarchical Multi-Agent Framework with Hybrid Memory for Autonomous Resolution of Last-Mile Delivery Disruptions](https://arxiv.org/abs/2601.08156): The framework addresses last-mile delivery disruptions through a multi-agent architecture, enhancing task resolution efficiency.
+- [ZeroDVFS: Zero-Shot LLM-Guided Core and Frequency Allocation for Embedded Platforms](https://arxiv.org/abs/2601.08166): This research proposes a framework for energy-aware scheduling on embedded platforms, achieving significant efficiency improvements.
+- [The Agent's First Day: Benchmarking Learning, Exploration, and Scheduling in the Workplace Scenarios](https://arxiv.org/abs/2601.08173): The paper introduces a dynamic evaluation environment for assessing agent performance in workplace scenarios, highlighting deficiencies in existing models.
+- [Improving LLM Reasoning with Homophily-aware Structural and Semantic Text-Attributed Graph Compression](https://arxiv.org/abs/2601.08187): This work proposes a framework for enhancing LLM reasoning through graph compression techniques, improving inference accuracy.
+- [Adapting Rules of Official International Mahjong for Online Players](https://arxiv.org/abs/2601.08211): The paper discusses rule adaptations for online Mahjong to ensure fairness in single-round play.
+- [An Axiomatic Approach to General Intelligence: SANC(E3) -- Self-organizing Active Network of Concepts with Energy E3](https://arxiv.org/abs/2601.08224): This framework proposes a model for general intelligence based on self-organizing concepts and energy minimization.
+- [MPCI-Bench: A Benchmark for Multimodal Pairwise Contextual Integrity Evaluation of Language Model Agents](https://arxiv.org/abs/2601.08235): The benchmark evaluates multimodal agents' adherence to social norms, revealing systematic failures in privacy and utility balance.
+- [The End of Reward Engineering: How LLMs Are Redefining Multi-Agent Coordination](https://arxiv.org/abs/2601.08237): This paper discusses the shift from manual reward engineering to language-based specifications in multi-agent systems.
+- [Large Artificial Intelligence Model Guided Deep Reinforcement Learning for Resource Allocation in Non Terrestrial Networks](https://arxiv.org/abs/2601.08254): The study proposes a DRL agent guided by a large language model for resource allocation in non-terrestrial networks.
+- [T3: Benchmarking Sycophancy and Skepticism in Causal Judgment](https://arxiv.org/abs/2601.08258): This benchmark evaluates LLM causal judgment, revealing pathologies in model behavior.
+- [VGG Induced Deep Hand Sign Language Detection](https://arxiv.org/abs/2601.08262): The paper presents a hand gesture recognition system for sign language using a convolutional neural network.
+- [Sparsity Is Necessary: Polynomial-Time Stability for Agentic LLMs in Large Action Spaces](https://arxiv.org/abs/2601.08271): This work formalizes sparse agentic control in LLMs, establishing conditions for stability and optimality.
+- [ToolACE-MCP: Generalizing History-Aware Routing from MCP Tools to the Agent Web](https://arxiv.org/abs/2601.08276): The framework addresses scalability in agent ecosystems through history-aware routing.
+- [Greedy Is Enough: Sparse Action Discovery in Agentic LLMs](https://arxiv.org/abs/2601.08280): This study explores action discovery in large action spaces, proposing a greedy algorithm for efficient recovery.
+- [OpenMic: A Multi-Agent-Based Stand-Up Comedy Generation System](https://arxiv.org/abs/2601.08288): The paper presents a multi-agent system for generating stand-up comedy performances based on user-provided topics.
+- [AtomMem: Learnable Dynamic Agentic Memory with Atomic Memory Operation](https://arxiv.org/abs/2601.08323): This work proposes a dynamic memory management framework for agents, enhancing task alignment.
+- [Semantic Laundering in AI Agent Architectures: Why Tool Boundaries Do Not Confer Epistemic Warrant](https://arxiv.org/abs/2601.08333): The paper discusses architectural failures in LLM-based agents, revealing issues with epistemic justification.
+- [Thematic Working Group 5 -- Artificial Intelligence (AI) literacy for teaching and learning: design and implementation](https://arxiv.org/abs/2601.08380): The study focuses on enhancing AI literacy among teachers for effective integration into teaching practices.
+- [A Qualitative Model to Reason about Object Rotations (QOR) applied to solve the Cube Comparison Test (CCT)](https://arxiv.org/abs/2601.08382): This paper presents a qualitative model for reasoning about object rotations.
+- [Deconstructing Pre-training: Knowledge Attribution Analysis in MoE and Dense Models](https://arxiv.org/abs/2601.08383): The study analyzes knowledge acquisition dynamics in mixture-of-experts and dense architectures.
+- [Creativity in AI as Emergence from Domain-Limited Generative Models](https://arxiv.org/abs/2601.08388): This work proposes a generative perspective on AI creativity as an emergent property.
+- [Owen-Shapley Policy Optimization (OSPO): A Principled RL Algorithm for Generative Search LLMs](https://arxiv.org/abs/2601.08403): The paper introduces a framework for redistributing sequence-level advantages in RL for generative tasks.
+- [WebTrap Park: An Automated Platform for Systematic Security Evaluation of Web Agents](https://arxiv.org/abs/2601.08406): This platform evaluates the security of web agents through executable tasks.
+- [Hybrid Distillation with CoT Guidance for Edge-Drone Control Code Generation](https://arxiv.org/abs/2601.08412): The study presents a hybrid approach for code generation in edge-drone control tasks.
+- [RubricHub: A Comprehensive and Highly Discriminative Rubric Dataset via Automated Coarse-to-Fine Generation](https://arxiv.org/abs/2601.08430): This framework generates comprehensive rubrics for evaluating generative models.
+- [YaPO: Learnable Sparse Activation Steering Vectors for Domain Adaptation](https://arxiv.org/abs/2601.08441): The paper proposes a method for learning sparse steering vectors for LLM alignment.
+- [Beyond Linearization: Attributed Table Graphs for Table Reasoning](https://arxiv.org/abs/2601.08444): This work presents a model for reasoning over tables using attributed graphs.
+- [An Under-Explored Application for Explainable Multimodal Misogyny Detection in code-mixed Hindi-English](https://arxiv.org/abs/2601.08457): The study presents a multimodal application for detecting misogyny in code-mixed languages.
+- [M3-BENCH: Process-Aware Evaluation of LLM Agents Social Behaviors in Mixed-Motive Games](https://arxiv.org/abs/2601.08462): This benchmark evaluates social behaviors in multi-agent games.
+- [SUMMPILOT: Bridging Efficiency and Customization for Interactive Summarization System](https://arxiv.org/abs/2601.08475): The paper presents a customizable summarization system leveraging LLMs.
+- [What If TSF: A Benchmark for Reframing Forecasting as Scenario-Guided Multimodal Forecasting](https://arxiv.org/abs/2601.08509): This benchmark evaluates multimodal forecasting capabilities.
+- [Sketch-Based Facade Renovation With Generative AI: A Streamlined Framework for Bypassing As-Built Modelling in Industrial Adaptive Reuse](https://arxiv.org/abs/2601.08531): The study presents a framework for facade renovation using generative AI.
+- [Learner-Tailored Program Repair: A Solution Generator with Iterative Edit-Driven Retrieval Enhancement](https://arxiv.org/abs/2601.08545): This framework enhances program repair through iterative retrieval.
+- [WaterCopilot: An AI-Driven Virtual Assistant for Water Management](https://arxiv.org/abs/2601.08559): The paper presents an AI assistant for water resource management.
+- [ViDoRe V3: A Comprehensive Evaluation of Retrieval Augmented Generation in Complex Real-World Scenarios](https://arxiv.org/abs/2601.08620): This benchmark evaluates RAG capabilities in complex scenarios.
+- [Resisting Manipulative Bots in Memecoin Copy Trading: A Multi-Agent Approach with Chain-of-Thought Reasoning](https://arxiv.org/abs/2601.08641): The study presents a multi-agent system for meme coin trading.
+- [Prism: Towards Lowering User Cognitive Load in LLMs via Complex Intent Understanding](https://arxiv.org/abs/2601.08653): This framework aims to improve user interactions with LLMs.
+- [From Classical to Quantum Reinforcement Learning and Its Applications in Quantum Control: A Beginner's Tutorial](https://arxiv.org/abs/2601.08662): This tutorial introduces quantum reinforcement learning concepts.
+- [Parallel Context-of-Experts Decoding for Retrieval Augmented Generation](https://arxiv.org/abs/2601.08670): The paper presents a framework for improving RAG through expert decoding.
+- [Why AI Alignment Failure Is Structural: Learned Human Interaction Structures and AGI as an Endogenous Evolutionary Shock](https://arxiv.org/abs/2601.08673): This work discusses structural issues in AI alignment.
+- [Advancing ESG Intelligence: An Expert-level Agent and Comprehensive Benchmark for Sustainable Finance](https://arxiv.org/abs/2601.08676): The study presents a framework for ESG analysis using AI.
+- [PersonaDual: Balancing Personalization and Objectivity via Adaptive Reasoning](https://arxiv.org/abs/2601.08679): This framework supports both personalized and objective reasoning in LLMs.
+- [MEMEWEAVER: Inter-Meme Graph Reasoning for Sexism and Misogyny Detection](https://arxiv.org/abs/2601.08684): The paper presents a framework for detecting misogyny through graph reasoning.
+- [All Required, In Order: Phase-Level Evaluation for AI-Human Dialogue in Healthcare and Beyond](https://arxiv.org/abs/2601.08690): This evaluation method checks compliance in clinical dialogues.
+- [Evaluating the Ability of Explanations to Disambiguate Models in a Rashomon Set](https://arxiv.org/abs/2601.08703): The study evaluates model explanations in a Rashomon set.
+- [Learning from Demonstrations via Capability-Aware Goal Sampling](https://arxiv.org/abs/2601.08731): This work proposes a method for adaptive learning from demonstrations.
+- [AI as Entertainment](https://arxiv.org/abs/2601.08768): The paper discusses the role of AI in entertainment and its societal impact.
+- [Pervasive Annotation Errors Break Text-to-SQL Benchmarks and Leaderboards](https://arxiv.org/abs/2601.08778): The study analyzes annotation errors in text-to-SQL benchmarks.
+- [Uncovering Political Bias in Large Language Models using Parliamentary Voting Records](https://arxiv.org/abs/2601.08785): This work evaluates political bias in LLMs using voting records.
+- [Photometric Redshift Estimation Using Scaled Ensemble Learning](https://arxiv.org/abs/2601.07292): The study presents a machine learning framework for estimating photometric redshifts.
+- [A survey: Information search time optimization based on RAG (Retrieval Augmentation Generation) chatbot](https://arxiv.org/abs/2601.07838): The survey evaluates RAG-based chatbots for information retrieval.
+- [Hierarchical Sparse Plus Low Rank Compression of LLM](https://arxiv.org/abs/2601.07839): The paper presents a compression method for large language models.
+- [FinVault: Benchmarking Financial Agent Safety in Execution-Grounded Environments](https://arxiv.org/abs/2601.07853): This benchmark evaluates the safety of financial agents in realistic environments.
+- [Immunological Density Shapes Recovery Trajectories in Long COVID](https://arxiv.org/abs/2601.07854): The study analyzes immunological factors in Long COVID recovery.
+- [An Empirical Study on Knowledge Transfer under Domain and Label Shifts in 3D LiDAR Point Clouds](https://arxiv.org/abs/2601.07855): This research evaluates knowledge transfer in 3D point cloud perception.
+- [Feature Entanglement-based Quantum Multimodal Fusion Neural Network](https://arxiv.org/abs/2601.07856): The paper discusses a quantum multimodal fusion neural network.
+- [Affect and Effect: Limitations of regularisation-based continual learning in EEG-based emotion classification](https://arxiv.org/abs/2601.07858): The study evaluates regularization methods in EEG emotion classification.
+- [RewriteNets: End-to-End Trainable String-Rewriting for Generative Sequence Modeling](https://arxiv.org/abs/2601.07868): This work presents a neural architecture for string rewriting.
+- [Imaging-anchored Multiomics in Cardiovascular Disease: Integrating Cardiac Imaging, Bulk, Single-cell, and Spatial Transcriptomics](https://arxiv.org/abs/2601.07871): The review discusses multiomics approaches in cardiovascular disease.
+- [Multiplicative Orthogonal Sequential Editing for Language Models](https://arxiv.org/abs/2601.07873): The paper introduces a new editing paradigm for language models.
+- [Data Science: a Natural Ecosystem](https://arxiv.org/abs/2506.11010): The manuscript presents a systemic view of data science as a natural ecosystem.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Using Subgraph GNNs for Node Classification: an Overlooked Potential Approach](https://arxiv.org/abs/2503.06614): The study evaluates subgraph-based methods for node classification.
+- [AutoContext: Instance-Level Context Learning for LLM Agents](https://arxiv.org/abs/2510.02369): This work proposes a method for instance-level context learning in LLM agents.
+- [SafeRedir: Prompt Embedding Redirection for Robust Unlearning in Image Generation Models](https://arxiv.org/abs/2601.08623): The paper presents a framework for robust unlearning in image generation models.
+- [M$^2$FMoE: Multi-Resolution Multi-View Frequency Mixture-of-Experts for Extreme-Adaptive Time Series Forecasting](https://arxiv.org/abs/2601.08631): This research proposes a forecasting model for extreme events in time series.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): The paper presents a proxy for connecting to multiple MCP servers.
+- [Decentralized Autoregressive Generation](https://arxiv.org/abs/2601.03184): The paper presents a theoretical analysis of decentralized autoregressive generation.
+- [An Algebraic Representation Theorem for Linear GENEOs in Geometric Machine Learning](https://arxiv.org/abs/2601.03910): The work introduces a representation theorem for linear GENEOs.
+- [AI TIPS 2.0: A Comprehensive Framework for Operationalizing AI Governance](https://arxiv.org/abs/2512.09114): The paper presents a framework for AI governance.
+- [Gradient flow in parameter space is equivalent to linear interpolation in output space](https://arxiv.org/abs/2408.01517): The paper proves a relationship between gradient flow and linear interpolation.
+- [Hallucination, reliability, and the role of generative AI in science](https://arxiv.org/abs/2504.08526): The study discusses hallucination in generative AI and its implications for science.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Articles Related to Security
+
+#### Key Trends and Insights
+1. **Security and Trust in AI**: A significant number of papers focus on enhancing the security and trustworthiness of AI systems, particularly in sensitive applications like healthcare and finance. For instance, "SafeRedir" and "SafePro" emphasize the need for secure execution of AI-generated code and the evaluation of AI agents in professional contexts, respectively.
+
+2. **Explainability and Interpretability**: Many studies highlight the importance of explainability in AI, especially in critical domains. Papers like "Explainable Molecular Property Prediction" and "Explainable AI for Maternal Health" showcase efforts to make AI decisions more transparent and understandable, which is crucial for user trust and regulatory compliance.
+
+3. **Robustness Against Adversarial Attacks**: Several works address the vulnerabilities of AI models to adversarial attacks. For example, "CausAdv" proposes a causal framework for detecting adversarial examples, while "QueryIPI" explores vulnerabilities in LLM-based optimizers, indicating a growing concern about the robustness of AI systems.
+
+4. **Integration of Knowledge Graphs**: The integration of structured knowledge through knowledge graphs is a recurring theme. Papers like "Taxon" and "SLogic" focus on enhancing AI's reasoning capabilities by leveraging knowledge graphs, which can improve decision-making and reduce errors in complex tasks.
+
+5. **Dynamic Adaptation and Contextual Awareness**: The need for AI systems to adapt to changing contexts and user needs is emphasized in works like "AutoContext" and "MCP Bridge". These studies propose frameworks that enable AI agents to maintain relevant context and adapt their responses accordingly, which is vital for effective interaction.
+
+6. **Ethical and Regulatory Considerations**: The ethical implications of AI deployment are increasingly being addressed. Papers like "Aligning Trustworthy AI with Democracy" and "Regulatory gray areas of LLM Terms" discuss the need for frameworks that ensure AI systems operate within ethical and legal boundaries.
+
+7. **Memory and Knowledge Retention**: The role of memory in AI systems is explored in various contexts, such as "MemGovern" and "ES-Mem", highlighting the importance of retaining and utilizing past experiences to improve decision-making and performance in dynamic environments.
+
+### Summary of Selected Papers
+1. **SafeRedir**: Proposes a framework for robust unlearning in image generation models, focusing on semantic redirection to mitigate unsafe outputs without modifying the underlying models.
+
+2. **SafePro**: Evaluates the safety alignment of AI agents performing professional tasks, revealing vulnerabilities and proposing mitigation strategies to enhance safety in complex decision-making scenarios.
+
+3. **CausAdv**: Introduces a causal framework for detecting adversarial examples in deep learning, emphasizing the importance of causal reasoning in improving model robustness.
+
+4. **Taxon**: Aims to improve hierarchical tax code prediction by integrating knowledge graphs, allowing for better alignment with domain-specific knowledge and enhancing the accuracy of predictions.
+
+5. **AutoContext**: Proposes a method for decoupling exploration from task execution in AI agents, enabling the construction of reusable knowledge graphs for improved efficiency in interactions.
+
+6. **Aligning Trustworthy AI with Democracy**: Discusses the dual taxonomy of risks and opportunities presented by AI in democratic governance, providing a framework for aligning AI systems with democratic values.
+
+7. **MemGovern**: A framework that transforms raw GitHub data into actionable experiential memory for autonomous software engineering agents, enhancing their ability to resolve issues based on historical human experiences.
+
+### Conclusion
+The landscape of AI research is increasingly focused on security, explainability, and ethical considerations, particularly as AI systems are deployed in sensitive and high-stakes environments. The integration of structured knowledge, dynamic adaptation, and robust memory mechanisms are critical for enhancing the performance and reliability of AI systems. As the field evolves, ongoing research will need to address the complexities of human-AI interaction, regulatory compliance, and the ethical implications of AI deployment.
