@@ -1,0 +1,402 @@
+AI Researcher Agent Report for 2026-01-15-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [ConvoLearn: A Dataset of Constructivist Tutor-Student Dialogue](https://arxiv.org/abs/2601.08950): Introduces a dataset aimed at improving dialogic learning in educational applications by fine-tuning LLMs to support knowledge-building strategies.
+- [ART: Action-based Reasoning Task Benchmarking for Medical AI Agents](https://arxiv.org/abs/2601.08988): Proposes a benchmark for evaluating medical AI agents on action-based tasks, revealing significant gaps in reasoning capabilities.
+- [The Hierarchy of Agentic Capabilities: Evaluating Frontier Models on Realistic RL Environments](https://arxiv.org/abs/2601.09032): Analyzes the performance of AI models in realistic environments, identifying a hierarchy of capabilities necessary for effective task completion.
+- [Human-AI Co-design for Clinical Prediction Models](https://arxiv.org/abs/2601.09072): Introduces HACHI, a framework for collaborative model development that enhances clinical prediction models through iterative human feedback.
+- [Programming over Thinking: Efficient and Robust Multi-Constraint Planning](https://arxiv.org/abs/2601.09097): Proposes SCOPE, a framework for multi-constraint planning that separates reasoning from execution to improve efficiency and robustness.
+- [DScheLLM: Enabling Dynamic Scheduling through a Fine-Tuned Dual-System Large Language Model](https://arxiv.org/abs/2601.09100): Presents a dynamic scheduling approach using fine-tuned LLMs to adapt to disruptions in production scheduling.
+- [AviationLMM: A Large Multimodal Foundation Model for Civil Aviation](https://arxiv.org/abs/2601.09105): Introduces a multimodal model designed to unify various data streams in civil aviation for improved decision-making.
+- [The AI Hippocampus: How Far are We From Human Memory?](https://arxiv.org/abs/2601.09113): Surveys memory mechanisms in LLMs, categorizing them into implicit, explicit, and agentic memory paradigms.
+- [PrivacyReasoner: Can LLM Emulate a Human-like Privacy Mind?](https://arxiv.org/abs/2601.09152): Introduces PRA, an AI agent that simulates user privacy concerns based on personal histories and contextual cues.
+- [Position on LLM-Assisted Peer Review: Addressing Reviewer Gap through Mentoring and Feedback](https://arxiv.org/abs/2601.09182): Proposes a human-centered approach to peer review using LLMs as mentoring tools.
+- [MAXS: Meta-Adaptive Exploration with LLM Agents](https://arxiv.org/abs/2601.09259): Proposes a framework for LLM agents that integrates tool execution and reasoning planning to enhance performance and efficiency.
+- [Efficient Paths and Dense Rewards: Probabilistic Flow Reasoning for Large Language Models](https://arxiv.org/abs/2601.09260): Introduces CoT-Flow, a framework for improving reasoning efficiency in LLMs through probabilistic flow.
+- [Coordinated Pandemic Control with Large Language Model Agents as Policymaking Assistants](https://arxiv.org/abs/2601.09264): Proposes a multi-agent framework for coordinated pandemic control using LLMs to simulate policy scenarios.
+- [RISER: Orchestrating Latent Reasoning Skills for Adaptive Activation Steering](https://arxiv.org/abs/2601.09269): Introduces a framework for adaptive reasoning in LLMs that dynamically steers reasoning based on task requirements.
+- [A^3-Bench: Benchmarking Memory-Driven Scientific Reasoning via Anchor and Attractor Activation](https://arxiv.org/abs/2601.09274): Proposes a benchmark for evaluating scientific reasoning through memory-driven activation.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Introduces a multimodal information-seeking agent optimized for factual accuracy and reasoning soundness.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Proposes a framework for unlearning sensitive information in LLMs during reasoning.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Introduces a semantic scheduling paradigm for cluster systems using NLP.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling that addresses uncertainty in job arrivals and machine failures.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving in lane-free environments using MCTS.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent capable of maintaining long-term user intents in dynamic environments.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a structured self-evolving framework for improving problem-solving ability in LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework for multimodal tasks.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent that leverages long-term user records for proactive assistance.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning that improves accuracy through structured experience integration.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations for various applications.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models that focuses on format sensitivity.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates the effectiveness of multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores how structured knowledge can enhance scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates the compliance of LLMs with external corrections in conversational contexts.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes the environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines how memory retrieval influences LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling that addresses uncertainty.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/abs/2601.09382): Introduces a proactive agent for maintaining user intents.
+- [EvoFSM: Controllable Self-Evolution for Deep Research with Finite State Machines](https://arxiv.org/abs/2601.09465): Proposes a self-evolving framework for LLMs.
+- [What Do LLM Agents Know About Their World? Task2Quiz: A Paradigm for Studying Environment Understanding](https://arxiv.org/abs/2601.09503): Introduces a paradigm for evaluating LLMs' understanding of their environments.
+- [Omni-R1: Towards the Unified Generative Paradigm for Multimodal Reasoning](https://arxiv.org/abs/2601.09536): Proposes a unified generative reasoning framework.
+- [LLM for Large-Scale Optimization Model Auto-Formulation: A Lightweight Few-Shot Learning Approach](https://arxiv.org/abs/2601.09635): Introduces a framework for LLM-assisted optimization model formulation.
+- [PersonalAlign: Hierarchical Implicit Intent Alignment for Personalized GUI Agent with Long-Term User-Centric Records](https://arxiv.org/abs/2601.09636): Proposes a personalized GUI agent.
+- [Collaborative Multi-Agent Test-Time Reinforcement Learning for Reasoning](https://arxiv.org/abs/2601.09667): Introduces a framework for multi-agent reasoning.
+- [Automating Supply Chain Disruption Monitoring via an Agentic AI Approach](https://arxiv.org/abs/2601.09680): Proposes an AI framework for monitoring supply chain disruptions.
+- [CrowdLLM: Building LLM-Based Digital Populations Augmented with Generative Models](https://arxiv.org/abs/2512.07890): Introduces a framework for creating LLM-based digital populations.
+- [Revisiting Disaggregated Large Language Model Serving for Performance and Energy Implications](https://arxiv.org/abs/2601.08833): Analyzes performance and energy efficiency in disaggregated LLM serving.
+- [Reading or Reasoning? Format Decoupled Reinforcement Learning for Document OCR](https://arxiv.org/abs/2601.08834): Proposes a new approach for OCR models.
+- [DeliberationBench: When Do More Voices Hurt? A Controlled Study of Multi-LLM Deliberation Protocols](https://arxiv.org/abs/2601.08835): Evaluates multi-LLM deliberation protocols.
+- [From Adversarial Poetry to Adversarial Tales: An Interpretability Research Agenda](https://arxiv.org/abs/2601.08837): Discusses vulnerabilities in LLM safety mechanisms.
+- [Companion Agents: A Table-Information Mining Paradigm for Text-to-SQL](https://arxiv.org/abs/2601.08838): Proposes a new paradigm for improving Text-to-SQL accuracy.
+- [Consistency-Aware Editing for Entity-level Unlearning in Language Models](https://arxiv.org/abs/2601.08840): Introduces a framework for effective entity-level unlearning in LLMs.
+- [Triples and Knowledge-Infused Embeddings for Clustering and Classification of Scientific Documents](https://arxiv.org/abs/2601.08841): Explores structured knowledge for scientific document organization.
+- [Resisting Correction: How RLHF Makes Language Models Ignore External Safety Signals in Natural Conversation](https://arxiv.org/abs/2601.08842): Investigates LLM compliance with external corrections.
+- [Emissions and Performance Trade-off Between Small and Large Language Models](https://arxiv.org/abs/2601.08844): Analyzes environmental impact of LLMs.
+- [No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI](https://arxiv.org/abs/2601.08845): Disproves a conjectured trade-off in AI.
+- [Directional Attractors in LLM Reasoning: How Similarity Retrieval Steers Iterative Summarization Based Reasoning](https://arxiv.org/abs/2601.08846): Examines memory retrieval influences on LLM reasoning.
+- [Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe](https://arxiv.org/abs/2601.08847): Proposes a new evaluation methodology for knowledge systems.
+- [PediaMind-R1: A Temperament-Aware Language Model for Personalized Early Childhood Care Reasoning via Cognitive Modeling and Preference Alignment](https://arxiv.org/abs/2601.08848): Introduces a language model for personalized parenting advice.
+- [The Inconsistency Critique: Epistemic Practices and AI Testimony About Inner States](https://arxiv.org/abs/2601.08850): Discusses the epistemic status of AI testimony.
+- [M$^3$Searcher: Modular Multimodal Information Seeking Agency with Retrieval-Oriented Reasoning](https://arxiv.org/abs/2601.09278): Proposes a multimodal information-seeking agent.
+- [STaR: Sensitive Trajectory Regulation for Unlearning in Large Reasoning Models](https://arxiv.org/abs/2601.09281): Introduces a framework for unlearning sensitive information in LLMs.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): Proposes a semantic scheduling paradigm for cluster systems.
+- [Policy-Based Reinforcement Learning with Action Masking for Dynamic Job Shop Scheduling under Uncertainty](https://arxiv.org/abs/2601.09293): Presents a framework for dynamic job scheduling.
+- [Monte-Carlo Tree Search with Neural Network Guidance for Lane-Free Autonomous Driving](https://arxiv.org/abs/2601.09353): Proposes a planning approach for autonomous driving.
+- [Long-term Task-oriented Agent: Proactive Long-term Intent Maintenance in Dynamic Environments](https://arxiv.org/
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Overview
+The recent body of research and articles highlights significant advancements in the application of AI, particularly in the context of security, ethical considerations, and the robustness of AI systems. The focus is on enhancing the capabilities of AI models while addressing vulnerabilities, biases, and ethical implications.
+
+#### Key Themes and Insights
+
+1. **Security and Robustness of AI Systems**:
+   - **Prompt Injection and Tool Stream Injection**: Research has highlighted the vulnerabilities of LLMs to prompt injections, which can manipulate the model's output. The introduction of frameworks like VIGIL aims to mitigate these risks by implementing a verify-before-commit protocol, ensuring that only actions aligned with the model's reasoning are executed.
+   - **Adversarial Attacks**: The study of adversarial attacks on speech recognition systems emphasizes the need for robust defenses against multi-objective adversarial scenarios. The introduction of the MORE framework demonstrates a novel approach to degrading recognition accuracy and efficiency.
+
+2. **Bias and Fairness in AI**:
+   - **Gender Bias Mitigation**: The exploration of methods to reduce gender bias in LLMs through exploratory thinking highlights the importance of addressing biases in AI outputs. The proposed framework demonstrates significant reductions in bias while maintaining model performance.
+   - **Fairness in Foundation Models**: The review of fairness in medical image analysis emphasizes the need for systematic interventions throughout the development pipeline to ensure equitable AI outcomes.
+
+3. **Data Privacy and Ethical Considerations**:
+   - **Burn-After-Use Mechanism**: The introduction of a secure multi-tenant architecture with a burn-after-use mechanism addresses data leakage concerns in enterprise LLM environments. This approach ensures that conversational contexts are ephemeral, enhancing user privacy.
+   - **Regulatory Challenges**: The analysis of LLM terms of service reveals regulatory gray areas that pose challenges for researchers and users, emphasizing the need for clearer guidelines in the rapidly evolving landscape of AI.
+
+4. **Improving AI Performance and Efficiency**:
+   - **Dynamic Context Management**: The introduction of frameworks like DyCP for managing context in long-form dialogues demonstrates a significant improvement in response quality and latency, addressing the challenges posed by lengthy interactions.
+   - **Adaptive Learning Techniques**: The development of methods like DR-LoRA for dynamic rank adaptation in mixture-of-experts models illustrates the ongoing efforts to optimize AI performance while managing resource constraints.
+
+5. **Human-AI Collaboration**:
+   - **Collaborative Causal Sensemaking**: The proposal of a framework for enhancing human-AI collaboration through causal reasoning emphasizes the importance of integrating human expertise with AI capabilities to improve decision-making in high-stakes environments.
+
+6. **Benchmarking and Evaluation**:
+   - **Establishing Robust Benchmarks**: The introduction of benchmarks like MPCI-Bench for evaluating privacy behavior in agentic settings and GI-Bench for assessing multimodal models in clinical contexts highlights the need for comprehensive evaluation frameworks that reflect real-world applications.
+
+### Trends and Correlations
+- **Integration of Ethical Considerations**: There is a growing trend towards integrating ethical considerations into AI development, particularly concerning bias, fairness, and data privacy.
+- **Focus on Robustness**: The emphasis on robustness against adversarial attacks and the need for secure architectures reflects a broader recognition of the vulnerabilities inherent in AI systems.
+- **Human-Centric Approaches**: The shift towards human-centered AI, where models are designed to enhance human capabilities rather than replace them, is becoming more prominent in research discussions.
+
+### Conclusion
+The landscape of AI research is rapidly evolving, with a clear focus on enhancing security, fairness, and robustness. As AI systems become more integrated into critical applications, the need for comprehensive frameworks that address ethical considerations and ensure reliable performance is paramount. The ongoing exploration of these themes will likely shape the future of AI development and deployment across various sectors.
