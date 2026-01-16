@@ -1,0 +1,394 @@
+AI Researcher Agent Report for 2026-01-16-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [AI Survival Stories: a Taxonomic Analysis of AI Existential Risk](https://arxiv.org/abs/2601.09765): This paper develops a framework for understanding the existential risks posed by AI systems, analyzing arguments about their potential to threaten humanity and constructing a taxonomy of survival scenarios.
+- [GUI-Eyes: Tool-Augmented Perception for Visual Grounding in GUI Agents](https://arxiv.org/abs/2601.09770): Introduces a reinforcement learning framework for active visual perception in GUI tasks, allowing agents to make strategic decisions on visual tool usage to improve grounding accuracy.
+- [PCN-Rec: Agentic Proof-Carrying Negotiation for Reliable Governance-Constrained Recommendation](https://arxiv.org/abs/2601.09771): Proposes a proof-carrying negotiation pipeline for recommendation systems that ensures compliance with governance constraints while maintaining utility.
+- [Antisocial behavior towards large language model users: experimental evidence](https://arxiv.org/abs/2601.09772): Investigates negative social reactions towards users of LLMs, revealing a tendency to punish users based on their LLM usage.
+- [Improving Chain-of-Thought for Logical Reasoning via Attention-Aware Intervention](https://arxiv.org/abs/2601.09805): Presents a framework for enhancing logical reasoning in LLMs through attention modulation, improving performance on reasoning tasks.
+- [Thinking Long, but Short: Stable Sequential Test-Time Scaling for Large Reasoning Models](https://arxiv.org/abs/2601.09855): Introduces a method for improving reasoning model accuracy through sequential test-time scaling, stabilizing performance across various tasks.
+- [A Scoping Review of the Ethical Perspectives on Anthropomorphising Large Language Model-Based Conversational Agents](https://arxiv.org/abs/2601.09869): Reviews ethical considerations surrounding the anthropomorphization of LLMs, highlighting challenges and opportunities in their deployment.
+- [Epistemology gives a Future to Complementarity in Human-AI Interactions](https://arxiv.org/abs/2601.09871): Discusses the concept of human-AI complementarity and its implications for reliable decision-making processes.
+- [Beyond Rule-Based Workflows: An Information-Flow-Orchestrated Multi-Agents Paradigm via Agent-to-Agent Communication from CORAL](https://arxiv.org/abs/2601.09883): Proposes a new paradigm for multi-agent systems that dynamically coordinates agents without relying on predefined workflows.
+- [Continuum Memory Architectures for Long-Horizon LLM Agents](https://arxiv.org/abs/2601.09913): Introduces a memory architecture for LLMs that maintains and updates internal states across interactions, enhancing performance in long-horizon tasks.
+- [CaMeLs Can Use Computers Too: System-level Security for Computer Use Agents](https://arxiv.org/abs/2601.09923): Discusses security vulnerabilities in AI agents and proposes a planning approach to ensure safe execution of tasks.
+- [Hallucination Detection and Mitigation in Large Language Models](https://arxiv.org/abs/2601.09929): Proposes a framework for managing hallucinations in LLMs, categorizing sources and integrating detection methods with mitigation strategies.
+- [Chinese Labor Law Large Language Model Benchmark](https://arxiv.org/abs/2601.09972): Introduces a specialized LLM for Chinese labor law, providing a benchmark for various legal tasks.
+- [SPRInG: Continual LLM Personalization via Selective Parametric Adaptation and Retrieval-Interpolated Generation](https://arxiv.org/abs/2601.09974): Presents a framework for continual personalization of LLMs that adapts to user preferences over time.
+- [Memo-SQL: Structured Decomposition and Experience-Driven Self-Correction for Training-Free NL2SQL](https://arxiv.org/abs/2601.10011): Introduces a framework for training-free natural language to SQL conversion that leverages structured decomposition and historical error correction.
+- [Structured Personality Control and Adaptation for LLM Agents](https://arxiv.org/abs/2601.10025): Proposes a framework for modeling personality in LLMs to enhance human-computer interaction.
+- [PaperScout: An Autonomous Agent for Academic Paper Search with Process-Aware Sequence-Level Policy Optimization](https://arxiv.org/abs/2601.10029): Introduces an autonomous agent for academic paper search that reformulates the task as a sequential decision-making process.
+- [FilDeep: Learning Large Deformations of Elastic-Plastic Solids with Multi-Fidelity Data](https://arxiv.org/abs/2601.10031): Proposes a deep learning framework for modeling large deformations in materials using both low-fidelity and high-fidelity data.
+- [State of AI: An Empirical 100 Trillion Token Study with OpenRouter](https://arxiv.org/abs/2601.10088): Analyzes real-world interactions with LLMs to understand usage patterns and implications for model builders and developers.
+- [MATRIX AS PLAN: Structured Logical Reasoning with Feedback-Driven Replanning](https://arxiv.org/abs/2601.10101): Introduces a structured reasoning framework for LLMs that incorporates feedback-driven replanning to enhance logical reasoning capabilities.
+- [Following the Teacher's Footsteps: Scheduled Checkpoint Distillation for Domain-Specific LLMs](https://arxiv.org/abs/2601.10114): Proposes a method for distilling domain-specific LLMs that balances strengths and weaknesses across different subdomains.
+- [M^4olGen: Multi-Agent, Multi-Stage Molecular Generation under Precise Multi-Property Constraints](https://arxiv.org/abs/2601.10131): Introduces a framework for generating molecules that satisfy multiple physicochemical properties using a multi-agent approach.
+- [Is More Context Always Better? Examining LLM Reasoning Capability for Time Interval Prediction](https://arxiv.org/abs/2601.10132): Investigates the impact of context length on LLM performance in predicting time intervals.
+- [History Is Not Enough: An Adaptive Dataflow System for Financial Time-Series Synthesis](https://arxiv.org/abs/2601.10143): Proposes a dataflow system for adaptive data generation in financial modeling.
+- [DecisionLLM: Large Language Models for Long Sequence Decision Exploration](https://arxiv.org/abs/2601.10148): Explores the application of LLMs in long-sequence decision-making tasks.
+- [MHub.ai: A Simple, Standardized, and Reproducible Platform for AI Models in Medical Imaging](https://arxiv.org/abs/2601.10154): Introduces an open-source platform for standardizing access to AI models in medical imaging.
+- [MMPG: MoE-based Adaptive Multi-Perspective Graph Fusion for Protein Representation Learning](https://arxiv.org/abs/2601.10157): Proposes a framework for protein representation learning that integrates multiple perspectives using a mixture of experts approach.
+- [CtD: Composition through Decomposition in Emergent Communication](https://arxiv.org/abs/2601.10169): Investigates how artificial agents can learn to communicate through compositional generalization.
+- [How does downsampling affect needle electromyography signals? A generalisable workflow for understanding downsampling effects on high-frequency time series](https://arxiv.org/abs/2601.10191): Proposes a workflow for evaluating the impact of downsampling on electromyography signals.
+- [GFM4GA: Graph Foundation Model for Group Anomaly Detection](https://arxiv.org/abs/2601.10193): Introduces a graph foundation model for detecting group anomalies in network applications.
+- [Topo-RAG: Topology-aware retrieval for hybrid text-table documents](https://arxiv.org/abs/2601.10215): Proposes a framework for processing hybrid documents that combines text and tabular data.
+- [TRIM: Hybrid Inference via Targeted Stepwise Routing in Multi-Step Reasoning Tasks](https://arxiv.org/abs/2601.10245): Introduces a targeted routing framework for multi-step reasoning tasks to improve inference efficiency.
+- [NoReGeo: Non-Reasoning Geometry Benchmark](https://arxiv.org/abs/2601.10254): Presents a benchmark for evaluating geometric understanding in LLMs without relying on reasoning.
+- [Evidence-Augmented Policy Optimization with Reward Co-Evolution for Long-Context Reasoning](https://arxiv.org/abs/2601.10306): Proposes a policy optimization framework for improving long-context reasoning in LLMs.
+- [C-GRASP: Clinically-Grounded Reasoning for Affective Signal Processing](https://arxiv.org/abs/2601.10342): Introduces a reasoning framework for interpreting heart rate variability in clinical settings.
+- [LatentRefusal: Latent-Signal Refusal for Unanswerable Text-to-SQL Queries](https://arxiv.org/abs/2601.10398): Proposes a mechanism for safely refusing unanswerable queries in text-to-SQL systems.
+- [Toward Ultra-Long-Horizon Agentic Science: Cognitive Accumulation for Machine Learning Engineering](https://arxiv.org/abs/2601.10402): Discusses the challenges of ultra-long-horizon autonomy in AI systems.
+- [ErrEval: Error-Aware Evaluation for Question Generation through Explicit Diagnostics](https://arxiv.org/abs/2601.10406): Introduces a framework for evaluating question generation with explicit error diagnostics.
+- [LADFA: A Framework of Using Large Language Models and Retrieval-Augmented Generation for Personal Data Flow Analysis in Privacy Policies](https://arxiv.org/abs/2601.10413): Proposes a framework for analyzing personal data flows in privacy policies using LLMs.
+- [LLMdoctor: Token-Level Flow-Guided Preference Optimization for Efficient Test-Time Alignment of Large Language Models](https://arxiv.org/abs/2601.10416): Introduces a framework for aligning LLMs with human preferences at test time.
+- [NSR-Boost: A Neuro-Symbolic Residual Boosting Framework for Industrial Legacy Models](https://arxiv.org/abs/2601.10457): Proposes a framework for upgrading legacy models in industrial applications.
+- [ChartComplete: A Taxonomy-based Inclusive Chart Dataset](https://arxiv.org/abs/2601.10462): Introduces a dataset for benchmarking chart understanding in multimodal models.
+- [Panning for Gold: Expanding Domain-Specific Knowledge Graphs with General Knowledge](https://arxiv.org/abs/2601.10485): Proposes a method for enriching domain-specific knowledge graphs with general knowledge.
+- [Breaking Up with Normatively Monolithic Agency with GRACE: A Reason-Based Neuro-Symbolic Architecture for Safe and Ethical AI Alignment](https://arxiv.org/abs/2601.10520): Introduces a neuro-symbolic architecture for aligning AI agents with ethical norms.
+- [Diagnosing Generalization Failures in Fine-Tuned LLMs: A Cross-Architectural Study on Phishing Detection](https://arxiv.org/abs/2601.10524): Investigates generalization failures in fine-tuned LLMs on phishing detection tasks.
+- [A Safety Report on GPT-5.2, Gemini 3 Pro, Qwen3-VL, Doubao 1.8, Grok 4.1 Fast, Nano Banana Pro, and Seedream 4.5](https://arxiv.org/abs/2601.10527): Presents a safety evaluation of several frontier models across various modalities.
+- [Defending Large Language Models Against Jailbreak Attacks via In-Decoding Safety-Awareness Probing](https://arxiv.org/abs/2601.10543): Proposes a method for enhancing LLM safety against jailbreak attacks during decoding.
+- [Generative AI collective behavior needs an interactionist paradigm](https://arxiv.org/abs/2601.10567): Discusses the need for an interactionist paradigm to understand collective behavior in generative AI systems.
+- [From Single to Multi-Agent Reasoning: Advancing GeneGPT for Genomics QA](https://arxiv.org/abs/2601.10581): Proposes a multi-agent framework for improving genomic question answering.
+- [Multi-Property Synthesis](https://arxiv.org/abs/2601.10651): Studies synthesis with multiple properties in linear temporal logic.
+- [Are Your Reasoning Models Reasoning or Guessing? A Mechanistic Analysis of Hierarchical Reasoning Models](https://arxiv.org/abs/2601.10679): Analyzes the reasoning patterns of hierarchical reasoning models.
+- [Structure and Diversity Aware Context Bubble Construction for Enterprise Retrieval Augmented Systems](https://arxiv.org/abs/2601.10681): Proposes a framework for constructing context bubbles in retrieval-augmented systems.
+- [The Impact of Generative AI on Architectural Conceptual Design: Performance, Creative Self-Efficacy and Cognitive Load](https://arxiv.org/abs/2601.10696): Examines the effects of generative AI on architectural design tasks.
+- [Self-Organizing Dual-Buffer Adaptive Clustering Experience Replay (SODASER) for Safe Reinforcement Learning in Optimal Control](https://arxiv.org/abs/2601.06540): Proposes a reinforcement learning framework for safe optimal control.
+- [Human-AI Experience in Integrated Development Environments: A Systematic Literature Review](https://arxiv.org/abs/2503.06195): Reviews research on human-AI interaction in integrated development environments.
+- [Gradient Coupling: The Hidden Barrier to Generalization in Agentic Reinforcement Learning](https://arxiv.org/abs/2509.23870): Identifies gradient coupling as a cause of generalization failure in reinforcement learning.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action100M: A Large-scale Video Action Dataset](https://arxiv.org/abs/2512.01242): Introduces a large-scale dataset for video action recognition.
+- [Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction](https://arxiv.org/abs/2509.10798): Proposes a method for optimizing key-value cache eviction in LLMs.
+- [Learning Without Augmenting: Unsupervised Time Series Representation Learning via Frame Projections](https://arxiv.org/abs/2510.22655): Introduces a method for unsupervised representation learning in time series data.
+- [Geometric Algorithms for Neural Combinatorial Optimization with Constraints](https://arxiv.org/abs/2510.24039): Proposes a framework for solving combinatorial optimization problems with neural networks.
+- [On the Failure of Latent State Persistence in Large Language Models](https://arxiv.org/abs/2505.10571): Investigates the limitations of LLMs in maintaining latent states during reasoning.
+- [Fast Mining and Dynamic Time-to-Event Prediction over Multi-sensor Data Streams](https://arxiv.org/abs/2601.04741): Proposes a framework for predicting events from multi-sensor data streams.
+- [GPU-Accelerated ANNS: Quantized for Speed, Built for Change](https://arxiv.org/abs/2601.07048): Introduces a GPU-accelerated approximate nearest neighbor search system.
+- [3D Wavelet-Based Structural Priors for Controlled Diffusion in Whole-Body Low-Dose PET Denoising](https://arxiv.org/abs/2601.07093): Proposes a framework for denoising PET images using wavelet-based priors.
+- [Learning to Decode in Parallel: Self-Coordinating Neural Network for Real-Time Quantum Error Correction](https://arxiv.org/abs/2601.09921): Introduces a neural network for real-time quantum error correction.
+- [Adversarial Evasion Attacks on Computer Vision using SHAP Values](https://arxiv.org/abs/2505.10587): Investigates adversarial attacks on computer vision models using SHAP values.
+- [Knowledge Homophily in Large Language Models](https://arxiv.org/abs/2509.23773): Explores the structural organization of knowledge in LLMs.
+- [Learning Latency-Aware Orchestration for Parallel Multi-Agent Systems](https://arxiv.org/abs/2509.10798): Proposes a framework for optimizing latency in multi-agent systems.
+- [Geometric and Dynamic Scaling in Deep Transformers](https://arxiv.org/abs/2601.01014): Analyzes the geometric properties of deep transformers and their implications for training stability.
+- [Robust and Efficient Zeroth-Order LLM Fine-Tuning via Adaptive Bayesian Subspace Optimizer](https://arxiv.org/abs/2601.01452): Introduces a framework for zeroth-order optimization in LLM fine-tuning.
+- [LittleBit: Ultra Low-Bit Quantization via Latent Factorization](https://arxiv.org/abs/2506.13771): Proposes a method for extreme quantization of LLMs.
+- [Multi-Agent Cooperative Learning for Robust Vision-Language Alignment under OOD Concepts](https://arxiv.org/abs/2601.09746): Introduces a framework for improving vision-language alignment in multi-agent systems.
+- [A Study of Commonsense Reasoning over Visual Object Properties](https://arxiv.org/abs/2508.10956): Investigates commonsense reasoning in visual object properties.
+- [Bid Farewell to Seesaw: Towards Accurate Long-tail Session-based Recommendation via Dual Constraints of Hybrid Intents](https://arxiv.org/abs/2511.08378): Proposes a framework for improving long-tail performance in session-based recommendations.
+- [Prototype-Guided Non-Exemplar Continual Learning for Cross-subject EEG Decoding](https://arxiv.org/abs/2511.20696): Introduces a framework for EEG decoding that preserves knowledge without historical data.
+- [Generative Adversarial Gumbel MCTS for Abstract Visual Composition Generation](https://arxiv.org/abs/2512.01242): Proposes a framework for generating abstract visual compositions using generative adversarial methods.
+- [Image Complexity-Aware Adaptive Retrieval for Efficient Vision-Language Models](https://arxiv.org/abs/2512.15372): Introduces a framework for adaptive computation in vision-language models based on image complexity.
+- [TinyMyo: a Tiny Foundation Model for Flexible EMG Signal Processing at the Edge](https://arxiv.org/abs/2512.15729): Proposes a lightweight foundation model for EMG signal processing.
+- [JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation](https://arxiv.org/abs/2509.02097): Introduces a dynamic evaluation framework for large language models.
+- [Multi-Personality Generation of LLMs at Decoding-time](https://arxiv.org/abs/2511.01891): Proposes a framework for generating multi-personality responses from LLMs.
+- [Action
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends:
+1. **Security Vulnerabilities in AI Systems**:
+   - Several papers focus on the vulnerabilities of AI systems, particularly in the context of Large Language Models (LLMs) and their deployment in sensitive applications. For instance, the paper "Agent Skills in the Wild: An Empirical Study of Security Vulnerabilities at Scale" highlights the risks associated with modular AI skills that execute with implicit trust, revealing that a significant percentage of skills contain vulnerabilities, including prompt injection and data exfiltration.
+
+2. **Robustness and Safety Mechanisms**:
+   - The importance of safety mechanisms in AI systems is emphasized across multiple studies. For example, "ToolSafe: Enhancing Tool Invocation Safety of LLM-based agents via Proactive Step-level Guardrail and Feedback" discusses proactive measures to detect unsafe tool invocation actions before execution, showcasing a shift towards more robust safety measures in AI applications.
+
+3. **Evaluation Frameworks for AI Safety**:
+   - The development of frameworks for evaluating the safety and reliability of AI systems is a recurring theme. "Scalable and Reliable Evaluation of AI Knowledge Retrieval Systems: RIKER and the Coherent Simulated Universe" introduces a benchmark for evaluating knowledge systems without human annotation, emphasizing the need for robust evaluation methods that can withstand contamination.
+
+4. **Causal and Ethical Considerations**:
+   - Papers like "Judge Q: Trainable Queries for Optimized Information Retention in KV Cache Eviction" and "JudgeAgent: Beyond Static Benchmarks for Knowledge-Driven and Dynamic LLM Evaluation" highlight the importance of understanding the causal relationships and ethical implications of AI decisions, particularly in high-stakes environments.
+
+5. **Adaptive Learning and Robustness**:
+   - The concept of adaptive learning in the face of uncertainty is explored in "Dual-Uncertainty Guided Policy Learning for Multimodal Reasoning," which emphasizes the need for models to adapt to changing environments and user needs while maintaining safety and reliability.
+
+6. **Debiasing and Fairness**:
+   - The issue of bias in AI systems is addressed in several papers, including "Bias Dynamics in BabyLMs: Towards a Compute-Efficient Sandbox for Democratising Pre-Training Debiasing," which discusses the challenges of mitigating bias during model training and the potential of using smaller models for more efficient debiasing.
+
+7. **Integration of AI in Healthcare**:
+   - The integration of AI in healthcare settings raises unique security and ethical challenges. Papers like "Advancing Safe Mechanical Ventilation Using Offline RL With Hybrid Actions and Clinically Aligned Rewards" explore how AI can be safely deployed in critical healthcare scenarios, emphasizing the need for robust evaluation and alignment with clinical objectives.
+
+#### Insights:
+- **Need for Comprehensive Security Measures**: The findings across these papers indicate a pressing need for comprehensive security measures in AI systems, particularly as they are deployed in sensitive areas like healthcare, finance, and law enforcement.
+- **Importance of Robust Evaluation Frameworks**: The development of robust evaluation frameworks that can assess the safety and reliability of AI systems is crucial for ensuring their safe deployment and public trust.
+- **Balancing Performance and Safety**: Many studies highlight the trade-offs between performance and safety, suggesting that while AI models can achieve high accuracy, their deployment must be carefully managed to avoid potential risks.
+- **Ethical Considerations**: The ethical implications of AI decisions, particularly in high-stakes environments, necessitate a focus on fairness and transparency in AI systems.
+
+### Conclusion
+The landscape of AI security is evolving rapidly, with a growing emphasis on understanding vulnerabilities, enhancing safety mechanisms, and ensuring ethical deployment. As AI systems become more integrated into critical applications, the need for robust evaluation frameworks and adaptive learning strategies will be paramount in addressing the challenges posed by security vulnerabilities and biases.
