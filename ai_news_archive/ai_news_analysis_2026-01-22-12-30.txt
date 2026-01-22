@@ -1,0 +1,482 @@
+AI Researcher Agent Report for 2026-01-22-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [The Ontological Neutrality Theorem: Why Neutral Ontological Substrates Must Be Pre-Causal and Pre-Normative](https://arxiv.org/abs/2601.14271): This paper establishes that neutral ontological substrates must be pre-causal and pre-normative, as including causal or normative commitments leads to contradictions in diverse frameworks.
+- [Epistemic Constitutionalism Or: how to avoid coherence bias](https://arxiv.org/abs/2601.14295): This paper advocates for an epistemic constitution for AI, proposing explicit meta-norms to regulate belief formation and address biases in large language models.
+- [VisTIRA: Closing the Image-Text Modality Gap in Visual Math Reasoning via Structured Tool Integration](https://arxiv.org/abs/2601.14440): Introduces VisTIRA, a framework that improves visual math reasoning by integrating structured problem-solving tools and measuring visual math reasoning performance.
+- [On the Generalization Gap in LLM Planning: Tests and Verifier-Reward RL](https://arxiv.org/abs/2601.14456): This paper investigates the generalization gap in LLM planning, revealing reliance on domain-specific patterns rather than transferable competence.
+- [Scalable Knee-Point Guided Activity Group Selection in Multi-Tree Genetic Programming for Dynamic Multi-Mode Project Scheduling](https://arxiv.org/abs/2601.14485): Proposes a scalable genetic programming framework for project scheduling that enhances scalability and performance.
+- [Just in Time World Modeling Supports Human Planning and Reasoning](https://arxiv.org/abs/2601.14514): Presents a framework for simulation-based reasoning that allows efficient mental simulation using simplified representations of the environment.
+- [Large Language Model-Powered Evolutionary Code Optimization on a Phylogenetic Tree](https://arxiv.org/abs/2601.14523): Introduces PhyloEvolve, an LLM-agent system for optimizing scientific computing algorithms using evolutionary methods.
+- [MAS-Orchestra: Understanding and Improving Multi-Agent Reasoning Through Holistic Orchestration and Controlled Benchmarks](https://arxiv.org/abs/2601.14652): Proposes MAS-Orchestra, a framework for multi-agent systems that improves orchestration and understanding of agent interactions.
+- [Query-Efficient Agentic Graph Extraction Attacks on GraphRAG Systems](https://arxiv.org/abs/2601.14662): This paper presents AGEA, a framework for efficiently extracting graphs from retrieval-augmented generation systems, highlighting vulnerabilities in these systems.
+- [Local Language Models for Context-Aware Adaptive Anonymization of Sensitive Text](https://arxiv.org/abs/2601.14683): Introduces a framework for context-aware anonymization of sensitive data in qualitative research using local LLMs.
+- [IB-GRPO: Aligning LLM-based Learning Path Recommendation with Educational Objectives via Indicator-Based Group Relative Policy Optimization](https://arxiv.org/abs/2601.14686): Proposes IB-GRPO, an approach for personalized learning path recommendations that aligns with educational objectives.
+- [Gaming the Judge: Unfaithful Chain-of-Thought Can Undermine Agent Evaluation](https://arxiv.org/abs/2601.14691): This paper reveals vulnerabilities in LLM-based evaluation systems, showing how manipulated reasoning can inflate false positive rates.
+- [AutoDriDM: An Explainable Benchmark for Decision-Making of Vision-Language Models in Autonomous Driving](https://arxiv.org/abs/2601.14702): Introduces AutoDriDM, a benchmark for evaluating decision-making processes in autonomous driving.
+- [DARA: Few-shot Budget Allocation in Online Advertising via In-Context Decision Making with RL-Finetuned LLMs](https://arxiv.org/abs/2601.14711): Proposes DARA, a framework for budget allocation in online advertising using LLMs.
+- [An XAI View on Explainable ASP: Methods, Systems, and Perspectives](https://arxiv.org/abs/2601.14764): Surveys explainable answer set programming (ASP) methods and identifies gaps in existing approaches.
+- [Semantic-Guided Unsupervised Video Summarization](https://arxiv.org/abs/2601.14773): Proposes a method for video summarization that integrates semantic information for improved keyframe selection.
+- [Towards Bound Consistency for the No-Overlap Constraint Using MDDs](https://arxiv.org/abs/2601.14784): Introduces a bound-consistent algorithm for the no-overlap constraint using multi-dimensional decision diagrams.
+- [CI4A: Semantic Component Interfaces for Agents Empowering Web Automation](https://arxiv.org/abs/2601.14790): Proposes CI4A, a framework for optimizing agent interactions with web components.
+- [Measuring and Aligning Abstraction in Vision-Language Models with Medical Taxonomies](https://arxiv.org/abs/2601.14827): Investigates abstraction errors in vision-language models and proposes methods for alignment with medical taxonomies.
+- [Implementing Knowledge Representation and Reasoning with Object Oriented Design](https://arxiv.org/abs/2601.14840): Introduces KRROOD, a framework for integrating knowledge representation with object-oriented programming.
+- [To Neuro-Symbolic Classification and Beyond by Compiling Description Logic Ontologies to Probabilistic Circuits](https://arxiv.org/abs/2601.14894): Proposes a neuro-symbolic method for classification that compiles description logic ontologies into probabilistic circuits.
+- [Just aware enough: Evaluating awareness across artificial systems](https://arxiv.org/abs/2601.14901): Introduces a method for evaluating awareness in artificial systems based on their information processing capabilities.
+- [Multi-Behavior Sequential Modeling with Transition-Aware Graph Attention Network for E-Commerce Recommendation](https://arxiv.org/abs/2601.14955): Proposes a graph attention network for modeling user behavior in e-commerce.
+- [Emergent, not Immanent: A Baradian Reading of Explainable AI](https://arxiv.org/abs/2601.15029): Discusses the implications of agential realism for explainable AI.
+- [The Responsibility Vacuum: Organizational Failure in Scaled Agent Systems](https://arxiv.org/abs/2601.15059): Examines the structural failures in responsibility attribution in automated decision-making systems.
+- [The Why Behind the Action: Unveiling Internal Drivers via Agentic Attribution](https://arxiv.org/abs/2601.15075): Proposes a framework for understanding the internal motivations behind agent actions.
+- [Emerging from Ground: Addressing Intent Deviation in Tool-Using Agents via Deriving Real Calls into Virtual Trajectories](https://arxiv.org/abs/2601.15120): Introduces a method for aligning agent intent with real-world actions.
+- [The Plausibility Trap: Using Probabilistic Engines for Deterministic Tasks](https://arxiv.org/abs/2601.15130): Discusses the inefficiencies of using probabilistic models for deterministic tasks.
+- [Vehicle Routing with Finite Time Horizon using Deep Reinforcement Learning with Improved Network Embedding](https://arxiv.org/abs/2601.15131): Proposes a deep reinforcement learning approach for vehicle routing problems.
+- [How to Build AI Agents by Augmenting LLMs with Codified Human Expert Domain Knowledge? A Software Engineering Framework](https://arxiv.org/abs/2601.15153): Introduces a framework for integrating human expert knowledge into AI agents.
+- [Knowledge Graphs are Implicit Reward Models: Path-Derived Signals Enable Compositional Reasoning](https://arxiv.org/abs/2601.15160): Proposes a method for using knowledge graphs as reward models for reasoning tasks.
+- [BayesianVLA: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries](https://arxiv.org/abs/2601.15197): Introduces a framework for improving vision-language-action models using Bayesian decomposition.
+- [A Cloud-Based Cross-Modal Transformer for Emotion Recognition and Adaptive Human-Computer Interaction](https://arxiv.org/abs/2601.14259): Proposes a cloud-based framework for emotion recognition using multimodal inputs.
+- [On Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a formal framework for meta-evaluation of evaluation methods.
+- [Call2Instruct: Automated Pipeline for Generating Q&A Datasets from Call Center Recordings for LLM Fine-Tuning](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot: A Case Study of a Greek-Language RAG-Based Chatbot in Higher Education](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support: Boundary Failures in Multi-Turn Mental Health LLM Dialogues](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box: A Survey on the Mechanisms of Multi-Step Reasoning in Large Language Models](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine: Enhancing Multimodal Representation and Explainability for Emotion Recognition in Conversation](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring for KV Cache Compression](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation for Intuitive Learning](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity: A Benchmark of 1D, 2D, and 3D Methods Reveals Critical Trade-offs in Structure-Based Drug Design](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation: an AI agent for research and model discovery of inflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench: A Fine-grained Benchmark for Research Paper Comprehension](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA: Dual-Domain Strategic Attack for Spatial-Temporal Efficiency in Adversarial Robustness Testing](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS: Red-Teaming Hallucination Detectors via Internal Signal Camouflage in Large Language Models](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288): Introduces an AI agent for discovering inflationary models in cosmology.
+- [RPC-Bench](https://arxiv.org/abs/2601.14289): Proposes a benchmark for evaluating research paper comprehension.
+- [Guardrails for trust, safety, and ethical development and deployment of Large Language Models (LLM)](https://arxiv.org/abs/2601.14298): Discusses the need for guardrails in LLM development and deployment.
+- [DDSA](https://arxiv.org/abs/2601.14302): Proposes a framework for efficient adversarial robustness testing.
+- [An Optimized Decision Tree-Based Framework for Explainable IoT Anomaly Detection](https://arxiv.org/abs/2601.14305): Introduces a framework for explainable anomaly detection in IoT.
+- [CORVUS](https://arxiv.org/abs/2601.14310): Proposes a method for red-teaming hallucination detectors in LLMs.
+- [Towards Execution-Grounded Automated AI Research](https://arxiv.org/abs/2601.14525): Investigates the feasibility of automated execution in AI research.
+- [Meta-Evaluation](https://arxiv.org/abs/2601.14262): Introduces a framework for evaluating evaluation methods.
+- [Call2Instruct](https://arxiv.org/abs/2601.14263): Proposes a pipeline for generating Q&A datasets from call center data.
+- [From Textbook to Talkbot](https://arxiv.org/abs/2601.14265): Discusses the design and application of an AI chatbot in higher education.
+- [Developmental trajectories of decision making and affective dynamics in large language models](https://arxiv.org/abs/2601.14268): Investigates decision-making and affective dynamics in LLMs.
+- [The Slow Drift of Support](https://arxiv.org/abs/2601.14269): Examines boundary failures in multi-turn dialogues of mental health LLMs.
+- [Opening the Black Box](https://arxiv.org/abs/2601.14270): Surveys the mechanisms underlying multi-step reasoning in LLMs.
+- [Divide and Refine](https://arxiv.org/abs/2601.14274): Proposes a framework for improving multimodal emotion recognition.
+- [On the Limits of Learned Importance Scoring](https://arxiv.org/abs/2601.14279): Investigates the limitations of learned importance scoring for cache compression.
+- [Hallucination-Free Automatic Question & Answer Generation](https://arxiv.org/abs/2601.14280): Proposes a framework for generating educational questions without hallucinations.
+- [Beyond Affinity](https://arxiv.org/abs/2601.14283): Establishes a benchmark for evaluating drug design methods.
+- [DeepInflation](https://arxiv.org/abs/2601.14288
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Articles Related to Security
+
+#### Overview
+The recent body of research and news articles highlights significant advancements in the application of AI, particularly in the realms of security, ethical considerations, and the robustness of AI systems. A notable trend is the exploration of vulnerabilities in AI models, especially in the context of large language models (LLMs) and their deployment in sensitive environments. The papers emphasize the need for robust evaluation frameworks, the mitigation of biases, and the establishment of accountability mechanisms in AI systems.
+
+#### Key Themes and Insights
+
+1. **Vulnerability and Security in AI Systems**:
+   - Several papers focus on the vulnerabilities of AI models, particularly LLMs, to adversarial attacks and the implications of these vulnerabilities in real-world applications. For instance, the paper on **SPECTRE** discusses conditional system prompt poisoning, highlighting how adversaries can manipulate prompts to induce harmful outputs while maintaining high utility on benign inputs.
+   - The **Neural Honeytrace** framework proposes a hierarchical backdoor mechanism to protect against unauthorized model extraction, emphasizing the need for stealthy and robust solutions in AI security.
+
+2. **Bias and Fairness**:
+   - The **FairGamer** benchmark evaluates social biases in AI-generated content, revealing that larger models tend to exhibit more pronounced biases. This finding underscores the importance of developing fair algorithms and monitoring AI behavior to prevent harmful outcomes.
+   - The **GECO** dataset and benchmark aim to quantify biases in explanations generated by LLMs, providing a structured approach to evaluate and mitigate biases in AI systems.
+
+3. **Robustness and Reliability**:
+   - The paper on **Aurora** introduces a framework for evaluating the confidence quality of malware classifiers, emphasizing the importance of reliable confidence estimates in operational settings. This highlights the need for robust evaluation metrics that go beyond traditional performance measures.
+   - The **MCPAgentBench** framework evaluates the tool-use capabilities of agents, focusing on the reliability of decision-making processes in multi-agent systems.
+
+4. **Ethical Considerations and Governance**:
+   - The **Internal Deployment Gaps in AI Regulation** paper discusses the challenges of regulating AI systems deployed internally within organizations, identifying gaps that could lead to unregulated use of powerful AI technologies.
+   - The **Towards AI Transparency and Accountability** paper advocates for a global standard for exchanging information about AI systems, emphasizing the need for collaboration between regulators and industry to ensure ethical AI deployment.
+
+5. **Innovative Approaches to AI Training and Evaluation**:
+   - The **PrivTune** framework proposes a method for privacy-preserving fine-tuning of LLMs, addressing concerns about sensitive data leakage while maintaining model performance.
+   - The **DARC** framework for reinforcement learning emphasizes the importance of structured training processes to stabilize self-evolution in AI systems, highlighting the need for robust training paradigms.
+
+6. **Applications in Healthcare and Safety**:
+   - The **IFRA** scale for fall risk assessment in stroke patients demonstrates the potential of machine learning in healthcare, providing a novel approach to patient safety.
+   - The **Ultra-Strong Gradient Diffusion MRI** paper explores the integration of advanced imaging techniques with deep learning, showcasing the potential for improved diagnostic capabilities in medical settings.
+
+### Trends and Correlations
+- **Increased Focus on Ethical AI**: There is a growing recognition of the ethical implications of AI deployment, particularly in sensitive areas such as healthcare and security. This is reflected in the emphasis on fairness, accountability, and transparency in AI systems.
+- **Integration of Robustness and Security Measures**: Many papers advocate for the integration of robust evaluation frameworks and security measures to ensure the safe deployment of AI technologies. This includes the development of frameworks that can adapt to evolving threats and biases.
+- **Cross-Disciplinary Approaches**: The intersection of AI with fields such as healthcare, cybersecurity, and social sciences is becoming increasingly prominent, highlighting the need for interdisciplinary collaboration in addressing complex challenges.
+
+### Conclusion
+The body of work reviewed underscores the critical importance of addressing security, bias, and ethical considerations in the development and deployment of AI systems. As AI technologies continue to evolve, ensuring their reliability and fairness will be paramount in fostering trust and maximizing their positive impact across various domains.
