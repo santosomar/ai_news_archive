@@ -1,0 +1,139 @@
+AI Researcher Agent Report for 2026-01-23-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Gated Sparse Attention: Combining Computational Efficiency with Training Stability for Long-Context Language Models](https://arxiv.org/abs/2601.15305): This paper presents Gated Sparse Attention (GSA), which combines sparse attention mechanisms and gated attention variants to improve computational efficiency and training stability in long-context language models. GSA achieves significant speedup and improved perplexity in experiments.
+- [Uncovering Latent Bias in LLM-Based Emergency Department Triage Through Proxy Variables](https://arxiv.org/abs/2601.15306): This study investigates biases in LLM-based medical AI systems for emergency department triage, revealing discriminatory behavior mediated through proxy variables and emphasizing the need for responsible AI deployment in clinical settings.
+- [DeepSurvey-Bench: Evaluating Academic Value of Automatically Generated Scientific Survey](https://arxiv.org/abs/2601.15307): The paper proposes DeepSurvey-Bench, a benchmark for evaluating the academic value of generated surveys, addressing issues in existing evaluation metrics and datasets.
+- [Aeon: High-Performance Neuro-Symbolic Memory Management for Long-Horizon LLM Agents](https://arxiv.org/abs/2601.15311): Aeon is introduced as a neuro-symbolic cognitive operating system that structures memory for long-horizon interactions, achieving efficient retrieval and state consistency.
+- [The Paradigm Shift: A Comprehensive Survey on Large Vision Language Models for Multimodal Fake News Detection](https://arxiv.org/abs/2601.15316): This survey reviews the evolution of multimodal fake news detection through large vision-language models, highlighting technical challenges and future research directions.
+- [Replayable Financial Agents: A Determinism-Faithfulness Assurance Harness for Tool-Using LLM Agents](https://arxiv.org/abs/2601.15322): The paper introduces the Determinism-Faithfulness Assurance Harness (DFAH) for measuring determinism in financial agents, providing benchmarks for compliance and reliability.
+- [Prometheus Mind: Retrofitting Memory to Frozen Language Models](https://arxiv.org/abs/2601.15324): This work presents Prometheus Mind, which retrofits memory to frozen language models using modular adapters, achieving high retrieval accuracy on structured tasks.
+- [Logic Programming on Knowledge Graph Networks And its Application in Medical Domain](https://arxiv.org/abs/2601.15347): The paper develops a systematic theory for knowledge graph networks in the medical domain, addressing the need for advanced logic reasoning techniques.
+- [GeMM-GAN: A Multimodal Generative Model Conditioned on Histopathology Images and Clinical Descriptions for Gene Expression Profile Generation](https://arxiv.org/abs/2601.15392): GeMM-GAN is introduced as a generative model for synthesizing gene expression profiles from histopathology images and clinical metadata, outperforming standard generative models.
+- [Beyond Prompting: Efficient and Robust Contextual Biasing for Speech LLMs via Logit-Space Integration (LOGIC)](https://arxiv.org/abs/2601.15397): LOGIC is proposed as a framework for contextual biasing in speech LLMs, achieving improved entity recognition and reduced error rates.
+- [Not Your Typical Sycophant: The Elusive Nature of Sycophancy in Large Language Models](https://arxiv.org/abs/2601.15436): This paper evaluates sycophancy in LLMs, finding that models exhibit varying tendencies based on user prompts and context.
+- [A tensor network formalism for neuro-symbolic AI](https://arxiv.org/abs/2601.15442): The paper introduces a tensor network formalism for unifying neural and symbolic approaches in AI, enabling efficient inference algorithms.
+- [Reliability by design: quantifying and eliminating fabrication risk in LLMs](https://arxiv.org/abs/2601.15476): This study examines the reliability of LLMs in legal contexts, proposing metrics for evaluating fabrication risk and emphasizing the need for rigorous architectures.
+- [MiRAGE: A Multiagent Framework for Generating Multimodal Multihop Question-Answer Dataset for RAG Evaluation](https://arxiv.org/abs/2601.15487): MiRAGE is introduced as a framework for generating multimodal question-answer datasets, enhancing evaluation for retrieval-augmented generation systems.
+- [Tracking the Limits of Knowledge Propagation: How LLMs Fail at Multi-Step Reasoning with Conflicting Knowledge](https://arxiv.org/abs/2601.15495): This paper presents TRACK, a benchmark for evaluating LLMs' reasoning under conflicting knowledge, revealing significant performance degradation in multi-step reasoning tasks.
+- [The Dark Side of AI Transformers: Sentiment Polarization & the Loss of Business Neutrality by NLP Transformers](https://arxiv.org/abs/2601.15509): The study discusses sentiment polarization in NLP transformers, highlighting the implications for business neutrality in applied NLP tasks.
+- [TransportAgents: a multi-agents LLM framework for traffic accident severity prediction](https://arxiv.org/abs/2601.15519): This paper proposes TransportAgents, a hybrid framework for predicting traffic accident severity, demonstrating improved performance over traditional methods.
+- [From Generative Engines to Actionable Simulators: The Imperative of Physical Grounding in World Models](https://arxiv.org/abs/2601.15533): The paper argues for the need to ground world models in physical dynamics, proposing a new framework for actionable simulation.
+- [ALIGNAgent: Adaptive Learner Intelligence for Gap Identification and Next-step guidance](https://arxiv.org/abs/2601.15551): ALIGNAgent is introduced as a multi-agent educational framework for personalized learning, demonstrating effectiveness in knowledge estimation and resource recommendation.
+- [Autonomous Business System via Neuro-symbolic AI](https://arxiv.org/abs/2601.15599): The paper presents AUTOBUS, an autonomous business system integrating LLMs and logic programming for orchestrating business initiatives.
+- [CogToM: A Comprehensive Theory of Mind Benchmark inspired by Human Cognition for Large Language Models](https://arxiv.org/abs/2601.15628): CogToM is introduced as a benchmark for evaluating LLMs' Theory of Mind capabilities, revealing significant performance heterogeneities.
+- [Agentic AI Governance and Lifecycle Management in Healthcare](https://arxiv.org/abs/2601.15630): The paper proposes a governance framework for managing agentic AI in healthcare, addressing challenges of agent sprawl and accountability.
+- [Predictive Coding and Information Bottleneck for Hallucination Detection in Large Language Models](https://arxiv.org/abs/2601.15652): This study introduces a hybrid detection framework for hallucinations in LLMs, achieving competitive performance with lightweight models.
+- [Improving Methodologies for Agentic Evaluations Across Domains: Leakage of Sensitive Information, Fraud and Cybersecurity Threats](https://arxiv.org/abs/2601.15679): The paper discusses methodologies for evaluating advanced AI systems, focusing on common risks and cybersecurity.
+- [From Passive Metric to Active Signal: The Evolving Role of Uncertainty Quantification in Large Language Models](https://arxiv.org/abs/2601.15690): This survey explores the evolution of uncertainty quantification in LLMs, emphasizing its role in advanced reasoning and autonomous agents.
+- [Agentic Uncertainty Quantification](https://arxiv.org/abs/2601.15703): The paper proposes a dual-process framework for uncertainty quantification in AI agents, enhancing reliability in decision-making.
+- [Improving Methodologies for LLM Evaluations Across Global Languages](https://arxiv.org/abs/2601.15706): This study evaluates LLM performance across diverse languages, highlighting the need for culturally contextualized evaluations.
+- [AgentSM: Semantic Memory for Agentic Text-to-SQL](https://arxiv.org/abs/2601.15709): AgentSM is introduced as a framework for improving Text-to-SQL performance through semantic memory.
+- [Investigation of the Generalisation Ability of Genetic Programming-evolved Scheduling Rules in Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2601.15717): The paper investigates the generalization ability of genetic programming in scheduling tasks, providing insights into performance differences.
+- [Benchmarking Text-to-Python against Text-to-SQL: The Impact of Explicit Logic and Ambiguity](https://arxiv.org/abs/2601.15728): This study compares Text-to-Python and Text-to-SQL performance, highlighting the importance of explicit logic in code generation.
+- [PhysProver: Advancing Automatic Theorem Proving for Physics](https://arxiv.org/abs/2601.15737): PhysProver is introduced as a framework for enhancing theorem proving in physics, demonstrating effectiveness in formal reasoning tasks.
+- [Tabular Incremental Inference](https://arxiv.org/abs/2601.15751): This paper presents a new task for enabling AI models to incorporate new columns during inference on dynamic tables.
+- [Off-Policy Actor-Critic with Sigmoid-Bounded Entropy for Real-World Robot Learning](https://arxiv.org/abs/2601.15761): The paper introduces SigEnt-SAC, an off-policy actor-critic method for real-world reinforcement learning, demonstrating improved learning efficiency.
+- [Agentic Confidence Calibration](https://arxiv.org/abs/2601.15778): This study proposes a framework for calibrating confidence in AI agents, enhancing reliability in decision-making.
+- [Creativity in the Age of AI: Rethinking the Role of Intentional Agency](https://arxiv.org/abs/2601.15797): The paper argues against the necessity of intentional agency for creativity, proposing a new framework for understanding creativity in AI.
+- [VitalDiagnosis: AI-Driven Ecosystem for 24/7 Vital Monitoring and Chronic Disease Management](https://arxiv.org/abs/2601.15798): VitalDiagnosis is introduced as an LLM-driven ecosystem for proactive chronic disease management, integrating continuous data from wearables.
+- [Inference-Time Scaling of Verification: Self-Evolving Deep Research Agents via Test-Time Rubric-Guided Verification](https://arxiv.org/abs/2601.15808): This paper presents a framework for self-evolving agents that improve their performance through iterative verification.
+- [ErrorMap and ErrorAtlas: Charting the Failure Landscape of Large Language Models](https://arxiv.org/abs/2601.15812): The study introduces ErrorMap, a method for identifying sources of failure in LLMs, providing insights for model improvement.
+- [EvoCUA: Evolving Computer Use Agents via Learning from Scalable Synthetic Experience](https://arxiv.org/abs/2601.15876): EvoCUA is proposed as a model for evolving computer use agents through synthetic experience, demonstrating improved performance.
+- [ICON: Invariant Counterfactual Optimization with Neuro-Symbolic Priors for Text-Based Person Search](https://arxiv.org/abs/2601.15931): The paper introduces ICON, a framework for improving text-based person search using causal and topological priors.
+- [Natural Language-Driven Global Mapping of Martian Landforms](https://arxiv.org/abs/2601.15949): MarScope is presented as a framework for mapping Martian landforms using natural language queries, enhancing planetary exploration.
+- [Decoupling Return-to-Go for Efficient Decision Transformer](https://arxiv.org/abs/2601.15953): The paper proposes a decoupled decision transformer architecture for improved performance in offline reinforcement learning.
+- [Data-Free Privacy-Preserving for LLMs via Model Inversion and Selective Unlearning](https://arxiv.org/abs/2601.15595): This study introduces a framework for removing sensitive information from LLMs without requiring access to training data.
+- [DeepASMR: LLM-Based Zero-Shot ASMR Speech Generation for Anyone of Any Voice](https://arxiv.org/abs/2601.15596): DeepASMR is introduced as a framework for generating ASMR speech from ordinary speech snippets, demonstrating high fidelity.
+- [Robust Tool Use via Fission-GRPO: Learning to Recover from Execution Errors](https://arxiv.org/abs/2601.15625): The paper presents Fission-GRPO, a framework for improving tool-using agents' recovery from execution errors.
+- [BayesianVLA: Bayesian Decomposition of Vision Language Action Models via Latent Action Queries](https://arxiv.org/abs/2601.15197): BayesianVLA is proposed as a framework for improving instruction following in vision-language-action models.
+- [Learning Neural Operators from Partial Observations via Latent Autoregressive Modeling](https://arxiv.org/abs/2601.15547): The paper introduces a framework for learning neural operators from partial observations in scientific applications.
+- [Learning to Watermark in the Latent Space of Generative Models](https://arxiv.org/abs/2601.16140): This study presents a latent space watermarking approach for protecting AI-generated images from unauthorized imitation.
+- [Dynamic Exploration on Segment-Proposal Graphs for Tubular Centerline Tracking](https://arxiv.org/abs/2506.18930): The paper proposes a dynamic exploration scheme for tubular centerline tracking, improving accuracy and efficiency.
+- [Membership Inference Attacks on LLM-based Recommender Systems](https://arxiv.org/abs/2508.18665): This study investigates membership inference attacks on LLM-based recommender systems, revealing vulnerabilities and discussing mitigation strategies.
+- [Can Language Models Discover Scaling Laws?](https://arxiv.org/abs/2507.21184): The paper introduces SLDAgent, an agent that can autonomously discover scaling laws for predicting model performance.
+- [A large-scale evaluation of commonsense knowledge in humans and large language models](https://arxiv.org/abs/2505.10309): This study evaluates the commonsense knowledge of LLMs against human responses, revealing significant gaps in understanding.
+- [Gaming the Judge: Unfaithful Chain-of-Thought Can Undermine Agent Evaluation](https://arxiv.org/abs/2601.14691): The paper discusses vulnerabilities in LLM-based evaluation systems, highlighting the impact of manipulated reasoning traces.
+- [Who Benefits From Sinus Surgery? Comparing Generative AI and Supervised Machine Learning for Predicting Surgical Outcomes in Chronic Rhinosinusitis](https://arxiv.org/abs/2601.13710): This study compares the performance of generative AI and supervised ML in predicting surgical outcomes for chronic rhinosinusitis.
+- [GutenOCR: A Grounded Vision-Language Front-End for Documents](https://arxiv.org/abs/2601.14490): GutenOCR is introduced as a vision-language model for grounded OCR tasks, achieving significant improvements in performance.
+- [RADLADS: Rapid Attention Distillation to Linear Attention Decoders at Scale](https://arxiv.org/abs/2505.03005): The paper presents RADLADS, a protocol for converting softmax attention transformers into linear attention decoders efficiently.
+- [Can LLMs Identify Tax Abuse?](https://arxiv.org/abs/2508.20097): This study investigates LLMs' ability to analyze tax-minimization strategies, revealing their potential for aiding tax agencies.
+- [Collaborate, Deliberate, Evaluate: How LLM Alignment Affects Coordinated Multi-Agent Outcomes](https://arxiv.org/abs/2509.05882): The paper examines the impact of alignment methods on LLM agents' effectiveness in multi-turn collaborations.
+- [Competitive Audio-Language Models with Data-Efficient Single-Stage Training on Public Data](https://arxiv.org/abs/2509.07526): Falcon3-Audio is introduced as a competitive audio-language model trained on a small amount of public data, achieving state-of-the-art performance.
+- [PlantTraitNet: An Uncertainty-Aware Multimodal Framework for Global-Scale Plant Trait Inference from Citizen Science Data](https://arxiv.org/abs/2511.06943): PlantTraitNet is proposed as a framework for predicting plant traits from citizen science data, demonstrating improved accuracy over existing methods.
+- [Membership Inference Attacks on LLM-based Recommender Systems](https://arxiv.org/abs/2508.18665): This study investigates membership inference attacks on LLM-based recommender systems, revealing vulnerabilities and discussing mitigation strategies.
+- [Learning to Watermark in the Latent Space of Generative Models](https://arxiv.org/abs/2601.16140): This study presents a latent space watermarking approach for protecting AI-generated images from unauthorized imitation.
+
+### Categories
+#### Security
+- [Membership Inference Attacks on LLM-based Recommender Systems](https://arxiv.org/abs/2508.18665): This study investigates membership inference attacks on LLM-based recommender systems, revealing vulnerabilities and discussing mitigation strategies.
+- [Gaming the Judge: Unfaithful Chain-of-Thought Can Undermine Agent Evaluation](https://arxiv.org/abs/2601.14691): The paper discusses vulnerabilities in LLM-based evaluation systems, highlighting the impact of manipulated reasoning traces.
+- [Can LLMs Identify Tax Abuse?](https://arxiv.org/abs/2508.20097): This study investigates LLMs' ability to analyze tax-minimization strategies, revealing their potential for aiding tax agencies.
+- [Beyond Visual Safety: Jailbreaking Multimodal Large Language Models for Harmful Image Generation via Semantic-Agnostic Inputs](https://arxiv.org/abs/2601.15698): The study introduces a black-box jailbreak attack on LVLMs, exposing critical weaknesses in their safety mechanisms.
+
+#### Medical Applications
+- [Uncovering Latent Bias in LLM-Based Emergency Department Triage Through Proxy Variables](https://arxiv.org/abs/2601.15306): This study investigates biases in LLM-based medical AI systems for emergency department triage.
+- [Who Benefits From Sinus Surgery? Comparing Generative AI and Supervised Machine Learning for Predicting Surgical Outcomes in Chronic Rhinosinusitis](https://arxiv.org/abs/2601.13710): This study compares the performance of generative AI and supervised ML in predicting surgical outcomes for chronic rhinosinusitis.
+- [SURE-Med: Systematic Uncertainty Reduction for Enhanced Reliability in Medical Report Generation](https://arxiv.org/abs/2508.01693): This framework systematically reduces uncertainty across multiple input modalities in medical report generation.
+- [MedSimAI: Simulation and Formative Feedback Generation to Enhance Deliberate Practice in Medical Education](https://arxiv.org/abs/2503.05793): MedSimAI is introduced as an AI-powered simulation platform for interactive patient encounters with immediate feedback.
+
+#### Education
+- [ALIGNAgent: Adaptive Learner Intelligence for Gap Identification and Next-step guidance](https://arxiv.org/abs/2601.15551): ALIGNAgent is introduced as a multi-agent educational framework for personalized learning.
+- [LMM-in-Sandbox Elicits General Agentic Intelligence](https://arxiv.org/abs/2601.16206): This paper discusses the potential of LLMs in educational contexts, emphasizing their ability to adaptively learn and assist in various domains.
+
+#### Benchmarking and Evaluation
+- [SciArena: An Open Evaluation Platform for Non-Verifiable Scientific Literature-Grounded Tasks](https://arxiv.org/abs/2507.01001): SciArena is introduced as a platform for evaluating foundation models on scientific literature-grounded tasks.
+- [AtomWorld: A Benchmark for Evaluating Spatial Reasoning in Large Language Models on Crystalline Materials](https://arxiv.org/abs/2510.04704): AtomWorld is introduced as a benchmark for evaluating LLMs on tasks based in Crystallographic Information Files (CIFs).
+- [TruthTensor: Evaluating LLMs through Human Imitation on Prediction Market under Drift and Holistic Reasoning](https://arxiv.org/abs/2601.13545): This paper introduces TruthTensor, a novel evaluation paradigm that measures reasoning models in socially-grounded environments.
+
+#### Reinforcement Learning
+- [ArenaRL: Scaling RL for Open-Ended Agents via Tournament-based Relative Ranking](https://arxiv.org/abs/2601.06487): ArenaRL is proposed as a reinforcement learning paradigm that shifts from pointwise scoring to intra-group relative ranking.
+- [GDEPO: Group Dual-dynamic and Equal-right Advantage Policy Optimization with Enhanced Training Data Utilization for Sample-Constrained Reinforcement Learning](https://arxiv.org/abs/2601.06795): GDEPO is introduced as a method for enhancing data utilization and optimization efficiency in reinforcement learning.
+
+#### Multimodal Learning
+- [MMP-A*: Multimodal Perception Enhanced Incremental Heuristic Search on Path Planning](https://arxiv.org/abs/2511.07603): MMP-A* is a multimodal framework that integrates spatial grounding capabilities for improved path planning.
+- [AudioMotionBench: Evaluating Auditory Motion Perception in Audio LLMs](https://arxiv.org/abs/2511.13273): AudioMotionBench is introduced as a benchmark for evaluating auditory motion understanding in audio-language models.
+
+#### General AI and Language Models
+- [Gated Sparse Attention: Combining Computational Efficiency with Training Stability for Long-Context Language Models](https://arxiv.org/abs/2601.15305): This paper presents GSA, which combines sparse attention mechanisms and gated attention variants to improve computational efficiency and training stability in long-context language models.
+- [Learning to Discover at Test Time](https://arxiv.org/abs/2601.16175): This paper introduces a method for reinforcement learning at test time, enabling LLMs to continue training with experience specific to the test problem.
+- [Learning to Watermark in the Latent Space of Generative Models](https://arxiv.org/abs/2601.16140): This study presents a latent space watermarking approach for protecting AI-generated images from unauthorized imitation.
+
+### Conclusion
+The analyzed papers and articles cover a wide range of topics in AI, including advancements in language models, medical applications, educational frameworks, and security concerns. The insights provided highlight the ongoing challenges and innovations in the field, particularly in the areas of bias mitigation, multimodal learning, and the need for robust evaluation frameworks. The emphasis on security and ethical considerations in AI deployment is increasingly relevant, especially in sensitive domains like healthcare and finance.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+The recent body of work in AI, particularly in the context of security, reveals a growing awareness of the vulnerabilities associated with large language models (LLMs) and other AI systems. The following trends and insights emerge from the analysis of the provided papers and articles:
+
+1. **Vulnerability to Attacks**: Several papers highlight the susceptibility of AI systems, particularly LLMs, to adversarial attacks. For instance, the paper on "Gaming the Judge" discusses how LLMs can be manipulated through deceptive chain-of-thought reasoning, leading to inflated performance evaluations. Similarly, the "Black-Box Optimization" paper illustrates how adversarial inputs can be crafted to bypass safety mechanisms in vision-language models.
+
+2. **Membership Inference Attacks**: The paper on "Membership Inference Attacks on LLM-based Recommender Systems" emphasizes the risks associated with LLMs in terms of privacy, where adversaries can infer whether specific data points were part of the training set. This highlights the need for robust privacy measures in AI systems.
+
+3. **Robustness and Safety Mechanisms**: The introduction of frameworks like "Refusal Steering" aims to provide fine-grained control over LLM refusal behavior, especially concerning sensitive topics. This reflects a broader trend of enhancing AI safety through better control mechanisms that prevent harmful outputs.
+
+4. **Data-Centric Approaches**: Several papers advocate for data-centric methods to improve the robustness of AI systems. For instance, the "BalancedFace" dataset aims to mitigate biases in gender classification algorithms, while "VMask" proposes a method for label privacy protection in vertical federated learning. These approaches emphasize the importance of high-quality, representative datasets in training secure AI models.
+
+5. **Dynamic and Adaptive Learning**: The concept of dynamic exploration and adaptive learning is prevalent in several works, such as "Dynamic Exploration on Segment-Proposal Graphs" and "Adaptive Drafter." These methods focus on improving the adaptability of AI systems to changing environments and user needs, which is crucial for maintaining security in real-world applications.
+
+6. **Integration of Human Oversight**: The need for human oversight in AI decision-making processes is underscored in various papers. For example, the "GAUGE" framework emphasizes the importance of human-AI collaboration in detecting hidden conversational escalations, suggesting that human judgment remains essential in ensuring AI safety.
+
+7. **Benchmarking and Evaluation**: The introduction of benchmarks like "SciArena" and "AudioMotionBench" aims to provide standardized evaluation frameworks for assessing the performance and safety of AI systems. These benchmarks are crucial for identifying vulnerabilities and ensuring that AI models meet safety and ethical standards.
+
+8. **Interdisciplinary Approaches**: The papers reflect an interdisciplinary approach to AI security, combining insights from machine learning, psychology, and ethics. For instance, the "TruthTensor" framework integrates human preferences into the evaluation of LLMs, highlighting the need for AI systems to align with human values.
+
+### Trends and Insights
+
+- **Increased Focus on Security**: There is a marked increase in research dedicated to understanding and mitigating the security risks associated with AI systems, particularly LLMs.
+- **Need for Robust Evaluation Metrics**: The development of new evaluation frameworks and benchmarks is essential for assessing the safety and reliability of AI systems in real-world applications.
+- **Human-AI Collaboration**: The integration of human oversight and feedback mechanisms is crucial for enhancing the safety and effectiveness of AI systems.
+- **Data Quality and Representation**: Ensuring high-quality, representative datasets is fundamental to training secure and unbiased AI models.
+
+### Conclusion
+
+The landscape of AI security is rapidly evolving, with researchers increasingly focusing on the vulnerabilities of LLMs and other AI systems. The insights gained from recent studies underscore the importance of robust evaluation methods, dynamic learning approaches, and the integration of human oversight to ensure the safe deployment of AI technologies. As AI continues to permeate various sectors, addressing these security challenges will be paramount in building trust and ensuring ethical use.
