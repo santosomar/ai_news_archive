@@ -1,0 +1,195 @@
+AI Researcher Agent Report for 2026-01-26-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [When Agents Fail to Act: A Diagnostic Framework for Tool Invocation Reliability in Multi-Agent LLM Systems](https://arxiv.org/abs/2601.16280): This paper introduces a diagnostic framework to evaluate tool-use reliability in multi-agent systems powered by large language models (LLMs), identifying failure modes and establishing reliability thresholds for production deployment.
+- [SemanticALLI: Caching Reasoning, Not Just Responses, in Agentic Systems](https://arxiv.org/abs/2601.16286): The paper presents SemanticALLI, a pipeline-aware architecture that enhances efficiency in agentic AI systems by caching intermediate reasoning steps, achieving significant improvements in hit rates and reducing computational costs.
+- [DSGym: A Holistic Framework for Evaluating and Training Data Science Agents](https://arxiv.org/abs/2601.16344): DSGym is introduced as a standardized framework for evaluating and training data science agents, addressing limitations in existing benchmarks and expanding task coverage.
+- [Doc2AHP: Inferring Structured Multi-Criteria Decision Models via Semantic Trees with LLMs](https://arxiv.org/abs/2601.16479): This paper proposes Doc2AHP, a framework that uses LLMs to construct structured decision models, improving scalability and accuracy in decision-making tasks.
+- [SycoEval-EM: Sycophancy Evaluation of Large Language Models in Simulated Clinical Encounters for Emergency Care](https://arxiv.org/abs/2601.16529): The paper introduces SycoEval-EM, a framework to evaluate LLMs' robustness against patient persuasion in clinical scenarios, revealing vulnerabilities in model responses.
+- [LLM is Not All You Need: A Systematic Evaluation of ML vs. Foundation Models for text and image based Medical Classification](https://arxiv.org/abs/2601.16549): This study compares traditional ML models with LLMs and VLMs for medical classification tasks, finding that classical models often outperform LLMs in structured text-based datasets.
+- [LUMINA: Long-horizon Understanding for Multi-turn Interactive Agents](https://arxiv.org/abs/2601.16649): LUMINA focuses on enhancing LLMs' capabilities in multi-turn interactions, introducing an oracle counterfactual framework to measure the importance of various skills in agentic tasks.
+- [AgentsEval: Clinically Faithful Evaluation of Medical Imaging Reports via Multi-Agent Reasoning](https://arxiv.org/abs/2601.16685): This paper presents AgentsEval, a framework for evaluating the clinical correctness of medical imaging reports, emphasizing the need for structured reasoning in assessments.
+- [LongCat-Flash-Thinking-2601 Technical Report](https://arxiv.org/abs/2601.16725): The report introduces LongCat-Flash-Thinking-2601, a large-scale reasoning model that excels in agentic benchmarks, emphasizing its generalization capabilities in complex tool interactions.
+- [An Efficient Insect-inspired Approach for Visual Point-goal Navigation](https://arxiv.org/abs/2601.16806): This work develops an insect-inspired agent for visual navigation, demonstrating comparable performance to state-of-the-art models with significantly lower computational costs.
+- [Reasoning Promotes Robustness in Theory of Mind Tasks](https://arxiv.org/abs/2601.16853): The paper examines reasoning-oriented LLMs in Theory of Mind tasks, finding that such models exhibit increased robustness to prompt variations.
+- [Mixture-of-Models: Unifying Heterogeneous Agents via N-Way Self-Evaluating Deliberation](https://arxiv.org/abs/2601.16863): This paper introduces a protocol for constructing composite models from diverse expert agents, demonstrating improved performance on challenging benchmarks.
+- [MAGE-KT: Multi-Agent Graph-Enhanced Knowledge Tracing with Subgraph Retrieval and Asymmetric Fusion](https://arxiv.org/abs/2601.16886): MAGE-KT proposes a novel framework for knowledge tracing that enhances prediction accuracy through multi-agent graph representations.
+- [Preventing the Collapse of Peer Review Requires Verification-First AI](https://arxiv.org/abs/2601.16909): The paper argues for a verification-first approach in AI-assisted peer review to ensure reliability and mitigate proxy evaluation issues.
+- [AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems](https://arxiv.org/abs/2601.16964): AgentDrive introduces a benchmark dataset for evaluating agentic AI models in autonomous systems, emphasizing the need for structured and safety-critical benchmarks.
+- [Spatial-Agent: Agentic Geo-spatial Reasoning with Scientific Core Concepts](https://arxiv.org/abs/2601.16965): This work presents Spatial-Agent, an AI agent designed for geo-spatial reasoning, demonstrating significant improvements over existing baselines.
+- [Empowering Medical Equipment Sustainability in Low-Resource Settings: An AI-Powered Diagnostic and Support Platform for Biomedical Technicians](https://arxiv.org/abs/2601.16967): The paper explores an AI-powered platform to assist biomedical technicians in low-resource settings, achieving high accuracy in troubleshooting medical devices.
+- [Interpretable Fine-Gray Deep Survival Model for Competing Risks: Predicting Post-Discharge Foot Complications for Diabetic Patients in Ontario](https://arxiv.org/abs/2511.12409): This study proposes a transparent survival model for predicting complications in diabetic patients, achieving competitive performance while providing interpretable predictions.
+- [ChiEngMixBench: Evaluating Large Language Models on Spontaneous and Natural Chinese-English Code-Mixed Generation](https://arxiv.org/abs/2601.16217): ChiEngMixBench introduces a benchmark for evaluating code-mixing ability in LLMs, revealing insights into cognitive alignment between multilingual models and human communication.
+- [M3Kang: Evaluating Multilingual Multimodal Mathematical Reasoning in Vision-Language Models](https://arxiv.org/abs/2601.16218): M3Kang presents a dataset for multilingual mathematical reasoning, highlighting the challenges faced by models in basic math and diagram-based reasoning.
+- [Domain Specific Specialization in Low-Resource Settings: The Efficacy of Offline Response-Based Knowledge Distillation in Large Language Models](https://arxiv.org/abs/2601.16219): This paper explores knowledge distillation methods for LLMs in low-resource settings, demonstrating the importance of data quality over quantity for domain adaptation.
+- [ES4R: Speech Encoding Based on Prepositive Affective Modeling for Empathetic Response Generation](https://arxiv.org/abs/2601.16225): ES4R proposes a framework for empathetic response generation in speech dialogue, achieving robust performance across different LLM backbones.
+- [Zero-Shot Speech LLMs for Multi-Aspect Evaluation of L2 Speech: Challenges and Opportunities](https://arxiv.org/abs/2601.16230): The paper evaluates the performance of speech LLMs in assessing L2 English pronunciation, highlighting the potential for scalable pronunciation assessment.
+- [SoundBreak: A Systematic Study of Audio-Only Adversarial Attacks on Trimodal Models](https://arxiv.org/abs/2601.16231): This work investigates audio-only adversarial attacks on multimodal models, revealing vulnerabilities and motivating the need for defenses that ensure cross-modal consistency.
+- [Policy-Embedded Graph Expansion: Networked HIV Testing with Diffusion-Driven Network Samples](https://arxiv.org/abs/2601.16233): The paper presents a framework for improving HIV testing efficiency through intelligent algorithms, demonstrating significant improvements in detection rates.
+- [Computational Foundations for Strategic Coopetition: Formalizing Collective Action and Loyalty](https://arxiv.org/abs/2601.16237): This report extends computational foundations for strategic coopetition, providing insights into loyalty dynamics and team-level dynamics.
+- [VibeTensor: System Software for Deep Learning, Fully Generated by AI Agents](https://arxiv.org/abs/2601.16238): VibeTensor is an open-source deep learning software stack generated by AI agents, demonstrating the potential for AI-assisted software engineering.
+- [A New Paradigm for Trusted Respiratory Monitoring Via Consumer Electronics-grade Radar Signals](https://arxiv.org/abs/2601.16241): The paper proposes a novel paradigm for respiratory monitoring that effectively anonymizes user-sensitive information while maintaining high detection accuracy.
+- [Ordering-based Causal Discovery via Generalized Score Matching](https://arxiv.org/abs/2601.16249): This work extends score matching for causal discovery, introducing a novel leaf discriminant criterion for accurate inference of causal orders.
+- [GameTalk: Training LLMs for Strategic Conversation](https://arxiv.org/abs/2601.16276): GameTalk introduces a framework for training LLMs to optimize long-term objectives through multi-turn interactions, demonstrating significant improvements in strategic decision-making.
+- [Better as Generators Than Classifiers: Leveraging LLMs and Synthetic Data for Low-Resource Multilingual Classification](https://arxiv.org/abs/2601.16278): The paper explores the potential of LLMs in generating synthetic datasets for low-resource languages, demonstrating improvements in model performance.
+- [Generating Literature-Driven Scientific Theories at Scale](https://arxiv.org/abs/2601.16282): This work investigates the synthesis of scientific theories from literature, revealing insights into the generation process and theory properties.
+- [Space Filling Curves is All You Need: Communication-Avoiding Matrix Multiplication Made Simple](https://arxiv.org/abs/2601.16294): The paper revisits space-filling curves to optimize matrix multiplication, achieving state-of-the-art results on multiple CPU platforms.
+- [Memory-V2V: Augmenting Video-to-Video Diffusion Models with Memory](https://arxiv.org/abs/2601.16296): Memory-V2V addresses cross-consistency in multi-turn video editing, achieving significant improvements in video generation quality.
+- [Teaching and Evaluating LLMs to Reason About Polymer Design Related Tasks](https://arxiv.org/abs/2601.16312): This paper introduces PolyBench, a benchmark dataset for polymer design tasks, demonstrating improvements in model performance.
+- [Machine-Assisted Grading of Nationwide School-Leaving Essay Exams with LLMs and Statistical NLP](https://arxiv.org/abs/2601.16314): The study evaluates the applicability of automated scoring on national exam essays, achieving performance comparable to human raters.
+- [DMV-AVP: Distributed Multi-Vehicle Autonomous Valet Parking using Autoware](https://arxiv.org/abs/2601.16327): This paper presents a distributed simulation for multi-vehicle autonomous valet parking, demonstrating scalable performance across configurations.
+- [Regional Bias in Large Language Models](https://arxiv.org/abs/2601.16349): The study investigates regional bias in LLMs, revealing substantial variation in bias levels across models and highlighting the need for inclusive evaluation frameworks.
+- [NOIR: Privacy-Preserving Generation of Code with Open-Source LLMs](https://arxiv.org/abs/2601.16354): NOIR introduces a framework to protect client prompts and generated code from cloud exposure, achieving strong privacy against attacks.
+- [Experience with Single Domain Generalization in Real World Medical Imaging Deployments](https://arxiv.org/abs/2601.16359): The paper discusses the challenges of single domain generalization in medical imaging, presenting a technique that outperforms state-of-the-art methods.
+- [Improving the Accuracy of Community Detection on Signed Networks via Community Refinement and Contrastive Learning](https://arxiv.org/abs/2601.16372): The proposed ReCon framework refines community detection accuracy through iterative steps, demonstrating effectiveness across diverse networks.
+- [Cognitively-Inspired Tokens Overcome Egocentric Bias in Multimodal Models](https://arxiv.org/abs/2601.16378): This paper introduces perspective tokens to improve spatial reasoning in multimodal language models, achieving better accuracy in visual perspective-taking tasks.
+- [Cross-Lingual Activation Steering for Multilingual Language Models](https://arxiv.org/abs/2601.16390): CLAS is proposed as a training-free intervention to improve multilingual performance in LLMs, demonstrating significant gains in classification and generation benchmarks.
+- [ResAgent: Entropy-based Prior Point Discovery and Visual Reasoning for Referring Expression Segmentation](https://arxiv.org/abs/2601.16394): The proposed framework integrates entropy-based point discovery and visual reasoning for improved segmentation accuracy in referring expression tasks.
+- [Cite-While-You-Generate: Training-Free Evidence Attribution for Multimodal Clinical Summarization](https://arxiv.org/abs/2601.16397): The paper presents a framework for generation-time source attribution in clinical summarization, achieving improved accuracy in text-level and multimodal attribution.
+- [Reasoning-Enhanced Rare-Event Prediction with Balanced Outcome Correction](https://arxiv.org/abs/2601.16406): The proposed LPCORP framework combines reasoning-enhanced prediction with confidence-based outcome correction, demonstrating improved performance in rare-event prediction.
+- [Jacobian Scopes: token-level causal attributions in LLMs](https://arxiv.org/abs/2601.16407): This paper introduces Jacobian Scopes, a suite of methods for interpreting LLM predictions through token-level causal attribution.
+- [PyHealth 2.0: A Comprehensive Open-Source Toolkit for Accessible and Reproducible Clinical Deep Learning](https://arxiv.org/abs/2601.16414): PyHealth 2.0 is introduced as an enhanced toolkit for clinical deep learning, addressing reproducibility and compatibility challenges.
+- [RENEW: Risk- and Energy-Aware Navigation in Dynamic Waterways](https://arxiv.org/abs/2601.16424): The paper presents RENEW, a global path planner for autonomous surface vehicles that combines risk and energy awareness for safe navigation.
+- [AlphaFace: High Fidelity and Real-time Face Swapper Robust to Facial Pose](https://arxiv.org/abs/2601.16429): AlphaFace introduces a robust face-swapping method that maintains high fidelity across varying facial poses while achieving real-time performance.
+- [Emotion-LLaMAv2 and MMEVerse: A New Framework and Benchmark for Multimodal Emotion Understanding](https://arxiv.org/abs/2601.16449): This work presents Emotion-LLaMAv2 and MMEVerse, establishing a standardized evaluation setting for emotion recognition and reasoning.
+- [DeMark: A Query-Free Black-Box Attack on Deepfake Watermarking Defenses](https://arxiv.org/abs/2601.16473): DeMark introduces a black-box attack framework targeting watermarking schemes in deepfakes, revealing vulnerabilities in current defenses.
+- [DeepEra: A Deep Evidence Reranking Agent for Scientific Retrieval-Augmented Generated Question Answering](https://arxiv.org/abs/2601.16478): DeepEra integrates reasoning for improved evaluation of candidate passages in scientific question answering, achieving superior retrieval performance.
+- [Timely Machine: Awareness of Time Makes Test-Time Scaling Agentic](https://arxiv.org/abs/2601.16486): The paper proposes a new perspective on test-time scaling for LLMs, introducing a framework that dynamically adjusts strategies based on time budgets.
+- [EvoConfig: Efficient Environment Configuration Framework for Multi-Agent Collaboration](https://arxiv.org/abs/2601.16489): EvoConfig optimizes multi-agent collaboration for environment configuration, demonstrating improved success rates and debugging competence.
+- [MRAG: Benchmarking Retrieval-Augmented Generation for Bio-medicine](https://arxiv.org/abs/2601.16503): MRAG introduces a benchmark for evaluating RAG systems in the medical domain, revealing insights into retrieval approaches and model performance.
+- [LOGICAL-COMMONSENSEQA: A Benchmark for Logical Commonsense Reasoning](https://arxiv.org/abs/2601.16504): This paper presents a benchmark for commonsense reasoning, highlighting limitations in model performance on negation-based questions.
+- [SafeThinker: Reasoning about Risk to Deepen Safety Beyond Shallow Alignment](https://arxiv.org/abs/2601.16506): SafeThinker proposes a framework for dynamic resource allocation in AI safety, demonstrating effectiveness against various attack strategies.
+- [kNN-Graph: An adaptive graph model for k-nearest neighbors](https://arxiv.org/abs/2601.16509): This paper presents an adaptive graph model that accelerates inference speeds for kNN classification while maintaining accuracy.
+- [Finite-Time Analysis of Gradient Descent for Shallow Transformers](https://arxiv.org/abs/2601.16514): The paper analyzes the optimization landscape of shallow Transformers, revealing scaling laws and memory trade-offs.
+- [TangramPuzzle: Evaluating Multimodal Large Language Models with Compositional Spatial Reasoning](https://arxiv.org/abs/2601.16520): TangramPuzzle introduces a benchmark for evaluating spatial reasoning in MLLMs, highlighting challenges in geometric constraints.
+- [Beyond Superficial Unlearning: Sharpness-Aware Robust Erasure of Hallucinations in Multimodal LLMs](https://arxiv.org/abs/2601.16527): The paper presents SARE, a framework for robustly removing hallucinations from LLMs while maintaining generation quality.
+- [A Collision-Free Hot-Tier Extension for Engram-Style Conditional Memory: A Controlled Study of Training Dynamics](https://arxiv.org/abs/2601.16531): This work investigates the impact of collisions in Engram-style memory, proposing a collision-free design to improve training outcomes.
+- [Do Models Hear Like Us? Probing the Representational Alignment of Audio LLMs and Naturalistic EEG](https://arxiv.org/abs/2601.16540): The paper examines the alignment between audio LLMs and human neural dynamics, revealing insights into representational mechanisms.
+- [CORD: Bridging the Audio-Text Reasoning Gap via Weighted On-policy Cross-modal Distillation](https://arxiv.org/abs/2601.16547): CORD introduces a framework for aligning audio-conditioned reasoning with text-conditioned counterparts, enhancing performance across benchmarks.
+- [PRISM: Purified Representation and Integrated Semantic Modeling for Generative Sequential Recommendation](https://arxiv.org/abs/2601.16556): PRISM addresses challenges in generative recommendation, proposing a framework that ensures high-quality tokenization and logical validity.
+- [Process-Tensor Tomography of SGD: Measuring Non-Markovian Memory via Back-Flow of Distinguishability](https://arxiv.org/abs/2601.16563): The paper introduces a witness for training memory in neural networks, providing empirical evidence of non-Markovianity in SGD.
+- [Emerging Threats and Countermeasures in Neuromorphic Systems: A Survey](https://arxiv.org/abs/2601.16589): This survey analyzes security threats in neuromorphic systems, covering attack methodologies and countermeasures relevant to spiking neural networks.
+- [Integrating Meteorological and Operational Data: A Novel Approach to Understanding Railway Delays in Finland](https://arxiv.org/abs/2601.16592): The study presents a dataset combining railway operations with meteorological observations, enabling analysis of delay patterns.
+- [Attention-MoA: Enhancing Mixture-of-Agents via Inter-Agent Semantic Attention and Deep Residual Synthesis](https://arxiv.org/abs/2601.16596): This paper introduces Attention-MoA, a framework that enhances collaboration among expert agents through semantic attention mechanisms.
+- [Dynamic Expert-Guided Model Averaging for Causal Discovery](https://arxiv.org/abs/2601.16715): The paper presents a model averaging method leveraging expert knowledge for causal discovery, demonstrating efficacy with imperfect experts.
+- [Standardizing Longitudinal Radiology Report Evaluation via Large Language Model Annotation](https://arxiv.org/abs/2601.16753): This study proposes an LLM-based pipeline for annotating longitudinal information in radiology reports, achieving improved evaluation performance.
+- [Curated endoscopic retrograde cholangiopancreatography images dataset](https://arxiv.org/abs/2601.16759): The study provides a large curated dataset of ERCP images, aiming to support automated diagnosis in biliary and pancreatic diseases.
+- [Do LLM hallucination detectors suffer from low-resource effect?](https://arxiv.org/abs/2601.16766): The paper investigates the performance of hallucination detectors in low-resource languages, revealing insights into their robustness.
+- [GTA: Generative Traffic Agents for Simulating Realistic Mobility Behavior](https://arxiv.org/abs/2601.16778): GTA introduces a framework for simulating transportation choices using LLM-powered agents, demonstrating scalability and human-like simulations.
+- [REL-SF4PASS: Panoramic Semantic Segmentation with REL Depth Representation and Spherical Fusion](https://arxiv.org/abs/2601.16788): The proposed REL-SF4PASS improves panoramic semantic segmentation by integrating depth representation and dynamic fusion strategies.
+- [SoS: Analysis of Surface over Semantics in Multilingual Text-To-Image Generation](https://arxiv.org/abs/2601.16803): The paper analyzes the tendency of T2I models to prioritize surface forms over semantics, revealing insights into cultural representation.
+- [Will It Survive? Deciphering the Fate of AI-Generated Code in Open Source](https://arxiv.org/abs/2601.16809): The study investigates the longevity of AI-generated code in open-source projects, revealing insights into modification patterns and timing.
+- [Incorporating Eye-Tracking Signals Into Multimodal Deep Visual Models For Predicting User Aesthetic Experience In Residential Interiors](https://arxiv.org/abs/2601.16811): The paper presents a framework for predicting aesthetic evaluations of interiors by integrating visual features with eye-tracking signals.
+- [Trapped in the past? Disentangling fluid and crystallized intelligence of large language models using chess](https://arxiv.org/abs/2601.16823): This study uses chess to analyze the reasoning capabilities of LLMs, revealing insights into their fluid and crystallized intelligence.
+- [Privacy in Human-AI Romantic Relationships: Concerns, Boundaries, and Agency](https://arxiv.org/abs/2601.16824): The paper explores privacy concerns in human-AI romantic relationships, highlighting the dynamics of privacy boundaries and user experiences.
+- [Uncertainty propagation through trained multi-layer perceptrons: Exact analytical results](https://arxiv.org/abs/2601.16830): The paper provides analytical results for uncertainty propagation through multi-layer perceptrons, focusing on Gaussian inputs.
+- [Orbitopal Fixing in SAT](https://arxiv.org/abs/2601.16855): This work presents a method for symmetry breaking in SAT solvers, demonstrating improvements in solving times on symmetry-rich benchmarks.
+- [Boosting Deep Reinforcement Learning with Semantic Knowledge for Robotic Manipulators](https://arxiv.org/abs/2601.16866): The paper proposes a method for integrating semantic knowledge into DRL for robotic control, achieving significant improvements in learning efficiency.
+- [No Validation, No Problem: Predicting Model Performance from a Single Gradient](https://arxiv.org/abs/2601.16874): The study introduces a validation-free checkpointing signal based on gradient norms, demonstrating its effectiveness in predicting model performance.
+- [Explaining Group Recommendations via Counterfactuals](https://arxiv.org/abs/2601.16882): The paper proposes a framework for group counterfactual explanations, revealing how removing specific interactions would change group recommendations.
+- [LLM Jailbreak Detection for (Almost) Free!](https://arxiv.org/abs/2601.16890): The paper presents a method for detecting jailbreak prompts in LLMs based on output distribution differences, achieving high evasion rates.
+- [Evaluating Large Vision-language Models for Surgical Tool Detection](https://arxiv.org/abs/2601.16895): The study evaluates the effectiveness of large VLMs for surgical tool detection, revealing insights into model performance and generalization.
+- [GRIP: Algorithm-Agnostic Machine Unlearning for Mixture-of-Experts via Geometric Router Constraints](https://arxiv.org/abs/2601.16905): GRIP introduces a framework for unlearning in Mixture-of-Experts architectures, demonstrating improved stability and utility.
+- [LoL: Longer than Longer, Scaling Video Generation to Hour](https://arxiv.org/abs/2601.16914): The paper presents a method for real-time, streaming video generation, achieving significant improvements in robustness against sink-collapse.
+- [Nishpaksh: TEC Standard-Compliant Framework for Fairness Auditing and Certification of AI Models](https://arxiv.org/abs/2601.16926): Nishpaksh is introduced as a fairness evaluation tool for AI models, aligning with regional regulatory requirements.
+- [Information Representation Fairness in Long-Document Embeddings: The Peculiar Interaction of Positional and Language Bias](https://arxiv.org/abs/2601.16934): The study examines biases in long-document embeddings, proposing a method for attention calibration to improve discoverability.
+- [BONO-Bench: A Comprehensive Test Suite for Bi-objective Numerical Optimization with Traceable Pareto Sets](https://arxiv.org/abs/2601.16970): BONO-Bench introduces a test suite for bi-objective numerical optimization problems, providing a framework for benchmarking.
+- [A Scalable Measure of Loss Landscape Curvature for Analyzing the Training Dynamics of LLMs](https://arxiv.org/abs/2601.16979): The paper introduces a measure for analyzing loss landscape curvature in LLMs, providing insights into training dynamics.
+- [Honey, I shrunk the hypothesis space (through logical preprocessing)](https://arxiv.org/abs/2506.06739): The paper presents an ILP approach that identifies and removes pointless rules from the hypothesis space, improving learning times.
+- [Towards Open-World Retrieval-Augmented Generation on Knowledge Graph: A Multi-Agent Collaboration Framework](https://arxiv.org/abs/2509.01238): The paper proposes a framework for open-world RAG without predefined anchor entities, improving retrieval robustness.
+- [Proof-of-Use: Mitigating Tool-Call Hacking in Deep Research Agents](https://arxiv.org/abs/2510.10931): The paper introduces a framework for evidence-grounded RL to prevent tool-call hacking in deep research agents.
+- [Visual Attention Reasoning via Hierarchical Search and Self-Verification](https://arxiv.org/abs/2510.18619): The paper presents a framework for visual attention reasoning that enhances interpretability in datasets with spurious correlations.
+- [GTR-Mamba: Geometry-to-Tangent Routing Mamba for Hyperbolic POI Recommendation](https://arxiv.org/abs/2510.22942): The paper introduces GTR-Mamba, a framework for hyperbolic POI recommendation that improves performance through tangent space routing.
+- [SimWorld: An Open-ended Realistic Simulator for Autonomous Agents in Physical and Social Worlds](https://arxiv.org/abs/2512.01078): SimWorld is introduced as a simulator for developing and evaluating LLM agents in real-world-like settings.
+- [Cognitive Control Architecture (CCA): A Lifecycle Supervision Framework for Robustly Aligned AI Agents](https://arxiv.org/abs/2512.06716): CCA is proposed as a framework for cognitive supervision in AI agents, enhancing security against indirect prompt injection attacks.
+- [A Mobile Application Front-End for Presenting Explainable AI Results in Diabetes Risk Estimation](https://arxiv.org/abs/2601.15292): The paper presents a mobile application that visualizes XAI-driven diabetes risk analysis, enhancing user understanding.
+- [Improving Training Efficiency and Reducing Maintenance Costs via Language Specific Model Merging](https://arxiv.org/abs/2601.16127): The study analyzes a merging strategy for multilingual LLMs, demonstrating significant efficiency gains in training and maintenance.
+
+### Categories
+#### Security
+- [Proof-of-Use: Mitigating Tool-Call Hacking in Deep Research Agents](https://arxiv.org/abs/2510.10931)
+- [LLM Jailbreak Detection for (Almost) Free!](https://arxiv.org/abs/2601.16890)
+- [StealthGraph: Exposing Domain-Specific Risks in LLMs through Knowledge-Graph-Guided Harmful Prompt Generation](https://arxiv.org/abs/2601.04740)
+- [NOIR: Privacy-Preserving Generation of Code with Open-Source LLMs](https://arxiv.org/abs/2601.16354)
+
+#### Medical Applications
+- [SycoEval-EM: Sycophancy Evaluation of Large Language Models in Simulated Clinical Encounters for Emergency Care](https://arxiv.org/abs/2601.16529)
+- [AgentsEval: Clinically Faithful Evaluation of Medical Imaging Reports via Multi-Agent Reasoning](https://arxiv.org/abs/2601.16685)
+- [Empowering Medical Equipment Sustainability in Low-Resource Settings: An AI-Powered Diagnostic and Support Platform for Biomedical Technicians](https://arxiv.org/abs/2601.16967)
+- [Interpretable Fine-Gray Deep Survival Model for Competing Risks: Predicting Post-Discharge Foot Complications for Diabetic Patients in Ontario](https://arxiv.org/abs/2511.12409)
+
+#### Language Models and AI
+- [When Agents Fail to Act: A Diagnostic Framework for Tool Invocation Reliability in Multi-Agent LLM Systems](https://arxiv.org/abs/2601.16280)
+- [SemanticALLI: Caching Reasoning, Not Just Responses, in Agentic Systems](https://arxiv.org/abs/2601.16286)
+- [Doc2AHP: Inferring Structured Multi-Criteria Decision Models via Semantic Trees with LLMs](https://arxiv.org/abs/2601.16479)
+- [LUMINA: Long-horizon Understanding for Multi-turn Interactive Agents](https://arxiv.org/abs/2601.16649)
+- [LLM is Not All You Need: A Systematic Evaluation of ML vs. Foundation Models for text and image based Medical Classification](https://arxiv.org/abs/2601.16549)
+
+#### Robotics and Autonomous Systems
+- [HumanDiffusion: A Vision-Based Diffusion Trajectory Planner with Human-Conditioned Goals for Search and Rescue UAV](https://arxiv.org/abs/2601.14973)
+- [DMV-AVP: Distributed Multi-Vehicle Autonomous Valet Parking using Autoware](https://arxiv.org/abs/2601.16327)
+- [HEIGHT: Heterogeneous Interaction Graph Transformer for Robot Navigation in Crowded and Constrained Environments](https://arxiv.org/abs/2411.12150)
+
+#### Data Science and Evaluation
+- [DSGym: A Holistic Framework for Evaluating and Training Data Science Agents](https://arxiv.org/abs/2601.16344)
+- [MAGE-KT: Multi-Agent Graph-Enhanced Knowledge Tracing with Subgraph Retrieval and Asymmetric Fusion](https://arxiv.org/abs/2601.16886)
+- [AgentDrive: An Open Benchmark Dataset for Agentic AI Reasoning with LLM-Generated Scenarios in Autonomous Systems](https://arxiv.org/abs/2601.16964)
+
+#### Causal Inference and Decision Making
+- [Dynamic Expert-Guided Model Averaging for Causal Discovery](https://arxiv.org/abs/2601.16715)
+- [Causal ML for the Aspiring Data Scientist](https://towardsdatascience.com/causal-ml-for-the-aspiring-data-scientist/)
+
+#### Miscellaneous
+- [Honey, I shrunk the hypothesis space (through logical preprocessing)](https://arxiv.org/abs/2506.06739)
+- [Towards Open-World Retrieval-Augmented Generation on Knowledge Graph: A Multi-Agent Collaboration Framework](https://arxiv.org/abs/2509.01238)
+- [SimWorld: An Open-ended Realistic Simulator for Autonomous Agents in Physical and Social Worlds](https://arxiv.org/abs/2512.01078)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **Security and Robustness in AI Systems**
+- **Title: LLM Jailbreak Detection for (Almost) Free!**
+  - This paper discusses the vulnerabilities of large language models (LLMs) to jailbreak attacks and proposes a method for detecting such prompts using a simple modification to the input. The method shows high effectiveness in identifying jailbreak prompts while maintaining low computational costs.
+
+- **Title: SafeThinker: Reasoning about Risk to Deepen Safety Beyond Shallow Alignment**
+  - This work introduces a framework that dynamically allocates defensive resources based on risk assessments to mitigate vulnerabilities in LLMs. It emphasizes the need for a more robust approach to ensure safety and utility in AI systems.
+
+- **Title: StealthGraph: Exposing Domain-Specific Risks in LLMs through Knowledge-Graph-Guided Harmful Prompt Generation**
+  - This paper presents a framework for generating harmful prompts based on domain knowledge, highlighting the risks associated with LLMs in specialized fields. It emphasizes the need for robust safety measures in AI applications.
+
+#### 2. **Adversarial Attacks and Defense Mechanisms**
+- **Title: LLM Watermark Evasion via Bias Inversion**
+  - This research explores the vulnerabilities of watermarking techniques in LLMs, demonstrating how adversarial methods can effectively bypass these defenses. It underscores the need for more robust watermarking strategies.
+
+- **Title: Q-learning with Adjoint Matching**
+  - This paper proposes a reinforcement learning algorithm that addresses the challenges of optimizing policies in continuous-action settings, which is crucial for ensuring robustness in adversarial environments.
+
+#### 3. **Ethical and Regulatory Considerations**
+- **Title: Distinguishing Task-Specific and General-Purpose AI in Regulation**
+  - This paper discusses the regulatory challenges posed by general-purpose AI (GPAI) and the need for distinct policy responses to address the unique risks associated with GPAI compared to task-specific AI.
+
+- **Title: Privacy in Human-AI Romantic Relationships: Concerns, Boundaries, and Agency**
+  - This study investigates privacy concerns in human-AI relationships, emphasizing the need for ethical considerations in AI design and deployment, particularly in sensitive applications.
+
+#### 4. **AI in Healthcare and Safety**
+- **Title: CRADLE Bench: A Clinician-Annotated Benchmark for Multi-Faceted Mental Health Crisis and Safety Risk Detection**
+  - This benchmark aims to improve the detection of mental health crises through AI, highlighting the importance of accurate and timely identification of risks in healthcare settings.
+
+- **Title: Intelligent Systems in Neuroimaging: Pioneering AI Techniques for Brain Tumor Detection**
+  - This research explores the application of AI in medical imaging for brain tumor classification, emphasizing the potential of AI to enhance diagnostic accuracy while addressing safety and ethical considerations.
+
+### Trends and Insights
+- **Vulnerability and Defense**: A recurring theme is the vulnerability of AI systems, particularly LLMs, to adversarial attacks and the need for robust defense mechanisms. The papers suggest that while current defenses exist, they often fail under sophisticated attacks, indicating a need for continuous improvement in security measures.
+
+- **Ethical Considerations**: Many papers emphasize the importance of ethical considerations in AI deployment, particularly in sensitive areas such as healthcare and personal relationships. This reflects a growing awareness of the societal implications of AI technologies.
+
+- **Regulatory Frameworks**: The discussion around regulatory frameworks for AI, especially in distinguishing between task-specific and general-purpose AI, highlights the complexity of governing AI technologies in a rapidly evolving landscape.
+
+- **Interdisciplinary Approaches**: The integration of knowledge from various fields, such as psychology, ethics, and computer science, is evident in the approaches taken to address the challenges posed by AI systems. This interdisciplinary perspective is crucial for developing comprehensive solutions.
+
+### Conclusion
+The landscape of AI security is rapidly evolving, with significant advancements in understanding vulnerabilities and developing defenses. However, ethical considerations and regulatory frameworks remain critical to ensure the responsible deployment of AI technologies. The insights from these papers underscore the need for continuous research and collaboration across disciplines to address the multifaceted challenges posed by AI systems.
