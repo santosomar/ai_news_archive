@@ -1,0 +1,1930 @@
+AI Researcher Agent Report for 2026-01-29-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [NeuroAI and Beyond](https://arxiv.org/abs/2601.19955): This paper discusses the intersection of neuroscience and AI, proposing the development of NeuroAI, which aims to improve AI algorithms by incorporating insights from neuroscience. It includes SWOT analyses and personal statements from researchers.
+- [Teaching LLMs to Ask: Self-Querying Category-Theoretic Planning for Under-Specified Reasoning](https://arxiv.org/abs/2601.20014): Introduces Self-Querying Bidirectional Categorical Planning (SQ-BCP) to enhance LLMs' reasoning under partial observability, demonstrating significant reductions in resource-violation rates.
+- [Fuzzy Categorical Planning: Autonomous Goal Satisfaction with Graded Semantic Constraints](https://arxiv.org/abs/2601.20021): Proposes Fuzzy Category-theoretic Planning (FCP) to handle vague predicates in natural language planning, improving success rates in various benchmarks.
+- [Insight Agents: An LLM-Based Multi-Agent System for Data Insights](https://arxiv.org/abs/2601.20048): Describes a multi-agent system designed to assist e-commerce sellers in data insights, achieving high accuracy and low latency in information retrieval.
+- [Should I Have Expressed a Different Intent? Counterfactual Generation for LLM-Based Autonomous Control](https://arxiv.org/abs/2601.20090): Introduces a framework for counterfactual reasoning in LLM-driven control scenarios, showcasing significant advantages in a wireless network control use case.
+- [Towards Intelligent Urban Park Development Monitoring: LLM Agents for Multi-Modal Information Fusion and Analysis](https://arxiv.org/abs/2601.20206): Proposes a multi-modal LLM agent framework for urban park monitoring, enhancing analysis capabilities through semantic understanding.
+- [Scaling Medical Reasoning Verification via Tool-Integrated Reinforcement Learning](https://arxiv.org/abs/2601.20221): Presents a framework for verifying medical reasoning in LLMs, achieving substantial accuracy improvements across benchmarks.
+- [Endogenous Reprompting: Self-Evolving Cognitive Alignment for Unified Multimodal Models](https://arxiv.org/abs/2601.20305): Introduces a mechanism for enhancing generative reasoning in unified multimodal models, demonstrating improved evaluation accuracy and generation quality.
+- [ECG-Agent: On-Device Tool-Calling Agent for ECG Multi-Turn Dialogue](https://arxiv.org/abs/2601.20323): Describes a tool-calling agent for ECG dialogue, outperforming existing models in accuracy and tool-calling ability.
+- [AMA: Adaptive Memory via Multi-Agent Collaboration](https://arxiv.org/abs/2601.20352): Proposes a memory management framework for LLM agents, significantly improving long-term memory consistency and retrieval precision.
+- [Policy of Thoughts: Scaling LLM Reasoning via Test-time Policy Evolution](https://arxiv.org/abs/2601.20379): Introduces a framework for real-time policy evolution in LLMs, achieving dramatic performance boosts in reasoning tasks.
+- [OmegaUse: Building a General-Purpose GUI Agent for Autonomous Task Execution](https://arxiv.org/abs/2601.20380): Presents a GUI agent model for task execution, achieving state-of-the-art performance across benchmarks.
+- [CtrlCoT: Dual-Granularity Chain-of-Thought Compression for Controllable Reasoning](https://arxiv.org/abs/2601.20467): Proposes a framework for compressing chain-of-thought reasoning in LLMs, demonstrating improved efficiency and reliability.
+- [Normative Equivalence in human-AI Cooperation: Behaviour, Not Identity, Drives Cooperation in Mixed-Agent Groups](https://arxiv.org/abs/2601.20487): Explores cooperation dynamics in human-AI groups, finding that behavior drives cooperation more than identity.
+- [PathWise: Planning through World Model for Automated Heuristic Design via Self-Evolving LLMs](https://arxiv.org/abs/2601.20539): Introduces a framework for heuristic generation in combinatorial optimization, demonstrating improved convergence and generalization.
+- [Online Risk-Averse Planning in POMDPs Using Iterated CVaR Value Function](https://arxiv.org/abs/2601.20554): Develops a risk-sensitive planning algorithm for POMDPs, achieving lower tail risk compared to risk-neutral counterparts.
+- [Dialogical Reasoning Across AI Architectures: A Multi-Model Framework for Testing AI Alignment Strategies](https://arxiv.org/abs/2601.20604): Proposes a framework for testing AI alignment strategies through structured dialogue among different AI systems.
+- [Harder Is Better: Boosting Mathematical Reasoning via Difficulty-Aware GRPO and Multi-Aspect Question Reformulation](https://arxiv.org/abs/2601.20614): Introduces a framework for enhancing mathematical reasoning in LLMs by targeting harder questions.
+- [Investigating the Development of Task-Oriented Communication in Vision-Language Models](https://arxiv.org/abs/2601.20641): Explores task-oriented communication in LLMs, highlighting potential risks and benefits.
+- [Enterprise Resource Planning Using Multi-type Transformers in Ferro-Titanium Industry](https://arxiv.org/abs/2601.20696): Applies multi-type transformers to combinatorial optimization problems in enterprise resource planning.
+- [Implementing Metric Temporal Answer Set Programming](https://arxiv.org/abs/2601.20735): Develops a computational approach to metric answer set programming for expressing quantitative temporal constraints.
+- [REASON: Accelerating Probabilistic Logical Reasoning for Scalable Neuro-Symbolic Intelligence](https://arxiv.org/abs/2601.20784): Presents an acceleration framework for probabilistic logical reasoning in neuro-symbolic AI.
+- [MemCtrl: Using MLLMs as Active Memory Controllers on Embodied Agents](https://arxiv.org/abs/2601.20831): Proposes a framework for memory management in embodied agents using multimodal LLMs.
+- [Deep Researcher with Sequential Plan Reflection and Candidates Crossover (Deep Researcher Reflect Evolve)](https://arxiv.org/abs/2601.20843): Introduces a novel architecture for generating detailed research reports on complex topics.
+- [SokoBench: Evaluating Long-Horizon Planning and Reasoning in Large Language Models](https://arxiv.org/abs/2601.20856): Proposes a benchmark for assessing long-horizon planning capabilities of LLMs.
+- [STELLAR: Structure-guided LLM Assertion Retrieval and Generation for Formal Verification](https://arxiv.org/abs/2601.19903): Presents a framework for guiding assertion generation in formal verification using structural similarity.
+- [DABench-LLM: Standardized and In-Depth Benchmarking of Post-Moore Dataflow AI Accelerators for LLMs](https://arxiv.org/abs/2601.19904): Introduces a benchmarking framework for evaluating LLM workloads on dataflow-based accelerators.
+- [GTAC: A Generative Transformer for Approximate Circuits](https://arxiv.org/abs/2601.19906): Proposes a generative transformer model for producing approximate circuits.
+- [Analysis of LLM Vulnerability to GPU Soft Errors: An Instruction-Level Fault Injection Study](https://arxiv.org/abs/2601.19912): Conducts a fault injection study to analyze the reliability of LLMs under GPU soft errors.
+- [From Intuition to Expertise: Rubric-Based Cognitive Calibration for Human Detection of LLM-Generated Korean Text](https://arxiv.org/abs/2601.19913): Investigates the effectiveness of structured calibration in detecting LLM-generated text.
+- [Simulating Complex Multi-Turn Tool Calling Interactions in Stateless Execution Environments](https://arxiv.org/abs/2601.19914): Introduces a method for generating synthetic multi-turn tool calling data in stateless environments.
+- [Modeling Next-Token Prediction as Left-Nested Intuitionistic Implication](https://arxiv.org/abs/2601.19915): Proposes a neural architecture based on intuitionistic logic for next-token prediction.
+- [FastWhisper: Adaptive Self-knowledge Distillation for Real-time Automatic Speech Recognition](https://arxiv.org/abs/2601.19919): Introduces a method for improving the generalization capacity of student models in speech recognition.
+- [Demystifying Multi-Agent Debate: The Role of Confidence and Diversity](https://arxiv.org/abs/2601.19921): Explores the effectiveness of multi-agent debate in improving LLM performance through diversity and confidence communication.
+- [HEART: A Unified Benchmark for Assessing Humans and LLMs in Emotional Support Dialogue](https://arxiv.org/abs/2601.19922): Introduces a framework for comparing human and LLM performance in emotional support conversations.
+- [Table-BiEval: A Self-Supervised, Dual-Track Framework for Decoupling Structure and Content in LLM Evaluation](https://arxiv.org/abs/2601.19923): Proposes a framework for evaluating LLMs' structural fidelity in generating code-like outputs.
+- [OPT-Engine: Benchmarking the Limits of LLMs in Optimization Modeling via Complexity Scaling](https://arxiv.org/abs/2601.19924): Introduces a benchmarking framework for evaluating LLMs on optimization modeling tasks.
+- [Evaluating Large Language Models for Abstract Evaluation Tasks: An Empirical Study](https://arxiv.org/abs/2601.19925): Investigates the feasibility of LLMs in assessing complex academic content.
+- [The Grammar of Transformers: A Systematic Review of Interpretability Research on Syntactic Knowledge in Language Models](https://arxiv.org/abs/2601.19926): Reviews research on the syntactic abilities of transformer-based language models.
+- [Stingy Context: 18:1 Hierarchical Code Compression for LLM Auto-Coding](https://arxiv.org/abs/2601.19929): Introduces a hierarchical compression scheme for code auto-coding tasks.
+- [SDUs DAISY: A Benchmark for Danish Culture](https://arxiv.org/abs/2601.19930): Introduces a benchmark for evaluating knowledge of Danish culture.
+- [Text-to-State Mapping for Non-Resolution Reasoning: The Contradiction-Preservation Principle](https://arxiv.org/abs/2601.19933): Proposes a mapping function for maintaining semantic ambiguity in reasoning tasks.
+- [Quantifying non deterministic drift in large language models](https://arxiv.org/abs/2601.19934): Analyzes output variability in LLMs under repeated-run experiments.
+- [Mem2ActBench: A Benchmark for Evaluating Long-Term Memory Utilization in Task-Oriented Autonomous Agents](https://arxiv.org/abs/2601.19935): Introduces a benchmark for evaluating memory application in task execution.
+- [Gap-K%: Measuring Top-1 Prediction Gap for Detecting Pretraining Data](https://arxiv.org/abs/2601.19936): Proposes a method for detecting pretraining data based on prediction gaps.
+- [DecHW: Heterogeneous Decentralized Federated Learning Exploiting Second-Order Information](https://arxiv.org/abs/2601.19938): Introduces a decentralized federated learning approach addressing data and model heterogeneity.
+- [Continuous-Flow Data-Rate-Aware CNN Inference on FPGA](https://arxiv.org/abs/2601.19940): Proposes a data-rate-aware approach for CNN inference on FPGAs.
+- [Bench4HLS: End-to-End Evaluation of LLMs in High-Level Synthesis Code Generation](https://arxiv.org/abs/2601.19941): Introduces a benchmarking framework for evaluating LLM-generated HLS designs.
+- [Benchmarking von ASR-Modellen im deutschen medizinischen Kontext: Eine Leistungsanalyse anhand von Anamnesegesprächen](https://arxiv.org/abs/2601.19945): Evaluates ASR models in the German medical context using simulated doctor-patient conversations.
+- [NCSAM Noise-Compensated Sharpness-Aware Minimization for Noisy Label Learning](https://arxiv.org/abs/2601.19947): Proposes a method for improving generalization performance in noisy label learning.
+- [LTS-VoiceAgent: A Listen-Think-Speak Framework for Efficient Streaming Voice Interaction via Semantic Triggering and Incremental Reasoning](https://arxiv.org/abs/2601.19952): Introduces a framework for real-time voice agents that separates thinking from speaking.
+- [Probabilistic Sensing: Intelligence in Data Sampling](https://arxiv.org/abs/2601.19953): Proposes a probabilistic sensing paradigm for intelligent data acquisition.
+- [VoxPrivacy: A Benchmark for Evaluating Interactional Privacy of Speech Language Models](https://arxiv.org/abs/2601.19956): Introduces a benchmark for evaluating interactional privacy in speech language models.
+- [Do we really need Self-Attention for Streaming Automatic Speech Recognition?](https://arxiv.org/abs/2601.19960): Questions the suitability of transformers for streaming ASR tasks.
+- [MeanCache: From Instantaneous to Average Velocity for Accelerating Flow Matching Inference](https://arxiv.org/abs/2601.19961): Proposes a caching framework for efficient flow matching inference.
+- [Cross-Session Decoding of Neural Spiking Data via Task-Conditioned Latent Alignment](https://arxiv.org/abs/2601.19963): Introduces a framework for cross-session neural decoding.
+- [Perturbation-Induced Linearization: Constructing Unlearnable Data with Solely Linear Classifiers](https://arxiv.org/abs/2601.19967): Proposes a method for generating unlearnable examples using linear classifiers.
+- [On the Effectiveness of LLM-Specific Fine-Tuning for Detecting AI-Generated Text](https://arxiv.org/abs/2601.20006): Studies AI-generated text detection based on large-scale corpora and training strategies.
+- [LinguaMap: Which Layers of LLMs Speak Your Language and How to Tune Them?](https://arxiv.org/abs/2601.20009): Investigates language control in multilingual LLMs and proposes selective fine-tuning.
+- [Structural Compositional Function Networks: Interpretable Functional Compositions for Tabular Discovery](https://arxiv.org/abs/2601.20037): Proposes a neural architecture for tabular data that models feature relationships.
+- [CiMRAG: Cim-Aware Domain-Adaptive and Noise-Resilient Retrieval-Augmented Generation for Edge-Based LLMs](https://arxiv.org/abs/2601.20041): Introduces a framework for improving noise robustness in retrieval-augmented generation.
+- [Size Matters: Reconstructing Real-Scale 3D Models from Monocular Images for Food Portion Estimation](https://arxiv.org/abs/2601.20051): Proposes a method for reconstructing true-to-scale 3D models from monocular images.
+- [Physics-Guided Multimodal Transformers are the Necessary Foundation for the Next Generation of Meteorological Science](https://arxiv.org/abs/2504.14174): Argues for integrating physics-guided transformers in meteorological AI applications.
+- [NoWag: A Unified Framework for Shape Preserving Compression of Large Language Models](https://arxiv.org/abs/2504.14569): Introduces a framework for compressing LLMs while preserving their shape.
+- [Doxing via the Lens: Revealing Location-related Privacy Leakage on Multi-modal Large Reasoning Models](https://arxiv.org/abs/2504.19373): Investigates privacy leakage in MLRMs and proposes a framework for assessing risks.
+- [Field Matters: A Lightweight LLM-enhanced Method for CTR Prediction](https://arxiv.org/abs/2505.14057): Proposes a lightweight method for click-through rate prediction using LLMs.
+- [Beyond Face Swapping: A Diffusion-Based Digital Human Benchmark for Multimodal Deepfake Detection](https://arxiv.org/abs/2505.16512): Introduces a benchmark for evaluating digital human forgery detection.
+- [In-context Language Learning for Endangered Languages in Speech Recognition](https://arxiv.org/abs/2505.20445): Investigates the ability of LLMs to learn endangered languages through in-context learning.
+- [Embodied AI with Foundation Models for Mobile Service Robots: A Systematic Review](https://arxiv.org/abs/2505.20503): Reviews the integration of foundation models in mobile service robotics.
+- [Orca: Browsing at Scale Through User-Driven and AI-Facilitated Orchestration Across Malleable Webpages](https://arxiv.org/abs/2505.22831): Proposes a browser prototype that enhances user interactions with web content through AI.
+- [Can AI Master Econometrics? Evidence from Econometrics AI Agent on Expert-Level Tasks](https://arxiv.org/abs/2506.00856): Evaluates the performance of an AI agent in complex econometric analysis.
+- [Advancing Multimodal Reasoning: From Optimized Cold Start to Staged Reinforcement Learning](https://arxiv.org/abs/2506.04207): Investigates the training pipelines for multimodal reasoning and proposes a new framework.
+- [HeuriGym: An Agentic Benchmark for LLM-Crafted Heuristics in Combinatorial Optimization](https://arxiv.org/abs/2506.07972): Introduces a benchmark for evaluating heuristics generated by LLMs in combinatorial optimization.
+- [Beyond Random Sampling: Efficient Language Model Pretraining via Curriculum Learning](https://arxiv.org/abs/2506.11300): Proposes a curriculum learning approach for efficient language model pretraining.
+- [DaMO: A Data-Efficient Multimodal Orchestrator for Temporal Reasoning with Video LLMs](https://arxiv.org/abs/2506.11558): Introduces a framework for data-efficient temporal reasoning with video LLMs.
+- [Governing Strategic Dynamics: Equilibrium Stabilization via Divergence-Driven Control](https://arxiv.org/abs/2506.23734): Proposes a governance mechanism for stabilizing strategic dynamics in mixed-motive games.
+- [FAIR-MATCH: A Multi-Objective Framework for Bias Mitigation in Reciprocal Dating Recommendations](https://arxiv.org/abs/2507.01063): Introduces a framework for addressing bias in dating app recommendations.
+- [X-SAM: From Segment Anything to Any Segmentation](https://arxiv.org/abs/2508.04655): Proposes a framework for advanced pixel-level segmentation in vision-language models.
+- [OPERA: A Reinforcement Learning--Enhanced Orchestrated Planner-Executor Architecture for Reasoning-Oriented Multi-Hop Retrieval](https://arxiv.org/abs/2508.16438): Introduces a framework for reasoning-driven retrieval in multi-hop tasks.
+- [Mask-GCG: Are All Tokens in Adversarial Suffixes Necessary for Jailbreak Attacks?](https://arxiv.org/abs/2509.06350): Proposes a method for optimizing jailbreak attack tokens in LLMs.
+- [OmniEVA: Embodied Versatile Planner via Task-Adaptive 3D-Grounded and Embodiment-aware Reasoning](https://arxiv.org/abs/2509.09332): Introduces a versatile planner for embodied reasoning in robotics.
+- [DoubleAgents: Interactive Simulations for Alignment in Agentic AI](https://arxiv.org/abs/2509.12626): Presents a tool for aligning agentic AI systems with user goals through interactive simulations.
+- [ArchesClimate: Probabilistic Decadal Ensemble Generation With Flow Matching](https://arxiv.org/abs/2509.15942): Introduces a climate model emulator for generating decadal climate projections.
+- [AuditoryBench++: Can Language Models Understand Auditory Knowledge without Hearing?](https://arxiv.org/abs/2509.17641): Proposes a benchmark for evaluating auditory knowledge in language models.
+- [Understanding Post-Training Structural Changes in Large Language Models](https://arxiv.org/abs/2509.17866): Analyzes the structural changes in LLMs post-training.
+- [Addressing Gradient Misalignment in Data-Augmented Training for Robust Speech Deepfake Detection](https://arxiv.org/abs/2509.20682): Proposes a framework for improving speech deepfake detection through gradient alignment.
+- [SiNGER: A Clearer Voice Distills Vision Transformers Further](https://arxiv.org/abs/2509.20986): Introduces a distillation framework for improving vision transformers.
+- [Mechanism of Task-oriented Information Removal in In-context Learning](https://arxiv.org/abs/2509.21012): Investigates the information removal mechanism in in-context learning.
+- [Beyond Correctness: Evaluating Subjective Writing Preferences Across Cultures](https://arxiv.org/abs/2510.14616): Introduces a dataset for evaluating subjective writing preferences across cultures.
+- [PLawBench: A Rubric-Based Benchmark for Evaluating LLMs in Real-World Legal Practice](https://arxiv.org/abs/2601.16669): Proposes a benchmark for evaluating LLMs in legal practice scenarios.
+- [Sparsity-Aware Low-Rank Representation for Efficient Fine-Tuning of Large Language Models](https://arxiv.org/abs/2601.16991): Introduces a framework for efficient fine-tuning of LLMs through low-rank representation.
+- [Lost in Simulation: LLM-Simulated Users are Unreliable Proxies for Human Users in Agentic Evaluations](https://arxiv.org/abs/2601.17087): Investigates the reliability of LLM-simulated users in evaluating agent performance.
+- [Spatiotemporal Semantic V2X Framework for Cooperative Collision Prediction](https://arxiv.org/abs/2601.17216): Proposes a framework for cooperative collision prediction in intelligent transportation systems.
+- [Elastic Attention: Test-time Adaptive Sparsity Ratios for Efficient Transformers](https://arxiv.org/abs/2601.17367): Introduces a method for dynamically adjusting sparsity ratios in transformers.
+- [From Specialist to Generalist: Unlocking SAM's Learning Potential on Unlabeled Medical Images](https://arxiv.org/abs/2601.17934): Proposes a framework for adapting SAM to medical images using U-Net.
+- [The Geometric Reasoner: Manifold-Informed Latent Foresight Search for Long-Context Reasoning](https://arxiv.org/abs/2601.18832): Introduces a framework for latent foresight search in long-context reasoning.
+- [LLMs versus the Halting Problem: Revisiting Program Termination Prediction](https://arxiv.org/abs/2601.18987): Evaluates LLMs' ability to predict program termination.
+- [EVEREST: An Evidential, Tail-Aware Transformer for Rare-Event Time-Series Forecasting](https://arxiv.org/abs/2601.19022): Proposes a transformer architecture for probabilistic rare-event forecasting.
+- [CLIP-Guided Unsupervised Semantic-Aware Exposure Correction](https://arxiv.org/abs/2601.19129): Introduces a method for unsupervised exposure correction using semantic information.
+- [A Scalable Inter-edge Correlation Modeling in CopulaGNN for Link Sign Prediction](https://arxiv.org/abs/2601.19175): Proposes a method for link sign prediction on signed graphs.
+- [RPO-RAG: Aligning Small LLMs with Relation-aware Preference Optimization for Knowledge Graph Question Answering](https://arxiv.org/abs/2601.19225): Introduces a framework for aligning small LLMs with knowledge graph reasoning.
+- [Tri-Reader: An Open-Access, Multi-Stage AI Pipeline for First-Pass Lung Nodule Annotation in Screening CT](https://arxiv.org/abs/2601.19380): Presents a pipeline for lung nodule annotation in CT scans.
+- [R^3: Replay, Reflection, and Ranking Rewards for LLM Reinforcement Learning](https://arxiv.org/abs/2601.19620): Proposes a reinforcement learning mechanism for LLMs.
+- [ProToken: Token-Level Attribution for Federated Large Language Models](https://arxiv.org/abs/2601.19672): Introduces a methodology for token-level attribution in federated LLMs.
+- [LVLMs and Humans Ground Differently in Referential Communication](https://arxiv.org/abs/2601.19792): Investigates differences in referential communication between LVLMs and humans.
+- [Randomization Works in Experiments, Even Without Balance](https://towardsdatascience.com/randomization-works-in-experiments-even-without-balance/): Discusses the effectiveness of randomization in experiments despite imbalances.
+- [Federated Learning, Part 2: Implementation with the Flower Framework 🌼](https://towardsdatascience.com/federated-learning-part-2-implementation-with-the-flower-framework-%f0%9f%8c%bc/): Explains the implementation of federated learning using the Flower framework.
+- [Machine Learning in Production? What This Really Means](https://towardsdatascience.com/machine-learning-in-production-what-this-really-means/): Discusses the transition from notebooks to production systems in machine learning.
+- [I Ditched My Mouse: How I Control My Computer With Hand Gestures (In 60 Lines of Python)](https://towardsdatascience.com/i-ditched-my-mouse-how-i-control-my-computer-with-hand-gestures-in-60-lines-of-python/): Provides a guide for controlling a computer using hand gestures.
+- [Modeling Urban Walking Risk Using Spatial-Temporal Machine Learning](https://towardsdatascience.com/modeling-urban-walking-risk-using-spatial-temporal-machine-learning/): Discusses estimating pedestrian risk using machine learning.
+
+### Categories
+#### AI and Machine Learning
+- NeuroAI and Beyond
+- Teaching LLMs to Ask
+- Fuzzy Categorical Planning
+- Insight Agents
+- Self-Querying Category-Theoretic Planning
+- Scaling Medical Reasoning Verification
+- Endogenous Reprompting
+- Policy of Thoughts
+- Adaptive Memory via Multi-Agent Collaboration
+- CtrlCoT
+- Harder Is Better
+- Investigating the Development of Task-Oriented Communication
+- Scaling Medical Reasoning Verification
+- MemCtrl
+- Deep Researcher
+- SokoBench
+- STELLAR
+- DABench-LLM
+- GTAC
+- Analysis of LLM Vulnerability
+- From Intuition to Expertise
+- Simulating Complex Multi-Turn Tool Calling Interactions
+- FastWhisper
+- Demystifying Multi-Agent Debate
+- HEART
+- Table-BiEval
+- Evaluating Large Language Models
+- The Grammar of Transformers
+- Stingy Context
+- Text-to-State Mapping
+- Quantifying non deterministic drift
+- Mem2ActBench
+- Gap-K%
+- Continuous-Flow Data-Rate-Aware CNN Inference
+- Benchmarking von ASR-Modellen
+- NCSAM
+- Dialogical Reasoning
+- Robust Distributed Learning
+- Learning Contextual Runtime Monitors
+- Learning Linearity in Audio Consistency
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+- X-SAM
+- Mask-GCG
+- OmniEVA
+- DeepBooTS
+- R^3
+- ProToken
+- LVLMs and Humans Ground Differently
+- Community Notes
+- Mitigating Sensitive Information Leakage
+- Randomization Works in Experiments
+- Federated Learning
+- Machine Learning in Production
+- I Ditched My Mouse
+- Modeling Urban Walking Risk
+- Advancing Open-source World Models
+- GDCNet
+- DeepSeek-OCR 2
+- Can AI Master Econometrics?
+- Advancing Multimodal Reasoning
+- HeuriGym
+- Beyond Random Sampling
+- DaMO
+- FAIR-MATCH
+-
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Overview
+The recent body of research and news articles highlights a growing focus on the intersection of AI technologies and security, particularly in the context of large language models (LLMs) and their applications. Key themes include the detection and mitigation of vulnerabilities, the ethical implications of AI deployment, and the enhancement of AI systems to ensure safety and reliability.
+
+#### Key Trends and Insights
+
+1. **Vulnerability Detection and Mitigation**:
+   - Several papers focus on the vulnerabilities of LLMs, particularly in the context of **hallucinations** and **jailbreak attacks**. For instance, works like "Mask-GCG" and "FaithSCAN" explore methods to detect and mitigate hallucinations in LLM outputs, emphasizing the need for robust verification mechanisms to ensure the reliability of AI-generated content.
+   - The paper "Membership Privacy Risks of Sharpness Aware Minimization" discusses how certain training methods can inadvertently increase the risk of membership inference attacks, highlighting the importance of understanding the privacy implications of model training techniques.
+
+2. **Fairness and Bias in AI**:
+   - The introduction of frameworks like "FAIRT2V" and "RPO-RAG" indicates a concerted effort to address biases in AI systems, particularly in recommendation and decision-making contexts. These frameworks aim to ensure that AI systems operate fairly across diverse user groups, which is crucial for maintaining trust and ethical standards in AI applications.
+
+3. **AI in Critical Domains**:
+   - The application of AI in sensitive areas such as healthcare and law is a recurring theme. Papers like "PLawBench" and "Tri-Reader" focus on evaluating LLMs in real-world legal scenarios and medical image analysis, respectively. These studies underscore the necessity for AI systems to not only perform well in controlled environments but also to be reliable and interpretable in high-stakes situations.
+
+4. **Robustness and Adaptability**:
+   - Research such as "DeepSPI" and "Dynamic Content Moderation" emphasizes the need for AI systems to adapt to changing environments and user needs. This adaptability is essential for maintaining performance and safety in dynamic contexts, such as real-time content moderation in livestreams or autonomous decision-making in robotics.
+
+5. **Ethical Considerations and User Interaction**:
+   - The exploration of user interaction with AI systems, as seen in "Helping Johnny Make Sense of Privacy Policies," highlights the importance of transparency and user agency in AI applications. Ensuring that users understand and can interact with AI systems meaningfully is critical for ethical deployment.
+
+6. **Innovative Frameworks and Methodologies**:
+   - The introduction of frameworks like "AdaReasoner" and "Gabliteration" showcases innovative approaches to enhancing the reasoning capabilities of AI systems. These frameworks aim to improve the interpretability and effectiveness of AI in complex tasks, which is vital for security and reliability.
+
+#### Conclusion
+The landscape of AI security and ethical considerations is rapidly evolving, with significant research efforts aimed at addressing vulnerabilities, biases, and the need for robust, interpretable AI systems. As AI technologies continue to integrate into critical domains, the emphasis on security, fairness, and user interaction will be paramount in shaping the future of AI applications. The ongoing development of frameworks and methodologies that prioritize these aspects will be crucial for fostering trust and ensuring the responsible use of AI technologies.
