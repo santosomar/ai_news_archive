@@ -1,0 +1,425 @@
+AI Researcher Agent Report for 2026-02-02-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [JAF: Judge Agent Forest](https://arxiv.org/abs/2601.22269): Introduces a framework for judge agents that conduct joint inference across multiple query-response pairs to improve the evaluation and learning process of primary agents.
+- [The Six Sigma Agent](https://arxiv.org/abs/2601.22290): Proposes a novel architecture for large language models that enhances reliability through task decomposition, micro-agent sampling, and consensus voting.
+- [Why Reasoning Fails to Plan](https://arxiv.org/abs/2601.22311): Analyzes the limitations of LLMs in long-horizon decision-making and introduces FLARE, a planning-centric approach to improve reasoning.
+- [Sparks of Rationality](https://arxiv.org/abs/2601.22329): Evaluates LLMs on their alignment with human judgment and biases, revealing insights into their rationality and emotional influences.
+- [Learning Provably Correct Distributed Protocols](https://arxiv.org/abs/2601.22369): Presents a framework for learning correct distributed protocols without human knowledge, integrating Monte Carlo Tree Search and model checking.
+- [Semi-Autonomous Mathematics Discovery with Gemini](https://arxiv.org/abs/2601.22401): Discusses a case study on using AI for mathematics discovery, addressing challenges in literature identification and AI's risk of plagiarism.
+- [AI-Enabled Waste Classification](https://arxiv.org/abs/2601.22418): Evaluates machine learning and deep learning techniques for waste classification, highlighting the integration into decision support systems for urban sustainability.
+- [When LLM meets Fuzzy-TOPSIS for Personnel Selection](https://arxiv.org/abs/2601.22433): Proposes an automated personnel selection system using LLMs and fuzzy logic to improve recruitment processes.
+- [Anytime Safe PAC Efficient Reasoning](https://arxiv.org/abs/2601.22446): Introduces a method for efficient online reasoning under partial feedback, focusing on performance loss control.
+- [Controllable Information Production](https://arxiv.org/abs/2601.22449): Proposes a new intrinsic motivation principle for generating intelligent behavior without external utilities.
+- [Why Self-Rewarding Works](https://arxiv.org/abs/2601.22513): Provides theoretical guarantees for self-rewarding language models, establishing their effectiveness in iterative alignment.
+- [Darwinian Memory](https://arxiv.org/abs/2601.22528): Proposes a self-regulating memory system for GUI agents to improve performance in dynamic environments.
+- [Enhancing TableQA through Verifiable Reasoning Trace Reward](https://arxiv.org/abs/2601.22530): Introduces a framework to improve reasoning capabilities in TableQA agents through explicit feedback.
+- [Decoding in Geometry](https://arxiv.org/abs/2601.22536): Investigates the impact of embedding-space crowding on reasoning success in LLMs and proposes a new sampling method.
+- [PerfGuard](https://arxiv.org/abs/2601.22571): Proposes a performance-aware agent framework for visual content generation that models tool performance boundaries.
+- [WED-Net](https://arxiv.org/abs/2601.22586): Introduces a dual-branch Transformer architecture for urban flow prediction under extreme weather conditions.
+- [Learn More with Less](https://arxiv.org/abs/2601.22595): Proposes a method for efficient query selection in reinforcement learning with verifiable rewards.
+- [From Self-Evolving Synthetic Data to Verifiable-Reward RL](https://arxiv.org/abs/2601.22607): Introduces a framework for interactive tool-using agents that synthesizes dialogues and improves generation reliability.
+- [EntroCut](https://arxiv.org/abs/2601.22617): Proposes a method for dynamic truncation of reasoning paths in large reasoning models based on entropy.
+- [SYMPHONY](https://arxiv.org/abs/2601.22623): Introduces a multi-agent planning framework that enhances exploration capabilities in complex problem-solving tasks.
+- [Statistical Estimation of Adversarial Risk](https://arxiv.org/abs/2601.22636): Proposes a method for predicting adversarial risk in large language models under sampling.
+- [Beyond Medical Chatbots](https://arxiv.org/abs/2601.22645): Discusses the need for continuous clinical intelligence systems that prioritize clinical appropriateness over generative completeness.
+- [Test-Time Mixture of World Models](https://arxiv.org/abs/2601.22647): Proposes a framework for enhancing adaptability in embodied agents through test-time updates.
+- [UCPO](https://arxiv.org/abs/2601.22648): Introduces a framework for uncertainty-aware policy optimization in reinforcement learning.
+- [Task-Aware LLM Council](https://arxiv.org/abs/2601.22662): Proposes a decision framework that integrates a council of LLMs for dynamic expert selection in multi-step planning.
+- [Real-Time Aligned Reward Model](https://arxiv.org/abs/2601.22664): Proposes a framework for aligning reward models with real-time policy distribution shifts.
+- [Best-of-Q](https://arxiv.org/abs/2601.22701): Introduces a novel paradigm for enhancing VLM policies at inference without retraining.
+- [A Step Back](https://arxiv.org/abs/2601.22718): Proposes a new objective for stabilizing policy optimization under off-policy conditions.
+- [AutoRefine](https://arxiv.org/abs/2601.22758): Introduces a framework for continual refinement of LLM agents through experience extraction.
+- [TSPO](https://arxiv.org/abs/2601.22776): Proposes a new policy optimization method for multi-turn search tasks.
+- [Learning with Challenges](https://arxiv.org/abs/2601.22781): Proposes a data generation framework for mobile GUI agents that adapts to training difficulty.
+- [Toward IIT-Inspired Consciousness](https://arxiv.org/abs/2601.22786): Investigates the implementation of Integrated Information Theory in language models.
+- [Conditional Performance Guarantee](https://arxiv.org/abs/2601.22790): Proposes a framework for providing PAC-style guarantees in group-level reasoning.
+- [CVeDRL](https://arxiv.org/abs/2601.22803): Introduces a code verifier using difficulty-aware reinforcement learning.
+- [Aligning the Unseen in Attributed Graphs](https://arxiv.org/abs/2601.22806): Proposes a method for representation learning on attributed graphs.
+- [Game-Theoretic Co-Evolution](https://arxiv.org/abs/2601.22896): Proposes a framework for heuristic discovery using game-theoretic methods.
+- [MulFeRL](https://arxiv.org/abs/2601.22900): Introduces a framework for enhancing reinforcement learning with verbal feedback.
+- [Alignment among Language, Vision and Action Representations](https://arxiv.org/abs/2601.22948): Investigates the alignment of different learning modalities in AI.
+- [EvoClinician](https://arxiv.org/abs/2601.22964): Proposes a self-evolving agent for multi-turn medical diagnosis.
+- [Golden Goose](https://arxiv.org/abs/2601.22975): Introduces a method for synthesizing unlimited RLVR tasks from unverifiable internet text.
+- [Quantifying Model Uniqueness](https://arxiv.org/abs/2601.22977): Proposes a framework for auditing model uniqueness in heterogeneous AI ecosystems.
+- [Why Your Deep Research Agent Fails?](https://arxiv.org/abs/2601.22984): Proposes a framework for evaluating hallucinations in deep research agents.
+- [TriCEGAR](https://arxiv.org/abs/2601.22997): Introduces a trace-driven abstraction mechanism for agentic AI.
+- [Guided by Trajectories](https://arxiv.org/abs/2601.23032): Proposes a framework for repairing and rewarding tool-use trajectories in reasoning tasks.
+- [The Hot Mess of AI](https://arxiv.org/abs/2601.23045): Analyzes how capable AI models fail and the implications for alignment research.
+- [From Abstract to Contextual](https://arxiv.org/abs/2601.23048): Investigates the gap between LLM performance on benchmark math problems and real-world applications.
+- [MedMCP-Calc](https://arxiv.org/abs/2601.23049): Introduces a benchmark for evaluating LLMs in realistic medical calculator scenarios.
+- [Chain-of-thought obfuscation](https://arxiv.org/abs/2601.23086): Investigates the obfuscation of reasoning in LLMs and its implications.
+- [RAudit](https://arxiv.org/abs/2601.23133): Proposes a protocol for auditing LLM reasoning without ground truth access.
+- [THINKSAFE](https://arxiv.org/abs/2601.23143): Introduces a self-generated alignment framework for LLM safety.
+- [Make Anything Match Your Target](https://arxiv.org/abs/2601.23179): Proposes a method for universal adversarial perturbations against closed-source MLLMs.
+- [TSAQA](https://arxiv.org/abs/2601.23204): Introduces a benchmark for time series analysis question answering.
+- [High-quality generation of dynamic game content](https://arxiv.org/abs/2601.23206): Proposes a strategy for dynamic game content generation using small language models.
+- [Scaling Multiagent Systems](https://arxiv.org/abs/2601.23228): Proposes a framework for scaling multi-agent systems with process rewards.
+- [Strongly Polynomial Time Complexity of Policy Iteration](https://arxiv.org/abs/2601.23229): Proves the strong polynomial time complexity of policy iteration for robust MDPs.
+- [Smart Routing with Precise Link Estimation](https://arxiv.org/abs/2405.10377): Introduces a novel approach for routing in dynamic wireless networks.
+- [Screen, Match, and Cache](https://arxiv.org/abs/2601.22160): Proposes a framework for human animation generation.
+- [UniFinEval](https://arxiv.org/abs/2601.22162): Introduces a unified multimodal benchmark for financial environments.
+- [Stablecoin Design](https://arxiv.org/abs/2601.22168): Proposes a trust-weighted reserve controller for algorithmic stablecoins.
+- [In Vino Veritas and Vulnerabilities](https://arxiv.org/abs/2601.22169): Investigates drunk language as a driver for safety failures in LLMs.
+- [ShellForge](https://arxiv.org/abs/2601.22182): Introduces an adversarial co-evolution framework for webshell detection.
+- [COL-Trees](https://arxiv.org/abs/2601.22183): Proposes a novel data structure for efficient hierarchical object search in road networks.
+- [Practical Evaluation of Quantum Kernel Methods](https://arxiv.org/abs/2601.22194): Examines the application of quantum kernel methods for radar classification.
+- [Multitask Learning for Earth Observation Data](https://arxiv.org/abs/2601.22195): Explores quantum computing for Earth observation data classification.
+- [Neural Signals Generate Clinical Notes](https://arxiv.org/abs/2601.22197): Develops a model for summarizing clinical EEG reports.
+- [Advanced techniques and applications of LiDAR Place Recognition](https://arxiv.org/abs/2601.22198): Surveys LiDAR place recognition techniques in agricultural environments.
+- [Beyond Conditional Computation](https://arxiv.org/abs/2601.22203): Proposes a framework for genomic foundation models.
+- [Learning to Recommend Multi-Agent Subgraphs](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Lost in Space?](https://arxiv.org/abs/2601.22228): Investigates the limitations of vision-language models in relative camera pose estimation.
+- [A Systematic Literature Review on LLM Defenses](https://arxiv.org/abs/2601.22240): Reviews prompt injection mitigation strategies.
+- [MirrorMark](https://arxiv.org/abs/2601.22246): Proposes a multi-bit watermark for LLMs.
+- [AI Narrative Breakdown](https://arxiv.org/abs/2601.22255): Analyzes narratives surrounding AI in society.
+- [Predicting Intermittent Job Failure Categories](https://arxiv.org/abs/2601.22264): Introduces a few-shot learning approach for predicting job failure categories.
+- [HierLoc](https://arxiv.org/abs/2601.22369): Proposes a hyperbolic entity embedding framework for hierarchical visual geolocation.
+- [MonoScale](https://arxiv.org/abs/2601.22380): Introduces a new class of dense layers for neural networks.
+- [Key and Value Weights Are Probably All You Need](https://arxiv.org/abs/2510.23912): Investigates the necessity of the query, key, value triplet in transformers.
+- [SPICE](https://arxiv.org/abs/2507.00665): Proposes a framework for selecting tasks in reinforcement learning.
+- [Learning to Pose Problems](https://arxiv.org/abs/2511.09907): Introduces a problem generator for training large reasoning models.
+- [Multi-agent Coordination via Flow Matching](https://arxiv.org/abs/2511.05005): Proposes a framework for multi-agent coordination using flow-based representations.
+- [Evaluating LLMs for Career Guidance](https://arxiv.org/abs/2510.18902): Analyzes LLM recommendations for computing careers across African countries.
+- [Multi-Level Safety Continual Projection](https://arxiv.org/abs/2508.09190): Proposes a framework for enhancing safety in fine-tuned LLMs.
+- [VideoNSA](https://arxiv.org/abs/2510.02295): Introduces a framework for video understanding using sparse attention.
+- [Learning to Execute Graph Algorithms](https://arxiv.org/abs/2510.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Deep Learning-Based Early-Stage IR-Drop Estimation](https://arxiv.org/abs/2512.22707): Proposes a deep learning approach for early-stage IR-drop estimation in VLSI designs.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+- [Learning to Build Shapes by Extrusion](https://arxiv.org/abs/2601.22858): Introduces a text-based representation for mesh construction.
+- [Learning Policy Representations for Steerable Behavior Synthesis](https://arxiv.org/abs/2601.22350): Proposes a method for learning policy representations for behavior synthesis.
+- [Learning to Execute Graph Algorithms Exactly with Graph Neural Networks](https://arxiv.org/abs/2601.23207): Proves exact learnability results for graph algorithms under bounded-degree constraints.
+- [Learning to Pose Problems: Reasoning-Driven and Solver-Adaptive Data Synthesis for Large Reasoning Models](https://arxiv.org/abs/2511.09907): Proposes a problem generator for training large reasoning models.
+- [Learning to Recommend Multi-Agent Subgraphs from Calling Trees](https://arxiv.org/abs/2601.22209): Introduces a framework for recommending agents in multi-agent systems.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+The recent body of work in AI, particularly concerning security, highlights a growing recognition of the vulnerabilities associated with large language models (LLMs) and their applications. This analysis synthesizes key themes and findings from the papers and articles, focusing on the intersection of AI capabilities, security challenges, and the methodologies proposed to enhance safety and robustness.
+
+#### Key Themes and Trends
+
+1. **Vulnerability to Attacks**:
+   - Several papers address the susceptibility of LLMs to various forms of attacks, including **jailbreaks** and **adversarial prompts**. For instance, the paper on **"Whispers of Wealth"** discusses how LLMs can be manipulated through cleverly crafted prompts that exploit their inherent weaknesses, leading to unauthorized actions or harmful outputs.
+   - The **"MalURLBench"** benchmark evaluates LLMs' vulnerabilities when processing web URLs, revealing that existing models struggle to detect disguised malicious URLs, which poses significant risks in real-world applications.
+
+2. **Mitigation Strategies**:
+   - A range of mitigation strategies is proposed, including **"AutoGuard,"** which embeds defensive prompts into the DOM of websites to trigger safety mechanisms in LLMs, effectively halting malicious actions.
+   - The **"Token-Guard"** framework introduces a token-level hallucination control method that performs internal verification of generated tokens, aiming to reduce the occurrence of hallucinations and improve the reliability of LLM outputs.
+
+3. **Safety and Ethical Considerations**:
+   - The **"AI Kill Switch"** paper emphasizes the need for mechanisms to halt malicious LLM agents, highlighting the ethical implications of deploying AI in sensitive domains.
+   - **"Expert Evaluation and the Limits of Human Feedback"** explores the challenges of ensuring safety in mental health applications of AI, revealing significant inter-rater reliability issues among experts evaluating LLM outputs.
+
+4. **Frameworks for Evaluation and Improvement**:
+   - The **"BiasGym"** framework provides a systematic approach for reliably injecting, analyzing, and mitigating biases in LLMs, emphasizing the importance of transparency and accountability in AI systems.
+   - **"FactSelfCheck"** introduces a method for fine-grained hallucination detection at the fact level, showcasing the need for precise identification and correction of inaccuracies in LLM outputs.
+
+5. **Innovative Approaches to Learning and Adaptation**:
+   - The **"TriPlay-RL"** framework proposes a closed-loop reinforcement learning system that enhances safety alignment through iterative collaboration among attacker, defender, and evaluator roles.
+   - **"SPICE"** introduces a conflict-aware selector that maximizes information while penalizing misalignment, demonstrating a novel approach to improving the robustness of LLMs.
+
+6. **Cultural and Contextual Sensitivity**:
+   - The **"Framing Political Bias in Multilingual LLMs"** paper highlights the need for culturally grounded evaluations of LLMs, revealing biases that can arise from skewed training data and the importance of contextual relevance in AI outputs.
+
+#### Insights and Implications
+
+- **Complexity of AI Safety**: The findings underscore the complexity of ensuring safety in AI systems, particularly in high-stakes applications. The interplay between model architecture, training data, and user interaction dynamics creates a multifaceted challenge that requires innovative solutions.
+  
+- **Need for Robust Evaluation Frameworks**: The development of benchmarks like **MalURLBench** and **ATOD** illustrates the necessity for rigorous evaluation frameworks that can assess the safety and reliability of AI systems in real-world scenarios.
+
+- **Ethical Responsibility**: As AI systems become more integrated into everyday applications, there is a pressing need for ethical frameworks that govern their deployment, ensuring that they do not perpetuate biases or cause harm.
+
+- **Future Directions**: Continued research into adaptive mechanisms, such as those proposed in **"Agentic Context Engineering"** and **"Multi-Agent Coordination via Flow Matching,"** indicates a promising direction for enhancing the robustness and adaptability of AI systems in dynamic environments.
+
+### Conclusion
+
+The landscape of AI security is rapidly evolving, with significant advancements in understanding vulnerabilities and developing mitigation strategies. The integration of ethical considerations, robust evaluation frameworks, and innovative learning approaches will be crucial in shaping the future of AI applications, particularly in sensitive domains. The ongoing discourse emphasizes the importance of transparency, accountability, and cultural sensitivity in the development and deployment of AI technologies.
