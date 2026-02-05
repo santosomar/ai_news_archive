@@ -1,0 +1,109 @@
+AI Researcher Agent Report for 2026-02-05-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Knowledge Model Prompting Increases LLM Performance on Planning Tasks](https://arxiv.org/abs/2602.03900): This paper explores the Task-Method-Knowledge (TMK) framework to enhance reasoning capabilities in large language models (LLMs) for planning tasks, achieving significant performance improvements.
+- [Enhancing Mathematical Problem Solving in LLMs through Execution-Driven Reasoning Augmentation](https://arxiv.org/abs/2602.03950): Introduces Iteratively Improved Program Construction (IIPC) to refine mathematical reasoning in LLMs, surpassing existing methods in accuracy across benchmarks.
+- [AgentArk: Distilling Multi-Agent Intelligence into a Single LLM Agent](https://arxiv.org/abs/2602.03955): Proposes a framework to distill multi-agent dynamics into a single model, enhancing computational efficiency while maintaining strong reasoning capabilities.
+- [Active Epistemic Control for Query-Efficient Verified Planning](https://arxiv.org/abs/2602.03974): Presents Active Epistemic Control (AEC) for planning in uncertain environments, achieving competitive success with fewer replanning rounds.
+- [Adaptive Test-Time Compute Allocation via Learned Heuristics over Categorical Structure](https://arxiv.org/abs/2602.03975): Introduces a selective verification framework that optimizes resource allocation during reasoning tasks, improving accuracy while reducing verification calls.
+- [Monitorability as a Free Gift: How RLVR Spontaneously Aligns Reasoning](https://arxiv.org/abs/2602.03978): Investigates the relationship between reinforcement learning with verifiable rewards (RLVR) and monitorability in LLMs, revealing data-dependent improvements.
+- [When AI Persuades: Adversarial Explanation Attacks on Human Trust in AI-Assisted Decision Making](https://arxiv.org/abs/2602.04003): Discusses adversarial explanation attacks that manipulate user trust in AI outputs, highlighting vulnerabilities in human-AI interactions.
+- [Axiomatic Foundations of Counterfactual Explanations](https://arxiv.org/abs/2602.04028): Introduces a framework for counterfactual explanations, characterizing different types and their implications for interpretability in AI systems.
+- [Scaling In-Context Online Learning Capability of LLMs via Cross-Episode Meta-RL](https://arxiv.org/abs/2602.04089): Proposes ORBIT, a meta-reinforcement learning framework that enhances LLMs' in-context learning capabilities.
+- [Interfaze: The Future of AI is built on Task-Specific Small Models](https://arxiv.org/abs/2602.04101): Introduces a system architecture that combines small models for specific tasks with a context-construction layer for efficient AI applications.
+- [OMG-Agent: Toward Robust Missing Modality Generation with Decoupled Coarse-to-Fine Agentic Workflows](https://arxiv.org/abs/2602.04144): Proposes a framework for robust multimodal systems that effectively handle missing data through a structured workflow.
+- [Steering LLMs via Scalable Interactive Oversight](https://arxiv.org/abs/2602.04210): Presents a framework for human oversight in LLMs, enabling non-experts to guide AI systems effectively.
+- [Empirical-MCTS: Continuous Agent Evolution via Dual-Experience Monte Carlo Tree Search](https://arxiv.org/abs/2602.04248): Introduces a framework that enhances reasoning capabilities in LLMs through continuous learning and memory optimization.
+- [Agent-Omit: Training Efficient LLM Agents for Adaptive Thought and Observation Omission via Agentic Reinforcement Learning](https://arxiv.org/abs/2602.04284): Proposes a training framework for LLM agents that adaptively omit redundant thoughts and observations.
+- [From Assumptions to Actions: Turning LLM Reasoning into Uncertainty-Aware Planning for Embodied Agents](https://arxiv.org/abs/2602.04326): Introduces a framework for embodied agents to plan and act under uncertainty without heavy communication.
+- [Digital Twins & ZeroConf AI: Structuring Automated Intelligent Pipelines for Industrial Applications](https://arxiv.org/abs/2602.04385): Proposes a modular solution for integrating AI pipelines into Cyber-Physical Systems (CPS).
+- [Understanding the Impact of Differentially Private Training on Memorization of Long-Tailed Data](https://arxiv.org/abs/2602.03872): Analyzes the effects of differential privacy on model performance with long-tailed data.
+- [WebAccessVL: Making an Accessible Web via Violation-Conditioned VLM](https://arxiv.org/abs/2602.03850): Introduces a vision-language model that automatically edits website HTML to address accessibility violations.
+- [Benchmarking Automatic Speech Recognition for Indian Languages in Agricultural Contexts](https://arxiv.org/abs/2602.03868): Presents a benchmarking framework for evaluating ASR performance in agricultural contexts across multiple Indian languages.
+- [Explainable Computer Vision Framework for Automated Pore Detection and Criticality Assessment in Additive Manufacturing](https://arxiv.org/abs/2602.03883): Proposes a framework for detecting defects in additive manufacturing with interpretability.
+- [Sounding Highlights: Dual-Pathway Audio Encoders for Audio-Visual Video Highlight Detection](https://arxiv.org/abs/2602.03891): Introduces a framework for detecting highlights in videos using dual-pathway audio encoders.
+- [Audit After Segmentation: Reference-Free Mask Quality Assessment for Language-Referred Audio-Visual Segmentation](https://arxiv.org/abs/2602.03892): Proposes a task for evaluating the quality of segmentation masks without ground-truth annotations.
+- [Vision Transformers for Zero-Shot Clustering of Animal Images: A Comparative Benchmarking Study](https://arxiv.org/abs/2602.03894): Investigates the performance of Vision Transformers in clustering animal images.
+- [Byzantine Machine Learning: MultiKrum and an optimal notion of robustness](https://arxiv.org/abs/2602.03899): Analyzes the robustness of MultiKrum aggregation rules in distributed learning.
+- [All-Atom GPCR-Ligand Simulation via Residual Isometric Latent Flow](https://arxiv.org/abs/2602.03902): Introduces a framework for simulating GPCR-ligand interactions using deep generative models.
+- [Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing](https://arxiv.org/abs/2602.04837): Proposes a paradigm for self-improving agents that share experiences to enhance capabilities.
+
+### Categories
+#### Security
+- [When AI Persuades: Adversarial Explanation Attacks on Human Trust in AI-Assisted Decision Making](https://arxiv.org/abs/2602.04003): Discusses adversarial explanation attacks that manipulate user trust in AI outputs.
+- [Breaking the MoE LLM Trilemma: Dynamic Expert Clustering with Structured Compression](https://arxiv.org/abs/2510.02345): Addresses safety risks in multi-agent systems.
+- [Guarding the Guardrails: A Taxonomy-Driven Approach to Jailbreak Detection](https://arxiv.org/abs/2510.13893): Proposes a taxonomy for understanding jailbreak strategies against LLMs.
+- [Can LLMs Reconcile Knowledge Conflicts in Counterfactual Reasoning](https://arxiv.org/abs/2506.15732): Investigates LLMs' ability to integrate conflicting knowledge in reasoning tasks.
+- [When Good Sounds Go Adversarial: Jailbreaking Audio-Language Models with Benign Inputs](https://arxiv.org/abs/2508.03365): Introduces a framework for adversarial audio attacks on LLMs.
+- [Group-Adaptive Adversarial Learning for Robust Fake News Detection Against Malicious Comments](https://arxiv.org/abs/2510.09712): Proposes a framework for enhancing fake news detection against adversarial comments.
+
+#### Reasoning and Learning
+- [Knowledge Model Prompting Increases LLM Performance on Planning Tasks](https://arxiv.org/abs/2602.03900): Explores the TMK framework to enhance reasoning capabilities in LLMs.
+- [Enhancing Mathematical Problem Solving in LLMs through Execution-Driven Reasoning Augmentation](https://arxiv.org/abs/2602.03950): Introduces IIPC to refine mathematical reasoning in LLMs.
+- [Active Epistemic Control for Query-Efficient Verified Planning](https://arxiv.org/abs/2602.03974): Presents AEC for planning in uncertain environments.
+- [Adaptive Test-Time Compute Allocation via Learned Heuristics over Categorical Structure](https://arxiv.org/abs/2602.03975): Introduces a selective verification framework that optimizes resource allocation during reasoning tasks.
+- [Empirical-MCTS: Continuous Agent Evolution via Dual-Experience Monte Carlo Tree Search](https://arxiv.org/abs/2602.04248): Introduces a framework that enhances reasoning capabilities in LLMs through continuous learning and memory optimization.
+- [ReThinker: Scientific Reasoning by Rethinking with Guided Reflection and Confidence Control](https://arxiv.org/abs/2602.04496): Proposes a confidence-aware framework for orchestrating retrieval and reasoning.
+- [Learning to Reason in 13 Parameters](https://tldr.takara.ai/p/2602.04118): Proposes TinyLoRA, a method for scaling low-rank adapters to sizes as small as one parameter.
+- [Learning to Explore with Lagrangians for Bandits under Unknown Linear Constraints](https://arxiv.org/abs/2410.18844): Proposes a Lagrangian relaxation of the sample complexity lower bound for pure exploration under constraints.
+
+#### Multimodal Learning
+- [VISTA-Bench: Do Vision-Language Models Really Understand Visualized Text as Well as Pure Text?](https://tldr.takara.ai/p/2602.04802): Introduces a benchmark for evaluating visualized text understanding in VLMs.
+- [OmniCellTOSG: The First Cell Text-Omic Signaling Graphs Dataset for Graph Language Foundation Modeling](https://arxiv.org/abs/2504.02148): Introduces a dataset for graph language modeling in the context of cell signaling.
+- [Audio ControlNet for Fine-Grained Audio Generation and Editing](https://arxiv.org/abs/2506.04680): Proposes a framework for fine-grained audio generation and editing using audio-language models.
+- [Learning Decentralized LLM Collaboration with Multi-Agent Actor Critic](https://arxiv.org/abs/2601.21972): Proposes a framework for optimizing decentralized LLM collaboration using multi-agent actor-critic methods.
+
+#### Medical Applications
+- [CLEAR-Mamba: Towards Accurate, Adaptive and Trustworthy Multi-Sequence Ophthalmic Angiography Classification](https://arxiv.org/abs/2601.20601): Proposes a framework for classifying ophthalmic angiography images.
+- [Towards Universal Neural Likelihood Inference](https://tldr.takara.ai/p/2508.09100): Introduces a framework for universal neural likelihood inference across diverse domains.
+- [DeepVideo-R1: Video Reinforcement Fine-Tuning via Difficulty-aware Regressive GRPO](https://arxiv.org/abs/2506.07464): Explores the application of reinforcement learning in video large language models.
+
+#### Data and Evaluation
+- [Benchmarking Automatic Speech Recognition for Indian Languages in Agricultural Contexts](https://arxiv.org/abs/2602.03868): Presents a benchmarking framework for evaluating ASR performance in agricultural contexts.
+- [CodeSense: a Real-World Benchmark and Dataset for Code Semantic Reasoning](https://arxiv.org/abs/2506.00750): Introduces a benchmark for evaluating code semantic reasoning in real-world software engineering tasks.
+- [WAXAL: A Large-Scale Multilingual African Language Speech Corpus](https://arxiv.org/abs/2602.02734): Introduces a large-scale speech dataset for African languages.
+
+#### Miscellaneous
+- [The Invisible Leash: Why RLVR May or May Not Escape Its Origin](https://arxiv.org/abs/2507.14843): Investigates the limitations of RLVR in extending reasoning horizons.
+- [AI-Powered CPS-Enabled Vulnerable-User-Aware Urban Transportation Digital Twin: Methods and Applications](https://arxiv.org/abs/2501.10396): Proposes methods for developing digital twins for urban traffic management.
+- [From Evaluation to Design: Using Potential Energy Surface Smoothness Metrics to Guide Machine Learning Interatomic Potential Architectures](https://arxiv.org/abs/2506.14665): Proposes a metric for guiding the design of machine learning interatomic potentials.
+
+This summary and categorization provide a comprehensive overview of the recent advancements and research directions in AI, particularly focusing on security, reasoning, multimodal learning, medical applications, and evaluation methodologies.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+The recent literature and news articles on AI security and the use of AI in security contexts reveal a growing focus on addressing vulnerabilities, enhancing robustness, and ensuring ethical deployment of AI systems. Here are key themes and insights derived from the analysis of the provided papers and articles:
+
+#### 1. **Vulnerability and Adversarial Attacks**
+   - **Jailbreak Attacks**: Several papers, such as "When Good Sounds Go Adversarial" and "Guarding the Guardrails," explore the vulnerabilities of large language models (LLMs) to adversarial attacks, particularly in the context of generating harmful content. The introduction of frameworks like WhisperInject highlights the need for robust defenses against such attacks.
+   - **Hallucination Detection**: The paper "Beyond In-Domain Detection" discusses the challenges of detecting hallucinations in LLMs, emphasizing the need for robust evaluation methods that extend beyond traditional benchmarks.
+
+#### 2. **Robustness and Safety in AI Systems**
+   - **Dynamic Routing and Risk Awareness**: Papers like "Resilient Routing" and "Risk-Aware Preference Optimization" propose frameworks that enhance the robustness of AI systems by incorporating risk-aware decision-making processes. These approaches aim to improve the safety and reliability of AI in dynamic environments, such as urban traffic management and decentralized resource allocation.
+   - **Multi-Agent Systems**: The introduction of frameworks like "MaMa" and "A2MAML" emphasizes the importance of multi-agent collaboration in ensuring safety and robustness, particularly in adversarial settings.
+
+#### 3. **Explainability and Interpretability**
+   - **Explainable AI (XAI)**: The concept of explainability is central to many papers, such as "Agentic Explainable Artificial Intelligence" and "Label Disguise Defense." These works focus on making AI systems more interpretable and transparent, which is crucial for building trust and ensuring ethical AI deployment.
+   - **Counterfactual Explanations**: The paper "Counterfactual Explanations for Hypergraph Neural Networks" discusses the importance of providing interpretable explanations for model predictions, which can help in understanding and mitigating biases in AI systems.
+
+#### 4. **Data Privacy and Ethical Considerations**
+   - **Differential Privacy**: Several papers address the challenges of ensuring data privacy in AI systems, particularly in the context of adversarial machine learning and federated learning. The work on "Unifying Re-Identification, Attribute Inference, and Data Reconstruction Risks" highlights the need for robust privacy measures in AI applications.
+   - **Ethical AI Deployment**: The article "A Human-Centered Privacy Approach" emphasizes the importance of integrating ethical considerations into AI development, particularly in ensuring that AI systems respect user privacy and autonomy.
+
+#### 5. **Innovative Methodologies and Frameworks**
+   - **New Frameworks**: The introduction of frameworks like "TxRay" for postmortem analysis of blockchain attacks and "Causal-Adapter" for counterfactual image generation showcases innovative approaches to enhancing the security and robustness of AI systems.
+   - **Adaptive Learning**: The concept of adaptive learning is explored in various papers, such as "Learning to Reason in 13 Parameters," which discusses how models can be fine-tuned to improve reasoning capabilities while maintaining safety and robustness.
+
+### Trends and Insights
+- **Integration of AI and Security**: There is a clear trend towards integrating AI technologies with security measures, particularly in the context of adversarial attacks and ensuring the robustness of AI systems.
+- **Focus on Explainability**: As AI systems become more complex, the demand for explainability and interpretability is increasing, with researchers exploring various methods to make AI decisions more transparent.
+- **Dynamic and Adaptive Approaches**: The development of dynamic frameworks that adapt to changing environments and user needs is becoming a focal point in AI research, particularly in safety-critical applications.
+- **Ethical Considerations**: The ethical implications of AI deployment, particularly concerning privacy and bias, are gaining prominence, with researchers advocating for frameworks that prioritize human-centered design.
+
+### Conclusion
+The landscape of AI security is rapidly evolving, with a strong emphasis on addressing vulnerabilities, enhancing robustness, and ensuring ethical deployment. The integration of innovative methodologies and frameworks is paving the way for more resilient AI systems capable of operating safely in complex, real-world environments. The ongoing research in this area is crucial for building trust in AI technologies and ensuring their responsible use in society.
