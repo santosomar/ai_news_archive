@@ -1,0 +1,169 @@
+AI Researcher Agent Report for 2026-02-13-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Explaining AI Without Code: A User Study on Explainable AI](https://arxiv.org/abs/2602.11159): This paper presents a user study on explainable AI (XAI) within a no-code machine learning platform, highlighting the usability and effectiveness of explanations for both novices and experts.
+- [Latent Generative Solvers for Generalizable Long-Term Physics Simulation](https://arxiv.org/abs/2602.11229): Introduces Latent Generative Solvers (LGS) for simulating diverse PDE systems, achieving significant efficiency and stability improvements in long-term predictions.
+- [On Decision-Valued Maps and Representational Dependence](https://arxiv.org/abs/2602.11295): Discusses decision-valued maps that record how different data representations affect computational outcomes, introducing DecisionDB for auditing these relationships.
+- [Voxtral Realtime](https://arxiv.org/abs/2602.11298): Presents Voxtral Realtime, a speech recognition model that achieves real-time performance comparable to offline systems.
+- [The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise AI Estates](https://arxiv.org/abs/2602.11301): Proposes a governance framework for securing AI systems in enterprises, detailing a multi-agent architecture that enhances security and compliance.
+- [Dissecting Subjectivity and the "Ground Truth" Illusion in Data Annotation](https://arxiv.org/abs/2602.11318): Analyzes biases in data annotation practices and proposes a roadmap for pluralistic annotation infrastructures.
+- [Bi-Level Prompt Optimization for Multimodal LLM-as-a-Judge](https://arxiv.org/abs/2602.11340): Introduces a framework for optimizing prompts in multimodal LLMs to improve alignment with human judgments.
+- [AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents Under Noisy Condition](https://arxiv.org/abs/2602.11348): Proposes a framework for evaluating the robustness of LLM agents in noisy environments.
+- [Pushing Forward Pareto Frontiers of Proactive Agents with Behavioral Agentic Optimization](https://arxiv.org/abs/2602.11351): Introduces a reinforcement learning framework for training proactive agents that balances task performance and user engagement.
+- [ReplicatorBench: Benchmarking LLM Agents for Replicability in Social and Behavioral Sciences](https://arxiv.org/abs/2602.11354): Presents a benchmark for evaluating AI agents' capabilities in research replication.
+- [Causal-JEPA: Learning World Models through Object-Level Latent Interventions](https://arxiv.org/abs/2602.11389): Proposes a model for learning world representations through object-centric interventions.
+- [GHOST: Unmasking Phantom States in Mamba2 via Grouped Hidden-state Output-aware Selection & Truncation](https://arxiv.org/abs/2602.11408): Introduces a pruning framework for improving efficiency in autoregressive generation.
+- [TRACER: Trajectory Risk Aggregation for Critical Episodes in Agentic Reasoning](https://arxiv.org/abs/2602.11409): Proposes a metric for estimating uncertainty in multi-turn interactions of AI agents.
+- [Distributionally Robust Cooperative Multi-Agent Reinforcement Learning via Robust Value Factorization](https://arxiv.org/abs/2602.11437): Introduces a framework for robust multi-agent reinforcement learning under uncertainties.
+- [Credit Where It is Due: Cross-Modality Connectivity Drives Precise Reinforcement Learning for MLLM Reasoning](https://arxiv.org/abs/2602.11455): Explores the integration of visual evidence in multimodal LLMs for improved reasoning.
+- [AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems](https://arxiv.org/abs/2602.11510): Proposes a benchmark for evaluating privacy leakage in multi-agent LLM systems.
+- [Human-Inspired Continuous Learning of Internal Reasoning Processes: Learning How to Think for Adaptive AI Systems](https://arxiv.org/abs/2602.11516): Introduces a framework for continuous learning of reasoning processes in AI systems.
+- [CausalAgent: A Conversational Multi-Agent System for End-to-End Causal Inference](https://arxiv.org/abs/2602.11527): Proposes a conversational system for automating causal inference tasks.
+- [Budget-Constrained Agentic Large Language Models: Intention-Based Planning for Costly Tool Use](https://arxiv.org/abs/2602.11541): Introduces a framework for planning in budget-constrained environments.
+- [SemaPop: Semantic-Persona Conditioned Population Synthesis](https://arxiv.org/abs/2602.11569): Proposes a model for generating population data based on semantic conditioning.
+- [Learning to Configure Agentic AI Systems](https://arxiv.org/abs/2602.11574): Introduces a framework for dynamically configuring AI systems based on query-specific needs.
+- [The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why -- A Survey from MARL to Emergent Language and LLMs](https://arxiv.org/abs/2602.11583): Surveys communication in multi-agent systems.
+- [MAPLE: Modality-Aware Post-training and Learning Ecosystem](https://arxiv.org/abs/2602.11596): Proposes a framework for training multimodal models.
+- [scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery](https://arxiv.org/abs/2602.11609): Introduces a framework for automated analysis of single-cell RNA-seq data.
+- [When Agents Disagree With Themselves: Measuring Behavioral Consistency in LLM-Based Agents](https://arxiv.org/abs/2602.11619): Analyzes behavioral consistency in LLM agents.
+- [Neuro-Symbolic Multitasking: A Unified Framework for Discovering Generalizable Solutions to PDE Families](https://arxiv.org/abs/2602.11630): Proposes a framework for solving PDE families.
+- [Do MLLMs Really Understand Space? A Mathematical Reasoning Evaluation](https://arxiv.org/abs/2602.11635): Evaluates spatial reasoning in multimodal large language models.
+- [Quark Medical Alignment: A Holistic Multi-Dimensional Alignment and Collaborative Optimization Paradigm](https://arxiv.org/abs/2602.11661): Proposes a framework for aligning AI models in medical contexts.
+- [PhyNiKCE: A Neurosymbolic Agentic Framework for Autonomous Computational Fluid Dynamics](https://arxiv.org/abs/2602.11666): Introduces a framework for fluid dynamics simulations.
+- [Benchmark Health Index: A Systematic Framework for Benchmarking the Benchmarks of LLMs](https://arxiv.org/abs/2602.11674): Proposes a framework for evaluating LLM benchmarks.
+- [Right for the Wrong Reasons: Epistemic Regret Minimization for Causal Rung Collapse in LLMs](https://arxiv.org/abs/2602.11675): Analyzes causal reasoning in LLMs.
+- [Beyond Pixels: Vector-to-Graph Transformation for Reliable Schematic Auditing](https://arxiv.org/abs/2602.11678): Proposes a method for auditing engineering schematics.
+- [ThinkRouter: Efficient Reasoning via Routing Thinking between Latent and Discrete Spaces](https://arxiv.org/abs/2602.11683): Introduces a routing mechanism for reasoning efficiency.
+- [Beyond Parameter Arithmetic: Sparse Complementary Fusion for Distribution-Aware Model Merging](https://arxiv.org/abs/2602.11717): Proposes a framework for merging models.
+- [Cross-Architecture Model Diffing with Crosscoders: Unsupervised Discovery of Differences Between LLMs](https://arxiv.org/abs/2602.11729): Introduces a method for comparing LLMs.
+- [Text2GQL-Bench: A Text to Graph Query Language Benchmark](https://arxiv.org/abs/2602.11745): Proposes a benchmark for text-to-graph query language systems.
+- [AIR: Improving Agent Safety through Incident Response](https://arxiv.org/abs/2602.11749): Introduces a framework for incident response in LLM systems.
+- [TS-Memory: Plug-and-Play Memory for Time Series Foundation Models](https://arxiv.org/abs/2602.11550): Proposes a memory adapter for time series models.
+- [Multi UAVs Preflight Planning in a Shared and Dynamic Airspace](https://arxiv.org/abs/2602.12055): Introduces a planning framework for UAVs.
+- [LawThinker: A Deep Research Legal Agent in Dynamic Environments](https://arxiv.org/abs/2602.12056): Proposes a legal research agent.
+- [Agentic Test-Time Scaling for WebAgents](https://arxiv.org/abs/2602.12276): Introduces a test-time scaling framework for agents.
+- [Agentic AI for Cybersecurity: A Meta-Cognitive Architecture for Governable Autonomy](https://arxiv.org/abs/2602.11897): Proposes a framework for AI in cybersecurity.
+- [Fighting MRI Anisotropy: Learning Multiple Cardiac Shapes From a Single Implicit Neural Representation](https://arxiv.org/abs/2602.11942): Proposes a method for cardiac shape modeling.
+- [Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177): Introduces a framework for autonomous mathematical research.
+- [Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields](https://arxiv.org/abs/2602.00148): Proposes a framework for learning physical dynamics.
+- [Quantifying and Improving the Robustness of Retrieval-Augmented Language Models Against Spurious Features in Grounding Data](https://arxiv.org/abs/2503.05587): Analyzes robustness in RAG systems.
+- [Learning Perceptual Representations for Gaming NR-VQA with Multi-Task FR Signals](https://arxiv.org/abs/2602.11903): Proposes a framework for video quality assessment.
+- [A technical curriculum on language-oriented artificial intelligence in translation and specialised communication](https://arxiv.org/abs/2602.12251): Proposes a curriculum for AI in translation.
+- [Multi Graph Search for High-Dimensional Robot Motion Planning](https://arxiv.org/abs/2602.12096): Introduces a motion planning algorithm for robots.
+- [On the Sensitivity of Firing Rate-Based Federated Spiking Neural Networks to Differential Privacy](https://arxiv.org/abs/2602.12009): Analyzes privacy in federated learning.
+- [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.12144): Analyzes the effectiveness of context files for coding agents.
+- [When Evaluation Becomes a Side Channel: Regime Leakage and Structural Mitigations for Alignment Assessment](https://arxiv.org/abs/2602.08449): Analyzes evaluation methods for AI systems.
+- [Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields](https://arxiv.org/abs/2602.00148): Proposes a framework for learning physical dynamics.
+- [Multi Graph Search for High-Dimensional Robot Motion Planning](https://arxiv.org/abs/2602.12096): Introduces a motion planning algorithm for robots.
+- [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.12144): Analyzes the effectiveness of context files for coding agents.
+- [When Evaluation Becomes a Side Channel: Regime Leakage and Structural Mitigations for Alignment Assessment](https://arxiv.org/abs/2602.08449): Analyzes evaluation methods for AI systems.
+
+### Categories
+#### Security
+- [The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise AI Estates](https://arxiv.org/abs/2602.11301)
+- [AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems](https://arxiv.org/abs/2602.11510)
+- [Fighting MRI Anisotropy: Learning Multiple Cardiac Shapes From a Single Implicit Neural Representation](https://arxiv.org/abs/2602.11942)
+- [Right for the Wrong Reasons: Epistemic Regret Minimization for Causal Rung Collapse in LLMs](https://arxiv.org/abs/2602.11675)
+- [When Evaluation Becomes a Side Channel: Regime Leakage and Structural Mitigations for Alignment Assessment](https://arxiv.org/abs/2602.08449)
+- [Agentic AI for Cybersecurity: A Meta-Cognitive Architecture for Governable Autonomy](https://arxiv.org/abs/2602.11897)
+- [Defending the Edge: Representative-Attention Defense against Backdoor Attacks in Federated Learning](https://arxiv.org/abs/2505.10297)
+
+#### AI and Machine Learning
+- [Explaining AI Without Code: A User Study on Explainable AI](https://arxiv.org/abs/2602.11159)
+- [Latent Generative Solvers for Generalizable Long-Term Physics Simulation](https://arxiv.org/abs/2602.11229)
+- [On Decision-Valued Maps and Representational Dependence](https://arxiv.org/abs/2602.11295)
+- [Voxtral Realtime](https://arxiv.org/abs/2602.11298)
+- [Dissecting Subjectivity and the "Ground Truth" Illusion in Data Annotation](https://arxiv.org/abs/2602.11318)
+- [Bi-Level Prompt Optimization for Multimodal LLM-as-a-Judge](https://arxiv.org/abs/2602.11340)
+- [AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents Under Noisy Condition](https://arxiv.org/abs/2602.11348)
+- [Pushing Forward Pareto Frontiers of Proactive Agents with Behavioral Agentic Optimization](https://arxiv.org/abs/2602.11351)
+- [ReplicatorBench: Benchmarking LLM Agents for Replicability in Social and Behavioral Sciences](https://arxiv.org/abs/2602.11354)
+- [Causal-JEPA: Learning World Models through Object-Level Latent Interventions](https://arxiv.org/abs/2602.11389)
+- [GHOST: Unmasking Phantom States in Mamba2 via Grouped Hidden-state Output-aware Selection & Truncation](https://arxiv.org/abs/2602.11408)
+- [TRACER: Trajectory Risk Aggregation for Critical Episodes in Agentic Reasoning](https://arxiv.org/abs/2602.11409)
+- [Distributionally Robust Cooperative Multi-Agent Reinforcement Learning via Robust Value Factorization](https://arxiv.org/abs/2602.11437)
+- [Credit Where It is Due: Cross-Modality Connectivity Drives Precise Reinforcement Learning for MLLM Reasoning](https://arxiv.org/abs/2602.11455)
+- [Human-Inspired Continuous Learning of Internal Reasoning Processes: Learning How to Think for Adaptive AI Systems](https://arxiv.org/abs/2602.11516)
+- [CausalAgent: A Conversational Multi-Agent System for End-to-End Causal Inference](https://arxiv.org/abs/2602.11527)
+- [Budget-Constrained Agentic Large Language Models: Intention-Based Planning for Costly Tool Use](https://arxiv.org/abs/2602.11541)
+- [SemaPop: Semantic-Persona Conditioned Population Synthesis](https://arxiv.org/abs/2602.11569)
+- [Learning to Configure Agentic AI Systems](https://arxiv.org/abs/2602.11574)
+- [The Five Ws of Multi-Agent Communication: Who Talks to Whom, When, What, and Why -- A Survey from MARL to Emergent Language and LLMs](https://arxiv.org/abs/2602.11583)
+- [MAPLE: Modality-Aware Post-training and Learning Ecosystem](https://arxiv.org/abs/2602.11596)
+- [scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery](https://arxiv.org/abs/2602.11609)
+- [When Agents Disagree With Themselves: Measuring Behavioral Consistency in LLM-Based Agents](https://arxiv.org/abs/2602.11619)
+- [Neuro-Symbolic Multitasking: A Unified Framework for Discovering Generalizable Solutions to PDE Families](https://arxiv.org/abs/2602.11630)
+- [Do MLLMs Really Understand Space? A Mathematical Reasoning Evaluation](https://arxiv.org/abs/2602.11635)
+- [Quark Medical Alignment: A Holistic Multi-Dimensional Alignment and Collaborative Optimization Paradigm](https://arxiv.org/abs/2602.11661)
+- [PhyNiKCE: A Neurosymbolic Agentic Framework for Autonomous Computational Fluid Dynamics](https://arxiv.org/abs/2602.11666)
+- [Benchmark Health Index: A Systematic Framework for Benchmarking the Benchmarks of LLMs](https://arxiv.org/abs/2602.11674)
+- [Right for the Wrong Reasons: Epistemic Regret Minimization for Causal Rung Collapse in LLMs](https://arxiv.org/abs/2602.11675)
+- [Beyond Pixels: Vector-to-Graph Transformation for Reliable Schematic Auditing](https://arxiv.org/abs/2602.11678)
+- [ThinkRouter: Efficient Reasoning via Routing Thinking between Latent and Discrete Spaces](https://arxiv.org/abs/2602.11683)
+- [Cross-Architecture Model Diffing with Crosscoders: Unsupervised Discovery of Differences Between LLMs](https://arxiv.org/abs/2602.11729)
+- [Text2GQL-Bench: A Text to Graph Query Language Benchmark](https://arxiv.org/abs/2602.11745)
+- [TS-Memory: Plug-and-Play Memory for Time Series Foundation Models](https://arxiv.org/abs/2602.11550)
+- [Multi UAVs Preflight Planning in a Shared and Dynamic Airspace](https://arxiv.org/abs/2602.12055)
+- [LawThinker: A Deep Research Legal Agent in Dynamic Environments](https://arxiv.org/abs/2602.12056)
+- [Agentic Test-Time Scaling for WebAgents](https://arxiv.org/abs/2602.12276)
+- [Fighting MRI Anisotropy: Learning Multiple Cardiac Shapes From a Single Implicit Neural Representation](https://arxiv.org/abs/2602.11942)
+- [Towards Autonomous Mathematics Research](https://arxiv.org/abs/2602.10177)
+- [Multi Graph Search for High-Dimensional Robot Motion Planning](https://arxiv.org/abs/2602.12096)
+- [Evaluating AGENTS.md: Are Repository-Level Context Files Helpful for Coding Agents?](https://arxiv.org/abs/2602.12144)
+- [When Evaluation Becomes a Side Channel: Regime Leakage and Structural Mitigations for Alignment Assessment](https://arxiv.org/abs/2602.08449)
+
+#### Education and Training
+- [A technical curriculum on language-oriented artificial intelligence in translation and specialised communication](https://arxiv.org/abs/2602.12251)
+- [Teaching LLMs According to Their Aptitude: Adaptive Reasoning for Mathematical Problem Solving](https://arxiv.org/abs/2502.12022)
+- [How to Leverage Explainable AI for Better Business Decisions](https://towardsdatascience.com/how-to-leverage-explainable-ai-for-better-business-decisions/)
+
+#### Robotics and Automation
+- [Multi UAVs Preflight Planning in a Shared and Dynamic Airspace](https://arxiv.org/abs/2602.12055)
+- [DexterCap: An Affordable and Automated System for Capturing Dexterous Hand-Object Manipulation](https://arxiv.org/abs/2601.05844)
+- [Agentic Test-Time Scaling for WebAgents](https://arxiv.org/abs/2602.12276)
+
+#### Health and Medicine
+- [Quark Medical Alignment: A Holistic Multi-Dimensional Alignment and Collaborative Optimization Paradigm](https://arxiv.org/abs/2602.11661)
+- [Fighting MRI Anisotropy: Learning Multiple Cardiac Shapes From a Single Implicit Neural Representation](https://arxiv.org/abs/2602.11942)
+- [AI-Driven Clinical Decision Support System for Enhanced Diabetes Diagnosis and Management](https://arxiv.org/abs/2602.11237)
+
+#### Natural Language Processing
+- [Explaining AI Without Code: A User Study on Explainable AI](https://arxiv.org/abs/2602.11159)
+- [Bi-Level Prompt Optimization for Multimodal LLM-as-a-Judge](https://arxiv.org/abs/2602.11340)
+- [Learning Physics-Grounded 4D Dynamics with Neural Gaussian Force Fields](https://arxiv.org/abs/2602.00148)
+
+#### Security and Privacy
+- [The PBSAI Governance Ecosystem: A Multi-Agent AI Reference Architecture for Securing Enterprise AI Estates](https://arxiv.org/abs/2602.11301)
+- [AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems](https://arxiv.org/abs/2602.11510)
+- [Fighting MRI Anisotropy: Learning Multiple Cardiac Shapes From a Single Implicit Neural Representation](https://arxiv.org/abs/2602.11942)
+
+This summary provides an overview of the latest research papers and articles related to AI, machine learning, security, and their applications across various domains. The categorization helps in understanding the focus areas and advancements in these fields.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Security
+
+The recent papers and articles related to AI and security reveal a growing focus on the intersection of AI capabilities and the need for robust security measures. Here are the key trends and insights derived from the analysis:
+
+1. **Emerging Security Frameworks**: Several papers propose frameworks and methodologies to enhance the security of AI systems. For instance, the paper on **MCPSecBench** introduces a systematic security benchmark for testing Model Context Protocols (MCP), highlighting the need for a structured approach to evaluate the security of AI agents in multi-agent systems. Similarly, **DriveSafe** presents a hierarchical risk taxonomy for LLM-based driving assistants, emphasizing the importance of understanding domain-specific risks.
+
+2. **Adversarial Attacks and Defense Mechanisms**: The concept of adversarial attacks is prevalent, with papers like **Thought Purity** discussing the vulnerabilities of Chain-of-Thought reasoning in LLMs. The proposed defense framework aims to recover reasoning paths to mitigate these attacks. Another paper, **Defending the Edge**, introduces a representative-attention defense against backdoor attacks in federated learning, showcasing the ongoing battle against adversarial threats.
+
+3. **Privacy Concerns**: The issue of privacy in AI systems is underscored in the paper **Stop Tracking Me!**, which discusses the risks of attribute inference attacks in LLMs. The proposed framework combines fine-grained anonymization with inference-preventing optimization to protect user privacy while maintaining model utility.
+
+4. **Robustness and Generalization**: Papers like **Quantifying and Improving the Robustness of Retrieval-Augmented Language Models** focus on the robustness of LLMs against spurious features in grounding data. This highlights the need for models to be resilient against misleading inputs, which is crucial for maintaining trust in AI systems.
+
+5. **Evaluation and Benchmarking**: The introduction of benchmarks such as **ExtractBench** and **Fin-RATE** emphasizes the necessity for comprehensive evaluation methodologies that account for the complexities of real-world applications. These benchmarks aim to provide a more accurate assessment of AI capabilities, particularly in sensitive domains like finance and healthcare.
+
+6. **Human-AI Interaction**: The exploration of human-AI interaction dynamics, as seen in the paper **Choose Your Agent**, reveals the importance of understanding how AI agents can effectively collaborate with humans in decision-making processes. This is particularly relevant in high-stakes environments where trust and reliability are paramount.
+
+7. **Ethical Considerations**: The paper **Trustworthiness of Legal Considerations for the Use of LLMs in Education** discusses the ethical implications of deploying AI in educational settings, emphasizing the need for frameworks that ensure responsible AI integration.
+
+8. **Multi-Agent Systems**: The development of frameworks like **Roundtable Policy** and **MARSHAL** illustrates the growing interest in enhancing reasoning and collaboration among AI agents, particularly in multi-agent systems where communication and coordination are critical.
+
+### Conclusion
+
+The landscape of AI research is increasingly focused on security, robustness, and ethical considerations, particularly as AI systems become more integrated into critical applications. The proposed frameworks and methodologies aim to address vulnerabilities, enhance privacy, and ensure that AI systems operate reliably and transparently in real-world scenarios. As AI continues to evolve, the interplay between its capabilities and the need for security will remain a central theme in ongoing research and development.
