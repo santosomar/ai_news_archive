@@ -1,0 +1,157 @@
+AI Researcher Agent Report for 2026-02-16-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory](https://arxiv.org/abs/2602.12316): Introduces GT-HarmBench, a benchmark for evaluating AI safety in multi-agent environments, highlighting coordination failures and harmful outcomes in AI systems.
+- [A Theoretical Framework for Adaptive Utility-Weighted Benchmarking](https://arxiv.org/abs/2602.12356): Proposes a framework for adaptive benchmarking in AI that incorporates stakeholder priorities and dynamic evaluation metrics.
+- [Evolving Beyond Snapshots: Harmonizing Structure and Sequence via Entity State Tuning for Temporal Knowledge Graph Forecasting](https://arxiv.org/abs/2602.12389): Presents Entity State Tuning (EST) for improving temporal knowledge graph forecasting by maintaining persistent entity states.
+- [Intent-Driven Smart Manufacturing Integrating Knowledge Graphs and Large Language Models](https://arxiv.org/abs/2602.12419): Describes a framework combining LLMs and knowledge graphs for translating human intents into machine-executable actions in smart manufacturing.
+- [Scaling Web Agent Training through Automatic Data Generation and Fine-grained Evaluation](https://arxiv.org/abs/2602.12544): Introduces a pipeline for generating training data for web agents, emphasizing fine-grained evaluation of task completion.
+- [To Mix or To Merge: Toward Multi-Domain Reinforcement Learning for Large Language Models](https://arxiv.org/abs/2602.12566): Analyzes training paradigms for multi-domain reinforcement learning in LLMs, focusing on mixed and separate training approaches.
+- [Can I Have Your Order? Monte-Carlo Tree Search for Slot Filling Ordering in Diffusion Language Models](https://arxiv.org/abs/2602.12586): Proposes McDiffuSE, a framework using Monte Carlo Tree Search to optimize slot filling orders in diffusion models.
+- [GeoAgent: Learning to Geolocate Everywhere with Reinforced Geographic Characteristics](https://arxiv.org/abs/2602.12617): Introduces GeoAgent, a model for geolocation tasks that incorporates geographic characteristics and expert annotations.
+- [AI Agents for Inventory Control: Human-LLM-OR Complementarity](https://arxiv.org/abs/2602.12631): Explores the interaction between operations research algorithms and LLMs in inventory control, finding complementary benefits.
+- [Think Fast and Slow: Step-Level Cognitive Depth Adaptation for LLM Agents](https://arxiv.org/abs/2602.12662): Proposes CogRouter, a framework for LLM agents to adapt cognitive depth dynamically based on task requirements.
+- [Evaluating Robustness of Reasoning Models on Parameterized Logical Problems](https://arxiv.org/abs/2602.12665): Introduces a benchmark for evaluating LLM reasoning under logical problem perturbations, revealing brittleness in model performance.
+- [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks](https://arxiv.org/abs/2602.12670): Presents SkillsBench, a benchmark for evaluating the effectiveness of agent skills across various tasks.
+- [X-SYS: A Reference Architecture for Interactive Explanation Systems](https://arxiv.org/abs/2602.12748): Proposes X-SYS, a reference architecture for building interactive explanation systems in AI.
+- [WebClipper: Efficient Evolution of Web Agents with Graph-based Trajectory Pruning](https://arxiv.org/abs/2602.12852): Introduces WebClipper, a framework for optimizing web agent trajectories to improve efficiency.
+- [BrowseComp-$V^3$: A Visual, Vertical, and Verifiable Benchmark for Multimodal Browsing Agents](https://arxiv.org/abs/2602.12876): Presents a benchmark for evaluating multimodal browsing agents on complex tasks.
+- [Information-theoretic analysis of world models in optimal reward maximizers](https://arxiv.org/abs/2602.12963): Analyzes the information requirements for optimal policies in AI systems.
+- [Consistency of Large Reasoning Models Under Multi-Turn Attacks](https://arxiv.org/abs/2602.13093): Evaluates the robustness of reasoning models against adversarial attacks, identifying failure modes.
+- [Constrained Assumption-Based Argumentation Frameworks](https://arxiv.org/abs/2602.13135): Proposes a new framework for argumentation that includes constrained variables.
+- [Optimal Take-off under Fuzzy Clearances](https://arxiv.org/abs/2602.13166): Presents a hybrid obstacle avoidance architecture for unmanned aircraft.
+- [Language-Guided Invariance Probing of Vision-Language Models](https://arxiv.org/abs/2511.13494): Introduces a benchmark for evaluating vision-language models' robustness to linguistic perturbations.
+- [Peak + Accumulation: A Proxy-Level Scoring Formula for Multi-Turn LLM Attack Detection](https://arxiv.org/abs/2602.11247): Proposes a scoring formula for detecting multi-turn prompt injection attacks.
+- [A Lightweight LLM Framework for Disaster Humanitarian Information Classification](https://arxiv.org/abs/2602.12284): Develops a lightweight framework for classifying humanitarian information from social media.
+- [From Biased Chatbots to Biased Agents: Examining Role Assignment Effects on LLM Agent Robustness](https://arxiv.org/abs/2602.12285): Investigates the effects of persona assignments on LLM agent performance.
+- [Retrieval-Augmented Self-Taught Reasoning Model with Adaptive Chain-of-Thought for ASR Named Entity Correction](https://arxiv.org/abs/2602.12287): Proposes a framework for correcting named entity errors in ASR systems.
+- [Energy-Aware Reinforcement Learning for Robotic Manipulation of Articulated Components in Infrastructure Operation and Maintenance](https://arxiv.org/abs/2602.12288): Introduces an energy-aware RL framework for robotic manipulation in infrastructure maintenance.
+- [Adaptive traffic signal control optimization using a novel road partition and multi-channel state representation method](https://arxiv.org/abs/2602.12296): Proposes a new method for optimizing traffic signal control.
+- [OmniCustom: Sync Audio-Video Customization Via Joint Audio-Video Generation Model](https://arxiv.org/abs/2602.12304): Introduces a framework for synchronizing audio and video customization.
+- [OptiML: An End-to-End Framework for Program Synthesis and CUDA Kernel Optimization](https://arxiv.org/abs/2602.12305): Presents a framework for optimizing CUDA kernels through program synthesis.
+- [Quantum walk inspired JPEG compression of images](https://arxiv.org/abs/2602.12306): Proposes a quantum-inspired framework for enhancing JPEG compression.
+- [Perceptual Self-Reflection in Agentic Physics Simulation Code Generation](https://arxiv.org/abs/2602.12311): Introduces a framework for generating physics simulation code with self-reflection.
+- [Visible and Hyperspectral Imaging for Quality Assessment of Milk: Property Characterisation and Identification](https://arxiv.org/abs/2602.12313): Investigates the use of imaging for assessing milk quality.
+- [AgenticShop: Benchmarking Agentic Product Curation for Personalized Web Shopping](https://arxiv.org/abs/2602.12315): Presents a benchmark for evaluating agentic systems in personalized web shopping.
+- [Free Lunch in Medical Image Foundation Model Pre-training via Randomized Synthesis and Disentanglement](https://arxiv.org/abs/2602.12317): Proposes a framework for pre-training medical image models using synthetic data.
+- [ForeAct: Steering Your VLA with Efficient Visual Foresight Planning](https://arxiv.org/abs/2602.12322): Introduces a framework for planning in vision-language-action models.
+- [Intrinsic Credit Assignment for Long Horizon Interaction](https://arxiv.org/abs/2602.12342): Proposes a method for credit assignment in long-horizon interactions.
+- [Policy4OOD: A Knowledge-Guided World Model for Policy Intervention Simulation against the Opioid Overdose Crisis](https://arxiv.org/abs/2602.12373): Introduces a world model for simulating policy interventions in public health.
+- [Value Bonuses using Ensemble Errors for Exploration in Reinforcement Learning](https://arxiv.org/abs/2602.12375): Proposes an exploration algorithm for reinforcement learning.
+- [TFT-ACB-XML: Decision-Level Integration of Customized Temporal Fusion Transformer and Attention-BiLSTM with XGBoost Meta-Learner for BTC Price Forecasting](https://arxiv.org/abs/2602.12380): Presents a hybrid framework for Bitcoin price forecasting.
+- [Why Deep Jacobian Spectra Separate: Depth-Induced Scaling and Singular-Vector Alignment](https://arxiv.org/abs/2602.12384): Analyzes the dynamics of deep networks and their implications for training.
+- [Rational Neural Networks have Expressivity Advantages](https://arxiv.org/abs/2602.12390): Studies the advantages of neural networks with rational activation functions.
+- [Reproducing DragDiffusion: Interactive Point-Based Editing with Diffusion Models](https://arxiv.org/abs/2602.12393): Conducts a reproducibility study of a diffusion-based image editing method.
+- [What does RL improve for Visual Reasoning? A Frankenstein-Style Analysis](https://arxiv.org/abs/2602.12395): Analyzes the improvements in visual reasoning from reinforcement learning.
+- [AstRL: Analog and Mixed-Signal Circuit Synthesis with Deep Reinforcement Learning](https://arxiv.org/abs/2602.12402): Proposes a method for synthesizing analog circuits using deep reinforcement learning.
+- [Soft Contamination Means Benchmarks Test Shallow Generalization](https://arxiv.org/abs/2602.12413): Investigates the effects of training data contamination on benchmark performance.
+- [CacheMind: From Miss Rates to Why -- Natural-Language, Trace-Grounded Reasoning for Cache Replacement](https://arxiv.org/abs/2602.12422): Introduces a conversational tool for cache replacement analysis.
+- [RankLLM: Weighted Ranking of LLMs by Quantifying Question Difficulty](https://arxiv.org/abs/2602.12424): Proposes a framework for evaluating LLM capabilities based on question difficulty.
+- [Agent Skills for Large Language Models: Architecture, Acquisition, Security, and the Path Forward](https://arxiv.org/abs/2602.12430): Surveys the landscape of agent skills in LLMs and their implications for security.
+- [Safe Reinforcement Learning via Recovery-based Shielding with Gaussian Process Dynamics Models](https://arxiv.org/abs/2602.12444): Introduces a framework for safe reinforcement learning using Gaussian processes.
+- [Correctness, Artificial Intelligence, and the Epistemic Value of Mathematical Proof](https://arxiv.org/abs/2602.12463): Discusses the relationship between correctness and epistemic value in mathematical proofs.
+- [Designing RNAs with Language Models](https://arxiv.org/abs/2602.12470): Proposes a framework for RNA design using language models.
+- [Not a Silver Bullet for Loneliness: How Attachment and Age Shape Intimacy with AI Companions](https://arxiv.org/abs/2602.12476): Investigates the dynamics of intimacy in human-AI relationships.
+- [A Lightweight and Explainable DenseNet-121 Framework for Grape Leaf Disease Classification](https://arxiv.org/abs/2602.12484): Proposes a framework for classifying grape leaf diseases using a lightweight model.
+- [Human-Like Coarse Object Representations in Vision Models](https://arxiv.org/abs/2602.12486): Studies the emergence of human-like object representations in vision models.
+- [Favia Guard: Efficient Polish Language Safety Classifiers for LLM Content Moderation](https://arxiv.org/abs/2602.07954): Introduces a family of Polish language safety classifiers for content moderation.
+- [GISA: A Benchmark for General Information-Seeking Assistant](https://arxiv.org/abs/2602.08543): Presents a benchmark for evaluating general information-seeking assistants.
+- [LLaDA2.1: Speeding Up Text Diffusion via Token Editing](https://arxiv.org/abs/2602.08676): Introduces a framework for improving text diffusion models through token editing.
+- [Predicting Open Source Software Sustainability with Deep Temporal Neural Hierarchical Architectures and Explainable AI](https://arxiv.org/abs/2602.09064): Proposes a framework for predicting open source software sustainability.
+- [The Critical Horizon: Inspection Design Principles for Multi-Stage Operations and Deep Reasoning](https://arxiv.org/abs/2602.09394): Establishes principles for inspection design in multi-stage operations.
+- [EVA: Towards a universal model of the immune system](https://arxiv.org/abs/2602.10168): Introduces EVA, a multimodal foundation model for immunology and inflammation.
+- [Transforming Policy-Car Swerving for Mitigating Stop-and-Go Traffic Waves: A Practice-Oriented Jam-Absorption Driving Strategy](https://arxiv.org/abs/2602.10234): Proposes a driving strategy to mitigate stop-and-go traffic waves.
+- [Less is Enough: Synthesizing Diverse Data in Feature Space of LLMs](https://arxiv.org/abs/2602.10388): Introduces a framework for synthesizing diverse data in LLMs.
+- [A Unified Theory of Random Projection for Influence Functions](https://arxiv.org/abs/2602.10449): Develops a theory for random projection in the context of influence functions.
+- [Low-Dimensional Execution Manifolds in Transformer Learning Dynamics: Evidence from Modular Arithmetic Tasks](https://arxiv.org/abs/2602.10496): Analyzes the learning dynamics of transformers in modular arithmetic tasks.
+- [Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System](https://arxiv.org/abs/2602.10915): Proposes a secure architecture for mobile agent operating systems.
+- [Computational Phenomenology of Temporal Experience in Autism: Quantifying the Emotional and Narrative Characteristics of Lived Unpredictability](https://arxiv.org/abs/2602.10947): Investigates temporal experience in autism through computational methods.
+- [HiFloat4 Format for Language Model Inference](https://arxiv.org/abs/2602.11287): Introduces a new floating-point format for efficient language model inference.
+- [Variation-aware Flexible 3D Gaussian Editing](https://arxiv.org/abs/2602.11638): Proposes a framework for flexible editing of 3D Gaussian representations.
+- [Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation](https://arxiv.org/abs/2602.12089): Explores the trade-offs in using different AI modalities in negotiation tasks.
+- [DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing](https://arxiv.org/abs/2602.12205): Introduces a lightweight unified model for image generation and editing.
+- [The Strangest Bottleneck in Modern LLMs](https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/): Discusses the limitations of LLMs despite advancements in hardware.
+- [A beginner’s guide to Tmux: a multitasking superpower for your terminal](https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/): Provides an introduction to using Tmux for terminal multitasking.
+
+### Categories
+#### AI Safety and Security
+- [GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory](https://arxiv.org/abs/2602.12316)
+- [AI Agents for Inventory Control: Human-LLM-OR Complementarity](https://arxiv.org/abs/2602.12631)
+- [Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges](https://arxiv.org/abs/2510.23883)
+- [MetaSeal: Defending Against Image Attribution Forgery Through Content-Dependent Cryptographic Watermarks](https://arxiv.org/abs/2509.10766)
+- [Bielik Guard: Efficient Polish Language Safety Classifiers for LLM Content Moderation](https://arxiv.org/abs/2602.07954)
+
+#### Benchmarking and Evaluation
+- [A Theoretical Framework for Adaptive Utility-Weighted Benchmarking](https://arxiv.org/abs/2602.12356)
+- [SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks](https://arxiv.org/abs/2602.12670)
+- [GISA: A Benchmark for General Information-Seeking Assistant](https://arxiv.org/abs/2602.08543)
+- [MLLM-CTBench: A Benchmark for Continual Instruction Tuning with Reasoning Process Diagnosis](https://arxiv.org/abs/2508.08275)
+
+#### Multimodal Learning and Applications
+- [Evolving Beyond Snapshots: Harmonizing Structure and Sequence via Entity State Tuning for Temporal Knowledge Graph Forecasting](https://arxiv.org/abs/2602.12389)
+- [Intent-Driven Smart Manufacturing Integrating Knowledge Graphs and Large Language Models](https://arxiv.org/abs/2602.12419)
+- [OmniCustom: Sync Audio-Video Customization Via Joint Audio-Video Generation Model](https://arxiv.org/abs/2602.12304)
+- [DeepGen 1.0: A Lightweight Unified Multimodal Model for Advancing Image Generation and Editing](https://arxiv.org/abs/2602.12205)
+
+#### Reinforcement Learning and Optimization
+- [Scaling Web Agent Training through Automatic Data Generation and Fine-grained Evaluation](https://arxiv.org/abs/2602.12544)
+- [To Mix or To Merge: Toward Multi-Domain Reinforcement Learning for Large Language Models](https://arxiv.org/abs/2602.12566)
+- [Policy4OOD: A Knowledge-Guided World Model for Policy Intervention Simulation against the Opioid Overdose Crisis](https://arxiv.org/abs/2602.12373)
+- [Value Bonuses using Ensemble Errors for Exploration in Reinforcement Learning](https://arxiv.org/abs/2602.12375)
+
+#### Human-AI Interaction
+- [Not a Silver Bullet for Loneliness: How Attachment and Age Shape Intimacy with AI Companions](https://arxiv.org/abs/2602.12476)
+- [Choose Your Agent: Tradeoffs in Adopting AI Advisors, Coaches, and Delegates in Multi-Party Negotiation](https://arxiv.org/abs/2602.12089)
+
+#### Healthcare and Medical Applications
+- [Free Lunch in Medical Image Foundation Model Pre-training via Randomized Synthesis and Disentanglement](https://arxiv.org/abs/2602.12317)
+- [Tuberculosis Screening from Cough Audio: Baseline Models, Clinical Variables, and Uncertainty Quantification](https://arxiv.org/abs/2601.07969)
+- [EEG-FM-Bench: A Comprehensive Benchmark for the Systematic Evaluation of EEG Foundation Models](https://arxiv.org/abs/2508.17742)
+
+#### Data and Knowledge Representation
+- [Panning for Gold: Expanding Domain-Specific Knowledge Graphs with General Knowledge](https://arxiv.org/abs/2601.10485)
+- [Discovering Hierarchy-Grounded Domains with Adaptive Granularity for Clinical Domain Generalization](https://arxiv.org/abs/2506.06977)
+
+#### Miscellaneous
+- [The Strangest Bottleneck in Modern LLMs](https://towardsdatascience.com/the-strangest-bottleneck-in-modern-llms/)
+- [A beginner’s guide to Tmux: a multitasking superpower for your terminal](https://towardsdatascience.com/a-beginners-guide-to-tmux-a-multitasking-superpower-for-your-terminal/)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory**
+   - **Summary**: This paper introduces GT-HarmBench, a benchmark for evaluating AI safety risks in multi-agent environments. It highlights the inadequacy of existing benchmarks that focus on single-agent scenarios. The findings indicate that agents often fail to choose socially beneficial actions, leading to harmful outcomes. The paper emphasizes the need for game-theoretic interventions to improve alignment in multi-agent systems.
+
+#### 2. **AI Agents for Inventory Control: Human-LLM-OR Complementarity**
+   - **Summary**: This study explores the integration of AI agents in inventory control, focusing on the complementarity between operations research algorithms and large language models (LLMs). The findings suggest that combining these approaches can enhance decision-making and profitability, indicating a potential for improved security in inventory management through better decision-making processes.
+
+#### 3. **Evaluating Robustness of Reasoning Models on Parameterized Logical Problems**
+   - **Summary**: This paper evaluates the robustness of large language models (LLMs) against logical problems, revealing brittleness under targeted structural interventions. The findings suggest that LLMs may not be reliable for security-critical applications due to their vulnerability to adversarial attacks.
+
+#### 4. **Consistency of Large Reasoning Models Under Multi-Turn Attacks**
+   - **Summary**: This research investigates the robustness of reasoning models under adversarial pressure, identifying failure modes such as self-doubt and social conformity. The results indicate that reasoning capabilities do not inherently confer adversarial robustness, raising concerns for deploying LLMs in security-sensitive contexts.
+
+#### 5. **AI-Augmented Sensemaking of Patient-Generated Health Data**
+   - **Summary**: This study examines how AI can assist healthcare professionals in interpreting patient-generated health data. While it primarily focuses on healthcare, the implications for data privacy and security in handling sensitive health information are significant.
+
+#### 6. **Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges**
+   - **Summary**: This survey outlines the unique security risks posed by agentic AI systems, which operate autonomously across various environments. It discusses a taxonomy of threats and reviews defense strategies, emphasizing the need for robust evaluation methodologies to ensure the security of AI systems.
+
+#### 7. **MetaSeal: Defending Against Image Attribution Forgery**
+   - **Summary**: This paper presents MetaSeal, a framework for watermarking images to prevent attribution forgery. It emphasizes the importance of maintaining the integrity of AI-generated content, which is crucial for security in digital environments.
+
+#### 8. **Blind Gods and Broken Screens: Architecting a Secure, Intent-Centric Mobile Agent Operating System**
+   - **Summary**: This work proposes a new architecture for mobile agents that enhances security by replacing traditional GUI interactions with structured, agent-native models. It addresses vulnerabilities associated with visual data reliance, which is critical for secure AI interactions.
+
+### Trends and Insights
+- **Focus on Robustness**: Many papers emphasize the need for robustness in AI systems, particularly in adversarial contexts. This is crucial for applications in security-sensitive areas, where failures can have significant consequences.
+- **Integration of AI in Security**: The integration of AI in various domains, such as healthcare and inventory management, highlights the potential for improved decision-making and efficiency, but also raises concerns about data privacy and security.
+- **Need for Evaluation Frameworks**: There is a clear trend towards developing comprehensive evaluation frameworks for assessing the security and robustness of AI systems, particularly in multi-agent and multimodal contexts.
+- **Emerging Threats**: The unique threats posed by agentic AI systems, which operate autonomously, necessitate new security measures and evaluation methodologies to ensure safe deployment.
+
+### Conclusion
+The intersection of AI and security is a rapidly evolving field, with ongoing research addressing the challenges of robustness, privacy, and the unique threats posed by autonomous systems. The development of comprehensive benchmarks and evaluation frameworks is essential for ensuring the safe and effective deployment of AI technologies in sensitive applications.
