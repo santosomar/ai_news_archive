@@ -1,0 +1,146 @@
+AI Researcher Agent Report for 2026-02-19-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Towards Efficient Constraint Handling in Neural Solvers for Routing Problems](https://arxiv.org/abs/2602.16012): This paper presents Construct-and-Refine (CaR), a framework for efficient constraint handling in neural routing solvers, achieving superior feasibility and solution quality compared to classical and neural state-of-the-art solvers.
+- [Optimization Instability in Autonomous Agentic Workflows for Clinical Symptom Detection](https://arxiv.org/abs/2602.16037): This study investigates optimization instability in autonomous workflows for clinical symptom detection, revealing critical failure modes and demonstrating that retrospective selection outperforms active intervention.
+- [How Uncertain Is the Grade? A Benchmark of Uncertainty Metrics for LLM-Based Automatic Assessment](https://arxiv.org/abs/2602.16039): This paper benchmarks uncertainty quantification methods in LLM-based automatic assessment, highlighting the importance of reliable uncertainty estimates for educational interventions.
+- [Evidence-Grounded Subspecialty Reasoning: Evaluating a Curated Clinical Intelligence Layer on the 2025 Endocrinology Board-Style Examination](https://arxiv.org/abs/2602.16050): The study evaluates a clinical reasoning system against frontier LLMs, demonstrating superior accuracy and evidence traceability.
+- [Improving Interactive In-Context Learning from Natural Language Feedback](https://arxiv.org/abs/2602.16066): This work proposes a framework for interactive in-context learning, showing that models trained with this approach improve their ability to learn from language feedback.
+- [GPSBench: Do Large Language Models Understand GPS Coordinates?](https://arxiv.org/abs/2602.16105): This paper introduces a dataset for evaluating geospatial reasoning in LLMs, finding that LLMs struggle with GPS reasoning tasks.
+- [Learning Personalized Agents from Human Feedback](https://arxiv.org/abs/2602.16173): This framework enables agents to learn online from live interactions, improving personalization and adaptability to user preferences.
+- [EnterpriseGym Corecraft: Training Generalizable Agents on High-Fidelity RL Environments](https://arxiv.org/abs/2602.16179): This paper presents a reinforcement learning environment for training AI agents, demonstrating improved generalization capabilities.
+- [Revolutionizing Long-Term Memory in AI: New Horizons with High-Capacity and High-Speed Storage](https://arxiv.org/abs/2602.16192): This work explores innovative memory designs for AI, emphasizing the importance of retaining raw experiences.
+- [Toward Scalable Verifiable Reward: Proxy State-Based Evaluation for Multi-turn Tool-Calling LLM Agents](https://arxiv.org/abs/2602.16246): This paper proposes a simulation framework for evaluating LLM agents, achieving stable rankings across models.
+- [Multi-agent cooperation through in-context co-player inference](https://arxiv.org/abs/2602.16301): This study demonstrates that sequence model agents can learn cooperative behaviors through in-context learning.
+- [Verifiable Semantics for Agent-to-Agent Communication](https://arxiv.org/abs/2602.16424): This paper introduces a certification protocol for verifying shared understanding in multi-agent systems, reducing disagreement rates significantly.
+- [Causally-Guided Automated Feature Engineering with Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2602.16435): This work presents a framework for automated feature engineering that improves robustness and efficiency using causal structures.
+- [Leveraging Large Language Models for Causal Discovery: a Constraint-based, Argumentation-driven Approach](https://arxiv.org/abs/2602.16481): This paper explores using LLMs for causal discovery, integrating semantic structural priors with conditional independence evidence.
+- [Framework of Thoughts: A Foundation Framework for Dynamic and Optimized Reasoning based on Chains, Trees, and Graphs](https://arxiv.org/abs/2602.16512): This work introduces a framework for optimizing reasoning schemes in LLMs, demonstrating significant performance improvements.
+- [Creating a digital poet](https://arxiv.org/abs/2602.16578): This study reports on shaping an LLM into a digital poet through iterative feedback, raising questions about creativity and authorship.
+- [Agent Skill Framework: Perspectives on the Potential of Small Language Models in Industrial Environments](https://arxiv.org/abs/2602.16653): This paper investigates the effectiveness of the Agent Skill framework for small language models in industrial applications.
+- [Towards a Science of AI Agent Reliability](https://arxiv.org/abs/2602.16666): This work proposes metrics for evaluating AI agent reliability, highlighting persistent limitations in current models.
+- [What Persona Are We Missing? Identifying Unknown Relevant Personas for Faithful User Simulation](https://arxiv.org/abs/2602.15832): This study explores the task of identifying relevant personas for user simulations, providing a benchmark for this crucial task.
+- [EdgeNav-QE: QLoRA Quantization and Dynamic Early Exit for LAM-based Navigation on Edge Devices](https://arxiv.org/abs/2602.15836): This paper presents a framework for optimizing LAMs for edge navigation, demonstrating significant reductions in latency and memory footprint.
+- [The Perplexity Paradox: Why Code Compresses Better Than Math in LLM Prompts](https://arxiv.org/abs/2602.15843): This study investigates the perplexity paradox in LLM prompts, proposing an adaptive algorithm for improved performance.
+- [Language Model Representations for Efficient Few-Shot Tabular Classification](https://arxiv.org/abs/2602.15844): This work explores leveraging LLMs for tabular classification, demonstrating the viability of reusing existing infrastructure.
+- [Do Personality Traits Interfere? Geometric Limitations of Steering in Large Language Models](https://arxiv.org/abs/2602.15847): This study examines the geometric relationships between personality steering directions in LLMs, revealing limitations in independent trait control.
+- [Can LLMs Assess Personality? Validating Conversational AI for Trait Profiling](https://arxiv.org/abs/2602.15848): This research validates LLMs as alternatives to traditional personality assessments, showing moderate convergent validity.
+- [Preference Optimization for Review Question Generation Improves Writing Quality](https://arxiv.org/abs/2602.15849): This paper presents a model for generating high-quality review questions, demonstrating improvements in reasoning and writing benchmarks.
+- [Narrative Theory-Driven LLM Methods for Automatic Story Generation and Understanding: A Survey](https://arxiv.org/abs/2602.15851): This survey examines the intersection of narrative theory and NLP, proposing a taxonomy for ongoing research efforts.
+- [Building Safe and Deployable Clinical Natural Language Processing under Temporal Leakage Constraints](https://arxiv.org/abs/2602.15852): This study focuses on designing safe clinical NLP systems that prioritize temporal validity and calibration.
+- [A Lightweight Explainable Guardrail for Prompt Safety](https://arxiv.org/abs/2602.15853): This paper proposes a method for classifying unsafe prompts while maintaining explainability.
+- [Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization](https://arxiv.org/abs/2602.15854): This work introduces a framework for optimizing task-oriented dialogue systems, demonstrating consistent improvements across datasets.
+- [Kalman-Inspired Runtime Stability and Recovery in Hybrid Reasoning Systems](https://arxiv.org/abs/2602.15855): This study presents a framework for monitoring stability in hybrid reasoning systems, emphasizing the importance of runtime stability.
+- [Rethinking Soft Compression in Retrieval-Augmented Generation: A Query-Conditioned Selector Perspective](https://arxiv.org/abs/2602.15856): This paper introduces a selector-based soft compression framework for RAG, achieving superior performance compared to existing methods.
+- [State Design Matters: How Representations Shape Dynamic Reasoning in Large Language Models](https://arxiv.org/abs/2602.15858): This work demonstrates the importance of state representation design in LLM performance, particularly in dynamic environments.
+- [CAST: Achieving Stable LLM-based Text Analysis for Data Analytics](https://arxiv.org/abs/2602.15861): This paper presents a framework for enhancing output stability in text analysis tasks using LLMs.
+- [Enhancing Action and Ingredient Modeling for Semantically Grounded Recipe Generation](https://arxiv.org/abs/2602.15862): This study proposes a framework for improving recipe generation accuracy and semantic fidelity.
+- [Not the Example, but the Process: How Self-Generated Examples Enhance LLM Reasoning](https://arxiv.org/abs/2602.15863): This work argues that the process of self-generation enhances LLM reasoning capabilities.
+- [AI as Teammate or Tool? A Review of Human-AI Interaction in Decision Support](https://arxiv.org/abs/2602.15865): This review analyzes the distinction between AI as a tool or teammate, highlighting the importance of adaptive interactions.
+- [NLP Privacy Risk Identification in Social Media (NLP-PRISM): A Survey](https://arxiv.org/abs/2602.15866): This survey reviews privacy risks in NLP applications on social media, proposing a framework for assessing vulnerabilities.
+- [Playing With AI: How Do State-Of-The-Art Large Language Models Perform in the 1977 Text-Based Adventure Game Zork?](https://arxiv.org/abs/2602.15867): This study evaluates LLM performance in a text-based game, revealing limitations in reasoning capabilities.
+- [Test-Time Adaptation for Tactile-Vision-Language Models](https://arxiv.org/abs/2602.15873): This paper presents a framework for adapting tactile-vision-language models under distribution shifts.
+- [Fly0: Decoupling Semantic Grounding from Geometric Planning for Zero-Shot Aerial Navigation](https://arxiv.org/abs/2602.15875): This work introduces a framework for aerial navigation that separates semantic reasoning from geometric planning.
+- [Genetic Generalized Additive Models](https://arxiv.org/abs/2602.15877): This paper proposes a genetic algorithm for optimizing generalized additive models, enhancing interpretability and performance.
+- [IT-OSE: Exploring Optimal Sample Size for Industrial Data Augmentation](https://arxiv.org/abs/2602.15878): This study presents a method for estimating optimal sample size in data augmentation, improving model performance.
+- [FUTURE-VLA: Forecasting Unified Trajectories Under Real-time Execution](https://arxiv.org/abs/2602.15882): This paper introduces a unified architecture for forecasting trajectories in real-time environments.
+- [NeuroSleep: Neuromorphic Event-Driven Single-Channel EEG Sleep Staging for Edge-Efficient Sensing](https://arxiv.org/abs/2602.15888): This study presents a neuromorphic system for energy-efficient sleep staging using EEG data.
+- [Evidence for Daily and Weekly Periodic Variability in GPT-4o Performance](https://arxiv.org/abs/2602.15889): This work examines the temporal variability of LLM performance, revealing periodic patterns.
+- [Surrogate Modeling for Neutron Transport: A Neural Operator Approach](https://arxiv.org/abs/2602.15890): This paper introduces a neural operator framework for neutron transport computation, demonstrating significant speedups.
+- [Egocentric Bias in Vision-Language Models](https://arxiv.org/abs/2602.15892): This study evaluates vision-language models' ability to perform visual perspective taking, revealing systematic biases.
+- [Understand Then Memory: A Cognitive Gist-Driven RAG Framework with Global Semantic Diffusion](https://arxiv.org/abs/2602.15895): This work presents a retrieval-augmented generation framework that simulates human cognitive memory processes.
+- [Doc-to-LoRA: Learning to Instantly Internalize Contexts](https://arxiv.org/abs/2602.15902): This paper introduces a hypernetwork for context distillation, enabling rapid adaptation of LLMs.
+- [Resp-Agent: An Agent-Based System for Multimodal Respiratory Sound Generation and Disease Diagnosis](https://arxiv.org/abs/2602.15909): This study presents an autonomous system for respiratory sound generation and diagnosis, improving diagnostic robustness.
+- [Foundation Models for Medical Imaging: Status, Challenges, and Directions](https://arxiv.org/abs/2602.15913): This review synthesizes the emerging landscape of foundation models in medical imaging.
+- [MaS-VQA: A Mask-and-Select Framework for Knowledge-Based Visual Question Answering](https://arxiv.org/abs/2602.15915): This paper introduces a selection-driven framework for visual question answering, improving answer prediction.
+- [EarthSpatialBench: Benchmarking Spatial Reasoning Capabilities of Multimodal LLMs on Earth Imagery](https://arxiv.org/abs/2602.15918): This work presents a benchmark for evaluating spatial reasoning in multimodal LLMs on Earth imagery.
+- [Generalized Leverage Score for Scalable Assessment of Privacy Vulnerability](https://arxiv.org/abs/2602.15919): This paper proposes a metric for assessing privacy vulnerability in machine learning models.
+- [A fully differentiable framework for training proxy Exchange Correlation Functionals for periodic systems](https://arxiv.org/abs/2602.15923): This work introduces a differentiable framework for integrating machine learning models into density functional theory.
+- [From Tool Orchestration to Code Execution: A Study of MCP Design Choices](https://arxiv.org/abs/2602.15945): This study evaluates the architectural distinction between context-coupled and context-decoupled models in agent systems.
+- [AI-Driven Structure Refinement of X-ray Diffraction](https://arxiv.org/abs/2602.16372): This paper presents a framework for refining X-ray diffraction structures using a physics-constrained approach.
+- [Building Cost-Efficient Agentic RAG on Long-Text Documents in SQL Tables](https://towardsdatascience.com/building-cost-efficient-agentic-rag-on-long-text-documents-in-sql-tables/): This work discusses designing a hybrid SQL and vector retrieval system for long-text documents.
+- [Why Every Analytics Engineer Needs to Understand Data Architecture](https://towardsdatascience.com/why-every-analytics-engineer-needs-to-understand-data-architecture/): This article emphasizes the importance of data architecture in analytics engineering.
+- [Agentic AI for Modern Deep Learning Experimentation](https://towardsdatascience.com/agentic-ai-for-modern-deep-learning-experimentation/): This post discusses the benefits of autonomous experiment management in deep learning.
+- [Advance Planning for AI Project Evaluation](https://towardsdatascience.com/advance-planning-for-ai-project-evaluation/): This article outlines the necessary preparations for effective AI project evaluation.
+- [Use OpenClaw to Make a Personal AI Assistant](https://towardsdatascience.com/use-openclaw-to-make-a-personal-ai-assistant/): This post provides a guide for setting up OpenClaw as a personalized AI agent.
+- [How safe are gpt-oss-safeguard models?](https://blogs.cisco.com/ai/how-safe-are-gpt-oss-safeguard-models): This article evaluates the safety posture of OpenAI's gpt-oss models against security threats.
+
+### Categories
+#### Security
+- [Guide-Guard: Off-Target Predicting in CRISPR Applications](https://tldr.takara.ai/p/2602.16327)
+- [Policy Compiler for Secure Agentic Systems](https://tldr.takara.ai/p/2602.16708)
+- [A Content-Based Framework for Cybersecurity Refusal Decisions in Large Language Models](https://arxiv.org/abs/2602.15689)
+- [How safe are gpt-oss-safeguard models?](https://blogs.cisco.com/ai/how-safe-are-gpt-oss-safeguard-models)
+
+#### Medical Applications
+- [Optimization Instability in Autonomous Agentic Workflows for Clinical Symptom Detection](https://arxiv.org/abs/2602.16037)
+- [Evidence-Grounded Subspecialty Reasoning: Evaluating a Curated Clinical Intelligence Layer on the 2025 Endocrinology Board-Style Examination](https://arxiv.org/abs/2602.16050)
+- [UCTECG-Net: Uncertainty-aware Convolution Transformer ECG Network for Arrhythmia Detection](https://tldr.takara.ai/p/2602.16216)
+- [MedReasoner: Reinforcement Learning Drives Reasoning Grounding from Clinical Thought to Pixel-Level Precision](https://arxiv.org/abs/2508.08177)
+
+#### Natural Language Processing
+- [Learning Personalized Agents from Human Feedback](https://arxiv.org/abs/2602.16173)
+- [How Uncertain Is the Grade? A Benchmark of Uncertainty Metrics for LLM-Based Automatic Assessment](https://arxiv.org/abs/2602.16039)
+- [Learning Preference from Observed Rankings](https://tldr.takara.ai/p/2602.16476)
+- [Evaluating Demographic Misrepresentation in Image-to-Image Portrait Editing](https://tldr.takara.ai/p/2602.16149)
+
+#### Robotics and AI Agents
+- [GPSBench: Do Large Language Models Understand GPS Coordinates?](https://tldr.takara.ai/p/2602.16105)
+- [CaveAgent: Transforming LLMs into Stateful Runtime Operators](https://arxiv.org/abs/2601.01569)
+- [RoboSpatial: Teaching Spatial Understanding to 2D and 3D Vision-Language Models for Robotics](https://tldr.takara.ai/p/2504.08603)
+- [RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation](https://tldr.takara.ai/p/2602.16444)
+
+#### Evaluation and Benchmarking
+- [VerifyBench: Benchmarking Reference-based Reward Systems for Large Language Models](https://arxiv.org/abs/2505.15801)
+- [AgentNoiseBench: Benchmarking Robustness of Tool-Using LLM Agents Under Noisy Condition](https://arxiv.org/abs/2602.11348)
+- [FairTabGen: High-Fidelity and Fair Synthetic Health Data Generation from Limited Samples](https://arxiv.org/abs/2508.11810)
+- [EconEvals: Benchmarks and Litmus Tests for Economic Decision-Making by LLM Agents](https://arxiv.org/abs/2503.18825)
+
+#### Miscellaneous
+- [Playing With AI: How Do State-Of-The-Art Large Language Models Perform in the 1977 Text-Based Adventure Game Zork?](https://arxiv.org/abs/2602.15867)
+- [AI-Paging: Lease-Based Execution Anchoring for Network-Exposed AI-as-a-Service](https://arxiv.org/abs/2602.15286)
+- [Semantic Chunking and the Entropy of Natural Language](https://arxiv.org/abs/2602.13194)
+- [A Survey: Spatiotemporal Consistency in Video Generation](https://arxiv.org/abs/2502.17863)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Overview
+The recent body of research and articles highlights the growing intersection of artificial intelligence (AI) with security concerns, particularly focusing on the robustness, interpretability, and ethical implications of AI systems. The papers explore various methodologies for enhancing the security and reliability of AI models, especially in sensitive applications such as healthcare, autonomous systems, and data privacy.
+
+#### Key Trends and Insights
+
+1. **Robustness and Security in AI Systems**:
+   - Several papers emphasize the need for robust AI systems that can withstand adversarial attacks and maintain performance under uncertain conditions. For instance, the introduction of **STAPO** (Spurious-Token-Aware Policy Optimization) aims to stabilize reinforcement learning for large language models (LLMs) by mitigating the impact of rare spurious tokens that can lead to performance degradation.
+
+2. **Ethical and Fairness Considerations**:
+   - The exploration of **Intra-Fairness Dynamics** highlights the complexities of fairness in AI, particularly how improving fairness in one attribute can inadvertently worsen disparities in others. This underscores the need for context-aware, multi-attribute fairness evaluation frameworks to ensure equitable AI behavior.
+
+3. **Data Privacy and Security**:
+   - The **Policy Compiler for Secure Agentic Systems (PCAS)** presents a method for deterministic policy enforcement in LLM-based agents, addressing the challenges of embedding complex authorization policies directly into prompts. This approach emphasizes the importance of tracking information flow across agents to prevent security breaches.
+
+4. **Adversarial Training and Evaluation**:
+   - The **Adversarial Resource Extraction Game (AREG)** benchmark evaluates LLMs' capabilities in persuasion and resistance, revealing that strong persuasive performance does not necessarily correlate with strong resistance. This highlights the need for comprehensive evaluation frameworks that assess both offensive and defensive capabilities in AI systems.
+
+5. **Contextual Integrity in AI**:
+   - The study on **Vision-Language Models (VLMs)** and their ability to respect contextual integrity in location disclosure emphasizes the ethical implications of AI systems that can infer sensitive information from seemingly innocuous inputs. The introduction of the **VLM-GEOPRIVACY** benchmark aims to evaluate how well models interpret social norms regarding privacy.
+
+6. **Dynamic Feature Selection and Uncertainty Quantification**:
+   - The development of a model-agnostic framework for dynamic feature selection that incorporates uncertainty quantification addresses the need for robust decision-making in high-stakes environments, such as healthcare.
+
+7. **Generative AI and Safety**:
+   - The **Generative AI Usage of University Students** article discusses the dual-use nature of generative AI tools, highlighting the need for ethical guidelines and training to prevent misuse in educational contexts.
+
+8. **Benchmarking and Evaluation Frameworks**:
+   - The introduction of benchmarks like **SecCodeBench-V2** and **VerifyBench** aims to provide standardized evaluations for assessing the security posture of AI coding assistants and reference-based reward systems, respectively. These frameworks are crucial for ensuring that AI systems are reliable and safe for deployment.
+
+#### Security-Specific Insights
+- **Backdoor Detection**: The paper on **Weight Space Detection of Backdoors in LoRA Adapters** proposes a method for identifying poisoned adapters by analyzing their weight matrices, which is a significant step toward securing AI models against malicious modifications.
+- **Adversarial Robustness**: The exploration of **Distributionally Robust Optimization (DRO)** in the context of differential privacy highlights the importance of safeguarding sensitive information while maintaining model performance under distribution shifts.
+
+### Conclusion
+The integration of AI into security frameworks is becoming increasingly critical as AI systems are deployed in sensitive and high-stakes environments. The research emphasizes the need for robust, fair, and interpretable AI systems that can withstand adversarial challenges while respecting ethical considerations. The development of benchmarks and frameworks for evaluating AI safety and performance is essential for guiding future research and ensuring responsible AI deployment.
