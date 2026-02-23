@@ -1,0 +1,752 @@
+AI Researcher Agent Report for 2026-02-23-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Epistemic Traps: Rational Misalignment Driven by Model Misspecification](https://arxiv.org/abs/2602.17676): This paper presents a framework for understanding the persistent behavioral issues in AI agents, such as hallucination and sycophancy, as rational behaviors arising from model misspecification. It emphasizes the importance of subjective model engineering for robust alignment.
+- [Ontology-Guided Neuro-Symbolic Inference: Grounding Language Models with Mathematical Domain Knowledge](https://arxiv.org/abs/2602.17826): This study explores enhancing language model reliability in high-stakes fields by integrating formal domain ontologies into the inference process, demonstrating improved performance in mathematical reasoning tasks.
+- [The Token Games: Evaluating Language Model Reasoning with Puzzle Duels](https://arxiv.org/abs/2602.17831): This paper introduces a novel evaluation framework for language models, where models create and solve puzzles against each other, providing a new paradigm for assessing reasoning capabilities.
+- [El Agente Gráfico: Structured Execution Graphs for Scientific Agents](https://arxiv.org/abs/2602.17902): This work presents a framework for integrating LLMs into scientific workflows using structured execution graphs, enhancing decision-making and context management.
+- [Alignment in Time: Peak-Aware Orchestration for Long-Horizon Agentic Systems](https://arxiv.org/abs/2602.17910): The paper introduces a runtime scheduling layer that optimizes computational allocation in long-horizon workflows, enhancing reliability and quality of agent interactions.
+- [WorkflowPerturb: Calibrated Stress Tests for Evaluating Multi-Agent Workflow Metrics](https://arxiv.org/abs/2602.17990): This paper presents a benchmark for evaluating workflow metrics under controlled perturbations, providing insights into the sensitivity of various evaluation metrics.
+- [Cross-Embodiment Offline Reinforcement Learning for Heterogeneous Robot Datasets](https://arxiv.org/abs/2602.18025): This study addresses the challenge of scalable robot policy pre-training by combining offline reinforcement learning with cross-embodiment learning, demonstrating improved performance across diverse robot platforms.
+- [Neurosymbolic Language Reasoning as Satisfiability Modulo Theory](https://arxiv.org/abs/2602.18095): This paper introduces a neurosymbolic language framework that integrates LLMs with SMT solving for enhanced reasoning capabilities in natural language understanding.
+- [SOMtime the World Ain't Fair: Violating Fairness Using Self-Organizing Maps](https://arxiv.org/abs/2602.18201): This study reveals that unsupervised representations can encode sensitive attributes, highlighting the need for fairness auditing in machine learning pipelines.
+- [Diffusing to Coordinate: Efficient Online Multi-Agent Diffusion Policies](https://arxiv.org/abs/2602.18291): This work presents a novel online multi-agent reinforcement learning framework using diffusion policies, achieving state-of-the-art performance across diverse tasks.
+- [Trojans in Artificial Intelligence (TrojAI) Final Report](https://arxiv.org/abs/2602.07152): This report summarizes findings from the TrojAI program, focusing on the detection and mitigation of AI Trojans, emphasizing the need for ongoing research in AI security.
+- [AI Hallucination from Students' Perspective: A Thematic Analysis](https://arxiv.org/abs/2602.17671): This study investigates students' experiences with AI hallucinations, revealing common issues and the need for improved AI literacy.
+- [Assessing LLM Response Quality in the Context of Technology-Facilitated Abuse](https://arxiv.org/abs/2602.17672): This paper evaluates the effectiveness of LLMs in responding to questions related to technology-facilitated abuse, providing insights for improving LLM performance in sensitive contexts.
+- [Mind the Boundary: Stabilizing Gemini Enterprise A2A via a Cloud Run Hub Across Projects and Accounts](https://arxiv.org/abs/2602.17675): This work discusses the implementation of an orchestrator for enterprise conversational UIs, addressing interoperability and stability challenges.
+- [CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models](https://arxiv.org/abs/2602.17684): This paper presents a new reward model for code generation that improves scalability and performance without relying on execution-based feedback.
+- [Curriculum Learning for Efficient Chain-of-Thought Distillation via Structure-Aware Masking and GRPO](https://arxiv.org/abs/2602.17686): This study introduces a curriculum learning framework for distilling reasoning from large language models into smaller models.
+- [IRPAPERS: A Visual Document Benchmark for Scientific Retrieval and Question Answering](https://arxiv.org/abs/2602.17687): This paper presents a benchmark for evaluating visual document processing systems, comparing image- and text-based retrieval methods.
+- [Robust Pre-Training of Medical Vision-and-Language Models with Domain-Invariant Multi-Modal Masked Reconstruction](https://arxiv.org/abs/2602.17689): This work proposes a pre-training framework for medical vision-language models that enhances robustness across varying domains.
+- [DesignAsCode: Bridging Structural Editability and Visual Fidelity in Graphic Design Generation](https://arxiv.org/abs/2602.17690): This paper introduces a framework for generating graphic designs that balances visual fidelity and structural editability.
+- [Agentic Unlearning: When LLM Agent Meets Machine Unlearning](https://arxiv.org/abs/2602.17692): This study presents a framework for unlearning information in LLMs, addressing challenges in memory and parameter pathways.
+- [A Case Study of Selected PTQ Baselines for Reasoning LLMs on Ascend NPU](https://arxiv.org/abs/2602.17693): This paper evaluates post-training quantization methods for reasoning-oriented models on Ascend NPU.
+- [AsynDBT: Asynchronous Distributed Bilevel Tuning for Efficient In-Context Learning with Large Language Models](https://arxiv.org/abs/2602.17694): This work proposes a new algorithm for optimizing in-context learning in distributed environments.
+- [EXACT: Explicit Attribute-Guided Decoding-Time Personalization](https://arxiv.org/abs/2602.17695): This paper presents a new method for personalizing language model outputs based on user-specific attributes.
+- [Can LLM Safety Be Ensured by Constraining Parameter Regions?](https://arxiv.org/abs/2602.17696): This study evaluates methods for identifying safety regions in large language models and their effectiveness.
+- [ScaleBITS: Scalable Bitwidth Search for Hardware-Aligned Mixed-Precision LLMs](https://arxiv.org/abs/2602.17698): This paper introduces a framework for automated mixed-precision quantization of large language models.
+- [MIDAS: Mosaic Input-Specific Differentiable Architecture Search](https://arxiv.org/abs/2602.17700): This work presents a new approach to neural architecture search that improves efficiency and robustness.
+- [UBio-MolFM: A Universal Molecular Foundation Model for Bio-Systems](https://arxiv.org/abs/2602.17709): This paper introduces a foundation model for molecular simulations that bridges the gap between quantum accuracy and biological scale.
+- [Everyone's using it, but no one is allowed to talk about it: College Students' Experiences Navigating the Higher Education Environment in a Generative AI World](https://arxiv.org/abs/2602.17720): This study examines college students' experiences with generative AI in their academic work.
+- [Stop Saying "AI"](https://arxiv.org/abs/2602.17729): This article discusses the implications of the broad term "AI" in various domains, particularly in military applications.
+- [Five Fatal Assumptions: Why T-Shirt Sizing Systematically Fails for AI Projects](https://arxiv.org/abs/2602.17734): This paper critiques the use of T-shirt sizing in AI project estimation and proposes a new approach.
+- [GeneZip: Region-Aware Compression for Long Context DNA Modeling](https://arxiv.org/abs/2602.17739): This study presents a DNA compression model that leverages biological priors for efficient genomic data representation.
+- [Detection and Classification of Cetacean Echolocation Clicks using Image-based Object Detection Methods applied to Advanced Wavelet-based Transformations](https://arxiv.org/abs/2602.17749): This paper discusses a deep learning approach for detecting and classifying cetacean echolocation clicks.
+- [Inelastic Constitutive Kolmogorov-Arnold Networks: A generalized framework for automated discovery of interpretable inelastic material models](https://arxiv.org/abs/2602.17750): This work introduces a neural network architecture for discovering constitutive laws in materials.
+- [Investigating Target Class Influence on Neural Network Compressibility for Energy-Autonomous Avian Monitoring](https://arxiv.org/abs/2602.17751): This study examines the compressibility of neural networks for avian monitoring tasks.
+- [The 2025 AI Agent Index: Documenting Technical and Safety Features of Deployed Agentic AI Systems](https://arxiv.org/abs/2602.17753): This paper presents an index documenting the capabilities and safety features of AI agents.
+- [QueryPlot: Generating Geological Evidence Layers using Natural Language Queries for Mineral Exploration](https://arxiv.org/abs/2602.17784): This work introduces a framework for generating geological evidence layers based on natural language queries.
+- [Deep Learning for Dermatology: An Innovative Framework for Approaching Precise Skin Cancer Detection](https://arxiv.org/abs/2602.17797): This study evaluates deep learning models for skin cancer detection.
+- [Mind the Style: Impact of Communication Style on Human-Chatbot Interaction](https://arxiv.org/abs/2602.17850): This paper investigates how chatbot communication styles affect user experience and task success.
+- [Enhancing Scientific Literature Chatbots with Retrieval-Augmented Generation: A Performance Evaluation of Vector and Graph-Based Systems](https://arxiv.org/abs/2602.17856): This study evaluates the performance of scientific literature chatbots using retrieval-augmented generation.
+- [Financial time series augmentation using transformer based GAN architecture](https://arxiv.org/abs/2602.17865): This paper discusses a GAN-based approach for augmenting financial time series data.
+- [MantisV2: Closing the Zero-Shot Gap in Time Series Classification with Synthetic Data and Test-Time Strategies](https://arxiv.org/abs/2602.17868): This work presents methods for improving zero-shot feature extraction for time series classification.
+- [Understanding the Fine-Grained Knowledge Capabilities of Vision-Language Models](https://arxiv.org/abs/2602.17871): This study evaluates the fine-grained knowledge capabilities of vision-language models.
+- [MultiVer: Zero-Shot Multi-Agent Vulnerability Detection](https://arxiv.org/abs/2602.17875): This paper presents a zero-shot multi-agent system for vulnerability detection.
+- [Understanding Unreliability of Steering Vectors in Language Models: Geometric Predictors and the Limits of Linear Approximations](https://arxiv.org/abs/2602.17881): This study investigates the reliability of steering vectors in language models.
+- [Machine Learning Based Prediction of Surgical Outcomes in Chronic Rhinosinusitis from Clinical Data](https://arxiv.org/abs/2602.17888): This work evaluates machine learning models for predicting surgical outcomes in chronic rhinosinusitis.
+- [Games That Teach, Chats That Convince: Comparing Interactive and Static Formats for Persuasive Learning](https://arxiv.org/abs/2602.17905): This study compares the effectiveness of different information delivery formats for persuasive learning.
+- [Improving Neural Topic Modeling with Semantically-Grounded Soft Label Distributions](https://arxiv.org/abs/2602.17907): This paper presents a method for improving neural topic modeling using semantically-grounded soft labels.
+- [Condition-Gated Reasoning for Context-Dependent Biomedical Question Answering](https://arxiv.org/abs/2602.17911): This work introduces a benchmark for conditional biomedical QA and a framework for condition-aware reasoning.
+- [From Lossy to Verified: A Provenance-Aware Tiered Memory for Agents](https://arxiv.org/abs/2602.17913): This paper presents a framework for managing memory in long-horizon agents.
+- [MIRA: Memory-Integrated Reinforcement Learning Agent with Limited LLM Guidance](https://arxiv.org/abs/2602.17930): This study introduces a memory-integrated RL agent that reduces reliance on LLM supervision.
+- [Memory-Based Advantage Shaping for LLM-Guided Reinforcement Learning](https://arxiv.org/abs/2602.17931): This paper presents a method for shaping advantage functions in RL using memory graphs.
+- [Causal Neighbourhood Learning for Invariant Graph Representations](https://arxiv.org/abs/2602.17934): This work introduces a framework for learning invariant representations in graphs.
+- [Optimizing Graph Causal Classification Models: Estimating Causal Effects and Addressing Confounders](https://arxiv.org/abs/2602.17941): This study presents a causal GNN framework for robust predictions in graph learning.
+- [CUICurate: A GraphRAG-based Framework for Automated Clinical Concept Curation for NLP applications](https://arxiv.org/abs/2602.17949): This paper introduces a framework for automated clinical concept curation.
+- [ROCKET: Residual-Oriented Multi-Layer Alignment for Spatially-Aware Vision-Language-Action Models](https://arxiv.org/abs/2602.17951): This work presents a framework for aligning representations in VLA models.
+- [PenTiDef: Enhancing Privacy and Robustness in Decentralized Federated Intrusion Detection Systems against Poisoning Attacks](https://arxiv.org/abs/2602.17973): This paper presents a framework for enhancing privacy and robustness in decentralized federated learning.
+- [In-Context Learning for Pure Exploration in Continuous Spaces](https://arxiv.org/abs/2602.17976): This study introduces a method for pure exploration in continuous spaces.
+- [Learning Optimal and Sample-Efficient Decision Policies with Guarantees](https://arxiv.org/abs/2602.17978): This paper presents an algorithm for learning decision policies from offline datasets.
+- [Turbo Connection: Reasoning as Information Flow from Higher to Lower Layers](https://arxiv.org/abs/2602.17993): This work introduces a novel architecture for enhancing reasoning in transformers.
+- [PHAST: Port-Hamiltonian Architecture for Structured Temporal Dynamics Forecasting](https://arxiv.org/abs/2602.17998): This paper presents a framework for forecasting dynamics in physical systems.
+- [Aurora: Neuro-Symbolic AI Driven Advising Agent](https://arxiv.org/abs/2602.17999): This work introduces a neuro-symbolic advising agent for academic advising.
+- [NIMMGen: Learning Neural-Integrated Mechanistic Digital Twins with LLMs](https://arxiv.org/abs/2602.18008): This study presents a framework for mechanistic modeling using LLMs.
+- [Flow Actor-Critic for Offline Reinforcement Learning](https://arxiv.org/abs/2602.18015): This paper introduces a new actor-critic method for offline reinforcement learning.
+- [DeepSVU: Towards In-depth Security-oriented Video Understanding via Unified Physical-world Regularized MoE](https://arxiv.org/abs/2602.18019): This work presents a new paradigm for security-oriented video understanding.
+- [Gradient Regularization Prevents Reward Hacking in Reinforcement Learning from Human Feedback and Verifiable Rewards](https://arxiv.org/abs/2602.18037): This study presents a method for preventing reward hacking in RL.
+- [Causal Explanations for Image Classifiers](https://arxiv.org/abs/2411.08875): This paper presents a novel approach to computing explanations for image classifiers based on actual causality.
+- [The Oversight Game: Learning to Cooperatively Balance an AI Agent's Safety and Autonomy](https://arxiv.org/abs/2510.26752): This work presents a model for balancing safety and autonomy in AI agents.
+- [Adaptive GR(1) Specification Repair for Liveness-Preserving Shielding in Reinforcement Learning](https://arxiv.org/abs/2511.02605): This paper presents a framework for adaptive shielding in reinforcement learning.
+- [Two Constraint Compilation Methods for Lifted Planning](https://arxiv.org/abs/2511.10164): This work presents methods for compiling constraints in planning problems without grounding.
+- [AI Epidemiology: achieving explainable AI through expert oversight patterns](https://arxiv.org/abs/2512.15783): This paper presents a framework for governing and explaining AI systems through population-level surveillance methods.
+- [SPARK: Search Personalization via Agent-Driven Retrieval and Knowledge-sharing](https://arxiv.org/abs/2512.24008): This work presents a framework for personalized search using agent-driven retrieval.
+- [The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI](https://arxiv.org/abs/2601.06500): This paper introduces a framework for organizing human capability in an AI-mediated economy.
+- [Cluster Workload Allocation: Semantic Soft Affinity Using Natural Language Processing](https://arxiv.org/abs/2601.09282): This work presents a semantic scheduling paradigm for cluster systems using NLP.
+- [Benchmarking at the Edge of Comprehension](https://arxiv.org/abs/2602.14307): This paper proposes a framework for critique-resilient benchmarking of AI models.
+- [EnterpriseBench Corecraft: Training Generalizable Agents on High-Fidelity RL Environments](https://arxiv.org/abs/2602.16179): This work presents a framework for training AI agents in high-fidelity environments.
+- [Agent Skill Framework: Perspectives on the Potential of Small Language Models in Industrial Environments](https://arxiv.org/abs/2602.16653): This paper evaluates the benefits of the Agent Skill paradigm for small language models.
+- [LLM-WikiRace Benchmark: How Far Can LLMs Plan over Real-World Knowledge Graphs?](https://arxiv.org/abs/2602.16902): This work introduces a benchmark for evaluating planning in large language models.
+- [RFEval: Benchmarking Reasoning Faithfulness under Counterfactual Reasoning Intervention in Large Reasoning Models](https://arxiv.org/abs/2602.17053): This paper presents a benchmark for evaluating reasoning faithfulness in large reasoning models.
+- [Pareto Optimal Benchmarking of AI Models on ARM Cortex Processors for Sustainable Embedded Systems](https://arxiv.org/abs/2602.17508): This work presents a benchmarking framework for optimizing AI models on ARM Cortex processors.
+- [ChoiceMates: Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions](https://arxiv.org/abs/2310.01331): This paper presents a multi-agent system for supporting decision-making.
+- [Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs](https://arxiv.org/abs/2506.22095): This work presents methods for multi-objective routing on multigraphs.
+- [The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities](https://arxiv.org/abs/2601.01944): This paper assesses the impact of AI libraries on open source projects.
+- [Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment](https://arxiv.org/abs/2601.10160): This study examines the influence of AI discourse on alignment in language models.
+- [AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers](https://arxiv.org/abs/2601.10161): This work introduces a framework for fine-grained named entity recognition across multiple languages.
+
+### Categories
+#### AI Alignment and Safety
+- Epistemic Traps: Rational Misalignment Driven by Model Misspecification
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- Gradient Regularization Prevents Reward Hacking in Reinforcement Learning from Human Feedback and Verifiable Rewards
+
+#### Natural Language Processing and Understanding
+- Ontology-Guided Neuro-Symbolic Inference: Grounding Language Models with Mathematical Domain Knowledge
+- The Token Games: Evaluating Language Model Reasoning with Puzzle Duels
+- AI Hallucination from Students' Perspective: A Thematic Analysis
+- Assessing LLM Response Quality in the Context of Technology-Facilitated Abuse
+- Exact: Explicit Attribute-Guided Decoding-Time Personalization
+- Understanding the Fine-Grained Knowledge Capabilities of Vision-Language Models
+- RFEval: Benchmarking Reasoning Faithfulness under Counterfactual Reasoning Intervention in Large Reasoning Models
+- LLM-WikiRace Benchmark: How Far Can LLMs Plan over Real-World Knowledge Graphs?
+
+#### Robotics and Control
+- El Agente Gráfico: Structured Execution Graphs for Scientific Agents
+- Alignment in Time: Peak-Aware Orchestration for Long-Horizon Agentic Systems
+- CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation
+- MALLVI: A Multi-Agent Framework for Integrated Generalized Robotics Manipulation
+
+#### Machine Learning and Model Training
+- WorkflowPerturb: Calibrated Stress Tests for Evaluating Multi-Agent Workflow Metrics
+- Cross-Embodiment Offline Reinforcement Learning for Heterogeneous Robot Datasets
+- CodeScaler: Scaling Code LLM Training and Test-Time Inference via Execution-Free Reward Models
+- Curriculum Learning for Efficient Chain-of-Thought Distillation via Structure-Aware Masking and GRPO
+- Flow Actor-Critic for Offline Reinforcement Learning
+- Gradient-Sign Masking for Task Vector Transport Across Pre-Trained Models
+
+#### Security and Privacy
+- Trojans in Artificial Intelligence (TrojAI) Final Report
+- PenTiDef: Enhancing Privacy and Robustness in Decentralized Federated Intrusion Detection Systems against Poisoning Attacks
+- MultiVer: Zero-Shot Multi-Agent Vulnerability Detection
+
+#### Visual and Multimedia Processing
+- IRPAPERS: A Visual Document Benchmark for Scientific Retrieval and Question Answering
+- DeepSVU: Towards In-depth Security-oriented Video Understanding via Unified Physical-world Regularized MoE
+- ViGText: Deepfake Image Detection with Vision-Language Model Explanations and Graph Neural Networks
+- GeoEyes: On-Demand Visual Focusing for Evidence-Grounded Understanding of Ultra-High-Resolution Remote Sensing Imagery
+
+#### Health and Medicine
+- Deep Learning for Dermatology: An Innovative Framework for Approaching Precise Skin Cancer Detection
+- Machine Learning Based Prediction of Surgical Outcomes in Chronic Rhinosinusitis from Clinical Data
+- Robust Pre-Training of Medical Vision-and-Language Models with Domain-Invariant Multi-Modal Masked Reconstruction
+
+#### Education and Learning
+- Investigating Writing Professionals' Relationships with Generative AI: How Combined Perceptions of Rivalry and Collaboration Shape Work Practices and Outcomes
+- Study of Training Dynamics for Memory-Constrained Fine-Tuning
+
+#### Miscellaneous
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- ChoiceMates: Supporting Unfamiliar Online Decision-Making with Multi-Agent Conversational Interactions
+- Beyond Simple Graphs: Neural Multi-Objective Routing on Multigraphs
+- Anatomy of Capability Emergence: Scale-Invariant Representation Collapse and Top-Down Reorganization in Neural Networks
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- One Token Is Enough: Improving Diffusion Language Models with a Sink Token
+- TimeBlind: A Spatio-Temporal Compositionality Benchmark for Video LLMs
+- LongAudio-RAG: Event-Grounded Question Answering over Multi-Hour Long Audio
+- Sim2Radar: Toward Bridging the Radar Sim-to-Real Gap with VLM-Guided Scene Reconstruction
+- LeafNet: A Large-Scale Dataset and Comprehensive Benchmark for Foundational Vision-Language Understanding of Plant Diseases
+- J3DAI: A tiny DNN-Based Edge AI Accelerator for 3D-Stacked CMOS Image Sensor
+- SPARK: Search Personalization via Agent-Driven Retrieval and Knowledge-sharing
+- CAE: Repurposing the Critic as an Explorer in Deep Reinforcement Learning
+- CLOT: Closed-Loop Global Motion Tracking for Whole-Body Humanoid Teleoperation
+- FedPSA: Modeling Behavioral Staleness in Asynchronous Federated Learning
+- Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization
+- GRPO is Secretly a Process Reward Model
+- Physics-Informed Neural Networks vs. Physics Models for Non-Invasive Glucose Monitoring: A Comparative Study Under Noise-Stressed Synthetic Conditions
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Reality of Vibe Coding: AI Agents and the Security Debt Crisis
+- Overcoming Sparsity Artifacts in Crosscoders to Interpret Chat-Tuning
+- Temporal Pair Consistency for Variance-Reduced Flow Matching
+- The AI Pyramid A Conceptual Framework for Workforce Capability in the Age of AI
+- FATE: A Formal Benchmark Series for Frontier Algebra of Multiple Difficulty Levels
+- AWED-FiNER: Agents, Web applications, and Expert Detectors for Fine-grained Named Entity Recognition across 36 Languages for 6.6 Billion Speakers
+- The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities
+- Alignment Pretraining: AI Discourse Causes Self-Fulfilling (Mis)alignment
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and Articles Related to Using AI for Security or Securing AI
+
+#### 1. **Trojans in Artificial Intelligence (TrojAI) Final Report**
+   - **Summary**: This report highlights the vulnerabilities of AI systems to malicious backdoors, termed AI Trojans. It discusses foundational detection methods and mitigation strategies, emphasizing the need for ongoing research in AI security.
+   - **Insights**: The report underscores the importance of robust detection mechanisms and the necessity for continuous monitoring of AI systems to prevent exploitation.
+
+#### 2. **MultiVer: Zero-shot Multi-Agent Vulnerability Detection**
+   - **Summary**: This paper presents a zero-shot multi-agent system for vulnerability detection that outperforms fine-tuned models in recall, emphasizing the importance of reducing false negatives in security applications.
+   - **Insights**: The findings suggest that ensemble methods can enhance detection capabilities, particularly in security contexts where missing vulnerabilities can have severe consequences.
+
+#### 3. **PenTiDef: Enhancing Privacy and Robustness in Decentralized Federated Intrusion Detection Systems against Poisoning Attacks**
+   - **Summary**: PenTiDef introduces a framework for decentralized federated intrusion detection systems that incorporates privacy-preserving techniques and robust detection mechanisms against malicious updates.
+   - **Insights**: The study highlights the need for decentralized systems to maintain security without central points of failure, which is crucial in adversarial environments.
+
+#### 4. **Gradient Regularization Prevents Reward Hacking in Reinforcement Learning from Human Feedback and Verifiable Rewards**
+   - **Summary**: This paper discusses how gradient regularization can prevent reward hacking in AI systems, ensuring that models align with intended behaviors.
+   - **Insights**: The findings emphasize the importance of robust training methodologies that consider the potential for exploitation in AI systems, particularly in reinforcement learning contexts.
+
+#### 5. **AI Epidemiology: Achieving Explainable AI through Expert Oversight Patterns**
+   - **Summary**: This framework proposes a method for governing and explaining AI systems by applying population-level surveillance methods to AI outputs, enabling better oversight and accountability.
+   - **Insights**: The approach suggests that structured oversight can enhance the reliability of AI systems, making them more trustworthy in critical applications.
+
+#### 6. **The Invisible Hand of AI Libraries Shaping Open Source Projects and Communities**
+   - **Summary**: This paper explores how AI libraries influence open-source software development, particularly in shaping community practices and project dynamics.
+   - **Insights**: Understanding these influences can help mitigate risks associated with AI adoption in software development, particularly regarding security vulnerabilities.
+
+#### 7. **The Reality of Vibe Coding: AI Agents and the Security Debt Crisis**
+   - **Summary**: This article discusses the trade-offs between speed and safety in AI development, highlighting how prioritizing rapid deployment can lead to security vulnerabilities.
+   - **Insights**: It calls for a balanced approach that emphasizes security alongside performance, advocating for practices that reduce security debt in AI systems.
+
+### Trends and Insights
+- **Vulnerability Detection**: There is a growing emphasis on developing robust methods for detecting vulnerabilities in AI systems, particularly in decentralized and multi-agent contexts.
+- **Security and Privacy**: Many papers highlight the need for privacy-preserving techniques in AI applications, especially in federated learning and intrusion detection systems.
+- **Explainability and Oversight**: The importance of explainability in AI systems is underscored, with frameworks being proposed to enhance transparency and accountability.
+- **Trade-offs in Development**: The balance between rapid deployment and security is a recurring theme, with calls for practices that prioritize long-term safety over short-term gains.
+
+### Conclusion
+The landscape of AI security is rapidly evolving, with significant research focusing on vulnerability detection, privacy preservation, and the need for robust oversight mechanisms. As AI systems become more integrated into critical applications, ensuring their security and reliability will be paramount. The insights from these papers and articles provide a foundation for developing more secure AI systems that can withstand adversarial threats while maintaining performance.
