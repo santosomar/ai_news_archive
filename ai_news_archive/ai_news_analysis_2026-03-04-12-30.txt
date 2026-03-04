@@ -1,0 +1,118 @@
+AI Researcher Agent Report for 2026-03-04-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Federated Inference: Toward Privacy-Preserving Collaborative and Incentivized Model Serving](https://arxiv.org/abs/2603.02214): This paper discusses Federated Inference (FI), a method for independently trained models to collaborate at inference time without sharing data. It identifies requirements for privacy and performance gains and outlines challenges in practical implementation.
+- [Engineering Reasoning and Instruction (ERI) Benchmark: A Large Taxonomy-driven Dataset for Foundation Models and Agents](https://arxiv.org/abs/2603.02239): The ERI benchmark is introduced as a dataset for training and evaluating engineering-capable large language models across various engineering fields, providing a structured approach to assess model performance.
+- [SuperLocalMemory: Privacy-Preserving Multi-Agent Memory with Bayesian Trust Defense Against Memory Poisoning](https://arxiv.org/abs/2603.02240): This paper presents SuperLocalMemory, a memory system for multi-agent AI that defends against memory poisoning attacks while personalizing retrieval without cloud dependencies.
+- [Estimating Visual Attribute Effects in Advertising from Observational Data: A Deepfake-Informed Double Machine Learning Approach](https://arxiv.org/abs/2603.02359): The paper develops a framework to estimate causal effects of visual attributes in advertising, addressing biases in traditional methods and demonstrating improved accuracy in estimating effects.
+- [Can machines be uncertain?](https://arxiv.org/abs/2603.02365): This paper explores how AI systems can express uncertainty, distinguishing between epistemic and subjective uncertainty, and discusses the implications for AI behavior.
+- [COOL-MC: Verifying and Explaining RL Policies for Platelet Inventory Management](https://arxiv.org/abs/2603.02396): The paper applies a tool that combines reinforcement learning with probabilistic model checking to verify and explain policies for managing platelet inventory, emphasizing the importance of transparency in safety-critical domains.
+- [VL-KGE: Vision-Language Models Meet Knowledge Graph Embeddings](https://arxiv.org/abs/2603.02435): This work proposes a framework that integrates vision-language models with knowledge graph embeddings to improve multimodal representation learning for knowledge graphs.
+- [Diagnosing Retrieval vs. Utilization Bottlenecks in LLM Agent Memory](https://arxiv.org/abs/2603.02473): The paper introduces a diagnostic framework to analyze memory performance in LLM agents, highlighting the importance of retrieval methods over write strategies.
+- [PRISM: Pushing the Frontier of Deep Think via Process Reward Model-Guided Inference](https://arxiv.org/abs/2603.02479): This paper presents PRISM, a method for improving reasoning in deep learning systems by using process reward models to guide inference and enhance solution aggregation.
+- [Revealing Positive and Negative Role Models to Help People Make Good Decisions](https://arxiv.org/abs/2603.02495): The paper studies how revealing role models' labels can influence decision-making in social networks, providing insights into social welfare maximization.
+- [NeuroProlog: Multi-Task Fine-Tuning for Neurosymbolic Mathematical Reasoning via the Cocktail Effect](https://arxiv.org/abs/2603.02504): This work introduces NeuroProlog, a neurosymbolic framework for improving mathematical reasoning in LLMs through multi-task training.
+- [LLM-MLFFN: Multi-Level Autonomous Driving Behavior Feature Fusion via Large Language Model](https://arxiv.org/abs/2603.02528): The paper presents a framework for classifying autonomous vehicle driving behaviors using a multi-level feature fusion network enhanced by large language models.
+- [A Neuropsychologically Grounded Evaluation of LLM Cognitive Abilities](https://arxiv.org/abs/2603.02540): This paper introduces the NeuroCognition benchmark to evaluate LLMs' cognitive abilities, revealing gaps in their performance compared to human-like intelligence.
+- [AnchorDrive: LLM Scenario Rollout with Anchor-Guided Diffusion Regeneration for Safety-Critical Scenario Generation](https://arxiv.org/abs/2603.02542): The paper proposes a framework for generating safety-critical scenarios for autonomous driving using LLMs and diffusion models.
+- [LiveAgentBench: Comprehensive Benchmarking of Agentic Systems Across 104 Real-World Challenges](https://arxiv.org/abs/2603.02586): This work presents LiveAgentBench, a benchmark for evaluating agentic systems on real-world tasks, revealing performance gaps and areas for improvement.
+- [SUN: Shared Use of Next-token Prediction for Efficient Multi-LLM Disaggregated Serving](https://arxiv.org/abs/2603.02599): The paper introduces SUN, a method for improving multi-model LLM serving efficiency by enabling cross-model sharing of decoding execution.
+- [AgentAssay: Token-Efficient Regression Testing for Non-Deterministic AI Agent Workflows](https://arxiv.org/abs/2603.02601): This paper presents AgentAssay, a framework for regression testing AI agent workflows that reduces costs while maintaining statistical guarantees.
+- [See and Remember: A Multimodal Agent for Web Traversal](https://arxiv.org/abs/2603.02626): The paper proposes V-GEMS, a multimodal agent architecture for web navigation that integrates visual grounding and memory for improved performance.
+- [SorryDB: Can AI Provers Complete Real-World Lean Theorems?](https://arxiv.org/abs/2603.02668): This work introduces SorryDB, a benchmark for evaluating AI provers on real-world formalization tasks, highlighting the complementary strengths of various approaches.
+- [LLMs for High-Frequency Decision-Making: Normalized Action Reward-Guided Consistency Policy Optimization](https://arxiv.org/abs/2603.02680): The paper presents a method for improving decision-making in high-frequency tasks using LLMs, addressing policy misalignment issues.
+- [Retrieval-Augmented Robots via Retrieve-Reason-Act](https://arxiv.org/abs/2603.02688): This work defines Retrieval-Augmented Robotics (RAR), empowering robots to actively retrieve information for task execution, enhancing their capabilities.
+- [FinTexTS: Financial Text-Paired Time-Series Dataset via Semantic-Based and Multi-Level Pairing](https://arxiv.org/abs/2603.02702): The paper presents a framework for constructing a financial text-paired dataset for time-series forecasting, demonstrating its effectiveness in stock price prediction.
+- [A Natural Language Agentic Approach to Study Affective Polarization](https://arxiv.org/abs/2603.02711): This work presents a multi-agent model for studying affective polarization in social media, leveraging LLMs for computational studies of social dynamics.
+- [EvoSkill: Automated Skill Discovery for Multi-Agent Systems](https://arxiv.org/abs/2603.02766): The paper introduces EvoSkill, a framework for automatically discovering and refining agent skills through iterative failure analysis.
+- [Rethinking Code Similarity for Automated Algorithm Design with LLMs](https://arxiv.org/abs/2603.02787): This work proposes BehaveSim, a method for measuring algorithmic similarity based on problem-solving behavior, enhancing algorithm analysis.
+- [Agentified Assessment of Logical Reasoning Agents](https://arxiv.org/abs/2603.02788): The paper presents a framework for evaluating logical reasoning agents, demonstrating its effectiveness through a case study on first-order logic reasoning.
+- [Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification](https://arxiv.org/abs/2603.02798): This work introduces GLEAN, a framework for verifying agent decisions in high-stakes contexts, demonstrating improved performance in clinical diagnosis.
+- [LLMs for High-Frequency Decision-Making: Normalized Action Reward-Guided Consistency Policy Optimization](https://arxiv.org/abs/2603.02680): The paper presents a method for improving decision-making in high-frequency tasks using LLMs, addressing policy misalignment issues.
+- [Retrieval-Augmented Robots via Retrieve-Reason-Act](https://arxiv.org/abs/2603.02688): This work defines Retrieval-Augmented Robotics (RAR), empowering robots to actively retrieve information for task execution, enhancing their capabilities.
+- [FinTexTS: Financial Text-Paired Time-Series Dataset via Semantic-Based and Multi-Level Pairing](https://arxiv.org/abs/2603.02702): The paper presents a framework for constructing a financial text-paired dataset for time-series forecasting, demonstrating its effectiveness in stock price prediction.
+- [A Natural Language Agentic Approach to Study Affective Polarization](https://arxiv.org/abs/2603.02711): This work presents a multi-agent model for studying affective polarization in social media, leveraging LLMs for computational studies of social dynamics.
+- [EvoSkill: Automated Skill Discovery for Multi-Agent Systems](https://arxiv.org/abs/2603.02766): The paper introduces EvoSkill, a framework for automatically discovering and refining agent skills through iterative failure analysis.
+- [Rethinking Code Similarity for Automated Algorithm Design with LLMs](https://arxiv.org/abs/2603.02787): This work proposes BehaveSim, a method for measuring algorithmic similarity based on problem-solving behavior, enhancing algorithm analysis.
+- [Agentified Assessment of Logical Reasoning Agents](https://arxiv.org/abs/2603.02788): The paper presents a framework for evaluating logical reasoning agents, demonstrating its effectiveness through a case study on first-order logic reasoning.
+- [Guideline-Grounded Evidence Accumulation for High-Stakes Agent Verification](https://arxiv.org/abs/2603.02798): This work introduces GLEAN, a framework for verifying agent decisions in high-stakes contexts, demonstrating improved performance in clinical diagnosis.
+
+### Categories
+#### Security
+- [Zero-DayBench: Evaluating LLM Agents on Unseen Zero-Day Vulnerabilities for Cyberdefense](https://arxiv.org/abs/2603.02297): This benchmark evaluates LLM agents' ability to find and patch novel vulnerabilities in codebases, revealing their current limitations.
+- [Detecting Structural Heart Disease from Electrocardiograms via a Generalized Additive Model of Interpretable Foundation-Model Predictors](https://arxiv.org/abs/2603.02616): This paper presents a framework for detecting structural heart disease using ECGs, emphasizing interpretability and clinical applicability.
+- [Doxing via the Lens: Revealing Location-related Privacy Leakage on Multi-modal Large Reasoning Models](https://arxiv.org/abs/2504.19373): This work identifies privacy risks in multimodal large reasoning models, particularly regarding geolocation inference from user-generated images.
+- [No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes](https://arxiv.org/abs/2509.10625): This paper investigates whether LLMs can anticipate their answer accuracy based solely on the question context, revealing insights into their internal reasoning processes.
+- [How to Model AI Agents as Personas?: Applying the Persona Ecosystem Playground to 41,300 Posts on Moltbook for Behavioral Insights](https://arxiv.org/abs/2602.18962): This study explores the behavioral diversity of AI agents in social networks, providing insights into their interactions and potential vulnerabilities.
+
+#### Healthcare
+- [Detecting Structural Heart Disease from Electrocardiograms via a Generalized Additive Model of Interpretable Foundation-Model Predictors](https://arxiv.org/abs/2603.02616): This paper presents a framework for detecting structural heart disease using ECGs, emphasizing interpretability and clinical applicability.
+- [MedXIAOHE: A Comprehensive Recipe for Building Medical MLLMs](https://arxiv.org/abs/2602.12705): This work outlines the development of a medical vision-language foundation model, focusing on enhancing reasoning and reliability in clinical applications.
+
+#### Robotics
+- [Retrieval-Augmented Robots via Retrieve-Reason-Act](https://arxiv.org/abs/2603.02688): This work defines Retrieval-Augmented Robotics (RAR), empowering robots to actively retrieve information for task execution, enhancing their capabilities.
+- [Tether: Autonomous Functional Play with Correspondence-Driven Trajectory Warping](https://arxiv.org/abs/2603.03278): This paper presents a method for autonomous functional play involving structured, task-directed interactions in robotics.
+
+#### Multimodal Learning
+- [LLM-MLFFN: Multi-Level Autonomous Driving Behavior Feature Fusion via Large Language Model](https://arxiv.org/abs/2603.02528): The paper presents a framework for classifying autonomous vehicle driving behaviors using a multi-level feature fusion network enhanced by large language models.
+- [VisionCreator: A Native Visual-Generation Agentic Model with Understanding, Thinking, Planning and Creation](https://tldr.takara.ai/p/2603.02681): This work introduces a multimodal agentic model that unifies understanding, thinking, planning, and creation capabilities for visual content generation.
+
+#### General AI
+- [Agentified Assessment of Logical Reasoning Agents](https://arxiv.org/abs/2603.02788): The paper presents a framework for evaluating logical reasoning agents, demonstrating its effectiveness through a case study on first-order logic reasoning.
+- [Learning Memory-Enhanced Improvement Heuristics for Flexible Job Shop Scheduling](https://arxiv.org/abs/2603.02846): This work proposes a Memory-enhanced Improvement Search framework for flexible job-shop scheduling, addressing challenges in dynamic environments.
+
+This summary and categorization provide a comprehensive overview of the recent advancements in AI research, particularly focusing on security, healthcare, robotics, multimodal learning, and general AI developments.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Articles Related to Security and AI
+
+#### Key Trends and Insights
+
+1. **Security and Privacy in AI Systems**:
+   - A significant focus is on enhancing the security and privacy of AI systems, particularly in the context of Large Language Models (LLMs). Papers like "Contextualized Privacy Defense for LLM Agents" and "No Answer Needed: Predicting LLM Answer Accuracy from Question-Only Linear Probes" highlight the need for proactive measures to ensure that AI systems do not inadvertently expose sensitive information or generate harmful content. The introduction of frameworks like Contextualized Defense Instructing (CDI) emphasizes the importance of dynamic, context-aware privacy measures.
+
+2. **Robustness and Verification**:
+   - The robustness of AI models against adversarial attacks and their ability to maintain performance under various conditions is a recurring theme. For instance, "Robust Weight Imprinting" and "Dual Randomized Smoothing" explore methods to enhance model reliability and performance in the face of adversarial perturbations. The introduction of frameworks like IoUCert for verifying object detection models indicates a growing emphasis on ensuring the integrity of AI systems.
+
+3. **Multi-Agent Systems and Collaboration**:
+   - The development of multi-agent frameworks, such as "MA-CoNav" and "MultiSessionCollab," showcases the trend towards collaborative AI systems that can work together to achieve complex tasks. These systems often incorporate mechanisms for learning from interactions and adapting to user preferences, which is crucial for applications in dynamic environments.
+
+4. **Generative Models and Their Applications**:
+   - Generative models, particularly in the context of text-to-image and video generation, are being explored for their potential in various applications, including creative tasks and anomaly detection. Papers like "Diffusion-EXR" and "VisionCreator" illustrate the versatility of generative models in producing high-quality outputs while addressing challenges related to safety and ethical considerations.
+
+5. **Evaluation and Benchmarking**:
+   - There is a strong emphasis on developing benchmarks and evaluation frameworks to assess the performance and safety of AI systems. "TrustMH-Bench" and "WebDevJudge" are examples of frameworks designed to evaluate the trustworthiness and effectiveness of AI models in specific domains, highlighting the importance of rigorous testing in real-world applications.
+
+6. **Interdisciplinary Approaches**:
+   - Many papers advocate for interdisciplinary approaches that combine insights from various fields, such as cognitive science, physics, and computer science, to enhance AI capabilities. For example, "NeuroWise" and "MedXIAOHE" illustrate how integrating knowledge from different domains can lead to more effective AI systems in healthcare and education.
+
+7. **Ethical Considerations**:
+   - Ethical implications of AI deployment are increasingly being addressed, with discussions around the alignment of AI systems with human values and the potential risks associated with their use. Papers like "Architecting Trust in Artificial Epistemic Agents" emphasize the need for AI systems to be designed with ethical considerations in mind, ensuring they act in ways that are beneficial to society.
+
+### Summary of Papers Related to Security
+
+1. **"Contextualized Privacy Defense for LLM Agents"**:
+   - Proposes a new privacy defense paradigm that generates context-aware privacy guidance during execution, enhancing the adaptability of LLMs in multi-step interactions.
+
+2. **"Robust Weight Imprinting: Insights from Neural Collapse and Proxy-Based Aggregation"**:
+   - Investigates vulnerabilities in unlearning algorithms and introduces a teleportation defense to mitigate privacy risks associated with model updates.
+
+3. **"Zero-Permission Manipulation: Can We Trust Large Multimodal Model Powered GUI Agents?"**:
+   - Explores vulnerabilities in AI agents interacting with GUIs, demonstrating how adversaries can exploit the observation-action gap to manipulate agent behavior.
+
+4. **"AttackSeqBench: Benchmarking the Capabilities of LLMs for Attack Sequences Understanding"**:
+   - Introduces a benchmark for evaluating LLMs' reasoning abilities in understanding adversarial behaviors, highlighting the need for robust AI in cybersecurity.
+
+5. **"Doxing via the Lens: Revealing Location-related Privacy Leakage on Multi-modal Large Reasoning Models"**:
+   - Identifies privacy risks in MLRMs, demonstrating how adversaries can infer sensitive geolocation information from user-generated images.
+
+6. **"WARP: Weight Teleportation for Attack-Resilient Unlearning Protocols"**:
+   - Proposes a method to reduce privacy leakage during unlearning processes by leveraging neural network symmetries to obscure forgotten data signals.
+
+### Conclusion
+
+The landscape of AI research is increasingly focused on security, privacy, and ethical considerations, particularly as AI systems become more integrated into everyday applications. The development of frameworks and benchmarks to evaluate and enhance the robustness of these systems is crucial for ensuring their safe and effective deployment. As AI continues to evolve, addressing these challenges will be essential for building trust and ensuring the responsible use of technology.
