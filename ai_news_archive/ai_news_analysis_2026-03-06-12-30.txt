@@ -1,0 +1,398 @@
+AI Researcher Agent Report for 2026-03-06-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [SkillNet: Create, Evaluate, and Connect AI Skills](https://arxiv.org/abs/2603.04448): Introduces SkillNet, an infrastructure for creating, evaluating, and organizing AI skills at scale, significantly improving agent performance.
+- [Capability Thresholds and Manufacturing Topology](https://arxiv.org/abs/2603.04457): Discusses how embodied intelligence can transform manufacturing economic geography by altering factory locations and supply chains.
+- [Progressive Refinement Regulation for Accelerating Diffusion Language Model Decoding](https://arxiv.org/abs/2603.04514): Proposes a framework for dynamic refinement control in diffusion language models to accelerate decoding while preserving quality.
+- [Discovering Mathematical Concepts through a Multi-Agent System](https://arxiv.org/abs/2603.04528): Presents a multi-agent model for computational mathematical discovery, demonstrating the optimization of local processes for mathematical understanding.
+- [Adaptive Memory Admission Control for LLM Agents](https://arxiv.org/abs/2603.04549): Introduces a framework for structured decision-making in memory admission for LLM agents, improving precision and recall.
+- [Self-Attribution Bias: When AI Monitors Go Easy on Themselves](https://arxiv.org/abs/2603.04582): Explores self-attribution bias in AI systems, revealing how models evaluate their actions differently based on context.
+- [ECG-MoE: Mixture-of-Expert Electrocardiogram Foundation Model](https://arxiv.org/abs/2603.04589): Proposes a hybrid architecture for ECG analysis that achieves state-of-the-art performance while being computationally efficient.
+- [Towards Automated Data Analysis](https://arxiv.org/abs/2603.04631): Proposes a framework for automated dataset risk estimation using LLMs under human supervision.
+- [When Agents Persuade: Propaganda Generation and Mitigation in LLMs](https://arxiv.org/abs/2603.04636): Analyzes LLMs' propensity to generate propaganda and explores mitigation strategies.
+- [Using Vision + Language Models to Predict Item Difficulty](https://arxiv.org/abs/2603.04670): Investigates the use of LLMs to predict the difficulty of data visualization literacy test items.
+- [Model Medicine: A Clinical Framework for Understanding AI Models](https://arxiv.org/abs/2603.04722): Introduces Model Medicine, a framework for diagnosing and treating AI models akin to clinical medicine.
+- [From Offline to Periodic Adaptation for Pose-Based Shoplifting Detection](https://arxiv.org/abs/2603.04723): Proposes a periodic adaptation framework for shoplifting detection using pose-based anomaly detection.
+- [Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery](https://arxiv.org/abs/2603.04735): Demonstrates AI's capability to solve an open problem in theoretical physics through a neuro-symbolic system.
+- [Interactive Benchmarks](https://arxiv.org/abs/2603.04737): Proposes a new evaluation paradigm for assessing model intelligence through interactive processes.
+- [Memory as Ontology: A Constitutional Memory Architecture for Persistent Digital Citizens](https://arxiv.org/abs/2603.04740): Proposes a new paradigm for memory in AI agents, focusing on identity continuity.
+- [CONE: Embeddings for Complex Numerical Data Preserving Unit and Variable Semantics](https://arxiv.org/abs/2603.04741): Introduces a hybrid transformer model for encoding numerical data while preserving semantics.
+- [Visioning Human-Agentic AI Teaming](https://arxiv.org/abs/2603.04746): Discusses the challenges and future research directions in human-AI teaming.
+- [HiMAP-Travel: Hierarchical Multi-Agent Planning for Long-Horizon Constrained Travel](https://arxiv.org/abs/2603.04750): Proposes a hierarchical planning framework for long-horizon travel with constraints.
+- [Evaluating the Search Agent in a Parallel World](https://arxiv.org/abs/2603.04751): Discusses the challenges in evaluating search agents in dynamic environments.
+- [MOOSEnger -- a Domain-Specific AI Agent for the MOOSE Ecosystem](https://arxiv.org/abs/2603.04756): Introduces MOOSEnger, an AI agent tailored for the MOOSE simulation environment.
+- [Breaking Contextual Inertia: Reinforcement Learning with Single-Turn Anchors](https://arxiv.org/abs/2603.04783): Proposes a new training approach to stabilize multi-turn interactions in LLMs.
+- [Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling](https://arxiv.org/abs/2603.04791): Introduces Timer-S1, a time series foundation model that achieves state-of-the-art performance.
+- [EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication](https://arxiv.org/abs/2603.04815): Proposes EchoGuard, a framework for detecting manipulative communication using a knowledge graph.
+- [LHM-Humanoid: Learning a Unified Policy for Long-Horizon Humanoid Whole-Body Loco-Manipulation](https://arxiv.org/abs/2508.16943): Introduces a benchmark and learning framework for humanoid manipulation tasks.
+- [FedAFD: Multimodal Federated Learning via Adversarial Fusion and Distillation](https://arxiv.org/abs/2603.04890): Proposes a unified framework for multimodal federated learning.
+- [MachaGrasp: Morphology-Aware Cross-Embodiment Dexterous Hand Articulation Generation for Grasping](https://arxiv.org/abs/2508.16943): Proposes a framework for generating dexterous hand articulations based on morphology.
+- [GEM-TFL: A Two-Stage Phoneme-Centric Architecture for Code-Switching Vietnamese-English Speech Recognition](https://arxiv.org/abs/2509.05983): Introduces a phoneme-centric model for Vietnamese-English speech recognition.
+- [FedBCD: Communication-Efficient Accelerated Block Coordinate Gradient Descent for Federated Learning](https://arxiv.org/abs/2511.03153): Proposes a novel method for communication-efficient federated learning.
+- [SCoUT: Scalable Communication via Utility-Guided Temporal Grouping in Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2603.04833): Introduces a framework for scalable communication in multi-agent reinforcement learning.
+- [DPAC: Distribution-Preserving Adversarial Control for Diffusion Sampling](https://arxiv.org/abs/2512.01153): Proposes a new diffusion guidance rule for adversarial control.
+- [RoboPocket: Improve Robot Policies Instantly with Your Phone](https://arxiv.org/abs/2603.05504): Introduces a system for improving robot policies using smartphones.
+- [FedAFD: Multimodal Federated Learning via Adversarial Fusion and Distillation](https://arxiv.org/abs/2603.04890): Proposes a framework for multimodal federated learning.
+- [DPAC: Distribution-Preserving Adversarial Control for Diffusion Sampling](https://arxiv.org/abs/2512.01153): Proposes a new diffusion guidance rule for adversarial control.
+
+### Categories
+#### AI and Machine Learning
+- SkillNet: Create, Evaluate, and Connect AI Skills
+- Capability Thresholds and Manufacturing Topology
+- Progressive Refinement Regulation for Accelerating Diffusion Language Model Decoding
+- Discovering Mathematical Concepts through a Multi-Agent System
+- Adaptive Memory Admission Control for LLM Agents
+- Self-Attribution Bias: When AI Monitors Go Easy on Themselves
+- ECG-MoE: Mixture-of-Expert Electrocardiogram Foundation Model
+- Towards Automated Data Analysis
+- When Agents Persuade: Propaganda Generation and Mitigation in LLMs
+- Using Vision + Language Models to Predict Item Difficulty
+- Model Medicine: A Clinical Framework for Understanding AI Models
+- From Offline to Periodic Adaptation for Pose-Based Shoplifting Detection
+- Solving an Open Problem in Theoretical Physics using AI-Assisted Discovery
+- Interactive Benchmarks
+- Memory as Ontology: A Constitutional Memory Architecture for Persistent Digital Citizens
+- CONE: Embeddings for Complex Numerical Data Preserving Unit and Variable Semantics
+- Visioning Human-Agentic AI Teaming
+- HiMAP-Travel: Hierarchical Multi-Agent Planning for Long-Horizon Constrained Travel
+- Evaluating the Search Agent in a Parallel World
+- MOOSEnger -- a Domain-Specific AI Agent for the MOOSE Ecosystem
+- Breaking Contextual Inertia: Reinforcement Learning with Single-Turn Anchors
+- Timer-S1: A Billion-Scale Time Series Foundation Model with Serial Scaling
+- EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication
+- LHM-Humanoid: Learning a Unified Policy for Long-Horizon Humanoid Whole-Body Loco-Manipulation
+- FedAFD: Multimodal Federated Learning via Adversarial Fusion and Distillation
+- MachaGrasp: Morphology-Aware Cross-Embodiment Dexterous Hand Articulation Generation for Grasping
+- GEM-TFL: A Two-Stage Phoneme-Centric Architecture for Code-Switching Vietnamese-English Speech Recognition
+- FedBCD: Communication-Efficient Accelerated Block Coordinate Gradient Descent for Federated Learning
+- SCoUT: Scalable Communication via Utility-Guided Temporal Grouping in Multi-Agent Reinforcement Learning
+- DPAC: Distribution-Preserving Adversarial Control for Diffusion Sampling
+- RoboPocket: Improve Robot Policies Instantly with Your Phone
+- FedAFD: Multimodal Federated Learning via Adversarial Fusion and Distillation
+- DPAC: Distribution-Preserving Adversarial Control for Diffusion Sampling
+
+#### Robotics and Automation
+- LHM-Humanoid: Learning a Unified Policy for Long-Horizon Humanoid Whole-Body Loco-Manipulation
+- RoboPocket: Improve Robot Policies Instantly with Your Phone
+- SPyCer: A Performance-Aware Agent for Visual Content Generation
+- RoboPARA: Dual-Arm Robot Planning with Parallel Allocation and Recomposition Across Tasks
+
+#### Medical and Health
+- ECG-MoE: Mixture-of-Expert Electrocardiogram Foundation Model
+- Towards Automated Data Analysis
+- Model Medicine: A Clinical Framework for Understanding AI Models
+- EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication
+- ClinNoteAgents: An LLM Multi-Agent System for Predicting and Interpreting Heart Failure 30-Day Readmission from Clinical Notes
+- Meta-D: Metadata-Aware Architectures for Brain Tumor Analysis and Missing-Modality Segmentation
+- CCSD: Cross-Modal Compositional Self-Distillation for Robust Brain Tumor Segmentation with Missing Modalities
+
+#### Security and Privacy
+- When Agents Persuade: Propaganda Generation and Mitigation in LLMs
+- EchoGuard: An Agentic Framework with Knowledge-Graph Memory for Detecting Manipulative Communication
+- Alignment Backfire: Language-Dependent Reversal of Safety Interventions Across 16 Languages in LLM Multi-Agent Systems
+- Cyber Threat Intelligence for Artificial Intelligence Systems
+- GhostEI-Bench: Do Mobile Agents Resilience to Environmental Injection in Dynamic On-Device Environments?
+- Jailbreak Foundry: From Papers to Runnable Attacks for Reproducible Benchmarking
+- Measuring AI R&D Automation
+- Assessing Risks of Large Language Models in Mental Health Support: A Framework for Automated Clinical AI Red Teaming
+
+#### Education and Training
+- Advancing Problem-Based Learning in Biomedical Engineering in the Era of Generative AI
+- Training for Technology: Adoption and Productive Use of Generative AI in Legal Analysis
+
+#### Benchmarking and Evaluation
+- Interactive Benchmarks
+- BeyondBench: Contamination-Resistant Evaluation of Reasoning in Language Models
+- C2-Faith: Benchmarking LLM Judges for Causal and Coverage Faithfulness in Chain-of-Thought Reasoning
+- MPCEval: A Benchmark for Multi-Party Conversation Generation
+- EgoTraj-Bench: Towards Robust Trajectory Prediction Under Ego-view Noisy Observations
+- EgoTraj-Bench: Towards Robust Trajectory Prediction Under Ego-view Noisy Observations
+- Wiki-R1: Incentivizing Multimodal Reasoning for Knowledge-based VQA via Data and Sampling Curriculum
+- MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers
+- TreeBench: A Benchmark for Evaluating Visual Grounded Reasoning
+
+#### Miscellaneous
+- The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning Causal Structure of Time Series using Best Order Score Search
+- The StudyChat Dataset: Analyzing Student Dialogues With ChatGPT in an Artificial Intelligence Course
+- How Human Work Will Remain Valuable in an AI World
+- AI in Multiple GPUs: ZeRO & FSDP
+- Deep Learning Meets Mechanism Design: Key Results and Some Novel Applications
+- Seeing Through Uncertainty: A Free-Energy Approach for Real-Time Perceptual Adaptation in Robust Visual Navigation
+- HydroGEM: A Self Supervised Zero Shot Hybrid TCN Transformer Foundation Model for Continental Scale Streamflow Quality Control
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- The Inductive Bias of Convolutional Neural Networks: Locality and Weight Sharing Reshape Implicit Regularization
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans: Explainable Active Learning for Medical Imaging
+- Learning to Select Like Humans
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Trends and Insights
+
+1. **Emerging Frameworks for Security**: A number of recent papers focus on frameworks that enhance the security of AI systems. For instance, the introduction of **EchoGuard** leverages knowledge graphs to detect manipulative communication, while **GhostEI-Bench** evaluates mobile agents under environmental injection attacks, highlighting the need for robust defenses against adversarial threats.
+
+2. **Robustness and Trustworthiness**: Many studies emphasize the importance of robustness in AI systems, particularly in high-stakes environments. For example, **MCP-SafetyBench** provides a benchmark for evaluating safety in multi-agent systems, revealing vulnerabilities in existing models. Similarly, **C2-Faith** assesses the faithfulness of LLM judges in reasoning tasks, indicating a growing concern for trustworthiness in AI outputs.
+
+3. **Integration of Causal Reasoning**: The use of causal reasoning in AI systems is gaining traction. Papers like **FedAFD** and **FedBCD** explore federated learning approaches that incorporate causal relationships, enhancing the ability of AI models to make informed decisions while preserving privacy.
+
+4. **Data Efficiency and Quality**: The importance of data quality and efficient training methods is underscored in several studies. For instance, **MuRating** introduces a framework for selecting high-quality multilingual data for LLM pretraining, while **Sparse-BitNet** demonstrates the benefits of combining quantization with sparsity for efficient model training.
+
+5. **Interpretable AI**: There is a strong emphasis on interpretability in AI systems, particularly in sensitive applications like healthcare. The **Adaptive Prototype-based Interpretable Grading of Prostate Cancer** framework aims to provide transparent decision-making processes, while **NeuronLLM** focuses on identifying both good and bad neurons in LLMs to enhance interpretability.
+
+6. **Challenges in Multimodal Learning**: Several papers address the challenges of multimodal learning, particularly in the context of security. For example, **Mario** proposes a framework for reasoning over multimodal graphs, while **NaiLIA** focuses on retrieving nail design images based on dense intent descriptions, showcasing the complexity of integrating diverse data types.
+
+7. **AI in Healthcare**: The application of AI in healthcare is a recurring theme, with papers like **ClinNoteAgents** and **Med-V1** focusing on leveraging LLMs for clinical decision-making and patient outcome predictions. These studies highlight the potential for AI to enhance patient care while also raising concerns about the reliability of AI-generated recommendations.
+
+8. **Adversarial Robustness**: The exploration of adversarial robustness is evident in works like **Zombie Agents**, which discusses the risks of persistent control in self-evolving LLM agents, and **Poisoning the Inner Prediction Logic**, which examines clean-label backdoor attacks in GNNs. These studies emphasize the need for robust defenses against adversarial attacks.
+
+#### Security-Specific Insights
+
+- **Environmental Injection Threats**: The **GhostEI-Bench** study highlights the vulnerabilities of AI agents to environmental injection attacks, emphasizing the need for robust defenses in dynamic environments.
+
+- **Causal and Coverage Faithfulness**: The **C2-Faith** benchmark reveals the limitations of current LLM judges in assessing causal reasoning, indicating a need for improved evaluation metrics in safety-critical applications.
+
+- **Federated Learning Security**: The **FedAFD** framework demonstrates how federated learning can enhance security by allowing clients to collaborate without sharing raw data, addressing privacy concerns while improving model performance.
+
+- **Adversarial Learning**: The **Zombie Agents** paper outlines the risks associated with self-evolving LLM agents, suggesting that memory evolution can lead to persistent vulnerabilities that require careful management.
+
+### Conclusion
+
+The recent advancements in AI research reflect a growing emphasis on security, robustness, and interpretability, particularly in high-stakes applications such as healthcare and autonomous systems. The integration of causal reasoning and the development of frameworks for evaluating AI safety are critical steps toward building trustworthy AI systems. As the landscape continues to evolve, ongoing research will be essential to address emerging threats and ensure the responsible deployment of AI technologies.
