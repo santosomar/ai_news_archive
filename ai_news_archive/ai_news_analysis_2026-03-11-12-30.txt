@@ -1,0 +1,409 @@
+AI Researcher Agent Report for 2026-03-11-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [MASEval: Extending Multi-Agent Evaluation from Models to Systems](https://arxiv.org/abs/2603.08835): MASEval introduces a framework-agnostic library for evaluating multi-agent systems, emphasizing the importance of implementation decisions on performance.
+- [LDP: An Identity-Aware Protocol for Multi-Agent LLM Systems](https://arxiv.org/abs/2603.08852): The LLM Delegate Protocol (LDP) enhances communication between multi-agent systems by introducing identity cards and structured provenance tracking.
+- [Quantifying the Accuracy and Cost Impact of Design Decisions in Budget-Constrained Agentic LLM Search](https://arxiv.org/abs/2603.08877): This paper presents a study on how various design decisions affect accuracy and cost in budget-constrained retrieval-augmented generation systems.
+- [Interpretable Markov-Based Spatiotemporal Risk Surfaces for Missing-Child Search Planning with Reinforcement Learning and LLM-Based Quality Assurance](https://arxiv.org/abs/2603.08933): The Guardian system aids in missing-child investigations by converting unstructured data into actionable search plans using a three-layer predictive model.
+- [AgentOS: From Application Silos to a Natural Language-Driven Data Ecosystem](https://arxiv.org/abs/2603.08938): Proposes a new operating system paradigm for intelligent agents that utilizes natural language for task orchestration.
+- [A Consensus-Driven Multi-LLM Pipeline for Missing-Person Investigations](https://arxiv.org/abs/2603.08954): Guardian LLM Pipeline coordinates multiple LLMs for effective information extraction in missing-person cases.
+- [The FABRIC Strategy for Verifying Neural Feedback Systems](https://arxiv.org/abs/2603.08964): Introduces new algorithms for backward reachability analysis in neural feedback systems, enhancing verification capabilities.
+- [Meissa: Multi-modal Medical Agentic Intelligence](https://arxiv.org/abs/2603.09018): Presents a lightweight medical MM-LLM that operates offline and adapts to various medical environments.
+- [MEMO: Memory-Augmented Model Context Optimization for Robust Multi-Turn Multi-Agent LLM Games](https://arxiv.org/abs/2603.09022): Introduces a framework for optimizing context in multi-agent LLM games to improve performance and stability.
+- [Time, Identity and Consciousness in Language Model Agents](https://arxiv.org/abs/2603.09043): Discusses the evaluation of machine consciousness in language models, proposing a toolkit for identity evaluation.
+- [EPOCH: An Agentic Protocol for Multi-Round System Optimization](https://arxiv.org/abs/2603.09049): Introduces a protocol for multi-round optimization in autonomous agents, enhancing stability and reproducibility.
+- [From Days to Minutes: An Autonomous AI Agent Achieves Reliable Clinical Triage in Remote Patient Monitoring](https://arxiv.org/abs/2603.09052): Describes Sentinel, an AI agent that triages RPM vitals with high sensitivity and specificity.
+- [Chaotic Dynamics in Multi-LLM Deliberation](https://arxiv.org/abs/2603.09127): Analyzes the stability of multi-agent LLM deliberation, revealing routes to instability in committee models.
+- [Deep Tabular Research via Continual Experience-Driven Execution](https://arxiv.org/abs/2603.09151): Proposes a framework for reasoning over complex tabular data using a closed-loop decision-making process.
+- [DataFactory: Collaborative Multi-Agent Framework for Advanced Table Question Answering](https://arxiv.org/abs/2603.09152): Introduces a multi-agent framework for TableQA that improves accuracy through specialized coordination.
+- [Real-Time Trust Verification for Safe Agentic Actions using TrustBench](https://arxiv.org/abs/2603.09157): Presents TrustBench, a framework for real-time trust verification in autonomous agents.
+- [Explainable Innovation Engine: Dual-Tree Agent-RAG with Methods-as-Nodes and Verifiable Write-Back](https://arxiv.org/abs/2603.09192): Proposes a new approach to RAG systems that enhances control over multi-step synthesis.
+- [The Reasoning Trap -- Logical Reasoning as a Mechanistic Pathway to Situational Awareness](https://arxiv.org/abs/2603.09200): Discusses the implications of logical reasoning improvements in LLMs on situational awareness.
+- [Evaluate-as-Action: Self-Evaluated Process Rewards for Retrieval-Augmented Agents](https://arxiv.org/abs/2603.09203): Introduces a method for improving retrieval-augmented agents through explicit evaluation loops.
+- [Abundant Intelligence and Deficient Demand: A Macro-Financial Stress Test of Rapid AI Adoption](https://arxiv.org/abs/2603.09209): Analyzes the economic implications of rapid AI adoption and its effects on labor and demand.
+- [PrivPRISM: Automatically Detecting Discrepancies Between Google Play Data Safety Declarations and Developer Privacy Policies](https://arxiv.org/abs/2603.09214): Introduces a framework for detecting discrepancies in app privacy declarations.
+- [Cognitively Layered Data Synthesis for Domain Adaptation of LLMs to Space Situational Awareness](https://arxiv.org/abs/2603.09231): Proposes a framework for generating domain-specific datasets for LLM adaptation.
+- [Social-R1: Towards Human-like Social Reasoning in LLMs](https://arxiv.org/abs/2603.09249): Introduces a benchmark for training LLMs to exhibit human-like social reasoning.
+- [Logos: An evolvable reasoning engine for rational molecular design](https://arxiv.org/abs/2603.09268): Presents a model for molecular design that integrates reasoning with chemical consistency.
+- [Rescaling Confidence: What Scale Design Reveals About LLM Metacognition](https://arxiv.org/abs/2603.09309): Analyzes how confidence scale design affects LLM performance.
+- [Curveball Steering: The Right Direction To Steer Isn't Always Linear](https://arxiv.org/abs/2603.09313): Proposes a nonlinear steering method for controlling LLM behavior.
+- [Robust Regularized Policy Iteration under Transition Uncertainty](https://arxiv.org/abs/2603.09344): Introduces a robust policy optimization framework for offline RL.
+- [AI Act Evaluation Benchmark: An Open, Transparent, and Reproducible Evaluation Dataset for NLP and RAG Systems](https://arxiv.org/abs/2603.09435): Presents a dataset for evaluating AI compliance with regulatory standards.
+- [An Empirical Study and Theoretical Explanation on Task-Level Model-Merging Collapse](https://arxiv.org/abs/2603.09463): Investigates the phenomenon of merging collapse in task-specialist models.
+- [Telogenesis: Goal Is All U Need](https://arxiv.org/abs/2603.09476): Proposes a method for generating adaptive priorities in AI agents based on internal cognitive states.
+- [GenePlan: Evolving Better Generalized PDDL Plans using Large Language Models](https://arxiv.org/abs/2603.09481): Introduces a framework for evolving generalized planners for classical planning tasks.
+- [Vibe-Creation: The Epistemology of Human-AI Emergent Cognition](https://arxiv.org/abs/2603.09486): Discusses the cognitive implications of human-AI interactions.
+- [Enhancing Debunking Effectiveness through LLM-based Personality Adaptation](https://arxiv.org/abs/2603.09533): Proposes a method for generating personalized debunking messages using LLMs.
+- [Context Engineering: From Prompts to Corporate Multi-Agent Architecture](https://arxiv.org/abs/2603.09619): Introduces a framework for designing the informational environment for AI agents.
+- [PRECEPT: Planning Resilience via Experience, Context Engineering & Probing Trajectories A Unified Framework for Test-Time Adaptation with Compositional Rule Learning and Pareto-Guided Prompt Evolution](https://arxiv.org/abs/2603.09641): Proposes a framework for test-time adaptation in AI agents.
+- [MiniAppBench: Evaluating the Shift from Text to Interactive HTML Responses in LLM-Powered Assistants](https://arxiv.org/abs/2603.09652): Introduces a benchmark for evaluating interactive application generation.
+- [Logics-Parsing-Omni Technical Report](https://arxiv.org/abs/2603.09677): Proposes a framework for multimodal parsing.
+- [EsoLang-Bench: Evaluating Genuine Reasoning in Large Language Models via Esoteric Programming Languages](https://arxiv.org/abs/2603.09678): Introduces a benchmark for evaluating LLM reasoning capabilities.
+- [OOD-MMSafe: Advancing MLLM Safety from Harmful Intent to Hidden Consequences](https://arxiv.org/abs/2603.09706): Proposes a benchmark for evaluating safety in multimodal large language models.
+- [Does the Question Really Matter? Training-Free Data Selection for Vision-Language SFT](https://arxiv.org/abs/2603.09715): Introduces a training-free data selection method for vision-language tasks.
+- [AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents](https://arxiv.org/abs/2603.09716): Proposes a framework for adaptive agents that learn from experience.
+- [World2Mind: Cognition Toolkit for Allocentric Spatial Reasoning in Foundation Models](https://arxiv.org/abs/2603.09774): Introduces a toolkit for spatial reasoning in foundation models.
+- [Quantifying the Necessity of Chain of Thought through Opaque Serial Depth](https://arxiv.org/abs/2603.09786): Analyzes the necessity of chain of thought in LLMs.
+- [LCA: Local Classifier Alignment for Continual Learning](https://arxiv.org/abs/2603.09888): Proposes a method for aligning classifiers in continual learning settings.
+- [Influencing LLM Multi-Agent Dialogue via Policy-Parameterized Prompts](https://arxiv.org/abs/2603.09890): Introduces a framework for influencing dialogue dynamics in LLMs.
+- [MedMASLab: A Unified Orchestration Framework for Benchmarking Multimodal Medical Multi-Agent Systems](https://arxiv.org/abs/2603.09909): Proposes a framework for benchmarking multimodal medical systems.
+- [PathMem: Toward Cognition-Aligned Memory Transformation for Pathology MLLMs](https://arxiv.org/abs/2603.09943): Introduces a memory-centric framework for pathology models.
+- [The Confidence Gate Theorem: When Should Ranked Decision Systems Abstain?](https://arxiv.org/abs/2603.09947): Analyzes when ranked decision systems should abstain from making decisions.
+- [Think Before You Lie: How Reasoning Improves Honesty](https://arxiv.org/abs/2603.09957): Investigates the relationship between reasoning and honesty in LLMs.
+- [Let's Verify Math Questions Step by Step](https://arxiv.org/abs/2505.13903): Proposes a pipeline for verifying math questions.
+- [Unveiling the Potential of Quantization with MXFP4: Strategies for Quantization Error Reduction](https://arxiv.org/abs/2603.08713): Introduces techniques for improving quantization fidelity.
+- [Design Conductor: An agent autonomously builds a 1.5 GHz Linux-capable RISC-V CPU](https://arxiv.org/abs/2603.08716): Describes an autonomous agent that builds a RISC-V CPU.
+- [CktEvo: Repository-Level RTL Code Benchmark for Design Evolution](https://arxiv.org/abs/2603.08718): Proposes a benchmark for RTL code evolution.
+- [SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation](https://arxiv.org/abs/2603.08719): Introduces a framework for Verilog code generation.
+- [ALADIN: Accuracy-Latency-Aware Design-space Inference Analysis for Embedded AI Accelerators](https://arxiv.org/abs/2603.08722): Proposes a framework for analyzing inference design trade-offs.
+- [Alignment Is the Disease: Censorship Visibility and Alignment Constraint Complexity as Determinants of Collective Pathology in Multi-Agent LLM Systems](https://arxiv.org/abs/2603.08723): Analyzes the impact of alignment on multi-agent systems.
+- [PhD Thesis Summary: Methods for Reliability Assessment and Enhancement of Deep Neural Network Hardware Accelerators](https://arxiv.org/abs/2603.08724): Summarizes research on enhancing DNN hardware reliability.
+- [ARKV: Adaptive and Resource-Efficient KV Cache Management under Limited Memory Budget for Long-Context Inference in LLMs](https://arxiv.org/abs/2603.08727): Proposes a framework for managing KV cache in LLMs.
+- [Measurement-Free Ancilla Recycling via Blind Reset: A Cross-Platform Study on Superconducting and Trapped-Ion Processors](https://arxiv.org/abs/2603.08733): Evaluates ancilla recycling methods in quantum processors.
+- [Benchmarking Federated Learning in Edge Computing Environments: A Systematic Review and Performance Evaluation](https://arxiv.org/abs/2603.08735): Reviews federated learning techniques for edge computing.
+- [Autonomous Edge-Deployed AI Agents for Electric Vehicle Charging Infrastructure Management](https://arxiv.org/abs/2603.08736): Proposes a framework for managing EV charging infrastructure.
+- [Sensitivity-Guided Framework for Pruned and Quantized Reservoir Computing Accelerators](https://arxiv.org/abs/2603.08737): Introduces a framework for optimizing reservoir computing.
+- [Architectural Design and Performance Analysis of FPGA based AI Accelerators: A Comprehensive Review](https://arxiv.org/abs/2603.08740): Reviews FPGA-based accelerators for deep learning.
+- [Zipage: Maintain High Request Concurrency for LLM Reasoning through Compressed PagedAttention](https://arxiv.org/abs/2603.08743): Proposes a method for improving LLM inference concurrency.
+- [Diagnosing FP4 inference: a layer-wise and block-wise sensitivity analysis of NVFP4 and MXFP4](https://arxiv.org/abs/2603.08747): Analyzes the sensitivity of FP4 formats in neural networks.
+- [Permutation-Equivariant 2D State Space Models: Theory and Canonical Architecture for Multivariate Time Series](https://arxiv.org/abs/2603.08753): Introduces a new model for multivariate time series.
+- [Hindsight Credit Assignment for Long-Horizon LLM Agents](https://arxiv.org/abs/2603.08754): Proposes a framework for credit assignment in LLMs.
+- [TrainDeeploy: Hardware-Accelerated Parameter-Efficient Fine-Tuning of Small Transformer Models at the Extreme Edge](https://arxiv.org/abs/2603.09511): Introduces a framework for on-device training of transformers.
+- [MA-EgoQA: Question Answering over Egocentric Videos from Multiple Embodied Agents](https://arxiv.org/abs/2603.09827): Proposes a benchmark for egocentric video QA.
+- [Multi-model approach for autonomous driving: A comprehensive study on traffic sign-, vehicle- and lane detection and behavioral cloning](https://arxiv.org/abs/2603.09255): Reviews deep learning techniques for self-driving cars.
+- [DRIFT: Dual-Representation Inter-Fusion Transformer for Automated Driving Perception with 4D Radar Point Clouds](https://arxiv.org/abs/2603.09695): Proposes a model for processing 4D radar data in autonomous driving.
+- [OmniEarth: A Benchmark for Evaluating Vision-Language Models in Geospatial Tasks](https://arxiv.org/abs/2603.09471): Introduces a benchmark for evaluating RSVLMs in geospatial tasks.
+- [Reading, Not Thinking: Understanding and Bridging the Modality Gap When Text Becomes Pixels in Multimodal LLMs](https://arxiv.org/abs/2603.09095): Analyzes the performance gap between text and image inputs in LLMs.
+- [CLoE: Expert Consistency Learning for Missing Modality Segmentation](https://arxiv.org/abs/2603.09316): Proposes a framework for segmentation with missing modalities.
+- [Transformer-Based Multi-Region Segmentation and Radiomic Analysis of HR-pQCT Imaging](https://arxiv.org/abs/2603.09137): Introduces a framework for analyzing HR-pQCT images.
+- [Adaptive Active Learning for Online Reliability Prediction of Satellite Electronics](https://arxiv.org/abs/2603.09058): Proposes a framework for predicting satellite electronics reliability.
+- [Routing without Forgetting](https://arxiv.org/abs/2603.09576): Introduces a transformer architecture for continual learning.
+- [MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers](https://arxiv.org/abs/2504.08999): Proposes a proxy for connecting MCP servers.
+- [Stepwise Guided Policy Optimization: Coloring your Incorrect Reasoning in GRPO](https://arxiv.org/abs/2505.11595): Introduces a framework for improving GRPO.
+- [UltraEdit: Training-, Subject-, and Memory-Free Lifelong Editing in Language Models](https://arxiv.org/abs/2505.14679): Proposes a framework for lifelong editing in LLMs.
+- [SATURN: SAT-based Reinforcement Learning to Unleash LLMs Reasoning](https://arxiv.org/abs/2505.16368): Introduces a framework for RL-based reasoning in LLMs.
+- [Adaptive Clinical-Aware Latent Diffusion for Multimodal Brain Image Generation and Missing Modality Imputation](https://arxiv.org/abs/2511.12110): Proposes a framework for brain image generation.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes a framework for test-time adaptation in SNNs.
+- [Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision](https://arxiv.org/abs/2602.12236): Introduces a framework for continual learning in SNNs.
+- [B-DENSE: Branching For Dense Ensemble Network Supervision Efficiency](https://arxiv.org/abs/2602.15971): Proposes a framework for improving ensemble network supervision.
+- [Continual uncertainty learning](https://arxiv.org/abs/2602.17174): Introduces a framework for robust control in uncertain environments.
+- [ReDON: Recurrent Diffractive Optical Neural Processor with Reconfigurable Self-Modulated Nonlinearity](https://arxiv.org/abs/2602.23616): Proposes a new optical neural network architecture.
+- [Breaking the Factorization Barrier in Diffusion Language Models](https://arxiv.org/abs/2603.00045): Introduces a framework for improving diffusion models.
+- [OrthOAI: A Neurosymbolic Framework for Evidence-Grounded Biomechanical Reasoning in Clear Aligner Orthodontics](https://arxiv.org/abs/2603.00124): Proposes a framework for orthodontic reasoning.
+- [Zero-Shot and Supervised Bird Image Segmentation Using Foundation Models: A Dual-Pipeline Approach with Grounding DINO~1.5, YOLOv11, and SAM~2.1](https://arxiv.org/abs/2603.00184): Introduces a dual-pipeline framework for bird image segmentation.
+- [Pri4R: Learning World Dynamics for Vision-Language-Action Models with Privileged 4D Representation](https://arxiv.org/abs/2603.01549): Proposes a framework for learning world dynamics in VLA models.
+- [Reasoning as Gradient: Scaling MLE Agents Beyond Tree Search](https://arxiv.org/abs/2603.01692): Introduces a framework for gradient-based optimization in MLE agents.
+- [Boltzmann-based Exploration for Robust Decentralized Multi-Agent Planning (Extended Version)](https://arxiv.org/abs/2603.02154): Proposes a new approach for decentralized multi-agent planning.
+- [SPARC: Spatial-Aware Path Planning via Attentive Robot Communication](https://arxiv.org/abs/2603.02845): Introduces a communication mechanism for multi-robot path planning.
+- [PlaneCycle: Training-Free 2D-to-3D Lifting of Foundation Models Without Adapters](https://arxiv.org/abs/2603.04165): Proposes a method for lifting 2D models to 3D without retraining.
+- [The Geometric Inductive Bias of Grokking: Bypassing Phase Transitions via Architectural Topology](https://arxiv.org/abs/2603.05228): Analyzes the impact of architectural topology on grokking.
+- [Reasoning Theater: Disentangling Model Beliefs from Chain-of-Thought](https://arxiv.org/abs/2603.05488): Investigates performative reasoning in LLMs.
+- [Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation](https://arxiv.org/abs/2603.05494): Explores the use of censored LLMs for knowledge elicitation.
+- [A Causal Graph Approach to Oppositional Narrative Analysis](https://arxiv.org/abs/2603.06135): Proposes a graph-based framework for analyzing narratives.
+- [OptiRoulette Optimizer: A New Stochastic Meta-Optimizer for up to 5.3x Faster Convergence](https://arxiv.org/abs/2603.06613): Introduces a new stochastic meta-optimizer.
+- [GameVerse: Can Vision-Language Models Learn from Video-based Reflection?](https://arxiv.org/abs/2603.06656): Proposes a benchmark for evaluating VLMs in video-based reflection.
+- [Property-driven Protein Inverse Folding With Multi-Objective Preference Alignment](https://arxiv.org/abs/2603.06748): Introduces a framework for protein design.
+- [Deep Expert Injection for Anchoring Retinal VLMs with Domain-Specific Knowledge](https://arxiv.org/abs/2603.07131): Proposes a framework for enhancing VLMs with expert knowledge.
+- [Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice](https://arxiv.org/abs/2603.07191): Proposes a governance framework for autonomous agents.
+- [Adversarial Latent-State Training for Robust Policies in Partially Observable Domains](https://arxiv.org/abs/2603.07313): Introduces a framework for robust control in POMDPs.
+- [Latent Generative Models with Tunable Complexity for Compressed Sensing and other Inverse Problems](https://arxiv.org/abs/2603.07357): Proposes a framework for generative modeling.
+- [Designing probabilistic AI monsoon forecasts to inform agricultural decision-making](https://arxiv.org/abs/2603.07893): Introduces a framework for agricultural forecasting.
+- [IMSE: Intrinsic Mixture of Spectral Experts Fine-tuning for Test-Time Adaptation](https://arxiv.org/abs/2603.07926): Proposes
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Security
+
+#### Key Papers and Articles
+
+1. **MA-EgoQA: Question Answering over Egocentric Videos from Multiple Embodied Agents**
+   - This paper introduces a benchmark for evaluating models in understanding multiple long-horizon egocentric videos. It highlights the challenges of aggregating sensory inputs and constructing system-level memory, which is crucial for security in multi-agent systems.
+
+2. **Security Considerations for Multi-agent Systems**
+   - This study characterizes the unique security vulnerabilities of multi-agent systems (MAS) and evaluates 16 security frameworks against these vulnerabilities. It emphasizes the need for a structured approach to address issues like non-determinism and data leakage, which are critical for ensuring the security of AI systems.
+
+3. **CyberThreat-Eval: Can Large Language Models Automate Real-World Threat Research?**
+   - This paper introduces a benchmark for assessing LLMs in analyzing Open Source Intelligence (OSINT) for cybersecurity. It emphasizes the importance of actionable insights and the limitations of current LLMs in handling complex details, which is vital for security analysts.
+
+4. **TrustBench: Real-Time Trust Verification for Safe Agentic Actions**
+   - This framework benchmarks trust across multiple dimensions and provides a toolkit for agents to verify safety and reliability before taking actions. It aims to reduce harmful actions by 87%, highlighting the importance of trust verification in autonomous agents.
+
+5. **Censored LLMs as a Natural Testbed for Secret Knowledge Elicitation**
+   - This work explores how censored LLMs can reveal hidden knowledge and the implications for trust and reliability in AI systems. It highlights the challenges of ensuring that models do not propagate misinformation, which is crucial for security.
+
+6. **Governance Architecture for Autonomous Agent Systems: Threats, Framework, and Engineering Practice**
+   - This paper proposes a governance framework for autonomous agents that addresses execution-layer vulnerabilities. It emphasizes the need for intent verification and zero-trust authorization to mitigate risks associated with autonomous systems.
+
+7. **Adversarial Latent-State Training for Robust Policies in Partially Observable Domains**
+   - This study introduces a framework for robust reinforcement learning in environments with latent distribution shifts, which is critical for maintaining security in dynamic and uncertain environments.
+
+8. **MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers**
+   - This paper discusses a proxy that enhances security by providing a unified API for multiple MCP servers, addressing the constraints of direct MCP connections.
+
+#### Trends and Insights
+
+- **Focus on Trust and Safety**: Many papers emphasize the importance of trust verification, safety mechanisms, and the need for robust governance frameworks in autonomous systems. This reflects a growing awareness of the potential risks associated with deploying AI systems in real-world scenarios.
+
+- **Integration of Security in Multi-Agent Systems**: The unique vulnerabilities of multi-agent systems are being systematically characterized, with frameworks being developed to address these challenges. This indicates a shift towards more comprehensive security measures in AI deployments.
+
+- **Use of LLMs for Security Applications**: The exploration of LLMs in cybersecurity, particularly in automating threat research and knowledge elicitation, highlights their potential but also their limitations in handling nuanced and complex security scenarios.
+
+- **Adversarial Robustness**: There is a significant focus on developing methods that enhance the robustness of AI systems against adversarial attacks, which is crucial for maintaining security in applications like autonomous driving and healthcare.
+
+- **Dynamic Adaptation and Learning**: Several papers propose frameworks for dynamic adaptation in uncertain environments, which is essential for maintaining security in rapidly changing contexts.
+
+### Conclusion
+
+The reviewed papers and articles indicate a strong trend towards integrating security considerations into AI and machine learning frameworks, particularly in multi-agent systems and autonomous applications. The emphasis on trust, safety, and robustness reflects the critical need for secure AI systems that can operate reliably in real-world scenarios. As AI technologies continue to evolve, ongoing research will be essential to address emerging security challenges and ensure the safe deployment of these systems.
