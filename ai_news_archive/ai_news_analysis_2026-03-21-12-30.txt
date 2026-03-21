@@ -1,0 +1,57 @@
+AI Researcher Agent Report for 2026-03-21-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [The Math That’s Killing Your AI Agent](https://towardsdatascience.com/the-math-thats-killing-your-ai-agent/): This article discusses how an AI agent with 85% accuracy can still fail significantly in practical applications due to compound probability issues. It introduces a 4-check pre-deployment framework to mitigate these failures.
+- [Building Robust Credit Scoring Models (Part 3)](https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/): This article focuses on techniques for handling outliers and missing values in borrower data using Python, as part of a series on developing robust credit scoring models.
+- [How to Measure AI Value](https://towardsdatascience.com/how-to-measure-ai-value/): This article explores the multifaceted nature of AI value, emphasizing that efficiency is just one aspect of its overall worth.
+- [Agentic RAG Failure Modes: Retrieval Thrash, Tool Storms, and Context Bloat (and How to Spot Them Early)](https://towardsdatascience.com/agentic-rag-failure-modes-retrieval-thrash-tool-storms-and-context-bloat-and-how-to-spot-them-early/): This article examines the silent failures of agentic RAG systems in production, detailing specific failure modes and offering strategies for early detection to avoid unexpected costs.
+
+### Categories
+#### AI Performance and Reliability
+- [The Math That’s Killing Your AI Agent](https://towardsdatascience.com/the-math-thats-killing-your-ai-agent/)
+- [Agentic RAG Failure Modes: Retrieval Thrash, Tool Storms, and Context Bloat (and How to Spot Them Early)](https://towardsdatascience.com/agentic-rag-failure-modes-retrieval-thrash-tool-storms-and-context-bloat-and-how-to-spot-them-early/)
+
+#### Financial Applications of AI
+- [Building Robust Credit Scoring Models (Part 3)](https://towardsdatascience.com/building-robust-credit-scoring-models-part-3/)
+
+#### Measuring AI Value
+- [How to Measure AI Value](https://towardsdatascience.com/how-to-measure-ai-value/)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+The provided articles primarily focus on the challenges and methodologies associated with AI systems, particularly in terms of their reliability, efficiency, and the potential pitfalls that can arise during deployment. While none of the articles explicitly address security in the context of AI, they do touch upon themes that are relevant to the broader discussion of AI safety and robustness, which are critical components of securing AI systems.
+
+### Deep Analysis
+
+1. **Understanding AI Failures**:
+   - The article "The Math That’s Killing Your AI Agent" highlights a significant issue in AI deployment: the disconnect between high accuracy in controlled environments and poor performance in real-world applications. The compound probability problem indicates that even an AI with 85% accuracy can fail dramatically in multi-step tasks. This insight is crucial for security, as it suggests that AI systems may be vulnerable to systematic failures that could be exploited if not properly managed.
+
+2. **Robustness in Model Building**:
+   - "Building Robust Credit Scoring Models (Part 3)" discusses handling outliers and missing data, which are essential for creating reliable AI models. In the context of security, robust models are less likely to be manipulated or misled by adversarial inputs. Ensuring that AI systems can handle unexpected data is a foundational aspect of securing AI against attacks that aim to exploit weaknesses in data handling.
+
+3. **Measuring AI Value**:
+   - The article "How to Measure AI Value" emphasizes that efficiency is just one aspect of AI's value. This broader perspective can be applied to security, where the effectiveness of an AI system must also consider its resilience against attacks and its ability to maintain performance under adverse conditions. The value of AI in security contexts may also include its ability to detect and respond to threats.
+
+4. **Identifying Failure Modes**:
+   - "Agentic RAG Failure Modes" discusses specific failure modes in AI systems, such as retrieval thrash and context bloat. Recognizing these issues early can prevent costly failures in production. From a security standpoint, understanding these failure modes is vital, as they can lead to vulnerabilities that adversaries might exploit. For instance, if an AI system becomes overwhelmed by excessive data (context bloat), it may fail to respond effectively to security threats.
+
+### Trends and Correlations
+
+- **Focus on Robustness**: A recurring theme across the articles is the emphasis on building robust AI systems that can withstand various challenges, including data anomalies and operational failures. This trend is critical for security, as robust systems are inherently more secure against manipulation and attacks.
+
+- **Importance of Pre-Deployment Testing**: The need for thorough pre-deployment testing frameworks, as mentioned in the first article, correlates with security best practices. Ensuring that AI systems are tested against a variety of scenarios, including potential attack vectors, is essential for maintaining security.
+
+- **Value Beyond Efficiency**: The discussion on measuring AI value suggests a shift towards a more holistic view of AI performance, which includes security metrics. This trend indicates a growing recognition that AI systems must not only be efficient but also secure and reliable.
+
+### Insights
+
+- **Interconnectedness of AI Performance and Security**: The articles collectively suggest that the performance of AI systems is closely tied to their security. Failures in performance can lead to vulnerabilities that adversaries can exploit. Therefore, a comprehensive approach to AI development must integrate performance optimization with security considerations.
+
+- **Need for Continuous Monitoring**: The identification of failure modes and the emphasis on early detection highlight the necessity for continuous monitoring of AI systems in production. This is particularly relevant for security, where threats can evolve rapidly, and systems must adapt to new challenges.
+
+In conclusion, while the articles do not directly address security, they provide valuable insights into the robustness and reliability of AI systems, which are critical for securing AI against potential threats. The trends identified suggest a growing awareness of the need to integrate security considerations into the AI development lifecycle.
