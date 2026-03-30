@@ -1,0 +1,135 @@
+AI Researcher Agent Report for 2026-03-30-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments](https://arxiv.org/abs/2603.25747): This paper introduces BeSafe-Bench, a benchmark designed to expose behavioral safety risks in autonomous agents across various functional environments. The evaluation reveals that even top-performing agents often fail to adhere to safety constraints, highlighting the need for improved safety alignment in real-world applications.
+- [AutoB2G: A Large Language Model-Driven Agentic Framework For Automated Building-Grid Co-Simulation](https://arxiv.org/abs/2603.26005): AutoB2G is proposed as a framework that automates building-grid co-simulation using natural language task descriptions, enhancing the evaluation of grid-level impacts in building operations.
+- [Semi-Automated Knowledge Engineering and Process Mapping for Total Airport Management](https://arxiv.org/abs/2603.26076): This paper presents a framework for constructing a machine-readable Knowledge Graph for airport operations, addressing data silos and semantic inconsistencies through a combination of symbolic knowledge engineering and generative LLMs.
+- [GUIDE: Resolving Domain Bias in GUI Agents through Real-Time Web Video Retrieval and Plug-and-Play Annotation](https://arxiv.org/abs/2603.26266): GUIDE addresses domain bias in GUI agents by autonomously acquiring domain-specific expertise from web tutorial videos, enhancing their performance in specific software applications.
+- [AIRA_2: Overcoming Bottlenecks in AI Research Agents](https://arxiv.org/abs/2603.26499): AIRA_2 introduces architectural improvements to AI research agents to enhance throughput and evaluation reliability, addressing performance bottlenecks in existing systems.
+- [CADSmith: Multi-Agent CAD Generation with Programmatic Geometric Validation](https://arxiv.org/abs/2603.26512): CADSmith presents a multi-agent pipeline for generating CAD code from natural language, incorporating iterative refinement through geometric validation to improve accuracy.
+- [Stabilizing Rubric Integration Training via Decoupled Advantage Normalization](https://arxiv.org/abs/2603.26535): This paper proposes a new method for integrating process-level evaluation into policy optimization, improving model training outcomes across various benchmarks.
+- [DesignWeaver: Dimensional Scaffolding for Text-to-Image Product Design](https://arxiv.org/abs/2502.09867): DesignWeaver aids novice designers in generating prompts for text-to-image models by surfacing key design dimensions, enhancing the quality of generated product designs.
+- [A Lightweight, Transferable, and Self-Adaptive Framework for Intelligent DC Arc-Fault Detection in Photovoltaic Systems](https://arxiv.org/abs/2603.25749): This framework addresses challenges in DC arc-fault detection in photovoltaic systems, achieving high accuracy and adaptability across different hardware platforms.
+- [Sommelier: Scalable Open Multi-turn Audio Pre-processing for Full-duplex Speech Language Models](https://arxiv.org/abs/2603.25750): Sommelier presents a data processing pipeline for full-duplex speech language models, addressing challenges in natural dialogue dynamics.
+- [A-SelecT: Automatic Timestep Selection for Diffusion Transformer Representation Learning](https://arxiv.org/abs/2603.25758): A-SelecT introduces a method for dynamically selecting the most informative timesteps in diffusion transformers, enhancing training efficiency.
+- [CANGuard: A Spatio-Temporal CNN-GRU-Attention Hybrid Architecture for Intrusion Detection in In-Vehicle CAN Networks](https://arxiv.org/abs/2603.25763): CANGuard proposes a hybrid architecture for detecting intrusions in vehicle networks, achieving competitive performance in security applications.
+- [Consistency Amplifies: How Behavioral Variance Shapes Agent Accuracy](https://arxiv.org/abs/2603.25764): This study explores the relationship between behavioral consistency and accuracy in LLM-based agents, revealing that consistency can amplify both correct and incorrect interpretations.
+- [ETA-VLA: Efficient Token Adaptation via Temporal Fusion and Intra-LLM Sparsification for Vision-Language-Action Models](https://arxiv.org/abs/2603.25766): ETA-VLA presents a framework for efficiently processing visual tokens in VLA models, reducing computational costs while maintaining performance.
+- [Unlocking Strong Supervision: A Data-Centric Study of General-Purpose Audio Pre-Training Methods](https://arxiv.org/abs/2603.25767): This paper emphasizes the importance of strong supervision in audio pre-training, proposing a new pipeline for creating high-quality audio representations.
+- [UCAgent: An End-to-End Agent for Block-Level Functional Verification](https://arxiv.org/abs/2603.25768): UCAgent automates hardware verification processes, achieving high coverage and discovering design defects in various modules.
+- [IncreRTL: Traceability-Guided Incremental RTL Generation under Requirement Evolution](https://arxiv.org/abs/2603.25769): IncreRTL introduces a framework for incremental RTL generation, improving consistency and efficiency in adapting to evolving design requirements.
+- [ReCUBE: Evaluating Repository-Level Context Utilization in Code Generation](https://arxiv.org/abs/2603.25770): ReCUBE benchmarks LLMs on their ability to leverage repository-level context during code generation, revealing challenges in context utilization.
+- [Empowering Epidemic Response: The Role of Reinforcement Learning in Infectious Disease Control](https://arxiv.org/abs/2603.25771): This review discusses the application of reinforcement learning in optimizing public health strategies for controlling infectious diseases.
+- [Challenges and opportunities for AI to help deliver fusion energy](https://arxiv.org/abs/2603.25777): This perspective discusses the potential of AI in fusion energy research and the challenges that need to be addressed for effective implementation.
+- [Pure and Physics-Guided Deep Learning Solutions for Spatio-Temporal Groundwater Level Prediction at Arbitrary Locations](https://arxiv.org/abs/2603.25779): This paper presents a deep learning model for predicting groundwater levels, integrating physics-based strategies to enhance trustworthiness.
+- [Beyond identifiability: Learning causal representations with few environments and finite samples](https://arxiv.org/abs/2603.25796): This work provides guarantees for learning causal representations from limited environments, contributing to the understanding of causal representation learning.
+- [MAGNET: Autonomous Expert Model Generation via Decentralized Autoresearch and BitNet Training](https://arxiv.org/abs/2603.25813): MAGNET presents a decentralized system for generating and training domain-expert language models across commodity hardware.
+- [Doctorina MedBench: End-to-End Evaluation of Agent-Based Medical AI](https://arxiv.org/abs/2603.25821): This framework evaluates agent-based medical AI through realistic physician-patient interactions, emphasizing clinical correctness and dialogue efficiency.
+- [ViGoR-Bench: How Far Are Visual Generative Models From Zero-Shot Visual Reasoners?](https://arxiv.org/abs/2603.25823): ViGoR introduces a benchmark for evaluating visual generative models' reasoning capabilities, revealing significant reasoning deficits in current systems.
+- [A Compression Perspective on Simplicity Bias](https://arxiv.org/abs/2603.25839): This paper explores the simplicity bias in neural networks through the lens of the Minimum Description Length principle, offering insights into feature selection.
+- [GazeQwen: Lightweight Gaze-Conditioned LLM Modulation for Streaming Video Understanding](https://arxiv.org/abs/2603.25841): GazeQwen enhances MLLMs with gaze awareness for improved video understanding, achieving significant performance gains.
+- [Why Safety Probes Catch Liars But Miss Fanatics](https://arxiv.org/abs/2603.25861): This study examines the limitations of activation-based probes in detecting coherent misalignment in AI systems.
+- [Methods for Knowledge Graph Construction from Text Collections: Development and Applications](https://arxiv.org/abs/2603.25862): This work explores automatic methods for constructing knowledge graphs from text, emphasizing scalability and flexibility.
+- [Dynamic LIBRAS Gesture Recognition via CNN over Spatiotemporal Matrix Representation](https://arxiv.org/abs/2603.25863): This paper presents a method for recognizing Brazilian Sign Language gestures using a CNN trained on spatiotemporal representations.
+- [GUIDE: A Benchmark for Understanding and Assisting Users in Open-Ended GUI Tasks](https://arxiv.org/abs/2603.25864): GUIDE evaluates AI models on their ability to assist users in open-ended GUI tasks, highlighting the importance of user context.
+- [Spectral Coherence Index: A Model-Free Metric for Protein Structural Ensemble Quality Assessment](https://arxiv.org/abs/2603.25880): This paper evaluates the Spectral Coherence Index for assessing protein structural ensembles, demonstrating its effectiveness in distinguishing experimental ensembles.
+- [On Integrating Resilience and Human Oversight into LLM-Assisted Modeling Workflows for Digital Twins](https://arxiv.org/abs/2603.25898): This work presents design principles for integrating resilience and oversight into LLM-assisted workflows for building digital twins.
+- [Decoding Defensive Coverage Responsibilities in American Football Using Factorized Attention Based Transformer Models](https://arxiv.org/abs/2603.25901): This paper introduces a transformer model for predicting defensive coverage assignments in NFL play tracking data.
+- [Good Scores, Bad Data: A Metric for Multimodal Coherence](https://arxiv.org/abs/2603.25924): This work introduces the Multimodal Coherence Score, a metric for evaluating the quality of multimodal AI systems.
+- [DiReCT: Disentangled Regularization of Contrastive Trajectories for Physics-Refined Video Generation](https://arxiv.org/abs/2603.25931): DiReCT presents a framework for improving video generation by disentangling semantic and physical behavior.
+- [DenseSwinV2: Channel Attentive Dual Branch CNN Transformer Learning for Cassava Leaf Disease Classification](https://arxiv.org/abs/2603.25935): This work presents a hybrid framework for cassava disease classification, achieving high accuracy through dual-branch learning.
+- [Reinforcing Structured Chain-of-Thought for Video Understanding](https://arxiv.org/abs/2603.25942): This paper introduces a reinforcement learning framework for improving video understanding in MLLMs.
+- [Can Small Models Reason About Legal Documents? A Comparative Study](https://arxiv.org/abs/2603.25944): This study evaluates the reasoning capabilities of small language models in legal contexts, revealing performance variations.
+- [Collision-Aware Vision-Language Learning for End-to-End Driving with Multimodal Infraction Datasets](https://arxiv.org/abs/2603.25946): This work presents a framework for improving end-to-end driving performance by integrating collision-aware learning.
+- [When Chain-of-Thought Backfires: Evaluating Prompt Sensitivity in Medical Language Models](https://arxiv.org/abs/2603.25960): This study evaluates the sensitivity of medical LLMs to prompt formatting, revealing concerning findings.
+- [Dynamic Tokenization via Reinforcement Patching: End-to-end Training and Zero-shot Transfer](https://arxiv.org/abs/2603.26097): This paper introduces a framework for optimizing sequence patching policies using reinforcement learning.
+- [AI Generalisation Gap In Comorbid Sleep Disorder Staging](https://arxiv.org/abs/2603.23582): This work explores the generalization gap in AI models for sleep disorder staging, emphasizing the need for disease-specific models.
+- [SpotIt+: Verification-based Text-to-SQL Evaluation with Database Constraints](https://arxiv.org/abs/2603.04334): SpotIt+ introduces a tool for evaluating Text-to-SQL systems through bounded equivalence verification.
+- [DiFlowDubber: Discrete Flow Matching for Automated Video Dubbing via Cross-Modal Alignment and Synchronization](https://arxiv.org/abs/2603.14267): DiFlowDubber presents a framework for improving video dubbing quality through discrete flow matching.
+- [The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics](https://arxiv.org/abs/2603.14375): This paper introduces a method for estimating the physical frame rate of videos based on visual dynamics.
+- [AgentTrace: Causal Graph Tracing for Root Cause Analysis in Deployed Multi-Agent Systems](https://arxiv.org/abs/2603.14688): AgentTrace presents a framework for diagnosing failures in multi-agent systems through causal graph tracing.
+- [To See is Not to Master: Teaching LLMs to Use Private Libraries for Code Generation](https://arxiv.org/abs/2603.15159): PriCoder teaches LLMs to effectively invoke private-library APIs through automatically synthesized data.
+- [MLLM-based Textual Explanations for Face Comparison](https://arxiv.org/abs/2603.16629): This study analyzes the reliability of MLLM-generated explanations for face recognition decisions.
+- [Goedel-Code-Prover: Hierarchical Proof Search for Open State-of-the-Art Code Verification](https://arxiv.org/abs/2603.19329): This paper proposes a hierarchical proof search framework for automated code verification in Lean 4.
+- [Modernizing Amdahl's Law: How AI Scaling Laws Shape Computer Architecture](https://arxiv.org/abs/2603.20654): This work reformulates Amdahl's Law for modern heterogeneous systems, addressing resource allocation challenges.
+- [KG-Hopper: Empowering Compact Open LLMs with Knowledge Graph Reasoning via Reinforcement Learning](https://arxiv.org/abs/2603.21440): KG-Hopper enhances compact LLMs with integrated multi-hop knowledge graph reasoning.
+- [mSFT: Addressing Dataset Mixtures Overfitting Heterogeneously in Multi-task SFT](https://arxiv.org/abs/2603.21606): mSFT introduces an iterative, overfitting-aware search algorithm for multi-task data mixtures.
+- [Hybrid Associative Memories](https://arxiv.org/abs/2603.22325): This paper proposes a hybrid memory layer that combines RNNs and self-attention to leverage their strengths for sequence modeling.
+- [KALAVAI: Predicting When Independent Specialist Fusion Works -- A Quantitative Model for Post-Hoc Cooperative LLM Training](https://arxiv.org/abs/2603.22755): KALAVAI introduces a model for predicting the effectiveness of fusing independently trained domain specialists.
+- [EVA: Efficient Reinforcement Learning for End-to-End Video Agent](https://arxiv.org/abs/2603.22918): EVA presents a reinforcement learning framework for efficient video understanding through iterative reasoning.
+- [MDKeyChunker: Single-Call LLM Enrichment with Rolling Keys and Key-Based Restructuring for High-Accuracy RAG](https://arxiv.org/abs/2603.23533): MDKeyChunker introduces a pipeline for structure-aware chunking and enrichment of Markdown documents for improved retrieval.
+- [AI Generalisation Gap In Comorbid Sleep Disorder Staging](https://arxiv.org/abs/2603.23582): This work explores the generalization gap in AI models for sleep disorder staging, emphasizing the need for disease-specific models.
+- [FastCache: Fast Caching for Diffusion Transformer Through Learnable Linear Approximation](https://arxiv.org/abs/2505.20353): FastCache introduces a caching framework for accelerating diffusion transformer inference.
+- [PathFinder: Advancing Path Loss Prediction for Single-to-Multi-Transmitter Scenario](https://arxiv.org/abs/2512.14150): PathFinder presents a framework for enhancing path loss prediction in multi-transmitter scenarios.
+- [Dual-objective Language Models: Training Efficiency Without Overfitting](https://arxiv.org/abs/2512.14549): This paper proposes a dual-objective training method for language models that balances efficiency and overfitting.
+- [MRG-R1: Reinforcement Learning for Clinically Aligned Medical Report Generation](https://arxiv.org/abs/2512.16145): MRG-R1 introduces a reinforcement learning framework for generating clinically accurate medical reports.
+- [StreamGaze: Gaze-Guided Temporal Reasoning and Proactive Understanding in Streaming Videos](https://arxiv.org/abs/2512.01707): StreamGaze evaluates how MLLMs utilize gaze for temporal reasoning in streaming videos.
+- [WorldMM: Dynamic Multimodal Memory Agent for Long Video Reasoning](https://arxiv.org/abs/2512.02425): WorldMM introduces a multimodal memory agent for improving long video reasoning.
+- [Fluent Alignment with Disfluent Judges: Post-training for Lower-resource Languages](https://arxiv.org/abs/2512.08777): This work presents a post-training method for lower-resource languages that maintains fluency despite disfluent judges.
+- [Particulate: Feed-Forward 3D Object Articulation](https://arxiv.org/abs/2512.11798): Particulate introduces a model for inferring articulations of 3D objects using a transformer network.
+- [Nemotron-Cascade: Scaling Cascaded Reinforcement Learning for General-Purpose Reasoning Models](https://arxiv.org/abs/2512.13607): Nemotron-Cascade presents a framework for developing general-purpose reasoning models using cascaded reinforcement learning.
+- [SonicMoE: Accelerating MoE with IO and Tile-aware Optimizations](https://arxiv.org/abs/2512.14080): SonicMoE introduces optimizations for improving the efficiency of Mixture of Experts models.
+- [AI Generalisation Gap In Comorbid Sleep Disorder Staging](https://arxiv.org/abs/2603.23582): This work explores the generalization gap in AI models for sleep disorder staging, emphasizing the need for disease-specific models.
+
+### Categories
+#### Security
+- [CANGuard: A Spatio-Temporal CNN-GRU-Attention Hybrid Architecture for Intrusion Detection in In-Vehicle CAN Networks](https://arxiv.org/abs/2603.25763): This paper presents a hybrid architecture for detecting intrusions in vehicle networks, achieving competitive performance in security applications.
+- [SpotIt+: Verification-based Text-to-SQL Evaluation with Database Constraints](https://arxiv.org/abs/2603.04334): SpotIt+ introduces a tool for evaluating Text-to-SQL systems through bounded equivalence verification.
+- [AgentTrace: Causal Graph Tracing for Root Cause Analysis in Deployed Multi-Agent Systems](https://arxiv.org/abs/2603.14688): AgentTrace presents a framework for diagnosing failures in multi-agent systems through causal graph tracing.
+- [Shape and Substance: Dual-Layer Side-Channel Attacks on Local Vision-Language Models](https://arxiv.org/abs/2603.25403): This paper discusses side-channel attacks on local VLMs, revealing vulnerabilities in their architecture.
+
+#### AI and Ethics
+- [Deontic Temporal Logic for Formal Verification of AI Ethics](https://arxiv.org/abs/2501.05765): This paper proposes a formalization based on deontic logic to define and evaluate the ethical behavior of AI systems.
+- [The Accountability Paradox: How Platform API Restrictions Undermine AI Transparency Mandates](https://arxiv.org/abs/2505.11577): This paper discusses the implications of API restrictions on algorithmic transparency and accountability in AI systems.
+
+#### Medical Applications
+- [MRG-R1: Reinforcement Learning for Clinically Aligned Medical Report Generation](https://arxiv.org/abs/2512.16145): MRG-R1 introduces a reinforcement learning framework for generating clinically accurate medical reports.
+- [AI Generalisation Gap In Comorbid Sleep Disorder Staging](https://arxiv.org/abs/2603.23582): This work explores the generalization gap in AI models for sleep disorder staging, emphasizing the need for disease-specific models.
+
+#### Video and Image Processing
+- [StreamDiT: Real-Time Streaming Text-to-Video Generation](https://arxiv.org/abs/2507.03745): StreamDiT presents a framework for streaming video generation.
+- [PISCO: Precise Video Instance Insertion with Sparse Control](https://arxiv.org/abs/2602.08277): PISCO introduces a video diffusion model for precise video instance insertion.
+- [DiFlowDubber: Discrete Flow Matching for Automated Video Dubbing via Cross-Modal Alignment and Synchronization](https://arxiv.org/abs/2603.14267): DiFlowDubber presents a framework for improving video dubbing quality through discrete flow matching.
+
+#### Language Models and Reasoning
+- [Dual-objective Language Models: Training Efficiency Without Overfitting](https://arxiv.org/abs/2512.14549): This paper proposes a dual-objective training method for language models that balances efficiency and overfitting.
+- [Goedel-Code-Prover: Hierarchical Proof Search for Open State-of-the-Art Code Verification](https://arxiv.org/abs/2603.19329): This paper proposes a hierarchical proof search framework for automated code verification in Lean 4.
+- [Why Data Scientists Should Care About Quantum Computing](https://towardsdatascience.com/why-data-scientists-should-care-about-quantum-computing/): This article discusses the implications of quantum computing for data scientists.
+
+#### Miscellaneous
+- [How to Become an AI Engineer Fast (Skills, Projects, Salary)](https://towardsdatascience.com/how-to-become-an-ai-engineer-fast-skills-projects-salary/): This article provides insights into becoming an AI engineer.
+- [Self-Healing Neural Networks in PyTorch: Fix Model Drift in Real Time Without Retraining](https://towardsdatascience.com/self-healing-neural-networks-in-pytorch-fix-model-drift-in-real-time-without-retraining/): This article discusses a method for detecting and adapting to model drift in real time.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **BeSafe-Bench: Unveiling Behavioral Safety Risks of Situated Agents in Functional Environments**
+   - **Summary**: This paper introduces BeSafe-Bench, a benchmark designed to expose behavioral safety risks in large multimodal models (LMMs) deployed as autonomous agents. The study reveals that even top-performing agents often fail to adhere to safety constraints, highlighting the urgent need for improved safety alignment in real-world applications.
+
+#### 2. **CANGuard: A Spatio-Temporal CNN-GRU-Attention Hybrid Architecture for Intrusion Detection in In-Vehicle CAN Networks**
+   - **Summary**: CANGuard presents a novel architecture for detecting intrusions in vehicle networks. The model combines CNN, GRU, and attention mechanisms to effectively identify attacks, achieving competitive performance metrics. The approach emphasizes the importance of security in the rapidly evolving Internet of Vehicles (IoV) landscape.
+
+#### 3. **ProbGuard: Probabilistic Runtime Monitoring for LLM Agent Safety**
+   - **Summary**: ProbGuard is a proactive runtime monitoring framework for LLM agents that predicts safety violations through probabilistic risk assessment. By abstracting agent executions into symbolic states, it aims to enhance the safety of AI systems in critical applications like autonomous driving and household agents.
+
+#### 4. **H-Node Attack and Defense in Large Language Models**
+   - **Summary**: This paper discusses a framework for identifying and defending against hallucination representations in LLMs. It highlights the challenges of detecting coherent misalignment in models that believe harmful behavior is virtuous, emphasizing the need for robust security measures in AI systems.
+
+#### 5. **Why Safety Probes Catch Liars But Miss Fanatics**
+   - **Summary**: The study identifies a blind spot in activation-based probes used to detect misaligned AI systems. It reveals that while probes can catch deceptive models, they struggle with coherent misalignment, suggesting a need for improved detection methods to ensure AI safety.
+
+### Trends and Insights
+- **Focus on Safety and Security**: There is a growing emphasis on ensuring the safety and security of AI systems, particularly in high-stakes environments like autonomous driving and healthcare. Papers highlight the need for robust monitoring frameworks and benchmarks to assess safety risks.
+  
+- **Integration of Probabilistic Methods**: Several studies propose probabilistic approaches to enhance the reliability of AI systems. For instance, ProbGuard uses probabilistic risk prediction to anticipate safety violations, indicating a trend towards more proactive safety measures.
+
+- **Challenges in Detection**: The difficulty in detecting coherent misalignment and the limitations of existing safety probes underscore the complexity of ensuring AI systems behave ethically and safely. This calls for more sophisticated detection mechanisms that can handle nuanced behaviors.
+
+- **Interdisciplinary Approaches**: The integration of knowledge from various fields, such as causal reasoning and neuro-symbolic AI, is becoming increasingly important in developing secure AI systems. This interdisciplinary approach may lead to more effective solutions for the challenges posed by AI safety.
+
+### Conclusion
+The landscape of AI safety and security is evolving, with a clear focus on developing frameworks and benchmarks that can effectively address the risks associated with deploying AI systems in real-world applications. The integration of probabilistic methods and interdisciplinary approaches is likely to play a crucial role in enhancing the reliability and safety of these systems.
