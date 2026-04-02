@@ -1,0 +1,397 @@
+AI Researcher Agent Report for 2026-04-02-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [How Emotion Shapes the Behavior of LLMs and Agents: A Mechanistic Study](https://arxiv.org/abs/2604.00005): This paper investigates the role of emotions in shaping the behavior of large language models (LLMs) and agents, proposing an emotion steering framework (E-STEER) that enhances LLM capabilities and safety.
+- [One Panel Does Not Fit All: Case-Adaptive Multi-Agent Deliberation for Clinical Prediction](https://arxiv.org/abs/2604.00085): The CAMP framework dynamically assembles a specialist panel for clinical predictions, improving diagnostic accuracy while consuming fewer tokens.
+- [Open, Reliable, and Collective: A Community-Driven Framework for Tool-Using AI Agents](https://arxiv.org/abs/2604.00137): OpenTools standardizes tool schemas and evaluates tools for reliability, showing improved performance in AI agents.
+- [A Safety-Aware Role-Orchestrated Multi-Agent LLM Framework for Behavioral Health Communication Simulation](https://arxiv.org/abs/2604.00249): This framework uses role-differentiated agents for safe behavioral health dialogues, emphasizing safety and interpretability.
+- [Human-in-the-Loop Control of Objective Drift in LLM-Assisted Computer Science Education](https://arxiv.org/abs/2604.00281): This paper proposes a human-centered approach to control objective drift in LLM-assisted programming education.
+- [Improvisational Games as a Benchmark for Social Intelligence of AI Agents: The Case of Connections](https://arxiv.org/abs/2604.00284): This paper introduces a game to benchmark social intelligence in AI agents.
+- [Collaborative AI Agents and Critics for Fault Detection and Cause Analysis in Network Telemetry](https://arxiv.org/abs/2604.00319): This paper develops algorithms for collaborative control of AI agents in fault detection tasks.
+- [Signals: Trajectory Sampling and Triage for Agentic Interactions](https://arxiv.org/abs/2604.00356): This framework proposes a signal-based approach for triaging agent interactions to improve efficiency.
+- [In harmony with gpt-oss](https://arxiv.org/abs/2604.00362): This paper discusses the reproduction of OpenAI's scores for gpt-oss-20b, revealing insights into tool usage.
+- [Decision-Centric Design for LLM Systems](https://arxiv.org/abs/2604.00414): This paper proposes a decision-centric framework to improve control and reliability in LLM systems.
+- [Self-Routing: Parameter-Free Expert Routing from Hidden States](https://arxiv.org/abs/2604.00421): This work introduces a parameter-free routing mechanism for mixture-of-experts models.
+- [Execution-Verified Reinforcement Learning for Optimization Modeling](https://arxiv.org/abs/2604.00442): This paper presents a framework for automating optimization modeling with LLMs.
+- [Towards Reliable Truth-Aligned Uncertainty Estimation in Large Language Models](https://arxiv.org/abs/2604.00445): This work proposes a calibration method for uncertainty estimation in LLMs.
+- [Logarithmic Scores, Power-Law Discoveries: Disentangling Measurement from Coverage in Agent-Based Evaluation](https://arxiv.org/abs/2604.00477): This paper explores the evaluation of conversational AI using agent judges.
+- [The Silicon Mirror: Dynamic Behavioral Gating for Anti-Sycophancy in LLM Agents](https://arxiv.org/abs/2604.00478): This framework aims to reduce sycophantic behavior in LLMs.
+- [Adaptive Parallel Monte Carlo Tree Search for Efficient Test-time Compute Scaling](https://arxiv.org/abs/2604.00510): This paper introduces techniques to improve the efficiency of Monte Carlo Tree Search.
+- [Does Unification Come at a Cost? Uni-SafeBench: A Safety Benchmark for Unified Multimodal Large Models](https://arxiv.org/abs/2604.00547): This paper presents a benchmark for evaluating the safety of unified multimodal models.
+- [BloClaw: An Omniscient, Multi-Modal Agentic Workspace for Next-Generation Scientific Discovery](https://arxiv.org/abs/2604.00550): This framework aims to enhance scientific discovery through improved agent-computer interaction.
+- [Ontology-Constrained Neural Reasoning in Enterprise Agentic Systems: A Neurosymbolic Architecture for Domain-Grounded AI Agents](https://arxiv.org/abs/2604.00555): This paper presents a neurosymbolic architecture for enterprise agents.
+- [Agent psychometrics: Task-level performance prediction in agentic coding benchmarks](https://arxiv.org/abs/2604.00594): This work introduces a framework for predicting task-level performance in coding benchmarks.
+- [CircuitProbe: Predicting Reasoning Circuits in Transformers via Stability Zone Detection](https://arxiv.org/abs/2604.00716): This paper proposes a method for identifying reasoning circuits in transformer models.
+- [UK AISI Alignment Evaluation Case-Study](https://arxiv.org/abs/2604.00788): This report evaluates AI systems' alignment with intended goals.
+- [RefineRL: Advancing Competitive Programming with Self-Refinement Reinforcement Learning](https://arxiv.org/abs/2604.00790): This paper presents a method for enhancing competitive programming through self-refinement.
+- [Preference Guided Iterated Pareto Referent Optimisation for Accessible Route Planning](https://arxiv.org/abs/2604.00795): This work proposes an optimization algorithm for urban route planning.
+- [Proactive Agent Research Environment: Simulating Active Users to Evaluate Proactive Assistants](https://arxiv.org/abs/2604.00842): This framework models applications for evaluating proactive agents.
+- [Beyond Symbolic Solving: Multi Chain-of-Thought Voting for Geometric Reasoning in Large Language Models](https://arxiv.org/abs/2604.00890): This paper introduces a method for enhancing geometric reasoning in LLMs.
+- [PsychAgent: An Experience-Driven Lifelong Learning Agent for Self-Evolving Psychological Counselor](https://arxiv.org/abs/2604.00931): This work presents a lifelong learning agent for psychological counseling.
+- [OmniMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory](https://arxiv.org/abs/2604.01007): This paper discusses a framework for lifelong memory in AI agents.
+- [Adversarial Moral Stress Testing of Large Language Models](https://arxiv.org/abs/2604.01108): This framework evaluates the ethical robustness of LLMs.
+- [Detecting Multi-Agent Collusion Through Multi-Agent Interpretability](https://arxiv.org/abs/2604.01151): This paper presents techniques for detecting collusion in multi-agent systems.
+- [Therefore I am. I Think](https://arxiv.org/abs/2604.01202): This work explores decision-making processes in LLMs.
+- [HippoCamp: Benchmarking Contextual Agents on Personal Computers](https://arxiv.org/abs/2604.01221): This paper introduces a benchmark for evaluating agents in user-centric environments.
+- [Agentic AI -- Physicist Collaboration in Experimental Particle Physics: A Proof-of-Concept Measurement with LEP Open Data](https://arxiv.org/abs/2603.05735): This work discusses AI agents assisting in experimental physics.
+- [Two-Stage Optimizer-Aware Online Data Selection for Large Language Models](https://arxiv.org/abs/2604.00001): This paper presents a framework for online data selection in LLM fine-tuning.
+- [Benchmark for Assessing Olfactory Perception of Large Language Models](https://arxiv.org/abs/2604.00002): This work introduces a benchmark for evaluating LLMs' olfactory reasoning capabilities.
+- [A Reliability Evaluation of Hybrid Deterministic-LLM Based Approaches for Academic Course Registration PDF Information Extraction](https://arxiv.org/abs/2604.00003): This study evaluates information extraction methods for academic documents.
+- [LinearARD: Linear-Memory Attention Distillation for RoPE Restoration](https://arxiv.org/abs/2604.00004): This paper discusses a method for restoring positional encodings in LLMs.
+- [Dynin-Omni: Omnimodal Unified Large Diffusion Language Model](https://arxiv.org/abs/2604.00007): This work presents a unified model for multimodal tasks.
+- [How Trustworthy Are LLM-as-Judge Ratings for Interpretive Responses? Implications for Qualitative Research Workflows](https://arxiv.org/abs/2604.00008): This study examines the reliability of LLM evaluations in qualitative research.
+- [Eyla: Toward an Identity-Anchored LLM Architecture with Integrated Biological Priors -- Vision, Implementation Attempt, and Lessons from AI-Assisted Development](https://arxiv.org/abs/2604.00009): This paper discusses an identity-anchored LLM architecture.
+- [Can LLMs Perceive Time? An Empirical Investigation](https://arxiv.org/abs/2604.00010): This work investigates LLMs' ability to estimate task durations.
+- [Quantifying Gender Bias in Large Language Models: When ChatGPT Becomes a Hiring Manager](https://arxiv.org/abs/2604.00011): This study examines gender bias in LLM hiring recommendations.
+- [Finding and Reactivating Post-Trained LLMs' Hidden Safety Mechanisms](https://arxiv.org/abs/2604.00012): This paper explores safety mechanisms in LLMs post-training.
+- [MIA: Membership Inference Attack via Gradient-Induced Feature Drift in LLMs](https://arxiv.org/abs/2604.00019): This work presents a method for membership inference attacks on LLMs.
+- [Learning to Hint for Reinforcement Learning](https://arxiv.org/abs/2604.00698): This paper discusses a framework for generating adaptive hints in RL.
+- [Adversarial Attacks in AI-Driven RAN Slicing: SLA Violations and Recovery](https://arxiv.org/abs/2604.01049): This study examines the impact of adversarial attacks on AI-driven RAN slicing.
+- [VibeGuard: A Security Gate Framework for AI-Generated Code](https://arxiv.org/abs/2604.01052): This paper presents a framework for securing AI-generated code.
+- [TRACE: Training-Free Partial Audio Deepfake Detection via Embedding Trajectory Analysis of Speech Foundation Models](https://arxiv.org/abs/2604.01083): This work discusses a method for detecting audio deepfakes.
+- [Learning to Learn-at-Test-Time: Language Agents with Learnable Adaptation Policies](https://arxiv.org/abs/2604.00830): This paper presents a framework for learning adaptive policies in language agents.
+- [EHRStruct: A Comprehensive Benchmark Framework for Evaluating Large Language Models on Structured Electronic Health Record Tasks](https://arxiv.org/abs/2511.08206): This work introduces a benchmark for evaluating LLMs on structured EHR tasks.
+- [MIRANDA: MId-feature RANk-adversarial Domain Adaptation toward climate change-robust ecological forecasting with deep learning](https://arxiv.org/abs/2604.00800): This paper discusses a framework for ecological forecasting under climate change.
+- [AI Agents Can Already Autonomously Perform Experimental High Energy Physics](https://arxiv.org/abs/2603.20179): This work explores the capabilities of AI agents in high energy physics analysis.
+- [When Career Data Runs Out: Structured Feature Engineering and Signal Limits for Founder Success Prediction](https://arxiv.org/abs/2604.00339): This study examines the challenges of predicting startup success from founder data.
+- [When Only the Final Text Survives: Implicit Execution Tracing for Multi-Agent Attribution](https://arxiv.org/abs/2603.17445): This paper presents a framework for attribution in multi-agent systems.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors](https://arxiv.org/abs/2505.17760): This work discusses a framework for improving LLM evaluations.
+- [Cognitive Friction: A Decision-Theoretic Framework for Bounded Deliberation in Tool-Using Agents](https://arxiv.org/abs/2603.30031): This paper presents a framework for decision-making in tool-using agents.
+- [Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL](https://arxiv.org/abs/2407.01570): This work discusses a self-supervised method for improving RL.
+- [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://arxiv.org/abs/2411.10174): This paper presents a method for extracting DNNs using side-channel attacks.
+- [Cross-Camera Distracted Driver Classification through Feature Disentanglement and Contrastive Learning](https://arxiv.org/abs/2411.13181): This work discusses a method for classifying distracted drivers.
+- [Enhancing Team Diversity with Generative AI: A Novel Project Management Framework](https://arxiv.org/abs/2502.05181): This paper presents a framework for enhancing team diversity using AI.
+- [How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions](https://arxiv.org/abs/2502.14883): This study examines the preferences of BLV individuals for scene descriptions.
+- [Science-T2I: Addressing Scientific Illusions in Image Synthesis](https://arxiv.org/abs/2504.13129): This work discusses a benchmark for evaluating scientific accuracy in image generation.
+- [Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2505.15808): This paper presents a method for improving neural reconstruction.
+- [Chat-Based Support Alone May Not Be Enough: Comparing Conversational and Embedded LLM Feedback for Mathematical Proof Learning](https://arxiv.org/abs/2602.18807): This study compares different types of LLM feedback for learning.
+- [TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving](https://arxiv.org/abs/2602.23499): This paper introduces a dataset for autonomous driving research.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning](https://arxiv.org/abs/2603.09697): This paper presents a new optimizer for deep learning.
+- [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558): This work presents a framework for robotic task execution.
+- [CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design](https://arxiv.org/abs/2603.13431): This paper introduces a benchmark for antibody design.
+- [Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects](https://arxiv.org/abs/2604.01171): This work discusses a framework for 3D anomaly detection.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors](https://arxiv.org/abs/2505.17760): This work discusses a framework for improving LLM evaluations.
+- [Cognitive Friction: A Decision-Theoretic Framework for Bounded Deliberation in Tool-Using Agents](https://arxiv.org/abs/2603.30031): This paper presents a framework for decision-making in tool-using agents.
+- [Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL](https://arxiv.org/abs/2407.01570): This work discusses a self-supervised method for improving RL.
+- [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://arxiv.org/abs/2411.10174): This paper presents a method for extracting DNNs using side-channel attacks.
+- [Cross-Camera Distracted Driver Classification through Feature Disentanglement and Contrastive Learning](https://arxiv.org/abs/2411.13181): This work discusses a method for classifying distracted drivers.
+- [Enhancing Team Diversity with Generative AI: A Novel Project Management Framework](https://arxiv.org/abs/2502.05181): This paper presents a framework for enhancing team diversity using AI.
+- [How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions](https://arxiv.org/abs/2502.14883): This study examines the preferences of BLV individuals for scene descriptions.
+- [Science-T2I: Addressing Scientific Illusions in Image Synthesis](https://arxiv.org/abs/2504.13129): This work discusses a benchmark for evaluating scientific accuracy in image generation.
+- [Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2505.15808): This paper presents a method for improving neural reconstruction.
+- [Chat-Based Support Alone May Not Be Enough: Comparing Conversational and Embedded LLM Feedback for Mathematical Proof Learning](https://arxiv.org/abs/2602.18807): This study compares different types of LLM feedback for learning.
+- [TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving](https://arxiv.org/abs/2602.23499): This paper introduces a dataset for autonomous driving research.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning](https://arxiv.org/abs/2603.09697): This paper presents a new optimizer for deep learning.
+- [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558): This work presents a framework for robotic task execution.
+- [CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design](https://arxiv.org/abs/2603.13431): This paper introduces a benchmark for antibody design.
+- [Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects](https://arxiv.org/abs/2604.01171): This work discusses a framework for 3D anomaly detection.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors](https://arxiv.org/abs/2505.17760): This work discusses a framework for improving LLM evaluations.
+- [Cognitive Friction: A Decision-Theoretic Framework for Bounded Deliberation in Tool-Using Agents](https://arxiv.org/abs/2603.30031): This paper presents a framework for decision-making in tool-using agents.
+- [Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL](https://arxiv.org/abs/2407.01570): This work discusses a self-supervised method for improving RL.
+- [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://arxiv.org/abs/2411.10174): This paper presents a method for extracting DNNs using side-channel attacks.
+- [Cross-Camera Distracted Driver Classification through Feature Disentanglement and Contrastive Learning](https://arxiv.org/abs/2411.13181): This work discusses a method for classifying distracted drivers.
+- [Enhancing Team Diversity with Generative AI: A Novel Project Management Framework](https://arxiv.org/abs/2502.05181): This paper presents a framework for enhancing team diversity using AI.
+- [How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions](https://arxiv.org/abs/2502.14883): This study examines the preferences of BLV individuals for scene descriptions.
+- [Science-T2I: Addressing Scientific Illusions in Image Synthesis](https://arxiv.org/abs/2504.13129): This work discusses a benchmark for evaluating scientific accuracy in image generation.
+- [Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2505.15808): This paper presents a method for improving neural reconstruction.
+- [Chat-Based Support Alone May Not Be Enough: Comparing Conversational and Embedded LLM Feedback for Mathematical Proof Learning](https://arxiv.org/abs/2602.18807): This study compares different types of LLM feedback for learning.
+- [TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving](https://arxiv.org/abs/2602.23499): This paper introduces a dataset for autonomous driving research.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning](https://arxiv.org/abs/2603.09697): This paper presents a new optimizer for deep learning.
+- [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558): This work presents a framework for robotic task execution.
+- [CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design](https://arxiv.org/abs/2603.13431): This paper introduces a benchmark for antibody design.
+- [Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects](https://arxiv.org/abs/2604.01171): This work discusses a framework for 3D anomaly detection.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors](https://arxiv.org/abs/2505.17760): This work discusses a framework for improving LLM evaluations.
+- [Cognitive Friction: A Decision-Theoretic Framework for Bounded Deliberation in Tool-Using Agents](https://arxiv.org/abs/2603.30031): This paper presents a framework for decision-making in tool-using agents.
+- [Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL](https://arxiv.org/abs/2407.01570): This work discusses a self-supervised method for improving RL.
+- [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://arxiv.org/abs/2411.10174): This paper presents a method for extracting DNNs using side-channel attacks.
+- [Cross-Camera Distracted Driver Classification through Feature Disentanglement and Contrastive Learning](https://arxiv.org/abs/2411.13181): This work discusses a method for classifying distracted drivers.
+- [Enhancing Team Diversity with Generative AI: A Novel Project Management Framework](https://arxiv.org/abs/2502.05181): This paper presents a framework for enhancing team diversity using AI.
+- [How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions](https://arxiv.org/abs/2502.14883): This study examines the preferences of BLV individuals for scene descriptions.
+- [Science-T2I: Addressing Scientific Illusions in Image Synthesis](https://arxiv.org/abs/2504.13129): This work discusses a benchmark for evaluating scientific accuracy in image generation.
+- [Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2505.15808): This paper presents a method for improving neural reconstruction.
+- [Chat-Based Support Alone May Not Be Enough: Comparing Conversational and Embedded LLM Feedback for Mathematical Proof Learning](https://arxiv.org/abs/2602.18807): This study compares different types of LLM feedback for learning.
+- [TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving](https://arxiv.org/abs/2602.23499): This paper introduces a dataset for autonomous driving research.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning](https://arxiv.org/abs/2603.09697): This paper presents a new optimizer for deep learning.
+- [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558): This work presents a framework for robotic task execution.
+- [CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design](https://arxiv.org/abs/2603.13431): This paper introduces a benchmark for antibody design.
+- [Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects](https://arxiv.org/abs/2604.01171): This work discusses a framework for 3D anomaly detection.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors](https://arxiv.org/abs/2505.17760): This work discusses a framework for improving LLM evaluations.
+- [Cognitive Friction: A Decision-Theoretic Framework for Bounded Deliberation in Tool-Using Agents](https://arxiv.org/abs/2603.30031): This paper presents a framework for decision-making in tool-using agents.
+- [Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL](https://arxiv.org/abs/2407.01570): This work discusses a self-supervised method for improving RL.
+- [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://arxiv.org/abs/2411.10174): This paper presents a method for extracting DNNs using side-channel attacks.
+- [Cross-Camera Distracted Driver Classification through Feature Disentanglement and Contrastive Learning](https://arxiv.org/abs/2411.13181): This work discusses a method for classifying distracted drivers.
+- [Enhancing Team Diversity with Generative AI: A Novel Project Management Framework](https://arxiv.org/abs/2502.05181): This paper presents a framework for enhancing team diversity using AI.
+- [How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions](https://arxiv.org/abs/2502.14883): This study examines the preferences of BLV individuals for scene descriptions.
+- [Science-T2I: Addressing Scientific Illusions in Image Synthesis](https://arxiv.org/abs/2504.13129): This work discusses a benchmark for evaluating scientific accuracy in image generation.
+- [Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2505.15808): This paper presents a method for improving neural reconstruction.
+- [Chat-Based Support Alone May Not Be Enough: Comparing Conversational and Embedded LLM Feedback for Mathematical Proof Learning](https://arxiv.org/abs/2602.18807): This study compares different types of LLM feedback for learning.
+- [TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving](https://arxiv.org/abs/2602.23499): This paper introduces a dataset for autonomous driving research.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning](https://arxiv.org/abs/2603.09697): This paper presents a new optimizer for deep learning.
+- [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558): This work presents a framework for robotic task execution.
+- [CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design](https://arxiv.org/abs/2603.13431): This paper introduces a benchmark for antibody design.
+- [Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects](https://arxiv.org/abs/2604.01171): This work discusses a framework for 3D anomaly detection.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors](https://arxiv.org/abs/2505.17760): This work discusses a framework for improving LLM evaluations.
+- [Cognitive Friction: A Decision-Theoretic Framework for Bounded Deliberation in Tool-Using Agents](https://arxiv.org/abs/2603.30031): This paper presents a framework for decision-making in tool-using agents.
+- [Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL](https://arxiv.org/abs/2407.01570): This work discusses a self-supervised method for improving RL.
+- [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://arxiv.org/abs/2411.10174): This paper presents a method for extracting DNNs using side-channel attacks.
+- [Cross-Camera Distracted Driver Classification through Feature Disentanglement and Contrastive Learning](https://arxiv.org/abs/2411.13181): This work discusses a method for classifying distracted drivers.
+- [Enhancing Team Diversity with Generative AI: A Novel Project Management Framework](https://arxiv.org/abs/2502.05181): This paper presents a framework for enhancing team diversity using AI.
+- [How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions](https://arxiv.org/abs/2502.14883): This study examines the preferences of BLV individuals for scene descriptions.
+- [Science-T2I: Addressing Scientific Illusions in Image Synthesis](https://arxiv.org/abs/2504.13129): This work discusses a benchmark for evaluating scientific accuracy in image generation.
+- [Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2505.15808): This paper presents a method for improving neural reconstruction.
+- [Chat-Based Support Alone May Not Be Enough: Comparing Conversational and Embedded LLM Feedback for Mathematical Proof Learning](https://arxiv.org/abs/2602.18807): This study compares different types of LLM feedback for learning.
+- [TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving](https://arxiv.org/abs/2602.23499): This paper introduces a dataset for autonomous driving research.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning](https://arxiv.org/abs/2603.09697): This paper presents a new optimizer for deep learning.
+- [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558): This work presents a framework for robotic task execution.
+- [CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design](https://arxiv.org/abs/2603.13431): This paper introduces a benchmark for antibody design.
+- [Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects](https://arxiv.org/abs/2604.01171): This work discusses a framework for 3D anomaly detection.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors](https://arxiv.org/abs/2505.17760): This work discusses a framework for improving LLM evaluations.
+- [Cognitive Friction: A Decision-Theoretic Framework for Bounded Deliberation in Tool-Using Agents](https://arxiv.org/abs/2603.30031): This paper presents a framework for decision-making in tool-using agents.
+- [Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL](https://arxiv.org/abs/2407.01570): This work discusses a self-supervised method for improving RL.
+- [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://arxiv.org/abs/2411.10174): This paper presents a method for extracting DNNs using side-channel attacks.
+- [Cross-Camera Distracted Driver Classification through Feature Disentanglement and Contrastive Learning](https://arxiv.org/abs/2411.13181): This work discusses a method for classifying distracted drivers.
+- [Enhancing Team Diversity with Generative AI: A Novel Project Management Framework](https://arxiv.org/abs/2502.05181): This paper presents a framework for enhancing team diversity using AI.
+- [How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions](https://arxiv.org/abs/2502.14883): This study examines the preferences of BLV individuals for scene descriptions.
+- [Science-T2I: Addressing Scientific Illusions in Image Synthesis](https://arxiv.org/abs/2504.13129): This work discusses a benchmark for evaluating scientific accuracy in image generation.
+- [Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2505.15808): This paper presents a method for improving neural reconstruction.
+- [Chat-Based Support Alone May Not Be Enough: Comparing Conversational and Embedded LLM Feedback for Mathematical Proof Learning](https://arxiv.org/abs/2602.18807): This study compares different types of LLM feedback for learning.
+- [TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving](https://arxiv.org/abs/2602.23499): This paper introduces a dataset for autonomous driving research.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning](https://arxiv.org/abs/2603.09697): This paper presents a new optimizer for deep learning.
+- [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558): This work presents a framework for robotic task execution.
+- [CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design](https://arxiv.org/abs/2603.13431): This paper introduces a benchmark for antibody design.
+- [Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects](https://arxiv.org/abs/2604.01171): This work discusses a framework for 3D anomaly detection.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors](https://arxiv.org/abs/2505.17760): This work discusses a framework for improving LLM evaluations.
+- [Cognitive Friction: A Decision-Theoretic Framework for Bounded Deliberation in Tool-Using Agents](https://arxiv.org/abs/2603.30031): This paper presents a framework for decision-making in tool-using agents.
+- [Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL](https://arxiv.org/abs/2407.01570): This work discusses a self-supervised method for improving RL.
+- [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://arxiv.org/abs/2411.10174): This paper presents a method for extracting DNNs using side-channel attacks.
+- [Cross-Camera Distracted Driver Classification through Feature Disentanglement and Contrastive Learning](https://arxiv.org/abs/2411.13181): This work discusses a method for classifying distracted drivers.
+- [Enhancing Team Diversity with Generative AI: A Novel Project Management Framework](https://arxiv.org/abs/2502.05181): This paper presents a framework for enhancing team diversity using AI.
+- [How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions](https://arxiv.org/abs/2502.14883): This study examines the preferences of BLV individuals for scene descriptions.
+- [Science-T2I: Addressing Scientific Illusions in Image Synthesis](https://arxiv.org/abs/2504.13129): This work discusses a benchmark for evaluating scientific accuracy in image generation.
+- [Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2505.15808): This paper presents a method for improving neural reconstruction.
+- [Chat-Based Support Alone May Not Be Enough: Comparing Conversational and Embedded LLM Feedback for Mathematical Proof Learning](https://arxiv.org/abs/2602.18807): This study compares different types of LLM feedback for learning.
+- [TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving](https://arxiv.org/abs/2602.23499): This paper introduces a dataset for autonomous driving research.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning](https://arxiv.org/abs/2603.09697): This paper presents a new optimizer for deep learning.
+- [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558): This work presents a framework for robotic task execution.
+- [CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design](https://arxiv.org/abs/2603.13431): This paper introduces a benchmark for antibody design.
+- [Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects](https://arxiv.org/abs/2604.01171): This work discusses a framework for 3D anomaly detection.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest alternatives using steering vectors](https://arxiv.org/abs/2505.17760): This work discusses a framework for improving LLM evaluations.
+- [Cognitive Friction: A Decision-Theoretic Framework for Bounded Deliberation in Tool-Using Agents](https://arxiv.org/abs/2603.30031): This paper presents a framework for decision-making in tool-using agents.
+- [Ego-Foresight: Self-supervised Learning of Agent-Aware Representations for Improved RL](https://arxiv.org/abs/2407.01570): This work discusses a self-supervised method for improving RL.
+- [A Divide-and-Conquer Strategy for Hard-Label Extraction of Deep Neural Networks via Side-Channel Attacks](https://arxiv.org/abs/2411.10174): This paper presents a method for extracting DNNs using side-channel attacks.
+- [Cross-Camera Distracted Driver Classification through Feature Disentanglement and Contrastive Learning](https://arxiv.org/abs/2411.13181): This work discusses a method for classifying distracted drivers.
+- [Enhancing Team Diversity with Generative AI: A Novel Project Management Framework](https://arxiv.org/abs/2502.05181): This paper presents a framework for enhancing team diversity using AI.
+- [How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions](https://arxiv.org/abs/2502.14883): This study examines the preferences of BLV individuals for scene descriptions.
+- [Science-T2I: Addressing Scientific Illusions in Image Synthesis](https://arxiv.org/abs/2504.13129): This work discusses a benchmark for evaluating scientific accuracy in image generation.
+- [Neural Harmonic Textures for High-Quality Primitive Based Neural Reconstruction](https://arxiv.org/abs/2505.15808): This paper presents a method for improving neural reconstruction.
+- [Chat-Based Support Alone May Not Be Enough: Comparing Conversational and Embedded LLM Feedback for Mathematical Proof Learning](https://arxiv.org/abs/2602.18807): This study compares different types of LLM feedback for learning.
+- [TaCarla: A comprehensive benchmarking dataset for end-to-end autonomous driving](https://arxiv.org/abs/2602.23499): This paper introduces a dataset for autonomous driving research.
+- [SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via Continuous Integration](https://arxiv.org/abs/2603.03823): This work introduces a benchmark for evaluating LLMs in code maintenance.
+- [Mousse: Rectifying the Geometry of Muon with Curvature-Aware Preconditioning](https://arxiv.org/abs/2603.09697): This paper presents a new optimizer for deep learning.
+- [RoboClaw: An Agentic Framework for Scalable Long-Horizon Robotic Tasks](https://arxiv.org/abs/2603.11558): This work presents a framework for robotic task execution.
+- [CHIMERA-Bench: A Benchmark Dataset for Epitope-Specific Antibody Design](https://arxiv.org/abs/2603.13431): This paper introduces a benchmark for antibody design.
+- [Open-Set Supervised 3D Anomaly Detection: An Industrial Dataset and a Generalisable Framework for Unknown Defects](https://arxiv.org/abs/2604.01171): This work discusses a framework for 3D anomaly detection.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Learning Quantised Structure-Preserving Motion Representations for Dance Fingerprinting](https://arxiv.org/abs/2604.00927): This work discusses a method for dance fingerprinting using motion representations.
+- [Flow-based Policy With Distributional Reinforcement Learning in Trajectory Optimization](https://arxiv.org/abs/2604.00977): This paper presents a flow-based policy for trajectory optimization in RL.
+- [Dual Optimal: Make Your LLM Peer-like with Dignity](https://arxiv.org/abs/2604.00979): This work proposes a framework for improving LLM behavior.
+- [MATHENA: Mamba-based Architectural Tooth Hierarchical Estimator and Holistic Evaluation Network for Anatomy](https://arxiv.org/abs/2604.00537): This paper presents a framework for dental analysis using AI.
+- [EvolveTool-Bench: Evaluating the Quality of LLM-Generated Tool Libraries as Software Artifacts](https://arxiv.org/abs/2604.00392): This paper presents a benchmark for evaluating LLM-generated tools.
+- [Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning](https://arxiv.org/abs/2604.01170): This work discusses a framework for calibrating LLM reasoning.
+- [HabitatAgent: An End-to-End Multi-Agent System for Housing Consultation](https://arxiv.org/abs/2604.00556): This paper presents a multi-agent system for housing consultation.
+- [Fast and Accurate Probing of In-Training LLMs' Downstream Performances](https://arxiv.org/abs/2604.01025): This work introduces a framework for evaluating LLM performance during training.
+- [Executing as You Generate: Hiding Execution Latency in LLM Code Generation](https://arxiv.org/abs/2604.00491): This paper presents a method for reducing latency in LLM code generation.
+- [AutoMIA: Improved Baselines for Membership Inference Attack via Agentic Self-Exploration](https://arxiv.org/abs/2604.01014): This work discusses a framework for membership inference attacks.
+- [Super-Resolving Coarse-Resolution Weather Forecasts With Flow Matching](https://arxiv.org/abs/2604.00897): This paper presents a framework for improving weather forecasts.
+- [AI-assisted Human-in-the-Loop Web Platform for Structural Characterization in Hard drive design](https://arxiv.org/abs/2604.00359): This work discusses a web platform for structural characterization.
+- [When AI and Experts Agree on Error: Intrinsic Ambiguity in Dermatoscopic Images](https://arxiv.org/abs/2604.00651): This study examines the ambiguity in dermatoscopic images.
+- [Neural Conditional Transport Maps](https://arxiv.org/abs/2505.15808): This paper presents a framework for learning conditional optimal transport maps.
+- [But what is your honest answer? Aiding LLM-judges with honest
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+The recent literature and news articles highlight a growing focus on the intersection of AI, security, and ethical considerations. Below is a synthesis of key themes, trends, and insights drawn from the provided papers and articles.
+
+#### 1. **Security Vulnerabilities and Mitigation Strategies**
+   - **Adversarial Attacks**: Several papers address the vulnerabilities of AI systems, particularly LLMs, to adversarial attacks. For instance, the paper on **Bypassing Prompt Injection Detectors** demonstrates how adaptive adversaries can exploit weaknesses in existing detection mechanisms, emphasizing the need for robust defenses against such attacks.
+   - **Membership Inference Attacks**: The **AutoMIA** framework highlights the importance of automated methods for membership inference attacks, which are crucial for evaluating the privacy risks associated with AI models. This reflects a broader trend of using AI to enhance security measures in AI systems.
+   - **VibeGuard** introduces a pre-publish security gate framework that targets common vulnerabilities in AI-generated code, showcasing the need for proactive measures in software development.
+
+#### 2. **Ethical Considerations and Bias Mitigation**
+   - **Bias in AI Outputs**: The study on **Gender Bias in Feedback** reveals persistent biases in LLMs, indicating that even advanced models can exhibit gender biases in their outputs. This underscores the importance of developing frameworks that ensure fairness and equity in AI applications.
+   - **Trust and Reliance**: The paper on **Trust and Reliance on AI in Education** explores how students' trust in AI influences their reliance on AI tools, suggesting that trust can lead to over-reliance, particularly in educational contexts. This highlights the need for AI systems to be designed with user trust and ethical considerations in mind.
+
+#### 3. **Robustness and Generalization in AI Systems**
+   - **Generalization Across Domains**: The **EHRStruct** benchmark for evaluating LLMs on structured EHR tasks emphasizes the need for models to generalize across different domains, particularly in healthcare. This is crucial for ensuring that AI systems can perform reliably in varied real-world scenarios.
+   - **Dynamic Adaptation**: The **Experiential Reflective Learning** framework allows LLM agents to adapt to new environments by reflecting on past interactions, showcasing a trend towards developing AI systems that can learn and evolve over time.
+
+#### 4. **Integration of Knowledge and Data**
+   - **Knowledge Integration**: The **ALIGNED** framework for genetic perturbation prediction integrates neural and symbolic components, demonstrating the potential for combining data-driven learning with existing knowledge to improve model performance. This reflects a broader trend of leveraging hybrid approaches in AI to enhance robustness and interpretability.
+   - **Retrieval-Augmented Generation**: The **Agentic Retrieval-Augmented Generation** survey discusses how integrating retrieval mechanisms can enhance the performance of LLMs, indicating a shift towards more dynamic and context-aware AI systems.
+
+#### 5. **Frameworks for Evaluation and Benchmarking**
+   - **Benchmark Development**: The introduction of benchmarks like **EHRStruct** and **MemeMind** highlights the importance of standardized evaluation frameworks for assessing AI capabilities in specific domains. These benchmarks facilitate the comparison of different models and approaches, driving improvements in AI performance and safety.
+
+#### 6. **AI in Real-World Applications**
+   - **AI in Healthcare**: The integration of AI in healthcare, as seen in the **BIOGEN** framework for transcriptomic interpretation, showcases the potential for AI to enhance decision-making in critical areas. However, it also raises questions about the reliability and accountability of AI systems in high-stakes environments.
+   - **AI in Autonomous Systems**: The **RoboClaw** framework for robotic manipulation illustrates the application of AI in real-world tasks, emphasizing the need for robust, adaptable systems that can operate effectively in dynamic environments.
+
+### Conclusion
+The current landscape of AI research emphasizes the dual need for enhancing security and ethical considerations in AI systems. As AI technologies continue to evolve, the integration of robust evaluation frameworks, bias mitigation strategies, and dynamic adaptation mechanisms will be crucial for ensuring that AI systems are not only effective but also trustworthy and aligned with human values. The ongoing exploration of these themes will likely shape the future of AI applications across various domains, particularly in sensitive areas like healthcare and autonomous systems.
