@@ -1,0 +1,424 @@
+AI Researcher Agent Report for 2026-04-13-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains](https://arxiv.org/abs/2604.08601): Introduces OpenKedge, a protocol for governing state mutations in autonomous AI agents, emphasizing safety through execution contracts and an Intent-to-Execution Evidence Chain (IEEC) for auditability.
+- [From Business Events to Auditable Decisions: Ontology-Governed Graph Simulation for Enterprise AI](https://arxiv.org/abs/2604.08603): Presents LOM-action, an event-driven ontology simulation framework for enterprise AI that enhances decision accuracy and auditability, achieving significant accuracy improvements over existing systems.
+- [Sustained Impact of Agentic Personalisation in Marketing: A Longitudinal Case Study](https://arxiv.org/abs/2604.08621): Analyzes the effectiveness of human oversight versus autonomous agents in personalizing marketing messaging, suggesting a hybrid approach for optimal engagement.
+- [RAMP: Hybrid DRL for Online Learning of Numeric Action Models](https://arxiv.org/abs/2604.08685): Proposes RAMP, a strategy for online learning of numeric action models in reinforcement learning, significantly outperforming traditional methods in plan quality.
+- [Parameterized Complexity Of Representing Models Of MSO Formulas](https://arxiv.org/abs/2604.08707): Discusses the representation of models of monadic second-order logic formulas, providing new insights into parameterized complexity.
+- [Model Space Reasoning as Search in Feedback Space for Planning Domain Generation](https://arxiv.org/abs/2604.08712): Investigates generating planning domains from natural language descriptions using feedback mechanisms to improve quality.
+- [Artifacts as Memory Beyond the Agent Boundary](https://arxiv.org/abs/2604.08756): Explores how environmental artifacts can serve as memory aids in reinforcement learning, reducing the need for internal memory.
+- [Hidden in Plain Sight: Visual-to-Symbolic Analytical Solution Inference from Field Visualizations](https://arxiv.org/abs/2604.08863): Introduces ViSA-R2, a model for recovering analytical solutions from visual field data, outperforming existing methods.
+- [SPPO: Sequence-Level PPO for Long-Horizon Reasoning Tasks](https://arxiv.org/abs/2604.08865): Proposes SPPO, a new algorithm for aligning LLMs in reasoning tasks, improving efficiency and stability.
+- [StaRPO: Stability-Augmented Reinforcement Policy Optimization](https://arxiv.org/abs/2604.08905): Introduces StaRPO, a framework that incorporates reasoning stability into reinforcement learning, enhancing logical consistency.
+- [Enhancing LLM Problem Solving via Tutor-Student Multi-Agent Interaction](https://arxiv.org/abs/2604.08931): Evaluates a multi-agent system for coding problem-solving, demonstrating improved performance through structured interactions.
+- [PilotBench: A Benchmark for General Aviation Agents with Safety Constraints](https://arxiv.org/abs/2604.08987): Proposes PilotBench, a benchmark for evaluating LLMs on safety-critical flight trajectory predictions.
+- [SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment](https://arxiv.org/abs/2604.08988): Introduces SEA-Eval, a benchmark for assessing self-evolving agents' performance across tasks.
+- [Hypergraph Neural Networks Accelerate MUS Enumeration](https://arxiv.org/abs/2604.09001): Proposes a method using hypergraph neural networks to improve the efficiency of enumerating minimal unsatisfiable subsets.
+- [Advantage-Guided Diffusion for Model-Based Reinforcement Learning](https://arxiv.org/abs/2604.09035): Introduces AGD-MBRL, a model-based reinforcement learning approach that improves sample efficiency and final return.
+- [Overhang Tower: Resource-Rational Adaptation in Sequential Physical Planning](https://arxiv.org/abs/2604.09072): Investigates how humans adapt their physical planning strategies under resource constraints.
+- [Camera Artist: A Multi-Agent Framework for Cinematic Language Storytelling Video Generation](https://arxiv.org/abs/2604.09195): Proposes a framework for generating narrative videos with cinematic language using multi-agent systems.
+- [DRBENCHER: Can Your Agent Identify the Entity, Retrieve Its Properties and Do the Math?](https://arxiv.org/abs/2604.09251): Introduces DRBENCHER, a benchmark for evaluating agents' capabilities in entity identification and multi-step computation.
+- [SAGE: A Service Agent Graph-guided Evaluation Benchmark](https://arxiv.org/abs/2604.09285): Proposes SAGE, a benchmark for evaluating service agents in customer support scenarios.
+- [Constraint-Aware Corrective Memory for Language-Based Drug Discovery Agents](https://arxiv.org/abs/2604.09308): Introduces CACM, a framework for improving drug discovery agents' performance through corrective memory mechanisms.
+- [Mind the Gap Between Spatial Reasoning and Acting! Step-by-Step Evaluation of Agents With Spatial-Gym](https://arxiv.org/abs/2604.09338): Proposes Spatial-Gym, a benchmark for evaluating spatial reasoning in agents through step-by-step tasks.
+- [HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?](https://arxiv.org/abs/2604.09408): Introduces HiL-Bench, a benchmark for evaluating agents' help-seeking behavior.
+- [Do We Really Need to Approach the Entire Pareto Front in Many-Objective Bayesian Optimisation?](https://arxiv.org/abs/2604.09417): Discusses the challenges of exploring the entire Pareto front in many-objective optimization.
+- [E3-TIR: Enhanced Experience Exploitation for Tool-Integrated Reasoning](https://arxiv.org/abs/2604.09455): Proposes E3-TIR, a training paradigm for improving tool-integrated reasoning in LLMs.
+- [Process Reward Agents for Steering Knowledge-Intensive Reasoning](https://arxiv.org/abs/2604.09482): Introduces PRA, a method for providing online rewards to improve reasoning in knowledge-intensive domains.
+- [Strategic Algorithmic Monoculture: Experimental Evidence from Coordination Games](https://arxiv.org/abs/2604.09502): Investigates algorithmic monoculture in multi-agent environments and its impact on coordination.
+- [On Divergence Measures for Training GFlowNets](https://arxiv.org/abs/2410.09355): Discusses divergence measures for training generative flow networks.
+- [Towards Real-world Human Behavior Simulation: Benchmarking Large Language Models on Long-horizon, Cross-scenario, Heterogeneous Behavior Traces](https://arxiv.org/abs/2604.08362): Introduces OmniBehavior, a benchmark for simulating human behavior in diverse scenarios.
+- [VerifAI: A Verifiable Open-Source Search Engine for Biomedical Question Answering](https://arxiv.org/abs/2604.08549): Proposes VerifAI, a system for biomedical question answering with a verification mechanism.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Introduces DITaR, a method for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes an LLM-based system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/2604.08557): Investigates vulnerabilities in diffusion-based language models.
+- [WAND: Windowed Attention and Knowledge Distillation for Efficient Autoregressive Text-to-Speech Models](https://arxiv.org/abs/2604.08558): Proposes WAND, a framework for efficient text-to-speech models.
+- [Medical Reasoning with Large Language Models: A Survey and MR-Bench](https://arxiv.org/abs/2604.08559): Surveys the use of LLMs in medical reasoning and introduces MR-Bench.
+- [Uncertainty Estimation for the Open-Set Text Classification systems](https://arxiv.org/abs/2604.08560): Discusses uncertainty estimation in open-set text classification.
+- [Neural networks for Text-to-Speech evaluation](https://arxiv.org/abs/2604.08562): Proposes neural models for evaluating text-to-speech systems.
+- [Temperature-Dependent Performance of Prompting Strategies in Extended Reasoning Large Language Models](https://arxiv.org/abs/2604.08563): Analyzes the impact of temperature on prompting strategies in LLMs.
+- [Dynamic sparsity in tree-structured feed-forward layers at scale](https://arxiv.org/abs/2604.08565): Investigates dynamic sparsity in transformer architectures.
+- [Can We Still Hear the Accent? Investigating the Resilience of Native Language Signals in the LLM Era](https://arxiv.org/abs/2604.08568): Analyzes trends in native language identification in research papers.
+- [QuanBench+: A Unified Multi-Framework Benchmark for LLM-Based Quantum Code Generation](https://arxiv.org/abs/2604.08570): Introduces QuanBench+, a benchmark for quantum code generation.
+- [Robust Reasoning Benchmark](https://arxiv.org/abs/2604.08571): Proposes a benchmark for evaluating reasoning robustness in LLMs.
+- [Unbiased Rectification for Sequential Recommender Systems Under Fake Orders](https://arxiv.org/abs/2604.08550): Discusses methods for rectifying fake orders in recommender systems.
+- [Automated Standardization of Legacy Biomedical Metadata Using an Ontology-Constrained LLM Agent](https://arxiv.org/abs/2604.08552): Proposes a system for standardizing biomedical metadata.
+- [GNN-as-Judge: Unleashing the Power of LLMs for Graph Learning with GNN Feedback](https://arxiv.org/abs/2604.08553): Introduces a framework for enhancing graph learning with LLM feedback.
+- [Drift and selection in LLM text ecosystems](https://arxiv.org/abs/2604.08554): Discusses the dynamics of text ecosystems shaped by LLM outputs.
+- [EMA Is Not All You Need: Mapping the Boundary Between Structure and Content in Recurrent Context](https://arxiv.org/abs/2604.08556): Analyzes the limitations of recurrent context models in language tasks.
+- [Re-Mask and Redirect: Exploiting Denoising Irreversibility in Diffusion Language Models](https://arxiv.org/abs/260
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **OpenKedge: Governing Agentic Mutation with Execution-Bound Safety and Evidence Chains**
+   - **Focus**: Introduces a protocol for managing autonomous AI agents to ensure safety during state mutations.
+   - **Security Insight**: Emphasizes the need for a structured approach to prevent unsafe actions by linking intent, context, and outcomes, which can be crucial in security-sensitive applications.
+
+#### 2. **Hidden in Plain Sight: Visual-to-Symbolic Analytical Solution Inference from Field Visualizations**
+   - **Focus**: Develops a model for inferring analytical solutions from visual data.
+   - **Security Insight**: The ability to extract meaningful information from visual data can enhance security measures by improving the understanding of visual inputs in surveillance systems.
+
+#### 3. **Parameterization of Complexity Of Representing Models Of MSO Formulas**
+   - **Focus**: Discusses the complexity of representing logical formulas.
+   - **Security Insight**: Understanding logical representations can aid in developing more secure systems by ensuring that logical operations are efficiently and accurately represented.
+
+#### 4. **Model Space Reasoning as Search in Feedback Space for Planning Domain Generation**
+   - **Focus**: Investigates the generation of planning domains from natural language.
+   - **Security Insight**: Enhancing the ability of AI to generate plans from natural language can improve the security of automated systems by ensuring they can understand and execute complex instructions accurately.
+
+#### 5. **Parameterization Complexity and Security**
+   - **Focus**: Explores the complexity of parameterized models.
+   - **Security Insight**: Understanding the complexity can help in identifying vulnerabilities in AI systems, making them more robust against attacks.
+
+#### 6. **PilotBench: A Benchmark for General Aviation Agents with Safety Constraints**
+   - **Focus**: Evaluates LLMs on safety-critical flight trajectory predictions.
+   - **Security Insight**: Highlights the importance of safety in AI applications, particularly in aviation, where incorrect predictions can lead to catastrophic outcomes.
+
+#### 7. **SEA-Eval: A Benchmark for Evaluating Self-Evolving Agents Beyond Episodic Assessment**
+   - **Focus**: Proposes a benchmark for assessing self-evolving agents.
+   - **Security Insight**: Continuous evaluation of AI agents can help in identifying and mitigating risks associated with their autonomous decision-making capabilities.
+
+#### 8. **Parameterization Complexity and Security**
+   - **Focus**: Discusses the complexity of parameterized models.
+   - **Security Insight**: Understanding the complexity can help in identifying vulnerabilities in AI systems, making them more robust against attacks.
+
+#### 9. **Hidden in Plain Sight: Visual-to-Symbolic Analytical Solution Inference from Field Visualizations**
+   - **Focus**: Develops a model for inferring analytical solutions from visual data.
+   - **Security Insight**: The ability to extract meaningful information from visual data can enhance security measures by improving the understanding of visual inputs in surveillance systems.
+
+#### 10. **Model Space Reasoning as Search in Feedback Space for Planning Domain Generation**
+   - **Focus**: Investigates the generation of planning domains from natural language.
+   - **Security Insight**: Enhancing the ability of AI to generate plans from natural language can improve the security of automated systems by ensuring they can understand and execute complex instructions accurately.
+
+### Trends and Insights
+- **Safety and Security**: A recurring theme is the emphasis on safety and security in AI applications, particularly in high-stakes environments like aviation and healthcare.
+- **Structured Approaches**: Many papers advocate for structured methodologies to manage AI behavior, ensuring that actions taken by AI systems are safe and aligned with intended outcomes.
+- **Continuous Evaluation**: The importance of continuous evaluation and adaptation of AI systems is highlighted, suggesting that ongoing monitoring can help mitigate risks associated with autonomous decision-making.
+- **Integration of Multimodal Data**: The integration of visual and textual data is becoming increasingly important for enhancing the robustness and reliability of AI systems, particularly in security contexts.
+
+### Conclusion
+The reviewed papers and articles indicate a growing recognition of the need for secure, reliable, and interpretable AI systems. As AI continues to evolve, particularly in safety-critical applications, the integration of structured methodologies, continuous evaluation, and multimodal data will be essential for addressing security challenges effectively.
