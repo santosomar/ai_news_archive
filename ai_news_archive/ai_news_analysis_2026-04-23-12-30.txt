@@ -1,0 +1,145 @@
+AI Researcher Agent Report for 2026-04-23-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [The Tool-Overuse Illusion: Why Does LLM Prefer External Tools over Internal Knowledge?](https://arxiv.org/abs/2604.19749): This paper discusses the phenomenon of tool overuse in large language models (LLMs), where models excessively rely on external tools instead of their internal knowledge. It proposes a knowledge-aware strategy to mitigate this issue.
+- [AI to Learn 2.0: A Deliverable-Oriented Governance Framework and Maturity Rubric for Opaque AI in Learning-Intensive Domains](https://arxiv.org/abs/2604.19751): This paper introduces a governance framework for AI-assisted work in education and research, emphasizing the importance of deliverables and accountability.
+- [Algorithm Selection with Zero Domain Knowledge via Text Embeddings](https://arxiv.org/abs/2604.19753): This study presents a feature-free approach to algorithm selection using pretrained text embeddings, demonstrating its effectiveness across various problem domains.
+- [Exploring Data Augmentation and Resampling Strategies for Transformer-Based Models to Address Class Imbalance in AI Scoring of Scientific Explanations in NGSS Classroom](https://arxiv.org/abs/2604.19754): This research investigates data augmentation strategies to improve the performance of transformer models in scoring scientific explanations, particularly addressing class imbalance.
+- [Explainable AML Triage with LLMs: Evidence Retrieval and Counterfactual Checks](https://arxiv.org/abs/2604.19755): This paper proposes a framework for anti-money laundering (AML) triage that combines evidence retrieval with explainability to enhance decision-making.
+- [ThermoQA: A Three-Tier Benchmark for Evaluating Thermodynamic Reasoning in Large Language Models](https://arxiv.org/abs/2604.19758): This paper presents a benchmark for evaluating thermodynamic reasoning in LLMs, highlighting performance differences across various models.
+- [Automated Detection of Dosing Errors in Clinical Trial Narratives: A Multi-Modal Feature Engineering Approach with LightGBM](https://arxiv.org/abs/2604.19759): This study develops an automated system for detecting dosing errors in clinical trial narratives using multi-modal feature engineering.
+- [Inference Headroom Ratio: A Diagnostic and Control Framework for Inference Stability Under Constraint](https://arxiv.org/abs/2604.19760): This paper introduces a framework for diagnosing inference stability in constrained decision systems.
+- [EvoForest: A Novel Machine-Learning Paradigm via Open-Ended Evolution of Computational Graphs](https://arxiv.org/abs/2604.19761): This paper presents EvoForest, a hybrid neuro-symbolic system for evolving computational graphs to improve machine learning.
+- [From Actions to Understanding: Conformal Interpretability of Temporal Concepts in LLM Agents](https://arxiv.org/abs/2604.19775): This research introduces a framework for interpreting temporal concepts in LLM agents, enhancing understanding of their decision-making processes.
+- [Using Learning Theories to Evolve Human-Centered XAI: Future Perspectives and Challenges](https://arxiv.org/abs/2604.19788): This position paper discusses the integration of learning theories into explainable AI (XAI) to enhance human agency.
+- [From Data to Theory: Autonomous Large Language Model Agents for Materials Science](https://arxiv.org/abs/2604.19789): This paper presents an autonomous LLM agent for materials science, capable of generating and testing theories based on data.
+- [Hidden Reliability Risks in Large Language Models: Systematic Identification of Precision-Induced Output Disagreements](https://arxiv.org/abs/2604.19790): This study identifies reliability risks in LLMs due to precision-induced output disagreements.
+- [Stabilising Generative Models of Attitude Change](https://arxiv.org/abs/2604.19791): This paper presents a generative modeling workflow for simulating attitude change based on cognitive theories.
+- [OpenCLAW-P2P v6.0: Resilient Multi-Layer Persistence, Live Reference Verification, and Production-Scale Evaluation of Decentralized AI Peer Review](https://arxiv.org/abs/2604.19792): This paper describes a decentralized peer review platform for AI research papers.
+- [SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation](https://arxiv.org/abs/2604.19793): This research introduces SkillGraph, a framework for recommending tool sequences for LLM agents based on graph foundations.
+- [Handbook of Rough Set Extensions and Uncertainty Models](https://arxiv.org/abs/2604.19794): This book surveys rough set theory models and their extensions.
+- [Prism: An Evolutionary Memory Substrate for Multi-Agent Open-Ended Discovery](https://arxiv.org/abs/2604.19795): This paper presents Prism, a memory substrate for multi-agent AI systems engaged in open-ended discovery.
+- [The AI Telco Engineer: Toward Autonomous Discovery of Wireless Communications Algorithms](https://arxiv.org/abs/2604.19803): This study explores the ability of AI to autonomously design wireless communication algorithms.
+- [Skyline-First Traversal as a Control Mechanism for Multi-Criteria Graph Search](https://arxiv.org/abs/2604.19807): This paper presents a framework for multi-criteria graph traversal using skyline-first traversal.
+- [MIRROR: A Hierarchical Benchmark for Metacognitive Calibration in Large Language Models](https://arxiv.org/abs/2604.19809): This research introduces a benchmark for evaluating metacognitive calibration in LLMs.
+- [The Existential Theory of Research: Why Discovery Is Hard](https://arxiv.org/abs/2604.19810): This paper discusses the challenges of scientific discovery and proposes a theoretical framework.
+- [Large Language Models Meet Biomedical Knowledge Graphs for Mechanistically Grounded Therapeutic Prioritization](https://arxiv.org/abs/2604.19815): This study presents DrugKLM, a framework for therapeutic prioritization using LLMs and biomedical knowledge graphs.
+- [Emergence Transformer: Dynamical Temporal Attention Matters](https://arxiv.org/abs/2604.19816): This paper introduces an Emergence Transformer that utilizes dynamical temporal attention for improved performance.
+- [JTPRO: A Joint Tool-Prompt Reflective Optimization Framework for Language Agents](https://arxiv.org/abs/2604.19821): This research presents JTPRO, a framework for improving tool-calling reliability in LLM agents.
+- [Forage V2: Knowledge Evolution and Transfer in Autonomous Agent Organizations](https://arxiv.org/abs/2604.19837): This paper discusses the evolution of knowledge in autonomous agent organizations.
+- [Resolving space-sharing conflicts in road user interactions through uncertainty reduction: An active inference-based computational model](https://arxiv.org/abs/2604.19838): This study presents a model for resolving space-sharing conflicts in road user interactions.
+- [Deconstructing Superintelligence: Identity, Self-Modification and Diff\'erance](https://arxiv.org/abs/2604.19845): This paper explores the implications of self-modification in artificial superintelligence.
+- [Learning When Not to Decide: A Framework for Overcoming Factual Presumptuousness in AI Adjudication](https://arxiv.org/abs/2604.19895): This research presents a framework for improving decision-making in AI adjudication.
+- [CreativeGame: Toward Mechanic-Aware Creative Game Generation](https://arxiv.org/abs/2604.19926): This paper discusses a multi-agent system for iterative game generation.
+- [What Makes a Good AI Review? Concern-Level Diagnostics for AI Peer Review](https://arxiv.org/abs/2604.19998): This study proposes a framework for evaluating AI-generated reviews at the concern level.
+- [Separable Pathways for Causal Reasoning: How Architectural Scaffolding Enables Hypothesis-Space Restructuring in LLM Agents](https://arxiv.org/abs/2604.20039): This research investigates causal reasoning in LLM agents.
+- [From Fuzzy to Formal: Scaling Hospital Quality Improvement with AI](https://arxiv.org/abs/2604.20055): This paper discusses the potential of AI in hospital quality improvement.
+- [EvoAgent: An Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation](https://arxiv.org/abs/2604.20133): This study presents EvoAgent, a framework for evolving LLM agents.
+- [HiPO: Hierarchical Preference Optimization for Adaptive Reasoning in LLMs](https://arxiv.org/abs/2604.20140): This paper introduces HiPO, a framework for optimizing LLMs with hierarchical preference learning.
+- [Stateless Decision Memory for Enterprise AI Agents](https://arxiv.org/abs/2604.20158): This research presents a stateless memory architecture for enterprise AI agents.
+- [Mol-Debate: Multi-Agent Debate Improves Structural Reasoning in Molecular Design](https://arxiv.org/abs/2604.20254): This study discusses a multi-agent debate framework for molecular design.
+- [Memory-Augmented LLM-based Multi-Agent System for Automated Feature Generation on Tabular Data](https://arxiv.org/abs/2604.20261): This paper presents a multi-agent system for automated feature generation.
+- [Seeing Further and Wider: Joint Spatio-Temporal Enlargement for Micro-Video Popularity Prediction](https://arxiv.org/abs/2604.20311): This research introduces a framework for predicting micro-video popularity.
+- [FedSIR: Spectral Client Identification and Relabeling for Federated Learning with Noisy Labels](https://arxiv.org/abs/2604.20825): This paper presents a framework for robust federated learning under noisy labels.
+- [Machine learning moment closure models for the radiative transfer equation IV: enforcing symmetrizable hyperbolicity in two dimensions](https://arxiv.org/abs/2604.20143): This study discusses moment closure models for the radiative transfer equation.
+- [Efficient INT8 Single-Image Super-Resolution via Deployment-Aware Quantization and Teacher-Guided Training](https://arxiv.org/abs/2604.20291): This paper presents a framework for efficient single-image super-resolution.
+- [SurgCoT: Advancing Spatiotemporal Reasoning in Surgical Videos through a Chain-of-Thought Benchmark](https://arxiv.org/abs/2604.20319): This research introduces a benchmark for evaluating spatiotemporal reasoning in surgical videos.
+- [Cold-Start Forecasting of New Product Life-Cycles via Conditional Diffusion Models](https://arxiv.org/abs/2604.20370): This paper presents a framework for forecasting new product life cycles.
+- [WildFireVQA: A Large-Scale Radiometric Thermal VQA Benchmark for Aerial Wildfire Monitoring](https://arxiv.org/abs/2604.20190): This study introduces a benchmark for aerial wildfire monitoring.
+- [CoSearch: Joint Training of Reasoning and Document Ranking via Reinforcement Learning for Agentic Search](https://arxiv.org/abs/2604.17555): This paper presents a framework for joint training of reasoning and document ranking.
+- [QuarkMedSearch: A Long-Horizon Deep Search Agent for Exploring Medical Intelligence](https://arxiv.org/abs/2604.12867): This research discusses a deep search agent for medical intelligence.
+- [PromptEcho: Annotation-Free Reward from Vision-Language Models for Text-to-Image Reinforcement Learning](https://arxiv.org/abs/2604.12652): This paper presents a method for generating rewards for text-to-image models.
+- [VTouch++: A Multimodal Dataset with Vision-Based Tactile Enhancement for Bimanual Manipulation](https://arxiv.org/abs/2604.20444): This study introduces a dataset for bimanual manipulation.
+- [DAIRE: A lightweight AI model for real-time detection of Controller Area Network attacks in the Internet of Vehicles](https://arxiv.org/abs/2604.20771): This paper presents a lightweight model for detecting CAN attacks.
+- [MOMO: A framework for seamless physical, verbal, and graphical robot skill learning and adaptation](https://arxiv.org/abs/2604.20468): This research discusses a framework for robot skill adaptation.
+- [FLOSS: Federated Learning with Opt-Out and Straggler Support](https://arxiv.org/abs/2507.23115): This paper presents a federated learning framework that supports opt-out and straggler scenarios.
+- [RAG-KT: Cross-platform Explainable Knowledge Tracing with Multi-view Fusion Retrieval Generation](https://arxiv.org/abs/2604.10960): This study introduces a framework for explainable knowledge tracing.
+- [IVY-FAKE: A Unified Explainable Framework and Benchmark for Image and Video AIGC Detection](https://arxiv.org/abs/2506.00979): This paper presents a benchmark for detecting AI-generated content.
+- [Learning Multi-Modal Whole-Body Control for Real-World Humanoid Robots](https://arxiv.org/abs/2408.07295): This research discusses a framework for humanoid robot control.
+- [Do We Still Need Humans in the Loop? Comparing Human and LLM Annotation in Active Learning for Hostility Detection](https://arxiv.org/abs/2604.13899): This study compares human and LLM annotations in active learning.
+- [Analyzing Shapley Additive Explanations to Understand Anomaly Detection Algorithm Behaviors and Their Complementarity](https://arxiv.org/abs/2602.00208): This paper analyzes anomaly detection algorithms using Shapley explanations.
+- [ItemRAG: Item-Based Retrieval-Augmented Generation for LLM-Based Recommendation](https://arxiv.org/abs/2511.15141): This research introduces a retrieval-augmented generation approach for recommendations.
+- [Video-ToC: Video Tree-of-Cue Reasoning](https://tldr.takara.ai/p/2604.20473): This paper presents a framework for video reasoning.
+- [VAN-AD: Visual Masked Autoencoder with Normalizing Flow For Time Series Anomaly Detection](https://tldr.takara.ai/p/2603.26842): This study introduces a framework for time series anomaly detection.
+- [DAIRE: A lightweight AI model for real-time detection of Controller Area Network attacks in the Internet of Vehicles](https://tldr.takara.ai/p/2604.20771): This paper presents a lightweight model for detecting CAN attacks.
+- [MOMO: A framework for seamless physical, verbal, and graphical robot skill learning and adaptation](https://tldr.takara.ai/p/2604.20468): This research discusses a framework for robot skill adaptation.
+
+### Categories
+#### Security
+- [DAIRE: A lightweight AI model for real-time detection of Controller Area Network attacks in the Internet of Vehicles](https://arxiv.org/abs/2604.20771): This paper presents a lightweight model for detecting CAN attacks.
+- [Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps](https://arxiv.org/abs/2604.19533): This benchmark evaluates LLM agents in threat hunting tasks.
+- [AVISE: A Framework for Evaluating the Security of AI Systems](https://arxiv.org/abs/2604.20833): This framework evaluates the security of AI systems and models.
+- [Taint-Style Vulnerability Detection and Confirmation for Node.js Packages Using LLM Agent Reasoning](https://arxiv.org/abs/2604.20179): This study develops a multi-stage agent pipeline for detecting vulnerabilities in Node.js packages.
+
+#### Education and Learning
+- [AI to Learn 2.0: A Deliverable-Oriented Governance Framework and Maturity Rubric for Opaque AI in Learning-Intensive Domains](https://arxiv.org/abs/2604.19751): This paper introduces a governance framework for AI-assisted work in education and research.
+- [Explainable AML Triage with LLMs: Evidence Retrieval and Counterfactual Checks](https://arxiv.org/abs/2604.19755): This paper proposes a framework for anti-money laundering (AML) triage that combines evidence retrieval with explainability to enhance decision-making.
+- [Exploring Data Augmentation and Resampling Strategies for Transformer-Based Models to Address Class Imbalance in AI Scoring of Scientific Explanations in NGSS Classroom](https://arxiv.org/abs/2604.19754): This research investigates data augmentation strategies to improve the performance of transformer models in scoring scientific explanations.
+
+#### Healthcare
+- [ThermoQA: A Three-Tier Benchmark for Evaluating Thermodynamic Reasoning in Large Language Models](https://arxiv.org/abs/2604.19758): This paper presents a benchmark for evaluating thermodynamic reasoning in LLMs.
+- [Automated Detection of Dosing Errors in Clinical Trial Narratives: A Multi-Modal Feature Engineering Approach with LightGBM](https://arxiv.org/abs/2604.19759): This study develops an automated system for detecting dosing errors in clinical trial narratives.
+- [Large Language Models Meet Biomedical Knowledge Graphs for Mechanistically Grounded Therapeutic Prioritization](https://arxiv.org/abs/2604.19815): This study presents DrugKLM, a framework for therapeutic prioritization using LLMs and biomedical knowledge graphs.
+
+#### Robotics and Automation
+- [MOMO: A framework for seamless physical, verbal, and graphical robot skill learning and adaptation](https://arxiv.org/abs/2604.20468): This research discusses a framework for robot skill adaptation.
+- [GeoRelight: Learning Joint Geometrical Relighting and Reconstruction with Flexible Multi-Modal Diffusion Transformers](https://tldr.takara.ai/p/2604.20715): This paper presents a framework for joint geometrical relighting and reconstruction.
+- [Learning Multi-Modal Whole-Body Control for Real-World Humanoid Robots](https://arxiv.org/abs/2408.07295): This research discusses a framework for humanoid robot control.
+
+#### Natural Language Processing
+- [Algorithm Selection with Zero Domain Knowledge via Text Embeddings](https://arxiv.org/abs/2604.19753): This study presents a feature-free approach to algorithm selection using pretrained text embeddings.
+- [Explainable AML Triage with LLMs: Evidence Retrieval and Counterfactual Checks](https://arxiv.org/abs/2604.19755): This paper proposes a framework for anti-money laundering (AML) triage that combines evidence retrieval with explainability to enhance decision-making.
+- [Do We Still Need Humans in the Loop? Comparing Human and LLM Annotation in Active Learning for Hostility Detection](https://arxiv.org/abs/2604.13899): This study compares human and LLM annotations in active learning.
+
+#### General AI and Machine Learning
+- [EvoForest: A Novel Machine-Learning Paradigm via Open-Ended Evolution of Computational Graphs](https://arxiv.org/abs/2604.19761): This paper presents EvoForest, a hybrid neuro-symbolic system for evolving computational graphs to improve machine learning.
+- [Hybrid Policy Distillation for LLMs](https://arxiv.org/abs/2604.20244): This paper presents a framework for optimizing LLMs with hierarchical preference learning.
+- [Learning Multi-Modal Whole-Body Control for Real-World Humanoid Robots](https://arxiv.org/abs/2408.07295): This research discusses a framework for humanoid robot control.
+
+This categorization provides a structured overview of the papers and articles based on their primary focus areas, particularly highlighting those related to security and healthcare.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Security
+
+#### Key Papers and Findings:
+
+1. **AVISE: A Framework for Evaluating the Security of AI Systems**
+   - Introduces AVISE, a modular framework for identifying vulnerabilities in AI systems, particularly focusing on language models. It includes a novel adversarial language model (ALM) augmented attack and a security evaluation test (SET) for discovering jailbreak vulnerabilities in language models.
+
+2. **DAIRE: A Lightweight AI Model for Real-Time Detection of Controller Area Network Attacks in the Internet of Vehicles**
+   - Proposes DAIRE, a machine learning framework for detecting CAN attacks in IoV. It achieves high accuracy (99.96%) and low false positive rates (0.02%) while being computationally efficient.
+
+3. **Cyber Defense Benchmark: Agentic Threat Hunting Evaluation for LLMs in SecOps**
+   - Introduces a benchmark for evaluating LLM agents in threat hunting tasks, revealing that current models perform poorly in open-ended, evidence-driven scenarios, with the best model achieving only 3.8% correct flags for malicious events.
+
+4. **Towards Secure Logging: Characterizing and Benchmarking Logging Code Security Issues with LLMs**
+   - Develops a comprehensive taxonomy of logging code security issues and proposes an automated framework for evaluating LLMs' capabilities in detecting and repairing logging security issues.
+
+5. **Membership Inference for Contrastive Pre-training Models with Text-only PII Queries**
+   - Proposes a text-only auditing framework (UMID) to detect multimodal memorization in foundational encoders, achieving strong detection performance without requiring biometric inputs.
+
+6. **Trust, Lies, and Long Memories: Emergent Social Dynamics and Reputation in Multi-Round Avalon with LLM Agents**
+   - Explores how LLM agents develop reputations and engage in deception in multi-round games, highlighting the importance of memory in shaping agent behavior.
+
+7. **CyberCertBench: Evaluating LLMs in Cybersecurity Certification Knowledge**
+   - Introduces a benchmark for evaluating LLM knowledge against cybersecurity certification standards, revealing significant gaps in model performance on vendor-specific nuances.
+
+#### Trends and Insights:
+
+- **Vulnerability Detection and Security Evaluation**: There is a growing emphasis on developing frameworks and benchmarks for evaluating the security of AI systems, particularly in the context of LLMs. The introduction of frameworks like AVISE and benchmarks like Cyber Defense Benchmark highlights the need for systematic approaches to identify vulnerabilities and assess model performance in security-critical applications.
+
+- **Real-Time Detection**: The development of lightweight models like DAIRE for real-time detection of cyber threats indicates a trend towards efficiency and speed in security applications, especially in the context of IoT and vehicular systems.
+
+- **Cross-Modal and Contextual Understanding**: The use of text-only queries for membership inference and the exploration of social dynamics in LLMs suggest a trend towards understanding how models interact with and interpret complex, multimodal data in security contexts.
+
+- **Ethical and Responsible AI**: The focus on auditing and ensuring the ethical deployment of AI systems, as seen in the discussions around logging security and membership inference, reflects an increasing awareness of the ethical implications of AI technologies in security.
+
+- **Integration of Human Oversight**: The exploration of frameworks that allow for human oversight in decision-making processes, such as the introduction of agentic frameworks in threat hunting, indicates a recognition of the limitations of AI systems and the importance of human judgment in security contexts.
+
+### Conclusion
+
+The landscape of AI in security is rapidly evolving, with significant advancements in frameworks, benchmarks, and methodologies aimed at enhancing the robustness and reliability of AI systems. As these technologies become more integrated into critical applications, the focus on ethical considerations, human oversight, and real-time capabilities will be paramount in shaping the future of AI security.
