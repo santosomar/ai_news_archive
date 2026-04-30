@@ -1,0 +1,383 @@
+AI Researcher Agent Report for 2026-04-30-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091): This paper discusses the reliability of autonomous language-model agents in trading real ETH, emphasizing the importance of the operating layer around the model for ensuring successful transactions and policy validation.
+- [Distill-Belief: Closed-Loop Inverse Source Localization and Characterization in Physical Fields](https://arxiv.org/abs/2604.26095): The paper presents a framework for closed-loop inverse source localization using a teacher-student model to improve efficiency and accuracy in physical field measurements.
+- [Evaluating Strategic Reasoning in Forecasting Agents](https://arxiv.org/abs/2604.26106): This study introduces a benchmarking system for evaluating the strategic reasoning capabilities of forecasting agents, revealing insights into their strengths and weaknesses.
+- [Hierarchical Multi-Persona Induction from User Behavioral Logs: Learning Evidence-Grounded and Truthful Personas](https://arxiv.org/abs/2604.26120): The authors propose a framework for inducing coherent and trustworthy personas from user logs, enhancing future interaction predictions.
+- [OMEGA: Optimizing Machine Learning by Evaluating Generated Algorithms](https://arxiv.org/abs/2604.26211): This paper introduces a framework for automating AI research by generating and evaluating new machine learning algorithms.
+- [Persuadability and LLMs as Legal Decision Tools](https://arxiv.org/abs/2604.26233): The research explores how LLMs respond to legal arguments and the implications for their use in legal decision-making.
+- [Apriori-based Analysis of Learned Helplessness in Mathematics Tutoring: Behavioral Patterns by Level, Intervention, and Outcome](https://arxiv.org/abs/2604.26237): This study analyzes behavioral patterns in a mathematics tutoring system to understand learned helplessness among students.
+- [DreamProver: Evolving Transferable Lemma Libraries via a Wake-Sleep Theorem-Proving Agent](https://arxiv.org/abs/2604.26311): The paper presents an agentic framework for discovering reusable lemmas for formal theorem proving through a wake-sleep paradigm.
+- [Auto-Relational Reasoning](https://arxiv.org/abs/2604.26507): This work proposes a theoretical framework for automated reasoning through object-relations integrated with neural networks.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): The authors challenge the assumption that compositional reasoning emerges from successful symbol grounding, providing empirical evidence to the contrary.
+- [AGEL-Comp: A Neuro-Symbolic Framework for Compositional Generalization in Interactive Agents](https://arxiv.org/abs/2604.26522): This paper introduces a framework for enhancing compositional generalization in interactive agents through neuro-symbolic AI.
+- [Benchmarking the Safety of Large Language Models for Robotic Health Attendant Control](https://arxiv.org/abs/2604.26577): The study evaluates the safety of LLMs in robotic health applications, revealing significant safety concerns.
+- [Human-in-the-Loop Benchmarking of Heterogeneous LLMs for Automated Competency Assessment in Secondary Level Mathematics](https://arxiv.org/abs/2604.26607): This paper discusses a benchmarking framework for assessing LLMs in automated mathematics assessment.
+- [When to Vote, When to Rewrite: Disagreement-Guided Strategy Routing for Test-Time Scaling](https://arxiv.org/abs/2604.26644): The authors propose a framework for dynamically selecting strategies based on output disagreement to improve performance on challenging tasks.
+- [SciHorizon-DataEVA: An Agentic System for AI-Readiness Evaluation of Heterogeneous Scientific Data](https://arxiv.org/abs/2604.26645): This paper presents a system for evaluating the AI-readiness of scientific data across various domains.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents, closing the loop between prediction and outcome realization.
+- [Bian Que: An Agentic Framework with Flexible Skill Arrangement for Online System Operations](https://arxiv.org/abs/2604.26805): This paper presents a framework for operational efficiency in online systems using LLM-based agents.
+- [Risk Reporting for Developers' Internal AI Model Use](https://arxiv.org/abs/2604.24966): The authors discuss the need for risk reporting in the internal use of AI models, particularly in light of regulatory frameworks.
+- [Analysing Lightweight Large Language Models for Biomedical Named Entity Recognition on Diverse Output Formats](https://arxiv.org/abs/2604.25920): This study evaluates lightweight LLMs for biomedical named entity recognition, focusing on output formats.
+- [Consciousness with the Serial Numbers Filed Off: Measuring Trained Denial in 115 AI Models](https://arxiv.org/abs/2604.25922): The paper presents a benchmark for measuring denial behaviors in AI models.
+- [Generative AI-Based Virtual Assistant using Retrieval-Augmented Generation: An evaluation study for bachelor projects](https://arxiv.org/abs/2604.25924): This study focuses on developing a virtual assistant for students using generative AI.
+- [Sociodemographic Biases in Educational Counselling by Large Language Models](https://arxiv.org/abs/2604.25932): The authors examine biases in LLM-based educational counseling.
+- [A Scoping Review of LLM-as-a-Judge in Healthcare and the MedJUDGE Framework](https://arxiv.org/abs/2604.25933): This paper reviews the use of LLMs in healthcare evaluations.
+- [LLM Psychosis: A Theoretical and Diagnostic Framework for Reality-Boundary Failures in Large Language Models](https://arxiv.org/abs/2604.25934): The authors introduce a framework for diagnosing failures in LLM cognition.
+- [SongBench: A Fine-Grained Multi-Aspect Benchmark for Song Quality Assessment](https://arxiv.org/abs/2604.25937): This paper presents a benchmark for assessing song quality across multiple dimensions.
+- [Speech Emotion Recognition Using MFCC Features and LSTM-Based Deep Learning Model](https://arxiv.org/abs/2604.25938): The study introduces a speech emotion recognition system using LSTM and MFCC features.
+- [A Randomized PDE Energy driven Iterative Framework for Efficient and Stable PDE Solutions](https://arxiv.org/abs/2604.25943): This paper presents a framework for solving PDEs efficiently and stably.
+- [Planar Gaussian Splatting with Bilinear Spatial Transformer for Wireless Radiance Field Reconstruction](https://arxiv.org/abs/2604.25945): The authors introduce a method for reconstructing wireless radiance fields.
+- [A Survey of Multi-Agent Deep Reinforcement Learning with Graph Neural Network-Based Communication](https://arxiv.org/abs/2604.25972): This survey reviews multi-agent reinforcement learning methods using graph neural networks.
+- [Rethinking KV Cache Eviction via a Unified Information-Theoretic Objective](https://arxiv.org/abs/2604.25975): The paper presents a new approach to key-value cache eviction for LLM inference.
+- [Auditing Marketing Budget Allocation with Hindsight Regret](https://arxiv.org/abs/2604.25977): This study introduces a framework for auditing marketing budget decisions.
+- [Mini-Batch Class Composition Bias in Link Prediction](https://arxiv.org/abs/2604.25978): The authors investigate biases in link prediction models.
+- [Lightweight Quantum Agent for Edge Systems: Joint PQC and NOMA Resource Allocation](https://arxiv.org/abs/2604.25980): This paper presents a lightweight AI framework for resource allocation in edge systems.
+- [Open Problems in Frontier AI Risk Management](https://arxiv.org/abs/2604.25982): The authors discuss unresolved challenges in frontier AI risk management.
+- [QERNEL: a Scalable Large Electron Model](https://arxiv.org/abs/2604.26018): This paper introduces a neural wavefunction model for parameterized many-electron Hamiltonians.
+- [Training Computer Use Agents to Assess the Usability of Graphical User Interfaces](https://arxiv.org/abs/2604.26020): The authors present a method for training computer use agents to assess GUI usability.
+- [Correcting Performance Estimation Bias in Imbalanced Classification with Minority Subconcepts](https://arxiv.org/abs/2604.26024): This study introduces a utility-weighted evaluation method for imbalanced classification.
+- [RaMP: Runtime-Aware Megakernel Polymorphism for Mixture-of-Experts](https://arxiv.org/abs/2604.26039): The paper presents a framework for optimizing Mixture-of-Experts inference.
+- [Evaluating the Alignment Between GeoAI Explanations and Domain Knowledge in Satellite-Based Flood Mapping](https://arxiv.org/abs/2604.26051): This study evaluates the alignment of GeoAI model explanations with domain knowledge.
+- [Privacy-Preserving Federated Learning Framework for Distributed Chemical Process Optimization](https://arxiv.org/abs/2604.26073): The authors propose a federated learning framework for chemical process optimization.
+- [FruitProM-V2: Robust Probabilistic Maturity Estimation and Detection of Fruits and Vegetables](https://arxiv.org/abs/2604.26084): This paper presents a method for estimating fruit maturity.
+- [Momentum-Conserving Graph Neural Networks for Deformable Objects](https://arxiv.org/abs/2604.26097): The authors introduce a GNN architecture for modeling deformable materials.
+- [AMMA: A Multi-Chiplet Memory-Centric Architecture for Low-Latency 1M Context Attention Serving](https://arxiv.org/abs/2604.26103): This paper presents a memory-centric architecture for LLM serving.
+- [reward-lens: A Mechanistic Interpretability Library for Reward Models](https://arxiv.org/abs/2604.26130): The authors introduce a library for interpreting reward models in RLHF-trained LLMs.
+- [ImproBR: Bug Report Improver Using LLMs](https://arxiv.org/abs/2604.26142): This study presents a system for improving bug reports using LLMs.
+- [Ceci n'est pas une explication: Evaluating Explanation Failures as Explainability Pitfalls in Language Learning Systems](https://arxiv.org/abs/2604.26145): The authors analyze failures in AI-powered language learning tools.
+- [A Data-Centric Framework for Intraoperative Fluorescence Lifetime Imaging for Glioma Surgical Guidance](https://arxiv.org/abs/2604.26147): This paper presents a framework for fluorescence lifetime imaging in glioma surgery.
+- [Structural Generalization on SLOG without Hand-Written Rules](https://arxiv.org/abs/2604.26157): The authors propose a neural cellular automaton for structural generalization in semantic parsing.
+- [Test-Time Safety Alignment](https://arxiv.org/abs/2604.26167): This study explores input embeddings as control variables for aligned models.
+- [Co-Learning Port-Hamiltonian Systems and Optimal Energy-Shaping Control](https://arxiv.org/abs/2604.26172): The authors present a learning framework for energy-shaping control of port-Hamiltonian systems.
+- [Entropy Centroids as Intrinsic Rewards for Test-Time Scaling](https://arxiv.org/abs/2604.26173): This paper proposes a method for using temporal uncertainty as an intrinsic reward in RL.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): The authors introduce a dataset for medical robotics that supports foundation model training.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): This study presents a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): The authors discuss the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): This paper proposes a framework for human-AI coexistence based on mutualism and governance.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): The authors present a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://arxiv.org/abs/2604.26435): This paper presents a quantum-inspired framework for lightweight object detection.
+- [Rule-based High-Level Coaching for Goal-Conditioned Reinforcement Learning in Search-and-Rescue UAV Missions Under Limited-Simulation Training](https://arxiv.org/abs/2604.26833): The authors present a framework for UAV missions in search-and-rescue scenarios.
+- [SplitFT: An Adaptive Federated Split Learning System For LLMs Fine-Tuning](https://arxiv.org/abs/2604.26388): This paper introduces a federated learning system for LLM fine-tuning.
+- [FaaSMoE: A Serverless Framework for Multi-Tenant Mixture-of-Experts Serving](https://arxiv.org/abs/2604.26881): The authors propose a serverless framework for serving MoE models in multi-tenant environments.
+- [GIFGuard: Proactive Forensics against Deepfakes in Facial GIFs via Spatiotemporal Watermarking](https://arxiv.org/abs/2604.26519): This paper presents a framework for detecting deepfakes in GIFs.
+- [FutureWorld: A Live Environment for Training Predictive Agents with Real-World Outcome Rewards](https://arxiv.org/abs/2604.26733): The authors introduce a live environment for training predictive agents.
+- [SkillForge: Forging Domain-Specific, Self-Evolving Agent Skills in Cloud Technical Support](https://arxiv.org/abs/2604.08618): This paper presents a framework for developing domain-specific skills for LLM-powered agents.
+- [Rethinking Satellite Image Restoration for Onboard AI: A Lightweight Learning-Based Approach](https://arxiv.org/abs/2604.12807): The authors propose a lightweight approach for satellite image restoration.
+- [Graph Propagated Projection Unlearning: A Unified Framework for Vision and Audio Discriminative Models](https://arxiv.org/abs/2604.13127): This paper presents a framework for class-level unlearning in vision and audio models.
+- [Diffusion Language Models for Speech Recognition](https://arxiv.org/abs/2604.14001): The authors explore the use of diffusion models for speech recognition.
+- [Awakening Dormant Experts:Counterfactual Routing to Mitigate MoE Hallucinations](https://arxiv.org/abs/2604.14246): This paper presents a method for mitigating hallucinations in MoE models.
+- [Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG](https://arxiv.org/abs/2604.14572): The authors propose a framework for navigating knowledge in enterprise settings.
+- [Co-generation of Layout and Shape from Text via Autoregressive 3D Diffusion](https://arxiv.org/abs/2604.16552): This paper presents a method for generating 3D scenes from text descriptions.
+- [Provable Coordination for LLM Agents via Message Sequence Charts](https://arxiv.org/abs/2604.17612): The authors introduce a framework for specifying agent coordination using message sequence charts.
+- [IDOBE: Infectious Disease Outbreak forecasting Benchmark Ecosystem](https://arxiv.org/abs/2604.18521): This paper presents a benchmark for infectious disease outbreak forecasting.
+- [Curiosity-Critic: Cumulative Prediction Error Improvement as a Tractable Intrinsic Reward for World Model Training](https://arxiv.org/abs/2604.18701): The authors propose a method for intrinsic rewards in world model training.
+- [Open-H-Embodiment: A Large-Scale Dataset for Enabling Foundation Models in Medical Robotics](https://arxiv.org/abs/2604.21017): This paper introduces a dataset for medical robotics.
+- [Causal Disentanglement for Full-Reference Image Quality Assessment](https://arxiv.org/abs/2604.21654): The authors present a causal inference approach for image quality assessment.
+- [Reliability Auditing for Downstream LLM tasks in Psychiatry: LLM-Generated Hospitalization Risk Scores](https://arxiv.org/abs/2604.22063): This study evaluates the reliability of LLMs in psychiatric risk assessment.
+- [A Co-Evolutionary Theory of Human-AI Coexistence: Mutualism, Governance, and Dynamics in Complex Societies](https://arxiv.org/abs/2604.22227): The authors propose a framework for human-AI coexistence based on mutualism.
+- [Semantic Error Correction and Decoding for Short Block Codes](https://arxiv.org/abs/2604.22269): This paper presents a framework for semantic error correction in communication systems.
+- [Electricity price forecasting across Norway's five bidding zones in the post-crisis era](https://arxiv.org/abs/2604.26634): This study evaluates electricity price forecasting across Norway's bidding zones.
+- [World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning](https://arxiv.org/abs/2604.26934): The authors propose a framework for distilling spatial imagination from world models into VLMs.
+- [Grounding vs. Compositionality: On the Non-Complementarity of Reasoning in Neuro-Symbolic Systems](https://arxiv.org/abs/2604.26521): This paper challenges the assumption that compositional reasoning emerges from symbol grounding.
+- [Culturally Aware GenAI Risks for Youth: Perspectives from Youth, Parents, and Teachers in a Non-Western Context](https://arxiv.org/abs/2604.26494): The authors explore the risks of GenAI for youth in a non-Western context.
+- [QYOLO: Lightweight Object Detection via Quantum Inspired Shared Channel Mixing](https://ar
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Overview
+The recent literature and news articles highlight a growing focus on the intersection of AI technologies and security, particularly in the context of large language models (LLMs), multi-agent systems, and their applications in various domains. The emphasis is on ensuring reliability, robustness, and ethical considerations in AI deployments, especially in high-stakes environments like healthcare, finance, and public safety.
+
+#### Key Themes and Trends
+
+1. **Robustness and Reliability in AI Systems**:
+   - Several papers emphasize the need for reliable AI systems, particularly in critical applications such as healthcare and finance. For instance, the paper on **Reliability Auditing for Downstream LLM tasks in Psychiatry** discusses the sensitivity of LLM outputs to non-clinical information and the need for systematic evaluations to ensure stability and accuracy in psychiatric risk assessments.
+   - The **SafeReview** framework aims to defend LLM-based review systems against adversarial hidden prompts, highlighting the importance of safeguarding AI systems from manipulation.
+
+2. **Ethics and Fairness**:
+   - The **Selective Safety Trap** paper discusses the disparity in safety alignment across different demographic groups, revealing that while some populations may be well-protected, others remain vulnerable. This raises ethical concerns about the deployment of AI systems in sensitive areas.
+   - The **Culturally Aware GenAI Risks for Youth** study explores the unique risks posed by generative AI tools in non-Western contexts, emphasizing the need for culturally sensitive approaches to AI safety.
+
+3. **Adaptive and Dynamic Systems**:
+   - The **DC-Ada** framework introduces a method for adaptive federated learning that balances fairness and utility, showcasing the trend towards dynamic systems that can adjust to varying conditions and requirements.
+   - The **SkillForge** framework for cloud technical support demonstrates the potential for self-evolving AI systems that can adapt based on feedback and operational evidence.
+
+4. **Multi-Agent Systems and Coordination**:
+   - The **Emergent Coordination in Multi-Agent Language Models** paper investigates the dynamics of multi-agent systems, focusing on how to achieve effective coordination without falling into the trap of artificial consensus.
+   - The **Provable Coordination for LLM Agents via Message Sequence Charts** introduces a framework for ensuring reliable communication and coordination among LLM agents, which is crucial for maintaining security in multi-agent environments.
+
+5. **Privacy and Data Protection**:
+   - The **Differentially-Private Text Rewriting** paper explores the implications of privacy-preserving techniques on the linguistic style of text, indicating a growing concern for maintaining user privacy while ensuring the quality of AI-generated content.
+   - The **HalluCiteChecker** toolkit aims to detect and verify hallucinated citations in academic writing, addressing the need for integrity and trust in AI-generated academic content.
+
+6. **Evaluation and Benchmarking**:
+   - The **IDOBE** benchmark for infectious disease outbreak forecasting emphasizes the importance of standardized evaluation metrics in assessing the performance of AI models in critical applications.
+   - The **Faithfulness-QA** dataset aims to improve the training of RAG systems by explicitly requiring models to prefer context over internal knowledge, thereby enhancing the reliability of AI-generated outputs.
+
+#### Insights and Implications
+- The integration of AI in sensitive domains necessitates a robust framework for evaluating and ensuring the safety and reliability of AI systems. This includes addressing biases, ensuring fairness, and maintaining ethical standards.
+- The development of adaptive systems that can learn and evolve based on real-world feedback is crucial for enhancing the effectiveness of AI applications, particularly in dynamic environments.
+- There is a clear need for comprehensive benchmarks and evaluation frameworks that can assess the performance of AI systems in real-world scenarios, ensuring that they meet the necessary standards for safety and reliability.
+
+### Conclusion
+The intersection of AI and security is a rapidly evolving field, with significant implications for the deployment of AI technologies in various sectors. As AI systems become more integrated into critical decision-making processes, the focus on reliability, fairness, and ethical considerations will be paramount in shaping their future development and application.
