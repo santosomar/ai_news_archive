@@ -1,0 +1,108 @@
+AI Researcher Agent Report for 2026-05-06-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [CreativityBench: Evaluating Agent Creative Reasoning via Affordance-Based Tool Repurposing](https://arxiv.org/abs/2605.02910): This paper introduces CreativityBench, a benchmark for evaluating the creative problem-solving abilities of large language models (LLMs) through affordance-based tool use. The study highlights the limitations of current models in identifying the correct parts and mechanisms needed for creative tasks.
+- [Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense](https://arxiv.org/abs/2605.03034): This paper presents a tool-mediated architecture for LLM agents in cybersecurity, demonstrating how deterministic tools can enhance decision-making under adversarial conditions. The architecture ensures system stability while allowing creative exploration of strategies.
+- [Computing Thiele Rules on Interval Elections and their Generalizations](https://arxiv.org/abs/2605.03067): This paper resolves the complexity of computing Thiele outcomes in interval elections, providing a fast algorithm for finding optimal integral solutions and extending the results to related domains.
+- [Making the Invisible Visible: Understanding the Mismatch Between Organizational Goals and Worker Experiences in AI Adoption](https://arxiv.org/abs/2605.03078): This study examines the disconnect between organizational expectations and worker experiences in AI adoption, identifying barriers to successful integration and proposing strategies for alignment.
+- [Programmatic Context Augmentation for LLM-based Symbolic Regression](https://arxiv.org/abs/2605.03101): This paper proposes a framework for symbolic regression that incorporates programmatic context augmentation, enabling LLMs to perform better in discovering mathematical expressions from datasets.
+- [Are you with me? A Framework for Detecting Mental Model Discrepancies in Task-Based Team Dialogues](https://arxiv.org/abs/2605.03149): This paper introduces a framework for identifying mental model discrepancies in team dialogues, demonstrating predictive signals that can enhance team performance.
+- [Learning Correct Behavior from Examples: Validating Sequential Execution in Autonomous Agents](https://arxiv.org/abs/2605.03159): This work presents an algorithm for validating the sequential behavior of autonomous agents using a small number of execution traces, achieving high accuracy in detecting bugs.
+- [Terminus-4B: Can a Smaller Model Replace Frontier LLMs at Agentic Execution Tasks?](https://arxiv.org/abs/2605.03195): This paper evaluates whether a smaller language model can match the performance of larger frontier models in executing agentic tasks, finding that it can reduce token usage without sacrificing performance.
+- [Stop Automating Peer Review Without Rigorous Evaluation](https://arxiv.org/abs/2605.03202): This position paper argues against the use of AI in peer review without rigorous evaluation, highlighting issues such as lack of diversity in AI-generated reviews and the potential for gaming the system.
+- [ADAPTS: Agentic Decomposition for Automated Protocol-agnostic Tracking of Symptoms](https://arxiv.org/abs/2605.03212): This paper presents a framework for automated tracking of psychiatric symptoms using a mixture-of-agents LLM architecture, showing promising evaluations of psychiatric severity.
+- [Evaluating Prompting and Execution-Based Methods for Deterministic Computation in LLMs](https://arxiv.org/abs/2605.03227): This study evaluates various prompting strategies for deterministic computation in LLMs, finding that combining LLMs with external tools provides more reliable solutions.
+- [cotomi Act: Learning to Automate Work by Watching You](https://arxiv.org/abs/2605.03231): This paper introduces a browser-based agent that learns user work patterns to automate tasks, demonstrating improved task success rates as the agent accumulates knowledge.
+- [Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios](https://arxiv.org/abs/2605.03242): This work introduces a benchmark for evaluating agent safety judgment under deceptive scenarios, proposing methods to improve judgment quality.
+- [Revisiting the Travel Planning Capabilities of Large Language Models](https://arxiv.org/abs/2605.03308): This paper decomposes travel planning into sub-capabilities, revealing that LLMs struggle with implicit requirements and exhibit biases in plan generation.
+- [Automated Large-scale CVRP Solver Design via LLM-assisted Flexible MCTS](https://arxiv.org/abs/2605.03339): This study proposes a framework for designing high-performance CVRP solvers using LLMs, demonstrating improved performance over existing methods.
+- [What Happens Inside Agent Memory? Circuit Analysis from Emergence to Diagnosis](https://arxiv.org/abs/2605.03354): This paper analyzes agent memory failures in LLMs, revealing insights into the internal computations that affect memory performance.
+- [ReasonAudio: A Benchmark for Evaluating Reasoning Beyond Matching in Text-Audio Retrieval](https://arxiv.org/abs/2605.03361): This paper introduces a benchmark for evaluating reasoning in text-audio retrieval, highlighting challenges faced by current models.
+- [GeoDecider: A Coarse-to-Fine Agentic Workflow for Explainable Lithology Classification](https://arxiv.org/abs/2605.03383): This work proposes a workflow for lithology classification that incorporates geological principles and external knowledge for improved accuracy.
+- [Robust Agent Compensation (RAC): Teaching AI Agents to Compensate](https://arxiv.org/abs/2605.03409): This paper presents a recovery paradigm for AI agents to support reliable executions and avoid unintended side effects.
+- [Geometry over Density: Few-Shot Cross-Domain OOD Detection](https://arxiv.org/abs/2605.03410): This study proposes a framework for out-of-distribution detection using a single pre-trained model, demonstrating competitive performance across domains.
+- [Adaptive Dual-Path Framework for Covert Semantic Communication](https://arxiv.org/abs/2605.03423): This paper presents a framework for covert communication that integrates task-oriented semantic coding with covert data transmission.
+- [Reinforcement Learning with Verifiable Rewards has become a common way to improve explicit reasoning in large language models](https://arxiv.org/abs/2605.03862): This work proposes a planner-executor training framework that treats reasoning as a consumable intermediate artifact, improving reasoning quality.
+- [Learning Correct Behavior from Examples: Validating Sequential Execution in Autonomous Agents](https://arxiv.org/abs/2605.03159): This study presents a novel algorithm for validating the sequential behavior of autonomous agents using a small number of execution traces, achieving high accuracy in detecting bugs.
+- [Evaluating Prompting and Execution-Based Methods for Deterministic Computation in LLMs](https://arxiv.org/abs/2605.03227): This study evaluates various prompting strategies for deterministic computation in LLMs, finding that combining LLMs with external tools provides more reliable solutions.
+
+### Categories
+#### Security
+- [Stable Agentic Control: Tool-Mediated LLM Architecture for Autonomous Cyber Defense](https://arxiv.org/abs/2605.03034): Discusses a tool-mediated architecture for LLM agents in cybersecurity.
+- [Enhancing Agent Safety Judgment: Controlled Benchmark Rewriting and Analogical Reasoning for Deceptive Out-of-Distribution Scenarios](https://arxiv.org/abs/2605.03242): Introduces a benchmark for evaluating agent safety judgment under deceptive scenarios.
+- [Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration](https://arxiv.org/abs/2605.01970): Characterizes persistent memory attacks in LLM agents.
+- [Quantifying Trust: Financial Risk Management for Trustworthy AI Agents](https://arxiv.org/abs/2604.03976): Proposes a framework for managing risks associated with AI agents.
+- [Safety and accuracy follow different scaling laws in clinical large language models](https://arxiv.org/abs/2604.04039): Discusses the relationship between safety and accuracy in clinical LLMs.
+- [AI Agents for Inventory Control: Human-LLM-OR Complementarity](https://arxiv.org/abs/2602.12631): Explores the interaction between OR algorithms and LLMs in inventory control.
+
+#### Reasoning and Decision Making
+- [Learning Correct Behavior from Examples: Validating Sequential Execution in Autonomous Agents](https://arxiv.org/abs/2605.03159): Presents an algorithm for validating sequential behavior in autonomous agents.
+- [Reasoning-Guided Grounding: Elevating Video Anomaly Detection through Multimodal Large Language Models](https://arxiv.org/abs/2605.02912): Proposes a framework for video anomaly detection that integrates reasoning.
+- [RAG Hallucinates — I Built a Self-Healing Layer That Fixes It in Real Time](https://towardsdatascience.com/rag-hallucinates-i-built-a-self-healing-layer-that-fixes-it-in-real-time/): Discusses a self-healing layer for RAG systems to improve reasoning.
+
+#### Human-AI Collaboration
+- [Making the Invisible Visible: Understanding the Mismatch Between Organizational Goals and Worker Experiences in AI Adoption](https://arxiv.org/abs/2605.03078): Examines the disconnect between organizational expectations and worker experiences in AI adoption.
+- [AI Advocate: Educational Path to Transform Squads to the Future](https://arxiv.org/abs/2604.03800): Discusses the role of AI advocates in transforming software development squads.
+- [HiL-Bench (Human-in-Loop Benchmark): Do Agents Know When to Ask for Help?](https://arxiv.org/abs/2604.09408): Evaluates the ability of agents to know when to seek help.
+
+#### Benchmarking and Evaluation
+- [ProgramBench: Can Language Models Rebuild Programs From Scratch?](https://arxiv.org/abs/2605.03546): Introduces a benchmark for evaluating the ability of coding agents to develop software from scratch.
+- [EditPropBench: Measuring Factual Edit Propagation in Scientific Manuscripts](https://arxiv.org/abs/2605.02083): Proposes a benchmark for measuring factual edits in scientific manuscripts.
+- [Benchmarking Document Parsers on Mathematical Formula Extraction from PDFs](https://arxiv.org/abs/2512.09874): Introduces a benchmark for evaluating document parsers on mathematical formula extraction.
+
+#### Multimodal Learning
+- [LangPrecip: Language-Aware Multimodal Precipitation Nowcasting](https://arxiv.org/abs/2512.22317): Proposes a multimodal nowcasting framework that integrates textual and radar information.
+- [Vibe Code Bench: Evaluating AI Models on End-to-End Web Application Development](https://arxiv.org/abs/2603.04601): Introduces a benchmark for evaluating AI models on web application development tasks.
+- [MICA: Multi-granularity Intertemporal Credit Assignment for Long-Horizon Emotional Support Dialogue](https://arxiv.org/abs/2603.06194): Proposes a framework for multi-turn emotional support tasks that incorporates credit assignment.
+
+#### Robotics and Control
+- [RoboEval: Where Robotic Manipulation Meets Structured and Scalable Evaluation](https://arxiv.org/abs/2507.00435): Introduces a structured evaluation framework for robotic manipulation tasks.
+- [Optimizing Grasping in Legged Robots: A Deep Learning Approach to Loco-Manipulation](https://arxiv.org/abs/2508.17466): Proposes a deep learning framework for enhancing grasping capabilities in legged robots.
+
+#### Memory and Learning
+- [Learning from Supervision with Semantic and Episodic Memory: A Reflective Approach to Agent Adaptation](https://arxiv.org/abs/2510.19897): Investigates how agents can learn from labeled examples using memory augmentation.
+- [Learning to Forget -- Hierarchical Episodic Memory for Lifelong Robot Deployment](https://arxiv.org/abs/2604.11306): Presents a framework for enabling robots to learn what to remember through user interaction.
+
+#### Miscellaneous
+- [The AI risk repository: A meta-review, database, and taxonomy of risks from artificial intelligence](https://arxiv.org/abs/2408.12622): Provides a comprehensive catalog of AI risks.
+- [AI4EOSC: a Federated Cloud Platform for Artificial Intelligence in Scientific Research](https://arxiv.org/abs/2512.16455): Introduces a federated platform for operationalizing AI in scientific research.
+
+This summary provides a comprehensive overview of the recent advancements in AI research, particularly focusing on security, reasoning, human-AI collaboration, benchmarking, multimodal learning, robotics, memory, and the implications of AI risks.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+The recent body of work in AI research and applications has increasingly focused on security, particularly in the context of large language models (LLMs) and their deployment in various domains. Below is a synthesis of key themes, trends, and insights derived from the provided papers and articles.
+
+#### 1. **Security Vulnerabilities and Threats**
+   - **Memory Poisoning and Data Exfiltration**: Papers like "Trojan Hippo" and "MEMSAD" highlight the risks associated with persistent memory in LLMs, where attackers can exploit dormant payloads to extract sensitive information. This emphasizes the need for robust defenses against memory attacks.
+   - **Model Attribution and Fingerprinting**: The "SPRINT" paper discusses the challenges of detecting the source of AI-generated images, proposing a method that focuses on hidden reconstruction targets to enhance robustness against adaptive attacks.
+   - **Bias and Ethical Considerations**: The "Social Bias in LLM-Generated Code" paper reveals significant biases in LLM outputs, stressing the importance of fairness and ethical considerations in AI applications, particularly in sensitive areas like healthcare.
+
+#### 2. **Mitigation Strategies**
+   - **Adaptive Mechanisms**: The introduction of frameworks like "CacheTTL" and "S2O" demonstrates innovative approaches to optimize performance while maintaining security. These systems adaptively manage resources and improve efficiency in LLM inference, which is crucial for real-time applications.
+   - **Multi-Agent Systems**: The "CuraView" framework for detecting hallucinations in clinical settings showcases how multi-agent systems can enhance the reliability of AI outputs by providing structured, evidence-grounded evaluations.
+
+#### 3. **Evaluation and Benchmarking**
+   - **New Benchmarks**: Initiatives like "HWE-Bench" and "EditPropBench" provide structured evaluation frameworks for assessing the performance of AI systems in real-world scenarios. These benchmarks focus on critical aspects such as robustness, factual accuracy, and the ability to handle complex tasks.
+   - **Human-in-the-Loop Approaches**: The "HiL-Bench" paper emphasizes the importance of human oversight in AI decision-making processes, particularly in high-stakes environments. This approach helps to identify when AI systems should escalate issues to human operators.
+
+#### 4. **Trust and Transparency**
+   - **Trust Metrics**: The "Quantifying Trust" paper discusses the need for trust metrics in AI systems, particularly those that operate autonomously. Establishing clear, measurable trust indicators can help ensure that AI systems behave reliably and ethically.
+   - **Explainability**: The "Atomic Fact-Checking" study highlights the role of explainability in enhancing clinician trust in AI recommendations. By breaking down AI outputs into verifiable claims, the framework improves transparency and accountability.
+
+#### 5. **Innovative Learning Approaches**
+   - **Self-Distillation and Reinforcement Learning**: Papers like "ReCode" and "MICA" explore novel learning paradigms that incorporate self-assessment and multi-granularity credit assignment, respectively. These methods aim to enhance the adaptability and performance of AI systems in dynamic environments.
+
+### Trends and Insights
+- **Increased Focus on Robustness**: There is a clear trend towards developing AI systems that are not only effective but also robust against various forms of attacks and biases. This includes both technical defenses and ethical considerations.
+- **Integration of Human Oversight**: Many recent frameworks emphasize the importance of human involvement in AI decision-making, particularly in sensitive applications like healthcare and security.
+- **Benchmarking and Evaluation**: The establishment of new benchmarks is crucial for assessing the performance and safety of AI systems, ensuring that they meet the necessary standards before deployment.
+- **Adaptive Learning Mechanisms**: The exploration of adaptive learning strategies, such as those that leverage contextual information and user feedback, is becoming increasingly important for improving AI performance in real-world applications.
+
+### Conclusion
+The intersection of AI and security is a rapidly evolving field, with ongoing research addressing the myriad challenges posed by deploying AI systems in real-world contexts. The focus on robustness, transparency, and ethical considerations is essential for building trust and ensuring the safe use of AI technologies. As these systems become more integrated into critical domains, the need for comprehensive evaluation frameworks and adaptive mechanisms will only grow.
