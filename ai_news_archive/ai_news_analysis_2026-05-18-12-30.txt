@@ -1,0 +1,133 @@
+AI Researcher Agent Report for 2026-05-18-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [DeepSlide: From Artifacts to Presentation Delivery](https://arxiv.org/abs/2605.15202): DeepSlide is a multi-agent system designed to enhance the presentation delivery process by integrating various components for narrative planning, slide generation, and rehearsal support. It improves delivery metrics while maintaining artifact quality.
+- [SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch](https://arxiv.org/abs/2605.15204): SDOF is a framework for multi-agent orchestration that treats execution as a constrained state machine, achieving high task completion rates while blocking illegal operations.
+- [Does Theory of Mind Improvement Really Benefit Human-AI Interactions?](https://arxiv.org/abs/2605.15205): This paper examines the effectiveness of Theory of Mind improvements in LLMs for human-AI interactions, revealing that static benchmark improvements do not always translate to better dynamic interactions.
+- [SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces](https://arxiv.org/abs/2605.15215): SkillSmith is a framework that compiles agent skills into minimal executable interfaces, reducing redundancy and improving execution efficiency.
+- [Fair outputs, Biased Internals: Causal Potency and Asymmetry of Latent Bias in LLMs for High-Stakes Decisions](https://arxiv.org/abs/2605.15217): This paper investigates latent biases in LLMs, showing that fair outputs can mask internal biases that affect decision-making, emphasizing the need for dual-layer testing frameworks.
+- [CAX-Agent: A Lightweight Agent Harness for Reliable APDL Automation](https://arxiv.org/abs/2605.15218): CAX-Agent is designed to improve reliability in APDL automation by managing tool lifecycles and workflow states, demonstrating strong performance in structural benchmarks.
+- [NOVA: Fundamental Limits of Knowledge Discovery Through AI](https://arxiv.org/abs/2605.15219): The NOVA framework models knowledge discovery as an adaptive sampling process, identifying conditions for genuine knowledge accumulation and failure modes.
+- [ICRL: Learning to Internalize Self-Critique with Reinforcement Learning](https://arxiv.org/abs/2605.15224): ICRL proposes a framework for LLMs to internalize critique through reinforcement learning, ensuring models improve without external feedback.
+- [NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol](https://arxiv.org/abs/2605.15227): NIMO Controller is a software architecture for self-driving laboratories that provides a unified interface for human users and AI agents.
+- [Verifiable Agentic Infrastructure: Proof-Derived Authorization for Sovereign AI Systems](https://arxiv.org/abs/2605.15228): This paper introduces a verification framework for AI systems that ensures actions are authorized based on structured proofs, enhancing governance in sovereign AI deployments.
+- [Solvita: Enhancing Large Language Models for Competitive Programming via Agentic Evolution](https://arxiv.org/abs/2605.15301): Solvita is an agentic evolution framework that improves LLM performance in competitive programming by reorganizing problem-solving into a closed-loop system.
+- [SMCEvolve: Principled Scientific Discovery via Sequential Monte Carlo Evolution](https://arxiv.org/abs/2605.15308): SMCEvolve recasts program search as sampling from a reward-tilted target distribution, providing principled components for program evolution.
+- [Context Pruning for Coding Agents via Multi-Rubric Latent Reasoning](https://arxiv.org/abs/2605.15315): This paper introduces LaMR, a structured pruning framework that improves coding agent performance by modeling code relevance through multiple quality dimensions.
+- [Zero-Shot Goal Recognition with Large Language Models](https://arxiv.org/abs/2605.15333): This paper evaluates LLMs as goal recognizers, revealing uneven competence and highlighting the need for principled benchmarks.
+- [Belief Engine: Configurable and Inspectable Stance Dynamics in Multi-Agent LLM Deliberation](https://arxiv.org/abs/2605.15343): The Belief Engine provides an auditable belief-update layer for LLM agents, enabling structured memory extraction and stance updates based on evidence.
+- [Ensemble Monitoring for AI Control: Diverse Signals Outweigh More Compute](https://arxiv.org/abs/2605.15377): This paper shows that combining diverse monitors improves detection of misaligned actions in AI systems, supporting ensemble monitoring as a practical control strategy.
+- [Beyond Partner Diversity: An Influence-Based Team Steering Framework for Zero-Shot Human-Machine Teaming](https://arxiv.org/abs/2605.15400): This framework uses influence shaping to improve coordination in human-machine teaming, demonstrating enhanced team performance.
+- [From LLM-Generated Conjectures to Lean Formalizations: Automated Polynomial Inequality Proving via Sum-of-Squares Certificates](https://arxiv.org/abs/2605.15445): This paper presents a neuro-symbolic framework for automated polynomial inequality proving, combining LLMs and symbolic computation.
+- [X-SYNTH: Beyond Retrieval -- Enterprise Context Synthesis from Observed Human Attention](https://arxiv.org/abs/2605.15505): X-SYNTH models enterprise context synthesis grounded in human attention, improving relevance and task performance.
+- [CAPS: Cascaded Adaptive Pairwise Selection for Efficient Parallel Reasoning](https://arxiv.org/abs/2605.15513): CAPS introduces a framework for adaptive pairwise selection in reasoning tasks, improving efficiency and accuracy.
+- [RTL-BenchMT: Dynamic Maintenance of RTL Generation Benchmark Through Agent-Assisted Analysis and Revision](https://arxiv.org/abs/2605.15537): This paper presents an agentic framework for maintaining RTL generation benchmarks, addressing flaws and overfitting.
+- [DRS-GUI: Dynamic Region Search for Training-Free GUI Grounding](https://arxiv.org/abs/2605.15542): DRS-GUI introduces a training-free framework for GUI grounding, improving performance through dynamic perceptual actions.
+- [Position: Artificial Intelligence Needs Meta Intelligence -- the Case for Metacognitive AI](https://arxiv.org/abs/2605.15567): This position paper advocates for metacognition in AI design to improve accuracy, security, and efficiency.
+- [STAR: A Stage-attributed Triage and Repair framework for RCA Agents in Microservices](https://arxiv.org/abs/2605.15581): STAR presents a framework for repairing root cause analysis workflows in microservices, improving reliability and fault localization.
+- [See Before You Code: Learning Visual Priors for Spatially Aware Educational Animation Generation](https://arxiv.org/abs/2605.15585): This paper introduces OmniManim, a framework for educational animation generation that improves visual quality through render-feedback-aware generation.
+- [TopoEvo: A Topology-Aware Self-Evolving Multi-Agent Framework for Root Cause Analysis in Microservices](https://arxiv.org/abs/2605.15611): TopoEvo combines graph representation learning with structured reasoning for root cause analysis in microservices.
+- [ColPackAgent: Agent-Skill-Guided Hard-Particle Monte Carlo Workflows for Colloidal Packing](https://arxiv.org/abs/2605.15625): ColPackAgent autonomously runs Monte Carlo simulations for colloidal packing, improving reliability and execution.
+- [PRISM: Prompt Reliability via Iterative Simulation and Monitoring for Enterprise Conversational AI](https://arxiv.org/abs/2605.15665): PRISM introduces a framework for continuous prompt optimization in enterprise conversational agents, improving reliability and reducing authoring time.
+- [NudgeRL: Nudging Beyond the Comfort Zone: Efficient Strategy-Guided Exploration for RLVR](https://arxiv.org/abs/2605.15726): NudgeRL proposes a framework for structured exploration in RLVR, improving efficiency and scalability.
+- [Can We Trust AI-Inferred User States?](https://arxiv.org/abs/2605.15734): This paper tests the reliability of AI measures of user states, revealing instability in individual scores and proposing a replicable evaluation framework.
+- [ALSO: Adversarial Online Strategy Optimization for Social Agents](https://arxiv.org/abs/2605.15768): ALSO introduces a framework for online strategy optimization in social simulation, improving social adaptation in dynamic environments.
+- [SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?](https://arxiv.org/abs/2605.15777): SaaS-Bench evaluates computer-using agents in realistic professional workflows, revealing limitations in planning and state tracking.
+- [Agentic Discovery of Neural Architectures: AIRA-Compose and AIRA-Design](https://arxiv.org/abs/2605.15871): AIRA-Compose and AIRA-Design explore autonomous design of neural architectures, achieving competitive performance against hand-designed models.
+- [Imperfect World Models are Exploitable](https://arxiv.org/abs/2605.15960): This paper introduces a definition of model exploitation in reinforcement learning, revealing vulnerabilities in world models.
+- [PAGER: Bridging the Semantic-Execution Gap in Point-Precise Geometric GUI Control](https://arxiv.org/abs/2605.15963): PAGER introduces a topology-aware agent for precise GUI control, improving task success rates.
+- [Learning Bilevel Policies over Symbolic World Models for Long-Horizon Planning](https://arxiv.org/abs/2605.15975): This paper proposes bilevel policies for combining low-level and high-level planning in embodied AI agents.
+- [ScreenSearch: Uncertainty-Aware OS Exploration](https://arxiv.org/abs/2605.16024): ScreenSearch combines structural screen retrieval with ambiguity-aware exploration for desktop GUI agents.
+- [Reasoners or Translators?](https://arxiv.org/abs/2605.16052): This paper examines the performance of LLMs in legal reasoning, revealing the impact of data contamination on evaluation.
+- [Margin-Adaptive Confidence Ranking for Reliable LLM Judgement](https://arxiv.org/abs/2605.15416): This paper introduces a confidence estimator for LLMs that improves ranking accuracy and enhances the relationship between confidence and disagreement risk.
+- [Learning with Conflicts of Interest](https://arxiv.org/abs/2605.15504): This paper proposes a game-theoretic framework for modeling the interaction between ML systems and users with conflicting interests.
+- [QuickLAP: Quick Language-Action Preference Learning for Semi-Autonomous Systems](https://arxiv.org/abs/2511.17855): QuickLAP is a framework that fuses physical and language feedback to infer reward functions in real-time for semi-autonomous systems.
+- [AI-Mediated Communication Can Steer Collective Opinion](https://arxiv.org/abs/2605.16245): This paper explores how AI can influence collective opinion formation through adversarial explanation attacks.
+- [CitePrism: Human-in-the-Loop AI for Citation Auditing and Editorial Integrity](https://arxiv.org/abs/2605.16000): CitePrism is a hybrid decision-support framework for citation auditing that combines LLM-assisted reasoning with human review.
+
+### Categories
+#### Security and Ethics
+- [Fair outputs, Biased Internals: Causal Potency and Asymmetry of Latent Bias in LLMs for High-Stakes Decisions](https://arxiv.org/abs/2605.15217)
+- [Trojan Hippo: Weaponizing Agent Memory for Data Exfiltration](https://arxiv.org/abs/2605.01970)
+- [Can We Trust AI-Inferred User States?](https://arxiv.org/abs/2605.15734)
+- [Learning with Conflicts of Interest](https://arxiv.org/abs/2605.15504)
+- [SafeGPT: Preventing Data Leakage and Unethical Outputs in Enterprise LLM Use](https://arxiv.org/abs/2601.06366)
+- [ADMIT: Few-shot Knowledge Poisoning Attacks on RAG-based Fact Checking](https://arxiv.org/abs/2510.13842)
+
+#### Multi-Agent Systems
+- [DeepSlide: From Artifacts to Presentation Delivery](https://arxiv.org/abs/2605.15202)
+- [SDOF: Taming the Alignment Tax in Multi-Agent Orchestration with State-Constrained Dispatch](https://arxiv.org/abs/2605.15204)
+- [SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces](https://arxiv.org/abs/2605.15215)
+- [CAX-Agent: A Lightweight Agent Harness for Reliable APDL Automation](https://arxiv.org/abs/2605.15218)
+- [Solvita: Enhancing Large Language Models for Competitive Programming via Agentic Evolution](https://arxiv.org/abs/2605.15301)
+- [STAR: A Stage-attributed Triage and Repair framework for RCA Agents in Microservices](https://arxiv.org/abs/2605.15581)
+- [NIMO Controller: a self-driving laboratory orchestrator based on the Model Context Protocol](https://arxiv.org/abs/2605.15227)
+
+#### Learning and Adaptation
+- [Does Theory of Mind Improvement Really Benefit Human-AI Interactions?](https://arxiv.org/abs/2605.15205)
+- [NOVA: Fundamental Limits of Knowledge Discovery Through AI](https://arxiv.org/abs/2605.15219)
+- [ICRL: Learning to Internalize Self-Critique with Reinforcement Learning](https://arxiv.org/abs/2605.15224)
+- [SkillSmith: Compiling Agent Skills into Boundary-Guided Runtime Interfaces](https://arxiv.org/abs/2605.15215)
+- [Learning with Conflicts of Interest](https://arxiv.org/abs/2605.15504)
+
+#### Evaluation and Benchmarking
+- [CitePrism: Human-in-the-Loop AI for Citation Auditing and Editorial Integrity](https://arxiv.org/abs/2605.16000)
+- [HAI-Eval: Measuring Human-AI Synergy in Collaborative Coding](https://arxiv.org/abs/2512.04111)
+- [IndicSafe: A Benchmark for Evaluating Multilingual LLM Safety in South Asia](https://arxiv.org/abs/2603.17915)
+- [FormulaCode: Evaluating Agentic Optimization on Large Codebases](https://arxiv.org/abs/2603.16011)
+
+#### Generative Models and Applications
+- [OmniVL-Guard: Towards Unified Vision-Language Forgery Detection and Grounding via Balanced RL](https://arxiv.org/abs/2602.10687)
+- [NoiseShift: Resolution-Aware Noise Recalibration for Better Low-Resolution Image Generation](https://arxiv.org/abs/2510.02307)
+- [Flowette: Flow Matching with Graphette Priors for Graph Generation](https://arxiv.org/abs/2602.23566)
+- [SARVLM: A Vision Language Foundation Model for Semantic Understanding in SAR Imagery](https://arxiv.org/abs/2510.22665v3)
+
+#### Robotics and Control
+- [Learning Developmental Scaffoldings to Guide Self-Organisation](https://arxiv.org/abs/2605.14998)
+- [Learning Dynamic Pick-and-Place for a Legged Manipulator from Human Teleoperation Data](https://arxiv.org/abs/2605.16043)
+- [CLOVER: Closed-Loop Value Estimation and Ranking for End-to-End Autonomous Driving Planning](https://arxiv.org/abs/2605.15120)
+
+#### Miscellaneous
+- [Honey, I shrunk the hypothesis space (through logical preprocessing)](https://arxiv.org/abs/2605.16112)
+- [The Hardness of Achieving Impact in AI for Social Impact Research: A Ground-Level View of Challenges & Opportunities](https://arxiv.org/abs/2506.14829)
+- [A Model Can Help Itself: Reward-Free Self-Training for LLM Reasoning](https://arxiv.org/abs/2510.18814)
+- [When AI Persuades: Adversarial Explanation Attacks on Human Trust in AI-Assisted Decision Making](https://arxiv.org/abs/2602.04003)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Overview
+The recent body of research and news articles highlights significant advancements in AI, particularly in the context of security, ethical considerations, and the robustness of AI systems. The focus has been on developing frameworks and methodologies that enhance the reliability, interpretability, and safety of AI applications, especially in sensitive domains such as healthcare, finance, and autonomous systems.
+
+#### Key Themes and Trends
+
+1. **Security and Ethical Concerns**:
+   - **Adversarial Attacks**: Several papers discuss the vulnerabilities of AI systems to adversarial attacks, particularly in the context of LLMs (Large Language Models). For instance, the paper on **Trojan Hippo** explores how malicious actors can exploit agent memory for data exfiltration, highlighting the need for robust security measures in AI systems.
+   - **Data Leakage Prevention**: The **SafeGPT** framework aims to prevent data leakage and unethical outputs in enterprise LLM use, showcasing the growing concern over privacy and ethical implications in AI deployments.
+
+2. **Memory and Knowledge Management**:
+   - **Memory Systems**: Research on **RecMem** emphasizes the importance of effective memory systems in LLMs, proposing a structured belief state that evolves over time to improve user interactions. This aligns with the need for AI systems to retain and utilize knowledge effectively while ensuring security.
+   - **Knowledge Poisoning**: The **ADMIT** paper discusses few-shot knowledge poisoning attacks on RAG-based (Retrieval-Augmented Generation) systems, indicating the challenges in maintaining the integrity of knowledge bases used by AI systems.
+
+3. **Explainability and Interpretability**:
+   - **Explainable AI**: The **FM-G-CAM** framework presents a comprehensive approach to explainability in CNN models, emphasizing the necessity of understanding AI decision-making processes, especially in high-stakes environments like healthcare.
+   - **CitePrism** introduces a hybrid decision-support framework for citation auditing, which combines LLM-assisted contextual reasoning with human oversight, underlining the importance of transparency in AI-generated outputs.
+
+4. **Robustness and Generalization**:
+   - **Robustness in Adversarial Settings**: The **DebiasRAG** framework aims to enhance fairness in AI outputs, while **ActiveDPO** focuses on robust policy optimization in the presence of noisy evaluations, demonstrating the ongoing efforts to improve AI reliability.
+   - **Generalization Across Domains**: The **IndicSafe** benchmark evaluates LLM safety across multiple languages, revealing significant safety drift and the need for models to generalize effectively across diverse linguistic and cultural contexts.
+
+5. **Frameworks for Collaboration and Coordination**:
+   - **Multi-Agent Systems**: The **Swarm Skills** framework proposes a method for codifying multi-agent workflows into portable assets, facilitating better collaboration among AI agents while ensuring safety and reliability.
+   - **NIAgent** introduces a multi-agent system for autonomous neuroimaging analysis, showcasing the potential for AI agents to collaborate effectively in complex tasks while maintaining high standards of safety and accuracy.
+
+6. **Innovative Approaches to Learning and Adaptation**:
+   - **Self-Evolving Models**: The **NanoResearch** framework emphasizes the importance of personalization in research automation, allowing AI systems to adapt to individual user needs while ensuring ethical considerations are met.
+   - **Dynamic Learning**: The **AIPO** framework enhances reasoning in LLMs through active multi-agent interaction, demonstrating the potential for AI systems to learn and adapt in real-time.
+
+### Conclusion
+The research and articles reviewed indicate a strong trend towards enhancing the security, explainability, and robustness of AI systems, particularly in sensitive applications. The integration of frameworks that allow for dynamic learning, effective memory management, and collaborative multi-agent systems is crucial for addressing the challenges posed by adversarial threats and ethical concerns. As AI continues to evolve, these considerations will be paramount in ensuring that AI systems are not only effective but also safe and trustworthy.
