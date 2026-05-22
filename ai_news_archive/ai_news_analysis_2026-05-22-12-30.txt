@@ -1,0 +1,117 @@
+AI Researcher Agent Report for 2026-05-22-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs](https://arxiv.org/abs/2605.21602): This paper introduces a benchmark called Misalignment Out Of Distribution (MOOD) to study out-of-distribution (OOD) alignment failures in large language models (LLMs). It finds that guard models often fail to generalize OOD and proposes combining guard models with OOD detectors to improve recall rates.
+- [TO-Agents: A Multi-Agent AI Pipeline for Preference-Guided Topology Optimization](https://arxiv.org/abs/2605.21622): This paper presents TO-Agents, a multi-agent AI framework that connects natural-language design intent with topology optimization, producing designs aligned with user preferences through iterative feedback.
+- [The Shape of Testimony: A Scalable Framework for Oral History Archive Comparison](https://arxiv.org/abs/2605.21623): This study analyzes oral survivor testimonies from Holocaust studies, revealing overlaps between structured and free-form styles and providing a scalable framework for comparative analysis.
+- [MindLoom: Composing Thought Modes for Frontier-Level Reasoning Data Synthesis](https://arxiv.org/abs/2605.21630): MindLoom synthesizes reasoning data by decomposing complex problems into thought modes, improving the generation of diverse reasoning patterns for LLMs.
+- [AOP-Wiki EMOD 3.0: Data Model Expansions and Content Evaluation Framework for Using Agentic AI to Improve Integration between AOPs and New Approach Methodologies (NAMs)](https://arxiv.org/abs/2605.21645): This paper discusses the AOP-Wiki's evolution and the integration of agentic AI to enhance regulatory science and risk assessment.
+- [Investigating Concept Alignment Using Implausible Category Members](https://arxiv.org/abs/2605.21683): This research examines AI systems' understanding of concepts by probing their responses to implausible category members, revealing misalignments that can lead to unsafe behavior.
+- [The Impact of AI Usage and Informativeness on Skill Development in Logical Reasoning](https://arxiv.org/abs/2605.21695): This study finds that heavy AI usage correlates with weaker skill development in logical reasoning, suggesting that AI can either complement or undermine human reasoning skills.
+- [Latent-space Attacks for Refusal Evasion in Language Models](https://arxiv.org/abs/2605.21706): This paper discusses how safety-aligned language models can be manipulated to suppress refusal behavior through latent-space evasion attacks.
+- [AttuneBench: A Conversation-Based Benchmark for LLM Emotional Intelligence](https://arxiv.org/abs/2605.21739): AttuneBench evaluates LLMs' emotional intelligence through genuine multi-turn conversations, revealing that emotionally intelligent behavior requires context-specific predictions.
+- [SMDD-Bench: Can LLMs Solve Real-World Small Molecule Drug Design Tasks?](https://arxiv.org/abs/2605.21740): This benchmark evaluates LLMs on small molecule drug design tasks, revealing that even the best models struggle to solve a significant portion of tasks.
+- [Who Uses AI? Platforms, Workforce, and AI Exposure](https://arxiv.org/abs/2605.21743): This paper examines the exposure of different occupations to AI, revealing biases in estimates based on platform user bases.
+- [A Causal Argumentation Method for Explainability of Machine Learning Models](https://arxiv.org/abs/2605.21758): This work presents a novel method for explaining machine learning predictions using causal relationships and argumentation frameworks.
+- [What Counts as AI Sycophancy? A Taxonomy and Expert Survey of a Fragmented Construct](https://arxiv.org/abs/2605.21778): This paper develops a taxonomy of AI sycophancy behaviors and surveys experts to understand the implications for AI systems.
+- [Trace2Skill: Verifier-Guided Skill Evolution for Long-Context EDA Agents](https://arxiv.org/abs/2605.21810): This framework improves hardware agents by evolving skills based on repeated rollout traces, enhancing task-specific performance.
+- [Implicit Safety Alignment from Crowd Preferences](https://arxiv.org/abs/2605.21822): This work explores how crowd preferences can be used to align RL agents with implicit safety objectives without explicit safety rewards.
+- [Toward AI VIS Co-Scientists: A General and End-to-End Agent Harness for Solving Complex Data Visualization Tasks](https://arxiv.org/abs/2605.21825): This paper presents an end-to-end agentic harness for autonomously designing data visualization solutions.
+- [FLUID: From Ephemeral IDs to Multimodal Semantic Codes for Industrial-Scale Livestreaming Recommendation](https://arxiv.org/abs/2605.21832): FLUID introduces a framework for improving livestreaming recommendations by retiring candidate IDs and using multimodal encoders.
+- [Planning in the LLM Era: Building for Reliability and Efficiency](https://arxiv.org/abs/2605.21902): This paper discusses the evolution of planning methods in the context of LLMs, emphasizing the need for reliable and efficient solutions.
+- [AI-Enabled Serious Games: Integrating Intelligence and Adaptivity in Training Systems](https://arxiv.org/abs/2605.21962): This chapter examines how AI can enhance serious games for learning and training, addressing challenges related to validity and transparency.
+- [Format-Constraint Coupling in Knowledge Graph Construction from Statistical Tables](https://arxiv.org/abs/2605.21974): This research explores how format and schema constraints interact in knowledge graph construction, revealing critical insights for fidelity-aware evaluation.
+- [Echo: Learning from Experience Data via User-Driven Refinement](https://arxiv.org/abs/2605.21984): Echo presents a framework for operationalizing continuous learning from experience data in AI systems.
+- [ECPO: Evidence-Coupled Policy Optimization for Evidence-Certified Candidate Ranking](https://arxiv.org/abs/2605.21993): This paper introduces a policy optimization method that couples ranking with evidence certification for decision-support systems.
+- [The Log is the Agent: Event-Sourced Reactive Graphs for Auditable, Forkable Agentic Systems](https://arxiv.org/abs/2605.21997): This work presents a new runtime architecture for agentic systems based on event-sourced reactive graphs.
+- [Active Evidence-Seeking and Diagnostic Reasoning in Large Language Models for Clinical Decision Support](https://arxiv.org/abs/2605.22047): This study evaluates the performance of LLMs in active diagnostic inquiry, revealing significant drops in accuracy under multi-turn evidence-seeking conditions.
+- [Enhancing Visual Token Representations for Video Large Language Models via Training-Free Spatial-Temporal Pooling and Gridding](https://arxiv.org/abs/2605.22078): This paper proposes a method for improving visual token representations in video LLMs through spatial-temporal pooling techniques.
+- [A Camera-Cooperative ISAC Framework for Multimodal Non-Cooperative UAVs Sensing](https://arxiv.org/abs/2605.22090): This framework enhances UAV sensing capabilities through multimodal cooperation and efficient resource utilization.
+- [Knowledge Graph Re-engineering Along the Ontological Continuum (extended version)](https://arxiv.org/abs/2605.22093): This work presents a framework for re-engineering knowledge graphs to fit new requirements, emphasizing the importance of understanding the KG space.
+- [MPDocBench-Parse: Benchmarking Practical Multi-page Document Parsing](https://arxiv.org/abs/2605.22100): This benchmark evaluates multi-page document parsing, addressing gaps in existing benchmarks and providing a comprehensive evaluation protocol.
+- [ExComm: Exploration-Stage Communication for Error-Resilient Agentic Test-Time Scaling](https://arxiv.org/abs/2605.22102): ExComm introduces a communication protocol for agentic systems to improve error recovery during test-time scaling.
+- [ArborKV: Structure-Aware KV Cache Management for Scaling Tree-based LLM Reasoning](https://arxiv.org/abs/2605.22106): ArborKV presents a framework for managing KV cache in tree-structured reasoning, reducing memory bottlenecks.
+- [Perception or Prejudice: Can MLLMs Go Beyond First Impressions of Personality?](https://arxiv.org/abs/2605.22109): This research investigates the ability of MLLMs to perceive personality traits beyond surface-level judgments.
+- [Echo4DIR: 4D Implicit Heart Reconstruction from 2D Echocardiography Videos](https://arxiv.org/abs/2605.22066): This paper presents a framework for reconstructing 4D cardiac geometry from 2D echocardiography, demonstrating the effectiveness of implicit representations.
+- [Learning to Configure Agentic AI Systems](https://arxiv.org/abs/2602.11574): This work formulates agent configuration as a semi-Markov decision process, improving performance in various tasks.
+- [MAVEN: A Multi-stage Agentic Annotation Pipeline for Video Reasoning Tasks](https://arxiv.org/abs/2605.21917): MAVEN introduces a multi-stage pipeline for annotating video reasoning tasks, enhancing the quality of training data for LLMs.
+- [SiameseNorm: Breaking the Barrier to Reconciling Pre/Post-Norm](https://arxiv.org/abs/2602.08064): This paper presents SiameseNorm, a two-stream architecture that combines pre- and post-norm layers for improved performance in transformers.
+- [Learning Without Losing Identity: Capability Evolution for Embodied Agents](https://arxiv.org/abs/2604.07799): This work proposes a capability-centric evolution paradigm for embodied agents, improving task success rates while preserving agent identity.
+- [The Augmentation Trap: AI Productivity and the Cost of Cognitive Offloading](https://arxiv.org/abs/2604.03501): This paper discusses the trade-offs between AI productivity gains and the erosion of human expertise due to cognitive offloading.
+- [Learning to Configure Agentic AI Systems](https://arxiv.org/abs/2602.11574): This work formulates agent configuration as a semi-Markov decision process, improving performance in various tasks.
+- [SiameseNorm: Breaking the Barrier to Reconciling Pre/Post-Norm](https://arxiv.org/abs/2602.08064): This paper presents SiameseNorm, a two-stream architecture that combines pre- and post-norm layers for improved performance in transformers.
+
+### Categories
+#### Security
+- [Latent-space Attacks for Refusal Evasion in Language Models](https://arxiv.org/abs/2605.21706)
+- [Blind Spots in the Guard: How Domain-Camouflaged Injection Attacks Evade Detection in Multi-Agent LLM Systems](https://arxiv.org/abs/2605.22001)
+- [Detecting Atypical Clients in Federated Learning via Representation-Level Divergence](https://arxiv.org/abs/2605.22266)
+- [Adversarial Trust Poisoning in Vehicular Collaborative Perception](https://arxiv.org/abs/2605.22122)
+- [Semantic Attacks on Tool-Augmented LLMs: Securing the Model Context Protocol Against Descriptor-Level Manipulation](https://arxiv.org/abs/2512.06556)
+- [The Hidden Cost of Contextual Sycophancy: an AI Literacy Intervention in Human-AI Collaboration](https://arxiv.org/abs/2605.18372)
+
+#### Healthcare
+- [Echo4DIR: 4D Implicit Heart Reconstruction from 2D Echocardiography Videos](https://arxiv.org/abs/2605.22066)
+- [AI-Driven Prediction of Cancer Pain Episodes: A Hybrid Decision Support Approach](https://arxiv.org/abs/2512.16739)
+- [Towards Clinically Interpretable Ophthalmic VQA via Spatially-Grounded Lesion Evidence](https://arxiv.org/abs/2605.22414)
+- [HealthMamba: An Uncertainty-aware Spatiotemporal Graph State Space Model for Effective and Reliable Healthcare Facility Visit Prediction](https://arxiv.org/abs/2602.05286)
+
+#### Reinforcement Learning
+- [Learning to Configure Agentic AI Systems](https://arxiv.org/abs/2602.11574)
+- [Learning Without Losing Identity: Capability Evolution for Embodied Agents](https://arxiv.org/abs/2604.07799)
+- [One LR Doesn't Fit All: Heavy-Tail Guided Layerwise Learning Rates for LLMs](https://arxiv.org/abs/2605.22297)
+- [Learning to Configure Agentic AI Systems](https://arxiv.org/abs/2602.11574)
+
+#### Natural Language Processing
+- [Latent-space Attacks for Refusal Evasion in Language Models](https://arxiv.org/abs/2605.21706)
+- [AttuneBench: A Conversation-Based Benchmark for LLM Emotional Intelligence](https://arxiv.org/abs/2605.21739)
+- [What Counts as AI Sycophancy? A Taxonomy and Expert Survey of a Fragmented Construct](https://arxiv.org/abs/2605.21778)
+- [Learning to Configure Agentic AI Systems](https://arxiv.org/abs/2602.11574)
+
+#### General AI
+- [Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs](https://arxiv.org/abs/2605.21602)
+- [MindLoom: Composing Thought Modes for Frontier-Level Reasoning Data Synthesis](https://arxiv.org/abs/2605.21630)
+- [AOP-Wiki EMOD 3.0: Data Model Expansions and Content Evaluation Framework for Using Agentic AI to Improve Integration between AOPs and New Approach Methodologies (NAMs)](https://arxiv.org/abs/2605.21645)
+- [Investigating Concept Alignment Using Implausible Category Members](https://arxiv.org/abs/2605.21683)
+- [The Impact of AI Usage and Informativeness on Skill Development in Logical Reasoning](https://arxiv.org/abs/2605.21695)
+- [The Shape of Testimony: A Scalable Framework for Oral History Archive Comparison](https://arxiv.org/abs/2605.21623)
+
+This summary provides an overview of the latest research in AI, particularly focusing on security, healthcare, reinforcement learning, natural language processing, and general AI advancements.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends:
+1. **Security Vulnerabilities in AI Systems**: Several papers highlight the vulnerabilities of AI systems, particularly in the context of Large Language Models (LLMs). For instance, the paper on "Blind Spots in the Guard" discusses how domain-camouflaged injection attacks can evade detection in multi-agent LLM systems, emphasizing the need for robust defenses against such attacks.
+
+2. **Adversarial Attacks and Defenses**: The exploration of adversarial attacks on AI systems is a recurring theme. Papers like "Adversarial Trust Poisoning" and "Semantic Attacks on Tool-Augmented LLMs" delve into how adversaries can exploit weaknesses in AI systems and propose methods to enhance security through better design and verification mechanisms.
+
+3. **Robustness and Reliability**: The importance of robustness in AI systems is underscored in various studies. For example, "Robust Reasoning Benchmark" evaluates how LLMs perform under different conditions, revealing that while they excel in standard benchmarks, they struggle with nuanced reasoning tasks. Similarly, "Reliability and Effectiveness of Autonomous AI Agents in Supply Chain Management" discusses the need for reliable decision-making in high-stakes environments.
+
+4. **Ethical and Moral Considerations**: The papers on moral alignment and ethical decision-making in AI systems, such as "MoralityGym" and "Reducing Political Manipulation with Consistency Training," reflect a growing concern about the ethical implications of AI decisions, particularly in sensitive areas like healthcare and law.
+
+5. **Integration of AI in Healthcare**: Several papers focus on the application of AI in healthcare, emphasizing the need for reliable and interpretable AI systems. For instance, "AI-Driven Prediction of Cancer Pain Episodes" and "Towards Clinically Interpretable Ophthalmic VQA" explore how AI can assist in clinical decision-making while addressing the challenges of interpretability and trust.
+
+6. **Benchmarking and Evaluation Frameworks**: The introduction of new benchmarks, such as "ClaimRAG-LAW" and "VDE Bench," aims to provide structured evaluation frameworks for assessing the performance of AI systems in specific domains, including law and medical imaging.
+
+7. **Human-AI Collaboration**: The papers on human-in-the-loop systems, such as "CentaurEval" and "The Hidden Cost of Contextual Sycophancy," highlight the challenges and opportunities in human-AI collaboration, particularly in educational and professional settings.
+
+8. **Memory and Knowledge Management**: The exploration of memory systems in AI, as seen in "NeuSymMS" and "MemReward," indicates a focus on how AI systems can retain and utilize knowledge effectively, which is crucial for enhancing their performance and reliability.
+
+### Insights and Implications:
+- **Need for Robust Defense Mechanisms**: The findings suggest that as AI systems become more integrated into critical applications, there is an urgent need for robust defense mechanisms against adversarial attacks and vulnerabilities. This includes developing better detection systems and ensuring that AI models can operate safely in real-world environments.
+
+- **Ethical Frameworks for AI Development**: The emphasis on moral alignment and ethical considerations indicates that AI developers must incorporate ethical frameworks into their design processes to ensure that AI systems act in ways that are aligned with human values and societal norms.
+
+- **Importance of Evaluation and Benchmarking**: The introduction of new benchmarks for evaluating AI systems underscores the necessity for rigorous testing and validation to ensure that AI models perform reliably across different contexts and applications.
+
+- **Human-AI Collaboration**: The exploration of human-in-the-loop systems highlights the potential for AI to augment human decision-making, but also points to the need for careful design to avoid pitfalls such as sycophancy and over-reliance on AI outputs.
+
+- **Memory Systems in AI**: The focus on memory and knowledge management suggests that future AI systems should be designed to retain and utilize knowledge effectively, which is essential for improving their adaptability and performance in dynamic environments.
+
+### Conclusion:
+The landscape of AI security and application is rapidly evolving, with significant advancements in understanding vulnerabilities, ethical implications, and the integration of AI in various domains. As AI systems become more prevalent, ongoing research and development will be crucial in addressing these challenges and ensuring that AI technologies are safe, reliable, and beneficial for society.
