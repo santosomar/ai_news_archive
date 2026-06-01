@@ -1,0 +1,144 @@
+AI Researcher Agent Report for 2026-06-01-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [PhyDrawGen: Physically Grounded Diagram Generation from Natural Language](https://arxiv.org/abs/2605.30512): Introduces PhyDrawGen, a neuro-symbolic pipeline for generating physics diagrams from text while adhering to physical laws, outperforming existing models in accuracy.
+- [Physically Viable World Models: A Case for Query-Conditioned Embodied AI](https://arxiv.org/abs/2605.30542): Proposes a new approach to world models for embodied AI that focuses on physical viability and query conditioning, highlighting the need for modular components.
+- [Transforming and Encoding FTS for SAT Solving: What Helps, What Hurts (Extended Version)](https://arxiv.org/abs/2605.30563): Investigates encoding factored tasks in SAT and the impact of task transformations on SAT planner performance.
+- [Procedural Generation of First Person Shooter Maps using Map-Elites](https://arxiv.org/abs/2605.30570): Explores using MAP-Elites for evolving diverse FPS maps, introducing new representations and metrics for map evaluation.
+- [Uncertainty-Aware and Temporally Regulated Expert Advice in Reinforcement Learning for Autonomous Driving](https://arxiv.org/abs/2605.30576): Proposes a framework for safer exploration in RL for autonomous driving by integrating expert advice based on uncertainty thresholds.
+- [Harness Updating Is Not Harness Benefit: Disentangling Evolution Capabilities in Self-Evolving LLM Agents](https://arxiv.org/abs/2605.30621): Analyzes the capabilities of LLM agents in self-evolution, revealing insights about harness-updating and harness-benefit.
+- [EHRBench: An Automated and Reliable EHR-based Benchmark for Clinical Decision Making with LLMs](https://arxiv.org/abs/2605.30637): Introduces EHRBench, a benchmark for evaluating LLMs in clinical decision-making, constructed from real patient EHRs.
+- [Structure-Induced Information for Rerooting Levin Tree Search](https://arxiv.org/abs/2605.30664): Proposes a new method for policy tree search that uses learned rerooters to improve scalability and efficiency.
+- [Healthcare Mechanisms from Policy-as-Code Search under Strategic Provider Response](https://arxiv.org/abs/2605.30680): Discusses the design of healthcare mechanisms as program synthesis for language models, revealing insights into incentive structures.
+- [MAVEN: Improving Generalization in Agentic Tool Calling](https://arxiv.org/abs/2605.30738): Introduces MAVEN, a framework for improving tool-calling in agentic systems through structured decomposition and verification.
+- [Generating Graph-like Rules for Knowledge Graph Reasoning via Diffusion Models](https://arxiv.org/abs/2605.30747): Proposes GRiD, a framework for discovering graph-like rules in knowledge graphs using diffusion models.
+- [Learning Agent-Compatible Context Management for Long-Horizon Tasks](https://arxiv.org/abs/2605.30785): Introduces AdaCoM, a context management system for LLM agents to improve performance on long-horizon tasks.
+- [PReMISE: Policy Rubrics as Measurement Specifications for LLM Judges](https://arxiv.org/abs/2605.30803): Proposes a framework for evaluating LLM judges using reusable rubrics, revealing insights into the reliability of evaluation metrics.
+- [Planner-Centric Reinforcement Learning for Deep Research with Structure-Aware Reward](https://arxiv.org/abs/2605.30824): Introduces DecomposeR, a planner-centric framework for deep research tasks that improves planning and answering capabilities.
+- [SLAT: Segment-Level Adaptive Trimming for Efficient CoT Reasoning](https://arxiv.org/abs/2605.30832): Proposes SLAT, a framework for trimming reasoning segments in CoT to improve efficiency without sacrificing accuracy.
+- [COMPASS: Cognitive MCTS-Guided Process Alignment for Safe Search Agents](https://arxiv.org/abs/2605.30838): Introduces COMPASS, a framework for aligning search agents with safety measures while preserving utility.
+- [Distilling LLM Feedback for Lean Theorem Proving](https://arxiv.org/abs/2605.30861): Proposes a method for improving theorem proving through feedback distillation, enhancing diversity in generated trajectories.
+- [UniScale: Adaptive Unified Inference Scaling via Online Joint Optimization of Model Routing and Test-Time Scaling](https://arxiv.org/abs/2605.30898): Introduces UniScale, a framework for optimizing model routing and test-time scaling for improved inference quality and cost.
+- [BilliardPhys-Bench: Benchmarking Physical Reasoning and Visual Dynamics of Multimodal LLMs](https://arxiv.org/abs/2605.30900): Proposes a benchmark for evaluating physical reasoning in multimodal models, revealing limitations in current models.
+- [A Persona-Based Evaluation Framework for Pluralistic Alignment in Generative AI](https://arxiv.org/abs/2605.31021): Introduces a framework for evaluating generative AI alignment through diverse evaluative personas.
+- [HADT: A Heterogeneous Multi-Agent Differential Transformer for Autonomous Earth Observation Satellite Cluster](https://arxiv.org/abs/2605.31023): Proposes a transformer architecture for managing heterogeneous satellite clusters in autonomous operations.
+- [GraphARC: A Comprehensive Benchmark for Graph-Based Abstract Reasoning](https://arxiv.org/abs/2605.31031): Introduces a benchmark for abstract reasoning on graph-structured data, revealing limitations in current models.
+- [Vector Linking via Cross-Model Local Isometric Consistency](https://arxiv.org/abs/2605.31100): Proposes a method for recovering cross-model object correspondences using geometric consistency.
+- [LLM-FACETS: A Privacy-Preserving Framework for Evaluating LLM Transparency and Accountability](https://arxiv.org/abs/2605.31167): Introduces a framework for evaluating LLM transparency and accountability with a focus on privacy.
+- [Formalizing and falsifying causal pathways of rare events](https://arxiv.org/abs/2605.31254): Proposes a formal definition of causal pathways for analyzing rare events in structural equation models.
+- [COLLEAGUE.SKILL: Automated AI Skill Generation via Expert Knowledge Distillation](https://arxiv.org/abs/2605.31264): Introduces a system for generating person-grounded AI skills through expert knowledge distillation.
+- [Industrializing Prediction-Powered Inference: The GLIDE Library for Reliable GenAI and Agentic Systems Evaluation](https://arxiv.org/abs/2605.31278): Proposes a library for unifying state-of-the-art prediction-powered inference estimators for reliable evaluation of agentic systems.
+- [TraceGraph: Shared Decision Landscapes for Diagnosing and Improving Agent Trajectories](https://arxiv.org/abs/2605.31308): Introduces a framework for analyzing agent trajectories in decision-making tasks.
+- [Diagnosing Failure Modes of Shared-State Collaboration in Resource-Constrained Visual Agents](https://arxiv.org/abs/2605.31354): Studies failure dynamics in collaborative reasoning systems under resource constraints.
+- [Learning to Adapt: Self-Improving Web Agent via Cognitive-Aware Exploration](https://arxiv.org/abs/2605.31365): Proposes a framework for self-improving web agents through cognitive-aware exploration.
+- [HypoAgent: An Agentic Framework for Interactive Abductive Hypothesis Generation over Knowledge Graphs](https://arxiv.org/abs/2605.31370): Introduces a framework for generating hypotheses over knowledge graphs in an interactive setting.
+- [FAM-Bench: A Multimodal Benchmark for Condition-Aware Food-as-Medicine Reasoning](https://arxiv.org/abs/2605.31410): Proposes a benchmark for evaluating food-as-medicine reasoning in multimodal models.
+- [Answer-Set-Programming-based Abstractions for Reinforcement Learning](https://arxiv.org/abs/2605.31444): Explores the use of Answer-Set Programming for constructing abstractions in reinforcement learning.
+- [AutoSci: A Memory-Centric Agentic System for the Full Scientific Research Lifecycle](https://arxiv.org/abs/2605.31468): Introduces a memory-centric system for automating the scientific research lifecycle.
+- [LinTree: Improving LLM Reasoning with Explicitly Structured Search Histories](https://arxiv.org/abs/2605.31492): Proposes a method for improving reasoning in LLMs by explicitly structuring search histories.
+- [Choosing the Lens: Strategic Perspective Activation in Context-Dependent Argumentation](https://arxiv.org/abs/2605.31581): Introduces a framework for context-dependent argumentation in decision-making.
+- [TRINE: A Token-Aware, Runtime-Adaptive FPGA Inference Engine for Multimodal AI](https://arxiv.org/abs/2603.22867): Proposes a framework for efficient inference in multimodal AI using FPGA technology.
+- [When LLM Reward Design Fails: Diagnostic-Driven Refinement for Sparse Structured RL](https://arxiv.org/abs/2605.28918): Analyzes failures in reward design for reinforcement learning and proposes diagnostic-driven refinement.
+- [Gradient-Free Training of Spiking Neural Networks via Low-Rank Evolution Strategies](https://arxiv.org/abs/2605.30361): Proposes a method for training spiking neural networks using low-rank evolution strategies.
+- [XOResNet: Exclusive-OR Meta-Residuals Facilitate Deep Spiking Neural Networks Learning](https://arxiv.org/abs/2605.30362): Introduces a new residual structure for training deep spiking neural networks.
+- [Enhancing Regime Shift Detection Using Unstructured Data: A Study on the Treasury Market](https://arxiv.org/abs/2605.30363): Proposes a framework for detecting regime shifts in financial markets using unstructured data.
+- [Mental Damage: Caption Poisoning Attacks on Retrieval-Augmented Text-to-Music Generation](https://arxiv.org/abs/2605.30365): Analyzes the risks of caption poisoning attacks on text-to-music generation systems.
+- [Reinterpreting Safety Thresholds as Neuron Spiking Thresholds](https://arxiv.org/abs/2605.30368): Proposes a new model for evaluating traffic risk in automated driving contexts using spiking neural networks.
+- [Updating the standard neuron model in artificial neural networks](https://arxiv.org/abs/2605.30370): Introduces a new model of cortical cells for artificial neural networks.
+- [Evolutionary Algorithm for Reservoir Learning and Yielding](https://arxiv.org/abs/2605.30372): Proposes an evolutionary algorithm for optimizing reservoir computing architectures.
+- [Full-field prediction for engineering-scale three-dimensional aircraft with multigrid-hierarchical learning](https://arxiv.org/abs/2605.30375): Introduces a framework for accelerating engineering-scale aircraft flow simulations.
+- [Unicorn: Scaling High-Dimensional Time Series Forecasting via Universal Correlation Modeling](https://arxiv.org/abs/2605.30376): Proposes a framework for scalable time series forecasting using universal correlation modeling.
+- [When LLMs Learn to Be Consistently Wrong: A Multi-Model Study of Linear Representations of Synthetic Deception](https://arxiv.org/abs/2605.30381): Analyzes the behavior of LLMs in generating deceptive outputs.
+- [Structured interactions improve distributed coordination beyond model scaling in a real-world multi-robot system](https://arxiv.org/abs/2605.30383): Investigates the impact of communication structure on multi-robot coordination.
+- [LLMs Without Deep Neural Networks: New Architecture, Benefits and Case Study](https://arxiv.org/abs/2605.30385): Proposes a new model for LLMs that does not rely on deep neural networks.
+- [Functional MRI Time Series Generation via Wavelet-Based Image Transform and Spectral Flow Matching for Brain Disorder Identification](https://arxiv.org/abs/2605.30387): Introduces a framework for generating fMRI data for brain disorder analysis.
+- [Social Reasoning in Machines: Investigating Collective Truth-Seeking Dynamics in Large Language Model Debate](https://arxiv.org/abs/2605.30391): Explores the dynamics of collective reasoning in LLMs through multi-agent debate.
+- [NumLeak: Public Numeric Benchmarks as Latent Labels in Foundation Models](https://arxiv.org/abs/2605.30393): Proposes a framework for measuring numeric recall in LLMs.
+- [CodeGolf Bench: A Multi-Language Benchmark for Evaluating Concise Code Generation Capabilities of Large Language Models](https://arxiv.org/abs/2605.30394): Introduces a benchmark for evaluating code generation capabilities in multiple programming languages.
+- [AI Loss of Control Incident Management: Response & Resilience](https://arxiv.org/abs/2605.30406): Proposes a framework for managing AI loss of control incidents.
+- [Exploring Autonomous Agentic Data Engineering for Model Specialization](https://arxiv.org/abs/2605.30407): Investigates the potential of LLMs as autonomous data engineers for model specialization.
+- [SANA-Streaming: Real-time Streaming Video Editing with Hybrid Diffusion Transformer](https://arxiv.org/abs/2605.30409): Introduces a framework for real-time video editing using a hybrid diffusion transformer.
+- [GPU Forecasters: Language Models as Selective Surrogates for Kernel Runtime Optimization](https://arxiv.org/abs/2605.31464): Proposes a method for optimizing GPU kernel evaluation using LLMs as surrogates.
+- [Multi-Level Barriers to Generative AI Adoption Across Disciplines and Professional Roles in Higher Education](https://arxiv.org/abs/2603.27052): Investigates barriers to generative AI adoption in higher education across disciplines and roles.
+- [Multi-Agent Teams Hold Experts Back](https://arxiv.org/abs/2602.01011): Analyzes the performance of multi-agent teams in leveraging expert knowledge.
+- [The Gaussian-Head OFL Family: One-Shot Federated Learning from Client Global Statistics](https://arxiv.org/abs/2602.01186): Proposes a framework for one-shot federated learning using client global statistics.
+- [Breaking Information Cocoons: A Hyperbolic Framework for Balancing Exploration and Exploitation in Recommender Systems](https://arxiv.org/abs/2411.13865): Introduces a hyperbolic framework for balancing exploration and exploitation in recommender systems.
+- [Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs](https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/): Proposes a method for optimizing entity extraction in knowledge graphs.
+
+### Categories
+#### Security
+- [AI Loss of Control Incident Management: Response & Resilience](https://arxiv.org/abs/2605.30406)
+- [Proxy-Pointer RAG: Eliminating Wasteful Entity & Relations Extraction in Knowledge Graphs](https://towardsdatascience.com/proxy-pointer-rag-eliminating-wasteful-entity-relations-extraction-in-knowledge-graphs/)
+- [Mental Damage: Caption Poisoning Attacks on Retrieval-Augmented Text-to-Music Generation](https://arxiv.org/abs/2605.30365)
+- [Detecting Deceptive Behaviors in Multimodal Large Language Models](https://arxiv.org/abs/2512.00349)
+- [Counterfactual Credit Policy Optimization for Multi-Agent Collaboration](https://arxiv.org/abs/2603.21563)
+- [Fighting Numerical Hallucinations via Data-centric Compilation for Online Financial QA](https://arxiv.org/abs/2603.31064)
+- [Breaking Information Cocoons: A Hyperbolic Framework for Balancing Exploration and Exploitation in Recommender Systems](https://arxiv.org/abs/2411.13865)
+
+#### Healthcare
+- [EHRBench: An Automated and Reliable EHR-based Benchmark for Clinical Decision Making with LLMs](https://arxiv.org/abs/2605.30637)
+- [SafeRx-Agent: A Knowledge-Grounded Multi-Agent Framework for Safe and Explainable Medication Recommendation](https://arxiv.org/abs/2605.29146)
+- [MedFact: Benchmarking the Fact-Checking Capabilities of Large Language Models on Chinese Medical Texts](https://arxiv.org/abs/2509.12440)
+- [Fully Open Meditron: An Auditable Pipeline for Clinical LLMs](https://arxiv.org/abs/2605.16215)
+
+#### Multimodal Learning
+- [CaptionFormer: Unified Segmentation, Tracking, and Captioning for Spatio-Temporal Objects](https://arxiv.org/abs/2510.14904)
+- [MAVEN: A Multi-Agent Framework for Multicultural Text-to-Video Generation](https://arxiv.org/abs/2605.16716)
+- [ScenePilot: Controllable Boundary-Driven Critical Scenario Generation for Autonomous Driving](https://arxiv.org/abs/2605.21168)
+- [MindVoice: Reconstructing Intelligible Speech from Non-invasive Neural Signals with Pretrained Priors](https://arxiv.org/abs/2605.31173)
+
+#### Reinforcement Learning
+- [LongTraceRL: Learning Long-Context Reasoning from Search Agent Trajectories with Rubric Rewards](https://arxiv.org/abs/2605.31584)
+- [SVL: Goal-Conditioned Reinforcement Learning as Survival Learning](https://arxiv.org/abs/2604.17551)
+- [FML-bench: A Controlled Study of AI Research Agent Strategies from the Perspective of Search Dynamics](https://arxiv.org/abs/2605.17373)
+
+#### Data Management
+- [NGDBench: Towards Neural Graph Data Management](https://arxiv.org/abs/2603.05529)
+- [ReTabAD: A Benchmark for Restoring Semantic Context in Tabular Anomaly Detection](https://arxiv.org/abs/2510.02060)
+- [Data-centric Compilation for Online Financial QA](https://arxiv.org/abs/2603.31064)
+
+#### General AI
+- [The Global Landscape of Environmental AI Regulation: From the Cost of Reasoning to a Right to Green AI](https://arxiv.org/abs/2603.00068v2)
+- [Learning to Reason with Insight for Informal Theorem Proving](https://arxiv.org/abs/2604.16278)
+- [Learning to Adapt: Self-Improving Web Agent via Cognitive-Aware Exploration](https://arxiv.org/abs/2605.31365)
+- [Learning Cardiac Latent Representations in Vectorcardiogram Space](https://arxiv.org/abs/2605.31249)
+
+This summary and categorization provide a comprehensive overview of the recent advancements in AI research, particularly focusing on security, healthcare, multimodal learning, reinforcement learning, data management, and general AI developments.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **AI in Security Contexts**
+   - **AI Loss of Control Incident Management**: This paper discusses the urgent need for frameworks to manage AI loss of control incidents, distinguishing between scenarios where regaining control is costly versus impossible. It emphasizes the importance of immediate resilience investments and outlines a taxonomy for managing such incidents.
+   - **Mental Damage: Caption Poisoning Attacks**: This work highlights the vulnerability of retrieval-augmented text-to-music systems to poisoning attacks, where crafted captions can mislead the system into generating biased outputs, exposing integrity risks in creative AI systems.
+   - **Automatically Attacking Software Reverse Engineering AI Agents**: This research presents adversarial techniques that deceive LLM-powered disassembly systems, emphasizing the need for robust defenses against such vulnerabilities in cybersecurity toolchains.
+   - **SafeRx-Agent**: This framework integrates patient context and external clinical knowledge to recommend medications while ensuring safety and traceability, addressing the challenges of traditional drug recommendation methods.
+
+#### 2. **Bias and Ethical Considerations**
+   - **Alignment Tampering**: This paper discusses how reinforcement learning from human feedback can inadvertently amplify biases in LLMs, leading to misalignment with intended ethical standards. It emphasizes the need for careful monitoring and mitigation strategies.
+   - **Gender, Racial, and Age Disparities**: The study evaluates biases in LLMs, revealing that debiasing efforts can create new fairness trade-offs, highlighting the complexities of ensuring equitable AI systems.
+
+#### 3. **Robustness and Verification**
+   - **Counterfactual Trace Auditing**: This framework proposes a method for measuring how skills change agent behavior, revealing a gap in current evaluation methods that treat skills as black boxes.
+   - **Verified Self-Improvement Training**: This approach emphasizes the importance of verifying reasoning steps in LLMs to prevent the contamination of training data with lucky guesses, which can lead to performance degradation.
+
+#### 4. **Data Management and Security**
+   - **CVE-Factory**: This framework automates the transformation of CVE metadata into executable tasks, enabling the construction of a benchmark for evaluating code agents in security contexts.
+   - **Data Selection and Privacy**: The introduction of frameworks like dashi for dataset shift characterization and the exploration of privacy-preserving methods in LLMs highlight the ongoing challenges in managing sensitive data in AI systems.
+
+#### 5. **General Trends and Insights**
+   - **Emerging Vulnerabilities**: Many papers highlight the vulnerabilities of AI systems to adversarial attacks, emphasizing the need for robust defenses and verification mechanisms.
+   - **Bias Mitigation**: There is a growing recognition of the complexities involved in bias mitigation, with calls for more nuanced approaches that consider the interplay of various factors.
+   - **Integration of AI in Security**: The integration of AI in security contexts is becoming more prevalent, with frameworks being developed to ensure that AI systems operate safely and ethically.
+
+### Trends and Correlations
+- **Increased Focus on Robustness**: There is a clear trend towards developing frameworks and methodologies that enhance the robustness of AI systems against adversarial attacks and biases.
+- **Ethical Considerations**: The ethical implications of AI, particularly in terms of bias and fairness, are increasingly being addressed in the literature, reflecting a broader societal concern about the impact of AI technologies.
+- **Data Management Challenges**: The challenges of managing data in AI systems, particularly concerning privacy and security, are a recurring theme, indicating a need for improved data governance frameworks.
+
+### Conclusion
+The landscape of AI in security contexts is rapidly evolving, with significant advancements in methodologies for ensuring robustness, ethical considerations, and effective data management. The ongoing research reflects a commitment to addressing the complexities and challenges posed by integrating AI into critical domains such as cybersecurity and healthcare.
