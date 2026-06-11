@@ -1,0 +1,110 @@
+AI Researcher Agent Report for 2026-06-11-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [From Explicit Elements to Implicit Intent: A Predefined Library for Auditable Behavioral Inference](https://arxiv.org/abs/2606.11207): This paper presents SemantiClean, a framework for extracting structured semantic signals from e-commerce session data, focusing on auditability and transparency in behavioral inference.
+- [Position: Hippocampal Explicit Memory Is the Cornerstone for AGI](https://arxiv.org/abs/2606.11245): This position paper argues that explicit memory is crucial for advancing large language models (LLMs) towards artificial general intelligence (AGI).
+- [Can AI Agents Synthesize Scientific Conclusions?](https://arxiv.org/abs/2606.11337): The paper introduces SciConBench, a benchmark for evaluating AI agents' ability to synthesize scientific conclusions, revealing low factual quality in current models.
+- [Knowing When to Ask: Self-Gated Clarification for Hierarchical Language Agents](https://arxiv.org/abs/2606.11349): This paper proposes ACTION-RATING, a method for agents to seek clarification during decision-making processes, improving their navigation effectiveness.
+- [Automated Mediator for Human Negotiation: Pre-Mediation via a Structured LLM Pipeline](https://arxiv.org/abs/2606.11379): The paper presents an automated mediator that supports pre-mediation in negotiations, achieving comparable outcomes to human mediators.
+- [INFRAMIND: Infrastructure-Aware Multi-Agent Orchestration](https://arxiv.org/abs/2606.11440): This framework optimizes multi-agent orchestration by considering the runtime state of serving infrastructure, improving resource utilization and reducing latency.
+- [Forecasting Future Behavior as a Learning Task](https://arxiv.org/abs/2606.11445): The paper proposes a method for forecasting AI behavior based on reasoning trajectories, demonstrating improved accuracy over naive reading methods.
+- [Search Discipline for Long-Horizon Research Agents](https://arxiv.org/abs/2606.11522): This paper discusses the pitfalls of using aggregate metrics for scientific validity and proposes an external control loop for auditing candidates based on disaggregated behavior.
+- [MoCA-Agent: A Market-of-Claims Code Agent for Financial and Numerical Reasoning](https://arxiv.org/abs/2606.11537): The paper introduces MoCA-Agent, which improves financial reasoning by aggregating evidence at the claim level rather than the answer level.
+- [SkillJuror: Measuring How Agent Skill Organization Changes Runtime Behavior](https://arxiv.org/abs/2606.11543): This framework evaluates how the organization of agent skills affects their runtime behavior, showing that skill organization can significantly impact performance.
+- [HERO: Hindsight-Enhanced Reflection from Environment Observations for Agentic Self-Distillation](https://arxiv.org/abs/2606.11559): The study introduces HERO, a framework that enhances self-distillation in reinforcement learning by using environment observations for feedback.
+- [Architecture-Aware Reinforcement Learning Makes Sliding-Window Attention Competitive in Math Reasoning](https://arxiv.org/abs/2606.11634): This paper presents SWARR, a method that adapts sliding-window attention for mathematical reasoning, improving performance while maintaining efficiency.
+- [TouchThinker: Scaling Tactile Commonsense Reasoning to the Open World with Large-scale Data and Action-aware Representation](https://arxiv.org/abs/2606.11637): The paper introduces TouchThinker, a framework for tactile commonsense reasoning that scales to open-world settings, achieving competitive performance.
+- [TreeSeeker: Tree-Structured Trial, Error, and Return in Deep Search](https://arxiv.org/abs/2606.11662): This framework organizes search as branch-and-return over tree-structured states, improving decision-making in deep search tasks.
+- [Lung-R1: A Knowledge Graph-Guided LLM for Pulmonary Diagnostic Reasoning](https://arxiv.org/abs/2606.11675): The paper presents LungKG, a knowledge graph for pulmonary diagnostics, and Lung-R1, a model that uses this graph for improved diagnostic reasoning.
+- [Organize then Retrieve: Hierarchical Memory Navigation for Efficient Agents](https://arxiv.org/abs/2606.11680): This work introduces HORMA, a hierarchical memory agent that organizes experiences for efficient retrieval, improving task performance.
+- [Mind the Perspective: Let's Reason Recursively for Theory of Mind](https://arxiv.org/abs/2606.11724): The paper presents RecToM, a framework for theory of mind reasoning that models nested beliefs through recursive perspective construction.
+- [When Do Data-Driven Systems Exhibit the Capability to Infer?](https://arxiv.org/abs/2606.11769): This work develops a framework for grading the capability to infer in AI systems, particularly in the context of the European AI Act.
+- [SVoT: State-aware Visualization-of-Thought for Spatial Reasoning via Reinforcement Learning](https://arxiv.org/abs/2606.11770): The paper introduces SVoT, a framework that generates verifiable intermediate states for spatial reasoning tasks.
+- [Toward Trustworthy AI: Multi-Target Adversarial Attacks and Robust Defenses for Continuous Data Summarization](https://arxiv.org/abs/2606.11804): This paper studies adversarial attacks on data summarization processes and proposes robust defenses.
+- [Skill-Augmented AI Agents for Medical Research Analysis: An Exploratory Multi-Model Human Evaluation in an NSCLC Transcriptomic Biomarker Task](https://arxiv.org/abs/2606.11830): The study evaluates skill-augmented AI outputs in medical research, showing potential improvements in quality.
+- [StatefulDiscovery: Evidence-Calibrated Claim Formation in Open-Ended Scientific Discovery](https://arxiv.org/abs/2606.11851): This framework supports evidence-calibrated claim formation in scientific discovery, improving the quality of claims made by AI agents.
+- [AutoMine Solution for AV2 2026 Scenario Mining Challenge](https://arxiv.org/abs/2606.11874): The paper presents AutoMine, a method for scenario mining in autonomous driving systems, achieving strong performance in a competition.
+- [Embodied-BenchClaw: An Autonomous Multi-Agent System for Embodied Spatial Intelligence Benchmark Construction](https://arxiv.org/abs/2606.11909): This work introduces an autonomous system for constructing benchmarks for embodied spatial intelligence.
+- [The Art of Interrogation: Consistency Amplifies Factuality in Spatial Reasoning](https://arxiv.org/abs/2606.11918): The paper discusses how consistency in reasoning improves factual accuracy in spatial reasoning tasks.
+- [HERO: Hindsight-Enhanced Reflection from Environment Observations for Agentic Self-Distillation](https://arxiv.org/abs/2606.11559): This study introduces HERO, a framework that enhances self-distillation in reinforcement learning by using environment observations for feedback.
+- [Toward Trustworthy AI: Multi-Target Adversarial Attacks and Robust Defenses for Continuous Data Summarization](https://arxiv.org/abs/2606.11804): This paper studies adversarial attacks on data summarization processes and proposes robust defenses.
+
+### Categories
+#### Security
+- [MPC-Patch-Bench: Security-Aware LLM Code Patch for Multi-Party Computation](https://arxiv.org/abs/2606.11416): This paper introduces a benchmark for evaluating LLM code repair on Secure Multi-Party Computation software.
+- [When Researchers Say Mental Model/Theory of Mind of AI, What Are They Really Talking About?](https://arxiv.org/abs/2510.02660): This position paper critiques the anthropomorphization of AI reasoning and emphasizes the need for clarity in understanding AI capabilities.
+- [AI Researchers Must Help Lead Arms Control to Mitigate Military AI Risks](https://arxiv.org/abs/2512.03077): This paper discusses the need for AI researchers to engage in arms control to address military AI risks.
+- [When Does Deep RL Beat Calibrated Baselines? A Benchmark Study on Adaptive Resource Control](https://arxiv.org/abs/2605.26418): This study evaluates the performance of deep reinforcement learning algorithms against calibrated baselines in adaptive resource control.
+- [Are Frontier LLMs Ready for Cybersecurity? Evidence for Vertical Foundation Models from Dual-Mode Vulnerability Benchmarks](https://arxiv.org/abs/2605.23243): This paper assesses the readiness of frontier LLMs for cybersecurity tasks through a dual-mode benchmark.
+
+#### Medical Applications
+- [Skill-Augmented AI Agents for Medical Research Analysis: An Exploratory Multi-Model Human Evaluation in an NSCLC Transcriptomic Biomarker Task](https://arxiv.org/abs/2606.11830): This study evaluates skill-augmented AI outputs in medical research, showing potential improvements in quality.
+- [Lung-R1: A Knowledge Graph-Guided LLM for Pulmonary Diagnostic Reasoning](https://arxiv.org/abs/2606.11675): This paper presents a knowledge graph for pulmonary diagnostics and a model that uses this graph for improved diagnostic reasoning.
+
+#### Robotics and Automation
+- [RoboNaldo: Accurate, Stable and Powerful Humanoid Soccer Shooting via Motion-Guided Curriculum Reinforcement Learning](https://arxiv.org/abs/2606.11092): This paper introduces a framework for humanoid soccer shooting that combines motion tracking with reinforcement learning.
+- [MultiToP: Learning to Patch Visual Tokens to Mitigate Hallucinations in Video Large Multimodal Models](https://arxiv.org/abs/2606.08415): This paper presents a method for improving video editing models by refining visual tokens before language generation.
+- [MobilityBench: A Benchmark for Evaluating Route-Planning Agents in Real-World Mobility Scenarios](https://arxiv.org/abs/2602.22638): This benchmark evaluates LLM-based route-planning agents in real-world mobility scenarios.
+
+#### General AI and LLMs
+- [The Algorithm Is Not the Behavior: Learned Priors Override Look-Ahead in a Chess-Playing Neural Network](https://arxiv.org/abs/2508.21380): This paper investigates the behavior of a chess-playing neural network and the influence of learned priors on its decision-making.
+- [Beyond Uniform Token-Level Trust Region in LLM Reinforcement Learning](https://arxiv.org/abs/2606.10968): This paper discusses the limitations of existing trust-region mechanisms in reinforcement learning for language models and proposes a new approach.
+- [TokenRatio: Principled Token-Level Preference Optimization via Ratio Matching](https://arxiv.org/abs/2605.12288): This paper introduces a new method for optimizing preferences in language models at the token level.
+
+#### Data and Evaluation
+- [DataEvolver: Automatic Data Preparation for Large Language Models through Multi-Level Self-Evolving](https://arxiv.org/abs/2606.07001): This paper presents a framework for automatic data preparation for LLMs.
+- [OpenVTON-Bench: A Large-Scale High-Resolution Benchmark for Controllable Virtual Try-On Evaluation](https://arxiv.org/abs/2601.22725): This benchmark evaluates virtual try-on systems for fashion items.
+- [FinTradeBench: A Financial Reasoning Benchmark for LLMs](https://arxiv.org/abs/2603.19225): This benchmark evaluates financial reasoning capabilities of language models.
+
+#### Miscellaneous
+- [The Unreasonable Effectiveness of Discrete-Time Gaussian Process Mixtures for Robot Policy Learning](https://arxiv.org/abs/2505.03296): This paper presents a new approach for policy learning in robotics using Gaussian process mixtures.
+- [SAGE: Scalable AI Governance & Evaluation](https://arxiv.org/abs/2602.07840): This framework operationalizes high-quality human product judgment as a scalable evaluation signal for AI systems.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends
+1. **Security and Robustness**: A significant number of papers focus on enhancing the security of AI systems, particularly in the context of large language models (LLMs) and their applications. This includes methods for detecting vulnerabilities, ensuring safe outputs, and preventing adversarial attacks.
+
+2. **Data Privacy and Ethical Considerations**: Several studies emphasize the importance of privacy in AI applications, particularly in sensitive domains such as healthcare. Techniques for detecting sensitive information and ensuring compliance with regulations are highlighted.
+
+3. **Evaluation and Benchmarking**: There is a growing emphasis on developing robust evaluation frameworks for AI systems, particularly in the context of multi-agent systems and reinforcement learning. This includes the creation of benchmarks that assess the performance of AI agents in real-world scenarios.
+
+4. **Multi-Modal and Cross-Modal Learning**: Many papers explore the integration of various data types (text, images, audio) to improve the robustness and effectiveness of AI systems. This is particularly relevant in applications such as video analysis and medical diagnostics.
+
+5. **Generative Models and Their Risks**: The use of generative models raises concerns about the potential for misuse, including the generation of harmful content. Research is focused on developing methods to mitigate these risks while maintaining the utility of the models.
+
+6. **Human-AI Collaboration**: Several papers discuss the role of human oversight in AI systems, particularly in ensuring ethical decision-making and improving the interpretability of AI outputs.
+
+#### Notable Papers and Findings
+- **"When Does Deep RL Beat Calibrated Baselines?"**: This paper highlights the challenges of using reinforcement learning (RL) in adaptive resource control, showing that calibrated rule-based systems often outperform RL methods in various scenarios.
+
+- **"Are Frontier LLMs Ready for Cybersecurity?"**: This study evaluates the performance of frontier LLMs in detecting vulnerabilities, revealing significant shortcomings in their ability to cover ground-truth vulnerabilities effectively.
+
+- **"Can AI Reason Like an Urban Planner?"**: This paper introduces a benchmark for evaluating LLM reasoning in urban planning, demonstrating that while LLMs can assist in certain tasks, they struggle with context-sensitive regulatory analysis.
+
+- **"When Generic Prompt Improvements Hurt"**: This research emphasizes the importance of tailored evaluation methods for LLMs, showing that generic prompt modifications can lead to performance degradation in specific contexts.
+
+- **"Detecting Sensitive Personal Information in Japanese Pre-Training Corpora"**: This study focuses on the detection of sensitive personal information in Japanese text corpora, highlighting the need for effective privacy measures in LLM training.
+
+- **"Making Models Unmergeable via Scaling-Sensitive Loss Landscape"**: This paper discusses the risks associated with model merging and proposes a framework to prevent unauthorized recomposition of model weights.
+
+- **"When Researchers Say Mental Model/Theory of Mind of AI"**: This position paper critiques the anthropomorphization of AI reasoning, arguing for a clearer distinction between human-like reasoning and the pattern-matching capabilities of AI.
+
+#### Insights and Recommendations
+- **Integrate Robust Evaluation Frameworks**: As AI systems become more complex, it is crucial to develop comprehensive evaluation frameworks that assess not only performance but also safety, ethical considerations, and robustness against adversarial attacks.
+
+- **Focus on Human-AI Collaboration**: Enhancing the interpretability and transparency of AI systems through human oversight can improve trust and ensure ethical decision-making, particularly in high-stakes applications.
+
+- **Prioritize Privacy and Compliance**: As AI systems are deployed in sensitive areas, it is essential to implement robust privacy measures and ensure compliance with regulations to protect user data.
+
+- **Address the Risks of Generative Models**: Ongoing research should focus on mitigating the risks associated with generative models, including the potential for misuse and the generation of harmful content.
+
+- **Leverage Multi-Modal Learning**: Integrating various data types can enhance the robustness and effectiveness of AI systems, particularly in applications requiring nuanced understanding and reasoning.
+
+### Conclusion
+The landscape of AI research related to security and ethical considerations is rapidly evolving, with a clear focus on enhancing robustness, ensuring privacy, and developing effective evaluation frameworks. As AI systems become more integrated into critical applications, ongoing research and collaboration will be essential to address the associated challenges and risks.
