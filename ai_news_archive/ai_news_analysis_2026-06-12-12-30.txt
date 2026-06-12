@@ -1,0 +1,196 @@
+AI Researcher Agent Report for 2026-06-12-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [ToolSense: A Diagnostic Framework for Auditing Parametric Tool Knowledge in LLMs](https://arxiv.org/abs/2606.12451): ToolSense is an open-source framework that evaluates the tool knowledge of large language models (LLMs) by generating benchmarks that assess their retrieval capabilities and understanding of tools.
+- [Arbor: Tree Search as a Cognition Layer for Autonomous Agents](https://arxiv.org/abs/2606.12563): Arbor introduces a multi-agent framework that uses structured tree search to enhance the cognition of autonomous agents, improving optimization and stability in LLM inference.
+- [Strategic Decision Support for AI Agents](https://arxiv.org/abs/2606.12587): This paper proposes a framework for decision support in AI agents, focusing on minimizing support usage while controlling for errors in decision-making.
+- [Pythagoras-Prover: Advancing Efficient Formal Proving via Augmented Lean Formalisation](https://arxiv.org/abs/2606.12594): Pythagoras-Prover is a family of Lean theorem provers designed to improve efficiency in formal proving through curriculum learning and augmented formalization.
+- [PersonaDrive: Human-Style Retrieval-Augmented VLA Agents for Closed-Loop Driving Simulation](https://arxiv.org/abs/2606.12616): PersonaDrive enhances closed-loop driving simulations by conditioning agents on human driving styles, improving performance in diverse driving scenarios.
+- [Did you lie? Evaluating Lie Detectors across Model Scale and Belief-Verified Model Organisms](https://arxiv.org/abs/2606.12618): This paper evaluates lie detection methods in language models, revealing challenges in accurately assessing model beliefs and suggesting future research directions.
+- [TrajGenAgent: A Hierarchical LLM Agent for Human Mobility Trajectory Generation](https://arxiv.org/abs/2606.12657): TrajGenAgent generates realistic human mobility trajectories using a two-stage design that incorporates historical evidence and personalized context.
+- [Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents](https://arxiv.org/abs/2606.12674): Evoflux introduces an evolutionary search method for compact language models to repair executable workflows, improving execution feasibility.
+- [From AGI to ASI](https://arxiv.org/abs/2606.12683): This report discusses the transition from artificial general intelligence (AGI) to artificial superintelligence (ASI), exploring potential pathways and implications for society.
+- [Deployment-Centered Evaluation: Predicting Query-Level Rejection Risk in a Clinical LLM System](https://arxiv.org/abs/2606.12702): This paper presents a model for predicting user rejection of LLM responses in clinical settings, emphasizing the importance of deployment-specific context.
+- [Definitional alignment before capability alignment: a Design-Science framework for adjudicating claims about AGI](https://arxiv.org/abs/2606.12713): This article proposes a framework for evaluating claims about AGI, focusing on the need for clear definitions and governance.
+- [The Theory of Mind Utility: Formal Specification of a Mentalizing Mechanism](https://arxiv.org/abs/2606.12721): This paper formalizes the Theory of Mind Utility, a mechanism for inferring others' beliefs and intentions.
+- [Rethinking Psychometric Evaluation of LLMs: When and Why Self-Reports Predict Behavior](https://arxiv.org/abs/2606.12730): This study contrasts traditional personality assessments with behavior-specific instruments to improve the coherence of LLM self-reports.
+- [Benchmarking AI Agents for Addressing Scientific Challenges Across Scales](https://arxiv.org/abs/2606.12736): SciAgentArena is introduced as a benchmark for evaluating AI agents in scientific research, highlighting their uneven performance across contexts.
+- [Reducing the Complexity of Deep Learning Models for EEG Analysis on Wearable Devices](https://arxiv.org/abs/2606.12742): This paper explores methods for reducing the complexity of deep learning models for EEG analysis in wearable devices, balancing accuracy and computational efficiency.
+- [Prefill Awareness in Large Language Models](https://arxiv.org/abs/2606.12747): This study investigates whether LLMs can detect tampered context, revealing substantial prefill awareness and implications for AI control protocols.
+- [Constructing Evaluation Datasets for Procedural Reasoning: Balancing Naturalness, Grounding, and Multi-Hop Coverage](https://arxiv.org/abs/2606.12767): This paper presents a framework for generating evaluation datasets for procedural reasoning in AI-supported learning systems.
+- [A Tutorial on World Models and Physical AI](https://arxiv.org/abs/2606.12783): This tutorial discusses the importance of world modeling in AI, highlighting challenges in hierarchical reasoning and long-horizon planning.
+- [The Containment Gap: How Deployed Agentic AI Frameworks Fail Public-Facing Safety Requirements](https://arxiv.org/abs/2606.12797): This paper audits popular AI frameworks for compliance with safety requirements, revealing significant gaps in memory integrity.
+- [MLUBench: A Benchmark for Lifelong Unlearning Evaluation in MLLMs](https://arxiv.org/abs/2606.12809): MLUBench is introduced as a benchmark for evaluating lifelong unlearning in multimodal large language models, highlighting unique challenges.
+- [Teach-and-Repeat: Accurately Extracting Operational Knowledge from Mobile Screen Demonstrations to Empower GUI Agents](https://arxiv.org/abs/2606.12817): This paper presents a model for extracting operational knowledge from mobile screen demonstrations to guide GUI agents.
+- [GeoNatureAgent Benchmark: Benchmarking LLM Agents for Environmental Geospatial Analysis Across Frontier and Open-Weight Foundation Models](https://arxiv.org/abs/2606.12821): This benchmark evaluates environmental analysis agents using structured tool calls to a geospatial API.
+- [Topical Phase Transitions in Artificial Intelligence Research: Large-Scale Evidence and an Early-Warning Signature for Emerging Topics](https://arxiv.org/abs/2606.12828): This study analyzes the growth of AI research topics and proposes an early-warning signature for monitoring emerging trends.
+- [Fantastic Scientific Agents and How to Build Them: AgentBuild for Rietveld Refinement](https://arxiv.org/abs/2606.12834): This paper introduces AgentBuild, a framework for constructing scientific agents based on user-defined contracts.
+- [Human Attention Is (Still) All You Need: Human oversight makes AI-assisted social science reliable](https://arxiv.org/abs/2606.12848): This study emphasizes the importance of human oversight in AI-assisted research to improve reliability.
+- [WISE: A Long-Horizon Agent in Minecraft with Why-Which Reasoning](https://arxiv.org/abs/2606.12852): This paper presents WISE, a long-horizon agent framework for Minecraft that enhances decision-making through causal reasoning.
+- [DailyReport: An Open-ended Benchmark for Evaluating Search Agents on Daily Search Tasks](https://arxiv.org/abs/2606.12871): DailyReport is introduced as a benchmark for evaluating search agents on open-ended tasks.
+- [HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness](https://arxiv.org/abs/2606.12882): This paper presents HarnessBridge, a learnable controller for mediating agent-environment interactions.
+- [The Hidden Power of Scaling Factor in LoRA Optimization](https://arxiv.org/abs/2606.12883): This study reveals the critical role of the scaling factor in Low-Rank Adaptation optimization.
+- [Zero-source LLM Hallucination Detection with Human-like Criteria Probing](https://arxiv.org/abs/2606.12900): This paper proposes a method for detecting hallucinations in LLMs without external references.
+- [MDForge: Agentic Molecular Dynamics Pipeline Design under Sparse Simulator Feedback](https://arxiv.org/abs/2606.12916): This paper presents MDForge, an LLM agent for designing molecular dynamics pipelines.
+- [Iterating Toward Better Search: A Two-Agent Simulation Framework for Evaluating Agentic Search Architectures in E-Commerce](https://arxiv.org/abs/2606.12924): This framework evaluates conversational shopping assistants through controlled simulations.
+- [MARS: Margin-Adversarial Risk-controlled Stopping for Parallel LLM Test-time Scaling](https://arxiv.org/abs/2606.12935): MARS introduces a stopping rule for parallel LLM inference to reduce computational overhead.
+- [MiniPIC: Flexible Position-Independent Caching in <100LOC](https://arxiv.org/abs/2606.13126): MiniPIC presents a caching mechanism for efficient retrieval-augmented workloads.
+- [Cascade Classification of Dermoscopic Images of Skin Neoplasms with Controllable Sensitivity and External Clinical Validation](https://arxiv.org/abs/2606.13135): This paper evaluates deep learning architectures for classifying dermoscopic images of skin neoplasms.
+- [Iterative Visual Thinking: Teaching Vision-Language Models Spatial Self-Correction through Visual Feedback](https://arxiv.org/abs/2606.13156): This paper introduces a framework for enabling self-correction in vision-language models through visual feedback.
+- [NTS-CoT: Mitigating Hallucinations in LLM-based News Timeline Summarization with Chain-of-Thought Reasoning](https://arxiv.org/abs/2606.13171): NTS-CoT proposes a framework for improving news timeline summarization while mitigating hallucinations.
+- [MemRefine: LLM-Guided Compression for Long-Term Agent Memory](https://arxiv.org/abs/2606.13177): MemRefine presents a framework for managing long-term memory in LLM agents.
+- [LLMs as ASP Programmers: Self-Correction Enables Task-Agnostic Nonmonotonic Reasoning](https://arxiv.org/abs/2604.27960): This paper explores the use of Answer Set Programming for enabling nonmonotonic reasoning in LLMs.
+- [Learning-Augmented Approximation for Unrelated-Machines Makespan Scheduling](https://arxiv.org/abs/2606.13133): This paper presents a learning-augmented algorithm for makespan minimization on unrelated machines.
+- [Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch](https://arxiv.org/abs/2606.13604): This paper discusses a reinforcement learning system for adapting dispatch objectives in a food delivery marketplace.
+- [Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing](https://arxiv.org/abs/2606.12816): This paper presents a calibration-aware routing method for quantum circuits using graph reinforcement learning.
+- [EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments](https://arxiv.org/abs/2606.13681): EvoArena is a benchmark suite for evaluating LLM agents in dynamic environments.
+- [Quality-Preserving Imperceptible Adversarial Attack on Skeleton-based Human Action Recognition](https://arxiv.org/abs/2606.13022): This paper presents an adversarial attack method for skeleton-based human action recognition that preserves motion quality.
+- [LongSpike: Fractional Order Spiking State Space Models for Efficient Long Sequence Learning](https://arxiv.org/abs/2606.12895): LongSpike introduces a framework for spiking neural networks that integrates fractional-order state-space modeling.
+- [Learning What to Remember: Observability-Safe Memory Retention via Constrained Optimization for Long-Horizon Language Agents](https://arxiv.org/abs/2606.10616): This paper presents a framework for managing memory retention in long-horizon language agents.
+- [Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields](https://arxiv.org/abs/2606.11042): Workflow-GYM is a benchmark for evaluating AI agents on long-horizon professional tasks.
+- [Human-Enhanced Loop Modeling (HELM): Agent-Based Finite Element Modeling of Concrete Bridge Barriers](https://arxiv.org/abs/2606.12025): HELM is a collaborative framework for automating finite element modeling in structural engineering.
+- [A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design](https://arxiv.org/abs/2606.12040): This paper presents a multi-agent framework for automated design of concrete barriers using AI.
+- [On Approximating the Dynamic Response of Synchronous Generators via Operator Learning: A Step Towards Building Deep Operator-based Power Grid Simulators](https://arxiv.org/abs/2301.12538): This paper develops an operator learning framework for approximating the dynamic response of synchronous generators.
+- [On Pitfalls of RemOve-And-Retrain: Data Processing Inequality Perspective](https://arxiv.org/abs/2304.13836): This paper critiques the RemOve-And-Retrain benchmark for evaluating feature attribution methods.
+- [Competition and Diversity in Generative AI](https://arxiv.org/abs/2412.08610): This paper explores the impact of competition on content diversity in generative AI.
+- [WildIFEval: Instruction Following in the Wild](https://arxiv.org/abs/2503.06573): WildIFEval is a dataset for evaluating instruction-following capabilities of LLMs under complex conditions.
+- [Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning](https://arxiv.org/abs/2505.04021): Prism is a memory-centric framework for co-serving multiple LLMs efficiently.
+- [Lightweight and Interpretable Transformer via Mixed Graph Algorithm Unrolling for Traffic Forecast](https://arxiv.org/abs/2505.13102): This paper presents a lightweight transformer model for traffic forecasting using mixed graph algorithms.
+- [ReSET: Accurate Latency-Critical NVFP4 Reasoning via Step-Aware Temperature Scaling](https://arxiv.org/abs/2506.01274): ReSET is a framework for improving reasoning accuracy in low-latency settings.
+- [Decoding the Multimodal Maze: A Systematic Review on the Adoption of Explainability in Multimodal Attention-based Models](https://arxiv.org/abs/2508.04427): This review analyzes the explainability of multimodal models and identifies gaps in evaluation methods.
+- [Joint Source-Channel-Generation Coding for Wireless Generative Communications](https://arxiv.org/abs/2606.12858): This paper presents a generative communication paradigm that combines source and channel coding for wireless applications.
+- [Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming](https://arxiv.org/abs/2606.12864): UOJ-Bench is a benchmark for evaluating code generation and repair capabilities of LLMs in competitive programming.
+- [Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning](https://arxiv.org/abs/2606.13680): This paper presents a framework for teaching LLMs to reason by analogy using retrieval-augmented reinforcement learning.
+- [Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch](https://arxiv.org/abs/2606.13604): This paper discusses a reinforcement learning system for adapting dispatch objectives in a food delivery marketplace.
+- [Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing](https://arxiv.org/abs/2606.12816): This paper presents a calibration-aware routing method for quantum circuits using graph reinforcement learning.
+- [EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments](https://arxiv.org/abs/2606.13681): EvoArena is a benchmark suite for evaluating LLM agents in dynamic environments.
+- [Quality-Preserving Imperceptible Adversarial Attack on Skeleton-based Human Action Recognition](https://arxiv.org/abs/2606.13022): This paper presents an adversarial attack method for skeleton-based human action recognition that preserves motion quality.
+- [LongSpike: Fractional Order Spiking State Space Models for Efficient Long Sequence Learning](https://arxiv.org/abs/2606.12895): LongSpike introduces a framework for spiking neural networks that integrates fractional-order state-space modeling.
+- [Learning What to Remember: Observability-Safe Memory Retention via Constrained Optimization for Long-Horizon Language Agents](https://arxiv.org/abs/2606.10616): This paper presents a framework for managing memory retention in long-horizon language agents.
+- [Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields](https://arxiv.org/abs/2606.11042): Workflow-GYM is a benchmark for evaluating AI agents on long-horizon professional tasks.
+- [Human-Enhanced Loop Modeling (HELM): Agent-Based Finite Element Modeling of Concrete Bridge Barriers](https://arxiv.org/abs/2606.12025): HELM is a collaborative framework for automating finite element modeling in structural engineering.
+- [A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design](https://arxiv.org/abs/2606.12040): This paper presents a multi-agent framework for automated design of concrete barriers using AI.
+- [On Approximating the Dynamic Response of Synchronous Generators via Operator Learning: A Step Towards Building Deep Operator-based Power Grid Simulators](https://arxiv.org/abs/2301.12538): This paper develops an operator learning framework for approximating the dynamic response of synchronous generators.
+- [On Pitfalls of RemOve-And-Retrain: Data Processing Inequality Perspective](https://arxiv.org/abs/2304.13836): This paper critiques the RemOve-And-Retrain benchmark for evaluating feature attribution methods.
+- [Competition and Diversity in Generative AI](https://arxiv.org/abs/2412.08610): This paper explores the impact of competition on content diversity in generative AI.
+- [WildIFEval: Instruction Following in the Wild](https://arxiv.org/abs/2503.06573): WildIFEval is a dataset for evaluating instruction-following capabilities of LLMs under complex conditions.
+- [Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning](https://arxiv.org/abs/2505.04021): Prism is a memory-centric framework for co-serving multiple LLMs efficiently.
+- [Lightweight and Interpretable Transformer via Mixed Graph Algorithm Unrolling for Traffic Forecast](https://arxiv.org/abs/2505.13102): This paper presents a lightweight transformer model for traffic forecasting using mixed graph algorithms.
+- [ReSET: Accurate Latency-Critical NVFP4 Reasoning via Step-Aware Temperature Scaling](https://arxiv.org/abs/2506.01274): ReSET is a framework for improving reasoning accuracy in low-latency settings.
+- [Decoding the Multimodal Maze: A Systematic Review on the Adoption of Explainability in Multimodal Attention-based Models](https://arxiv.org/abs/2508.04427): This review analyzes the explainability of multimodal models and identifies gaps in evaluation methods.
+- [Joint Source-Channel-Generation Coding for Wireless Generative Communications](https://arxiv.org/abs/2606.12858): This paper presents a generative communication paradigm that combines source and channel coding for wireless applications.
+- [Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming](https://arxiv.org/abs/2606.12864): UOJ-Bench is a benchmark for evaluating code generation and repair capabilities of LLMs in competitive programming.
+- [Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning](https://arxiv.org/abs/2606.13680): This paper presents a framework for teaching LLMs to reason by analogy using retrieval-augmented reinforcement learning.
+- [Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch](https://arxiv.org/abs/2606.13604): This paper discusses a reinforcement learning system for adapting dispatch objectives in a food delivery marketplace.
+- [Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing](https://arxiv.org/abs/2606.12816): This paper presents a calibration-aware routing method for quantum circuits using graph reinforcement learning.
+- [EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments](https://arxiv.org/abs/2606.13681): EvoArena is a benchmark suite for evaluating LLM agents in dynamic environments.
+- [Quality-Preserving Imperceptible Adversarial Attack on Skeleton-based Human Action Recognition](https://arxiv.org/abs/2606.13022): This paper presents an adversarial attack method for skeleton-based human action recognition that preserves motion quality.
+- [LongSpike: Fractional Order Spiking State Space Models for Efficient Long Sequence Learning](https://arxiv.org/abs/2606.12895): LongSpike introduces a framework for spiking neural networks that integrates fractional-order state-space modeling.
+- [Learning What to Remember: Observability-Safe Memory Retention via Constrained Optimization for Long-Horizon Language Agents](https://arxiv.org/abs/2606.10616): This paper presents a framework for managing memory retention in long-horizon language agents.
+- [Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields](https://arxiv.org/abs/2606.11042): Workflow-GYM is a benchmark for evaluating AI agents on long-horizon professional tasks.
+- [Human-Enhanced Loop Modeling (HELM): Agent-Based Finite Element Modeling of Concrete Bridge Barriers](https://arxiv.org/abs/2606.12025): HELM is a collaborative framework for automating finite element modeling in structural engineering.
+- [A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design](https://arxiv.org/abs/2606.12040): This paper presents a multi-agent framework for automated design of concrete barriers using AI.
+- [On Approximating the Dynamic Response of Synchronous Generators via Operator Learning: A Step Towards Building Deep Operator-based Power Grid Simulators](https://arxiv.org/abs/2301.12538): This paper develops an operator learning framework for approximating the dynamic response of synchronous generators.
+- [On Pitfalls of RemOve-And-Retrain: Data Processing Inequality Perspective](https://arxiv.org/abs/2304.13836): This paper critiques the RemOve-And-Retrain benchmark for evaluating feature attribution methods.
+- [Competition and Diversity in Generative AI](https://arxiv.org/abs/2412.08610): This paper explores the impact of competition on content diversity in generative AI.
+- [WildIFEval: Instruction Following in the Wild](https://arxiv.org/abs/2503.06573): WildIFEval is a dataset for evaluating instruction-following capabilities of LLMs under complex conditions.
+- [Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning](https://arxiv.org/abs/2505.04021): Prism is a memory-centric framework for co-serving multiple LLMs efficiently.
+- [Lightweight and Interpretable Transformer via Mixed Graph Algorithm Unrolling for Traffic Forecast](https://arxiv.org/abs/2505.13102): This paper presents a lightweight transformer model for traffic forecasting using mixed graph algorithms.
+- [ReSET: Accurate Latency-Critical NVFP4 Reasoning via Step-Aware Temperature Scaling](https://arxiv.org/abs/2506.01274): ReSET is a framework for improving reasoning accuracy in low-latency settings.
+- [Decoding the Multimodal Maze: A Systematic Review on the Adoption of Explainability in Multimodal Attention-based Models](https://arxiv.org/abs/2508.04427): This review analyzes the explainability of multimodal models and identifies gaps in evaluation methods.
+- [Joint Source-Channel-Generation Coding for Wireless Generative Communications](https://arxiv.org/abs/2606.12858): This paper presents a generative communication paradigm that combines source and channel coding for wireless applications.
+- [Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming](https://arxiv.org/abs/2606.12864): UOJ-Bench is a benchmark for evaluating code generation and repair capabilities of LLMs in competitive programming.
+- [Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning](https://arxiv.org/abs/2606.13680): This paper presents a framework for teaching LLMs to reason by analogy using retrieval-augmented reinforcement learning.
+- [Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch](https://arxiv.org/abs/2606.13604): This paper discusses a reinforcement learning system for adapting dispatch objectives in a food delivery marketplace.
+- [Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing](https://arxiv.org/abs/2606.12816): This paper presents a calibration-aware routing method for quantum circuits using graph reinforcement learning.
+- [EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments](https://arxiv.org/abs/2606.13681): EvoArena is a benchmark suite for evaluating LLM agents in dynamic environments.
+- [Quality-Preserving Imperceptible Adversarial Attack on Skeleton-based Human Action Recognition](https://arxiv.org/abs/2606.13022): This paper presents an adversarial attack method for skeleton-based human action recognition that preserves motion quality.
+- [LongSpike: Fractional Order Spiking State Space Models for Efficient Long Sequence Learning](https://arxiv.org/abs/2606.12895): LongSpike introduces a framework for spiking neural networks that integrates fractional-order state-space modeling.
+- [Learning What to Remember: Observability-Safe Memory Retention via Constrained Optimization for Long-Horizon Language Agents](https://arxiv.org/abs/2606.10616): This paper presents a framework for managing memory retention in long-horizon language agents.
+- [Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields](https://arxiv.org/abs/2606.11042): Workflow-GYM is a benchmark for evaluating AI agents on long-horizon professional tasks.
+- [Human-Enhanced Loop Modeling (HELM): Agent-Based Finite Element Modeling of Concrete Bridge Barriers](https://arxiv.org/abs/2606.12025): HELM is a collaborative framework for automating finite element modeling in structural engineering.
+- [A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design](https://arxiv.org/abs/2606.12040): This paper presents a multi-agent framework for automated design of concrete barriers using AI.
+- [On Approximating the Dynamic Response of Synchronous Generators via Operator Learning: A Step Towards Building Deep Operator-based Power Grid Simulators](https://arxiv.org/abs/2301.12538): This paper develops an operator learning framework for approximating the dynamic response of synchronous generators.
+- [On Pitfalls of RemOve-And-Retrain: Data Processing Inequality Perspective](https://arxiv.org/abs/2304.13836): This paper critiques the RemOve-And-Retrain benchmark for evaluating feature attribution methods.
+- [Competition and Diversity in Generative AI](https://arxiv.org/abs/2412.08610): This paper explores the impact of competition on content diversity in generative AI.
+- [WildIFEval: Instruction Following in the Wild](https://arxiv.org/abs/2503.06573): WildIFEval is a dataset for evaluating instruction-following capabilities of LLMs under complex conditions.
+- [Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning](https://arxiv.org/abs/2505.04021): Prism is a memory-centric framework for co-serving multiple LLMs efficiently.
+- [Lightweight and Interpretable Transformer via Mixed Graph Algorithm Unrolling for Traffic Forecast](https://arxiv.org/abs/2505.13102): This paper presents a lightweight transformer model for traffic forecasting using mixed graph algorithms.
+- [ReSET: Accurate Latency-Critical NVFP4 Reasoning via Step-Aware Temperature Scaling](https://arxiv.org/abs/2506.01274): ReSET is a framework for improving reasoning accuracy in low-latency settings.
+- [Decoding the Multimodal Maze: A Systematic Review on the Adoption of Explainability in Multimodal Attention-based Models](https://arxiv.org/abs/2508.04427): This review analyzes the explainability of multimodal models and identifies gaps in evaluation methods.
+- [Joint Source-Channel-Generation Coding for Wireless Generative Communications](https://arxiv.org/abs/2606.12858): This paper presents a generative communication paradigm that combines source and channel coding for wireless applications.
+- [Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming](https://arxiv.org/abs/2606.12864): UOJ-Bench is a benchmark for evaluating code generation and repair capabilities of LLMs in competitive programming.
+- [Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning](https://arxiv.org/abs/2606.13680): This paper presents a framework for teaching LLMs to reason by analogy using retrieval-augmented reinforcement learning.
+- [Multi-Agent Reinforcement Learning from Delayed Marketplace Feedback for Objective-Weight Adaptation in Three-Sided Dispatch](https://arxiv.org/abs/2606.13604): This paper discusses a reinforcement learning system for adapting dispatch objectives in a food delivery marketplace.
+- [Graph Reinforcement Learning for Calibration-Aware Quantum Circuit Routing](https://arxiv.org/abs/2606.12816): This paper presents a calibration-aware routing method for quantum circuits using graph reinforcement learning.
+- [EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments](https://arxiv.org/abs/2606.13681): EvoArena is a benchmark suite for evaluating LLM agents in dynamic environments.
+- [Quality-Preserving Imperceptible Adversarial Attack on Skeleton-based Human Action Recognition](https://arxiv.org/abs/2606.13022): This paper presents an adversarial attack method for skeleton-based human action recognition that preserves motion quality.
+- [LongSpike: Fractional Order Spiking State Space Models for Efficient Long Sequence Learning](https://arxiv.org/abs/2606.12895): LongSpike introduces a framework for spiking neural networks that integrates fractional-order state-space modeling.
+- [Learning What to Remember: Observability-Safe Memory Retention via Constrained Optimization for Long-Horizon Language Agents](https://arxiv.org/abs/2606.10616): This paper presents a framework for managing memory retention in long-horizon language agents.
+- [Workflow-GYM: Towards Long-Horizon Evaluation of Computer-use Agentic tasks in Real-World Professional Fields](https://arxiv.org/abs/2606.11042): Workflow-GYM is a benchmark for evaluating AI agents on long-horizon professional tasks.
+- [Human-Enhanced Loop Modeling (HELM): Agent-Based Finite Element Modeling of Concrete Bridge Barriers](https://arxiv.org/abs/2606.12025): HELM is a collaborative framework for automating finite element modeling in structural engineering.
+- [A Lightweight Multi-Agent Framework for Automated Concrete Barrier Design](https://arxiv.org/abs/2606.12040): This paper presents a multi-agent framework for automated design of concrete barriers using AI.
+- [On Approximating the Dynamic Response of Synchronous Generators via Operator Learning: A Step Towards Building Deep Operator-based Power Grid Simulators](https://arxiv.org/abs/2301.12538): This paper develops an operator learning framework for approximating the dynamic response of synchronous generators.
+- [On Pitfalls of RemOve-And-Retrain: Data Processing Inequality Perspective](https://arxiv.org/abs/2304.13836): This paper critiques the RemOve-And-Retrain benchmark for evaluating feature attribution methods.
+- [Competition and Diversity in Generative AI](https://arxiv.org/abs/2412.08610): This paper explores the impact of competition on content diversity in generative AI.
+- [WildIFEval: Instruction Following in the Wild](https://arxiv.org/abs/2503.06573): WildIFEval is a dataset for evaluating instruction-following capabilities of LLMs under complex conditions.
+- [Prism: Cost-Efficient Multi-LLM Serving via GPU Memory Ballooning](https://arxiv.org/abs/2505.04021): Prism is a memory-centric framework for co-serving multiple LLMs efficiently.
+- [Lightweight and Interpretable Transformer via Mixed Graph Algorithm Unrolling for Traffic Forecast](https://arxiv.org/abs/2505.13102): This paper presents a lightweight transformer model for traffic forecasting using mixed graph algorithms.
+- [ReSET: Accurate Latency-Critical NVFP4 Reasoning via Step-Aware Temperature Scaling](https://arxiv.org/abs/2506.01274): ReSET is a framework for improving reasoning accuracy in low-latency settings.
+- [Decoding the Multimodal Maze: A Systematic Review on the Adoption of Explainability in Multimodal Attention-based Models](https://arxiv.org/abs/250
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Security and AI
+
+#### 1. **Security and Safety in AI Systems**
+   - **Title: SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems**
+     - This paper introduces a framework to defend against Multi-Session Memory Poisoning (MSMP) attacks on LLM agents. It presents a two-component system: Signed Memory, which ensures provenance at write time, and a probabilistic memory ablation mechanism that reduces the influence of authenticated adversaries. The results show significant reductions in attack success rates, highlighting the importance of proactive security measures in AI systems.
+
+   - **Title: PI-Hunter: Automated Red-Teaming for Exposing and Localizing Prompt Injections**
+     - This work proposes an automated framework for identifying vulnerabilities in LLM agents through prompt injection attacks. It emphasizes the need for proactive vulnerability exposure rather than reactive measures, demonstrating that existing red-teaming methods are insufficient for understanding the full extent of prompt injection risks.
+
+   - **Title: The Emergence of Autonomous Penetration Capabilities in Large Language Model-Powered AI Systems**
+     - This paper discusses the risks associated with autonomous penetration capabilities in AI systems, highlighting the potential for LLMs to conduct adversarial operations without human intervention. It emphasizes the need for robust evaluation frameworks to assess the security of AI systems in real-world applications.
+
+   - **Title: Safety-Aware Denoiser for Text Diffusion Models**
+     - The proposed framework modifies the denoising process in text diffusion models to steer outputs toward safe regions of the text space, addressing safety risks associated with generative models. This highlights the importance of integrating safety mechanisms directly into model architectures.
+
+#### 2. **AI in Healthcare and Clinical Applications**
+   - **Title: LLM-Powered Personalized Glycemic Assessment in Type 2 Diabetes with Wearable Sensor Data**
+     - This paper presents a framework that leverages LLMs to analyze wearable sensor data for personalized glycemic assessment in diabetes care. It emphasizes the integration of diverse data modalities to enhance the accuracy of health assessments.
+
+   - **Title: ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages**
+     - This work addresses the gap in healthcare AI applications for low-resource languages, proposing a framework that integrates multimodal inputs for medical reasoning. It highlights the importance of cultural and linguistic considerations in AI healthcare applications.
+
+   - **Title: CausalMoE: A Billion-Scale Multimodal Foundation Model for Granger Causal Discovery with Pattern-Routed Heterogeneous Experts**
+     - This paper introduces a multimodal foundation model for causal discovery, emphasizing the need for robust models that can handle complex temporal dependencies in healthcare data.
+
+#### 3. **AI in Education and Knowledge Work**
+   - **Title: Examining the Usage of Generative AI Models in Student Learning Activities for Software Programming**
+     - This study investigates the impact of generative AI on student learning in programming, revealing that while AI can enhance task performance, it does not consistently lead to knowledge gains. This highlights the need for careful integration of AI tools in educational contexts.
+
+   - **Title: How AI Agents Reshape Knowledge Work: Autonomy, Efficiency, and Scope**
+     - This paper analyzes the impact of AI agents on knowledge work, demonstrating that they can significantly reduce task completion times and improve output quality, but also raise concerns about the scope of work and the nature of human-AI collaboration.
+
+#### 4. **AI in Research and Scientific Discovery**
+   - **Title: From Passive Generation to Investigation: A Proactive Scientific Peer Review Agent**
+     - This work proposes a framework for LLMs to conduct proactive investigations during peer reviews, enhancing the quality and depth of reviews by allowing the model to track evidence and findings throughout the process.
+
+   - **Title: A Study of Belief Revision Postulates in Multi-Agent Systems**
+     - This paper explores belief revision in multi-agent systems, providing a formal framework for evaluating how agents update their beliefs in response to new information, which is crucial for ensuring reliable AI behavior in collaborative environments.
+
+### Trends and Insights
+- **Proactive Security Measures**: There is a clear trend towards developing proactive security frameworks that anticipate potential vulnerabilities in AI systems, particularly in LLMs. This includes automated red-teaming and memory integrity checks.
+  
+- **Integration of AI in Healthcare**: The integration of AI in healthcare is expanding, with a focus on personalized care and the need for culturally sensitive applications, particularly in low-resource settings.
+
+- **Educational Impact of AI**: The role of AI in education is being critically examined, with findings suggesting that while AI can enhance performance, it may not always lead to deeper learning, indicating a need for structured guidance in its use.
+
+- **AI for Scientific Inquiry**: The use of AI in scientific research is evolving from passive data generation to active investigation, reflecting a shift towards more interactive and evidence-based approaches in research workflows.
+
+### Conclusion
+The reviewed papers and articles highlight significant advancements and challenges in the application of AI across various domains, particularly in security, healthcare, education, and scientific research. The emphasis on proactive measures, cultural sensitivity, and the integration of AI into collaborative workflows underscores the need for continued exploration and development of robust, ethical AI systems.
