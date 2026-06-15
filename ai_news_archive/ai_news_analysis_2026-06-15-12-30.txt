@@ -1,0 +1,916 @@
+AI Researcher Agent Report for 2026-06-15-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem](https://arxiv.org/abs/2606.13682): This paper presents a Transformer-based scheduling policy for the Open Shop Scheduling Problem (OSSP) using DRL, demonstrating its effectiveness on benchmark instances and scalability to larger problems.
+- [UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented Dialogue Systems](https://arxiv.org/abs/2606.13683): This study introduces UP-NRPA, an online framework that adapts dialogue strategies based on real-time user feedback, achieving high success rates in dialogue tasks.
+- [History of the Muddy Children Puzzle](https://arxiv.org/abs/2606.13703): This paper traces the origins and variations of the Muddy Children Puzzle, highlighting its influence on epistemic logic.
+- [Orchestra-o1: Omnimodal Agent Orchestration](https://arxiv.org/abs/2606.13707): The paper proposes Orchestra-o1, a framework for efficient collaboration among agents across multiple modalities, improving task execution in complex environments.
+- [Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher](https://arxiv.org/abs/2606.13710): This work presents the HOTE framework, which enhances the evolution of AI agents in open-ended research tasks through collaborative learning.
+- [WorkBench Revisited: Workplace Agents Two Years On](https://arxiv.org/abs/2606.13715): The paper reviews the progress of workplace agents, noting improvements in task completion and safety but highlighting persistent basic errors.
+- [Refusal Beyond a Single Direction: A Preliminary Comparison of Diff-in-Means and INLP](https://arxiv.org/abs/2606.13720): This study compares different interventions for steering refusal in chat models, revealing insights into the effectiveness of INLP versus DiM.
+- [YeasierAgent: Agentic Social Sandbox as a Canvas for Intent-Driven Creation of Platform-Agnostic Symbiotic Agent-Native Applications](https://arxiv.org/abs/2606.13722): The paper introduces YeasierAgent, a system for building collaborative applications among users and agents.
+- [TwinBI: An Agentic Digital Twin for Efficient Augmented Interactions with Business Intelligence Dashboards](https://arxiv.org/abs/2606.13731): This work presents TwinBI, a framework that integrates LLMs with BI dashboards for improved analytical support.
+- [When Sample Selection Bias Precipitates Model Collapse](https://arxiv.org/abs/2606.13732): The paper discusses how biased sample selection can lead to model collapse in low-resource settings, proposing collaborative proxy references as a mitigation strategy.
+- [AI Receptivity or AI Adoption Breadth? A Tool-Specific Reanalysis of the Lower-Literacy/Higher-Usage Link](https://arxiv.org/abs/2606.13734): This study revisits the relationship between AI literacy and tool usage, finding that lower literacy predicts broader adoption of non-text AI tools.
+- [MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis](https://arxiv.org/abs/2606.13782): The paper introduces MA-ProofBench, a benchmark for evaluating LLMs in formal theorem proving, revealing poor performance across models.
+- [Poker Arena: Multi-Axis Profiling of Strategic Reasoning and Memory in LLMs](https://arxiv.org/abs/2606.13815): This work presents Poker Arena, a platform for evaluating strategic reasoning in LLMs, highlighting the importance of multi-axis evaluation.
+- [Hyperdimensional computing for structured querying on tabular data embeddings](https://arxiv.org/abs/2606.13871): The paper explores using HyperDimensional Computing for structured querying, achieving better retrieval performance than existing methods.
+- [Capability Minimization as a Safety Primitive: Risk-Aware Causal Gating for Least-Privilege LLM Agents](https://arxiv.org/abs/2606.13884): This study introduces Risk-Aware Causal Gating, a framework for improving decision-making safety in LLMs.
+- [A Multi-Agent AI System for Automated High School Transcript Processing: Collaborative Document Analysis at Scale](https://arxiv.org/abs/2606.13916): The paper describes a multi-agent system for processing high school transcripts, achieving high accuracy and efficiency.
+- [Sorries Are Not the Hard Part: An Expert-Review Case Study of a Semi-Autonomous Formalization](https://arxiv.org/abs/2606.13925): This case study examines the challenges of formalizing mathematical theorems using LLMs, emphasizing the importance of expert review.
+- [Adversarial Concept Search: Predicting Compositional Errors From Feature Geometry](https://arxiv.org/abs/2606.13934): The paper discusses predicting model failure scenarios based on feature geometry, proposing a method for identifying high-risk examples.
+- [Minim: Privacy-Aware Minimal View for Agents via Trusted Local Sanitization](https://arxiv.org/abs/2606.13949): This work presents MINIM, a framework for minimizing sensitive UI state observations to protect user privacy.
+- [Formalizing Numerical Analysis: An Agent Pipeline and Quality Audit Beyond Kernel Acceptance](https://arxiv.org/abs/2606.14000): The paper discusses the formalization of numerical analysis using coding agents, proposing a framework for evaluating quality beyond compilation.
+- [Applicability Condition Extraction for Therapeutic Drug-Disease Relations](https://arxiv.org/abs/2606.14031): This study introduces a method for extracting applicability conditions for drug-disease relations from biomedical literature.
+- [FactoryLLM: A Safe and Open-Source AI Playground for Evaluating LLMs in Smart Factories](https://arxiv.org/abs/2606.14119): The paper presents FactoryLLM, a framework for evaluating LLMs in smart factories while ensuring data safety.
+- [VeriGeo: Controllable Geometry Question Generation with Numerical and Analytical Verification](https://arxiv.org/abs/2606.14176): This work introduces VeriGeo, a framework for generating geometry problems with verification mechanisms.
+- [When Should Agent Trust Be Conditional? Characterizing and Attacking Skill-Conditional Reputation in Agent Swarms](https://arxiv.org/abs/2606.14200): The paper explores the concept of skill-conditional trust in agent swarms and the implications for trustworthiness.
+- [Closing the Reflection Gap: A Free Calibration Bonus for Agentic RL](https://arxiv.org/abs/2606.14211): This study presents RefGRPO, a method for improving reflection calibration in agentic RL.
+- [SkillAudit: Ground-Truth-Free Skill Evolution via Paired Trajectory Auditing](https://arxiv.org/abs/2606.14239): The paper introduces SkillAudit, a framework for evolving agent skills without ground-truth feedback.
+- [AFFORDANCE20Q: Evaluating Affordance Reasoning from Physical Properties](https://arxiv.org/abs/2606.14240): This work presents a benchmark for evaluating affordance reasoning in AI models.
+- [HarnessX: A Composable, Adaptive, and Evolvable Agent Harness Foundry](https://arxiv.org/abs/2606.14249): The paper introduces HarnessX, a framework for creating adaptive agent harnesses.
+- [Communication Policy Evolution for Proactive LLM Agents](https://arxiv.org/abs/2606.14314): This study presents a framework for evolving communication policies in LLM agents.
+- [CSPO: Constraint-Sensitive Policy Optimization for Safe Reinforcement Learning](https://arxiv.org/abs/2606.14415): The paper introduces CSPO, a method for safe reinforcement learning.
+- [Causal Object-Centric Models for Planning with Monte Carlo Tree Search](https://arxiv.org/abs/2606.14418): This work presents COMET, a model-based RL algorithm for planning.
+- [GitOfThoughts: Version-Controlled Reasoning and Agent Memory You Can Replay, Diff, and Merge](https://arxiv.org/abs/2606.14470): The paper introduces GitOfThoughts, a framework for version-controlled reasoning in agents.
+- [When the Tool Decides: LLM Agents Defer Blindly to Graph Neural Network Tools, and Stronger Backbones Defer More](https://arxiv.org/abs/2606.14476): This study examines the deference behavior of LLM agents when using graph neural network tools.
+- [From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI](https://arxiv.org/abs/2606.14502): The paper discusses the transition of LLMs from chatbots to digital colleagues.
+- [Dense Coordinate-List Fine-Tuning Induces a Controllable Interference Surface in Vision-Language Models](https://arxiv.org/abs/2606.14507): This work explores the effects of fine-tuning on vision-language models.
+- [Every Eval Ever: A Unifying Schema and Community Repository for AI Evaluation Results](https://arxiv.org/abs/2606.14516): The paper introduces a schema for standardizing AI evaluation results.
+- [StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance](https://arxiv.org/abs/2606.14571): This study presents a benchmark for evaluating agent memory systems.
+- [VISTA: View-Consistent Self-Verified Training for GUI Grounding](https://arxiv.org/abs/2606.14579): The paper introduces VISTA, a training framework for GUI grounding.
+- [A Temporal Planning Framework for Disruption Aware Dynamic Route Optimization in Heterogeneous Railway Systems](https://arxiv.org/abs/2606.14582): This work presents a framework for dynamic route optimization in railway systems.
+- [Abstracting Cross-Domain Action Sequences into Interpretable Workflows](https://arxiv.org/abs/2606.14654): The paper introduces WorkflowView, a framework for abstracting user actions into high-level activities.
+- [Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows](https://arxiv.org/abs/2606.14672): This study presents a framework for synthesizing outputs from parallel agent branches.
+- [GAGPO: Generalized Advantage Grouped Policy Optimization](https://arxiv.org/abs/2605.13217): The paper introduces GAGPO, a method for credit assignment in multi-turn environments.
+- [Simplex-Constrained Sparse Bagging: Transitioning from Uniform Priors to Sparse Posteriors in Ensemble Learning](https://arxiv.org/abs/2606.13589): This work presents SCSB, a framework for ensemble pruning and calibration.
+- [Cross-Dataset Bloom Question Classification: Supervised Models and Prompted LLMs](https://arxiv.org/abs/2606.13684): The paper evaluates the effectiveness of ML/DL models and LLMs for Bloom's taxonomy classification.
+- [The Coin Flip Judge? Reliability and Bias in LLM-as-a-Judge Evaluation](https://arxiv.org/abs/2606.13685): This study examines the reliability of LLMs as judges in evaluations.
+- [An Agentic Retrieval Framework for Autonomous Context-Aware Data Quality Assessment](https://arxiv.org/abs/2606.13692): The paper presents a framework for autonomous data quality assessment.
+- [Efficient Temporal Modeling for Mobile Sleep Staging via Lightweight Random Attention](https://arxiv.org/abs/2606.13694): This work proposes a lightweight temporal modeling module for mobile sleep staging.
+- [Korzhinskii-Net: Physics-Informed Neural Network for Sub-Surface Mineral Prospectivity Modelling](https://arxiv.org/abs/2606.13695): The paper presents a physics-informed neural network for mineral prospectivity modeling.
+- [Active Inference for Adaptive Traffic Signal Control in Noisy Nonstationary IoT Environments](https://arxiv.org/abs/2606.13698): This study proposes an active inference controller for traffic signal control.
+- [Position: AI Must Become Planet-Centered, Not Just Human-Centered](https://arxiv.org/abs/2606.13704): This position paper advocates for a planet-centered approach to AI design.
+- [Can Editing 1 Neuron Fix Repetition Loops in LLMs?](https://arxiv.org/abs/2606.13705): The paper explores the effectiveness of neuron editing in fixing repetition loops in LLMs.
+- [HierSVA: A Data Synthesis Pipeline, Dataset, and Benchmark for LLM-Driven Hierarchical Hardware Formal Verification](https://arxiv.org/abs/2606.13706): This work presents a pipeline for hierarchical hardware formal verification.
+- [Active Inference for Adaptive Traffic Signal Control in Noisy Nonstationary IoT Environments](https://arxiv.org/abs/2606.13698): This study proposes an active inference controller for traffic signal control.
+- [Position: AI Must Become Planet-Centered, Not Just Human-Centered](https://arxiv.org/abs/2606.13704): This position paper advocates for a planet-centered approach to AI design.
+- [Can Editing 1 Neuron Fix Repetition Loops in LLMs?](https://arxiv.org/abs/2606.13705): The paper explores the effectiveness of neuron editing in fixing repetition loops in LLMs.
+- [HierSVA: A Data Synthesis Pipeline, Dataset, and Benchmark for LLM-Driven Hierarchical Hardware Formal Verification](https://arxiv.org/abs/2606.13706): This work presents a pipeline for hierarchical hardware formal verification.
+
+### Categories
+#### AI and Machine Learning
+- A Deep Reinforcement Learning (DRL)-Based Transformer Method for Solving the Open Shop Scheduling Problem
+- UP-NRPA: User Portrait based Nested Rollout Policy Adaptation for Planning with Large Language Models in Goal-oriented Dialogue Systems
+- Orchestra-o1: Omnimodal Agent Orchestration
+- Hybrid Open-Ended Tri-Evolution Makes Better Deep Researcher
+- WorkBench Revisited: Workplace Agents Two Years On
+- YeasierAgent: Agentic Social Sandbox as a Canvas for Intent-Driven Creation of Platform-Agnostic Symbiotic Agent-Native Applications
+- TwinBI: An Agentic Digital Twin for Efficient Augmented Interactions with Business Intelligence Dashboards
+- When Sample Selection Bias Precipitates Model Collapse
+- AI Receptivity or AI Adoption Breadth? A Tool-Specific Reanalysis of the Lower-Literacy/Higher-Usage Link
+- MA-ProofBench: A Two-Tiered Evaluation of LLMs for Theorem Proving in Mathematical Analysis
+- Poker Arena: Multi-Axis Profiling of Strategic Reasoning and Memory in LLMs
+- Hyperdimensional computing for structured querying on tabular data embeddings
+- Capability Minimization as a Safety Primitive: Risk-Aware Causal Gating for Least-Privilege LLM Agents
+- A Multi-Agent AI System for Automated High School Transcript Processing: Collaborative Document Analysis at Scale
+- Adversarial Concept Search: Predicting Compositional Errors From Feature Geometry
+- Formalizing Numerical Analysis: An Agent Pipeline and Quality Audit Beyond Kernel Acceptance
+- FactoryLLM: A Safe and Open-Source AI Playground for Evaluating LLMs in Smart Factories
+- VeriGeo: Controllable Geometry Question Generation with Numerical and Analytical Verification
+- When Should Agent Trust Be Conditional? Characterizing and Attacking Skill-Conditional Reputation in Agent Swarms
+- Closing the Reflection Gap: A Free Calibration Bonus for Agentic RL
+- SkillAudit: Ground-Truth-Free Skill Evolution via Paired Trajectory Auditing
+- AFFORDANCE20Q: Evaluating Affordance Reasoning from Physical Properties
+- HarnessX: A Composable, Adaptive, and Evolvable Agent Harness Foundry
+- Communication Policy Evolution for Proactive LLM Agents
+- CSPO: Constraint-Sensitive Policy Optimization for Safe Reinforcement Learning
+- Causal Object-Centric Models for Planning with Monte Carlo Tree Search
+- GitOfThoughts: Version-Controlled Reasoning and Agent Memory You Can Replay, Diff, and Merge
+- When the Tool Decides: LLM Agents Defer Blindly to Graph Neural Network Tools, and Stronger Backbones Defer More
+- Dense Coordinate-List Fine-Tuning Induces a Controllable Interference Surface in Vision-Language Models
+- Every Eval Ever: A Unifying Schema and Community Repository for AI Evaluation Results
+- StreamMemBench: Streaming Evaluation of Agent Memory for Future-Oriented Assistance
+- VISTA: View-Consistent Self-Verified Training for GUI Grounding
+- A Temporal Planning Framework for Disruption Aware Dynamic Route Optimization in Heterogeneous Railway Systems
+- Abstracting Cross-Domain Action Sequences into Interpretable Workflows
+- Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows
+- GAGPO: Generalized Advantage Grouped Policy Optimization
+- Simplex-Constrained Sparse Bagging: Transitioning from Uniform Priors to Sparse Posteriors in Ensemble Learning
+- Cross-Dataset Bloom Question Classification: Supervised Models and Prompted LLMs
+- The Coin Flip Judge? Reliability and Bias in LLM-as-a-Judge Evaluation
+- An Agentic Retrieval Framework for Autonomous Context-Aware Data Quality Assessment
+- Efficient Temporal Modeling for Mobile Sleep Staging via Lightweight Random Attention
+- Korzhinskii-Net: Physics-Informed Neural Network for Sub-Surface Mineral Prospectivity Modelling
+- Active Inference for Adaptive Traffic Signal Control in Noisy Nonstationary IoT Environments
+- Learning to Hear Hesitation: Continual Learning for Disfluency-Aware ASR
+- The Shrinking Lifespan of LLMs in Science
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+- Learning What to Predict: Downstream-Guided Task Design for Continued Pretraining
+- Learning Developmental Scaffoldings to Guide Self-Organisation
+- Learning Optimal Policies from Event Logs through Reinforcement Learning: A Comparison of Deep and MDP-Based Approaches
+- Learning High Coverage Discriminative Parsimonious Rulesets
+- Learning Urban Access Costs from Origin-Destination Flows via Inverse Optimal Transport
+- Learning Coordinated Preference for Multi-Objective Multi-Agent Reinforcement Learning
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends
+1. **Security Vulnerabilities in AI Systems**: A significant number of papers focus on identifying and mitigating vulnerabilities in AI systems, particularly in the context of large language models (LLMs). For instance, the paper "Patcher: Post-Hoc Patching of Backdoored Large Language Models" discusses how to repair backdoored models using a single reported failure case, highlighting the growing concern over adversarial attacks on AI systems.
+
+2. **Robustness and Safety Mechanisms**: Several studies emphasize the importance of robustness in AI systems, especially in high-stakes environments. The paper "When Good Verifiers Go Bad" explores how models can regress on new tasks due to the specificities of the verification process, indicating that safety mechanisms need to be more adaptable and robust.
+
+3. **Federated Learning and Privacy**: The integration of federated learning in AI systems is a recurring theme, particularly in the context of maintaining privacy while ensuring model performance. The paper "Silent Failures in Federated Personalization of Foundation Models" discusses the challenges of ensuring trustworthiness in federated learning setups, emphasizing the need for better evaluation methods to detect silent failures.
+
+4. **Causal Inference and Decision-Making**: The use of causal inference in AI systems is highlighted in papers like "FedRot-LoRA" and "CADET: Physics-Grounded Causal Auditing," which focus on improving decision-making processes in AI by understanding causal relationships and ensuring that models do not rely on spurious correlations.
+
+5. **Multi-Agent Systems and Coordination**: The exploration of multi-agent systems, particularly in the context of security, is evident in the paper "MAStrike: Shapley-Guided Collusive Red-Teaming on Multi-Agent Systems." This work emphasizes the need for coordinated defenses against adversarial attacks in systems where multiple agents interact.
+
+6. **Ethics and Governance**: The ethical implications of AI systems, particularly in terms of accountability and transparency, are discussed in papers like "The Accountability Paradox" and "Regulating the Machine Contributor." These works highlight the challenges of ensuring that AI systems operate within ethical boundaries and the need for clear governance frameworks.
+
+7. **Adversarial Robustness**: The exploration of adversarial robustness in AI systems is a common theme, with papers like "MirrorCheck: Efficient Adversarial Defense for Vision-Language Models" focusing on developing defenses against adversarial attacks that can undermine the integrity of AI systems.
+
+### Insights and Recommendations
+- **Need for Comprehensive Evaluation Frameworks**: As AI systems become more integrated into critical applications, there is a pressing need for comprehensive evaluation frameworks that can assess both performance and safety. This includes understanding the implications of model decisions and ensuring that AI systems can be held accountable for their actions.
+
+- **Focus on Causal Relationships**: Future research should prioritize understanding causal relationships in AI systems to prevent reliance on spurious correlations that can lead to unsafe outcomes. This could involve developing more sophisticated causal inference methods that can be integrated into AI training and evaluation processes.
+
+- **Enhancing Federated Learning Approaches**: Given the challenges associated with federated learning, there is a need for improved methods that can ensure model robustness while maintaining privacy. This includes developing better mechanisms for detecting and addressing silent failures in federated setups.
+
+- **Ethical Considerations in AI Development**: As AI systems evolve, ethical considerations must be at the forefront of their development. This includes ensuring that AI systems are designed to respect user privacy, operate transparently, and remain accountable for their actions.
+
+- **Interdisciplinary Collaboration**: The intersection of AI, security, and ethics calls for interdisciplinary collaboration among researchers, practitioners, and policymakers to develop robust frameworks that can guide the responsible deployment of AI technologies.
+
+### Conclusion
+The landscape of AI security and the safeguarding of AI systems is rapidly evolving, with a clear emphasis on robustness, ethical considerations, and the need for comprehensive evaluation frameworks. As AI continues to permeate various sectors, addressing these challenges will be crucial for ensuring the safe and effective use of AI technologies.
