@@ -1,0 +1,125 @@
+AI Researcher Agent Report for 2026-06-18-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [NAVI-Orbital: First In-Orbit Demonstration of a Zero-Shot Vision-Language Model for Autonomous Earth Observation](https://arxiv.org/abs/2606.18271): This paper discusses NAVI-Orbital, a software system deployed on a Low Earth Orbit spacecraft that autonomously classifies and describes Earth imagery using a vision-language model, achieving significant accuracy and demonstrating the feasibility of onboard processing.
+- [CaVe-VLM-CoT: An Interpretable Vision-Language Model Framework](https://arxiv.org/abs/2606.18385): This paper presents CaVe-VLM-CoT, a framework that enhances vision-language models by enforcing evidence-grounded reasoning through a structured feedback loop, achieving high accuracy on various benchmarks.
+- [Searching for Synergy in Shared Workspace Human-AI Collaboration](https://arxiv.org/abs/2606.18413): This study investigates the performance of human-AI teams in collaborative tasks, emphasizing the importance of structured coordination and shared memory for improved outcomes.
+- [CEO-Bench: Can Agents Play the Long Game?](https://arxiv.org/abs/2606.18543): This paper introduces CEO-Bench, a benchmark for evaluating language model agents on long-term decision-making tasks, revealing that most models struggle with sustained performance over time.
+- [DeFAb: A Verifiable Benchmark for Defeasible Abduction in Foundation Models](https://arxiv.org/abs/2606.18557): The authors present DeFAb, a dataset for testing defeasible reasoning in foundation models, highlighting the challenges faced by current models in logical reasoning tasks.
+- [Optimizing Lithium Production Decisions under Geological, Demand, and Pricing Uncertainties: A POMDP Framework for Multi-Objective Decision Making](https://arxiv.org/abs/2606.18598): This paper proposes a POMDP framework for optimizing lithium production decisions, demonstrating improved strategies under various uncertainties.
+- [ForecastBench-Sim: A Simulated-World Forecasting Benchmark](https://arxiv.org/abs/2606.18686): The authors introduce ForecastBench-Sim, a benchmark for evaluating forecasting models in a simulated environment, allowing for controlled experiments and scoring.
+- [What Must Generalist Agents Remember?](https://arxiv.org/abs/2606.18746): This paper explores the memory requirements for generalist agents to perform optimally across multiple tasks, emphasizing the importance of retaining relevant information.
+- [R2D-RL: A RoboCup 2D Soccer Environment for Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2606.18786): This paper presents R2D-RL, a reinforcement learning environment for robot soccer, facilitating the development and evaluation of multi-agent systems.
+- [ProfiLLM: Utility-Aligned Agentic User Profiling for Industrial Ride-Hailing Dispatch](https://arxiv.org/abs/2606.18803): This paper discusses ProfiLLM, a system that utilizes LLMs for user profiling in ride-hailing dispatch, achieving significant improvements in prediction accuracy and operational efficiency.
+- [WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents](https://arxiv.org/abs/2606.18847): The authors introduce WorldLines, a benchmark for evaluating long-horizon embodied agents, focusing on memory and decision-making in dynamic environments.
+- [Externalizing Research Synthesis and Validation in AI Scientists through a Research Harness](https://arxiv.org/abs/2606.18874): This paper presents Xcientist, a framework for externalizing research processes in AI systems, emphasizing the importance of traceability and accountability in automated research.
+- [Generative-Model Predictive Planning for Navigation in Partially Observable Environments](https://arxiv.org/abs/2606.18888): The authors propose BeliefDiffusion, a framework for navigation in partially observable environments, demonstrating improved path efficiency and success rates.
+- [Skill-Guided Continuation Distillation for GUI Agents](https://arxiv.org/abs/2606.18890): This paper introduces SGCD, a framework for improving GUI agents by providing supervision over off-trajectory states, resulting in higher success rates.
+- [SciRisk-Bench: A Risk-Dimension-Aware Benchmark for AI4Science Safety](https://arxiv.org/abs/2606.18936): The authors present SciRisk-Bench, a benchmark for evaluating AI safety in scientific contexts, focusing on risk dimensions and disciplines.
+- [Decoupling Search from Reasoning: A Vendor-Agnostic Grounding Architecture for LLM Agents](https://arxiv.org/abs/2606.18947): This paper discusses DSG, a framework for optimizing grounding in LLM agents, demonstrating improved accuracy and efficiency.
+- [RTSGameBench: An RTS Benchmark for Strategic Reasoning by Vision-Language Models](https://arxiv.org/abs/2606.18950): The authors introduce RTSGameBench, a benchmark for evaluating strategic reasoning in vision-language models within real-time strategy games.
+- [ThinkDeception: A Progressive Reinforcement Learning Framework for Interpretable Multimodal Deception Detection](https://arxiv.org/abs/2606.18988): This paper presents ThinkDeception, a framework for detecting deception in multimodal contexts, emphasizing interpretability and reasoning quality.
+- [RODS: Reward-Driven Online Data Synthesis for Multi-Turn Tool-Use Agents](https://arxiv.org/abs/2606.19047): The authors propose RODS, a framework for synthesizing data in multi-turn reinforcement learning, demonstrating improved performance with fewer trajectories.
+- [ARIADNE: Agnostic Routing for Inference-time Adapter DyNamic sElection](https://arxiv.org/abs/2606.19079): This paper presents ARIADNE, a framework for dynamic adapter selection in inference-time, achieving high accuracy without additional training.
+- [Towards an Agent-First Web: Redesigning the Web for AI Agents](https://arxiv.org/abs/2606.19116): The authors propose a redesign of the web to accommodate AI agents, emphasizing access rights, economic models, and content delivery.
+- [Analysing drivers and interdependencies in European electricity markets using XAI](https://arxiv.org/abs/2606.19118): This paper combines deep learning with explainable AI techniques to analyze electricity price determinants across Europe.
+- [Human-AI Coevolution Dynamics: A Formal Theory of Social Intelligence Emergence Through Long-Term Interaction](https://arxiv.org/abs/2606.19144): The authors propose a formal model of human-AI interaction, integrating emotional adaptation and social memory into a unified framework.
+- [Beyond Safe Data: Pretraining-Stage Alignment with Regular Safety Reflection](https://arxiv.org/abs/2606.19168): This paper presents a method for improving safety alignment in LLMs during pretraining, demonstrating significant improvements in safety classification accuracy.
+- [User as Engram: Internalizing Per-User Memory as Local Parametric Edits](https://arxiv.org/abs/2606.19172): The authors propose a method for personalizing LLMs by storing user-specific information as local edits, improving reasoning accuracy.
+- [TxBench-PP: Analyzing AI Agent Performance on Small-Molecule Preclinical Pharmacology](https://arxiv.org/abs/2606.19245): This paper presents TxBench-PP, a benchmark for evaluating AI agents in preclinical pharmacology, revealing significant challenges in decision-making.
+- [X+Slides: Benchmarking Audience-Conditioned Slide Generation](https://arxiv.org/abs/2606.19256): The authors introduce X+Slides, a benchmark for evaluating slide generation based on audience needs, demonstrating the importance of audience-specific utility.
+- [NeSyCat Torch: A Differentiable Tensor Implementation of Categorical Semantics for Neurosymbolic Learning](https://arxiv.org/abs/2606.19279): This paper presents NeSyCat Torch, a framework for implementing categorical semantics in neural networks, enhancing the interpretability of symbolic learning.
+- [Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation](https://arxiv.org/abs/2606.19327): The authors propose a framework for self-distillation that incorporates structured feedback, improving reasoning quality in LLMs.
+
+### Categories
+#### AI and Machine Learning
+- [NAVI-Orbital](https://arxiv.org/abs/2606.18271)
+- [CaVe-VLM-CoT](https://arxiv.org/abs/2606.18385)
+- [CEO-Bench](https://arxiv.org/abs/2606.18543)
+- [DeFAb](https://arxiv.org/abs/2606.18557)
+- [Optimizing Lithium Production Decisions](https://arxiv.org/abs/2606.18598)
+- [ForecastBench-Sim](https://arxiv.org/abs/2606.18686)
+- [R2D-RL](https://arxiv.org/abs/2606.18786)
+- [ProfiLLM](https://arxiv.org/abs/2606.18803)
+- [WorldLines](https://arxiv.org/abs/2606.18847)
+- [Generative-Model Predictive Planning](https://arxiv.org/abs/2606.18888)
+- [Skill-Guided Continuation Distillation](https://arxiv.org/abs/2606.18890)
+- [SciRisk-Bench](https://arxiv.org/abs/2606.18936)
+- [Decoupling Search from Reasoning](https://arxiv.org/abs/2606.18947)
+- [RTSGameBench](https://arxiv.org/abs/2606.18950)
+- [ThinkDeception](https://arxiv.org/abs/2606.18988)
+- [RODS](https://arxiv.org/abs/2606.19047)
+- [ARIADNE](https://arxiv.org/abs/2606.19079)
+- [X+Slides](https://arxiv.org/abs/2606.19256)
+- [NeSyCat Torch](https://arxiv.org/abs/2606.19279)
+- [Rethinking Reward Supervision](https://arxiv.org/abs/2606.19327)
+
+#### Security and Privacy
+- [WebSP-Eval](https://arxiv.org/abs/2604.06367)
+- [Semantic Router](https://arxiv.org/abs/2511.20002)
+- [MIDS](https://arxiv.org/abs/2606.18599)
+- [TRAP](https://arxiv.org/abs/2606.18996)
+
+#### Healthcare and Life Sciences
+- [Clin-JEPA](https://arxiv.org/abs/2605.10840)
+- [DeepInflation](https://arxiv.org/abs/2601.14288)
+- [Dysarthric Speech Detection](https://arxiv.org/abs/2603.15988)
+- [Fatigue Detection](https://arxiv.org/abs/2507.16859)
+- [Cancer Treatment](https://arxiv.org/abs/2606.10376)
+
+#### Robotics and Autonomous Systems
+- [NAVI-Orbital](https://arxiv.org/abs/2606.18271)
+- [R2D-RL](https://arxiv.org/abs/2606.18786)
+- [NeuralMUSIC](https://arxiv.org/abs/2606.18664)
+
+#### Natural Language Processing
+- [ProfiLLM](https://arxiv.org/abs/2606.18803)
+- [ThinkDeception](https://arxiv.org/abs/2606.18988)
+- [X+Slides](https://arxiv.org/abs/2606.19256)
+
+#### Benchmarking and Evaluation
+- [SciRisk-Bench](https://arxiv.org/abs/2606.18936)
+- [MapSatisfyBench](https://arxiv.org/abs/2606.17453)
+- [ResearchClawBench](https://arxiv.org/abs/2606.07591)
+
+#### Miscellaneous
+- [Towards an Agent-First Web](https://arxiv.org/abs/2606.19116)
+- [Human-AI Coevolution Dynamics](https://arxiv.org/abs/2606.19144)
+- [AI Sovereignty](https://arxiv.org/abs/2606.00729)
+- [Data Intelligence Agents](https://arxiv.org/abs/2606.19319)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends
+1. **Security and Privacy in AI Systems**: A significant number of papers focus on the security vulnerabilities of AI systems, particularly in the context of large language models (LLMs) and their deployment in sensitive environments. For instance, the paper "Semantic Router: On the Feasibility of Hijacking MLLMs via a Single Adversarial Perturbation" explores the potential for adversarial attacks on LLMs, emphasizing the need for robust security measures.
+
+2. **Machine Unlearning**: Several papers address the concept of machine unlearning, which is crucial for maintaining privacy in AI systems. The work "Machine Unlearning for the XGBoost Model with Network Intrusion Datasets" highlights the importance of removing specific data points from models without requiring full retraining, which is particularly relevant in sensitive domains like network intrusion detection.
+
+3. **Robustness and Trustworthiness**: The papers emphasize the need for AI systems to be robust against various forms of attacks and to maintain trustworthiness. For example, "Trust the Right Teacher: Quality-Aware Self-Distillation for GUI Grounding" discusses how self-correction mechanisms can enhance the reliability of AI systems in user-facing applications.
+
+4. **Benchmarking and Evaluation Frameworks**: The introduction of new benchmarks, such as "WebSP-Eval" for evaluating web agents on security and privacy tasks, indicates a growing recognition of the need for standardized evaluation metrics to assess the performance and security of AI systems.
+
+5. **Integration of Human Feedback**: Many studies advocate for incorporating human feedback into AI systems to improve their decision-making capabilities and reduce risks associated with automated processes. For instance, "EARS: Explanatory Abstention for Reliable Sub-Agent Modeling in Large-scale Multi-Agent Systems" proposes a framework for sub-agents to communicate their limitations to enhance overall system reliability.
+
+6. **Dynamic and Adaptive Learning**: The concept of dynamic learning, where AI systems adapt based on real-time feedback and changing environments, is a recurring theme. Papers like "A Human-in-the-Loop Bayesian Optimization Framework for Constraint-Aware Bioprocess Development" illustrate how adaptive learning can improve decision-making in complex scenarios.
+
+7. **Ethical Considerations**: The ethical implications of AI deployment, particularly in sensitive areas like healthcare and finance, are highlighted in several papers. For example, "The New Social Image: How AI Competency and AI Proactivity Influence Self- and Peer-Perceptions in the Workplace" discusses the social implications of AI integration in professional settings.
+
+#### Notable Papers and Findings
+- **"Semantic Router: On the Feasibility of Hijacking MLLMs via a Single Adversarial Perturbation"**: This paper explores the potential for adversarial attacks on LLMs, emphasizing the need for robust security measures.
+  
+- **"Machine Unlearning for the XGBoost Model with Network Intrusion Datasets"**: Introduces XGBoost-Forget, an unlearning approach that maintains predictive performance while providing faster unlearning, demonstrating its potential for machine unlearning in tabular network intrusion settings.
+
+- **"WebSP-Eval: Evaluating Web Agents on Website Security and Privacy Tasks"**: A new evaluation framework for measuring web agent performance on website security and privacy tasks, revealing that current models struggle with specific task categories and websites.
+
+- **"EARS: Explanatory Abstention for Reliable Sub-Agent Modeling in Large-scale Multi-Agent Systems"**: Proposes a framework for sub-agents to communicate their limitations to enhance overall system reliability, improving the overall response pass rate.
+
+- **"Trust the Right Teacher: Quality-Aware Self-Distillation for GUI Grounding"**: Discusses how self-correction mechanisms can enhance the reliability of AI systems in user-facing applications.
+
+### Conclusion
+The landscape of AI security is rapidly evolving, with a strong emphasis on robustness, privacy, and ethical considerations. The integration of human feedback, dynamic learning, and the establishment of standardized benchmarks are crucial for developing reliable and trustworthy AI systems. The ongoing research in machine unlearning and the exploration of adversarial vulnerabilities highlight the importance of addressing security challenges in AI deployment, particularly in sensitive domains.
