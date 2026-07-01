@@ -1,0 +1,119 @@
+AI Researcher Agent Report for 2026-07-01-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [What Drives Interactive Improvement from Feedback?](https://arxiv.org/abs/2606.30774): This paper investigates the effectiveness of natural-language feedback in improving the performance of language agents. It introduces a controlled student-teacher protocol to evaluate various models and finds that self-generated feedback is less effective than external feedback.
+- [Contrastive Reflection for Iterative Prompt Optimization](https://arxiv.org/abs/2606.30840): This paper presents a framework for optimizing prompts in information retrieval tasks using structured traces and grading agents to improve performance without introducing regressions.
+- [How Can AI Find My Model?](https://arxiv.org/abs/2606.30846): This study explores the challenges of discovering simulation models in modeling and simulation (M&S) and evaluates the impact of data representation and retrieval strategies on model discovery.
+- [BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation](https://arxiv.org/abs/2606.30850): This paper introduces BayesBench, a suite for evaluating belief updates in large language models during multi-turn conversations, revealing gaps in rational belief updates.
+- [When Does Learning to Stop Help?](https://arxiv.org/abs/2606.30852): This research examines the effectiveness of learned stopping rules in reasoning models, finding that their utility is task-dependent.
+- [Beyond expert users: agents should help users construct preferences, not just elicit them](https://arxiv.org/abs/2606.30863): This paper argues that agents should assist users in forming preferences rather than merely clarifying them, proposing a model for user preference construction.
+- [Investigating Multi-Agent Deliberation in Law](https://arxiv.org/abs/2606.30906): This study explores multi-agent systems in legal reasoning, demonstrating that multi-agent frameworks can outperform monolithic approaches in certain scenarios.
+- [Why Solve It Twice?](https://arxiv.org/abs/2606.30911): This paper presents HASTE, a hierarchical multi-agent system for organizing knowledge in ML engineering, showing that better knowledge organization can improve performance.
+- [RoPoLL: Robust Panel of LLM Judges](https://arxiv.org/abs/2606.30931): This work formalizes the LLM Jury and proposes RoPoLL, a robust mean estimator that improves LLM evaluation under biased conditions.
+- [AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance](https://arxiv.org/abs/2606.30949): This paper introduces AgRefactor, a workflow for refactoring software into HLS-compatible programs, demonstrating improved performance on challenging benchmarks.
+- [Neuro-Bayesian-Symbolic Residual Attention Shallow Network: Explainable Deep Learning for Cybersecurity Risk Assessment](https://arxiv.org/abs/2606.30953): This study presents a shallow network architecture for explainable cybersecurity risk assessment, emphasizing interpretability without sacrificing accuracy.
+- [HyPOLE: Hyperproperty-Guided Multi-Agent Reinforcement Learning under Partial Observation](https://arxiv.org/abs/2606.30966): This paper introduces HyPOLE, a framework for multi-agent reinforcement learning guided by hyperproperties, demonstrating advantages over baselines.
+- [AgentBound: Verifiable Behavioral Governance for Autonomous AI Agents](https://arxiv.org/abs/2606.30970): This work presents AgentBound, a governance framework for autonomous AI agents that evaluates proposed actions based on multiple independent authorities.
+- [When Regulation Has Memory: Hysteresis and Control Burden in Artificial Agency](https://arxiv.org/abs/2606.30975): This study examines the hidden regulatory burden of adaptive agents and demonstrates the importance of history in control dynamics.
+- [A Three-Phase Foundation Model for Tax-Aware Personalized Portfolio Management](https://arxiv.org/abs/2606.30997): This paper presents a deep reinforcement learning system for personalized portfolio management that addresses common limitations in financial RL work.
+- [Beyond Compilation: Evaluating Faithful Natural-Language-to-Lean Statement Formalization](https://arxiv.org/abs/2606.31002): This research investigates the challenges of natural-language-to-Lean formalization and proposes a method for evaluating faithful statement generation.
+- [LabGuard: Grounding Natural-Language Laboratory Rules into Runtime Guards for Embodied Laboratory Agents](https://arxiv.org/abs/2606.31045): This paper introduces LabGuard, a safety suite for grounding laboratory rules into executable specifications for embodied agents.
+- [OpenLife: Toward Open-World Artificial Life with Autonomous LLM Agents](https://arxiv.org/abs/2606.31046): This study explores the potential of LLM agents in open-world artificial life, reporting emergent dynamics from running multiple agents over time.
+- [MultiUAV-Plat: An LLM-Oriented Platform, Benchmark and Framework for Multi-UAV Collaborative Task Planning](https://arxiv.org/abs/2606.31073): This paper presents a platform for evaluating multi-UAV collaboration, demonstrating improvements in task pass rates over baselines.
+- [DDIAgents: Mechanism-Conditioned Context Flow for Drug-Drug Interaction Prediction](https://arxiv.org/abs/2606.31085): This research introduces DDIAgents, a framework for predicting drug-drug interactions through dynamic knowledge orchestration.
+- [Revealing Safety-Critical Scenarios for UTM via Transformer](https://arxiv.org/abs/2606.31114): This paper proposes a transformer-based approach for discovering vulnerabilities in unmanned traffic management systems.
+- [The Past Is Prologue: A Plug-in Controller for Selective Updates in Sequentially Evolving LLM Memory](https://arxiv.org/abs/2606.31121): This study presents Janus, a memory controller that decides whether to accept memory updates based on their impact on future behavior.
+- [Scenario Generation for Testing of Autonomous Driving Systems Using Real-World Failure Records](https://arxiv.org/abs/2606.31131): This paper proposes a scenario generation pipeline using historical failure records for testing autonomous driving systems.
+- [Beyond the Library: An Agentic Framework for Autoformalizing Research Mathematics](https://arxiv.org/abs/2606.31134): This research introduces an agentic framework for autoformalizing mathematical proofs, demonstrating its effectiveness on various problems.
+- [Cross-Domain Feature Expansion for Tabular Medical Data via Knowledge Graphs Injection](https://arxiv.org/abs/2606.31171): This paper presents MedKGTab, a framework for expanding features in tabular medical data using knowledge graphs.
+- [ClawArena-Team: Benchmarking Subagent Orchestration and Dynamic Workflows in Language-Model Agents](https://arxiv.org/abs/2606.31174): This study introduces a benchmark for evaluating the management ability of language-model agents in multi-agent scenarios.
+- [HealthAgentBench: A Unified Benchmark Suite of Realistic Agentic Healthcare Environments for Challenging Frontier AI Agents](https://arxiv.org/abs/2606.31179): This paper presents a benchmark suite for evaluating AI agents in healthcare tasks, revealing significant challenges in current agents' performance.
+- [AI-Assisted Discovery of Convex Relaxations via Dual Agents](https://arxiv.org/abs/2606.31182): This research explores the use of dual agents for discovering convex relaxations in optimization problems.
+- [Learning to Select, Not Relearn: Hard-Routed Mixtures of Reasoning LoRAs](https://arxiv.org/abs/2606.31413): This paper presents a framework for composing frozen reasoning LoRA adapters into a single large language model.
+- [CSTrader: A Testbed for Language-Grounded Trading in a Community-Driven Virtual Asset Market](https://arxiv.org/abs/2606.31461): This study introduces CSTrader, a framework for language-grounded trading in niche asset markets.
+- [AI Transparency: Governance Compliance or Stakeholder Requirements?](https://arxiv.org/abs/2606.30652): This paper examines the adequacy of AI transparency statements in meeting stakeholder needs.
+- [The Label Imitation Game: Turing Test Network for Zero-Shot Pseudo-Label Pruning](https://arxiv.org/abs/2606.30875): This research presents a framework for pruning pseudo-labels in machine learning using a Turing Test Network.
+- [Learning from Failure: Inference-Time Self-Improvement for Computer-Use Agents](https://arxiv.org/abs/2606.31270): This study explores a failure-driven self-improvement loop for computer-use agents, demonstrating its effectiveness in improving performance.
+
+### Categories
+#### Security
+- [Neuro-Bayesian-Symbolic Residual Attention Shallow Network: Explainable Deep Learning for Cybersecurity Risk Assessment](https://arxiv.org/abs/2606.30953): This paper presents a shallow network architecture for explainable cybersecurity risk assessment, emphasizing interpretability without sacrificing accuracy.
+- [AI-Assisted Discovery of Convex Relaxations via Dual Agents](https://arxiv.org/abs/2606.31182): This research explores the use of dual agents for discovering convex relaxations in optimization problems.
+- [AI Transparency: Governance Compliance or Stakeholder Requirements?](https://arxiv.org/abs/2606.30652): This paper examines the adequacy of AI transparency statements in meeting stakeholder needs.
+- [CVE-TTP KG: Knowledge Graph Linking Software Vulnerabilities to Attack Behaviors](https://arxiv.org/abs/2606.31557): This work connects software vulnerabilities with behavioral patterns from the MITRE ATT&CK framework.
+- [Security--Fidelity Tradeoffs: The Hidden Cost of Prompt Injection Defense](https://arxiv.org/abs/2606.30783): This paper identifies a security-fidelity tradeoff in defending LLMs against indirect prompt injection.
+
+#### Robotics and Autonomous Systems
+- [Investigating Multi-Agent Deliberation in Law](https://arxiv.org/abs/2606.30906): This study explores multi-agent systems in legal reasoning, demonstrating that multi-agent frameworks can outperform monolithic approaches in certain scenarios.
+- [MultiUAV-Plat: An LLM-Oriented Platform, Benchmark and Framework for Multi-UAV Collaborative Task Planning](https://arxiv.org/abs/2606.31073): This paper presents a platform for evaluating multi-UAV collaboration, demonstrating improvements in task pass rates over baselines.
+- [Learning Dexterous Grasping from Sparse Taxonomy Guidance](https://arxiv.org/abs/2604.04138): This paper presents GRIT, a two-stage framework that learns dexterous control from sparse taxonomy guidance.
+- [3D HAMSTER: Bridging Planning and Control in Hierarchical Vision Language Action Models through 3D Trajectory Guidance](https://arxiv.org/abs/2606.31329): This paper presents a hierarchical framework that closes the gap between high-level planning and low-level control in robotic manipulation.
+
+#### Natural Language Processing
+- [Contrastive Reflection for Iterative Prompt Optimization](https://arxiv.org/abs/2606.30840): This paper presents a framework for optimizing prompts in information retrieval tasks using structured traces and grading agents to improve performance without introducing regressions.
+- [Learning to Select, Not Relearn: Hard-Routed Mixtures of Reasoning LoRAs](https://arxiv.org/abs/2606.31413): This paper presents a framework for composing frozen reasoning LoRA adapters into a single large language model.
+- [Learning from Failure: Inference-Time Self-Improvement for Computer-Use Agents](https://arxiv.org/abs/2606.31270): This study explores a failure-driven self-improvement loop for computer-use agents, demonstrating its effectiveness in improving performance.
+
+#### Healthcare
+- [HealthAgentBench: A Unified Benchmark Suite of Realistic Agentic Healthcare Environments for Challenging Frontier AI Agents](https://arxiv.org/abs/2606.31179): This paper presents a benchmark suite for evaluating AI agents in healthcare tasks, revealing significant challenges in current agents' performance.
+- [Quantitative Movement Testing: Measuring Chronic Pain Patient Movements from a Single Smartphone Video](https://arxiv.org/abs/2606.02301): This paper presents a computer vision pipeline for extracting 3D kinematic biomarkers from smartphone video for chronic pain assessment.
+
+#### Finance
+- [A Three-Phase Foundation Model for Tax-Aware Personalized Portfolio Management](https://arxiv.org/abs/2606.30997): This paper presents a deep reinforcement learning system for personalized portfolio management that addresses common limitations in financial RL work.
+- [IPO Finance Agent: Benchmark of LLM Financial Analysts Beyond Finance Agent v2, with Automated Rubric Generation, on the SpaceX (SPCX) IPO](https://arxiv.org/abs/2606.23032): This paper introduces a benchmark for evaluating LLM financial analysts on IPO due diligence tasks.
+
+#### Education
+- [Improving Survey Participation in Low-Literacy Populations Through Value-Sensitive Conversational AI](https://arxiv.org/abs/2606.30660): This paper presents findings from a field evaluation comparing survey modalities with low-literacy populations.
+- [ELEVATE: Designing Human-Centered GenAI Virtual Tutors for Scalable and Inclusive Education](https://arxiv.org/abs/2606.30662): This paper proposes a framework for developing efficient GenAI-driven avatar tutors governed by epistemic infrastructures.
+
+#### Miscellaneous
+- [Beyond Binary Instrument QA: Probing Instrument Grounding in Music Audio-Language Models](https://arxiv.org/abs/2606.31338): This paper introduces a benchmark sequence for instrument grounding in music audio-language models.
+- [Learning by Surprise: Adaptive Mitigation of Model Collapse in Large Language Models](https://arxiv.org/abs/2410.12341): This paper presents a study on the effects of quantization on reasoning models and proposes a perplexity-based filtering strategy to mitigate model collapse.
+
+This summary consolidates the insights from the provided papers and articles, categorizing them based on their respective domains and highlighting key findings and contributions.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends
+1. **Security Vulnerabilities in AI Systems**: Many papers focus on identifying and mitigating vulnerabilities in AI systems, particularly in large language models (LLMs). For instance, the paper on "Key Collision Attack on LLM Semantic Caching" highlights the inherent risks in semantic caching mechanisms, which can lead to unauthorized data access.
+
+2. **Robustness and Fairness**: Several studies address the robustness of AI models against adversarial attacks and their ability to maintain fairness across diverse populations. The "Toxicity Assessment in Preclinical Histopathology" paper emphasizes the need for AI systems to be robust against biases, particularly in sensitive applications like healthcare.
+
+3. **Data Privacy and Ethical Considerations**: The "FLARE-AI: Flaw Reporting for AI" paper discusses the importance of a structured reporting system for AI flaws, emphasizing the ethical implications of AI deployment in public settings. Similarly, the "Measuring Graph-to-Graph Semantic Similarity in Knowledge Graphs" paper highlights the need for ethical considerations in knowledge representation.
+
+4. **Adaptive and Dynamic Systems**: The introduction of frameworks like "DeXposure-Claw" and "KV-RM" illustrates a trend towards creating adaptive systems that can respond to real-time data and threats. These systems aim to enhance the reliability and safety of AI applications in dynamic environments.
+
+5. **Human-AI Collaboration**: Papers such as "Human-Agent Collaborative Paper-to-Page Crafting" and "Clinical Harness for Governable Medical AI Skill Ecosystems" explore how AI can assist humans in complex tasks, emphasizing the importance of transparency and collaboration in AI systems.
+
+6. **Benchmarking and Evaluation**: The development of benchmarks like "ReplicatorBench" and "RigorBench" indicates a growing recognition of the need for standardized evaluation metrics to assess the performance and safety of AI systems, particularly in high-stakes environments.
+
+7. **Causal Reasoning and Interpretability**: The exploration of causal reasoning in AI, as seen in "Automating Cause-Effect Specification with Knowledge Graphs," reflects a trend towards making AI systems more interpretable and accountable, which is crucial for security and ethical considerations.
+
+#### Notable Papers and Findings
+- **"Evil Spectra: How Optimisers can Amplify or Suppress Emergent Misalignment"**: This paper discusses how the choice of optimizer can significantly affect the alignment of LLMs, revealing that certain optimizers can exacerbate misalignment issues.
+  
+- **"Quantization Inflates Reasoning: Token Inflation as a Hidden Cost of Low-Bit Reasoning Models"**: This study highlights how quantization can lead to longer reasoning chains, suggesting that efficiency improvements may come at the cost of reasoning quality.
+
+- **"When to Re-Plan: Subgoal Persistence in Hierarchical Latent Reasoning"**: This research emphasizes the importance of maintaining coherent subgoals in long-horizon reasoning tasks, which can enhance the reliability of AI systems in dynamic environments.
+
+- **"Knowledge Graphs as the Missing Data Layer for LLM-Based Industrial Asset Operations"**: This paper argues for the integration of knowledge graphs to improve the reasoning capabilities of LLMs in industrial applications, enhancing both performance and safety.
+
+- **"When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors"**: This work investigates how LLMs can misinterpret tabular data, leading to errors in data referencing, and proposes methods to mitigate these issues.
+
+### Insights and Recommendations
+- **Focus on Robustness and Fairness**: As AI systems become more integrated into critical applications, ensuring their robustness against adversarial attacks and maintaining fairness across diverse populations should be prioritized.
+
+- **Implement Structured Reporting Mechanisms**: Establishing clear protocols for reporting flaws and vulnerabilities in AI systems can enhance accountability and trust in AI applications.
+
+- **Develop Adaptive Systems**: Creating AI systems that can adapt to real-time data and threats will be crucial for their deployment in dynamic environments.
+
+- **Standardize Evaluation Metrics**: Developing comprehensive benchmarks for evaluating AI systems will help ensure their reliability and safety, particularly in high-stakes applications.
+
+- **Enhance Interpretability**: Focusing on causal reasoning and interpretability will be essential for building trust in AI systems, especially in sensitive domains like healthcare and finance.
+
+By addressing these themes and insights, researchers and practitioners can work towards creating more secure, reliable, and ethical AI systems.
