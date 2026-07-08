@@ -1,0 +1,112 @@
+AI Researcher Agent Report for 2026-07-08-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Prompt-to-Paper: Agentic AI System for Bioinformatics](https://arxiv.org/abs/2607.05456): Introduces a framework for automated manuscript generation in bioinformatics, addressing issues of claim grounding, experimental result fabrication, and quality assessment.
+- [From Graphs to Gradients: Physics-Inspired Structural Attribution for Cyber-Physical IoT Systems and Beyond](https://arxiv.org/abs/2607.05563): Proposes a framework for causal explanation in AI, focusing on hybrid cyber-physical systems and providing robust insights into automated decisions.
+- [CSTutorBench: Benchmarking Small Language Models as Tutors for Block-Based Programming](https://arxiv.org/abs/2607.05571): Evaluates small language models as tutors in programming environments, highlighting the importance of context-specific benchmarks.
+- [Foundation Models for Automatic CAD Generation](https://arxiv.org/abs/2607.05573): Discusses a framework for generating CAD designs from natural language, emphasizing the integration of various evaluation metrics.
+- [Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction](https://arxiv.org/abs/2607.05577): Introduces a memory system for fiction writers that tracks narrative elements and supports multi-hop queries about story states.
+- [FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents](https://arxiv.org/abs/2607.05682): Presents a framework for forming auditable research questions in scientific LLMs, enhancing transparency in AI-generated inquiries.
+- [Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents](https://arxiv.org/abs/2607.05690): Explores integrating memory into language agents' processing loops to improve recall and reduce latency.
+- [Akashic: A Low-Overhead LLM Inference Service with MemAttention](https://arxiv.org/abs/2607.05708): Proposes a memory system for LLMs that organizes context into chunks to enhance retrieval efficiency.
+- [ArtisanCAD: An Industrial-Level CAD Agent with Expert-Grounded Knowledge Distillation](https://arxiv.org/abs/2607.05750): Describes a CAD agent that uses expert knowledge to improve the generation of CAD models from natural language descriptions.
+- [Synthetic Consumer Insight Generation with Large Language Models](https://arxiv.org/abs/2607.05761): Investigates the use of LLMs to generate synthetic consumer data for marketing insights.
+- [Beyond Static Evaluation: Building Simulation Environments for Scalable Agentic Reinforcement Learning](https://arxiv.org/abs/2607.05773): Introduces a platform for evaluating LLM agents in dynamic environments, focusing on multi-step decision-making.
+- [Beyond the Leaderboard: A Synthesis of Tool-Use, Planning, and Reasoning Failures in Large Language Model Agents](https://arxiv.org/abs/2607.05775): Synthesizes common failure modes in LLM agents across various benchmarks, highlighting safety and measurement validity issues.
+- [Controlling Tool Use with Heading-Specific Activation Steering](https://arxiv.org/abs/2607.05790): Investigates the internal representations of tool use in LLMs and proposes steering vectors to control tool invocation behavior.
+- [From Passive Retrieval to Active Memory Navigation: Learning to Use Memory as a Structured Action Space](https://arxiv.org/abs/2607.05794): Proposes a framework for using long-term memory in conversational agents to enhance personalized interactions.
+- [TurnOPD: Making On-Policy Distillation Turn-Aware for Efficient Long-Horizon Agent Training](https://arxiv.org/abs/2607.05804): Introduces a strategy for efficient training of long-horizon agents using on-policy distillation.
+- [Onnes: A Physics-Grounded Multi-Agent LLM Simulator for Cryogenic Fault Diagnosis in Quantum Computing Infrastructure](https://arxiv.org/abs/2607.05805): Presents a simulator for diagnosing faults in quantum computing infrastructure using LLMs.
+- [StateFuse: Deterministic Conflict-Preserving Memory for Multi-Agent Systems](https://arxiv.org/abs/2607.05844): Proposes a memory system for multi-agent environments that preserves conflicting observations for better decision-making.
+- [Uncovering Latent Depression Severity for Binary Depression Detection via Advantage-weighting Ranking](https://arxiv.org/abs/2607.05901): Introduces a framework for detecting depression severity using audio-visual data and ranking mechanisms.
+- [PCBWorld: A Benchmark Environment for Engine-Grounded PCB Design Automation](https://arxiv.org/abs/2607.05915): Describes a benchmark for PCB design automation that integrates engine-grounded routing environments.
+- [SearchEyes: Towards Frontier Multimodal Deep Search Intelligence via Search World Simulation](https://arxiv.org/abs/2607.05943): Proposes a simulated search world for training multimodal search agents.
+- [Integrating knowledge graphs and multilingual scholarly corpora for domain-adaptive LLMs in SSH](https://arxiv.org/abs/2607.05956): Discusses adapting LLMs for social sciences and humanities research using knowledge graphs.
+- [Auto-DSM Under the Lens: A Black-Box Evaluation Framework for LLM-Based DSM Generation](https://arxiv.org/abs/2607.05985): Introduces a framework for evaluating LLMs in generating design structure matrices from technical documentation.
+- [Beyond Correctness: Enhancing Architectural Reasoning in Code LLMs via Scalable Labeling with Agentic Judgment](https://arxiv.org/abs/2606.14948): Proposes a framework for improving architectural reasoning in code generation through agentic judgment.
+
+### Categories
+#### Security
+- [Position: Preventing AI-Generated CSAM Necessitates New Approaches to AI Safety](https://arxiv.org/abs/2607.05407): Discusses the need for new AI safety approaches to prevent child sexual abuse material generation.
+- [SecureCode: A Production-Grade Multi-Turn Dataset for Training Security-Aware Code Generation Models](https://arxiv.org/abs/2512.18542): Introduces a dataset for training models on security-aware code generation.
+- [Not All Refusals Are Equal: How Safety Alignment Fails Cybersecurity at Scale](https://arxiv.org/abs/2607.02714): Analyzes how safety alignment in LLMs can fail in cybersecurity contexts.
+- [SEVRA-BENCH: Social Engineering of Vulnerabilities in Review Agents](https://arxiv.org/abs/2606.13757): Evaluates how review agents can be manipulated through social engineering tactics.
+
+#### AI and Robotics
+- [Harrison.Rad 1.5 Technical Report: A radiology foundation model that can draft reports from images, priors and clinical context](https://arxiv.org/abs/2607.05880): Discusses a radiology model for generating reports from imaging data.
+- [RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies](https://arxiv.org/abs/2607.04434): Introduces a benchmark for evaluating robot manipulation policies in both simulation and real-world settings.
+- [Multi-Agent Deep Reinforcement Learning for Multi Objective Battery Management in Dairy Farms](https://arxiv.org/abs/2607.06489): Proposes a multi-objective optimization control system for battery management in dairy farms.
+
+#### Natural Language Processing
+- [LLM4Delay: Flight Delay Prediction via Cross-Modality Adaptation of Large Language Models and Aircraft Trajectory Representation](https://arxiv.org/abs/2510.23636): Introduces a framework for predicting flight delays using LLMs.
+- [Prompt Coach: An Empirical Evaluation of an Agentic Tutor for Learning Prompt Engineering in Software Development](https://arxiv.org/abs/2607.06074): Evaluates a tutoring system for teaching prompt engineering to developers.
+
+#### Machine Learning
+- [KernelEvolve: Scaling Agentic Kernel Coding for Heterogeneous AI Accelerators at Meta](https://arxiv.org/abs/2512.23236): Discusses a framework for optimizing kernel generation for AI accelerators.
+- [Sparse but Wrong: Incorrect L0 Leads to Incorrect Features in Sparse Autoencoders](https://arxiv.org/abs/2507.06141): Analyzes the impact of L0 settings on sparse autoencoders.
+
+#### Healthcare
+- [AVA-VLM: Adaptive Visual Attention-Vision Language Model for In-the-Wild Construction Site Monitoring](https://arxiv.org/abs/2607.05196): Proposes a model for monitoring construction sites using visual attention mechanisms.
+- [EVA-Net: Subject-Independent EEG Motor Decoding with Video-Derived Motor Priors](https://arxiv.org/abs/2606.01884): Introduces a framework for decoding EEG signals using video-derived priors.
+
+#### Education
+- [Rethinking Visual Autoregressive Sampling with Information-Grounding Guidance](https://arxiv.org/abs/2509.23876): Proposes a method for improving visual sampling in generative models.
+- [A Guiding Framework for K-12 Teachers in Creating AI-powered Learning Technologies through Vibe Coding](https://arxiv.org/abs/2607.05406): Introduces a framework for teachers to create AI-powered learning technologies.
+
+#### Miscellaneous
+- [The Threshold Is a Price, Not a Percentage](https://towardsdatascience.com/the-threshold-is-a-price-not-a-percentage/): Discusses decision-making thresholds in AI agents.
+- [Information Theory and Ensemble Models](https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8/): Explores ensemble methods for time-series forecasting.
+
+This summary and categorization provide a comprehensive overview of the recent advancements in AI research, particularly in the context of security, natural language processing, and healthcare applications.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **Prompt-to-Paper: Agentic AI System for Bioinformatics**
+   - **Summary**: This paper presents a framework for automated manuscript generation in bioinformatics, addressing issues such as grounding claims in verifiable literature and executing genuine experiments. It introduces a multi-agent system that improves manuscript quality through a feedback loop involving human reviewers.
+   - **Security Insight**: The framework emphasizes the importance of verifiable claims and reproducibility, which are crucial in scientific integrity and can be applied to security research to ensure that generated claims are backed by reliable data.
+
+#### 2. **From Graphs to Gradients: Physics-Inspired Structural Attribution for Cyber-Physical IoT Systems and Beyond**
+   - **Summary**: This paper proposes a framework for causal explanation in AI systems, particularly in high-risk domains like industrial IoT security. It models dependencies in cyber-physical systems to provide reliable explanations of abnormal behaviors.
+   - **Security Insight**: Understanding causal relationships in IoT systems can help in identifying vulnerabilities and potential attack vectors, enhancing the security posture of such systems.
+
+#### 3. **CSTutorBench: Benchmarking Small Language Models as Tutors for Block-Based Programming**
+   - **Summary**: This paper introduces a benchmark for evaluating small language models as educational tutors, highlighting the importance of context-specific benchmarks for effective deployment in educational settings.
+   - **Security Insight**: The findings can inform the development of secure educational tools that protect user data and ensure safe interactions, particularly in K-12 environments.
+
+#### 4. **Foundation Models for Automatic CAD Generation**
+   - **Summary**: This paper discusses the use of foundation models for generating CAD designs from natural language specifications, emphasizing the importance of quality and accuracy in engineering applications.
+   - **Security Insight**: Ensuring the security of CAD models against unauthorized modifications or vulnerabilities is critical, especially in industries where design integrity is paramount.
+
+#### 5. **FirstResearch: Auditable Question Formation for LLM Scientific Discovery Agents**
+   - **Summary**: This paper introduces a framework for forming auditable research questions using LLMs, enhancing the transparency and accountability of AI-assisted scientific discovery.
+   - **Security Insight**: The focus on auditability can be extended to security contexts, ensuring that AI systems can be held accountable for their outputs and decisions.
+
+#### 6. **Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents**
+   - **Summary**: This paper explores the integration of memory into language agents to improve their performance and recall capabilities.
+   - **Security Insight**: Enhanced memory capabilities can improve the security of AI systems by allowing them to retain critical information about threats and vulnerabilities over time.
+
+#### 7. **DT-Guard: Intent-Driven Reasoning-Active Training for Reasoning-Free LLM Safety Guardrail**
+   - **Summary**: This paper presents a safety guardrail model for LLMs that uses intent-driven datasets to improve judgment quality while maintaining efficiency.
+   - **Security Insight**: The approach can help mitigate risks associated with AI-generated content, ensuring that outputs align with safety and ethical standards.
+
+#### 8. **When Assisting One Disempowers Another**
+   - **Summary**: This paper discusses the unintended consequences of AI assistance in shared environments, particularly how it can disempower bystanders.
+   - **Security Insight**: Understanding the dynamics of AI assistance can inform the design of systems that prioritize user agency and security, preventing misuse or harmful outcomes.
+
+#### 9. **SecureCode: A Production-Grade Multi-Turn Dataset for Training Security-Aware Code Generation Models**
+   - **Summary**: This paper introduces a dataset designed to train models on security-aware code generation, focusing on web application and AI/ML security.
+   - **Security Insight**: The dataset aims to improve the security of AI-generated code, addressing vulnerabilities and ensuring compliance with security standards.
+
+### Trends and Insights
+- **Focus on Accountability**: Many papers emphasize the need for accountability and auditability in AI systems, particularly in high-stakes environments like healthcare, cybersecurity, and scientific research.
+- **Integration of Memory and Context**: There is a trend towards enhancing AI systems with memory and contextual awareness to improve their decision-making capabilities and security.
+- **Causal Understanding**: Understanding causal relationships in AI systems is becoming increasingly important for identifying vulnerabilities and ensuring robust security measures.
+- **Ethical Considerations**: The ethical implications of AI assistance and its impact on user agency are critical areas of exploration, highlighting the need for responsible AI deployment.
+
+### Conclusion
+The intersection of AI and security is a rapidly evolving field, with ongoing research focusing on enhancing the robustness, accountability, and ethical implications of AI systems. The insights gained from these studies can inform the development of more secure and reliable AI applications across various domains.
