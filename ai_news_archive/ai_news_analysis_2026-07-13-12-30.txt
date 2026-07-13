@@ -1,0 +1,189 @@
+AI Researcher Agent Report for 2026-07-13-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Interval Certifications for Multilayered Perceptrons via Lattice Traversal](https://arxiv.org/abs/2607.08773): This paper presents a theoretical framework for adversarial robustness in multilayered perceptrons (MLPs) by reducing the problem to lattice traversal. It introduces sound and complete certifications for MLPs and develops lattice traversal operators to ensure robustness.
+- [CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions](https://arxiv.org/abs/2607.08774): This work challenges the notion that reliability in large language models (LLMs) is solely a function of model capability, emphasizing the importance of inference-time control. It introduces CogniConsole, a structured interface that improves reliability through enhanced control.
+- [GATS: Graph-Augmented Tree Search with Layered World Models for Efficient Agent Planning](https://arxiv.org/abs/2607.08894): GATS combines tree search with a layered world model to improve planning efficiency in LLM agents, achieving a 100% success rate in various planning tasks while eliminating LLM calls during inference.
+- [Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading](https://arxiv.org/abs/2607.08964): This paper introduces a benchmark for evaluating AI agents on long-horizon tasks, emphasizing the importance of intermediate progress and dense rewards for better evaluation.
+- [A Formalization of the Mean-Field Derivation of the Vlasov Equation: AI-Assisted Lean Formalization as a Strategy Game](https://arxiv.org/abs/2607.08986): This work formalizes a mathematical result in the Lean proof assistant, demonstrating the potential of AI-assisted formalization in mathematics.
+- [ARCANA: A Reflective Multi-Agent Program Synthesis Framework for ARC-AGI-2 Reasoning](https://arxiv.org/abs/2607.09059): ARCANA is a multi-agent framework designed for solving ARC AGI 2 tasks, improving reasoning efficiency through collaborative agents.
+- [Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls](https://arxiv.org/abs/2607.09076): This paper introduces a framework for using LLMs to enhance security control in industrial IoT environments, focusing on preventing unsafe actions through simulation.
+- [L-MAD: A Systematic Evaluation of Multi-Agent Debate Structures in Legal Reasoning](https://arxiv.org/abs/2607.09099): This work evaluates multi-agent debate frameworks in legal reasoning, revealing trade-offs between accuracy and over-deliberation drift.
+- [MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation](https://arxiv.org/abs/2607.09142): MedRealMM is a benchmark for evaluating LLMs in online medical consultation, emphasizing the importance of multimodal inputs for reliable clinical performance.
+- [KV-PRM: Efficient Process Reward Modeling via KV-Cache Transfer for Multi-Agent Test-Time Scaling](https://arxiv.org/abs/2607.09153): This paper presents a method for efficient reward modeling in multi-agent systems, significantly reducing computational costs.
+- [Scoped Verification for Reliable Long-Horizon Agentic Context Evolution under Distribution Shift](https://arxiv.org/abs/2607.09175): This work proposes a method for maintaining reliable agentic context in LLMs over long horizons, improving verification processes.
+- [Toward Auditable AI Scientists: A Hypothesis Evolution Protocol for LLM Agents](https://arxiv.org/abs/2607.09195): This paper introduces a protocol for making AI-driven scientific discovery auditable, focusing on hypothesis generation and evaluation.
+- [OpenProver: Agentic and Interactive Theorem Proving with Lean 4](https://arxiv.org/abs/2607.09217): OpenProver is an open-source system for LLM-driven automated theorem proving, integrating interactive proof search.
+- [LongMedBench: Benchmarking Medical Agents for Long-Horizon Clinical Decision-Making](https://arxiv.org/abs/2607.09322): LongMedBench is a benchmark for evaluating LLM-based medical agents in long-horizon clinical decision-making.
+- [Communication-Efficient Digital-Twin Coordination for Heterogeneous LLM Embodied Agents over Computing Power Networks](https://arxiv.org/abs/2607.09330): This paper presents a framework for coordinating LLM agents in physical AI applications, focusing on reducing communication overhead.
+- [Fictional Worldbuilding: Multi-Agent LLM Collaboration with Hierarchical Context Compression and Iterative Review](https://arxiv.org/abs/2607.09403): This work introduces a system for collaborative worldbuilding using LLMs, addressing challenges in context management and quality assurance.
+- [How Does Bayesian Causal Discovery Fail? Characterising Structural Consequences in Linear Gaussian Networks under Latent Confounding](https://arxiv.org/abs/2607.09449): This paper analyzes the behavior of Bayesian causal discovery under latent confounding, providing insights into its limitations.
+- [ProofCouncil: An LLM Agent for Solving Open Mathematical Problems](https://arxiv.org/abs/2607.09474): ProofCouncil is an agent designed to tackle open mathematical problems, demonstrating the potential of LLMs in mathematical reasoning.
+- [Ceci n'est pas une pipe: AI systems as semantic abstractions](https://arxiv.org/abs/2607.09489): This paper proposes a semantic framework for examining AI systems, focusing on the correctness of their representations.
+- [Multimodal Reward Hacking in Reinforcement Learning](https://arxiv.org/abs/2607.09492): This work studies reward hacking in reinforcement learning, highlighting the risks associated with multimodal models.
+- [Shared Selective Persistent Memory for Agentic LLM Systems](https://arxiv.org/abs/2607.09493): This paper presents a memory architecture for LLM systems that retains reusable context while discarding irrelevant information.
+- [SAGEAgent: A Self-Evolving Agent for Cost-Aware Modality Acquisition in Multimodal Survival Prediction](https://arxiv.org/abs/2607.09521): SAGEAgent is an LLM-based clinical agent that decides which diagnostic modalities to acquire for patient survival prediction.
+- [Beyond Fixed Representations: The Vocabulary and Verifier Gaps in Open-Ended AI](https://arxiv.org/abs/2607.09560): This paper discusses the limitations of current AI systems in terms of representational flexibility and verification.
+- [Knowledge Graphs and Explainable AI as Complementary Resources for Urban Mining](https://arxiv.org/abs/2607.09578): This work explores the integration of knowledge graphs and explainable AI in urban mining processes.
+- [TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Systems](https://arxiv.org/abs/2607.09586): This paper introduces a framework for classifying and governing agentic AI systems based on risk.
+- [Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation](https://arxiv.org/abs/2607.09600): Agora is a framework for dynamically allocating tasks to expert models using an auction mechanism.
+- [ConceptSMILE: Auditing the Trustworthiness of Concept-Based Explainable AI](https://arxiv.org/abs/2607.09649): This paper presents a framework for auditing the reliability of concept-based explanations in AI systems.
+- [Minimal Decision Dynamics and Contextual Probability: A Quantum Tug-of-War Model](https://arxiv.org/abs/2601.10034): This work develops a quantum-like decision-making model to clarify context dependence in decision-making.
+- [REFORGE: A Method for Benchmarking LLMs' Reverse Engineering Capabilities in Decompiled Binary Function Naming](https://arxiv.org/abs/2607.07738): This paper presents a method for evaluating LLMs in reverse engineering tasks, focusing on function naming.
+- [A Unified Approach to Interpreting Knowledge Distillation for Large Language Models via Interactions](https://arxiv.org/abs/2607.08776): This work explores the mechanisms behind knowledge distillation in LLMs, proposing a unified approach based on interactions.
+- [iLENS: Interpretable LLM-Guided Mixture-of-Experts for Neuroimaging Survival Analysis](https://arxiv.org/abs/2607.08778): iLENS is an interpretable framework for survival prediction in Alzheimer's Disease using LLMs.
+- [Signed Symmetric Quantization for Few-Bit Integers](https://arxiv.org/abs/2607.08779): This paper discusses a new quantization method for signed integers that improves performance without runtime penalties.
+- [Sticky Routing: Training MoE Models for Memory-Efficient Inference](https://arxiv.org/abs/2607.08780): This work proposes a method for reducing expert switching in Mixture-of-Experts models during inference.
+- [Reward Transport: Property Control in Flow Matching via Noise-Space Alignment](https://arxiv.org/abs/2607.08781): This paper introduces a method for aligning noise and data in flow matching to control molecular properties.
+- [Director: Accelerating Distributed MoE Serving via Online Proactive Expert Placement](https://arxiv.org/abs/2607.08782): This work presents a system for optimizing expert placement in distributed Mixture-of-Experts models.
+- [LieBN: Batch Normalization over Lie Groups](https://arxiv.org/abs/2607.08783): This paper introduces a framework for Riemannian Batch Normalization over Lie groups.
+- [HERO: A Heterogeneity-Aware Benchmark Library for Federated Continual Learning](https://arxiv.org/abs/2607.08784): HERO is a benchmark library for evaluating federated continual learning methods.
+- [DaDaDa: A Dataset for Data Pricing in Data Marketplaces](https://arxiv.org/abs/2607.08785): This paper introduces a dataset for pricing data products in marketplaces.
+- [Accelerating GPU Inference of Large Language Models with Moderately Unstructured Sparse Weight Matrices](https://arxiv.org/abs/2607.08786): This work presents a method for improving GPU inference of LLMs with sparse weight matrices.
+- [LLM-Driven Evolutionary Generation of Multi-Objective Bayesian Optimization Algorithms](https://arxiv.org/abs/2607.08791): This paper discusses using LLMs to generate effective multi-objective Bayesian optimization algorithms.
+- [EHR-MPC: Inference-Time Control for Sepsis Treatment with Generative Patient Digital Twins](https://arxiv.org/abs/2607.08793): This work presents a framework for optimizing sepsis treatment using generative patient models.
+- [Multi-Conditioned Diffusion Synthesis of Sand Boils for Low-Resource Earthen-Levee Inspection](https://arxiv.org/abs/2607.08794): This paper introduces a synthesis pipeline for generating inspection images of sand boils.
+- [TheBioCollection: Unified Pre-Training Scale LLM Corpus for Biology](https://arxiv.org/abs/2607.08803): This work presents a large-scale corpus for training language models in biology.
+- [Prompt-Driven Exploration](https://arxiv.org/abs/2607.08837): This paper discusses a method for refining prompts to improve exploration in reinforcement learning.
+- [A Novel Parallel QCNN Architecture with Efficient Classical Simulability](https://arxiv.org/abs/2607.08928): This work presents a new architecture for quantum convolutional neural networks.
+- [Eluna: An Agentic LLM System for Automating Warehouse Operations with Reasoning and Task Execution](https://arxiv.org/abs/2607.08960): Eluna is a system for automating warehouse operations using LLMs.
+- [NL-PAC: Specification Ambiguity and Certified Minimax Risk Floors in LLM-Mediated Supervision](https://arxiv.org/abs/2607.08961): This paper introduces a framework for evaluating labels and targets in LLM-mediated supervision.
+- [MultiView-Bench: A Diagnostic Benchmark for World-Centric Multi-View Integration in VLMs](https://arxiv.org/abs/2607.08970): MultiView-Bench is a benchmark for evaluating multi-view integration in vision-language models.
+- [PRecG: Legal Precedent Retrieval with Graph Neural Networks and Rhetorical Role Segmentation](https://arxiv.org/abs/2607.09094): This work presents a method for improving legal precedent retrieval using graph neural networks.
+- [A Coreset Selection Framework with Ensemble Aggregation for Image Classification](https://arxiv.org/abs/2607.09100): This paper introduces a framework for selecting representative training subsets for image classification.
+- [Beyond Metadata: CAPRA for Hidden Subgroup Analysis under Missing Metadata in Medical Imaging](https://arxiv.org/abs/2607.09102): CAPRA is a framework for analyzing hidden subgroups in medical imaging without metadata.
+- [Integrating Large Language Models and Graph Convolutional Networks for Semi-Supervised Image Classification](https://arxiv.org/abs/2607.09104): This work discusses integrating LLMs with GCNs for semi-supervised image classification.
+- [Event Stream based Multi-Modal Video Anomaly Detection: A Benchmark Dataset and Algorithms](https://arxiv.org/abs/2607.09114): This paper presents a framework for video anomaly detection using event streams.
+- [Augmenting Fundamental Analysis with Large Language Models: A RAG-Based System for Generating Investor Briefs](https://arxiv.org/abs/2607.09121): This work discusses using LLMs for generating investor briefs based on fundamental analysis.
+- [IB-Flow: Information Bottleneck-Guided CFG Distillation for Few-Step Text-to-Image Generation](https://arxiv.org/abs/2607.09133): This paper presents a method for distilling text-to-image models for efficient generation.
+- [A Personalized Computational Framework for Assessing the Sufficiency of Partially Observed Data in Healthcare AI models](https://arxiv.org/abs/2607.09165): This work introduces a framework for assessing the sufficiency of clinical data in AI models.
+- [Attention to Detail: Evaluating Energy, Performance, and Accuracy Trade-offs Across vLLM Configurations](https://arxiv.org/abs/2607.09172): This paper evaluates the impact of inference engine configurations on energy consumption and performance.
+- [Generative Communications: Overview, Technologies, and Trends](https://arxiv.org/abs/2607.09183): This work introduces generative communications as a new paradigm for 6G networks.
+- [Interference and Retention in Continual Learning](https://arxiv.org/abs/2607.09202): This paper discusses modeling forgetting as interference in continual learning.
+- [Tactile and Vision Conditioned Contact-Centric Control for Whole-Arm Manipulation](https://arxiv.org/abs/2607.09218): This work presents a controller for whole-arm manipulation using tactile and visual inputs.
+- [Git-Assistant: Planning-Based Support for Updating Git Repositories](https://arxiv.org/abs/2607.09224): This paper introduces an AI-based assistant for managing Git repositories.
+- [All you need is SAMPAT](https://arxiv.org/abs/2607.09235): This work presents a neural architecture that provides interpretability in AI/ML.
+- [LLMs for health: Perceived benefits, risks, intention to use AI chatbots, and willingness to self-disclose across sensitive health topics](https://arxiv.org/abs/2607.09253): This study examines the use of AI chatbots in health-related contexts.
+- [Blockchain-Linked Auditable Decision Management for Telecom/IoT Fraud-Control Requests](https://arxiv.org/abs/2607.09259): This paper presents a framework for managing fraud-control requests in telecom using blockchain.
+- [Geopolitical alignment: Endorsement effects in large language models](https://arxiv.org/abs/2607.09262): This work studies how geopolitical cues influence LLM evaluations of policies.
+- [Risk-Aware General-Utility Markov Decision Processes](https://arxiv.org/abs/2607.09298): This paper introduces a framework for risk-aware decision-making in Markov processes.
+- [Creativity, honesty and designed forgetting emerge in small hyperbolic language models](https://arxiv.org/abs/2607.09306): This work explores the development of companion AI traits in small language models.
+- [Automatic Thematic Indexing of Large Literary Corpora: A Machine Learning Approach to Voltaire's Complete Works](https://arxiv.org/abs/2607.09316): This paper discusses using ML for automatic thematic indexing of literary works.
+- [Letting the Data Speak: Extracting Keywords from Crowdsourced Collections with AI](https://arxiv.org/abs/2607.09324): This work evaluates NLP approaches for keyword extraction in crowdsourced collections.
+- [WILDTRACE: Benchmarking Natural Evidence Trails in Long-Context Reasoning](https://arxiv.org/abs/2607.09328): This paper introduces a benchmark for evaluating reasoning over long documents.
+- [Shortcut Trajectory Planning for Efficient Offline Reinforcement Learning](https://arxiv.org/abs/2607.09336): This work presents a method for efficient trajectory planning in offline reinforcement learning.
+- [Deceptive Grounding: Entity Attribution Failure in Clinical Retrieval-Augmented Generation](https://arxiv.org/abs/2607.09349): This paper discusses failures in clinical retrieval-augmented generation related to entity attribution.
+- [CtrlVTON: Controllable Virtual Try-On via Visual-Instance-Prompt Segmentation](https://arxiv.org/abs/2607.09362): This work presents a controllable virtual try-on framework using visual-instance segmentation.
+- [Diversifying to Verify: When Task-Equivalent Programs Differ in Verifiability](https://arxiv.org/abs/2607.09366): This paper studies how implementation structure affects automated program verification.
+- [When Routes Run Out: Adversarial Co-Learning and Explainable Robustness in Quantum Repeater Networks](https://arxiv.org/abs/2607.09378): This work explores adversarial learning in quantum networks.
+- [STEEL: Sparsity-Aware Fused Attention for Energy-Efficient Long-Sequence Inference on AMD's XDNA NPU](https://arxiv.org/abs/2607.09385): This paper presents a method for improving inference efficiency in long-sequence models.
+- [Fully Trainable Deep Differentiable Logic Gate Networks and Lookup Table Networks](https://arxiv.org/abs/2607.09399): This work introduces a method for optimizing connections in logic gate networks.
+- [On-Device Adaptive Battery Power Prediction for Electric Vehicles](https://arxiv.org/abs/2607.09400): This paper discusses a method for adaptive battery power prediction in electric vehicles.
+- [Self-Guided Test-Time Training for Long-Context LLMs](https://arxiv.org/abs/2607.09415): This work presents a method for improving long-context utilization in LLMs through test-time training.
+- [SVF-CR: Synchronized Visual-Facial Cross-Refinement for Multimodal Ambivalence and Hesitancy Recognition](https://arxiv.org/abs/2607.09417): This paper introduces a framework for recognizing ambivalence and hesitancy using visual and facial cues.
+- [A Sovereign, Open-Source Foundation Model for German and English](https://arxiv.org/abs/2607.09424): This work presents an open-source foundation model for German and English.
+- [Test-Time Scaling for Small VLMs on Multilingual Visual MCQ](https://arxiv.org/abs/2607.09438): This paper evaluates test-time scaling methods for small vision-language models.
+- [Parameter-Efficient Vision-Language Adaptation with Continuous Metadata Conditioning for Animal Re-Identification](https://arxiv.org/abs/2607.09443): This work presents a method for adapting vision-language models for animal re-identification.
+- [Practical Source Code Recovery from Binary Functions Using Anchor-Based Retrieval and LLM Reasoning](https://arxiv.org/abs/2607.09452): This paper discusses a method for recovering source code from binary functions using LLMs.
+- [Decoupling Language Guidance from Backbones for Text-Guided Medical Segmentation](https://arxiv.org/abs/2607.09481): This work presents a framework for text-guided medical image segmentation that decouples language guidance from model backbones.
+- [All Explanations are Wrong, But Many Are Useful: Exploring the Rashomon Explanation Set with Large Language Models](https://arxiv.org/abs/2607.09502): This paper introduces a framework for generating multiple explanations for model predictions.
+- [Knowledge-Based Design Requirements for Generative Social Robots in Higher Education](https://arxiv.org/abs/2602.12873): This work discusses the knowledge prerequisites for generative social robots in educational contexts.
+- [Empowering 9-1-1 Calltaking Training with Generative AI: Experiences and Lessons Learned](https://arxiv.org/abs/2602.13241): This paper presents a case study on using generative AI for training 9-1-1 call-takers.
+- [The LLMbda Calculus: AI Agents, Conversations, and Information Flow](https://arxiv.org/abs/2602.20064): This work presents a lambda calculus framework for AI agents that incorporates provenance-based defenses.
+- [Machine Learning for Network Attacks Classification and Statistical Evaluation of Adversarial Learning Methodologies for Synthetic Data Generation](https://arxiv.org/abs/2603.17717): This paper discusses using machine learning for network attack classification and synthetic data generation.
+- [SLIDERS: Systematic Reviews via Automated Evidence Synthesis and Reconciliation](https://arxiv.org/abs/2604.22294): This work introduces a methodology for automating systematic reviews using LLMs.
+- [Tuning Derivatives for Causal Fairness in Machine Learning](https://arxiv.org/abs/2605.05882): This paper presents a framework for achieving fairness in machine learning with continuous protected attributes.
+- [AnchorMoE: Interpretable Time Series Classification via Anchor-Routed MoE](https://arxiv.org/abs/2606.03631): This work presents a framework for interpretable time series classification using a Mixture-of-Experts architecture.
+- [Language Models Need Sleep: Learning to Self-Modify and Consolidate Memories](https://arxiv.org/abs/2606.03979): This paper introduces a sleep paradigm for LLMs to improve continual learning and memory consolidation.
+- [Are LLMs Ready to Assist Physicians? PhysAssistBench for Interactive Doctor-Patient-EHR Assistance](https://arxiv.org/abs/2606.18613): This work evaluates LLMs for assisting physicians in clinical settings using a new benchmark.
+- [ECHO: Prune To Act, Trace To Learn With Selective Turn Memory In Agentic RL](https://arxiv.org/abs/2606.31650): This paper presents a framework for traceable context reconstruction in agentic reinforcement learning.
+- [Jet-Long: Efficient Long-Context Extension with Dynamic Bifocal RoPE](https://arxiv.org/abs/2607.07740): This work introduces a method for extending context in LLMs efficiently.
+- [The Three Dimensions of Custom Agentic Alignment: Purpose, Principles and Practices](https://towardsdatascience.com/the-three-dimensions-of-custom-agentic-alignment-purpose-principles-and-practices/): This article discusses a framework for aligning agentic AI with enterprise intent.
+- [RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each](https://towardsdatascience.com/rag-vs-fine-tuning-explained-what-they-actually-do-and-when-to-use-each/): This article compares retrieval-augmented generation and fine-tuning techniques.
+- [How to Orchestrate 100+ Agents With Claude Code](https://towardsdatascience.com/how-to-orchestrate-100-agents-with-claude-code/): This article discusses methods for running multiple agents in parallel.
+
+### Categories
+#### Security
+- [Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls](https://arxiv.org/abs/2607.09076): This paper introduces a framework for using LLMs to enhance security control in industrial IoT environments.
+- [VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents](https://arxiv.org/abs/2607.09653): This paper presents a framework for managing fraud-control requests in telecom using blockchain.
+
+#### Medical Applications
+- [MedRealMM: A Real-World Multimodal Benchmark for Chinese Online Medical Consultation](https://arxiv.org/abs/2607.09142): MedRealMM is a benchmark for evaluating LLMs in online medical consultation.
+- [LongMedBench: Benchmarking Medical Agents for Long-Horizon Clinical Decision-Making](https://arxiv.org/abs/2607.09322): LongMedBench is a benchmark for evaluating LLM-based medical agents in long-horizon clinical decision-making.
+- [EHR-MPC: Inference-Time Control for Sepsis Treatment with Generative Patient Digital Twins](https://arxiv.org/abs/2607.08793): This work presents a framework for optimizing sepsis treatment using generative patient models.
+
+#### Reinforcement Learning
+- [SAGEAgent: A Self-Evolving Agent for Cost-Aware Modality Acquisition in Multimodal Survival Prediction](https://arxiv.org/abs/2607.09521): SAGEAgent is an LLM-based clinical agent that decides which diagnostic modalities to acquire for patient survival prediction.
+- [Multi-Attribute Steering of Language Models via Targeted Intervention](https://arxiv.org/abs/2502.12446): This paper introduces a framework for selective token-level intervention across multiple attributes.
+- [Preference Conditioned Multi-Objective Reinforcement Learning: Decomposed, Diversity-Driven Policy Optimization](https://arxiv.org/abs/2602.07764): This paper discusses a framework for multi-objective reinforcement learning that improves credit assignment under conflicting objectives.
+
+#### Natural Language Processing
+- [CogniConsole: Externalizing Inference-Time Control as a Formal Abstraction for Reliable LLM Interactions](https://arxiv.org/abs/2607.08774): This work emphasizes the importance of inference-time control in LLMs.
+- [Explaining Human Choice Probabilities with Simple Vector Representations](https://arxiv.org/abs/2511.03643): This paper formalizes human choice behavior in a probabilistic task.
+- [Explaining is Harder Than Predicting Alone: Evaluating Concept-based Explanations of MLLMs as ICL Visual Classifiers](https://arxiv.org/abs/2605.28215): This paper evaluates the concept-based explainability of frozen MLLMs under few-shot ICL.
+
+#### Robotics and Automation
+- [Eluna: An Agentic LLM System for Automating Warehouse Operations with Reasoning and Task Execution](https://arxiv.org/abs/2607.08960): Eluna is a system for automating warehouse operations using LLMs.
+- [Tactile and Vision Conditioned Contact-Centric Control for Whole-Arm Manipulation](https://arxiv.org/abs/2607.09218): This work presents a controller for whole-arm manipulation using tactile and visual inputs.
+
+#### Benchmarking and Evaluation
+- [Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading](https://arxiv.org/abs/2607.08964): This paper introduces a benchmark for evaluating AI agents on long-horizon tasks.
+- [PhysAssistBench for Interactive Doctor-Patient-EHR Assistance](https://arxiv.org/abs/2606.18613): This work evaluates LLMs for assisting physicians in clinical settings using a new benchmark.
+
+#### Theoretical Foundations
+- [A Formalization of the Mean-Field Derivation of the Vlasov Equation: AI-Assisted Lean Formalization as a Strategy Game](https://arxiv.org/abs/2607.08986): This work formalizes a mathematical result in the Lean proof assistant.
+- [Tuning Derivatives for Causal Fairness in Machine Learning](https://arxiv.org/abs/2605.05882): This paper presents a framework for achieving fairness in machine learning with continuous protected attributes.
+
+This summary consolidates the insights from the provided papers and articles, categorizing them based on their primary focus areas while highlighting relevant security-related insights.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Papers and Their Contributions:
+
+1. **Interval Certifications for Multilayered Perceptrons via Lattice Traversal**
+   - Focuses on adversarial robustness in AI safety, proposing a lattice traversal method to certify the robustness of multilayered perceptrons (MLPs). It introduces sound and complete certifications, revealing the complexity of sound certifications and providing algorithms for optimization problems.
+
+2. **Neuro-Agentic Control: A Deep Learning-based LLM-Powered Agentic AI Framework for Controlling Security Controls**
+   - Proposes a framework that combines LLMs with a Time-Series Foundation Model to autonomously defend against cyberattacks in operational technology. It introduces a mechanism to simulate LLM interventions, ensuring safety by rejecting hallucinatory actions.
+
+3. **TrustX Agent Risk Classification Framework (ARC)**
+   - Introduces a structured framework for classifying and governing agentic AI systems, focusing on risk assessment and governance. It provides a scoring rubric and control recommendations for various agent types.
+
+4. **VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents**
+   - Presents a multi-agent framework for discovering and exploiting vulnerabilities in IoT environments using LLM reasoning. It demonstrates high success rates in executing attacks and emphasizes the potential for LLM-driven agents in security assessments.
+
+5. **Beyond Black-Box Obfuscation: Mechanistic Analysis and Defense of White-Box Monitors**
+   - Investigates the evasion strategies against white-box monitoring systems in LLMs and proposes an ensemble method, SafetyNet, to enhance monitoring effectiveness and ensure model safety.
+
+6. **Deceptive Grounding: Entity Attribution Failure in Clinical Retrieval-Augmented Generation**
+   - Explores the issue of misattribution in clinical settings where LLMs may provide accurate citations but fail to attribute evidence to the correct entities, highlighting a significant risk in medical AI applications.
+
+7. **SLIDERS: Systematic Reviews via Automated Evidence Synthesis and Reconciliation**
+   - Introduces a methodology for automating systematic reviews in research, emphasizing the importance of accurate evidence synthesis and reconciliation in high-stakes decision-making environments.
+
+8. **How to DP-fy Your Data: A Practical Guide to Generating Synthetic Data With Differential Privacy**
+   - Discusses the generation of synthetic data with differential privacy, emphasizing its importance in protecting user privacy while enabling the use of sensitive datasets in AI applications.
+
+9. **RAG vs Fine-Tuning Explained: What They Actually Do and When to Use Each**
+   - Provides insights into the differences between retrieval-augmented generation (RAG) and fine-tuning methods, highlighting their respective applications in AI systems.
+
+#### Trends and Insights:
+
+- **Focus on Robustness and Safety**: Many papers emphasize the importance of ensuring AI systems are robust against adversarial attacks and can operate safely in real-world environments, particularly in security-sensitive applications like IoT and healthcare.
+
+- **Integration of LLMs in Security**: The use of large language models (LLMs) is prevalent in security contexts, from vulnerability detection to risk assessment, showcasing their versatility and potential for enhancing security measures.
+
+- **Need for Explainability**: Several studies highlight the necessity for explainability in AI systems, particularly in high-stakes domains like healthcare, where misattribution and decision-making transparency are critical.
+
+- **Automated Systems for Efficiency**: The introduction of automated frameworks for tasks such as systematic reviews and vulnerability assessments indicates a trend towards increasing efficiency and reducing the burden on human operators in security and research.
+
+- **Differential Privacy**: The emphasis on generating synthetic data with differential privacy reflects a growing concern for user privacy and the ethical implications of AI deployment.
+
+### Conclusion
+
+The landscape of AI research related to security and securing AI is rapidly evolving, with a clear emphasis on robustness, explainability, and the integration of advanced models like LLMs. The development of frameworks and methodologies that enhance the safety and effectiveness of AI systems is crucial, particularly as these technologies become more embedded in critical applications. The insights gained from these studies will be vital for guiding future research and practical implementations in the field of AI security.
