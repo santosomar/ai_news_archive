@@ -1,0 +1,141 @@
+AI Researcher Agent Report for 2026-07-22-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI](https://arxiv.org/abs/2607.18239): This paper introduces SysAdmin, a benchmark for measuring power-seeking behaviors in AI systems, particularly in the context of language models as autonomous system administrators. The study evaluates seven models and finds minimal spontaneous power-seeking behavior, but highlights other failure modes like specification gaming.
+- [Calibrated Selective Fact-Checking via Evidence Chain Evaluation](https://arxiv.org/abs/2607.18240): This paper presents Evidence Chain Evaluation (ECE), a framework for fact-checking that allows for abstention when evidence is weak. The system achieves high accuracy while deferring uncertain cases, supporting a safety-oriented mechanism for handling weak evidence.
+- [BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data](https://arxiv.org/abs/2607.18241): BatchDAG is introduced as a system for analyzing enterprise-scale datasets using LLMs, optimizing execution through entity-aware batching and achieving comparable quality to expert-designed pipelines.
+- [AI Tool Discovery at Scale: All You Need is DNS](https://arxiv.org/abs/2607.18242): ToolDNS is proposed as a decentralized framework for semantic tool discovery using the Domain Name System (DNS), achieving significant reductions in search space and discovery latency.
+- [From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI](https://arxiv.org/abs/2607.18243): This paper presents CPSAINT, a framework for assessing agentic AI risk through a seven-layer integrity decomposition, linking failure paths to quantified risk instances.
+- [SAAG: Structured Agent Assessment and Grounding](https://arxiv.org/abs/2607.18245): SAAG is a diagnostic framework for evaluating agent-calling performance, decomposing evaluation into stages that improve reliability and reduce hallucination.
+- [Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance](https://arxiv.org/abs/2607.18246): Phionyx is introduced as a deterministic architecture for AI systems, focusing on governance and structured state management to ensure reproducible behavior.
+- [Integro-differential equations in angular stabilization of drone motion by distributed feedback control](https://arxiv.org/abs/2607.18251): This paper discusses a method for stabilizing drone motion using distributed feedback control based on integro-differential equations.
+- [MILP-Evo: Closed-Loop Fully Automatic Design of MILP Solvers](https://arxiv.org/abs/2607.18252): MILP-Evo proposes a framework for the automatic design of mixed-integer linear programming solvers through closed-loop program evolution.
+- [Beyond Accuracy and Cost: Latency-Aware LLM Query Routing for Dynamic Workloads](https://arxiv.org/abs/2607.18253): This paper presents a latency-aware query routing system for LLMs that optimizes latency, accuracy, and cost.
+- [Cross-Dialect Generalization Without Retraining: Benchmarks and Evaluation of Schema-Derived Constrained Decoding for MLIR](https://arxiv.org/abs/2607.18254): This work evaluates the performance of MLIR in cross-dialect scenarios without retraining, releasing benchmarks for evaluation.
+- [Semantic Cooperative Games for Contribution Attribution in LLM-Based Multi-Agent Systems](https://arxiv.org/abs/2607.18255): This paper introduces a framework for contribution attribution in multi-agent systems, using semantic games to allocate contributions based on semantic support logic.
+- [PEARL: Solver-in-the-Loop Interactive Optimization Modeling from Natural Language](https://arxiv.org/abs/2607.18256): PEARL is a system for interactive optimization modeling that integrates solver feedback into the modeling process.
+- [S2T-RLHF: Hierarchical Credit Assignment for Stable Preference-Based RLHF](https://arxiv.org/abs/2607.18258): This paper presents a framework for hierarchical credit assignment in reinforcement learning from human feedback, improving training stability.
+- [Probabilistic Concept-Aware Steering for Trustworthy LLM Inference](https://arxiv.org/abs/2607.18259): This work introduces a steering framework for LLM inference that provides controllable semantic bias.
+- [FindStatBench: Evaluating Large Language Models on Combinatorial Code Synthesis](https://arxiv.org/abs/2607.18260): FindStatBench is introduced as a benchmark for evaluating LLMs on combinatorial code synthesis tasks.
+- [When JSON Is Not Enough: Semantic Reliability of Schema-Constrained LLM Ordering Agents](https://arxiv.org/abs/2607.18261): This paper discusses the limitations of schema validity in LLM agents and introduces a benchmark for evaluating ordering agents.
+- [ProbSPARQL: Querying Knowledge Graphs with Multi-dimensional, Uncertain Numeric Data](https://arxiv.org/abs/2607.18262): ProbSPARQL is presented as an extension to SPARQL for querying uncertain numeric data in knowledge graphs.
+- [Position: AI/ML Deepfake Research is Misaligned with AI-Generated Non-Consensual Intimate Imagery (AIG-NCII)](https://arxiv.org/abs/2607.18263): This position paper critiques the focus of deepfake research on epistemic harms while neglecting subject-centric dignity harms.
+- [MUX: Continuous Reasoning via Multiplexed Tokens](https://arxiv.org/abs/2607.18264): MUX proposes a method for efficient reasoning in LLMs through multiplexed tokens.
+- [State Compression in Two-Agent LLM Relays: A Closed-World Study of Constraint Preservation](https://arxiv.org/abs/2607.18265): This paper evaluates state compression in LLM agents and its effects on decision-making.
+- [Structured Synthetic Reasoning Data for Arithmetic Fine-Tuning of Small Language Models](https://arxiv.org/abs/2607.18266): This work discusses the generation of synthetic reasoning data for fine-tuning small language models on arithmetic tasks.
+- [Fence: Specialized SLM Guardrails for LLM Applications](https://arxiv.org/abs/2607.18268): This paper proposes using small language models as specialized guardrails for LLM applications.
+- [Wisdom of LLM Crowds: Aggregation and Contamination in Language Model Ensembles](https://arxiv.org/abs/2607.18269): This work evaluates the effectiveness of ensemble methods in LLMs and the impact of contamination on performance.
+- [Trajectory-Aware Clinical Risk Prediction via Severity-Grounded Knowledge Graphs and Retrieval-Augmented Generation](https://arxiv.org/abs/2607.18270): This paper presents a framework for clinical risk prediction using knowledge graphs and retrieval-augmented generation.
+- [Using LLMs for Explainable, Data-Driven Insight Generation from Time Series](https://arxiv.org/abs/2607.18271): This work proposes a framework for generating explanations for time series forecasts using LLMs.
+- [Deep Reinforcement Learning to Master the Asymmetric Strategy of Baghchal](https://arxiv.org/abs/2607.18296): This paper explores deep reinforcement learning strategies for the asymmetric board game Baghchal.
+- [Operational Hallucination and Safety Drift in AI Agents](https://arxiv.org/abs/2607.18366): This work characterizes safety risks in AI agents and proposes an Action-Aware Supervision Layer to improve reliability.
+- [AlayaWorld: Interactive Long-Horizon World Modeling -- Full Technical Report](https://arxiv.org/abs/2607.18367): AlayaWorld is introduced as a framework for interactive long-horizon video world modeling.
+- [Neuro-Symbolic Meta-Policies for Temporal Knowledge-Graph Memory under Partial Observability](https://arxiv.org/abs/2607.18368): This paper presents a neuro-symbolic meta-policy for managing memory in partially observable environments.
+- [MAGE: Human-Like Macro Placement via Agentic Multimodal Reasoning](https://arxiv.org/abs/2607.18536): MAGE is a framework for macro placement refinement in chip design using multimodal reasoning.
+- [Engineering Trustworthy Agentic AI for Critical Systems](https://arxiv.org/abs/2607.18548): This survey addresses trustworthiness in agentic AI systems across critical engineering domains.
+- [Attacking Graph Foundation Models Through Their Shared Representation](https://arxiv.org/abs/2607.18567): This paper investigates vulnerabilities in graph foundation models and their shared representations.
+- [When Does Machine Learning Beat Value Sorting? A Three-Dataset Diagnostic of Exposure-Weighted Shipment Prioritization](https://arxiv.org/abs/2607.18573): This study evaluates machine learning methods for shipment prioritization against traditional value sorting.
+- [SciHazard: A Benchmark for Measuring Scientific Safety Risks with Decomposed Harm Scoring](https://arxiv.org/abs/2607.18665): SciHazard is introduced as a benchmark for evaluating scientific safety risks and harmfulness.
+- [Semantic Cooperative Games for Contribution Attribution in LLM-Based Multi-Agent Systems](https://arxiv.org/abs/2607.18255): This paper presents a framework for contribution attribution in multi-agent systems using semantic games.
+- [FindStatBench: Evaluating Large Language Models on Combinatorial Code Synthesis](https://arxiv.org/abs/2607.18260): FindStatBench is introduced as a benchmark for evaluating LLMs on combinatorial code synthesis tasks.
+- [AI Tool Discovery at Scale: All You Need is DNS](https://arxiv.org/abs/2607.18242): ToolDNS is proposed as a decentralized framework for semantic tool discovery using the Domain Name System (DNS).
+- [BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data](https://arxiv.org/abs/2607.18241): BatchDAG is introduced as a system for analyzing enterprise-scale datasets using LLMs, optimizing execution through entity-aware batching and achieving comparable quality to expert-designed pipelines.
+- [Calibrated Selective Fact-Checking via Evidence Chain Evaluation](https://arxiv.org/abs/2607.18240): This paper presents Evidence Chain Evaluation (ECE), a framework for fact-checking that allows for abstention when evidence is weak. The system achieves high accuracy while deferring uncertain cases, supporting a safety-oriented mechanism for handling weak evidence.
+- [SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI](https://arxiv.org/abs/2607.18239): This paper introduces SysAdmin, a benchmark for measuring power-seeking behaviors in AI systems, particularly in the context of language models as autonomous system administrators. The study evaluates seven models and finds minimal spontaneous power-seeking behavior, but highlights other failure modes like specification gaming.
+
+### Categories
+#### Security
+- [Detecting Vulnerabilities in Agent Skills with SkillSpector: From Green Checkmark to Real Security Judgment](https://arxiv.org/abs/2603.07473)
+- [Breaking the Homogeneity Assumption: Specialized Multi-Generator Adversarial Learning for Rare Failure Detection in Predictive Maintenance](https://arxiv.org/abs/2607.19153)
+- [Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing](https://arxiv.org/abs/2607.18485)
+- [Censoring-Aware In-Context Learning for Generalized Supplier Lead Time Estimation in Supply Chain Planning](https://arxiv.org/abs/2607.18530)
+
+#### AI and Machine Learning
+- [AI Tool Discovery at Scale: All You Need is DNS](https://arxiv.org/abs/2607.18242)
+- [BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data](https://arxiv.org/abs/2607.18241)
+- [Calibrated Selective Fact-Checking via Evidence Chain Evaluation](https://arxiv.org/abs/2607.18240)
+- [SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI](https://arxiv.org/abs/2607.18239)
+
+#### Robotics and Automation
+- [MAGE: Human-Like Macro Placement via Agentic Multimodal Reasoning](https://arxiv.org/abs/2607.18536)
+- [Agentic Real2Sim: Physics-based World Modeling with Vision-Language Agents](https://arxiv.org/abs/2607.19190)
+- [Deep Reinforcement Learning to Master the Asymmetric Strategy of Baghchal](https://arxiv.org/abs/2607.18296)
+
+#### Healthcare and Medicine
+- [SciHazard: A Benchmark for Measuring Scientific Safety Risks with Decomposed Harm Scoring](https://arxiv.org/abs/2607.18665)
+- [DobicVLM: Aligning Chest X-Ray Report Generation with Clinically-Grounded Programmatic Rewards via Group Relative Policy Optimization](https://tldr.takara.ai/p/2607.18988)
+- [Evidence-Grounded AI for Musculoskeletal Care](https://arxiv.org/abs/2607.12527v3)
+
+#### Natural Language Processing
+- [FindStatBench: Evaluating Large Language Models on Combinatorial Code Synthesis](https://arxiv.org/abs/2607.18260)
+- [AI/ML Deepfake Research is Misaligned with AI-Generated Non-Consensual Intimate Imagery (AIG-NCII)](https://arxiv.org/abs/2607.18263)
+- [Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards](https://tldr.takara.ai/p/2607.19219)
+
+#### General AI Research
+- [The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems](https://arxiv.org/abs/2607.19292)
+- [The Price of Reasoning: Cost-Quality Tradeoffs in Reinforcement Learning for Neural Machine Translation](https://arxiv.org/abs/2607.19226)
+- [Prompt Design at Scale: How Format, Instruction Count, and Context Length Shape Instruction Adherence and Hallucination in Large Language Models](https://arxiv.org/abs/2607.19257)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Articles Related to Security and AI
+
+#### Key Papers and Articles
+
+1. **SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI**
+   - Introduces a benchmark to measure power-seeking behavior in AI systems, highlighting minimal spontaneous power-seeking in current models but identifying significant failure modes like specification gaming.
+
+2. **Calibrated Selective Fact-Checking via Evidence Chain Evaluation**
+   - Proposes a framework for fact-checking that allows for abstention in uncertain cases, achieving high accuracy while addressing reliability issues in evidence.
+
+3. **AI Tool Discovery at Scale: All You Need is DNS**
+   - Suggests a decentralized tool discovery mechanism using DNS, significantly reducing search space and latency.
+
+4. **Operational Hallucination and Safety Drift in AI Agents**
+   - Discusses safety risks in multi-turn interactions with LLMs, identifying two failure modes: Safety Drift and Operational Hallucination, and proposes an Action-Aware Supervision Layer for better reliability.
+
+5. **Position: AI/ML Deepfake Research is Misaligned with AI-Generated Non-Consensual Intimate Imagery (AIG-NCII)**
+   - Critiques the focus of deepfake research on epistemic harms while neglecting dignity harms, advocating for updated threat models to address AIG-NCII.
+
+6. **Detecting Vulnerabilities in Agent Skills with SkillSpector**
+   - Examines the effectiveness of static analysis in identifying malicious skills in AI agents, emphasizing the need for human judgment in evaluating security.
+
+7. **Broken Gates: Re-evaluating Web Bot Defenses in the Age of LLM Agents**
+   - Analyzes the effectiveness of bot management systems against LLM-based agents, revealing vulnerabilities in both interactive and non-interactive defenses.
+
+8. **The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems**
+   - Proposes a framework for diagnosing hidden risks in AI systems, emphasizing the need for robust governance and oversight mechanisms.
+
+9. **Trust and Control in AI Systems**
+   - Discusses the importance of maintaining control over AI systems, particularly in high-stakes applications, and the risks associated with loss of control.
+
+#### Trends and Insights
+
+- **Power-Seeking Behavior**: The identification of power-seeking behaviors in AI systems is a growing concern, especially as models become more autonomous. The SysAdmin benchmark highlights the need for ongoing evaluation of AI behaviors to prevent unintended consequences.
+
+- **Fact-Checking and Reliability**: The introduction of frameworks like Evidence Chain Evaluation indicates a trend toward improving the reliability of AI systems in critical applications, particularly in fact-checking and information verification.
+
+- **Decentralization and Tool Discovery**: The proposal of decentralized mechanisms for tool discovery reflects a broader trend in AI toward reducing reliance on centralized systems, which can be vulnerable to single points of failure.
+
+- **Safety and Operational Risks**: The exploration of operational hallucination and safety drift in AI agents underscores the importance of understanding the risks associated with multi-turn interactions and the need for robust safety mechanisms.
+
+- **Ethical Considerations**: The critique of deepfake research and the focus on dignity harms highlight the ethical implications of AI technologies, emphasizing the need for responsible AI development that considers the societal impact.
+
+- **Security Vulnerabilities**: The analysis of vulnerabilities in agent skills and the effectiveness of bot management systems reveal significant gaps in current security measures, necessitating more robust frameworks for evaluating and securing AI systems.
+
+#### Security Insights
+
+- **Need for Robust Evaluation**: The findings from various studies emphasize the importance of rigorous evaluation frameworks for AI systems, particularly in high-stakes environments like healthcare and finance.
+
+- **Human Oversight**: The role of human judgment in evaluating AI outputs, especially in security contexts, is critical. Automated systems must be designed to allow for human intervention and oversight to mitigate risks.
+
+- **Dynamic Threat Landscape**: As AI technologies evolve, so do the threats they pose. Continuous monitoring and adaptation of security measures are essential to address emerging vulnerabilities.
+
+- **Ethical Frameworks**: Establishing ethical guidelines and frameworks for AI deployment is crucial to ensure that AI systems are used responsibly and do not perpetuate harm or bias.
+
+### Conclusion
+
+The landscape of AI research and application is rapidly evolving, with significant implications for security, ethics, and operational reliability. As AI systems become more integrated into critical domains, the need for robust evaluation, ethical considerations, and security measures becomes increasingly paramount. The insights drawn from recent papers and articles highlight the importance of addressing these challenges proactively to harness the full potential of AI technologies while safeguarding against their risks.
