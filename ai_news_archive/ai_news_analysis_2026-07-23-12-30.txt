@@ -1,0 +1,219 @@
+AI Researcher Agent Report for 2026-07-23-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads](https://arxiv.org/abs/2607.19349): This paper presents FineServe, a dataset for analyzing large language model (LLM) serving workloads, revealing insights into arrival dynamics and token behavior across various models and tasks.
+- [Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience](https://arxiv.org/abs/2607.19350): The paper proposes FraudShield AI, a hybrid framework combining LSTM networks with graph features for improved detection of financial fraud, particularly in imbalanced datasets.
+- [OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks](https://arxiv.org/abs/2607.19351): This work introduces OpenEvoShield, a continual defense framework for LLM-based multi-agent systems, focusing on adapting to dynamic threats.
+- [Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX](https://arxiv.org/abs/2607.19353): The study benchmarks confidential computing for GPU-accelerated LLM serving, highlighting performance costs and throughput under various workloads.
+- [FormulaSPIN: Self-Play Fine-Tuning for Natural Language to Spreadsheet Formula Generation](https://arxiv.org/abs/2607.19354): This paper introduces FORMULASPIN, a self-play framework for generating spreadsheet formulas from natural language, achieving state-of-the-art performance.
+- [Information Discernment in Large Language Models](https://arxiv.org/abs/2607.19355): The study formalizes information discernment in LLMs, revealing failures in source and truth discernment and proposing interventions to improve trust.
+- [NEXUS: Structured Runtime Safety for Tool-Using LLM Agents](https://arxiv.org/abs/2607.19356): NEXUS is introduced as a safety monitor for tool-using LLM agents, achieving high accuracy in intervention decisions.
+- [Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems](https://arxiv.org/abs/2607.19357): This paper presents a decoding layer for generative recommender systems that balances multiple objectives dynamically.
+- [LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning](https://arxiv.org/abs/2607.19358): LISA proposes a new attention mechanism to reduce computational complexity in long-context reasoning tasks.
+- [Profile-Graph Memory for LLM Agents: Implicit Cross-Entity Traversal through Narrative Profiles](https://arxiv.org/abs/2607.19359): This work introduces a memory architecture for LLM agents to enhance multi-hop reasoning capabilities.
+- [Lifted Representation Hypothesis in Language Models](https://arxiv.org/abs/2607.19360): The paper explores how LLMs update memory and the implications for learning and representation.
+- [GraphContainer: A Unified Platform for Comparing and Debugging Graph RAG Methods](https://arxiv.org/abs/2607.19362): GraphContainer is proposed as a platform for visualizing and comparing graph retrieval-augmented generation methods.
+- [AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally](https://arxiv.org/abs/2607.19363): This paper discusses the importance of optimizing rotary position embedding for individual attention heads in transformers.
+- [Statistically Grounded Sparse-Feature Interventions for Activation-Space Control in Large Language Models](https://arxiv.org/abs/2607.19364): The study presents a feature steering pipeline for controlling LLM behavior through activation steering.
+- [Logic-Guided Data Extraction with Answer Set Programming and Large Language Models](https://arxiv.org/abs/2607.19365): This paper proposes a framework combining LLMs with answer set programming for improved data extraction.
+- [Geometry-Guided Constraint Learning for LLM Safety Classification](https://arxiv.org/abs/2607.19366): The study introduces a method for learning safety constraints in LLMs using geometric perspectives.
+- [Rethinking Uncertainty Evaluation in Large Language Models](https://arxiv.org/abs/2607.19367): This paper critiques current methods for evaluating uncertainty in LLMs and proposes new metrics.
+- [Spectral-LSH: Sub-Quadratic Prompt Compression via Krylov-Projected Locality-Sensitive Hashing](https://arxiv.org/abs/2607.19368): The work presents a prompt compression method to improve efficiency in LLM inference.
+- [Beyond Tracking or Shortcut: Composition-Bounded Predictive States in Poker Autoregressive Models](https://arxiv.org/abs/2607.19369): This paper studies the ambiguity in predictive state modeling in poker scenarios.
+- [Mitigating Scaffolding Collapse in Socratic Tutors via Representation Alignment](https://arxiv.org/abs/2607.19371): The study proposes a framework for improving the robustness of Socratic tutoring systems.
+- [Euclean: Automated Geometry Problem Formalization with Unified Verification in Lean](https://arxiv.org/abs/2607.19374): This work presents a framework for formalizing geometry problems in Lean.
+- [CrackedPDFs: A Controlled Benchmark for Hidden Prompt Injection in PDFs](https://arxiv.org/abs/2607.19396): The paper introduces a benchmark for evaluating hidden prompt injection vulnerabilities in PDFs.
+- [HyGRL: Adaptive Hybrid Graph Reasoning for Multi-Entity Questions](https://arxiv.org/abs/2607.19398): This study presents a framework for improving reasoning over multi-entity questions using hybrid graph methods.
+- [ITPEval: Benchmarking Formal Translation Across Interactive Theorem Provers](https://arxiv.org/abs/2607.19407): The paper introduces a benchmark for evaluating formal proof translation across different theorem provers.
+- [FORCE-Bench: A Benchmark, Dataset, and Evaluation Harness for Agentic AI in Enterprise Finance](https://arxiv.org/abs/2607.19409): FORCE-Bench is introduced as a framework for evaluating agentic AI systems in finance.
+- [The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI](https://arxiv.org/abs/2607.19433): This work formalizes a new security threat model for autonomous agents.
+- [Sophisticated Policies from Epistemic Priors](https://arxiv.org/abs/2607.19518): The paper discusses the role of epistemic priors in active inference.
+- [Knowledge-Centric Self-Improvement](https://arxiv.org/abs/2607.19592): This study explores a paradigm for self-improvement in AI systems focused on knowledge rather than agent-centric approaches.
+- [Edge Intelligence in Civil Aviation: Paradigms, Techniques, and Applications](https://arxiv.org/abs/2607.19676): The paper reviews edge AI applications in civil aviation.
+- [Symbol and Footprint Database for Electronic Components by Agentic Recognition and Generation](https://arxiv.org/abs/2607.19767): This work presents a method for generating a database of electronic component symbols and footprints.
+- [Silent Failures in Multimodal Agentic Search: A Diagnostic Taxonomy and Cross-Judge Evaluation](https://arxiv.org/abs/2607.19793): The paper introduces a taxonomy for diagnosing silent failures in multimodal search systems.
+- [Rewarding Better Thinking for LLM Preference Alignment](https://arxiv.org/abs/2607.19824): This study proposes a new reward mechanism for aligning LLMs with human preferences.
+- [Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents](https://arxiv.org/abs/2607.19837): The paper formalizes a reconnaissance approach for pentesting AI agents.
+- [DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations](https://arxiv.org/abs/2607.19865): This work presents a benchmark for evaluating autonomous agents in document operations.
+- [JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety](https://arxiv.org/abs/2607.19913): The study proposes a framework for enhancing agent safety through foresight.
+- [Long-Term Sequential Decision Making under Risk](https://arxiv.org/abs/2607.19914): This paper investigates decision-making under risk in sequential settings.
+- [MOF-Sleuth: Tool-Grounded Reward Alignment for Explainable Fine-Grained MOF CIF Auditing](https://arxiv.org/abs/2607.19935): The paper introduces a framework for auditing metal-organic frameworks using LLMs.
+- [SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data](https://arxiv.org/abs/2607.19949): This work presents a simulation for generating evaluation data for personal assistants.
+- [EvoThink: Evolving Thinking in Large Reasoning Models via Self-Pruning and Aha-Moment Preference Optimization](https://arxiv.org/abs/2607.19962): The study proposes a framework for improving reasoning efficiency in LLMs.
+- [The Giant Hippocampus: From Structural Monoculture to a System of Systems](https://arxiv.org/abs/2607.19973): This paper critiques the uniformity in AI architectures and proposes a heterogeneous design approach.
+- [Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing](https://arxiv.org/abs/2607.19985): The study presents a framework for multi-agent coordination in manufacturing environments.
+- [CLARK: Closed-loop Learning for Adaptive Reasoning over Knowledge Graphs](https://arxiv.org/abs/2607.19996): This work introduces a framework for adaptive reasoning using knowledge graphs.
+- [Safe Remediation as Risk-Constrained Intervention Decision in Microservice Systems](https://arxiv.org/abs/2607.20005): The paper presents a framework for safe remediation in IT operations.
+- [EvoDRC: A Self-Evolving Agentic Framework for Automated DRC Violation Repair](https://arxiv.org/abs/2607.20019): This study introduces a framework for automated design rule check repairs.
+- [Global Difference Constraint Propagation for Constraint Programming](https://arxiv.org/abs/2607.20022): The paper presents a global propagator for difference constraints in constraint programming.
+- [Reading and Steering Representations of Materials-Science Mechanisms in an Open-Weight Language Model](https://arxiv.org/abs/2607.20058): This work explores the representation of materials science mechanisms in LLMs.
+- [PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning](https://arxiv.org/abs/2607.20064): The study presents a memory management framework for long-horizon reasoning tasks.
+- [TRUST-ESD: A Risk-Calibrated and Governance-Aware AI Framework for Enterprise Strategic Decision Support Under Uncertainty](https://arxiv.org/abs/2607.20065): This paper proposes a framework for decision support in uncertain environments.
+- [CUSUM-Shaped Inference-Time Monitoring and Targeted Re-Decoding for Quantized Small Language Model Reasoning](https://arxiv.org/abs/2607.20129): The study presents a monitoring and repair mechanism for small language models.
+- [PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity](https://arxiv.org/abs/2607.20268): This work introduces a framework for improving reasoning in LLMs through cognitive heterogeneity.
+- [Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations](https://arxiv.org/abs/2607.20379): The paper discusses a method for improving the verifiability of LLM explanations.
+- [SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data](https://arxiv.org/abs/2607.20402): This study presents a neuro-soft-symbolic architecture for reasoning over high-dimensional data.
+- [Stateful Guardrails for Multi-Turn LLM Systems: A Conversational Risk Accumulation Framework](https://arxiv.org/abs/2607.19361): The paper introduces a framework for managing conversational risks in LLM systems.
+- [Economic Evaluations of Language Models](https://arxiv.org/abs/2607.19375): This work presents a framework for evaluating the economic impact of language models.
+- [Challenges of Explainability in Continual Learning for Time Series Forecasting](https://arxiv.org/abs/2607.19382): The study investigates the challenges of explainability in time series forecasting models.
+- [Scale-Aware Learning of Chaotic Dynamics on Unstructured Meshes via Binned Spectral Losses](https://arxiv.org/abs/2607.19387): This paper presents a method for chaotic dynamics modeling on unstructured meshes.
+- [Simulating Eutopia: Revisiting Long-term Fairness with Outcomes, Performativity, and Dynamics](https://arxiv.org/abs/2607.19389): The study examines the long-term fairness of AI decision-making systems.
+- [Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos](https://arxiv.org/abs/2607.19857): This work presents a framework for understanding small objects in aerial videos using multimodal LLMs.
+- [Adaptive Capitulation: A Structural Failure Mode of LLM Responses in Vulnerability Contexts](https://arxiv.org/abs/2607.19629): The paper discusses a failure mode in LLM responses under vulnerable contexts.
+- [A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace](https://arxiv.org/abs/2607.20328): This study proposes UX principles for designing human-AI interactions in work settings.
+- [Gotta Catch them all: the modes of Sycophancy](https://arxiv.org/abs/2607.20146): The paper analyzes different modes of sycophancy in LLMs.
+- [When Visual Evidence is Ambiguous: Pareidolia as a Diagnostic Probe for Vision Models](https://arxiv.org/abs/2603.03989): This work uses pareidolia to probe the decision-making of vision models.
+- [On the Separability of Information in Diffusion Models](https://arxiv.org/abs/2509.23937): The study examines the information content in diffusion models.
+- [A Survey on Semantic Modeling for Building Energy Management](https://arxiv.org/abs/2404.11716): This survey reviews semantic modeling approaches for building energy management.
+- [How Fast Can Reward Models Score? A Systems Study of C++ and PyTorch Inference Runtimes for RLHF](https://tldr.takara.ai/p/2607.19712): The paper investigates the performance of reward models in RLHF systems.
+- [Detecting Vulnerabilities in Agent Skills with SkillSpector: From Green Checkmark to Real Security Judgment](https://towardsdatascience.com/from-green-checkmark-to-real-judgment-auditing-ai-agent-skills-with-skillspector/): This work discusses a framework for auditing AI agent skills.
+- [Current Injection Spiking Neural Network for Infrared and Visible Image Fusion](https://tldr.takara.ai/p/2607.19879): The paper presents a spiking neural network for fusing infrared and visible images.
+- [When Does Knowledge Distillation Hurt? Reliability-Aware Distillation for Low-Resource Language Summarization](https://tldr.takara.ai/p/2607.19956): This study investigates the effects of knowledge distillation on language summarization tasks.
+- [A Unified Survival Benchmark for Temporal Dropout Risk Prediction in Learning Analytics](https://arxiv.org/abs/2604.08870): The paper introduces a benchmark for predicting dropout risk in learning analytics.
+- [An Automated Framework for Extracting Reachable Attack Chains from Cyber Threat Intelligence Reports](https://arxiv.org/abs/2607.19742): This work presents a framework for extracting attack chains from CTI reports.
+- [The Ethics of Autonomous AI Agents for Offensive Security](https://arxiv.org/abs/2607.20255): The paper discusses the ethical implications of using AI agents in offensive security.
+- [When Shippers Become Algorithms: Candidate Exposure, Information Design, and the Concentration of LLM-Mediated Freight Markets](https://arxiv.org/abs/2607.19967): This study analyzes the impact of LLMs on freight markets.
+- [Interval and fuzzy physics-augmented neural networks (iPANN and fPANN) for uncertainty quantification and propagation in constitutive modeling](https://tldr.takara.ai/p/2607.20339): The paper presents neural networks for uncertainty quantification in modeling.
+- [Learning About Learning: A Path from Spin Glasses to Artificial Intelligence](https://arxiv.org/abs/2601.07635): This work discusses the educational potential of the Hopfield model in AI.
+- [Geometric Attention: A Regime-Explicit Operator Semantics for Transformer Attention](https://arxiv.org/abs/2601.11618): The paper introduces a framework for understanding transformer attention mechanisms.
+- [An Intelligent-Cloud Edge Multimodal Interaction System for Robots](https://arxiv.org/abs/2607.14675): This study presents a multimodal interaction system for robots.
+- [A Novel Hybrid Deep Learning Technique for Speech Emotion Detection using Feature Engineering](https://arxiv.org/abs/2507.07046): The paper discusses a hybrid model for detecting emotions in speech.
+- [On Optimization Complexity of Second-Order Certified Unlearning](https://tldr.takara.ai/p/2607.20192): This work investigates the complexity of certified unlearning in machine learning.
+- [Memory-Augmented Multimodal Large Language Models for Small Object Understanding in Streaming Aerial Videos](https://tldr.takara.ai/p/2607.19857): This study presents a framework for understanding small objects in aerial videos using multimodal LLMs.
+- [The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models](https://tldr.takara.ai/p/2607.20265): The paper introduces a metric for evaluating task alignment in LLMs.
+- [Reducing Hallucinations in Complex Question Answering using Simple Graph-based Retrieval-Augmented Generation](https://tldr.takara.ai/p/2606.05901): This work explores a graph-based approach to improve question answering accuracy.
+- [When Does Knowledge Distillation Hurt? Reliability-Aware Distillation for Low-Resource Language Summarization](https://tldr.takara.ai/p/2607.19956): This study investigates the effects of knowledge distillation on language summarization tasks.
+- [A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace](https://arxiv.org/abs/2607.20328): This study proposes UX principles for designing human-AI interactions in work settings.
+- [When Visual Evidence is Ambiguous: Pareidolia as a Diagnostic Probe for Vision Models](https://arxiv.org/abs/2603.03989): This work uses pareidolia to probe the decision-making of vision models.
+- [On the Separability of Information in Diffusion Models](https://arxiv.org/abs/2509.23937): The study examines the information content in diffusion models.
+- [A Survey on Semantic Modeling for Building Energy Management](https://arxiv.org/abs/2404.11716): This survey reviews semantic modeling approaches for building energy management.
+
+### Categories
+#### Security
+- [Defense Against LLM Backdoors using Critical Neuron Isolation Pruning](https://tldr.takara.ai/p/2607.19894): This paper introduces DeCNIP, a method for identifying and neutralizing backdoors in LLMs.
+- [Detecting Vulnerabilities in Agent Skills with SkillSpector: From Green Checkmark to Real Security Judgment](https://towardsdatascience.com/from-green-checkmark-to-real-judgment-auditing-ai-agent-skills-with-skillspector/): This work discusses a framework for auditing AI agent skills.
+- [The Ethics of Autonomous AI Agents for Offensive Security](https://arxiv.org/abs/2607.20255): The paper discusses the ethical implications of using AI agents in offensive security.
+- [Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents](https://arxiv.org/abs/2607.19837): The paper formalizes a reconnaissance approach for pentesting AI agents.
+- [OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills](https://tldr.takara.ai/p/2607.20121): This work presents a benchmark for evaluating agent safety with risky skills.
+
+#### AI and Machine Learning
+- [FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads](https://arxiv.org/abs/2607.19349): This paper presents FineServe, a dataset for analyzing large language model (LLM) serving workloads.
+- [Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience](https://arxiv.org/abs/2607.19350): The paper proposes FraudShield AI, a hybrid framework combining LSTM networks with graph features for improved detection of financial fraud.
+- [OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks](https://arxiv.org/abs/2607.19351): This work introduces OpenEvoShield, a continual defense framework for LLM-based multi-agent systems.
+- [Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX](https://arxiv.org/abs/2607.19353): The study benchmarks confidential computing for GPU-accelerated LLM serving.
+- [FormulaSPIN: Self-Play Fine-Tuning for Natural Language to Spreadsheet Formula Generation](https://arxiv.org/abs/2607.19354): This paper introduces FORMULASPIN, a self-play framework for generating spreadsheet formulas from natural language.
+- [Information Discernment in Large Language Models](https://arxiv.org/abs/2607.19355): The study formalizes information discernment in LLMs.
+- [NEXUS: Structured Runtime Safety for Tool-Using LLM Agents](https://arxiv.org/abs/2607.19356): NEXUS is introduced as a safety monitor for tool-using LLM agents.
+- [Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems](https://arxiv.org/abs/2607.19357): This paper presents a decoding layer for generative recommender systems.
+- [LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning](https://arxiv.org/abs/2607.19358): LISA proposes a new attention mechanism to reduce computational complexity in long-context reasoning tasks.
+- [Profile-Graph Memory for LLM Agents: Implicit Cross-Entity Traversal through Narrative Profiles](https://arxiv.org/abs/2607.19359): This work introduces a memory architecture for LLM agents.
+- [Lifted Representation Hypothesis in Language Models](https://arxiv.org/abs/2607.19360): The paper explores how LLMs update memory and the implications for learning and representation.
+- [GraphContainer: A Unified Platform for Comparing and Debugging Graph RAG Methods](https://arxiv.org/abs/2607.19362): GraphContainer is proposed as a platform for visualizing and comparing graph retrieval-augmented generation methods.
+- [AdaRoPE: Not All Attention Heads Should Rotate and Scale Equally](https://arxiv.org/abs/2607.19363): This paper discusses the importance of optimizing rotary position embedding for individual attention heads in transformers.
+- [Statistically Grounded Sparse-Feature Interventions for Activation-Space Control in Large Language Models](https://arxiv.org/abs/2607.19364): The study presents a feature steering pipeline for controlling LLM behavior through activation steering.
+- [Logic-Guided Data Extraction with Answer Set Programming and Large Language Models](https://arxiv.org/abs/2607.19365): This paper proposes a framework combining LLMs with answer set programming for improved data extraction.
+- [Geometry-Guided Constraint Learning for LLM Safety Classification](https://arxiv.org/abs/2607.19366): The study introduces a method for learning safety constraints in LLMs.
+- [Rethinking Uncertainty Evaluation in Large Language Models](https://arxiv.org/abs/2607.19367): This paper critiques current methods for evaluating uncertainty in LLMs.
+- [Spectral-LSH: Sub-Quadratic Prompt Compression via Krylov-Projected Locality-Sensitive Hashing](https://arxiv.org/abs/2607.19368): The work presents a prompt compression method to improve efficiency in LLM inference.
+- [Beyond Tracking or Shortcut: Composition-Bounded Predictive States in Poker Autoregressive Models](https://arxiv.org/abs/2607.19369): This paper studies the ambiguity in predictive state modeling in poker scenarios.
+- [Mitigating Scaffolding Collapse in Socratic Tutors via Representation Alignment](https://arxiv.org/abs/2607.19371): The study proposes a framework for improving the robustness of Socratic tutoring systems.
+- [Euclean: Automated Geometry Problem Formalization with Unified Verification in Lean](https://arxiv.org/abs/2607.19374): This work presents a framework for formalizing geometry problems in Lean.
+- [CrackedPDFs: A Controlled Benchmark for Hidden Prompt Injection in PDFs](https://arxiv.org/abs/2607.19396): The paper introduces a benchmark for evaluating hidden prompt injection vulnerabilities in PDFs.
+- [HyGRL: Adaptive Hybrid Graph Reasoning for Multi-Entity Questions](https://arxiv.org/abs/2607.19398): This study presents a framework for improving reasoning over multi-entity questions using hybrid graph methods.
+- [ITPEval: Benchmarking Formal Translation Across Interactive Theorem Provers](https://arxiv.org/abs/2607.19407): The paper introduces a benchmark for evaluating formal proof translation across different theorem provers.
+- [FORCE-Bench: A Benchmark, Dataset, and Evaluation Harness for Agentic AI in Enterprise Finance](https://arxiv.org/abs/2607.19409): FORCE-Bench is introduced as a framework for evaluating agentic AI systems in finance.
+- [The Chronos Vulnerability: A Taxonomy of Temporal Persistence and Memory-Based Deception in Agentic AI](https://arxiv.org/abs/2607.19433): This work formalizes a new security threat model for autonomous agents.
+- [Sophisticated Policies from Epistemic Priors](https://arxiv.org/abs/2607.19518): The paper discusses the role of epistemic priors in active inference.
+- [Knowledge-Centric Self-Improvement](https://arxiv.org/abs/2607.19592): This study explores a paradigm for self-improvement in AI systems focused on knowledge rather than agent-centric approaches.
+- [Edge Intelligence in Civil Aviation: Paradigms, Techniques, and Applications](https://arxiv.org/abs/2607.19676): The paper reviews edge AI applications in civil aviation.
+- [Symbol and Footprint Database for Electronic Components by Agentic Recognition and Generation](https://arxiv.org/abs/2607.19767): This work presents a method for generating a database of electronic component symbols and footprints.
+- [Silent Failures in Multimodal Agentic Search: A Diagnostic Taxonomy and Cross-Judge Evaluation](https://arxiv.org/abs/2607.19793): The paper introduces a taxonomy for diagnosing silent failures in multimodal search systems.
+- [Rewarding Better Thinking for LLM Preference Alignment](https://arxiv.org/abs/2607.19824): This study proposes a new reward mechanism for aligning LLMs with human preferences.
+- [DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations](https://arxiv.org/abs/2607.19865): This work presents a benchmark for evaluating autonomous agents in document operations.
+- [JANUS: Foreseeing Latent Risk for Long-Horizon Agent Safety](https://arxiv.org/abs/2607.19913): The study proposes a framework for enhancing agent safety through foresight.
+- [Long-Term Sequential Decision Making under Risk](https://arxiv.org/abs/2607.19914): This paper investigates decision-making under risk in sequential settings.
+- [MOF-Sleuth: Tool-Grounded Reward Alignment for Explainable Fine-Grained MOF CIF Auditing](https://arxiv.org/abs/2607.19935): The paper introduces a framework for auditing metal-organic frameworks using LLMs.
+- [SenWorld: A Digital-Twin Simulation for Generating Context-Rich Evaluation Data](https://arxiv.org/abs/2607.19949): This work presents a simulation for generating evaluation data for personal assistants.
+- [EvoThink: Evolving Thinking in Large Reasoning Models via Self-Pruning and Aha-Moment Preference Optimization](https://arxiv.org/abs/2607.19962): The study proposes a framework for improving reasoning efficiency in LLMs.
+- [The Giant Hippocampus: From Structural Monoculture to a System of Systems](https://arxiv.org/abs/2607.19973): This paper critiques the uniformity in AI architectures and proposes a heterogeneous design approach.
+- [Coordinating from Memory: Graph-Structured Experience Reuse for Multi-Agent Adaptation in Dynamic Manufacturing](https://arxiv.org/abs/2607.19985): The study presents a framework for multi-agent coordination in manufacturing environments.
+- [CLARK: Closed-loop Learning for Adaptive Reasoning over Knowledge Graphs](https://arxiv.org/abs/2607.19996): This work introduces a framework for adaptive reasoning using knowledge graphs.
+- [Safe Remediation as Risk-Constrained Intervention Decision in Microservice Systems](https://arxiv.org/abs/2607.20005): The paper presents a framework for safe remediation in IT operations.
+- [EvoDRC: A Self-Evolving Agentic Framework for Automated DRC Violation Repair](https://arxiv.org/abs/2607.20019): This study introduces a framework for automated design rule check repairs.
+- [Global Difference Constraint Propagation for Constraint Programming](https://arxiv.org/abs/2607.20022): The paper presents a global propagator for difference constraints in constraint programming.
+- [Reading and Steering Representations of Materials-Science Mechanisms in an Open-Weight Language Model](https://arxiv.org/abs/2607.20058): This work explores the representation of materials science mechanisms in LLMs.
+- [PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning](https://arxiv.org/abs/2607.20064): The study presents a memory management framework for long-horizon reasoning tasks.
+- [TRUST-ESD: A Risk-Calibrated and Governance-Aware AI Framework for Enterprise Strategic Decision Support Under Uncertainty](https://arxiv.org/abs/2607.20065): This paper proposes a framework for decision support in uncertain environments.
+- [CUSUM-Shaped Inference-Time Monitoring and Targeted Re-Decoding for Quantized Small Language Model Reasoning](https://arxiv.org/abs/2607.20129): The study presents a monitoring and repair mechanism for small language models.
+- [PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity](https://arxiv.org/abs/2607.20268): This work introduces a framework for improving reasoning in LLMs through cognitive heterogeneity.
+- [Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations](https://arxiv.org/abs/2607.20379): The paper discusses a method for improving the verifiability of LLM explanations.
+- [SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data](https://arxiv.org/abs/2607.20402): This study presents a neuro-soft-symbolic architecture for reasoning over high-dimensional data.
+- [Economic Evaluations of Language Models](https://arxiv.org/abs/2607.19375): This work presents a framework for evaluating the economic impact of language models.
+- [Challenges of Explainability in Continual Learning for Time Series Forecasting](https://arxiv.org/abs/2607.19382): The study investigates the challenges of explainability in time series forecasting models.
+- [Scale-Aware Learning of Chaotic Dynamics on Unstructured Meshes via Binned Spectral Losses](https://arxiv.org/abs/2607.19387): This paper presents a method for chaotic dynamics modeling on unstructured meshes.
+- [Simulating Eutopia: Revisiting Long-term Fairness with Outcomes, Performativity, and Dynamics](https://arxiv.org/abs/2607.19389): The study examines the long-term fairness of AI decision-making systems.
+- [Adaptive Capitulation: A Structural Failure Mode of LLM Responses in Vulnerability Contexts](https://arxiv.org/abs/2607.19629): The paper discusses a failure mode in LLM responses under vulnerable contexts.
+- [A Framework of User Experience Principles for Human-AI Agent Interaction in the Workplace](https://arxiv.org/abs/2607.20328): This study proposes UX principles for designing human-AI interactions in work settings.
+- [Gotta Catch them all: the modes of Sycophancy](https://arxiv.org/abs/2607.20146): The paper analyzes different modes of sycophancy in LLMs.
+- [When Visual Evidence is Ambiguous: Pareidolia as a Diagnostic Probe for Vision Models](https://arxiv.org/abs/2603.03989): This work uses pareidolia to probe the decision-making of vision models.
+- [On the Separability of Information in Diffusion Models](https://arxiv.org/abs/2509.23937): The study examines the information content in diffusion models.
+- [A Survey on Semantic Modeling for Building Energy Management](https://arxiv.org/abs/2404.11716): This survey reviews semantic modeling approaches for building energy management.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads**
+   - **Focus**: Efficient serving of large language models (LLMs) in real-world applications.
+   - **Insights**: Introduces a dataset for understanding serving dynamics, which can inform capacity planning and scheduling strategies.
+
+#### 2. **Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience**
+   - **Focus**: Detecting financial fraud through a hybrid model combining LSTM and graph features.
+   - **Insights**: Addresses data imbalance and adversarial tactics, showing improved detection capabilities.
+
+#### 3. **OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks**
+   - **Focus**: Protecting LLM-based multi-agent systems from dynamic adversarial attacks.
+   - **Insights**: Proposes a continual defense framework that adapts to evolving threats, enhancing security in multi-agent environments.
+
+#### 4. **Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX**
+   - **Focus**: Evaluating the performance of confidential computing for GPU-accelerated inference.
+   - **Insights**: Highlights the trade-offs between confidentiality and throughput, essential for secure AI applications.
+
+#### 5. **NEXUS: Structured Runtime Safety for Tool-Using LLM Agents**
+   - **Focus**: Ensuring safety in LLM agents that use tools for high-impact actions.
+   - **Insights**: Introduces a safety monitor that can intervene based on risk assessment, crucial for maintaining security in agent operations.
+
+#### 6. **JailMeter: An Evidence-Based Evaluation Framework for Jailbreak Attacks on Large Language Models**
+   - **Focus**: Evaluating the effectiveness of jailbreak attacks on LLMs.
+   - **Insights**: Proposes a framework for assessing the robustness of LLMs against such attacks, emphasizing the need for security in AI systems.
+
+#### 7. **Know Your Agent: Reconnaissance-Driven Pentesting of AI Agents**
+   - **Focus**: Understanding vulnerabilities in AI agents through reconnaissance.
+   - **Insights**: Formalizes the process of probing AI agents to uncover weaknesses, enhancing security measures.
+
+#### 8. **Detecting Vulnerabilities in Agent Skills with SkillSpector: From Green Checkmark to Real Security Judgment**
+   - **Focus**: Auditing AI agent skills for vulnerabilities.
+   - **Insights**: Highlights the importance of thorough evaluation beyond superficial checks to ensure security in AI operations.
+
+#### 9. **Defense Against LLM Backdoors using Critical Neuron Isolation Pruning**
+   - **Focus**: Mitigating backdoor attacks in LLMs.
+   - **Insights**: Introduces a method for isolating and pruning critical neurons to enhance model security without sacrificing performance.
+
+#### 10. **OpenSkillRisk: Benchmarking Agent Safety When Using Real-World Risky Third-Party Skills**
+   - **Focus**: Evaluating the safety of AI agents using third-party skills.
+   - **Insights**: Constructs a benchmark to assess how well agents recognize and avoid risks associated with external skills.
+
+### Trends and Insights
+- **Security in AI Systems**: There is a growing emphasis on understanding and mitigating vulnerabilities in AI systems, particularly in LLMs and multi-agent environments. Papers focus on developing frameworks for evaluating and enhancing security measures against various attack vectors.
+  
+- **Integration of AI and Security**: Many studies explore the intersection of AI capabilities and security, such as using LLMs for fraud detection or ensuring safe interactions in multi-agent systems. This reflects a trend towards leveraging AI to bolster security measures.
+
+- **Dynamic Adaptation**: Several papers propose adaptive frameworks that evolve with threats, indicating a shift towards more resilient AI systems capable of responding to changing environments and adversarial tactics.
+
+- **Benchmarking and Evaluation**: The introduction of benchmarks like OpenSkillRisk and JailMeter highlights the need for standardized evaluation methods to assess the security and robustness of AI systems, ensuring they can withstand real-world challenges.
+
+### Conclusion
+The reviewed papers and articles collectively underscore the critical need for robust security measures in AI systems, particularly as they become more integrated into sensitive applications. The focus on adaptive frameworks, thorough evaluation methods, and the intersection of AI capabilities with security challenges reflects a proactive approach to ensuring the safe deployment of AI technologies.
