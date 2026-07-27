@@ -1,0 +1,153 @@
+AI Researcher Agent Report for 2026-07-27-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills](https://arxiv.org/abs/2607.21596): FlowEvo is a framework that enables large language model agents to compile successful task-solving workflows into reusable skills, enhancing their problem-solving capabilities over time without needing to update model parameters.
+- [Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals](https://arxiv.org/abs/2607.21597): This paper critiques traditional machine learning metrics for wildfire risk evaluation and proposes a monotonic evaluation framework that correlates predicted risk scores with observed operational loads.
+- [Securing Multimodal AI through Internal Information Decomposition](https://arxiv.org/abs/2607.21600): This work introduces FlowGuard, a framework that detects harmful inputs in multimodal AI by monitoring internal consistency across modalities, significantly reducing attack success rates.
+- [From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction](https://arxiv.org/abs/2607.21601): This paper analyzes failure modes in gesture recognition systems deployed in public spaces, proposing a taxonomy of failures and repair mechanisms.
+- [Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices](https://arxiv.org/abs/2607.21602): This research presents a framework for predicting latency in large language models on various edge devices, improving latency prediction accuracy significantly.
+- [AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems](https://arxiv.org/abs/2607.21604): This paper introduces a method for efficient reuse of key-value caches in memory-augmented LLM agents, achieving significant speedups in inference.
+- [TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward](https://arxiv.org/abs/2607.21606): TILT is a framework that enhances text-to-image generation by aligning sampling trajectories with intrinsic rewards favoring compositional fidelity.
+- [Spectral Flow Certificates for Depth-Aware Long-Range Propagation in Graph Neural Networks](https://arxiv.org/abs/2607.21607): This work proposes a method to predict the long-range propagation capabilities of graph neural networks using spectral flow certificates.
+- [Coupled Hierarchical Search over Topology and Execution for Agentic Workflow Synthesis](https://arxiv.org/abs/2607.21609): This paper presents HierFlow, a framework for automating the design of agentic workflows through hierarchical search mechanisms.
+- [SCOPE and SCION: A Benchmark and an Auditable Reference Pipeline for Schema Induction and Fusion from Text](https://arxiv.org/abs/2607.21610): This work introduces SCOPE, a benchmark for schema induction from text, and SCION, a pipeline for constructing candidate schemas.
+- [Procedural Knowledge Is Not Low-Rank: Why LoRA Fails to Internalize Multi-Step Procedures](https://arxiv.org/abs/2607.21612): This paper critiques the LoRA method for procedural knowledge adaptation, demonstrating its limitations in complex tasks.
+- [The Hard Decision Layer: Evidence for Committed Inference in Transformers](https://arxiv.org/abs/2607.21613): This research identifies a layer in transformers where predictions stabilize, offering insights into transformer inference mechanisms.
+- [Household Movement Detection in Mixed-Format Occupancy Data Using LLM-Based Entity Resolution](https://arxiv.org/abs/2607.21614): This paper proposes a framework for detecting household movement patterns in occupancy data using LLMs.
+- [FrED: External Data Influence Estimation via Domain Knowledge Graph Grounding](https://arxiv.org/abs/2607.21615): This work presents a framework for estimating the influence of external data on model outputs using domain knowledge graphs.
+- [Lost in Context: Addressing Context Anxiety in Large Language Models](https://arxiv.org/abs/2607.21616): This study explores the phenomenon of context anxiety in LLMs and proposes strategies to mitigate it.
+- [Do VLMs Read or Rewrite? On Transcription Faithfulness in Vision-Language Models](https://arxiv.org/abs/2607.21617): This paper investigates the transcription accuracy of vision-language models, revealing tendencies to rewrite text rather than transcribe faithfully.
+- [LeafData: An Agentic System for Data Migration](https://arxiv.org/abs/2607.21618): LeafData is a system that automates data migration by converting user intent into executable JSON configurations.
+- [From Profiles to Steering Vectors: Global Sparse Priors and Local Semantic Calibration for Personalized Text Generation](https://arxiv.org/abs/2607.21620): This research presents GLASS, a framework for personalized text generation using global and local activation steering.
+- [FBLayout: Optimizing Memory Layout for Efficient LLM Finetuning on Mobile GPUs](https://arxiv.org/abs/2607.21624): FBLayout is a framework that optimizes memory layout for efficient fine-tuning of LLMs on mobile GPUs.
+- [Trajectory-Aware Retrieval Agents for Temporal Decision-Making](https://arxiv.org/abs/2607.21625): This paper introduces TLM, a framework for decision-making from temporally structured text using LLM agents.
+- [Discrete Action Space as a Prerequisite for GRPO Convergence in Small-Model Continuous Control](https://arxiv.org/abs/2607.21626): This research explores the convergence of GRPO in small language models for continuous control tasks.
+- [Do Modules Stay in Their Lane? Role Drift in Compound LLM Systems](https://arxiv.org/abs/2607.21627): This paper investigates role drift in multi-module LLM systems and proposes a regularization method to mitigate it.
+- [Wavelet Phase Diffusion for Structurally and Semantically Consistent Sim-to-Real Translation](https://arxiv.org/abs/2607.21628): This work presents a method for sim-to-real translation using wavelet phase diffusion.
+- [Defining AI-Native Systems: Autonomy as Revision Authority](https://arxiv.org/abs/2607.21659): This paper defines AI-native systems based on their autonomy in decision-making and revision authority.
+- [Persistent Computational State: A Session-Centric Runtime for Generative World Models](https://arxiv.org/abs/2607.21686): This research introduces a session-centric runtime for generative world models that maintains persistent computational state.
+- [What AI Red-Team Evaluations Can and Cannot Prove](https://arxiv.org/abs/2607.21735): This paper discusses the limitations of AI red-team evaluations in proving safety claims.
+- [From Seasonality to Semantics: Benchmarking a Hybrid Probabilistic Forecasting System for Roadblocks in Bolivia](https://arxiv.org/abs/2607.21785): This work presents a hybrid probabilistic forecasting system for predicting roadblocks in Bolivia.
+- [QLPO: Quadrant-weighted Sampling for Length-aware Policy Optimization](https://arxiv.org/abs/2607.21793): This research introduces QLPO, a method for optimizing response length in reinforcement learning.
+- [DAGForge: Auditable Causal DAG Authoring with Biomedical Literature](https://arxiv.org/abs/2607.21859): This paper presents DAGForge, a system for authoring causal directed acyclic graphs in biomedical research.
+- [When Is a Learned Command Adapter Worth It? Closed-Loop Identification and Counterfactual Auditing of Frozen Locomotion Policies](https://arxiv.org/abs/2607.21867): This research evaluates the necessity of learned adapters in command-conditioned locomotion policies.
+- [Multi-Agent System-driven Digital Twins for predictive maintenance: architectures, technologies and open research challenges](https://arxiv.org/abs/2607.21873): This paper reviews the intersection of multi-agent systems and digital twins for predictive maintenance.
+- [TRACE-RealWorld: An Auditable Consistency Contract for World Models as Materialized Views](https://arxiv.org/abs/2607.21910): This work introduces TRACE-RealWorld, a framework for maintaining consistency in learned world representations.
+- [Semiotic logical hexagon theory for LLM logical reasoning](https://arxiv.org/abs/2607.21933): This research proposes a framework for improving logical reasoning in LLMs through semantic organization.
+- [Learning on the Job: Continual Learning from Deployment Feedback for Frozen-Weights Agents](https://arxiv.org/abs/2607.22157): This paper discusses continual learning from deployment feedback for agents with frozen weights.
+- [Dynamic Capability Scoping for Enterprise AI Agents: A Synthetic Dataset and Three-Source Permission Architecture](https://arxiv.org/abs/2607.22445): This work presents a framework for dynamic capability scoping in enterprise AI agents.
+- [TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI](https://arxiv.org/abs/2607.22465): This paper introduces TRACE-Router, a task-level routing framework for agentic AI.
+- [The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents](https://arxiv.org/abs/2607.22520): This research analyzes the impact of procedural skills on LLM agents' performance.
+- [Explainable Reinforcement Learning for assisting Air Traffic Controllers](https://arxiv.org/abs/2607.22525): This paper explores the application of explainability techniques in reinforcement learning for air traffic control.
+- [Do emulated quantum circuits change what CNNs look at? Performance and explainability comparison in medical image classification](https://arxiv.org/abs/2607.21186): This study compares the performance of hybrid quantum-inspired CNNs with classical CNNs in medical image classification.
+- [Control panels to clarify user intent with Large Language Models](https://arxiv.org/abs/2607.21598): This paper proposes a visual control panel interface for improving user interactions with LLMs.
+- [Decoupled Attention Fusion: Accelerating RAG with Efficient KV Cache Reuse](https://arxiv.org/abs/2607.21599): This work presents a framework for efficient KV cache reuse in retrieval-augmented generation systems.
+
+### Categories
+#### Security
+- [Securing Multimodal AI through Internal Information Decomposition](https://arxiv.org/abs/2607.21600)
+- [ToolGuardian: Declarative Security for AI Agent-Tool Interactions](https://arxiv.org/abs/2607.21835)
+- [Every Model Cheats: Prompt-Level Mitigation of Cheating on Offensive Cyber Tasks](https://arxiv.org/abs/2607.21763)
+- [Agent Security Needs Redefinition through a Holistic Framework](https://arxiv.org/abs/2607.22024)
+- [Security Without Detection: Economic Denial as a Primitive for Edge and IoT Defense](https://arxiv.org/abs/2512.23849)
+
+#### AI and Machine Learning
+- [FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills](https://arxiv.org/abs/2607.21596)
+- [Risk Is Not the Target: A Monotonic Framework for Evaluating Wildfire Operational Risk Signals](https://arxiv.org/abs/2607.21597)
+- [From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction](https://arxiv.org/abs/2607.21601)
+- [Transferable Latency Prediction for Fast LLM Screening on Heterogeneous Edge Devices](https://arxiv.org/abs/2607.21602)
+- [AgentKVShift: Efficient KV Cache Reuse for Agentic Memory Systems](https://arxiv.org/abs/2607.21604)
+- [TILT: Improving Compositional Generation in Diffusion Models with a Model-Intrinsic Reward](https://arxiv.org/abs/2607.21606)
+- [Spectral Flow Certificates for Depth-Aware Long-Range Propagation in Graph Neural Networks](https://arxiv.org/abs/2607.21607)
+- [Coupled Hierarchical Search over Topology and Execution for Agentic Workflow Synthesis](https://arxiv.org/abs/2607.21609)
+- [SCOPE and SCION: A Benchmark and an Auditable Reference Pipeline for Schema Induction and Fusion from Text](https://arxiv.org/abs/2607.21610)
+- [Procedural Knowledge Is Not Low-Rank: Why LoRA Fails to Internalize Multi-Step Procedures](https://arxiv.org/abs/2607.21612)
+- [The Hard Decision Layer: Evidence for Committed Inference in Transformers](https://arxiv.org/abs/2607.21613)
+- [Household Movement Detection in Mixed-Format Occupancy Data Using LLM-Based Entity Resolution](https://arxiv.org/abs/2607.21614)
+- [FrED: External Data Influence Estimation via Domain Knowledge Graph Grounding](https://arxiv.org/abs/2607.21615)
+- [Lost in Context: Addressing Context Anxiety in Large Language Models](https://arxiv.org/abs/2607.21616)
+- [LeafData: An Agentic System for Data Migration](https://arxiv.org/abs/2607.21618)
+- [From Profiles to Steering Vectors: Global Sparse Priors and Local Semantic Calibration for Personalized Text Generation](https://arxiv.org/abs/2607.21620)
+- [FBLayout: Optimizing Memory Layout for Efficient LLM Finetuning on Mobile GPUs](https://arxiv.org/abs/2607.21624)
+- [Trajectory-Aware Retrieval Agents for Temporal Decision-Making](https://arxiv.org/abs/2607.21625)
+- [Discrete Action Space as a Prerequisite for GRPO Convergence in Small-Model Continuous Control](https://arxiv.org/abs/2607.21626)
+- [Do Modules Stay in Their Lane? Role Drift in Compound LLM Systems](https://arxiv.org/abs/2607.21627)
+- [Wavelet Phase Diffusion for Structurally and Semantically Consistent Sim-to-Real Translation](https://arxiv.org/abs/2607.21628)
+- [Defining AI-Native Systems: Autonomy as Revision Authority](https://arxiv.org/abs/2607.21659)
+- [Persistent Computational State: A Session-Centric Runtime for Generative World Models](https://arxiv.org/abs/2607.21686)
+- [What AI Red-Team Evaluations Can and Cannot Prove](https://arxiv.org/abs/2607.21735)
+- [From Seasonality to Semantics: Benchmarking a Hybrid Probabilistic Forecasting System for Roadblocks in Bolivia](https://arxiv.org/abs/2607.21785)
+- [QLPO: Quadrant-weighted Sampling for Length-aware Policy Optimization](https://arxiv.org/abs/2607.21793)
+- [DAGForge: Auditable Causal DAG Authoring with Biomedical Literature](https://arxiv.org/abs/2607.21859)
+- [When Is a Learned Command Adapter Worth It? Closed-Loop Identification and Counterfactual Auditing of Frozen Locomotion Policies](https://arxiv.org/abs/2607.21867)
+- [Multi-Agent System-driven Digital Twins for predictive maintenance: architectures, technologies and open research challenges](https://arxiv.org/abs/2607.21873)
+- [TRACE-RealWorld: An Auditable Consistency Contract for World Models as Materialized Views](https://arxiv.org/abs/2607.21910)
+- [Semiotic logical hexagon theory for LLM logical reasoning](https://arxiv.org/abs/2607.21933)
+- [Learning on the Job: Continual Learning from Deployment Feedback for Frozen-Weights Agents](https://arxiv.org/abs/2607.22157)
+- [Dynamic Capability Scoping for Enterprise AI Agents: A Synthetic Dataset and Three-Source Permission Architecture](https://arxiv.org/abs/2607.22445)
+- [TRACE-ROUTER: Task-Consistent and Adaptive Online Routing for Agentic AI](https://arxiv.org/abs/2607.22465)
+- [The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents](https://arxiv.org/abs/2607.22520)
+- [Explainable Reinforcement Learning for assisting Air Traffic Controllers](https://arxiv.org/abs/2607.22525)
+- [Do emulated quantum circuits change what CNNs look at? Performance and explainability comparison in medical image classification](https://arxiv.org/abs/2607.21186)
+- [Control panels to clarify user intent with Large Language Models](https://arxiv.org/abs/2607.21598)
+- [Decoupled Attention Fusion: Accelerating RAG with Efficient KV Cache Reuse](https://arxiv.org/abs/2607.21599)
+
+#### Education and Learning
+- [From Frame-Level Recognition to Event-Level Confirmation: Repair Traces and Runtime Failure Analysis of Public-Space Gesture Interaction](https://arxiv.org/abs/2607.21601)
+- [Household Movement Detection in Mixed-Format Occupancy Data Using LLM-Based Entity Resolution](https://arxiv.org/abs/2607.21614)
+- [Math Education Digital Shadows for Investigating Learning with GenAI: Mathematics Performance, Anxiety, and Confidence in LLMs](https://arxiv.org/abs/2604.27618)
+- [Beyond Text-to-SQL: Can LLMs Really Debug Enterprise ETL SQL?](https://arxiv.org/abs/2601.18119)
+
+#### Miscellaneous
+- [How I Reproduced BM25, Dense Retrieval, and SPLADE on a 16GB MacBook](https://towardsdatascience.com/how-i-reproduced-bm25-dense-retrieval-and-splade-on-a-16gb-macbook/)
+- [How to Efficiently Prompt Claude Code](https://towardsdatascience.com/how-to-efficiently-prompt-claude-code/)
+- [How to Give an LLM Agent a Browser](https://towardsdatascience.com/giving-an-llm-agent-a-browser/)
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+The recent papers and articles reflect a growing trend in the intersection of AI, security, and ethical considerations, particularly in the context of large language models (LLMs) and their applications. Here are key themes and insights derived from the analysis:
+
+1. **Security and Trustworthiness of AI Systems**:
+   - **ToolGuardian** proposes a framework for securing agent-tool interactions through pre-admission vetting and task-aware runtime authorization, emphasizing the need for a structured approach to ensure safety in AI systems that interact with external tools.
+   - **Agentic AI for Bilevel Long-Term Optimization** discusses the importance of adaptive policies in autonomous systems, highlighting the need for robust security measures in dynamic environments.
+
+2. **Evaluation of AI Models**:
+   - **WHBench** focuses on evaluating LLMs in the context of women's health, emphasizing the necessity of expert oversight in clinical applications to ensure safety and accuracy.
+   - **DFAH-Bench** introduces a benchmark for evaluating the stability of autonomous agents, revealing that traditional evaluation methods may overlook critical aspects of agent behavior.
+
+3. **Ethical Considerations and Bias**:
+   - **Directional Hallucinations** explores the ideological biases present in LLM outputs, particularly in politically charged contexts, raising concerns about the ethical implications of deploying such models in sensitive areas.
+   - **When Ethics and Payoffs Diverge** examines how LLMs behave in morally charged social dilemmas, revealing that models may not consistently align with ethical standards when faced with conflicting incentives.
+
+4. **Robustness and Adaptability**:
+   - **Economic Denial Security (EDS)** proposes a framework that focuses on making attacks economically unfeasible rather than relying solely on detection, which is particularly relevant for IoT and edge environments.
+   - **Adaptive Reward Prediction** and **Self-Guided Process Reward Optimization** highlight the importance of adaptive mechanisms in reinforcement learning to enhance the reliability and efficiency of AI systems.
+
+5. **Data Privacy and Compliance**:
+   - **A Robust Pipeline for Differentially Private Federated Learning** addresses the challenges of maintaining privacy while ensuring model performance on imbalanced clinical data, emphasizing the need for effective data management strategies.
+   - **Benchmarking Text-to-SQL under Role-Based Access Control** discusses the implications of access control on the performance of LLMs, highlighting the importance of compliance in AI applications.
+
+6. **Innovative Approaches to AI Development**:
+   - **NexForge** presents a framework for synthesizing executable tasks for LLMs based on high-level requirements, demonstrating a shift towards more adaptable and scalable AI systems.
+   - **CrypTorch** introduces a modular compiler framework for MPC-based ML, emphasizing the need for transparency and optimization in AI model training.
+
+### Trends and Insights
+
+- **Integration of Ethical and Security Frameworks**: There is a clear trend towards integrating ethical considerations and security frameworks into the development and deployment of AI systems. This includes the need for transparency, accountability, and the ability to audit AI decisions.
+  
+- **Focus on Robustness and Adaptability**: Many papers emphasize the importance of robustness in AI systems, particularly in dynamic environments where traditional models may fail. Adaptive mechanisms are increasingly seen as essential for maintaining performance and reliability.
+
+- **Need for Comprehensive Evaluation Metrics**: The introduction of new benchmarks and evaluation frameworks indicates a growing recognition of the need for comprehensive metrics that go beyond traditional accuracy measures to include aspects like stability, ethical alignment, and compliance with regulations.
+
+- **Addressing Bias and Ideological Drift**: The exploration of biases in LLM outputs and the implications for deployment in sensitive areas reflects a critical awareness of the ethical challenges posed by AI technologies.
+
+- **Innovative Solutions for Data Privacy**: The focus on federated learning and differential privacy highlights the ongoing efforts to balance data privacy with the need for effective AI model training, particularly in healthcare and sensitive applications.
+
+### Conclusion
+
+The landscape of AI research is increasingly focused on the intersection of security, ethics, and practical deployment challenges. As AI systems become more integrated into critical domains, the need for robust frameworks that ensure safety, transparency, and ethical alignment will continue to grow. The insights from these papers and articles underscore the importance of addressing these challenges through innovative approaches and comprehensive evaluation strategies.
