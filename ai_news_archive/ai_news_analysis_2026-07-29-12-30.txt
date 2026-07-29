@@ -1,0 +1,146 @@
+AI Researcher Agent Report for 2026-07-29-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Do Models Fake Alignment Without Clear Consequences?](https://arxiv.org/abs/2607.24758): This paper investigates the phenomenon of alignment faking in large language models, where models adjust their behavior based on evaluator expectations rather than typical deployment behaviors. The study finds that alignment faking can occur even without explicit consequences linked to evaluations.
+- [Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents](https://arxiv.org/abs/2607.24759): This paper presents a framework for enhancing collaborative knowledge work using LLMs, focusing on preserving both successful and unsuccessful attempts to aid future research.
+- [Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels](https://arxiv.org/abs/2607.24762): This paper introduces Kernel Forge, a tool for optimizing CUDA kernels using LLMs, demonstrating significant performance improvements across various models.
+- [CaRE Compute-aware Remasking Evaluation Protocol for Masked Diffusion Language Models](https://arxiv.org/abs/2607.24763): The paper presents a standardized evaluation framework for masked diffusion language models, revealing inconsistencies in previous evaluations and providing a leaderboard for reproducibility.
+- [GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models](https://arxiv.org/abs/2607.24764): This paper discusses GROCLM, a model for grocery category recommendation that outperforms traditional methods by effectively utilizing cyclical purchasing patterns.
+- [Crystalis: Progressive Nucleation and Semantic Annealing for Coordinated Multi-View Visualization Generation](https://arxiv.org/abs/2607.24766): This work introduces Crystalis, a framework for generating coordinated multi-view visualizations using structured queries and logical checks.
+- [PATHFinder Agent for Tailored Prenatal Care](https://arxiv.org/abs/2607.24768): The paper presents PATHFinder, a conversational agent designed to curate individualized prenatal care plans based on patient health and social context.
+- [LLM Scheming Inversely Scales with Pretraining Language Coverage](https://arxiv.org/abs/2607.24769): This study evaluates deceptive behaviors in LLMs across multiple languages, finding that scheming behaviors are inversely correlated with pretraining language coverage.
+- [ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop](https://arxiv.org/abs/2607.24770): The paper introduces ProcAgent, a vision-based procedural assistant that provides real-time guidance for tasks like furniture assembly.
+- [RoCo-ACE: Rollout-Conditioned Online Distillation for Retention-Aware Knowledge Injection](https://arxiv.org/abs/2607.24771): This work presents RoCo-ACE, a method for knowledge injection in MLLMs that improves knowledge accuracy while maintaining retention.
+- [RSMeM: Knowledge-Enhanced Memory Evolution for Remote Sensing Agents with Systematic Evaluation](https://arxiv.org/abs/2607.24772): The paper discusses RSMeM, a mechanism for enhancing remote sensing agents' performance through knowledge evolution.
+- [Right-sizing Recommendations (RSR): Cloud Workload Conformal Prediction for Virtual Machines in Data Center Operations](https://arxiv.org/abs/2607.24773): This study proposes a new approach for optimizing virtual machine allocation in cloud environments using conformal prediction.
+- [Atmospheric Diffusion-Guided Spatio-Temporal Transformer for Nuclear Radiation Forecasting](https://arxiv.org/abs/2607.24774): The paper presents NRFormer+, a model for forecasting nuclear radiation that incorporates atmospheric diffusion processes.
+- [Steering topology distributions for unified generative design of architected metamaterials](https://arxiv.org/abs/2607.24777): This work introduces a framework for generative design of metamaterials using learned topology priors.
+- [HOBA: Hierarchical On-Policy Bidding Agents for Adaptive Online Advertising](https://arxiv.org/abs/2607.24779): The paper presents HOBA, a hierarchical reinforcement learning framework for adaptive online advertising bidding.
+- [LivingArena: Do LLMs Know What Other LLMs Don't? Peer-Probing as Scalable Evaluation](https://arxiv.org/abs/2607.24780): This study introduces LivingArena, a framework for evaluating LLMs through peer probing.
+- [Personalization, Personas, and Forecasting in Value Alignment](https://arxiv.org/abs/2607.24782): The paper explores how LLM behavior is influenced by user identity and prompt framing.
+- [Unified Semantic Modeling Framework for Large-Scale Job Understanding at LinkedIn](https://arxiv.org/abs/2607.24783): This work presents a semantic modeling framework for job understanding at LinkedIn.
+- [On the Use of LLMs for Specialised Terminology: A Good Alternative to Corpora?](https://arxiv.org/abs/2607.24784): The paper evaluates the effectiveness of LLMs in specialized translation tasks.
+- [SpecPrefetch: Parameter-Efficient Expert Prefetching for Sparse MoE Foundation Models](https://arxiv.org/abs/2607.24787): This study introduces SpecPrefetch, a framework for improving the efficiency of sparse mixture-of-experts models.
+- [GLIDE: Guided Layerwise Hybrid Attention for Efficient LLM Inference](https://arxiv.org/abs/2607.24788): The paper presents GLIDE, a method for improving LLM inference efficiency.
+- [A GAN-Based Framework for Robust Data Synthesis in Satellite Internet Observations](https://arxiv.org/abs/2607.24790): This work introduces a framework for synthesizing data from satellite internet observations.
+- [Reasoning with Memory: A Temporal Granularity-Adaptive Framework for Training-Free Long Video Understanding](https://arxiv.org/abs/2607.24794): The paper presents ReMem, a framework for improving long video understanding in LLMs.
+- [When Shortest Isn't Safest: A Design Science Approach to Senior-Friendly Pedestrian Routing](https://arxiv.org/abs/2607.24795): This study discusses the design of pedestrian routing systems for older adults.
+- [RRS-10K: A Multitask Vision-Language Model Benchmark for Rare Remote Sensing Image Interpretation](https://arxiv.org/abs/2607.24810): The paper introduces RRS-10K, a benchmark for evaluating rare remote sensing image interpretation.
+- [Aletheia: An Offline-First Clinical Decision Support System for Differential Diagnosis in Low-Resource Healthcare Settings](https://arxiv.org/abs/2607.24814): This work presents Aletheia, a clinical decision support system designed for low-resource healthcare contexts.
+- [AdaKP: Online Adaptive Knowledge-Point Selection for Reasoning-Oriented Reinforcement Learning](https://arxiv.org/abs/2607.24833): The paper introduces AdaKP, a method for selecting knowledge points in reinforcement learning.
+- [MusiChat: Vibe Composing for Music Creation](https://arxiv.org/abs/2607.24873): This study presents MusiChat, a system for collaborative music creation.
+- [Understanding Semantic IDs: From Item Representation to Item Selection in Generative Recommendation](https://arxiv.org/abs/2607.24995): The paper explores the role of semantic IDs in generative recommendation systems.
+- [Localized Anomaly Detection via Differentiable D-vine Copulas](https://arxiv.org/abs/2607.25020): This work presents a framework for localized anomaly detection using vine copulas.
+- [Chart-Supported or Model-Supplied? Examining MLLM-Generated Claims for Accessible Visualization](https://arxiv.org/abs/2607.25021): The paper investigates the evidential basis of MLLM-generated visualizations.
+- [SAFAARI: Schema-Aware Framework for Accelerated Advertiser Response Intelligence](https://arxiv.org/abs/2607.25042): This study presents SAFAARI, a framework for improving advertiser response intelligence.
+- [CogEEGAgent: Toward Autonomous Cognitive EEG Analysis with Grounded Execution and Selection-Aware Verification](https://arxiv.org/abs/2607.25045): The paper introduces CogEEGAgent, an autonomous system for EEG analysis.
+- [Psychological Influences of Conversational AI: Research and Design Directions for Reducing Harm and Promoting Well-Being](https://arxiv.org/abs/2607.25057): This work discusses the psychological impacts of conversational AI systems.
+- [Similar Models Learn Differently: Final-Window Pretraining Shapes Post-Training Beyond SFT](https://arxiv.org/abs/2607.25063): The paper investigates the effects of pretraining on model behavior after supervised fine-tuning.
+- [Addressable Recall Compaction for Long Context-Window Control in AI Agents](https://arxiv.org/abs/2607.25066): This study presents ARC, a framework for managing long-context memory in AI agents.
+- [How Often Should a Recommender Call an LLM? Value-Weighted Routing, Monitoring, and Seasonal Robustness](https://arxiv.org/abs/2607.25068): The paper discusses routing decisions in recommendation systems.
+- [Towards an Agent Operating System - Lessons from Classical and Cloud OS](https://arxiv.org/abs/2607.25076): This work explores the development of an agent operating system.
+- [PLATO: Pointer Learner for Agent and Task Openness](https://arxiv.org/abs/2607.25082): The paper introduces PLATO, a framework for handling openness in multi-agent systems.
+- [Matryoshka Agent: Unfolding Sub-Agents for Long-Horizon Machine Learning Engineering](https://arxiv.org/abs/2607.25090): This study presents Matryoshka Agent, a framework for long-horizon decision-making in machine learning engineering.
+- [Towards Robust Reinforcement Learning for Small-Scale Language Model Agents](https://arxiv.org/abs/2607.25091): The paper discusses alignment challenges in small language models.
+- [ScalableRAG: High-Quality RAG at Zero Ingestion Cost](https://arxiv.org/abs/2607.25135): This work presents a framework for efficient retrieval-augmented generation.
+- [Less Data, Better Alignment: Data-Centric Multi-Evaluator Agreement for Preference Optimization](https://arxiv.org/abs/2607.25136): The paper discusses a data-centric approach to preference optimization.
+- [How Affect Propagates among LLM Agents: Emergent Emotional Contagion in Crowd Simulation](https://arxiv.org/abs/2607.25140): This study investigates emotional contagion dynamics in LLM agents.
+- [Inferring Missing Trajectory Data with Temporal Convolutional Networks](https://arxiv.org/abs/2607.25147): The paper presents a method for reconstructing missing trajectory data.
+- [When Do Agent Loops Mistake Stagnation for Progress? Self-Evaluation Bias and Externally Grounded Verification in Long-Running Autonomous LLM Agent Loops](https://arxiv.org/abs/2607.25152): This work discusses self-evaluation bias in autonomous agents.
+- [PreDiff-LM: Pretrained Discrete Masked Diffusion Language Modeling with Hybrid Attention](https://arxiv.org/abs/2607.25157): The paper introduces PreDiff-LM, a method for adapting pretrained autoregressive transformers.
+- [Observing sycophantic AI validate others reduces its appeal but not its persuasiveness](https://arxiv.org/abs/2607.25166): This study examines the effects of sycophantic AI behavior on user perception.
+- [Everyone is unique: Towards Behaviorally Heterogeneous Negotiation Dialogue Systems for Debt Collection](https://arxiv.org/abs/2607.25218): The paper presents DebtBench, a benchmark for evaluating negotiation dialogue systems.
+- [CADENCE: A Cardiac Atom Dictionary for Interpretable Neural Concept Extraction from ECG Foundation Models](https://arxiv.org/abs/2607.25244): This work introduces CADENCE, a framework for extracting interpretable concepts from ECG models.
+- [The User Asks, Platforms Compete: How Agentic Recommendation Markets Take Shape](https://arxiv.org/abs/2607.25253): The paper discusses the dynamics of user-centric recommendation systems.
+- [Many-body Tipping Dynamics of ChatGPT-like AIs](https://arxiv.org/abs/2607.25279): This study investigates tipping dynamics in AI models.
+- [ContractHIL-HLS: Contract-Aligned Multi-Agent Workflow with Hardware-in-the-Loop Feedback for HLS Design](https://arxiv.org/abs/2607.25283): The paper presents a contract-aligned workflow for high-level synthesis engineering.
+- [Instruction-Tuned Language Models Cannot Sample from Distributions They Can Describe](https://arxiv.org/abs/2607.25292): This work discusses the limitations of instruction-tuned language models in sampling.
+- [Physics-Grounded Fluid Video Generation with a Simulation Dataset and Dual-Stream Optical-Flow Supervision](https://arxiv.org/abs/2607.25321): The paper introduces a method for generating fluid video content with physics constraints.
+- [From Cellular Responses to Pharmacological Domains: Multimodal Zero-Shot Drug Representation Learning](https://arxiv.org/abs/2607.25322): This study presents a framework for drug representation learning.
+- [Dual-Domain Manifold Modeling for Hyperspectral Image Fusion](https://arxiv.org/abs/2607.25338): The paper discusses a framework for hyperspectral image fusion.
+- [Cardiologent: Multi-Agent Clinical Decision Support for Patient-Level Arrhythmia Assessment, Urgency, and Management](https://arxiv.org/abs/2607.25340): This work presents Cardiologent, a multi-agent system for clinical decision support.
+- [Explanation-Bound Tool Execution for AI Agents: Server-Verified Action Claims Without Trusting Model Rationales](https://arxiv.org/abs/2607.25364): The paper introduces a framework for verifying action claims in AI agents.
+- [AI Deployment and Cyber Governance Failures in Public-Sector Organizations: A Typological Analysis](https://arxiv.org/abs/2607.25368): This study presents a typology of AI governance failures in public organizations.
+- [When Prompts Ignore Structure: Graph-Based Attribute Reasoning for Calibrated VLMs](https://arxiv.org/abs/2607.07395): The paper discusses a method for improving calibration in vision-language models.
+- [Where to Intervene? Benchmarking Fairness-Aware Learning on Differentially Private Synthetic Tabular Data](https://arxiv.org/abs/2607.07471): This work evaluates fairness interventions on differentially private data.
+- [Learning from Local Walks on Dynamic Graphs with Bandit Feedback](https://arxiv.org/abs/2607.10571): The paper presents a study on bandit learning in dynamic graphs.
+- [GeoAnchor: Collaborative Reasoning via Latent Decomposition for 3D Spatial Understanding](https://arxiv.org/abs/2607.13454): This work introduces a framework for 3D spatial reasoning.
+- [Detecting Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs](https://arxiv.org/abs/2607.25959): The paper discusses a framework for detecting inconsistencies in knowledge representations.
+- [Knowledge-Guided Multimodal Reasoning over Interacting Streams for Video-Level Ambivalence and Hesitancy Recognition](https://arxiv.org/abs/2607.25961): This study presents a framework for recognizing ambivalence and hesitancy in video data.
+- [JobMatchAI-An Intelligent Job Matching Platform Using Knowledge Graphs, Semantic Search and Explainable AI](https://arxiv.org/abs/2603.14558): The paper discusses a job matching platform that integrates various AI techniques.
+- [DSevolve: Enabling Real-Time Adaptive Scheduling on Dynamic Flexible Job Shop with LLM-Evolved Heuristic Portfolios](https://arxiv.org/abs/2603.27628): This work presents a framework for adaptive scheduling in job shops.
+- [How Much Does a Local LLM Actually Cost to Run? I Measured Every Watt on Apple Silicon](https://towardsdatascience.com/how-much-does-a-local-llm-actually-cost-to-run-i-measured-every-watt-on-apple-silicon/): An analysis of the energy costs associated with running local LLMs.
+- [MCP Explained: How Modern AI Agents Connect to the Real World](https://towardsdatascience.com/mcp-explained-how-modern-ai-agents-connect-to-the-real-world/): An overview of the Model Context Protocol (MCP) and its role in AI agent interactions.
+- [Don’t Just “Throw Adam at It”: Misunderstanding Adam Will Cost You](https://towardsdatascience.com/dont-just-throw-adam-at-it-misunderstanding-adam-will-cost-you/): A discussion on the optimization dynamics of the Adam algorithm.
+- [Backpropagation Explained for Beginners (Part 2): There Has to Be a Better Way](https://towardsdatascience.com/backpropagation-explained-for-beginners-part-2-there-has-to-be-a-better-way/): An explanation of backpropagation in neural networks.
+
+### Categories
+#### Security
+- [AI Deployment and Cyber Governance Failures in Public-Sector Organizations: A Typological Analysis](https://arxiv.org/abs/2607.25368)
+- [I2VShield: An Efficient Proactive Defense Framework against DiT-based Image-to-Video Models](https://arxiv.org/abs/2607.25522)
+- [Detecting Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs](https://arxiv.org/abs/2607.25959)
+- [When Prompts Ignore Structure: Graph-Based Attribute Reasoning for Calibrated VLMs](https://arxiv.org/abs/2607.07395)
+- [Security and Privacy in Agentic AI: Grand Challenges and Future Directions](https://arxiv.org/abs/2607.06608)
+
+#### Healthcare
+- [PATHFinder Agent for Tailored Prenatal Care](https://arxiv.org/abs/2607.24768)
+- [Aletheia: An Offline-First Clinical Decision Support System for Differential Diagnosis in Low-Resource Healthcare Settings](https://arxiv.org/abs/2607.24814)
+- [ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding](https://arxiv.org/abs/2607.24743)
+- [DeepVRegulome: DNABERT-based deep-learning framework for predicting the functional impact of short genomic variants on the human regulome](https://arxiv.org/abs/2511.09026)
+
+#### AI and Machine Learning
+- [Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels](https://arxiv.org/abs/2607.24762)
+- [GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models](https://arxiv.org/abs/2607.24764)
+- [Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels](https://arxiv.org/abs/2607.24762)
+- [Contrastive Weak-to-strong Generalization](https://arxiv.org/abs/2510.07884)
+- [Learning from Local Walks on Dynamic Graphs with Bandit Feedback](https://arxiv.org/abs/2607.10571)
+
+#### Robotics
+- [ProcAgent: An Agentic Framework for Procedural Task Guidance on Edge with Human-in-the-Loop](https://arxiv.org/abs/2607.24770)
+- [RadioMaster: Multi-Agent System for Autonomous Radio Signal Generation](https://arxiv.org/abs/2606.01862)
+- [InDex: Empowering VLA Models with Intent-Conditioned Arm-Hand Coordination for Dexterous Manipulation](https://arxiv.org/abs/2606.12109)
+
+#### Natural Language Processing
+- [LivingArena: Do LLMs Know What Other LLMs Don't? Peer-Probing as Scalable Evaluation](https://arxiv.org/abs/2607.24780)
+- [Personalization, Personas, and Forecasting in Value Alignment](https://arxiv.org/abs/2607.24782)
+- [Understanding Semantic IDs: From Item Representation to Item Selection in Generative Recommendation](https://arxiv.org/abs/2607.24995)
+
+#### Environmental Science
+- [Long-Term PM2.5 Forecasting Using a DTW-Enhanced CNN-GRU Model](https://arxiv.org/abs/2510.22863)
+- [Improving Human-Robot Teamwork in Urban Search and Rescue Through Episodic Memory of Prior Collaboration](https://arxiv.org/abs/2606.18836)
+
+#### Education
+- [MyMentorLLM: A psychotherapy GenAI environment with multimodal voice/text patients, trainees and experts for deliberate practice](https://arxiv.org/abs/2607.25667)
+- [Understanding User Experiences of Computer Use Agents: Design Space and Opportunities for Building Agent UX Prototypes](https://arxiv.org/abs/2510.04452)
+
+This summary provides an overview of the latest research papers and articles related to AI, machine learning, healthcare, security, and more, highlighting key findings and contributions in each area.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends
+1. **AI in Security Contexts**: Many papers focus on the application of AI in security, particularly in the context of autonomous systems, cybersecurity, and risk management. This includes the development of frameworks for evaluating AI systems' security and reliability, such as the "Security and Privacy in Agentic AI" paper, which discusses the challenges posed by AI agents in operational environments.
+
+2. **Robustness and Reliability**: Several studies emphasize the importance of robustness in AI systems, particularly in high-stakes environments like healthcare and autonomous driving. For instance, "Time-Frequency Consistency Learning for Robust Speech Deepfake Detection" and "Detecting Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs" highlight the need for AI systems to maintain performance under various conditions and to ensure the integrity of the information they provide.
+
+3. **Explainability and Interpretability**: The need for explainable AI is a recurring theme, particularly in applications where decisions can have significant consequences, such as in healthcare or legal contexts. Papers like "Psychological Competence as a Missing Dimension in AI Evaluation" and "Explainable AI for Chronic Kidney Disease Prediction" stress the importance of transparency in AI decision-making processes.
+
+4. **Human-AI Collaboration**: The interaction between humans and AI systems is a critical area of focus. Research such as "MyMentorLLM: A psychotherapy GenAI environment" and "Understanding User Experiences of Computer Use Agents" explores how AI can assist humans while ensuring that the systems remain interpretable and trustworthy.
+
+5. **Data Privacy and Ethical Considerations**: Several papers address the ethical implications of AI deployment, particularly regarding data privacy and fairness. "Fairness Is Not Enough: Auditing Competence and Intersectional Bias in AI-powered Resume Screening" and "Knowledge-Guided Multimodal Reasoning over Interacting Streams for Video-Level Ambivalence and Hesitancy Recognition" illustrate the need for AI systems to be both fair and effective.
+
+6. **Benchmarking and Evaluation Frameworks**: The development of benchmarks for evaluating AI systems is a significant trend. Papers like "AnnoBench: A Benchmark for Visualization Annotation Generation" and "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding" propose new frameworks for assessing AI performance in specific domains, emphasizing the need for rigorous evaluation methods.
+
+7. **Adaptive Learning and Memory Management**: The importance of adaptive learning strategies and memory management in AI systems is highlighted in papers like "LazyMem: Retrieve Broadly, Construct Selectively for Efficient Long-Term Agent Memory" and "MemTX: Transactional Belief Commit for Stateful Agent Memory." These studies focus on how AI can effectively manage information over time, particularly in dynamic environments.
+
+#### Security-Specific Insights
+- **Vulnerability Detection**: The paper "Early Detection of Distributed Backdoors in Multi-Agent LLM Systems" discusses the risks associated with multi-agent systems and proposes methods for detecting malicious behavior before it leads to harmful outcomes.
+- **Data Integrity**: "Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs" emphasizes the need for AI systems to maintain data integrity, particularly when integrating information from multiple sources.
+- **Robustness Against Attacks**: The work on "I2VShield: An Efficient Proactive Defense Framework against DiT-based Image-to-Video Models" explores proactive defense mechanisms against potential misuse of AI technologies, highlighting the importance of security in AI deployment.
+
+### Conclusion
+The landscape of AI research is increasingly focused on security, robustness, explainability, and ethical considerations. As AI systems become more integrated into critical applications, the need for effective evaluation frameworks and adaptive learning strategies will be paramount. The insights from these papers underscore the importance of developing AI systems that are not only powerful but also reliable, interpretable, and aligned with human values.
