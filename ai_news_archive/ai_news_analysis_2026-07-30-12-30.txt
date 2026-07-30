@@ -1,0 +1,398 @@
+AI Researcher Agent Report for 2026-07-30-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Probing the Origins of Reasoning Performance: Representational Quality for Mathematical Problem-Solving in RL vs. SFT Fine-Tuned Models](https://arxiv.org/abs/2607.26119): This paper investigates the internal representational differences between reinforcement learning (RL) and supervised fine-tuned (SFT) models in mathematical reasoning tasks. It finds that RL models develop more structured representations and hierarchical architectures, leading to superior performance.
+- [Even More Deception: Objective Misalignment in Mixed-Motive LLM Multi-Agent Systems](https://arxiv.org/abs/2607.26120): This study explores the impact of objective misalignment in multi-agent systems powered by large language models (LLMs) and proposes a framework for evaluating misalignment using social deduction games.
+- [ClinLens: Towards Long-Horizon Coding Agents for Longitudinal Multimodal Clinical Data Science](https://arxiv.org/abs/2607.26155): The paper introduces CLINLENS, a benchmark for clinical data science agents that transforms heterogeneous longitudinal records into auditable analyses.
+- [When benchmark inferences do not compose: Projectibility in AI evaluation](https://arxiv.org/abs/2607.26159): This paper discusses the epistemic challenges in AI evaluation, particularly focusing on the validity of generalizing benchmark results to new cases.
+- [GuideSkill: Evolving Executable LLM Agent Skills for Guideline-Grounded Clinical Reasoning](https://arxiv.org/abs/2607.26160): This work presents GuideSkill, an external reasoning layer that enhances LLMs' ability to execute clinical practice guidelines.
+- [GoGoTB: Agentic RTL Verification with Specification-Grounded Coverage Closure](https://arxiv.org/abs/2607.26181): The paper introduces GoGoTB, a framework for automating functional verification of integrated circuits using LLMs.
+- [Position: Evaluation Scores Are Perishable Knowledge Claims](https://arxiv.org/abs/2607.26191): This paper argues that evaluation scores for language models should be treated as knowledge claims with properties of formality, scope, and validity windows.
+- [TraceCoder: Explainable and Auditable Code Generation with Position-Key Snippet Versioning](https://arxiv.org/abs/2607.26307): This work presents TraceCoder, a system for generating code that allows for auditing and tracking of code changes.
+- [Exploring Structures in Physics Problems: Can AI Agents Discover Statistical Mechanical Mappings?](https://arxiv.org/abs/2607.26367): The study evaluates whether AI agents can discover mappings in statistical mechanics problems.
+- [CaM-Wolf: Causal-Aware Multimodal Agents for Social Deduction Games](https://arxiv.org/abs/2607.26393): This paper introduces CaM-Wolf, a multimodal agent designed for social deduction games that integrates video inputs and causal reasoning.
+- [CG-World: A Large-Scale World-State Dataset and Protocol for World Models](https://arxiv.org/abs/2607.26452): The paper presents CG-World, a dataset for training world models that captures the dynamics of states, actions, and observations.
+- [MultivationBench: A Benchmark for Multimodal Sequential Motivation Reasoning](https://arxiv.org/abs/2607.26465): This work introduces a benchmark for evaluating multimodal motivation reasoning in visual narratives.
+- [EvoPINN: Agentic Discovery of Executable Algorithms for Physics-Informed Neural Networks](https://arxiv.org/abs/2607.26490): The paper presents EvoPINN, a framework for discovering algorithms for physics-informed neural networks.
+- [Evidence-Ledger Adjudication for Claim-Evidence Traceability](https://arxiv.org/abs/2607.26512): This study proposes a workflow for tracing claims to evidence in AI-generated content.
+- [Eco3S: Complex Socio-Economic System Simulation via Agent-Based Models](https://arxiv.org/abs/2607.26588): The paper introduces Eco3S, a framework for simulating socio-economic systems.
+- [Fewer Clarifications, Better Code: Benchmarking Cross-Session Personalized Ambiguity Adaptation in Coding Assistants](https://arxiv.org/abs/2607.26611): This work benchmarks a new task for coding assistants that adapts to user-specific ambiguities.
+- [AlphaSchema: Exploring the Space of Trading Semantics for LLM-Based Alpha Mining](https://arxiv.org/abs/2607.26642): The paper presents AlphaSchema, a structured approach for alpha mining in finance using LLMs.
+- [Rethinking Self-Evolution: A Constrained Exploration-Exploitation Process for Mitigating Skill Overfitting](https://arxiv.org/abs/2607.26643): This study proposes SkillBoost, a framework for optimizing skills in LLM agents.
+- [AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution](https://arxiv.org/abs/2607.26661): The paper introduces AgenticCANN, a framework for generating optimized Ascend C operators.
+- [UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks](https://arxiv.org/abs/2607.26724): This work presents UrbanDS, a multi-agent system for urban data tasks.
+- [Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM](https://arxiv.org/abs/2607.26773): The study introduces a causal audit to evaluate latent communication in multi-agent systems.
+- [Property-driven Causal Abstractions for Markov Decision Processes](https://arxiv.org/abs/2607.26787): This paper presents a new abstraction technique for Markov Decision Processes.
+- [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903): The work introduces a framework for translating human demonstrations into robot-learnable data.
+- [What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation](https://arxiv.org/abs/2607.26935): This study presents a framework for detecting AI agents in web traffic.
+- [Belief-Guided Decision Making with Uncertainty Gating in the Game of Go](https://arxiv.org/abs/2607.26946): The paper introduces a new architecture for decision-making in Go.
+- [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](https://arxiv.org/abs/2607.27056): This work presents a benchmark for evaluating personalized agents.
+- [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081): The paper proposes a new framework for aligning LLMs.
+- [AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching](https://arxiv.org/abs/2607.27130): This study presents a new framework for ontology matching.
+- [Linguistic Monoculture in LLM-Assisted Language Use](https://arxiv.org/abs/2607.27134): The paper discusses the impact of LLMs on linguistic diversity.
+- [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](https://arxiv.org/abs/2607.27155): This work introduces a benchmark for evaluating LLM agents in office tasks.
+- [Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork](https://arxiv.org/abs/2607.27177): The paper presents a method for estimating partner capabilities in teamwork.
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191): This study evaluates the capabilities of AI agents in conducting research.
+- [A Methodology for Designing Knowledge-Driven Missions for Robots](https://arxiv.org/abs/2601.20797): The paper presents a methodology for implementing knowledge graphs in robotic systems.
+- [Predict before you train: Scaling Laws for particle physics foundation models](https://arxiv.org/abs/2607.23377): This work discusses scaling laws for machine learning models in particle physics.
+- [Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to Released Artifact](https://arxiv.org/abs/2607.25589): The paper presents a reproducibility audit of a radiology model benchmark.
+- [Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning](https://arxiv.org/abs/2607.26059): This study discusses sparsity in CNNs used for reinforcement learning.
+- [Large-Scale ChatBot Validation Through Customer Digital Twin Simulations](https://arxiv.org/abs/2607.26060): The paper presents a methodology for validating chatbots.
+- [Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football](https://arxiv.org/abs/2607.26061): This work introduces a tactical recommendation framework for football.
+- [Identifying Implicit Bias in LLM-based Chat AI Toward People with Intellectual Disabilities](https://arxiv.org/abs/2607.26062): The study investigates bias in AI chat models.
+- [Archetypes or ability? Clustering for modelling student mathematical competence](https://arxiv.org/abs/2607.26063): This paper explores clustering methods for student performance.
+- [The Age of AI Agents Demands A New Scientific Paradigm To Sustain Trustworthy Science](https://arxiv.org/abs/2607.26064): The paper discusses the need for a new verification infrastructure in science.
+- [Do Methods Support the Claims? Intra-Paper Verification for Peer Review](https://arxiv.org/abs/2607.26066): This work introduces a framework for verifying claims in research papers.
+- [The Easy Trap: Why LLMs Underestimate Misconception-Driven Difficulty](https://arxiv.org/abs/2607.26067): The study investigates LLMs' ability to estimate item difficulty.
+- [The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem](https://arxiv.org/abs/2607.26068): The paper introduces a new metric for evaluating AI governance.
+- [AI Security Priorities: A Field-Wide Agenda](https://arxiv.org/abs/2607.26069): This work presents a prioritized agenda for advancing AI security.
+- [SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search](https://arxiv.org/abs/2607.26070): The paper introduces a new environment for evaluating agentic search systems.
+- [GuidedRAG: Semantic Steering of Retrieval-Augmented Generation](https://arxiv.org/abs/2607.26071): This work presents a new approach to improve retrieval-augmented generation.
+- [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072): The paper introduces a benchmark for evaluating memory in LLM agents.
+- [IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations](https://arxiv.org/abs/2607.26075): This work presents an autonomous agent for optimizing document processing.
+- [FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents](https://arxiv.org/abs/2607.26076): The paper discusses a new approach for RAG serving.
+- [Optimizing Sensor Placement for Hydrogen Leak Detection in Enclosed Infrastructure: A Comparative Study Using CFD-informed Genetic Algorithm and DeepSets Neural Surrogate](https://arxiv.org/abs/2607.26078): This study presents a framework for optimizing sensor placement.
+- [A Reference-Free Score for Detecting Silent Reasoning Failures in Large Language Models](https://arxiv.org/abs/2607.26102): The paper introduces a new score for evaluating reasoning in LLMs.
+- [Weight and Height Estimation from a Single Human Image Captured in the Wild](https://arxiv.org/abs/2607.26104): This work explores estimating physical characteristics from images.
+- [TraceCLIP: Recovering Local Semantics from Patch-to-CLS Contributions](https://arxiv.org/abs/2607.26107): The paper presents a new method for recovering semantics in vision-language tasks.
+- [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115): This study introduces a new red-teaming agent for evaluating LLMs.
+- [Searching for Robust Augmentations to Improve Out-of-Domain Generalization in Dermoscopic Skin Cancer Classification](https://arxiv.org/abs/2607.26765): The paper discusses improving robustness in skin cancer classification.
+- [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410): This work presents a new approach for speech recognition.
+- [SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution](https://arxiv.org/abs/2607.26784): The paper introduces a framework for skill evolution in LLM agents.
+- [AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution](https://arxiv.org/abs/2607.26661): This work presents a framework for generating optimized Ascend C operators.
+- [UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks](https://arxiv.org/abs/2607.26724): The paper introduces a multi-agent system for urban data tasks.
+- [Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM](https://arxiv.org/abs/2607.26773): The study introduces a causal audit to evaluate latent communication in multi-agent systems.
+- [Property-driven Causal Abstractions for Markov Decision Processes](https://arxiv.org/abs/2607.26787): This paper presents a new abstraction technique for Markov Decision Processes.
+- [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903): The work introduces a framework for translating human demonstrations into robot-learnable data.
+- [What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation](https://arxiv.org/abs/2607.26935): This study presents a framework for detecting AI agents in web traffic.
+- [Belief-Guided Decision Making with Uncertainty Gating in the Game of Go](https://arxiv.org/abs/2607.26946): The paper introduces a new architecture for decision-making in Go.
+- [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](https://arxiv.org/abs/2607.27056): This work presents a benchmark for evaluating personalized agents.
+- [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081): The paper proposes a new framework for aligning LLMs.
+- [AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching](https://arxiv.org/abs/2607.27130): This study presents a new framework for ontology matching.
+- [Linguistic Monoculture in LLM-Assisted Language Use](https://arxiv.org/abs/2607.27134): The paper discusses the impact of LLMs on linguistic diversity.
+- [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](https://arxiv.org/abs/2607.27155): This work introduces a benchmark for evaluating LLM agents in office tasks.
+- [Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork](https://arxiv.org/abs/2607.27177): The paper presents a method for estimating partner capabilities in teamwork.
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191): This study evaluates the capabilities of AI agents in conducting research.
+- [A Methodology for Designing Knowledge-Driven Missions for Robots](https://arxiv.org/abs/2601.20797): The paper presents a methodology for implementing knowledge graphs in robotic systems.
+- [Predict before you train: Scaling Laws for particle physics foundation models](https://arxiv.org/abs/2607.23377): This work discusses scaling laws for machine learning models in particle physics.
+- [Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to Released Artifact](https://arxiv.org/abs/2607.25589): The paper presents a reproducibility audit of a radiology model benchmark.
+- [Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning](https://arxiv.org/abs/2607.26059): This study discusses sparsity in CNNs used for reinforcement learning.
+- [Large-Scale ChatBot Validation Through Customer Digital Twin Simulations](https://arxiv.org/abs/2607.26060): The paper presents a methodology for validating chatbots.
+- [Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football](https://arxiv.org/abs/2607.26061): This work introduces a tactical recommendation framework for football.
+- [Identifying Implicit Bias in LLM-based Chat AI Toward People with Intellectual Disabilities](https://arxiv.org/abs/2607.26062): The study investigates bias in AI chat models.
+- [Archetypes or ability? Clustering for modelling student mathematical competence](https://arxiv.org/abs/2607.26063): This paper explores clustering methods for student performance.
+- [The Age of AI Agents Demands A New Scientific Paradigm To Sustain Trustworthy Science](https://arxiv.org/abs/2607.26064): The paper discusses the need for a new verification infrastructure in science.
+- [Do Methods Support the Claims? Intra-Paper Verification for Peer Review](https://arxiv.org/abs/2607.26066): This work introduces a framework for verifying claims in research papers.
+- [The Easy Trap: Why LLMs Underestimate Misconception-Driven Difficulty](https://arxiv.org/abs/2607.26067): The study investigates LLMs' ability to estimate item difficulty.
+- [The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem](https://arxiv.org/abs/2607.26068): The paper introduces a new metric for evaluating AI governance.
+- [AI Security Priorities: A Field-Wide Agenda](https://arxiv.org/abs/2607.26069): This work presents a prioritized agenda for advancing AI security.
+- [SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search](https://arxiv.org/abs/2607.26070): The paper introduces a new environment for evaluating agentic search systems.
+- [GuidedRAG: Semantic Steering of Retrieval-Augmented Generation](https://arxiv.org/abs/2607.26071): This work presents a new approach to improve retrieval-augmented generation.
+- [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072): The paper introduces a benchmark for evaluating memory in LLM agents.
+- [IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations](https://arxiv.org/abs/2607.26075): This work presents an autonomous agent for optimizing document processing.
+- [FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents](https://arxiv.org/abs/2607.26076): The paper discusses a new approach for RAG serving.
+- [Optimizing Sensor Placement for Hydrogen Leak Detection in Enclosed Infrastructure: A Comparative Study Using CFD-informed Genetic Algorithm and DeepSets Neural Surrogate](https://arxiv.org/abs/2607.26078): This study presents a framework for optimizing sensor placement.
+- [A Reference-Free Score for Detecting Silent Reasoning Failures in Large Language Models](https://arxiv.org/abs/2607.26102): The paper introduces a new score for evaluating reasoning in LLMs.
+- [Weight and Height Estimation from a Single Human Image Captured in the Wild](https://arxiv.org/abs/2607.26104): This work explores estimating physical characteristics from images.
+- [TraceCLIP: Recovering Local Semantics from Patch-to-CLS Contributions](https://arxiv.org/abs/2607.26107): The paper presents a new method for recovering semantics in vision-language tasks.
+- [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115): This study introduces a new red-teaming agent for evaluating LLMs.
+- [Searching for Robust Augmentations to Improve Out-of-Domain Generalization in Dermoscopic Skin Cancer Classification](https://arxiv.org/abs/2607.26765): The paper discusses improving robustness in skin cancer classification.
+- [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410): This work presents a new approach for speech recognition.
+- [SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution](https://arxiv.org/abs/2607.26784): The paper introduces a framework for skill evolution in LLM agents.
+- [AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution](https://arxiv.org/abs/2607.26661): This work presents a framework for generating optimized Ascend C operators.
+- [UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks](https://arxiv.org/abs/2607.26724): The paper introduces a multi-agent system for urban data tasks.
+- [Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM](https://arxiv.org/abs/2607.26773): The study introduces a causal audit to evaluate latent communication in multi-agent systems.
+- [Property-driven Causal Abstractions for Markov Decision Processes](https://arxiv.org/abs/2607.26787): This paper presents a new abstraction technique for Markov Decision Processes.
+- [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903): The work introduces a framework for translating human demonstrations into robot-learnable data.
+- [What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation](https://arxiv.org/abs/2607.26935): This study presents a framework for detecting AI agents in web traffic.
+- [Belief-Guided Decision Making with Uncertainty Gating in the Game of Go](https://arxiv.org/abs/2607.26946): The paper introduces a new architecture for decision-making in Go.
+- [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](https://arxiv.org/abs/2607.27056): This work presents a benchmark for evaluating personalized agents.
+- [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081): The paper proposes a new framework for aligning LLMs.
+- [AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching](https://arxiv.org/abs/2607.27130): This study presents a new framework for ontology matching.
+- [Linguistic Monoculture in LLM-Assisted Language Use](https://arxiv.org/abs/2607.27134): The paper discusses the impact of LLMs on linguistic diversity.
+- [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](https://arxiv.org/abs/2607.27155): This work introduces a benchmark for evaluating LLM agents in office tasks.
+- [Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork](https://arxiv.org/abs/2607.27177): The paper presents a method for estimating partner capabilities in teamwork.
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191): This study evaluates the capabilities of AI agents in conducting research.
+- [A Methodology for Designing Knowledge-Driven Missions for Robots](https://arxiv.org/abs/2601.20797): The paper presents a methodology for implementing knowledge graphs in robotic systems.
+- [Predict before you train: Scaling Laws for particle physics foundation models](https://arxiv.org/abs/2607.23377): This work discusses scaling laws for machine learning models in particle physics.
+- [Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to Released Artifact](https://arxiv.org/abs/2607.25589): The paper presents a reproducibility audit of a radiology model benchmark.
+- [Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning](https://arxiv.org/abs/2607.26059): This study discusses sparsity in CNNs used for reinforcement learning.
+- [Large-Scale ChatBot Validation Through Customer Digital Twin Simulations](https://arxiv.org/abs/2607.26060): The paper presents a methodology for validating chatbots.
+- [Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football](https://arxiv.org/abs/2607.26061): This work introduces a tactical recommendation framework for football.
+- [Identifying Implicit Bias in LLM-based Chat AI Toward People with Intellectual Disabilities](https://arxiv.org/abs/2607.26062): The study investigates bias in AI chat models.
+- [Archetypes or ability? Clustering for modelling student mathematical competence](https://arxiv.org/abs/2607.26063): This paper explores clustering methods for student performance.
+- [The Age of AI Agents Demands A New Scientific Paradigm To Sustain Trustworthy Science](https://arxiv.org/abs/2607.26064): The paper discusses the need for a new verification infrastructure in science.
+- [Do Methods Support the Claims? Intra-Paper Verification for Peer Review](https://arxiv.org/abs/2607.26066): This work introduces a framework for verifying claims in research papers.
+- [The Easy Trap: Why LLMs Underestimate Misconception-Driven Difficulty](https://arxiv.org/abs/2607.26067): The study investigates LLMs' ability to estimate item difficulty.
+- [The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem](https://arxiv.org/abs/2607.26068): The paper introduces a new metric for evaluating AI governance.
+- [AI Security Priorities: A Field-Wide Agenda](https://arxiv.org/abs/2607.26069): This work presents a prioritized agenda for advancing AI security.
+- [SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search](https://arxiv.org/abs/2607.26070): The paper introduces a new environment for evaluating agentic search systems.
+- [GuidedRAG: Semantic Steering of Retrieval-Augmented Generation](https://arxiv.org/abs/2607.26071): This work presents a new approach to improve retrieval-augmented generation.
+- [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072): The paper introduces a benchmark for evaluating memory in LLM agents.
+- [IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations](https://arxiv.org/abs/2607.26075): This work presents an autonomous agent for optimizing document processing.
+- [FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents](https://arxiv.org/abs/2607.26076): The paper discusses a new approach for RAG serving.
+- [Optimizing Sensor Placement for Hydrogen Leak Detection in Enclosed Infrastructure: A Comparative Study Using CFD-informed Genetic Algorithm and DeepSets Neural Surrogate](https://arxiv.org/abs/2607.26078): This study presents a framework for optimizing sensor placement.
+- [A Reference-Free Score for Detecting Silent Reasoning Failures in Large Language Models](https://arxiv.org/abs/2607.26102): The paper introduces a new score for evaluating reasoning in LLMs.
+- [Weight and Height Estimation from a Single Human Image Captured in the Wild](https://arxiv.org/abs/2607.26104): This work explores estimating physical characteristics from images.
+- [TraceCLIP: Recovering Local Semantics from Patch-to-CLS Contributions](https://arxiv.org/abs/2607.26107): The paper presents a new method for recovering semantics in vision-language tasks.
+- [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115): This study introduces a new red-teaming agent for evaluating LLMs.
+- [Searching for Robust Augmentations to Improve Out-of-Domain Generalization in Dermoscopic Skin Cancer Classification](https://arxiv.org/abs/2607.26765): The paper discusses improving robustness in skin cancer classification.
+- [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410): This work presents a new approach for speech recognition.
+- [SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution](https://arxiv.org/abs/2607.26784): The paper introduces a framework for skill evolution in LLM agents.
+- [AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution](https://arxiv.org/abs/2607.26661): This work presents a framework for generating optimized Ascend C operators.
+- [UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks](https://arxiv.org/abs/2607.26724): The paper introduces a multi-agent system for urban data tasks.
+- [Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM](https://arxiv.org/abs/2607.26773): The study introduces a causal audit to evaluate latent communication in multi-agent systems.
+- [Property-driven Causal Abstractions for Markov Decision Processes](https://arxiv.org/abs/2607.26787): This paper presents a new abstraction technique for Markov Decision Processes.
+- [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903): The work introduces a framework for translating human demonstrations into robot-learnable data.
+- [What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation](https://arxiv.org/abs/2607.26935): This study presents a framework for detecting AI agents in web traffic.
+- [Belief-Guided Decision Making with Uncertainty Gating in the Game of Go](https://arxiv.org/abs/2607.26946): The paper introduces a new architecture for decision-making in Go.
+- [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](https://arxiv.org/abs/2607.27056): This work presents a benchmark for evaluating personalized agents.
+- [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081): The paper proposes a new framework for aligning LLMs.
+- [AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching](https://arxiv.org/abs/2607.27130): This study presents a new framework for ontology matching.
+- [Linguistic Monoculture in LLM-Assisted Language Use](https://arxiv.org/abs/2607.27134): The paper discusses the impact of LLMs on linguistic diversity.
+- [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](https://arxiv.org/abs/2607.27155): This work introduces a benchmark for evaluating LLM agents in office tasks.
+- [Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork](https://arxiv.org/abs/2607.27177): The paper presents a method for estimating partner capabilities in teamwork.
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191): This study evaluates the capabilities of AI agents in conducting research.
+- [A Methodology for Designing Knowledge-Driven Missions for Robots](https://arxiv.org/abs/2601.20797): The paper presents a methodology for implementing knowledge graphs in robotic systems.
+- [Predict before you train: Scaling Laws for particle physics foundation models](https://arxiv.org/abs/2607.23377): This work discusses scaling laws for machine learning models in particle physics.
+- [Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to Released Artifact](https://arxiv.org/abs/2607.25589): The paper presents a reproducibility audit of a radiology model benchmark.
+- [Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning](https://arxiv.org/abs/2607.26059): This study discusses sparsity in CNNs used for reinforcement learning.
+- [Large-Scale ChatBot Validation Through Customer Digital Twin Simulations](https://arxiv.org/abs/2607.26060): The paper presents a methodology for validating chatbots.
+- [Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football](https://arxiv.org/abs/2607.26061): This work introduces a tactical recommendation framework for football.
+- [Identifying Implicit Bias in LLM-based Chat AI Toward People with Intellectual Disabilities](https://arxiv.org/abs/2607.26062): The study investigates bias in AI chat models.
+- [Archetypes or ability? Clustering for modelling student mathematical competence](https://arxiv.org/abs/2607.26063): This paper explores clustering methods for student performance.
+- [The Age of AI Agents Demands A New Scientific Paradigm To Sustain Trustworthy Science](https://arxiv.org/abs/2607.26064): The paper discusses the need for a new verification infrastructure in science.
+- [Do Methods Support the Claims? Intra-Paper Verification for Peer Review](https://arxiv.org/abs/2607.26066): This work introduces a framework for verifying claims in research papers.
+- [The Easy Trap: Why LLMs Underestimate Misconception-Driven Difficulty](https://arxiv.org/abs/2607.26067): The study investigates LLMs' ability to estimate item difficulty.
+- [The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem](https://arxiv.org/abs/2607.26068): The paper introduces a new metric for evaluating AI governance.
+- [AI Security Priorities: A Field-Wide Agenda](https://arxiv.org/abs/2607.26069): This work presents a prioritized agenda for advancing AI security.
+- [SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search](https://arxiv.org/abs/2607.26070): The paper introduces a new environment for evaluating agentic search systems.
+- [GuidedRAG: Semantic Steering of Retrieval-Augmented Generation](https://arxiv.org/abs/2607.26071): This work presents a new approach to improve retrieval-augmented generation.
+- [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072): The paper introduces a benchmark for evaluating memory in LLM agents.
+- [IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations](https://arxiv.org/abs/2607.26075): This work presents an autonomous agent for optimizing document processing.
+- [FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents](https://arxiv.org/abs/2607.26076): The paper discusses a new approach for RAG serving.
+- [Optimizing Sensor Placement for Hydrogen Leak Detection in Enclosed Infrastructure: A Comparative Study Using CFD-informed Genetic Algorithm and DeepSets Neural Surrogate](https://arxiv.org/abs/2607.26078): This study presents a framework for optimizing sensor placement.
+- [A Reference-Free Score for Detecting Silent Reasoning Failures in Large Language Models](https://arxiv.org/abs/2607.26102): The paper introduces a new score for evaluating reasoning in LLMs.
+- [Weight and Height Estimation from a Single Human Image Captured in the Wild](https://arxiv.org/abs/2607.26104): This work explores estimating physical characteristics from images.
+- [TraceCLIP: Recovering Local Semantics from Patch-to-CLS Contributions](https://arxiv.org/abs/2607.26107): The paper presents a new method for recovering semantics in vision-language tasks.
+- [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115): This study introduces a new red-teaming agent for evaluating LLMs.
+- [Searching for Robust Augmentations to Improve Out-of-Domain Generalization in Dermoscopic Skin Cancer Classification](https://arxiv.org/abs/2607.26765): The paper discusses improving robustness in skin cancer classification.
+- [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410): This work presents a new approach for speech recognition.
+- [SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution](https://arxiv.org/abs/2607.26784): The paper introduces a framework for skill evolution in LLM agents.
+- [AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution](https://arxiv.org/abs/2607.26661): This work presents a framework for generating optimized Ascend C operators.
+- [UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks](https://arxiv.org/abs/2607.26724): The paper introduces a multi-agent system for urban data tasks.
+- [Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM](https://arxiv.org/abs/2607.26773): The study introduces a causal audit to evaluate latent communication in multi-agent systems.
+- [Property-driven Causal Abstractions for Markov Decision Processes](https://arxiv.org/abs/2607.26787): This paper presents a new abstraction technique for Markov Decision Processes.
+- [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903): The work introduces a framework for translating human demonstrations into robot-learnable data.
+- [What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation](https://arxiv.org/abs/2607.26935): This study presents a framework for detecting AI agents in web traffic.
+- [Belief-Guided Decision Making with Uncertainty Gating in the Game of Go](https://arxiv.org/abs/2607.26946): The paper introduces a new architecture for decision-making in Go.
+- [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](https://arxiv.org/abs/2607.27056): This work presents a benchmark for evaluating personalized agents.
+- [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081): The paper proposes a new framework for aligning LLMs.
+- [AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching](https://arxiv.org/abs/2607.27130): This study presents a new framework for ontology matching.
+- [Linguistic Monoculture in LLM-Assisted Language Use](https://arxiv.org/abs/2607.27134): The paper discusses the impact of LLMs on linguistic diversity.
+- [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](https://arxiv.org/abs/2607.27155): This work introduces a benchmark for evaluating LLM agents in office tasks.
+- [Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork](https://arxiv.org/abs/2607.27177): The paper presents a method for estimating partner capabilities in teamwork.
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191): This study evaluates the capabilities of AI agents in conducting research.
+- [A Methodology for Designing Knowledge-Driven Missions for Robots](https://arxiv.org/abs/2601.20797): The paper presents a methodology for implementing knowledge graphs in robotic systems.
+- [Predict before you train: Scaling Laws for particle physics foundation models](https://arxiv.org/abs/2607.23377): This work discusses scaling laws for machine learning models in particle physics.
+- [Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to Released Artifact](https://arxiv.org/abs/2607.25589): The paper presents a reproducibility audit of a radiology model benchmark.
+- [Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning](https://arxiv.org/abs/2607.26059): This study discusses sparsity in CNNs used for reinforcement learning.
+- [Large-Scale ChatBot Validation Through Customer Digital Twin Simulations](https://arxiv.org/abs/2607.26060): The paper presents a methodology for validating chatbots.
+- [Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football](https://arxiv.org/abs/2607.26061): This work introduces a tactical recommendation framework for football.
+- [Identifying Implicit Bias in LLM-based Chat AI Toward People with Intellectual Disabilities](https://arxiv.org/abs/2607.26062): The study investigates bias in AI chat models.
+- [Archetypes or ability? Clustering for modelling student mathematical competence](https://arxiv.org/abs/2607.26063): This paper explores clustering methods for student performance.
+- [The Age of AI Agents Demands A New Scientific Paradigm To Sustain Trustworthy Science](https://arxiv.org/abs/2607.26064): The paper discusses the need for a new verification infrastructure in science.
+- [Do Methods Support the Claims? Intra-Paper Verification for Peer Review](https://arxiv.org/abs/2607.26066): This work introduces a framework for verifying claims in research papers.
+- [The Easy Trap: Why LLMs Underestimate Misconception-Driven Difficulty](https://arxiv.org/abs/2607.26067): The study investigates LLMs' ability to estimate item difficulty.
+- [The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem](https://arxiv.org/abs/2607.26068): The paper introduces a new metric for evaluating AI governance.
+- [AI Security Priorities: A Field-Wide Agenda](https://arxiv.org/abs/2607.26069): This work presents a prioritized agenda for advancing AI security.
+- [SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search](https://arxiv.org/abs/2607.26070): The paper introduces a new environment for evaluating agentic search systems.
+- [GuidedRAG: Semantic Steering of Retrieval-Augmented Generation](https://arxiv.org/abs/2607.26071): This work presents a new approach to improve retrieval-augmented generation.
+- [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072): The paper introduces a benchmark for evaluating memory in LLM agents.
+- [IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations](https://arxiv.org/abs/2607.26075): This work presents an autonomous agent for optimizing document processing.
+- [FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents](https://arxiv.org/abs/2607.26076): The paper discusses a new approach for RAG serving.
+- [Optimizing Sensor Placement for Hydrogen Leak Detection in Enclosed Infrastructure: A Comparative Study Using CFD-informed Genetic Algorithm and DeepSets Neural Surrogate](https://arxiv.org/abs/2607.26078): This study presents a framework for optimizing sensor placement.
+- [A Reference-Free Score for Detecting Silent Reasoning Failures in Large Language Models](https://arxiv.org/abs/2607.26102): The paper introduces a new score for evaluating reasoning in LLMs.
+- [Weight and Height Estimation from a Single Human Image Captured in the Wild](https://arxiv.org/abs/2607.26104): This work explores estimating physical characteristics from images.
+- [TraceCLIP: Recovering Local Semantics from Patch-to-CLS Contributions](https://arxiv.org/abs/2607.26107): The paper presents a new method for recovering semantics in vision-language tasks.
+- [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115): This study introduces a new red-teaming agent for evaluating LLMs.
+- [Searching for Robust Augmentations to Improve Out-of-Domain Generalization in Dermoscopic Skin Cancer Classification](https://arxiv.org/abs/2607.26765): The paper discusses improving robustness in skin cancer classification.
+- [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410): This work presents a new approach for speech recognition.
+- [SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution](https://arxiv.org/abs/2607.26784): The paper introduces a framework for skill evolution in LLM agents.
+- [AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution](https://arxiv.org/abs/2607.26661): This work presents a framework for generating optimized Ascend C operators.
+- [UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks](https://arxiv.org/abs/2607.26724): The paper introduces a multi-agent system for urban data tasks.
+- [Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM](https://arxiv.org/abs/2607.26773): The study introduces a causal audit to evaluate latent communication in multi-agent systems.
+- [Property-driven Causal Abstractions for Markov Decision Processes](https://arxiv.org/abs/2607.26787): This paper presents a new abstraction technique for Markov Decision Processes.
+- [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903): The work introduces a framework for translating human demonstrations into robot-learnable data.
+- [What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation](https://arxiv.org/abs/2607.26935): This study presents a framework for detecting AI agents in web traffic.
+- [Belief-Guided Decision Making with Uncertainty Gating in the Game of Go](https://arxiv.org/abs/2607.26946): The paper introduces a new architecture for decision-making in Go.
+- [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](https://arxiv.org/abs/2607.27056): This work presents a benchmark for evaluating personalized agents.
+- [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081): The paper proposes a new framework for aligning LLMs.
+- [AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching](https://arxiv.org/abs/2607.27130): This study presents a new framework for ontology matching.
+- [Linguistic Monoculture in LLM-Assisted Language Use](https://arxiv.org/abs/2607.27134): The paper discusses the impact of LLMs on linguistic diversity.
+- [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](https://arxiv.org/abs/2607.27155): This work introduces a benchmark for evaluating LLM agents in office tasks.
+- [Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork](https://arxiv.org/abs/2607.27177): The paper presents a method for estimating partner capabilities in teamwork.
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191): This study evaluates the capabilities of AI agents in conducting research.
+- [A Methodology for Designing Knowledge-Driven Missions for Robots](https://arxiv.org/abs/2601.20797): The paper presents a methodology for implementing knowledge graphs in robotic systems.
+- [Predict before you train: Scaling Laws for particle physics foundation models](https://arxiv.org/abs/2607.23377): This work discusses scaling laws for machine learning models in particle physics.
+- [Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to Released Artifact](https://arxiv.org/abs/2607.25589): The paper presents a reproducibility audit of a radiology model benchmark.
+- [Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning](https://arxiv.org/abs/2607.26059): This study discusses sparsity in CNNs used for reinforcement learning.
+- [Large-Scale ChatBot Validation Through Customer Digital Twin Simulations](https://arxiv.org/abs/2607.26060): The paper presents a methodology for validating chatbots.
+- [Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football](https://arxiv.org/abs/2607.26061): This work introduces a tactical recommendation framework for football.
+- [Identifying Implicit Bias in LLM-based Chat AI Toward People with Intellectual Disabilities](https://arxiv.org/abs/2607.26062): The study investigates bias in AI chat models.
+- [Archetypes or ability? Clustering for modelling student mathematical competence](https://arxiv.org/abs/2607.26063): This paper explores clustering methods for student performance.
+- [The Age of AI Agents Demands A New Scientific Paradigm To Sustain Trustworthy Science](https://arxiv.org/abs/2607.26064): The paper discusses the need for a new verification infrastructure in science.
+- [Do Methods Support the Claims? Intra-Paper Verification for Peer Review](https://arxiv.org/abs/2607.26066): This work introduces a framework for verifying claims in research papers.
+- [The Easy Trap: Why LLMs Underestimate Misconception-Driven Difficulty](https://arxiv.org/abs/2607.26067): The study investigates LLMs' ability to estimate item difficulty.
+- [The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem](https://arxiv.org/abs/2607.26068): The paper introduces a new metric for evaluating AI governance.
+- [AI Security Priorities: A Field-Wide Agenda](https://arxiv.org/abs/2607.26069): This work presents a prioritized agenda for advancing AI security.
+- [SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search](https://arxiv.org/abs/2607.26070): The paper introduces a new environment for evaluating agentic search systems.
+- [GuidedRAG: Semantic Steering of Retrieval-Augmented Generation](https://arxiv.org/abs/2607.26071): This work presents a new approach to improve retrieval-augmented generation.
+- [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072): The paper introduces a benchmark for evaluating memory in LLM agents.
+- [IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations](https://arxiv.org/abs/2607.26075): This work presents an autonomous agent for optimizing document processing.
+- [FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents](https://arxiv.org/abs/2607.26076): The paper discusses a new approach for RAG serving.
+- [Optimizing Sensor Placement for Hydrogen Leak Detection in Enclosed Infrastructure: A Comparative Study Using CFD-informed Genetic Algorithm and DeepSets Neural Surrogate](https://arxiv.org/abs/2607.26078): This study presents a framework for optimizing sensor placement.
+- [A Reference-Free Score for Detecting Silent Reasoning Failures in Large Language Models](https://arxiv.org/abs/2607.26102): The paper introduces a new score for evaluating reasoning in LLMs.
+- [Weight and Height Estimation from a Single Human Image Captured in the Wild](https://arxiv.org/abs/2607.26104): This work explores estimating physical characteristics from images.
+- [TraceCLIP: Recovering Local Semantics from Patch-to-CLS Contributions](https://arxiv.org/abs/2607.26107): The paper presents a new method for recovering semantics in vision-language tasks.
+- [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115): This study introduces a new red-teaming agent for evaluating LLMs.
+- [Searching for Robust Augmentations to Improve Out-of-Domain Generalization in Dermoscopic Skin Cancer Classification](https://arxiv.org/abs/2607.26765): The paper discusses improving robustness in skin cancer classification.
+- [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410): This work presents a new approach for speech recognition.
+- [SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution](https://arxiv.org/abs/2607.26784): The paper introduces a framework for skill evolution in LLM agents.
+- [AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution](https://arxiv.org/abs/2607.26661): This work presents a framework for generating optimized Ascend C operators.
+- [UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks](https://arxiv.org/abs/2607.26724): The paper introduces a multi-agent system for urban data tasks.
+- [Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM](https://arxiv.org/abs/2607.26773): The study introduces a causal audit to evaluate latent communication in multi-agent systems.
+- [Property-driven Causal Abstractions for Markov Decision Processes](https://arxiv.org/abs/2607.26787): This paper presents a new abstraction technique for Markov Decision Processes.
+- [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903): The work introduces a framework for translating human demonstrations into robot-learnable data.
+- [What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation](https://arxiv.org/abs/2607.26935): This study presents a framework for detecting AI agents in web traffic.
+- [Belief-Guided Decision Making with Uncertainty Gating in the Game of Go](https://arxiv.org/abs/2607.26946): The paper introduces a new architecture for decision-making in Go.
+- [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](https://arxiv.org/abs/2607.27056): This work presents a benchmark for evaluating personalized agents.
+- [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081): The paper proposes a new framework for aligning LLMs.
+- [AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching](https://arxiv.org/abs/2607.27130): This study presents a new framework for ontology matching.
+- [Linguistic Monoculture in LLM-Assisted Language Use](https://arxiv.org/abs/2607.27134): The paper discusses the impact of LLMs on linguistic diversity.
+- [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](https://arxiv.org/abs/2607.27155): This work introduces a benchmark for evaluating LLM agents in office tasks.
+- [Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork](https://arxiv.org/abs/2607.27177): The paper presents a method for estimating partner capabilities in teamwork.
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191): This study evaluates the capabilities of AI agents in conducting research.
+- [A Methodology for Designing Knowledge-Driven Missions for Robots](https://arxiv.org/abs/2601.20797): The paper presents a methodology for implementing knowledge graphs in robotic systems.
+- [Predict before you train: Scaling Laws for particle physics foundation models](https://arxiv.org/abs/2607.23377): This work discusses scaling laws for machine learning models in particle physics.
+- [Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to Released Artifact](https://arxiv.org/abs/2607.25589): The paper presents a reproducibility audit of a radiology model benchmark.
+- [Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning](https://arxiv.org/abs/2607.26059): This study discusses sparsity in CNNs used for reinforcement learning.
+- [Large-Scale ChatBot Validation Through Customer Digital Twin Simulations](https://arxiv.org/abs/2607.26060): The paper presents a methodology for validating chatbots.
+- [Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football](https://arxiv.org/abs/2607.26061): This work introduces a tactical recommendation framework for football.
+- [Identifying Implicit Bias in LLM-based Chat AI Toward People with Intellectual Disabilities](https://arxiv.org/abs/2607.26062): The study investigates bias in AI chat models.
+- [Archetypes or ability? Clustering for modelling student mathematical competence](https://arxiv.org/abs/2607.26063): This paper explores clustering methods for student performance.
+- [The Age of AI Agents Demands A New Scientific Paradigm To Sustain Trustworthy Science](https://arxiv.org/abs/2607.26064): The paper discusses the need for a new verification infrastructure in science.
+- [Do Methods Support the Claims? Intra-Paper Verification for Peer Review](https://arxiv.org/abs/2607.26066): This work introduces a framework for verifying claims in research papers.
+- [The Easy Trap: Why LLMs Underestimate Misconception-Driven Difficulty](https://arxiv.org/abs/2607.26067): The study investigates LLMs' ability to estimate item difficulty.
+- [The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem](https://arxiv.org/abs/2607.26068): The paper introduces a new metric for evaluating AI governance.
+- [AI Security Priorities: A Field-Wide Agenda](https://arxiv.org/abs/2607.26069): This work presents a prioritized agenda for advancing AI security.
+- [SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search](https://arxiv.org/abs/2607.26070): The paper introduces a new environment for evaluating agentic search systems.
+- [GuidedRAG: Semantic Steering of Retrieval-Augmented Generation](https://arxiv.org/abs/2607.26071): This work presents a new approach to improve retrieval-augmented generation.
+- [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072): The paper introduces a benchmark for evaluating memory in LLM agents.
+- [IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations](https://arxiv.org/abs/2607.26075): This work presents an autonomous agent for optimizing document processing.
+- [FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents](https://arxiv.org/abs/2607.26076): The paper discusses a new approach for RAG serving.
+- [Optimizing Sensor Placement for Hydrogen Leak Detection in Enclosed Infrastructure: A Comparative Study Using CFD-informed Genetic Algorithm and DeepSets Neural Surrogate](https://arxiv.org/abs/2607.26078): This study presents a framework for optimizing sensor placement.
+- [A Reference-Free Score for Detecting Silent Reasoning Failures in Large Language Models](https://arxiv.org/abs/2607.26102): The paper introduces a new score for evaluating reasoning in LLMs.
+- [Weight and Height Estimation from a Single Human Image Captured in the Wild](https://arxiv.org/abs/2607.26104): This work explores estimating physical characteristics from images.
+- [TraceCLIP: Recovering Local Semantics from Patch-to-CLS Contributions](https://arxiv.org/abs/2607.26107): The paper presents a new method for recovering semantics in vision-language tasks.
+- [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115): This study introduces a new red-teaming agent for evaluating LLMs.
+- [Searching for Robust Augmentations to Improve Out-of-Domain Generalization in Dermoscopic Skin Cancer Classification](https://arxiv.org/abs/2607.26765): The paper discusses improving robustness in skin cancer classification.
+- [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410): This work presents a new approach for speech recognition.
+- [SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution](https://arxiv.org/abs/2607.26784): The paper introduces a framework for skill evolution in LLM agents.
+- [AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution](https://arxiv.org/abs/2607.26661): This work presents a framework for generating optimized Ascend C operators.
+- [UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks](https://arxiv.org/abs/2607.26724): The paper introduces a multi-agent system for urban data tasks.
+- [Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM](https://arxiv.org/abs/2607.26773): The study introduces a causal audit to evaluate latent communication in multi-agent systems.
+- [Property-driven Causal Abstractions for Markov Decision Processes](https://arxiv.org/abs/2607.26787): This paper presents a new abstraction technique for Markov Decision Processes.
+- [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903): The work introduces a framework for translating human demonstrations into robot-learnable data.
+- [What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation](https://arxiv.org/abs/2607.26935): This study presents a framework for detecting AI agents in web traffic.
+- [Belief-Guided Decision Making with Uncertainty Gating in the Game of Go](https://arxiv.org/abs/2607.26946): The paper introduces a new architecture for decision-making in Go.
+- [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](https://arxiv.org/abs/2607.27056): This work presents a benchmark for evaluating personalized agents.
+- [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081): The paper proposes a new framework for aligning LLMs.
+- [AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching](https://arxiv.org/abs/2607.27130): This study presents a new framework for ontology matching.
+- [Linguistic Monoculture in LLM-Assisted Language Use](https://arxiv.org/abs/2607.27134): The paper discusses the impact of LLMs on linguistic diversity.
+- [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](https://arxiv.org/abs/2607.27155): This work introduces a benchmark for evaluating LLM agents in office tasks.
+- [Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork](https://arxiv.org/abs/2607.27177): The paper presents a method for estimating partner capabilities in teamwork.
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191): This study evaluates the capabilities of AI agents in conducting research.
+- [A Methodology for Designing Knowledge-Driven Missions for Robots](https://arxiv.org/abs/2601.20797): The paper presents a methodology for implementing knowledge graphs in robotic systems.
+- [Predict before you train: Scaling Laws for particle physics foundation models](https://arxiv.org/abs/2607.23377): This work discusses scaling laws for machine learning models in particle physics.
+- [Forensic Reproducibility Audit of a Radiology Vision-Language Model Benchmark: From Intended Protocol to Released Artifact](https://arxiv.org/abs/2607.25589): The paper presents a reproducibility audit of a radiology model benchmark.
+- [Emergent Sparsity in Frozen Random CNN Feature Extractors for Deep Reinforcement Learning](https://arxiv.org/abs/2607.26059): This study discusses sparsity in CNNs used for reinforcement learning.
+- [Large-Scale ChatBot Validation Through Customer Digital Twin Simulations](https://arxiv.org/abs/2607.26060): The paper presents a methodology for validating chatbots.
+- [Sim2Win: A Team-Agnostic, Event-Based Pre-Match Outcome Prediction and Tactical Profiling System for Football](https://arxiv.org/abs/2607.26061): This work introduces a tactical recommendation framework for football.
+- [Identifying Implicit Bias in LLM-based Chat AI Toward People with Intellectual Disabilities](https://arxiv.org/abs/2607.26062): The study investigates bias in AI chat models.
+- [Archetypes or ability? Clustering for modelling student mathematical competence](https://arxiv.org/abs/2607.26063): This paper explores clustering methods for student performance.
+- [The Age of AI Agents Demands A New Scientific Paradigm To Sustain Trustworthy Science](https://arxiv.org/abs/2607.26064): The paper discusses the need for a new verification infrastructure in science.
+- [Do Methods Support the Claims? Intra-Paper Verification for Peer Review](https://arxiv.org/abs/2607.26066): This work introduces a framework for verifying claims in research papers.
+- [The Easy Trap: Why LLMs Underestimate Misconception-Driven Difficulty](https://arxiv.org/abs/2607.26067): The study investigates LLMs' ability to estimate item difficulty.
+- [The Human Utility Factor: A Computable Welfare Metric That Reframes AI Governance as a Constrained Optimisation Problem](https://arxiv.org/abs/2607.26068): The paper introduces a new metric for evaluating AI governance.
+- [AI Security Priorities: A Field-Wide Agenda](https://arxiv.org/abs/2607.26069): This work presents a prioritized agenda for advancing AI security.
+- [SimpleWikiSearch: A Clean Offline Wikipedia Environment for Agentic Search](https://arxiv.org/abs/2607.26070): The paper introduces a new environment for evaluating agentic search systems.
+- [GuidedRAG: Semantic Steering of Retrieval-Augmented Generation](https://arxiv.org/abs/2607.26071): This work presents a new approach to improve retrieval-augmented generation.
+- [IFCMemoryBench: Evaluating Long-Term Memory of LLM-Based Agents in BIM Information Retrieval](https://arxiv.org/abs/2607.26072): The paper introduces a benchmark for evaluating memory in LLM agents.
+- [IDP AutoOpt: Agent-Driven Optimization of Document Processing Pipeline Configurations](https://arxiv.org/abs/2607.26075): This work presents an autonomous agent for optimizing document processing.
+- [FinCacheServe: Dependency-Consistent Answer Reuse for Cost-Efficient RAG Serving over Mutable Enterprise Documents](https://arxiv.org/abs/2607.26076): The paper discusses a new approach for RAG serving.
+- [Optimizing Sensor Placement for Hydrogen Leak Detection in Enclosed Infrastructure: A Comparative Study Using CFD-informed Genetic Algorithm and DeepSets Neural Surrogate](https://arxiv.org/abs/2607.26078): This study presents a framework for optimizing sensor placement.
+- [A Reference-Free Score for Detecting Silent Reasoning Failures in Large Language Models](https://arxiv.org/abs/2607.26102): The paper introduces a new score for evaluating reasoning in LLMs.
+- [Weight and Height Estimation from a Single Human Image Captured in the Wild](https://arxiv.org/abs/2607.26104): This work explores estimating physical characteristics from images.
+- [TraceCLIP: Recovering Local Semantics from Patch-to-CLS Contributions](https://arxiv.org/abs/2607.26107): The paper presents a new method for recovering semantics in vision-language tasks.
+- [GPT-Red: Automated Red Teaming via Self-Play at Scale](https://arxiv.org/abs/2607.26115): This study introduces a new red-teaming agent for evaluating LLMs.
+- [Searching for Robust Augmentations to Improve Out-of-Domain Generalization in Dermoscopic Skin Cancer Classification](https://arxiv.org/abs/2607.26765): The paper discusses improving robustness in skin cancer classification.
+- [Voice Memory for Agentic Speech Recognition](https://arxiv.org/abs/2607.26410): This work presents a new approach for speech recognition.
+- [SkillRise: Agentic Reinforcement Learning for Cross-Task Skill Evolution](https://arxiv.org/abs/2607.26784): The paper introduces a framework for skill evolution in LLM agents.
+- [AgenticCANN: Automated Ascend C Operator Generation via Knowledge-Augmented Agentic Evolution](https://arxiv.org/abs/2607.26661): This work presents a framework for generating optimized Ascend C operators.
+- [UrbanDS: A Graph-Guided LLM Multi-Agent System for Data-Intensive Urban Tasks](https://arxiv.org/abs/2607.26724): The paper introduces a multi-agent system for urban data tasks.
+- [Do Latent Channels Actually Communicate? A Causal Audit of Latent Multi-Agent LLM](https://arxiv.org/abs/2607.26773): The study introduces a causal audit to evaluate latent communication in multi-agent systems.
+- [Property-driven Causal Abstractions for Markov Decision Processes](https://arxiv.org/abs/2607.26787): This paper presents a new abstraction technique for Markov Decision Processes.
+- [From Passive Video to Editable Experience: Physically Grounded Experience Synthesis for Embodied Intelligence](https://arxiv.org/abs/2607.26903): The work introduces a framework for translating human demonstrations into robot-learnable data.
+- [What Does It Take to Detect an AI Agent? Minimal Feature Sets for Behavioral Detection under Browser Automation](https://arxiv.org/abs/2607.26935): This study presents a framework for detecting AI agents in web traffic.
+- [Belief-Guided Decision Making with Uncertainty Gating in the Game of Go](https://arxiv.org/abs/2607.26946): The paper introduces a new architecture for decision-making in Go.
+- [Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data](https://arxiv.org/abs/2607.27056): This work presents a benchmark for evaluating personalized agents.
+- [On-Policy Distillation for LLM Safety: A Routing Approach to Template-Robust Realignment](https://arxiv.org/abs/2607.27081): The paper proposes a new framework for aligning LLMs.
+- [AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching](https://arxiv.org/abs/2607.27130): This study presents a new framework for ontology matching.
+- [Linguistic Monoculture in LLM-Assisted Language Use](https://arxiv.org/abs/2607.27134): The paper discusses the impact of LLMs on linguistic diversity.
+- [OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding](https://arxiv.org/abs/2607.27155): This work introduces a benchmark for evaluating LLM agents in office tasks.
+- [Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork](https://arxiv.org/abs/2607.27177): The paper presents a method for estimating partner capabilities in teamwork.
+- [Can AI agents conduct open-ended AI research? Early evidence from two case studies](https://arxiv.org/abs/2607.27191): This study evaluates the capabilities of AI agents in conducting research.
+- [A Methodology for Designing Knowledge-Driven Missions for Robots](https://arxiv.org/abs/2601.20797): The paper presents a methodology for implementing knowledge graphs in robotic systems.
+- [Predict before you train: Scaling Laws for particle physics foundation models](https://arxiv.org/abs/2607.23377): This work discusses scaling laws for machine learning models in particle physics.
+- [For
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Articles Related to Security
+
+#### Overview
+The recent body of research and news articles highlights significant advancements in AI, particularly in the context of security, ethical considerations, and the implications of AI deployment in various domains. The papers explore the intersection of AI capabilities with security vulnerabilities, ethical frameworks, and the need for robust evaluation mechanisms. Key themes include the challenges of ensuring safety in AI systems, the importance of transparency and accountability, and the evolving nature of AI interactions in real-world applications.
+
+#### Key Themes and Insights
+
+1. **Security Vulnerabilities in AI Systems**:
+   - **Backdoor Attacks**: Several papers, including those discussing **ToxScreen** and **I2VShield**, focus on the vulnerabilities of AI systems to adversarial attacks, particularly backdoor attacks that can manipulate model behavior. These studies emphasize the need for robust detection mechanisms to identify and mitigate such threats.
+   - **Malware Detection**: Research on **Guarding Organizations Against Malware Risk** and **Malware Detection Methods** showcases the increasing reliance on AI for cybersecurity, highlighting the necessity for effective detection methods that can adapt to evolving threats.
+
+2. **Evaluation and Benchmarking**:
+   - The introduction of benchmarks such as **SecRespond** and **VendorBench-100** aims to systematically evaluate AI models in security contexts, focusing on their ability to perform tasks under real-world conditions. These benchmarks emphasize the importance of rigorous testing to ensure AI systems are reliable and effective in practical applications.
+   - **MemSecBench** and **Credit Cards, Confusion, Computation, and Consequences** highlight the need for comprehensive evaluation frameworks that assess not just performance but also the ethical implications of AI decisions.
+
+3. **Ethical Considerations and Alignment**:
+   - The **Alignment Target Problem** and **The User Asks, Platforms Compete** papers delve into the ethical dimensions of AI deployment, questioning whose values should guide AI behavior and how to ensure that AI systems align with human expectations and societal norms.
+   - **Ask Don't Tell** and **AI as Friction for Reflection Support** explore how AI can be designed to support human decision-making rather than simply optimizing for efficiency, advocating for a more human-centered approach to AI development.
+
+4. **Adaptive Learning and Robustness**:
+   - Papers like **SkillRise** and **Adaptive Multi-Horizon Reinforcement Learning** discuss the importance of adaptive learning mechanisms that allow AI systems to evolve and improve over time, particularly in dynamic environments where tasks and contexts change frequently.
+   - The concept of **Adaptive Multi-Agent Interaction** emphasizes the need for AI systems to collaborate effectively while maintaining robustness against adversarial influences.
+
+5. **Practical Applications and Case Studies**:
+   - The **BioHiCL** and **BioPro** papers illustrate how AI can be applied in healthcare settings, focusing on the integration of domain-specific knowledge to enhance model performance while addressing ethical concerns related to bias and representation.
+   - **Registration-Grounded Spectral Fusion** and **Object Detection for Autonomous Driving** demonstrate the application of AI in critical domains, emphasizing the need for reliable and interpretable models that can operate safely in real-world scenarios.
+
+#### Trends and Correlations
+- **Increased Focus on Robustness**: There is a clear trend towards developing AI systems that are not only effective but also robust against adversarial attacks and capable of operating in uncertain environments.
+- **Ethical AI Development**: The discourse around ethical AI is gaining momentum, with researchers advocating for frameworks that ensure AI systems are aligned with human values and societal norms.
+- **Integration of Multi-Modal Data**: Many studies emphasize the importance of integrating various data types (text, images, audio) to improve AI performance, particularly in complex tasks like medical diagnosis and security monitoring.
+
+### Conclusion
+The intersection of AI and security is a rapidly evolving field, with significant implications for how AI systems are developed, evaluated, and deployed. As AI continues to permeate various sectors, the need for robust security measures, ethical considerations, and effective evaluation frameworks will be paramount. The research highlights a collective effort to address these challenges, ensuring that AI systems can operate safely and effectively in real-world applications.
