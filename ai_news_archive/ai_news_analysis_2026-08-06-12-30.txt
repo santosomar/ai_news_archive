@@ -1,0 +1,153 @@
+AI Researcher Agent Report for 2026-08-06-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)](https://arxiv.org/abs/2608.04012): This paper develops a framework for analyzing the long-run persistence of AI systems, focusing on how they can operate indefinitely without incurring unbounded structural aging. It introduces the redundancy-adjusted Artificial Age Score (AAS) and defines various persistence regimes.
+- [The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents](https://arxiv.org/abs/2608.04066): This paper presents a self-verifying agent instrument that allows for structural verification rather than post-hoc checks, addressing the challenge of verifying long-horizon agents.
+- [Monte Carlo Tree Search for Table-to-Multimodal Report Generation](https://arxiv.org/abs/2608.04071): This paper proposes MCTS-Report, a framework for generating multimodal reports from structured data using Monte Carlo Tree Search, improving upon existing methods by optimizing various aspects of report generation.
+- [FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables](https://arxiv.org/abs/2608.04077): This paper introduces FinProBench, a benchmark for evaluating financial AI agents using rubrics derived from professional deliverables, highlighting the importance of role-grounded evaluation.
+- [FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents](https://arxiv.org/abs/2608.04095): This paper presents FinPerMA, a benchmark for evaluating personalized memory in LLM agents, focusing on event-driven preference adaptation.
+- [BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding](https://arxiv.org/abs/2608.04156): This paper introduces a benchmark for evaluating LLMs in the context of electroencephalography (EEG) analysis, emphasizing the need for comprehensive understanding.
+- [Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models](https://arxiv.org/abs/2608.04190): This paper discusses a method for improving the robustness of perception models against adversarial attacks by employing abductive reasoning.
+- [MatrAIx: Simulating the World with 8.3 Billion Persona Agents](https://arxiv.org/abs/2608.04205): This paper presents MatrAIx, a simulated-user evaluation infrastructure for testing AI systems with diverse personas.
+- [Interoceptive Attention as Dynamic Homeostatic Prioritization in a Foraging Agent](https://arxiv.org/abs/2608.04232): This paper explores how a foraging agent allocates perceptual resources dynamically based on competing needs.
+- [The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning](https://arxiv.org/abs/2608.04285): This paper introduces the RAIL principles for designing neurosymbolic AI systems that integrate machine learning and symbolic reasoning.
+- [SafeCommit: Certifying When Memory-Grounded Agents May Safely Act](https://arxiv.org/abs/2608.04289): This paper presents SafeCommit, a framework for certifying safe actions for memory-grounded agents.
+- [NeuMoSync: End-to-End Neuromodulatory Control for Plasticity and Adaptability in Continual Learning](https://arxiv.org/abs/2608.04358): This paper introduces NeuMoSync, a framework for enhancing adaptability in continual learning through neuromodulatory control.
+- [Improving Auto-Design of Neural PDE Solvers with a Domain-Specific Language](https://arxiv.org/abs/2608.04384): This paper discusses a structured search state for designing neural PDE solvers, improving search efficiency and optimization stability.
+- [Architectural Implications of Agentic AI Workflows](https://arxiv.org/abs/2608.04458): This paper analyzes the architectural implications of agentic AI workflows in data centers.
+- [CARGO-VL: Counterfactual Arbitration with Risk-Constrained Group Optimization for Vision-Language Models](https://arxiv.org/abs/2608.04509): This paper introduces CARGO-VL, a framework for optimizing vision-language models under counterfactual evidence changes.
+- [Leak-Resistant Unlearning: A New Benchmark for Evaluating Multi-Hop Reasoning Consistency and Recovery Robustness](https://arxiv.org/abs/2608.04519): This paper presents a benchmark for evaluating unlearning methods in LLMs, focusing on multi-hop reasoning paths.
+- [What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills](https://arxiv.org/abs/2608.04562): This paper introduces SkillSV, a framework for valuing structured agent skills.
+- [Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks](https://arxiv.org/abs/2608.04590): This paper explores the optimization of UAV flight and routing in delay-tolerant networks.
+- [Agreement Before Diversity: Verification-First Complementarity for Heterogeneous Language-Model Coordination](https://arxiv.org/abs/2608.04618): This paper presents a method for coordinating heterogeneous language models based on agreement.
+- [A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing](https://arxiv.org/abs/2608.04625): This paper introduces A/B Agent, a closed-loop agent for optimizing recommendation strategies.
+- [AI Literacy for Legal Translation: Developing Digital Resilience](https://arxiv.org/abs/2608.04641): This paper discusses the implications of AI for legal translation and proposes an AI literacy framework.
+- [Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2608.04663): This paper explores the calibration of guilt signals in multi-agent reinforcement learning.
+- [Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports](https://arxiv.org/abs/2608.04697): This paper presents an AI-assisted approach for generating hazard scenarios in aviation systems.
+- [Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools](https://arxiv.org/abs/2608.04719): This paper introduces canary tools for diagnosing tool-selection weaknesses in LLM agents.
+- [When Prompts Become Pixels: Prompt-Region Grounding for Multimodal Reasoning](https://arxiv.org/abs/2608.04726): This paper discusses prompt-region grounding for multimodal reasoning.
+- [Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings](https://arxiv.org/abs/2608.04735): This paper evaluates the reliability of chain-of-thought monitoring in implicit-influence settings.
+- [EviGraph: Evidence-Guided Autonomous Research Agents](https://arxiv.org/abs/2608.04738): This paper presents EviGraph, a framework for autonomous research that maintains a typed evidence graph.
+- [Fewer Tokens, Smaller Cache: Reward-Coordinated Efficient Reasoning](https://arxiv.org/abs/2608.04771): This paper introduces ReCo, a framework for coordinating reasoning and cache compression.
+- [NSF-HRPT: Neural Semantic Field meets Hierarchical Risk Perception Tree for Safety-Critical Scenario Assessment](https://arxiv.org/abs/2608.04776): This paper presents a framework for assessing risks in safety-critical scenarios.
+- [Privileged, but Biased: How PI-Conditioned Teachers Break Self-Distillation](https://arxiv.org/abs/2608.04794): This paper discusses the limitations of self-distillation in the presence of privileged information.
+- [ContextWeave: A Real-World Workflow Benchmark](https://arxiv.org/abs/2608.04830): This paper introduces ContextWeave, a benchmark for evaluating memory in long-horizon workflows.
+- [When Shared Rollouts Fail in Defensive Driving Evaluation: A NAVSIM Score Basis Audit](https://arxiv.org/abs/2608.04896): This paper audits the risks in defensive driving scores.
+- [Image Classification Using CNN-QNN Hybrid Model with Optimized Correlated Features](https://arxiv.org/abs/2608.04379): This paper proposes a method to optimize feature correlation for image classification.
+- [Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite](https://arxiv.org/abs/2608.05095): This paper presents HiGram, a hierarchical graph memory framework for LLM agents.
+- [Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning](https://arxiv.org/abs/2608.05045): This paper introduces a framework for protecting LLMs against malicious fine-tuning.
+- [The Calibration Floor: Format Repair Can Masquerade as Self-Correction at Small-to-Mid Scale](https://arxiv.org/abs/2608.04355): This paper discusses the limitations of self-revision in language models.
+- [OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling](https://arxiv.org/abs/2608.05141): This paper introduces OctoLong, a context engineering pipeline for long-context modeling.
+- [Right Reset: Chunking by Prefix Removal](https://arxiv.org/abs/2608.04330): This paper presents a method for chunking in language models by removing prefixes.
+- [MetaVideoAgent: Automated Video-Agent Evolution for Long-Form Video Understanding](https://arxiv.org/abs/2608.04587): This paper introduces MetaVideoAgent, a framework for evolving video agents.
+- [AudioScape-TTA: A Structured Soundscape Benchmark for Fine-Grained Text-to-Audio Evaluation](https://arxiv.org/abs/2608.04479): This paper presents a benchmark for evaluating text-to-audio generation.
+- [A Model Merging Approach for Continual MLLM Unlearning](https://arxiv.org/abs/2608.04548): This paper discusses a method for continual unlearning in multimodal large language models.
+- [EuroExec: Frontier Language Models Fall Short of Expert Judgment on European Executive Decision Tasks](https://arxiv.org/abs/2608.04549): This paper evaluates frontier LLMs on European executive decision tasks.
+- [Feedback Loops and Code Perturbations in LLM-based Software Engineering: A Case Study on a C-to-Rust Translation System](https://arxiv.org/abs/2512.02567): This paper studies the effects of feedback loops and code perturbations in a translation system.
+
+### Categories
+#### Security
+- [Gradient Immunity: Null-Space Resistance to Malicious Fine-Tuning](https://arxiv.org/abs/2608.05045)
+- [Dynamic Jailbreaking Attack](https://arxiv.org/abs/2510.02422)
+- [Leak-Resistant Unlearning: A New Benchmark for Evaluating Multi-Hop Reasoning Consistency and Recovery Robustness](https://arxiv.org/abs/2608.04519)
+- [PURPOSE: Poisoning Conflict Resolution in RAG via Proxy-Fact-Grounded Updates](https://arxiv.org/abs/2608.04756)
+- [A Blind Spot in Alignment: Quantifying Biosecurity Risks in Large Language Models](https://arxiv.org/abs/2608.02684)
+
+#### AI and Machine Learning
+- [A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)](https://arxiv.org/abs/2608.04012)
+- [The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents](https://arxiv.org/abs/2608.04066)
+- [Monte Carlo Tree Search for Table-to-Multimodal Report Generation](https://arxiv.org/abs/2608.04071)
+- [FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables](https://arxiv.org/abs/2608.04077)
+- [FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents](https://arxiv.org/abs/2608.04095)
+- [BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding](https://arxiv.org/abs/2608.04156)
+- [Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models](https://arxiv.org/abs/2608.04190)
+- [MatrAIx: Simulating the World with 8.3 Billion Persona Agents](https://arxiv.org/abs/2608.04205)
+- [Interoceptive Attention as Dynamic Homeostatic Prioritization in a Foraging Agent](https://arxiv.org/abs/2608.04232)
+- [The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning](https://arxiv.org/abs/2608.04285)
+- [SafeCommit: Certifying When Memory-Grounded Agents May Safely Act](https://arxiv.org/abs/2608.04289)
+- [NeuMoSync: End-to-End Neuromodulatory Control for Plasticity and Adaptability in Continual Learning](https://arxiv.org/abs/2608.04358)
+- [Improving Auto-Design of Neural PDE Solvers with a Domain-Specific Language](https://arxiv.org/abs/2608.04384)
+- [Architectural Implications of Agentic AI Workflows](https://arxiv.org/abs/2608.04458)
+- [CARGO-VL: Counterfactual Arbitration with Risk-Constrained Group Optimization for Vision-Language Models](https://arxiv.org/abs/2608.04509)
+- [What Is a Skill Worth? Structure-Aware Shapley Valuation of Agent Skills](https://arxiv.org/abs/2608.04562)
+- [Joint UAV Flight and Opportunistic Routing under Reinforcement Learning for Delay-Tolerant Networks](https://arxiv.org/abs/2608.04590)
+- [Agreement Before Diversity: Verification-First Complementarity for Heterogeneous Language-Model Coordination](https://arxiv.org/abs/2608.04618)
+- [A/B Agent: A Self-Evolving Agent for Strategy Iteration in Industrial A/B Testing](https://arxiv.org/abs/2608.04625)
+- [AI Literacy for Legal Translation: Developing Digital Resilience](https://arxiv.org/abs/2608.04641)
+- [Calibrating Artificial Guilt: Neurally Grounded Reward Shaping for Prosocial Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2608.04663)
+- [Traceable LLM-Generated Hazard Scenarios for Operational Safety Analysis of Aviation Systems Using ASRS Reports](https://arxiv.org/abs/2608.04697)
+- [Diagnosing Tool-Selection Reasoning in LLM Agents with Canary Tools](https://arxiv.org/abs/2608.04719)
+- [When Prompts Become Pixels: Prompt-Region Grounding for Multimodal Reasoning](https://arxiv.org/abs/2608.04726)
+- [Chain-of-Thought Monitoring Can Be Unreliable in Implicit-Influence Settings](https://arxiv.org/abs/2608.04735)
+- [EviGraph: Evidence-Guided Autonomous Research Agents](https://arxiv.org/abs/2608.04738)
+- [Fewer Tokens, Smaller Cache: Reward-Coordinated Efficient Reasoning](https://arxiv.org/abs/2608.04771)
+- [NSF-HRPT: Neural Semantic Field meets Hierarchical Risk Perception Tree for Safety-Critical Scenario Assessment](https://arxiv.org/abs/2608.04776)
+- [ContextWeave: A Real-World Workflow Benchmark](https://arxiv.org/abs/2608.04830)
+- [MetaVideoAgent: Automated Video-Agent Evolution for Long-Form Video Understanding](https://arxiv.org/abs/2608.04587)
+- [AudioScape-TTA: A Structured Soundscape Benchmark for Fine-Grained Text-to-Audio Evaluation](https://arxiv.org/abs/2608.04479)
+- [A Model Merging Approach for Continual MLLM Unlearning](https://arxiv.org/abs/2608.04548)
+- [EuroExec: Frontier Language Models Fall Short of Expert Judgment on European Executive Decision Tasks](https://arxiv.org/abs/2608.04549)
+- [Feedback Loops and Code Perturbations in LLM-based Software Engineering: A Case Study on a C-to-Rust Translation System](https://arxiv.org/abs/2512.02567)
+
+#### Benchmarking and Evaluation
+- [FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables](https://arxiv.org/abs/2608.04077)
+- [BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding](https://arxiv.org/abs/2608.04156)
+- [ContextWeave: A Real-World Workflow Benchmark](https://arxiv.org/abs/2608.04830)
+- [ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction](https://arxiv.org/abs/2607.29677)
+- [CompanionBench: A Theory-Anchored, Real-World-Grounded Benchmark for AI Emotional Companionship](https://arxiv.org/abs/2608.02046)
+
+#### Applications in Healthcare and Medicine
+- [FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents](https://arxiv.org/abs/2608.04095)
+- [MediRec: Enhancing Chinese Medication Recommendation with Explainable Clinical Reasoning](https://arxiv.org/abs/2510.21084)
+- [DeepImagine: Clinical Trial Outcome Prediction via Stepwise Local Counterfactual Imaginations](https://arxiv.org/abs/2604.23054)
+- [SleepVLM: An Endoscopy Vision-Language Model for Auditable Sleep Staging](https://arxiv.org/abs/2603.26738)
+- [Memorization in Large Language Models in Medicine: Prevalence, Characteristics, and Implications](https://arxiv.org/abs/2509.08604)
+
+#### Robotics and Autonomous Systems
+- [MetaVideoAgent: Automated Video-Agent Evolution for Long-Form Video Understanding](https://arxiv.org/abs/2608.04587)
+- [PhyAI: Real-Time Physical AI at the Edge, Scalable Rollouts in the Cloud](https://arxiv.org/abs/2607.13028)
+- [Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition](https://arxiv.org/abs/2608.05115)
+
+#### Miscellaneous
+- [The Calibration Floor: Format Repair Can Masquerade as Self-Correction at Small-to-Mid Scale](https://arxiv.org/abs/2608.04355)
+- [The Sample Complexity of Distributionally Robust PAC Learning under Cressie--Read Divergences](https://tldr.takara.ai/p/2608.04686)
+- [The Effect of Perceived Race and Gender on Police Language Use: Experimental Evidence from VR Simulations](https://arxiv.org/abs/2608.05050)
+- [War in the Abstract: The Rise and Consequences of Militarized Language in Scientific Communication](https://arxiv.org/abs/2606.23462)
+
+This summary and categorization provide a comprehensive overview of the recent AI papers and news articles, highlighting their contributions and implications across various domains.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Articles Related to Security
+
+#### Key Themes and Trends
+1. **Security in AI Systems**: A significant number of papers focus on enhancing the security of AI systems, particularly in the context of large language models (LLMs) and their applications. This includes addressing vulnerabilities to adversarial attacks, ensuring robustness against malicious fine-tuning, and improving the reliability of outputs.
+
+2. **Memory and Context Management**: Several studies emphasize the importance of memory systems in AI agents, particularly for long-term reasoning and decision-making. The integration of memory allows agents to retain and utilize past experiences, which is crucial for tasks requiring contextual understanding.
+
+3. **Evaluation and Benchmarking**: There is a strong focus on developing benchmarks and evaluation frameworks to assess the performance and safety of AI systems. This includes measuring the robustness of models against various attack vectors and ensuring that they can generalize across different tasks and environments.
+
+4. **Multi-Agent Systems**: The exploration of multi-agent systems is prevalent, with research investigating how agents can collaborate, share knowledge, and improve their decision-making processes through interaction.
+
+5. **Causal Reasoning and Interpretability**: Many papers highlight the need for models to not only perform tasks but also to provide interpretable and explainable outputs. This is particularly important in sensitive domains such as healthcare and law, where understanding the reasoning behind decisions is critical.
+
+6. **Data Integrity and Privacy**: The integrity of data used for training and inference is a recurring theme, with discussions on how to prevent data poisoning and ensure that models do not inadvertently leak sensitive information.
+
+#### Notable Papers and Their Contributions
+- **"Leak-Resistant Unlearning"**: This paper introduces a benchmark for evaluating the robustness of unlearning methods in LLMs, highlighting vulnerabilities in multi-hop reasoning paths and recovery attacks. It emphasizes the need for effective unlearning strategies to protect sensitive knowledge.
+
+- **"Dynamic Jailbreaking Attack"**: This work presents a novel attack methodology that adapts to monitoring systems, demonstrating that even under continuous observation, adversarial actions can still be effective. It underscores the importance of understanding the dynamics of AI interactions.
+
+- **"Gradient Immunity"**: This paper discusses a framework for protecting LLMs from malicious fine-tuning by introducing a safety gate that suppresses harmful inputs while allowing for safe operation. It highlights the need for robust defenses against adversarial manipulation.
+
+- **"Feedback Loops and Code Perturbations"**: This study examines how feedback loops in coding agents can influence their performance, particularly in the context of software engineering tasks. It emphasizes the importance of understanding the interplay between model selection and feedback mechanisms.
+
+- **"Counterfactual-Faithful Quantization"**: This research addresses the challenges of quantization in decision systems, particularly in maintaining the ability to provide actionable recourse. It proposes a method that ensures quantization does not compromise the model's decision-making capabilities.
+
+- **"When Outputs Disperse, Does Epistemic Revision Follow?"**: This paper explores the relationship between output diversity in LLMs and their ability to revise their epistemic stance, providing insights into how models can be designed to better handle uncertainty and variability in outputs.
+
+### Conclusion
+The landscape of AI research is increasingly focused on security, robustness, and interpretability, particularly in the context of LLMs and multi-agent systems. The development of benchmarks and evaluation frameworks is crucial for assessing the performance of these systems, especially in sensitive applications. As AI continues to evolve, addressing the challenges of data integrity, adversarial attacks, and the need for transparent reasoning will be essential for building trust and ensuring safe deployment in real-world scenarios.
