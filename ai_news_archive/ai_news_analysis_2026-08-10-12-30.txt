@@ -1,0 +1,214 @@
+AI Researcher Agent Report for 2026-08-10-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning](https://arxiv.org/abs/2608.06394): This paper proposes a Multi-Semantic Basis Graph Foundation Model (MSB-GFM) for multi-label node classification in graph learning, addressing limitations in cross-domain generalization and semantic entanglement.
+- [EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs](https://arxiv.org/abs/2608.06398): This paper introduces EntropyMoE, a Mixture-of-Experts architecture that adapts to variations in patch semantics and granularity in tokenizer-free large language models (LLMs).
+- [Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast](https://arxiv.org/abs/2608.06400): This work presents CoCo, a method for interpreting Mixture-of-Experts reward models by analyzing response pairs to capture expert behavior more faithfully.
+- [Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes](https://arxiv.org/abs/2608.06402): This paper introduces LUCID, an interpretable unsupervised community detection method leveraging large language models to identify cohesive groups in complex graph structures.
+- [ADIAS: Automated Design of Interactive Agentic Systems](https://arxiv.org/abs/2608.06410): This paper presents ADIAS, a framework for automated agent design that focuses on issue-centric optimization to improve repair targeting and efficiency.
+- [Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Pruning](https://arxiv.org/abs/2608.06411): This work proposes Middle-layer Attention Prediction (MAP) to enhance visual token pruning in multimodal large language models (MLLMs).
+- [WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader](https://arxiv.org/abs/2608.06474): This paper introduces WebGrader, a self-evolving programmatic grader for training LLMs in web development tasks.
+- [Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding](https://arxiv.org/abs/2608.06501): This work presents C4, a framework for evaluating the creative capabilities of multimodal large language models (MLLMs) through cross-concept understanding.
+- [KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning](https://arxiv.org/abs/2608.06530): This paper introduces KnowPlan, a framework for automated degree pathway planning that reconstructs curriculum data and optimizes student-specific paths.
+- [TaskSense: Focusing on What Matters in World Models](https://arxiv.org/abs/2608.06544): This work presents TaskSense, a task-centric world modeling framework that enhances latent representations by focusing on task-relevant content.
+- [Divergent Response Modes in Frontier Language Models Under Steering Pressure](https://arxiv.org/abs/2608.06578): This paper evaluates the behavioral steerability of frontier language models, revealing differences in response modes under explicit steering pressure.
+- [Automated item evaluation: Predicting item acceptance and rejection using LLM-generated critiques](https://arxiv.org/abs/2608.06609): This work develops an automated item evaluation model that predicts item acceptance and rejection based on historical rejection data.
+- [NxN E-valuation: Hypothesis Certification via a Conformal CRT Null](https://arxiv.org/abs/2608.06621): This paper proposes NxN E-valuation, a hypothesis-certification algorithm that verifies hypotheses without constructing case-specific procedures.
+- [Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation](https://arxiv.org/abs/2608.06632): This work presents Shape Your Feed (SYF), a conversational recommendation framework that enables real-time user-steerable content curation.
+- [TRACE: A Multi-Layer Benchmark for Human AI Controller Coordination Under Drift and Failure](https://arxiv.org/abs/2608.06657): This paper introduces a benchmark for diagnosing coordination failures in human-AI control loops.
+- [CellWorld: From Gene-Level Reconstruction to Latent Cell Prediction in Spatial Transcriptomics Foundation Models](https://arxiv.org/abs/2608.06659): This work presents CellWorld, a framework for predicting latent cell representations in spatial transcriptomics.
+- [Vehicle routing problem using deep reinforcement learning - A case study about truck planning in the industry](https://arxiv.org/abs/2608.06668): This paper discusses the application of deep reinforcement learning to optimize vehicle routing problems in logistics.
+- [A Multi-Agent Framework for Automated Coarse-Grained Molecular Dynamics of Polymers](https://arxiv.org/abs/2608.06694): This work presents CGMas, a multi-agent framework for automating coarse-grained molecular dynamics simulations.
+- [AgentPatch: Coarse-to-Fine Weak-Task Repair for Merging Agentic Multimodal Large Language Models](https://arxiv.org/abs/2608.06699): This paper introduces AgentPatch, a framework for repairing weak-task-specific signals in merged multimodal large language models.
+- [WebRider: Persona-Conditioned Intent Controllers for Live-Web Assistance](https://arxiv.org/abs/2608.06704): This work presents WebRider, a framework for managing delegated web tasks through intent contracts.
+- [MolBioKG: Grounding Out-of-Graph Molecules in Biomedical Knowledge Graphs via Multi-Resolution Structural Anchoring](https://arxiv.org/abs/2608.06713): This paper introduces MolBioKG, a system for grounding unseen molecules in biomedical knowledge graphs.
+- [The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows](https://arxiv.org/abs/2608.06714): This work presents ReASearch, a framework for optimizing prompts, programs, and ML workflows through reasoning-driven optimization.
+- [bioMoR: Biology-Guided Mixture-of-Recursions for Effective Genomic Learning](https://arxiv.org/abs/2608.06727): This paper introduces bioMoR, a framework for improving genomic learning through biology-guided mixture-of-recursions.
+- [From Cheap Fakes to Pure Synthesis: Addressing the New Era of T2V Fake News Videos](https://arxiv.org/abs/2608.06732): This work presents a ternary classification task for detecting fake news videos generated by text-to-video models.
+- [IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents](https://arxiv.org/abs/2608.06735): This paper proposes IB-RL, a framework for training strategic dialogue agents through isolated bilateral reinforcement learning.
+- [MemPrism: Task-Conditioned Relational Memory Views for Long-Horizon Agents](https://arxiv.org/abs/2608.06745): This work presents MemPrism, a framework for task-conditioned relational memory in long-horizon agents.
+- [Mind the Gap: A Dual Knowledge Graph Framework for Unified Multi-task User Intent Inference](https://arxiv.org/abs/2608.06752): This paper introduces DKG-MTI, a framework for user intent inference using dual knowledge graphs.
+- [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://arxiv.org/abs/2608.06756): This work presents Capek 0.5, an embodied vision-language model designed for execution-centric capabilities.
+- [LiFTER: A Grounded Neuro-Symbolic Microscope for Continuous-Time Dynamic Graph Forecasting](https://arxiv.org/abs/2608.06765): This paper introduces LiFTER, a neuro-symbolic predictor for continuous-time dynamic graph forecasting.
+- [Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts](https://arxiv.org/abs/2608.06770): This work presents Surg-UniWorld, a surgical world model that integrates multimodal control experts.
+- [Evolving Parallel Algorithm Portfolios via Potential-Aware Instance Generation with LLMs](https://arxiv.org/abs/2608.06808): This paper introduces PIAC, a framework for evolving algorithm portfolios through potential-aware instance generation.
+- [Gated-BEPO: Confidence-Gated Bellman Credit Assignment for Large Language Model Agents](https://arxiv.org/abs/2608.06861): This work presents Gated-BEPO, a method for assigning credit in reinforcement learning for LLM agents.
+- [CEDAR: Agent-Orchestrated Tree Search for Goal-Directed Optimization of Complex Systems](https://arxiv.org/abs/2608.06871): This paper introduces CEDAR, a method for optimizing complex systems using agent-orchestrated tree search.
+- [SkillEval: Decomposing Agent Skill Quality into Interpretable Signals](https://arxiv.org/abs/2608.06891): This work presents SkillEval, a framework for evaluating agent skills based on interpretable signals.
+- [From Points to Edges: Edge-Conditioned Spectral Operators for Physics-Sensitive PDE Learning](https://arxiv.org/abs/2608.06894): This paper introduces ESO, a spectral operator framework for learning physics-sensitive PDEs.
+- [Long-Horizon Agent Trajectory Attribution: A Unified Benchmark and Fine-Grained Annotation Framework](https://arxiv.org/abs/2608.06909): This work presents a benchmark for trajectory attribution in long-horizon agents.
+- [Fast LapSum: Exact Differentiable Top-k at Million Scale](https://arxiv.org/abs/2608.06912): This paper introduces Fast LapSum, a differentiable top-k primitive for large-scale models.
+- [ReGraph: Learning to Generate Recipe Graphs from Food Images](https://arxiv.org/abs/2608.06917): This work presents ReGraph, a dataset and framework for generating recipe graphs from food images.
+- [Deal Me Maybe: The Role of Emotions in Multi-Agent Negotiation](https://arxiv.org/abs/2608.06922): This paper investigates how emotions affect multi-agent negotiation outcomes.
+- [TRIBE: Predicting Team Performance via Communication Behavior Ensembles](https://arxiv.org/abs/2608.06926): This work presents TRIBE, a framework for predicting team performance based on communication patterns.
+- [Science Edge Evaluation: SEE the Missing Step Toward Real Scientific Discovery](https://arxiv.org/abs/2608.06931): This paper introduces Science Edge Evaluation (SEE), a benchmark for evaluating LLMs in scientific discovery.
+- [Blind to the Pivotal Vote: Aggregate Independence Metrics Miss Where Verification Actually Helps](https://arxiv.org/abs/2608.06940): This work analyzes the effectiveness of LLM judge panels in evaluation tasks.
+- [LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents](https://arxiv.org/abs/2608.06948): This paper discusses the need for modality transfer in GIS workflows for AI models.
+- [Does Splitting a Triage Decision Across Agents Hide Bias or Help Catch It? A Multi-Agent Simulation Study of LLM-Based Resource Allocation Under Audit Capacity Constraints](https://arxiv.org/abs/2608.06949): This work investigates the effects of multi-agent systems on bias in resource allocation decisions.
+- [Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation](https://arxiv.org/abs/2608.06955): This paper examines how LLMs reflect critical acclaim in film evaluations.
+- [CAi Copilot: Reducing Operational Workload in Molecular Design through Intent-Driven Agentic Workflows](https://arxiv.org/abs/2608.06961): This work presents CAi Copilot, a framework for automating molecular design workflows.
+- [Learning in Deep Networks under Dale's Constraint](https://arxiv.org/abs/2608.06963): This paper introduces a neural architecture that adheres to Dale's constraint in learning.
+- [Finding Usable Weight Mechanisms with Tiled SVD](https://arxiv.org/abs/2608.06969): This work proposes a method for extracting mechanisms from linear sites using tiled SVD.
+- [FedLBW: A Loss-Based Weighting Strategy for Federated Learning on Non-IID Data in Wireless Networks](https://arxiv.org/abs/2608.07007): This paper introduces FedLBW, a novel aggregation method for federated learning.
+- [ReQuant: Fixed-Grid Discrete Refinement for Post-Training Quantization](https://arxiv.org/abs/2608.07019): This work presents ReQuant, a refinement procedure for quantized models.
+- [ZIPBrain: Can EEG Foundation Models Be Faster, Locally Deployable, but Accurate?](https://arxiv.org/abs/2608.07033): This paper investigates the efficiency of EEG foundation models.
+- [Not All Problems Are Best Modeled as MILP: A DSL-Centric Framework for Flexible and Accurate Optimization Modeling](https://arxiv.org/abs/2608.07040): This work proposes OptiDSL, a framework for flexible optimization modeling.
+- [Unsupervised Adaptation of PDE Foundation Models](https://arxiv.org/abs/2608.07053): This paper introduces a framework for adapting PDE models without ground-truth solutions.
+- [BONSAI: Evolvability-Guided Tree Search over Skills](https://arxiv.org/abs/2608.07056): This work presents a framework for evolving skills using a Monte Carlo tree search.
+- [Agentic AI: User Empowerment or Enclosure?](https://arxiv.org/abs/2608.06510): This paper discusses the implications of agentic AI on user empowerment and control.
+- [SkillEval: Decomposing Agent Skill Quality into Interpretable Signals](https://arxiv.org/abs/2608.06891): This work presents SkillEval, a framework for evaluating agent skills.
+- [Same Attention, Different Truths: Put Logit-Lens over Visual Attention to Detect and Mitigate LVLM Object Hallucination](https://arxiv.org/abs/2608.07302): This paper proposes a framework for detecting and mitigating object hallucination in LVLMs.
+- [Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On](https://arxiv.org/abs/2605.19035): This work discusses the need for trustworthiness in agent networks.
+- [Playing Games with My Heart: An Evaluation of AI Companion Apps](https://arxiv.org/abs/2605.08093): This paper evaluates AI companion apps for factors that encourage parasocial interaction.
+- [Multi-Legal-Bench: Evaluating LLMs on Legal Reasoning Across Jurisdictions, Languages, and Legal Traditions](https://arxiv.org/abs/2605.29738): This work introduces a benchmark for evaluating LLMs on legal reasoning tasks across different jurisdictions.
+- [Rethinking Evaluation Paradigms in IBP-based Certified Training](https://arxiv.org/abs/2606.02134): This paper discusses the need for multi-objective evaluation in certified training methods.
+- [Learning Visual Spatial Planning from Symbolic State via Modality-Gap-Aware Self-Distillation](https://arxiv.org/abs/2606.06076): This work presents a framework for improving visual spatial planning in LLMs.
+- [SSTQ: Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant](https://arxiv.org/abs/2608.05127): This paper introduces SSTQ, a framework for privacy-preserving vector quantization.
+- [A Study of ASR Adaptation and Representation Dimensionality Reduction in Persian Speech Emotion Recognition Using Whisper](https://arxiv.org/abs/2608.05165): This work investigates the use of Whisper for Persian speech emotion recognition.
+- [Challenges for Musical Education in the Age of AI and Digital Transformation](https://arxiv.org/abs/2608.05176): This paper discusses the impact of AI and digital transformation on music education.
+- [PRISM: Priority-aware Rubric Internalization via Structured Multimodal Data Synthesis](https://arxiv.org/abs/2608.05249): This work presents PRISM, a framework for synthesizing structured multimodal data for rubric comprehension.
+- [Learning to Walk With Less: A Dyna-Style Approach to Quadrupedal Locomotion](https://arxiv.org/abs/2509.06296): This paper presents a Dyna-style approach to improve sample efficiency in quadrupedal locomotion.
+- [Evaluating Useful Surrogate Models for Configuration Tuning Beyond Accuracy: A Fitness Landscape Analysis Perspective](https://arxiv.org/abs/2509.21945): This work explores the role of surrogate models in configuration tuning for software systems.
+- [Provable Training Data Identification for Large Language Models](https://arxiv.org/abs/2510.09717): This paper introduces a framework for identifying training data of large language models.
+- [Stability of Transformers under Layer Normalization](https://arxiv.org/abs/2510.09904): This work investigates the stability of Transformers with different layer normalization placements.
+- [A Primer on Optimal Transport for Causal Inference with Observational Data](https://arxiv.org/abs/2503.07811): This paper discusses the connections between optimal transport and causal inference.
+- [PURe: A Plug-and-Play Product-Unit Residual Module for Vision Networks](https://arxiv.org/abs/2505.04397): This work presents PURe, a product-unit residual module for deep vision networks.
+- [Minimal Ingredients for Reward Assignment from Expert Demonstrations](https://arxiv.org/abs/2506.06793): This paper explores the minimal structure required for effective reward assignment in imitation learning.
+- [Learning to Walk With Less: A Dyna-Style Approach to Quadrupedal Locomotion](https://arxiv.org/abs/2509.06296): This work presents a Dyna-style approach to improve sample efficiency in quadrupedal locomotion.
+- [Playing Games with My Heart: An Evaluation of AI Companion Apps](https://arxiv.org/abs/2605.08093): This paper evaluates AI companion apps for factors that encourage parasocial interaction.
+- [Multi-Legal-Bench: Evaluating LLMs on Legal Reasoning Across Jurisdictions, Languages, and Legal Traditions](https://arxiv.org/abs/2605.29738): This work introduces a benchmark for evaluating LLMs on legal reasoning tasks across different jurisdictions.
+
+### Categories
+#### Security
+- [CyberForge: Verified Vulnerability Injection at Repository Level for Cybersecurity Agent Training](https://arxiv.org/abs/2608.06471): This paper presents CyberForge, a framework for synthesizing executable security training data by injecting vulnerabilities into real C/C++ projects.
+- [Bypassing Krum: Selection-Aware Backdoor Attacks in Federated Learning](https://arxiv.org/abs/2608.06637): This work introduces the Krum-Proxy attack, a selection-aware backdoor injection strategy that bypasses Byzantine-robust aggregation.
+- [GRM: Utility-Aware Jailbreak Attacks on Audio LLMs via Gradient-Ratio Masking](https://arxiv.org/abs/2604.09222): This paper proposes a utility-aware, frequency-selective jailbreak framework for audio LLMs.
+- [LoRAScan: Detecting Backdoor Prompts in Low-Rank Adapters for Large Language Models via Down-Projection Activation Spikes](https://arxiv.org/abs/2608.06795): This work introduces LoRAScan, a framework for detecting and rejecting trigger-bearing inputs in backdoored adapters.
+
+#### AI and Machine Learning
+- [Towards Multi-Label Graph Foundation Models: from Single-Vector Representation Learning to Multi-Semantic Basis Learning](https://arxiv.org/abs/2608.06394): This paper proposes a Multi-Semantic Basis Graph Foundation Model for multi-label node classification.
+- [EntropyMoE: Entropy-Aware Sparse Expert Routing for Tokenizer-Free LLMs](https://arxiv.org/abs/2608.06398): This work introduces EntropyMoE, a Mixture-of-Experts architecture for tokenizer-free LLMs.
+- [Beyond Routing Weights: Faithful Response-Level Interpretation of Mixture-of-Experts Reward Models via Contribution Contrast](https://arxiv.org/abs/2608.06400): This paper presents CoCo, a method for interpreting Mixture-of-Experts reward models.
+- [Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes](https://arxiv.org/abs/2608.06402): This work introduces LUCID, an interpretable unsupervised community detection method.
+- [ADIAS: Automated Design of Interactive Agentic Systems](https://arxiv.org/abs/2608.06410): This paper presents ADIAS, a framework for automated agent design.
+- [Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Pruning](https://arxiv.org/abs/2608.06411): This work proposes Middle-layer Attention Prediction for visual token pruning in MLLMs.
+- [WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader](https://arxiv.org/abs/2608.06474): This paper introduces WebGrader, a self-evolving programmatic grader for training LLMs.
+- [Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding](https://arxiv.org/abs/2608.06501): This work presents C4, a framework for evaluating the creative capabilities of MLLMs.
+- [KNOWPLAN: Knowledge-Driven AI Agents for Smart Degree Pathway Planning](https://arxiv.org/abs/2608.06530): This paper introduces KnowPlan, a framework for automated degree pathway planning.
+- [TaskSense: Focusing on What Matters in World Models](https://arxiv.org/abs/2608.06544): This work presents TaskSense, a task-centric world modeling framework.
+- [Divergent Response Modes in Frontier Language Models Under Steering Pressure](https://arxiv.org/abs/2608.06578): This paper evaluates the behavioral steerability of frontier language models.
+- [Automated item evaluation: Predicting item acceptance and rejection using LLM-generated critiques](https://arxiv.org/abs/2608.06609): This work develops an automated item evaluation model.
+- [NxN E-valuation: Hypothesis Certification via a Conformal CRT Null](https://arxiv.org/abs/2608.06621): This paper proposes NxN E-valuation, a hypothesis-certification algorithm.
+- [Shape Your Feed: An LLM-based Agentic System for Conversational Recommendation](https://arxiv.org/abs/2608.06632): This work presents Shape Your Feed, a conversational recommendation framework.
+- [TRACE: A Multi-Layer Benchmark for Human AI Controller Coordination Under Drift and Failure](https://arxiv.org/abs/2608.06657): This paper introduces a benchmark for diagnosing coordination failures in human-AI control loops.
+- [CellWorld: From Gene-Level Reconstruction to Latent Cell Prediction in Spatial Transcriptomics Foundation Models](https://arxiv.org/abs/2608.06659): This work presents CellWorld, a framework for predicting latent cell representations.
+- [Vehicle routing problem using deep reinforcement learning - A case study about truck planning in the industry](https://arxiv.org/abs/2608.06668): This paper discusses the application of deep reinforcement learning to optimize vehicle routing problems.
+- [A Multi-Agent Framework for Automated Coarse-Grained Molecular Dynamics of Polymers](https://arxiv.org/abs/2608.06694): This work presents CGMas, a multi-agent framework for automating molecular dynamics simulations.
+- [AgentPatch: Coarse-to-Fine Weak-Task Repair for Merging Agentic Multimodal Large Language Models](https://arxiv.org/abs/2608.06699): This paper introduces AgentPatch, a framework for repairing weak-task-specific signals.
+- [WebRider: Persona-Conditioned Intent Controllers for Live-Web Assistance](https://arxiv.org/abs/2608.06704): This work presents WebRider, a framework for managing delegated web tasks.
+- [MolBioKG: Grounding Out-of-Graph Molecules in Biomedical Knowledge Graphs via Multi-Resolution Structural Anchoring](https://arxiv.org/abs/2608.06713): This paper introduces MolBioKG, a system for grounding unseen molecules.
+- [The Optimizer Is the Agent: Reasoning-Driven Search across Prompts, Programs, and ML Workflows](https://arxiv.org/abs/2608.06714): This work presents ReASearch, a framework for optimizing prompts and programs.
+- [bioMoR: Biology-Guided Mixture-of-Recursions for Effective Genomic Learning](https://arxiv.org/abs/2608.06727): This paper introduces bioMoR, a framework for improving genomic learning.
+- [From Cheap Fakes to Pure Synthesis: Addressing the New Era of T2V Fake News Videos](https://arxiv.org/abs/2608.06732): This work presents a ternary classification task for detecting fake news videos.
+- [IB-RL: Isolated Bilateral Reinforcement Learning for Strategic Dialogue Agents](https://arxiv.org/abs/2608.06735): This paper proposes IB-RL, a framework for training strategic dialogue agents.
+- [MemPrism: Task-Conditioned Relational Memory Views for Long-Horizon Agents](https://arxiv.org/abs/2608.06745): This work presents MemPrism, a framework for task-conditioned relational memory.
+- [Mind the Gap: A Dual Knowledge Graph Framework for Unified Multi-task User Intent Inference](https://arxiv.org/abs/2608.06752): This paper introduces DKG-MTI, a framework for user intent inference.
+- [Capek 0.5: An Execution-Centric Vision-Language Model for Embodied Intelligence](https://arxiv.org/abs/2608.06756): This work presents Capek 0.5, an embodied vision-language model.
+- [LiFTER: A Grounded Neuro-Symbolic Microscope for Continuous-Time Dynamic Graph Forecasting](https://arxiv.org/abs/2608.06765): This paper introduces LiFTER, a neuro-symbolic predictor for dynamic graph forecasting.
+- [Surg-UniWorld: A Unified Surgical World Model with Multimodal Control Experts](https://arxiv.org/abs/2608.06770): This work presents Surg-UniWorld, a surgical world model.
+- [Evolving Parallel Algorithm Portfolios via Potential-Aware Instance Generation with LLMs](https://arxiv.org/abs/2608.06808): This paper introduces PIAC, a framework for evolving algorithm portfolios.
+- [Gated-BEPO: Confidence-Gated Bellman Credit Assignment for Large Language Model Agents](https://arxiv.org/abs/2608.06861): This work presents Gated-BEPO, a method for assigning credit in reinforcement learning.
+- [CEDAR: Agent-Orchestrated Tree Search for Goal-Directed Optimization of Complex Systems](https://arxiv.org/abs/2608.06871): This paper introduces CEDAR, a method for optimizing complex systems.
+- [SkillEval: Decomposing Agent Skill Quality into Interpretable Signals](https://arxiv.org/abs/2608.06891): This work presents SkillEval, a framework for evaluating agent skills.
+- [From Points to Edges: Edge-Conditioned Spectral Operators for Physics-Sensitive PDE Learning](https://arxiv.org/abs/2608.06894): This paper introduces ESO, a spectral operator framework for learning PDEs.
+- [Long-Horizon Agent Trajectory Attribution: A Unified Benchmark and Fine-Grained Annotation Framework](https://arxiv.org/abs/2608.06909): This work presents a benchmark for trajectory attribution.
+- [Fast LapSum: Exact Differentiable Top-k at Million Scale](https://arxiv.org/abs/2608.06912): This paper introduces Fast LapSum, a differentiable top-k primitive.
+- [ReGraph: Learning to Generate Recipe Graphs from Food Images](https://arxiv.org/abs/2608.06917): This work presents ReGraph, a dataset and framework for recipe generation.
+- [Deal Me Maybe: The Role of Emotions in Multi-Agent Negotiation](https://arxiv.org/abs/2608.06922): This paper investigates emotions in negotiation.
+- [TRIBE: Predicting Team Performance via Communication Behavior Ensembles](https://arxiv.org/abs/2608.06926): This work presents TRIBE, a framework for predicting team performance.
+- [Science Edge Evaluation: SEE the Missing Step Toward Real Scientific Discovery](https://arxiv.org/abs/2608.06931): This paper introduces SEE, a benchmark for evaluating LLMs in scientific discovery.
+- [Blind to the Pivotal Vote: Aggregate Independence Metrics Miss Where Verification Actually Helps](https://arxiv.org/abs/2608.06940): This work analyzes LLM judge panels.
+- [LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents](https://arxiv.org/abs/2608.06948): This paper discusses modality transfer in GIS workflows.
+- [Does Splitting a Triage Decision Across Agents Hide Bias or Help Catch It? A Multi-Agent Simulation Study of LLM-Based Resource Allocation Under Audit Capacity Constraints](https://arxiv.org/abs/2608.06949): This work investigates multi-agent systems and bias.
+- [Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation](https://arxiv.org/abs/2608.06955): This paper examines critical acclaim in film evaluations.
+- [CAi Copilot: Reducing Operational Workload in Molecular Design through Intent-Driven Agentic Workflows](https://arxiv.org/abs/2608.06961): This work presents CAi Copilot, a framework for molecular design workflows.
+- [Learning in Deep Networks under Dale's Constraint](https://arxiv.org/abs/2608.06963): This paper introduces a neural architecture adhering to Dale's constraint.
+- [Finding Usable Weight Mechanisms with Tiled SVD](https://arxiv.org/abs/2608.06969): This work proposes a method for extracting mechanisms using tiled SVD.
+- [FedLBW: A Loss-Based Weighting Strategy for Federated Learning on Non-IID Data in Wireless Networks](https://arxiv.org/abs/2608.07007): This paper introduces FedLBW, a novel aggregation method for federated learning.
+- [ReQuant: Fixed-Grid Discrete Refinement for Post-Training Quantization](https://arxiv.org/abs/2608.07019): This work presents ReQuant, a refinement procedure for quantized models.
+- [ZIPBrain: Can EEG Foundation Models Be Faster, Locally Deployable, but Accurate?](https://arxiv.org/abs/2608.07033): This paper investigates EEG foundation models' efficiency.
+- [Not All Problems Are Best Modeled as MILP: A DSL-Centric Framework for Flexible Optimization Modeling](https://arxiv.org/abs/2608.07040): This work proposes OptiDSL, a flexible optimization modeling framework.
+- [Unsupervised Adaptation of PDE Foundation Models](https://arxiv.org/abs/2608.07053): This paper introduces a framework for adapting PDE models without ground-truth solutions.
+- [BONSAI: Evolvability-Guided Tree Search over Skills](https://arxiv.org/abs/2608.07056): This work presents a framework for evolving skills using a Monte Carlo tree search.
+- [Agentic AI: User Empowerment or Enclosure?](https://arxiv.org/abs/2608.06510): This paper discusses the implications of agentic AI on user empowerment.
+- [SkillEval: Decomposing Agent Skill Quality into Interpretable Signals](https://arxiv.org/abs/2608.06891): This work presents SkillEval, a framework for evaluating agent skills.
+- [Same Attention, Different Truths: Put Logit-Lens over Visual Attention to Detect and Mitigate LVLM Object Hallucination](https://arxiv.org/abs/2608.07302): This paper proposes a framework for detecting and mitigating object hallucination in LVLMs.
+- [Trustworthy Agent Network: Trust in Agent Networks Must Be Baked In, Not Bolted On](https://arxiv.org/abs/2605.19035): This work discusses the need for trustworthiness in agent networks.
+- [Playing Games with My Heart: An Evaluation of AI Companion Apps](https://arxiv.org/abs/2605.08093): This paper evaluates AI companion apps for factors that encourage parasocial interaction.
+- [Multi-Legal-Bench: Evaluating LLMs on Legal Reasoning Across Jurisdictions, Languages, and Legal Traditions](https://arxiv.org/abs/2605.29738): This work introduces a benchmark for evaluating LLMs on legal reasoning tasks across different jurisdictions.
+- [Rethinking Evaluation Paradigms in IBP-based Certified Training](https://arxiv.org/abs/2606.02134): This paper discusses the need for multi-objective evaluation in certified training methods.
+- [Learning Visual Spatial Planning from Symbolic State via Modality-Gap-Aware Self-Distillation](https://arxiv.org/abs/2606.06076): This work presents a framework for improving visual spatial planning in LLMs.
+- [SSTQ: Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant](https://arxiv.org/abs/2608.05127): This paper introduces SSTQ, a framework for privacy-preserving vector quantization.
+- [A Study of ASR Adaptation and Representation Dimensionality Reduction in Persian Speech Emotion Recognition Using Whisper](https://arxiv.org/abs/2608.05165): This work investigates the use of Whisper for Persian speech emotion recognition.
+- [Challenges for Musical Education in the Age of AI and Digital Transformation](https://arxiv.org/abs/2608.05176): This paper discusses the impact of AI and digital transformation on music education.
+- [PRISM: Priority-aware Rubric Internalization via Structured Multimodal Data Synthesis](https://arxiv.org/abs/2608.05249): This work presents PRISM, a framework for synthesizing structured multimodal data for rubric comprehension.
+- [Learning to Walk With Less: A Dyna-Style Approach to Quadrupedal Locomotion](https://arxiv.org/abs/2509.06296): This paper presents a Dyna-style approach to improve sample efficiency in quadrupedal locomotion.
+- [Evaluating Useful Surrogate Models for Configuration Tuning Beyond Accuracy: A Fitness Landscape Analysis Perspective](https://arxiv.org/abs/2509.21945): This work explores the role of surrogate models in configuration tuning for software systems.
+- [Provable Training Data Identification for Large Language Models](https://arxiv.org/abs/2510.09717): This paper introduces a framework for identifying training data of large language models.
+- [Stability of Transformers under Layer Normalization](https://arxiv.org/abs/2510.09904): This work investigates the stability of Transformers with different layer normalization placements.
+- [A Primer on Optimal Transport for Causal Inference with Observational Data](https://arxiv.org/abs/2503.07811): This paper discusses the connections between optimal transport and causal inference.
+- [PURe: A Plug-and-Play Product-Unit Residual Module for Vision Networks](https://arxiv.org/abs/2505.04397): This work presents PURe, a product-unit residual module for deep vision networks.
+- [Minimal Ingredients for Reward Assignment from Expert Demonstrations](https://arxiv.org/abs/2506.06793): This paper explores the minimal structure required for effective reward assignment in imitation learning.
+- [Learning to Walk With Less: A Dyna-Style Approach to Quadrupedal Locomotion](https://arxiv.org/abs/2509.06296): This work presents a Dyna-style approach to improve sample efficiency in quadrupedal locomotion.
+- [Playing Games with My Heart: An Evaluation of AI Companion Apps](https://arxiv.org/abs/2605.08093): This paper evaluates AI companion apps for factors that encourage parasocial interaction.
+- [Multi-Legal-Bench: Evaluating LLMs on Legal Reasoning Across Jurisdictions, Languages, and Legal Traditions](https://arxiv.org/abs/2605.29738): This work introduces a benchmark for evaluating LLMs on legal reasoning tasks across different jurisdictions.
+
+### Additional Insights on Security-Related Papers
+- **Cybersecurity**: The papers discussing backdoor attacks and vulnerability injections highlight the growing concern of adversarial threats in AI systems, especially in federated learning and LLMs. The introduction of frameworks like CyberForge and Krum-Proxy emphasizes the need for robust defenses against such attacks, ensuring the integrity and reliability of AI systems in sensitive applications.
+- **Safety and Trust**: The discussions around agent networks and the need for baked-in trust mechanisms reflect a critical area of research in ensuring that AI systems operate safely and ethically, particularly as they become more autonomous and integrated into decision-making processes. The exploration of trustworthiness in agent networks is essential for developing reliable AI systems that can be deployed in real-world scenarios.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends
+1. **Security and Robustness of AI Systems**: Many papers focus on enhancing the security and robustness of AI systems, particularly in the context of adversarial attacks, backdoor vulnerabilities, and the integrity of AI-generated outputs. For instance, the introduction of frameworks like **LoRAScan** and **Krum-Proxy** highlights the need for effective defenses against malicious inputs and the importance of maintaining the integrity of AI systems.
+
+2. **Trust and Explainability**: The importance of trust in AI systems is emphasized through various studies, such as those exploring **Trustworthy Agent Networks** and **Judge a Book by its Cover**. These works highlight the necessity of transparency and explainability in AI decision-making processes, especially in high-stakes environments like healthcare and finance.
+
+3. **Causal Reasoning and Decision-Making**: Several papers explore the integration of causal reasoning into AI systems, which is crucial for understanding the implications of AI decisions. For example, **Counterfactual Shapley Credit Assignment** and **Causal Abstractions for MDPs** focus on improving the decision-making capabilities of AI agents by grounding them in causal frameworks.
+
+4. **Data Privacy and Ethical Considerations**: The ethical implications of AI, particularly in the context of autonomous agents and their potential misuse, are discussed in papers like **The Ethics of Autonomous AI Agents for Offensive Security**. This highlights the need for ethical guidelines and frameworks to govern the deployment of AI technologies.
+
+5. **AI in Specific Domains**: There is a growing trend of applying AI to specialized domains such as finance, healthcare, and legal systems. Papers like **FinanceHarness** and **Multi-Legal-Bench** demonstrate the potential of AI to enhance decision-making and operational efficiency in these fields, while also addressing the associated risks.
+
+6. **Benchmarking and Evaluation**: The establishment of new benchmarks, such as **Multi-Legal-Bench** and **SABRE**, reflects an ongoing effort to create standardized evaluation frameworks for assessing AI systems' performance, particularly in complex and dynamic environments.
+
+#### Notable Papers and Contributions
+- **LoRAScan**: A framework for detecting and rejecting trigger-bearing inputs in backdoored adapters, achieving high accuracy in identifying malicious inputs while maintaining performance on clean inputs.
+  
+- **Krum-Proxy**: A selection-aware backdoor injection strategy that optimizes malicious updates to infiltrate the dense core of benign distributions, demonstrating the vulnerabilities of distance-based aggregation methods.
+
+- **Trustworthy Agent Networks**: A conceptual framework emphasizing the need for trust to be built into the architecture of agent networks from the outset, rather than retrofitted.
+
+- **Counterfactual Shapley Credit Assignment**: A novel framework for credit assignment in reinforcement learning that isolates causal drivers of observed outcomes from spurious correlations.
+
+- **FinanceHarness**: A framework for automating financial deep research, demonstrating the effectiveness of specialized harness designs in improving research quality.
+
+- **Multi-Legal-Bench**: A cross-jurisdictional legal benchmark that evaluates identical tasks across multiple countries and languages, providing insights into the performance of LLMs in legal reasoning.
+
+### Insights and Future Directions
+- **Interdisciplinary Approaches**: The integration of insights from various fields, such as psychology, ethics, and computer science, is crucial for developing robust and trustworthy AI systems. Future research should continue to explore these intersections.
+
+- **Emphasis on Causality**: As AI systems become more autonomous, the need for causal reasoning in decision-making processes will become increasingly important. Research should focus on developing frameworks that allow AI to understand and predict the consequences of its actions.
+
+- **Ethical Frameworks**: The rapid advancement of AI technologies necessitates the establishment of ethical guidelines and frameworks to govern their use, particularly in sensitive areas like healthcare and security.
+
+- **Robust Evaluation Metrics**: There is a need for more nuanced evaluation metrics that go beyond traditional accuracy measures to assess the performance of AI systems in real-world scenarios, particularly in the context of security and robustness.
+
+- **Scalability and Efficiency**: As AI systems are deployed in more complex environments, research should focus on improving the scalability and efficiency of these systems, ensuring they can operate effectively under various constraints.
+
+In conclusion, the landscape of AI security and robustness is evolving rapidly, with significant advancements in methodologies, frameworks, and applications. Ongoing research will be essential to address the challenges posed by adversarial attacks, ethical considerations, and the need for transparency and trust in AI systems.
