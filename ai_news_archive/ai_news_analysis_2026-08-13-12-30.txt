@@ -1,0 +1,348 @@
+AI Researcher Agent Report for 2026-08-13-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes](https://arxiv.org/abs/2608.11207): This paper explores how a control-theoretic governance layer can help two LLM agents with opposing objectives collaborate effectively. The Experience Orchestrator (EO) improves advisor contact rates in financial services simulations.
+- [Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration](https://arxiv.org/abs/2608.11210): Introduces Distribird, a tool that automates the creation of informative prior distributions for Bayesian models by extracting data from scientific literature, enhancing the quality of Bayesian calibration.
+- [A Forced-Structure Reduction and Verifiable Bounds for Conway's 99-Graph](https://arxiv.org/abs/2608.11211): Reports a systematic attack on Conway's 99-graph problem, providing proofs and a forced-structure reduction that contributes to understanding the existence of certain strongly regular graphs.
+- [Detecting a Route Flip Is Easier Than Knowing Whether to Fix It: Causal Route-Mediated Damage in Quantized Mixture-of-Experts](https://arxiv.org/abs/2608.11212): Discusses the challenges of route flips in Mixture-of-Experts models and presents a causal framework for understanding and detecting these issues.
+- [Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop](https://arxiv.org/abs/2608.11215): Proposes a method for simulating societies of LLM agents using low-parameter models to study macroscopic behaviors without the computational expense of full LLM simulations.
+- [AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research](https://arxiv.org/abs/2608.11216): Introduces a benchmark for evaluating coding agents in world-model research, focusing on autonomous improvements in world models across various game environments.
+- [MaSRead: Content-Addressed Reading of Replicated Latent Stores](https://arxiv.org/abs/2608.11218): Presents a method for addressing the challenges of reading from replicated latent stores in AI systems, focusing on content-addressability and retrieval efficiency.
+- [From Monolithic to Modular: Segment-level Automatic Prompt Optimization](https://arxiv.org/abs/2608.11219): Introduces SAPO, a method for optimizing prompts at a segment level to improve performance across various NLP tasks.
+- [LLMs in Process Diagram Engineering: From Optimal PFDs to Validated P&IDs](https://arxiv.org/abs/2608.11220): Discusses an AI pipeline for automating the creation of process flow diagrams and their transformation into piping and instrumentation diagrams.
+- [A Conceptual Framework for Refining Influence Knowledge from Simulation Evidence in Cyber-Physical Systems](https://arxiv.org/abs/2608.11221): Proposes a framework for refining simulation evidence in cyber-physical systems, focusing on understanding system behavior through iterative refinement.
+- [Harnessing agent memory to build lifelong AI partners for materials scientists](https://arxiv.org/abs/2608.11224): Discusses the design of AI partners for materials science that leverage persistent memory for improved knowledge transfer and reproducibility.
+- [Identity from the Outside: A Conceptual Framework and Research Program for AI Personality Clones](https://arxiv.org/abs/2608.11225): Explores the implications of AI personality clones on identity and proposes a framework for understanding their operational characteristics.
+- [Cutting AI Datacenter Energy with Reinforcement Learning: Measured Power Control of LLM Training from One GPU to the Fleet](https://arxiv.org/abs/2608.11226): Investigates energy management in AI datacenters using reinforcement learning to optimize power control during LLM training.
+- [Forecasting Side Effects of Activation Steering](https://arxiv.org/abs/2608.11227): Analyzes the side effects of activation steering in LLMs and proposes methods for forecasting these effects before implementation.
+- [Synchronizing Beliefs with Second-Order Theory-of-Mind in Human-Autonomy Teams (Extended Version)](https://arxiv.org/abs/2608.11229): Discusses the importance of synchronizing beliefs in human-autonomy teams and introduces a model for preference learning that incorporates a teacher's knowledge.
+- [The Edge-based Contiguous p-median Problem with Connections to Logistics Districting](https://arxiv.org/abs/2608.11230): Introduces a new optimization problem in logistics districting and presents models for solving it efficiently.
+- [LinearKV: One Cached State Suffices for Position-Independent Caching in Hybrid LLMs](https://arxiv.org/abs/2608.11231): Proposes a new caching framework for hybrid LLMs that improves efficiency without sacrificing performance.
+- [InfraBench: Evaluating Infrastructure Agents Across Layers, Lifecycle, and Risk](https://arxiv.org/abs/2608.11234): Presents a benchmark for evaluating AI agents in infrastructure management, highlighting their effectiveness across various tasks.
+- [CORA-Diff: Confidence-Oriented Residual Acceptance for Efficient Diffusion Language Model Inference](https://arxiv.org/abs/2608.11235): Introduces a method for improving the efficiency of diffusion language models by focusing on high-confidence predictions.
+- [Geometry-aware Incremental Neural Operator for Long-Horizon PDE prediction](https://arxiv.org/abs/2608.11237): Proposes a new neural operator for predicting solutions to partial differential equations over long horizons.
+- [Towards Query-Agnostic RAG Evaluation via Query Coverage and Claim Verifiability](https://arxiv.org/abs/2608.11238): Introduces a new evaluation framework for retrieval-augmented generation that focuses on query coverage and claim verifiability.
+- [VQ-bench: A Composable Vector Quantization Framework](https://arxiv.org/abs/2608.11240): Presents a framework for developing and benchmarking vector quantization algorithms.
+- [RecSys Factory: Bounding LLM Agent Autonomy to Decision Points in the Industrial Recommender Lifecycle](https://arxiv.org/abs/2608.11241): Discusses the design of an LLM-agent platform for industrial recommendation systems.
+- [The Off-Support Barrier: Why Semantic Safety Constraints Are Not Learning-Problem Invariants, and What Follows for Prior Design, Containment, and Verification](https://arxiv.org/abs/2608.11243): Explores the challenges of enforcing semantic safety constraints in AI systems and proposes a framework for addressing these issues.
+- [BEST-KAG: Enhancing Question Answering of Building Engineering Standards with Multimodal Knowledge Graph Modeling and Large Language Model](https://arxiv.org/abs/2608.11244): Introduces a framework for improving question answering on building engineering standards using multimodal knowledge graphs.
+- [Towards Sustainable Learning in Online Education: A Reinforcement Learning Approach](https://arxiv.org/abs/2608.11245): Proposes a reinforcement learning model for promoting sustainable learning in online education.
+- [Towards the Harness of Embodied Agents](https://arxiv.org/abs/2608.11246): Discusses the design of embodied agents that can interact with the physical world.
+- [Conformity Mitigations in Large Language Models Lie on a Single Resistance-Receptivity Frontier](https://arxiv.org/abs/2608.11247): Analyzes the effects of peer influence on LLM responses and proposes methods for mitigating conformity.
+- [EvoGraph-Mem: Failure-Aware Editable Graph Memory for Long-Term Language Agents](https://arxiv.org/abs/2608.11248): Introduces a memory maintenance framework for long-term language agents that focuses on insight-level memory management.
+- [AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search](https://arxiv.org/abs/2608.11250): Proposes a system for discovering trading factors using autonomous research methods.
+- [Local verification cannot detect non-transportability: a cohomological theory of context preservation in agentic reasoning](https://arxiv.org/abs/2608.11252): Explores the limitations of local verification in agentic AI systems.
+- [Symbolic Machine Learning for Vapor-Liquid Equilibrium Prediction in Cx-N2 Binary Mixtures](https://arxiv.org/abs/2608.11255): Proposes a symbolic machine learning approach for predicting vapor-liquid equilibrium in binary mixtures.
+- [Adaptive Hybrid Particle Swarm Optimization with Gradient Descent](https://arxiv.org/abs/2608.11258): Introduces a new hybrid optimization method that combines particle swarm optimization with gradient descent.
+- [Glance, Scrutinize, and Think: Advancing Video Anomaly Detection from Training-Free to Agentic Reasoning](https://arxiv.org/abs/2608.11260): Proposes a new framework for video anomaly detection that incorporates human-like reasoning.
+- [Deployment Decision Reliability: A Generalizability-Theory Framework for Sizing Long-Horizon Agent Evaluations](https://arxiv.org/abs/2608.11323): Introduces a framework for evaluating agent performance across different tasks and conditions.
+- [Apodex Discovery: Reality Benchmarks and Environments for Evaluating and Building Discoverative Artificial Intelligence](https://arxiv.org/abs/2608.11341): Proposes a framework for evaluating discoverative AI through reality benchmarks.
+- [Can Frontier LLMs Match Natively Multimodal Embeddings? A Comparison on Hard-Negative Text-to-Image Retrieval](https://arxiv.org/abs/2608.11343): Compares the performance of frontier LLMs against natively multimodal embedding models in text-to-image retrieval tasks.
+- [Inverse Theory of Mind Modeling for Content Recommendation: From Web Browsing to Dynamic Intelligent Interfaces](https://arxiv.org/abs/2608.11354): Proposes a new framework for content recommendation based on inverse theory of mind modeling.
+- [From Numbers to Judgment: Specialist LLM Agents and Reinforcement Learning for European Listed Real Estate](https://arxiv.org/abs/2608.11381): Investigates the effectiveness of specialist LLM agents in financial analysis.
+- [When Self-Consistency Backfires: Majority Vote Hurts the Majority of Hard Science Problems for Small LLMs](https://arxiv.org/abs/2608.11403): Analyzes the effectiveness of self-consistency methods in small LLMs.
+- [Social Chain of Thought: A Multi-Agent Architecture Grounded in Medical Differential Diagnosis Methodology](https://arxiv.org/abs/2608.11420): Introduces a multi-agent architecture for medical diagnosis that structures interactions for collaborative reasoning.
+- [Benchmarking LLM Judges for Mobile Agent Evaluation](https://arxiv.org/abs/2608.11434): Evaluates the effectiveness of LLM-based judges in assessing mobile agent performance.
+- [A Modular Agentic Framework for Synthetically Constrained Multi-Objective Hit-to-Lead Optimization](https://arxiv.org/abs/2608.11483): Proposes a framework for optimizing drug discovery processes.
+- [From Prompting to Behavioral Alignment: Personalized LLM Judges for Recommendation Evaluation](https://arxiv.org/abs/2608.11493): Introduces a framework for aligning LLM judges with user preferences in recommendation tasks.
+- [Localizing Safety Alignment: MLP Layers and Mid-Network Blocks Encode Refusal Behavior in Large Language Models](https://arxiv.org/abs/2608.11583): Investigates the encoding of safety alignment in LLMs and identifies key layers responsible for refusal behavior.
+- [EnterpriseRAG: Benchmarking LLM Instruction Adherence and Robustness under Non-Ideal Enterprise Retrieval](https://arxiv.org/abs/2608.11584): Introduces a benchmark for evaluating LLM performance in enterprise settings.
+- [CoAdapt-GUI: Joint Workflow Context and Policy Adaptation for Unseen GUI Applications](https://arxiv.org/abs/2608.11588): Proposes a framework for adapting agents to new GUI applications.
+- [Learning from Online User Feedback for Shopping Agents](https://arxiv.org/abs/2608.11604): Introduces a framework for improving shopping agents using real-time user feedback.
+- [Foresight Without Seeing: Latent Futures for World Action Models](https://arxiv.org/abs/2608.11605): Proposes a framework for action generation in robotics without explicit future observation.
+- [Hand Visibility Detector: Per-Keypoint Visibility Estimation for Hands](https://arxiv.org/abs/2608.11574): Introduces a model for estimating the visibility of individual hand joints in images.
+- [TradingMoE: Routing the Right Experts in Evolving Markets](https://arxiv.org/abs/2608.11785): Proposes a new routing mechanism for Mixture-of-Experts models in financial trading.
+- [Localizing to Debias: A Patch-Level Benchmark and Baseline for Weakly Supervised Spatial Anomaly Detection](https://arxiv.org/abs/2608.12045): Introduces a benchmark for evaluating spatial anomaly detection models.
+- [Agent Skills Can Be Harmful: An Empirical Study of Skill-Induced Failures in LLM Agents](https://arxiv.org/abs/2608.11888): Analyzes the impact of agent skills on LLM performance.
+- [Uncertainty-Aware Probabilistic Constrained Clustering from Entangled Pairwise Supervision](https://arxiv.org/abs/2608.12027): Proposes a new framework for probabilistic constrained clustering.
+- [12-CNOT Double Qubit Excitation Gate](https://arxiv.org/abs/2608.11733): Introduces a new quantum circuit design for double qubit excitation.
+- [ToolHazard: Scaling Adversarial Environments for Security Evaluation and Alignment of LLM-based Agents](https://arxiv.org/abs/2608.11878): Proposes a framework for evaluating the security of LLM-based agents.
+- [Language-Conditional Dequantization: Recovering What Quantization Steals from Non-English Languages](https://arxiv.org/abs/2608.11786): Introduces a method for improving quantization effects on non-English languages.
+- [VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation](https://arxiv.org/abs/2603.17450): Proposes a new framework for multimodal sequential recommendation.
+- [DREAMS: Density Functional Theory Based Research Engine for Agentic Materials Simulation](https://arxiv.org/abs/2507.14267): Introduces a framework for density functional theory in materials simulation.
+- [How Organizations Use AI: Evidence from ChatGPT](https://arxiv.org/abs/2607.20781): Analyzes the usage of AI in organizations based on ChatGPT data.
+- [AI Guardrail Survival under Single-Cycle Agentic Self-Summarization](https://arxiv.org/abs/2608.11392): Investigates the effects of context compression on AI safety rules.
+- [Cavity-Enhanced Collective Quantum Processing with Polarization-Encoded Qubits](https://arxiv.org/abs/2605.10473): Proposes a new architecture for collective quantum processing.
+- [Learning-Based Behavior Planning for Automated Driving: Real-World Integration and Deployment](https://arxiv.org/abs/2608.12198): Discusses the integration of learning-based planning in automated driving.
+- [The Human-AI Substitution Principle: When will you be replaced by AI in your organization?](https://arxiv.org/abs/2607.20781): Analyzes the conditions under which AI replaces human labor in organizations.
+- [How Far from Clinical Deployment? Evaluating the Complete Unsupervised Domain Adaptation Pipeline in Medical Imaging](https://arxiv.org/abs/2608.12035): Evaluates unsupervised domain adaptation in clinical settings.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Empirical Study Across Roles and Regions](https://arxiv.org/abs/2508.09219): Examines ethical practices in AI development across different roles and regions.
+- [CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D](https://arxiv.org/abs/2509.24528): Proposes a framework for open-vocabulary retrieval in 3D environments.
+- [Adaptive Online Learning with LSTM Networks for Energy Price Prediction](https://arxiv.org/abs/2510.16898): Develops an LSTM-based model for predicting energy prices.
+- [LiDAR-based 3D Change Detection at City Scale](https://arxiv.org/abs/2510.21112): Introduces a method for detecting changes in urban environments using LiDAR data.
+- [MicroAUNet: Boundary-Enhanced Multi-scale Fusion with Knowledge Distillation for Colonoscopy Polyp Image Segmentation](https://arxiv.org/abs/2511.01143): Proposes a new model for polyp segmentation in colonoscopy images.
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597): Investigates prompt injection attacks in AI browser agents and proposes a benchmark for evaluation.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Empirical Study Across Roles and Regions](https://arxiv.org/abs/2508.09219): Examines ethical practices in AI development across different roles and regions.
+- [CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D](https://arxiv.org/abs/2509.24528): Proposes a framework for open-vocabulary retrieval in 3D environments.
+- [Adaptive Online Learning with LSTM Networks for Energy Price Prediction](https://arxiv.org/abs/2510.16898): Develops an LSTM-based model for predicting energy prices.
+- [LiDAR-based 3D Change Detection at City Scale](https://arxiv.org/abs/2510.21112): Introduces a method for detecting changes in urban environments using LiDAR data.
+- [MicroAUNet: Boundary-Enhanced Multi-scale Fusion with Knowledge Distillation for Colonoscopy Polyp Image Segmentation](https://arxiv.org/abs/2511.01143): Proposes a new model for polyp segmentation in colonoscopy images.
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597): Investigates prompt injection attacks in AI browser agents and proposes a benchmark for evaluation.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Empirical Study Across Roles and Regions](https://arxiv.org/abs/2508.09219): Examines ethical practices in AI development across different roles and regions.
+- [CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D](https://arxiv.org/abs/2509.24528): Proposes a framework for open-vocabulary retrieval in 3D environments.
+- [Adaptive Online Learning with LSTM Networks for Energy Price Prediction](https://arxiv.org/abs/2510.16898): Develops an LSTM-based model for predicting energy prices.
+- [LiDAR-based 3D Change Detection at City Scale](https://arxiv.org/abs/2510.21112): Introduces a method for detecting changes in urban environments using LiDAR data.
+- [MicroAUNet: Boundary-Enhanced Multi-scale Fusion with Knowledge Distillation for Colonoscopy Polyp Image Segmentation](https://arxiv.org/abs/2511.01143): Proposes a new model for polyp segmentation in colonoscopy images.
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597): Investigates prompt injection attacks in AI browser agents and proposes a benchmark for evaluation.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Empirical Study Across Roles and Regions](https://arxiv.org/abs/2508.09219): Examines ethical practices in AI development across different roles and regions.
+- [CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D](https://arxiv.org/abs/2509.24528): Proposes a framework for open-vocabulary retrieval in 3D environments.
+- [Adaptive Online Learning with LSTM Networks for Energy Price Prediction](https://arxiv.org/abs/2510.16898): Develops an LSTM-based model for predicting energy prices.
+- [LiDAR-based 3D Change Detection at City Scale](https://arxiv.org/abs/2510.21112): Introduces a method for detecting changes in urban environments using LiDAR data.
+- [MicroAUNet: Boundary-Enhanced Multi-scale Fusion with Knowledge Distillation for Colonoscopy Polyp Image Segmentation](https://arxiv.org/abs/2511.01143): Proposes a new model for polyp segmentation in colonoscopy images.
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597): Investigates prompt injection attacks in AI browser agents and proposes a benchmark for evaluation.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Empirical Study Across Roles and Regions](https://arxiv.org/abs/2508.09219): Examines ethical practices in AI development across different roles and regions.
+- [CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D](https://arxiv.org/abs/2509.24528): Proposes a framework for open-vocabulary retrieval in 3D environments.
+- [Adaptive Online Learning with LSTM Networks for Energy Price Prediction](https://arxiv.org/abs/2510.16898): Develops an LSTM-based model for predicting energy prices.
+- [LiDAR-based 3D Change Detection at City Scale](https://arxiv.org/abs/2510.21112): Introduces a method for detecting changes in urban environments using LiDAR data.
+- [MicroAUNet: Boundary-Enhanced Multi-scale Fusion with Knowledge Distillation for Colonoscopy Polyp Image Segmentation](https://arxiv.org/abs/2511.01143): Proposes a new model for polyp segmentation in colonoscopy images.
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597): Investigates prompt injection attacks in AI browser agents and proposes a benchmark for evaluation.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Empirical Study Across Roles and Regions](https://arxiv.org/abs/2508.09219): Examines ethical practices in AI development across different roles and regions.
+- [CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D](https://arxiv.org/abs/2509.24528): Proposes a framework for open-vocabulary retrieval in 3D environments.
+- [Adaptive Online Learning with LSTM Networks for Energy Price Prediction](https://arxiv.org/abs/2510.16898): Develops an LSTM-based model for predicting energy prices.
+- [LiDAR-based 3D Change Detection at City Scale](https://arxiv.org/abs/2510.21112): Introduces a method for detecting changes in urban environments using LiDAR data.
+- [MicroAUNet: Boundary-Enhanced Multi-scale Fusion with Knowledge Distillation for Colonoscopy Polyp Image Segmentation](https://arxiv.org/abs/2511.01143): Proposes a new model for polyp segmentation in colonoscopy images.
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597): Investigates prompt injection attacks in AI browser agents and proposes a benchmark for evaluation.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Empirical Study Across Roles and Regions](https://arxiv.org/abs/2508.09219): Examines ethical practices in AI development across different roles and regions.
+- [CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D](https://arxiv.org/abs/2509.24528): Proposes a framework for open-vocabulary retrieval in 3D environments.
+- [Adaptive Online Learning with LSTM Networks for Energy Price Prediction](https://arxiv.org/abs/2510.16898): Develops an LSTM-based model for predicting energy prices.
+- [LiDAR-based 3D Change Detection at City Scale](https://arxiv.org/abs/2510.21112): Introduces a method for detecting changes in urban environments using LiDAR data.
+- [MicroAUNet: Boundary-Enhanced Multi-scale Fusion with Knowledge Distillation for Colonoscopy Polyp Image Segmentation](https://arxiv.org/abs/2511.01143): Proposes a new model for polyp segmentation in colonoscopy images.
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597): Investigates prompt injection attacks in AI browser agents and proposes a benchmark for evaluation.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Empirical Study Across Roles and Regions](https://arxiv.org/abs/2508.09219): Examines ethical practices in AI development across different roles and regions.
+- [CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D](https://arxiv.org/abs/2509.24528): Proposes a framework for open-vocabulary retrieval in 3D environments.
+- [Adaptive Online Learning with LSTM Networks for Energy Price Prediction](https://arxiv.org/abs/2510.16898): Develops an LSTM-based model for predicting energy prices.
+- [LiDAR-based 3D Change Detection at City Scale](https://arxiv.org/abs/2510.21112): Introduces a method for detecting changes in urban environments using LiDAR data.
+- [MicroAUNet: Boundary-Enhanced Multi-scale Fusion with Knowledge Distillation for Colonoscopy Polyp Image Segmentation](https://arxiv.org/abs/2511.01143): Proposes a new model for polyp segmentation in colonoscopy images.
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597): Investigates prompt injection attacks in AI browser agents and proposes a benchmark for evaluation.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Empirical Study Across Roles and Regions](https://arxiv.org/abs/2508.09219): Examines ethical practices in AI development across different roles and regions.
+- [CORE-3D: Context-aware Open-vocabulary Retrieval by Embeddings in 3D](https://arxiv.org/abs/2509.24528): Proposes a framework for open-vocabulary retrieval in 3D environments.
+- [Adaptive Online Learning with LSTM Networks for Energy Price Prediction](https://arxiv.org/abs/2510.16898): Develops an LSTM-based model for predicting energy prices.
+- [LiDAR-based 3D Change Detection at City Scale](https://arxiv.org/abs/2510.21112): Introduces a method for detecting changes in urban environments using LiDAR data.
+- [MicroAUNet: Boundary-Enhanced Multi-scale Fusion with Knowledge Distillation for Colonoscopy Polyp Image Segmentation](https://arxiv.org/abs/2511.01143): Proposes a new model for polyp segmentation in colonoscopy images.
+- [BrowseSafe: Understanding and Preventing Prompt Injection Within AI Browser Agents](https://arxiv.org/abs/2511.20597): Investigates prompt injection attacks in AI browser agents and proposes a benchmark for evaluation.
+- [A Neighborhood Attention Transformer Network for Enhanced 3D Segmentation of the Left Anterior Descending Artery](https://arxiv.org/abs/2608.12274): Proposes a new model for medical image segmentation.
+- [Learning Preference Adaptation for Large Language Model Personalization via Verbal Reinforcement Learning](https://arxiv.org/abs/2608.09507): Introduces a framework for adapting LLMs to user preferences.
+- [Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains](https://arxiv.org/abs/2608.07474): Proposes a governance design for AI output in high-loss domains.
+- [Deep Learning Based Relative Transfer Matrix Estimation for Multiple Sources and Multiple Microphones](https://arxiv.org/abs/2608.11627): Introduces a new method for estimating transfer matrices in audio processing.
+- [Causal Agent based on Large Language Model](https://arxiv.org/abs/2408.06849): Proposes a framework for causal reasoning in LLMs.
+- [On Benchmarking Human-Like Intelligence in Machines](https://arxiv.org/abs/2502.20502): Discusses the evaluation of human-like intelligence in AI systems.
+- [OpenAg: Democratizing Agricultural Intelligence](https://arxiv.org/abs/2506.04571): Proposes a framework for advancing agricultural AI.
+- [Deep Activity Model: A Generative Approach for Human Mobility Pattern Synthesis](https://arxiv.org/abs/2405.17468): Introduces a model for synthesizing human mobility patterns.
+- [ReXrank: A Public Leaderboard for AI-Powered Radiology Report Generation](https://arxiv.org/abs/2411.15122): Presents a benchmark for evaluating AI in radiology report generation.
+- [Explainability in Practice: A Survey of Explainable NLP Across Various Domains](https://arxiv.org/abs/2502.00837): Reviews explainable NLP methods across different domains.
+- [Proportional Committee Elections with Positive and Negative Votes](https://arxiv.org/abs/2503.01985): Explores proportional representation in voting systems with positive and negative votes.
+- [Program Semantic Inequivalence Game with Large Language Models](https://arxiv.org/abs/2505.03818): Investigates the use of LLMs for generating training data in code reasoning tasks.
+- [COLORA: Efficient Fine-Tuning for Convolutional Models with a Study Case on Optical Coherence Tomography Image Classification](https://arxiv.org/abs/2505.18315): Proposes a new method for fine-tuning convolutional models in medical imaging.
+- [P2MFDS: A Privacy-Preserving Multimodal Fall Detection System for Elderly People in Bathroom Environments](https://arxiv.org/abs/2506.17332): Introduces a fall detection system for elderly individuals using multimodal sensors.
+- [Small Data Explainer -- The impact of small data methods in everyday life](https://arxiv.org/abs/2507.11773): Discusses the implications of small data methods in various contexts.
+- [Commonsense on Demand: Generating and Selectively Integrating Commonsense Knowledge for Natural Language Inference](https://arxiv.org/abs/2507.15100): Investigates the generation of commonsense knowledge for natural language inference tasks.
+- [Quantization-Aware Neuromorphic Architecture for Skin Lesion Classification on Resource-Constrained Devices](https://arxiv.org/abs/2507.15958): Proposes a neuromorphic architecture for skin lesion classification.
+- [Empowering Children to Create AI-Enabled Augmented Reality Experiences](https://arxiv.org/abs/2508.08467): Introduces a framework for children to create AR experiences using AI.
+- [Ethics Practices in AI Development: An Emp
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Overview
+The recent body of research and articles highlights significant advancements in the application of AI, particularly in the realms of security, safety, and ethical considerations. The focus has been on improving the robustness of AI systems, ensuring they operate safely in various contexts, and addressing the challenges posed by biases and vulnerabilities in AI models.
+
+#### Key Themes and Trends
+
+1. **Security and Vulnerability Detection**:
+   - **VICBench**: A benchmark for evaluating code vulnerability detection tools, highlighting the need for datasets that reflect real-world vulnerabilities and the challenges faced by existing models in accurately identifying these vulnerabilities.
+   - **ToolHazard**: This framework synthesizes adversarial environments to test the security of LLM-based agents against prompt injections, emphasizing the importance of robust security measures in AI systems.
+
+2. **AI in Cybersecurity**:
+   - **Machine Learning-Based Cyber Defense**: A framework using reinforcement learning for real-time intrusion detection and threat mitigation, showcasing the potential of AI to enhance cybersecurity measures in cloud environments.
+   - **Towards Model-based Run-time Cybersecurity**: Proposes a model-based approach that combines software and hardware monitoring to improve intrusion detection and attack identification.
+
+3. **Bias and Ethical Considerations**:
+   - **Large Language Models and Racial Stereotypes**: Research indicates that LLMs can reproduce societal biases, particularly in automated text annotation tasks, raising concerns about the ethical implications of deploying such models in sensitive areas.
+   - **Structural Silence**: Discusses how AI infrastructure can disadvantage speakers of underrepresented languages, highlighting the need for equitable AI development practices.
+
+4. **Robustness and Reliability**:
+   - **NetlistBench**: Evaluates the reliability of LLMs in SPICE netlist recognition and manipulation, identifying the need for robust models that can handle structured data effectively.
+   - **Learning from Multimodal Pseudo-Labels**: This framework aims to improve the robustness of open-vocabulary instance segmentation by leveraging multimodal data, addressing the challenges of traditional methods.
+
+5. **Human-AI Interaction and Trust**:
+   - **Epistemic Transfer in AI-Assisted Verification**: Proposes a framework for evaluating the effectiveness of AI tools in enhancing human judgment, emphasizing the importance of understanding how AI influences decision-making.
+   - **Toward Meaningful Transparency**: Investigates the impact of disclosing persuasive intent in AI systems, suggesting that transparency can reduce the effectiveness of AI persuasion.
+
+6. **Innovative Frameworks and Methodologies**:
+   - **DREAMS**: A framework for density functional theory-based research in materials science, emphasizing the importance of verification in AI-generated outputs.
+   - **Flow-by-Flow**: A governance design that prices supervisory load without evaluating content, focusing on the operational aspects of AI systems.
+
+#### Insights and Implications
+- **Need for Robust Evaluation Frameworks**: The development of benchmarks like VICBench and NetlistBench indicates a growing recognition of the need for rigorous evaluation methods to assess the reliability and robustness of AI systems, particularly in security contexts.
+- **Ethical AI Development**: The discussions around bias, transparency, and the implications of AI on underrepresented groups highlight the necessity for ethical considerations in AI development and deployment.
+- **Integration of AI in Cybersecurity**: The advancements in machine learning for cybersecurity demonstrate the potential for AI to enhance security measures, but also underscore the importance of addressing vulnerabilities in AI systems themselves.
+- **Human-AI Collaboration**: The exploration of epistemic transfer and the role of AI in supporting human decision-making reflects a shift towards more collaborative AI systems that augment human capabilities rather than replace them.
+
+### Conclusion
+The intersection of AI, security, and ethical considerations is a rapidly evolving field, with significant implications for how AI systems are developed, evaluated, and deployed. As AI continues to integrate into critical domains, the focus on robustness, transparency, and ethical practices will be essential for ensuring that these technologies serve society effectively and equitably.
