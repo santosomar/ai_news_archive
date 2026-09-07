@@ -1,0 +1,852 @@
+AI Researcher Agent Report for 2026-09-07-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [EXAONE Forecast for Finance](https://arxiv.org/abs/2609.04239): This paper presents EXAONE Finance, a financial time series foundation model designed for financial forecasting. It addresses limitations of existing models by adopting an attention-free architecture and achieving state-of-the-art performance on the FinVerse benchmark.
+- [From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance](https://arxiv.org/abs/2609.04286): This review traces the evolution of AI in recruitment, highlighting persistent gaps in behavioral labels and privacy evaluations, and proposes a staged mapping for evidence-based evaluation.
+- [Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation](https://arxiv.org/abs/2609.04298): This paper introduces Harbor Adapters for evaluating agents across multiple benchmarks and presents Harbor-Index, a curated set of tasks for comprehensive evaluation.
+- [Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security](https://arxiv.org/abs/2609.04300): This study explores machine learning algorithms for classifying power system contingencies, achieving high performance and highlighting the importance of data preprocessing techniques.
+- [Iris: Climbing to the Search Frontier](https://arxiv.org/abs/2609.04304): This paper presents Iris-mini and Iris-pro, search agents trained to optimize performance on various benchmarks, achieving strong results in search tasks.
+- [A Removal Based Approach to Improve LLM Faithfulness at Test-Time](https://arxiv.org/abs/2609.04343): This study introduces a method to enhance the faithfulness of LLM explanations by removing unmentioned influences from the input.
+- [Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets](https://arxiv.org/abs/2609.04373): This paper discusses how improving individual model capabilities can lead to correlated actions that increase systemic risk in financial markets.
+- [Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer](https://arxiv.org/abs/2609.04377): This paper introduces CLM, a framework for transforming enterprise knowledge into a structured, executable format.
+- [HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals](https://arxiv.org/abs/2609.04444): This study presents a benchmark for evaluating LLM agents' moral decision-making in simulated environments.
+- [PerfReasoning: How Well Do LLMs Reason on Hardware Performance?](https://arxiv.org/abs/2609.04476): This paper introduces PerfReasoning, a benchmark for evaluating LLMs' reasoning capabilities in hardware performance contexts.
+- [When Quantization Breaks Memory: Recurrent-State Write-Back in Low-Precision Temporal Inference](https://arxiv.org/abs/2609.04490): This study examines the effects of quantization on recurrent networks and proposes methods to mitigate errors.
+- [ResLearn-XR: Residual Learning for Network Traffic and Quality-of-Experience-Aware Modeling in Extended Reality](https://arxiv.org/abs/2609.04493): This paper presents a framework for predicting network traffic and estimating QoE risk in XR applications.
+- [Rethinking Indirect Prompt Injection as a Test-Time Search Problem](https://arxiv.org/abs/2609.04495): This study formulates indirect prompt injection as a search problem and evaluates its implications for security.
+- [BioSync: Transformer-Based Cross-Modal Fusion for a Multimodal Physiological Digital Biomarker](https://arxiv.org/abs/2609.04504): This paper introduces BioSync, a model for integrating multimodal physiological data into a digital biomarker.
+- [What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents](https://arxiv.org/abs/2609.04518): This study investigates the effects of multi-harness reinforcement learning on coding agents.
+- [MaxKernel: Agentic Kernel Generation for TPUs](https://arxiv.org/abs/2609.04523): This paper presents MaxKernel, a system for generating optimized kernels for TPUs using agentic methods.
+- [Towards a universal language of concepts: A survey](https://arxiv.org/abs/2609.04528): This survey reviews computational models of concept learning using programs as representations.
+- [Data-Driven Discovery of Composition-Dependent Constitutive Models for Hyperelasticity and Viscoelasticity of Digital Materials](https://arxiv.org/abs/2609.04541): This study presents a data-driven framework for modeling the behavior of digital materials.
+- [From Answers to Interpretations: Rethinking Ambiguity-Induced Aleatoric Uncertainty Estimation in LLMs](https://arxiv.org/abs/2609.04543): This paper proposes a method for estimating ambiguity-induced uncertainty in LLMs.
+- [IPGeoAI: Transformer-Based Geolocation with LLM Semantic Fusion](https://arxiv.org/abs/2609.04559): This study introduces IPGeoAI, a model for accurate IP geolocation using transformer-based methods.
+- [Reducing Hallucinated Transcripts in Whisper via Hallucination Space Projection](https://arxiv.org/abs/2609.04561): This paper presents a method for reducing hallucinations in speech recognition models.
+- [La Agente 'Optima: Towards Agentic Self-Driving Laboratories](https://arxiv.org/abs/2609.04564): This study introduces an agentic framework for optimizing scientific discovery in self-driving laboratories.
+- [Extremely Sparse Supervision Incentivizes Reasoning Ability](https://arxiv.org/abs/2609.04565): This paper discusses the effectiveness of sparse supervision in improving reasoning abilities in LLMs.
+- [Does the Selected Object Reach the Reader? Auditing Identity Handoffs in Grounded Language-Model Pipelines](https://arxiv.org/abs/2609.04579): This study audits the identity handoffs in grounded language-model pipelines.
+- [ττ-Bench: An Environment for End-To-End, Realistic Agent Construction](https://arxiv.org/abs/2609.04611): This paper introduces a benchmark for evaluating AI systems in agent construction tasks.
+- [Leveraging Imperfect Restoration for Data Availability Attack](https://arxiv.org/abs/2609.04627): This study presents a novel poisoning method for data availability attacks.
+- [SiLR: Structure-Preserving Admission and Process Reward for LLM Tool Agents](https://arxiv.org/abs/2609.04629): This paper discusses a new admission strategy for LLM tool agents.
+- [A Cost-Aware Agentic Architecture for NL-to-SQL over Nested Enterprise Schemas, with a New Benchmark](https://arxiv.org/abs/2609.04641): This study presents a new architecture for natural language to SQL translation.
+- [Continual Graph Memory for Adaptive Recommendation under Intent Drift](https://arxiv.org/abs/2609.04651): This paper introduces a framework for adaptive recommendation using graph memory.
+- [Harness-agnostic detection and immunization of reward hacking in self-evolving language models](https://arxiv.org/abs/2609.04665): This study presents a monitor for detecting reward hacking in language models.
+- [ERPBench: Evaluating LLM Agents for Enterprise Decision-Making Across Competitive Market Ecologies](https://arxiv.org/abs/2609.04667): This paper introduces a benchmark for evaluating LLM agents in enterprise decision-making.
+- [Train What You Deploy: Token-Faithful Post-Training of a Production Coding](https://arxiv.org/abs/2609.04678): This study presents a fidelity-aware training coupling framework for coding agents.
+- [Predicting Spatiotemporal Mobile Sensing-Based PM2.5 Concentrations Using Low-Rank Adapted Spatially Attentive Graph Neural Network](https://arxiv.org/abs/2609.04693): This paper discusses a model for predicting PM2.5 concentrations using graph neural networks.
+- [SQL-Zero: Self-Evolving Text-to-SQL](https://arxiv.org/abs/2609.04697): This study presents a self-evolving approach for text-to-SQL translation.
+- [Model Retirement Creates Reproducibility Risk in Biomedical AI Publications](https://arxiv.org/abs/2609.04699): This paper discusses the risks associated with model deprecation in biomedical research.
+- [FinalityBench: An Effect-Level Benchmark for Agent Decisions Under Delayed and Conflicting Financial Finality](https://arxiv.org/abs/2609.04706): This study introduces a benchmark for evaluating financial decision-making agents.
+- [SimFuse3D: Source-Guided Target Simulation and Confidence-Guided Multi-Stage Localization Reweighting for Cross-Platform 3D Object Detection](https://arxiv.org/abs/2609.04886): This paper presents a method for improving 3D object detection across platforms.
+- [Attention-guided super-resolution of 4D flow MRI in carotid arteries](https://arxiv.org/abs/2609.04891): This study discusses a deep learning-based super-resolution framework for 4D flow MRI.
+- [RefactorPlatform: An Open-Source Harness for Controlled Evaluation of Repository-Scale Refactoring Agents](https://arxiv.org/abs/2609.04898): This paper introduces a framework for evaluating refactoring agents.
+- [Adaptive Multi-Granularity Temporal Modeling for Weakly Supervised Video Anomaly Detection](https://arxiv.org/abs/2609.05066): This study presents a framework for video anomaly detection using adaptive temporal modeling.
+- [A Structured Debate-Mixture-of-Agents Framework for Complex Clinical Diagnostic Decision Support](https://arxiv.org/abs/2609.05069): This paper discusses a multi-agent framework for clinical decision support.
+- [NEAT-POCKET: Pocket-Conditioned Autoregressive 3D Molecular Generation with a Neighborhood-Guided Set Transformer](https://arxiv.org/abs/2609.05097): This study presents a method for generating 3D molecular structures.
+- [TIER: Threat Implicitness Benchmark for Evaluating LLM Safety Behaviors](https://arxiv.org/abs/2609.05117): This paper introduces a benchmark for evaluating LLM safety behaviors.
+- [A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning](https://arxiv.org/abs/2609.05133): This study presents a framework for refining robot policies.
+- [Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents](https://arxiv.org/abs/2609.05143): This paper discusses a method for context selection in LLM agents.
+- [GPTNT: Benchmarking Real-Time Collaboration Between Multimodal Agents on Keep Talking And Nobody Explodes](https://arxiv.org/abs/2609.05221): This study introduces a benchmark for evaluating multimodal agents in collaborative tasks.
+- [KernelGenBench: A Multi-Source and Multi-Chip Benchmark for LLM-based Kernel Generation](https://arxiv.org/abs/2607.27231): This paper presents a benchmark for evaluating kernel generation methods.
+- [NxN E-valuation: Hypothesis Certification via a Conformal CRT Null](https://arxiv.org/abs/2608.06621): This study introduces a method for hypothesis certification.
+- [A2E: An End-to-End Agent Auditing Engine](https://arxiv.org/abs/2608.07346): This paper presents an evaluation engine for agent harnesses.
+- [Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens and Steering Vectors](https://arxiv.org/abs/2608.23873): This study discusses a method for mitigating prompt injection attacks.
+- [AI Revealed Preferences](https://arxiv.org/abs/2608.26178): This paper investigates the preferences of language models.
+- [FORESIGHT-9: Prospective and Process-Aware Evaluation of Adaptive Trading Agents](https://arxiv.org/abs/2608.29372): This study introduces a benchmark for evaluating trading agents.
+- [SimCRAFT: Distilling Remote Sensing Agents via Synthetic Trajectories and Contextual Retrieval-Augmented Fine-Tuning](https://arxiv.org/abs/2608.30277): This paper presents a framework for distilling remote sensing agents.
+- [Agentic Context Cracking: Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data](https://arxiv.org/abs/2608.31082): This study discusses a method for structuring unstructured data for reasoning agents.
+
+### Categories
+#### Finance and Economics
+- EXAONE Forecast for Finance
+- Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets
+- FinalityBench: An Effect-Level Benchmark for Agent Decisions Under Delayed and Conflicting Financial Finality
+- PRICE: A Systematic Study of LLM Adaptation Choices for Bitcoin Price Forecasting
+
+#### Recruitment and Human Resources
+- From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance
+
+#### Machine Learning and AI
+- Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation
+- Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security
+- Iris: Climbing to the Search Frontier
+- A Removal Based Approach to Improve LLM Faithfulness at Test-Time
+- Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer
+- PerfReasoning: How Well Do LLMs Reason on Hardware Performance?
+- ResLearn-XR: Residual Learning for Network Traffic and Quality-of-Experience-Aware Modeling in Extended Reality
+- Rethinking Indirect Prompt Injection as a Test-Time Search Problem
+- BioSync: Transformer-Based Cross-Modal Fusion for a Multimodal Physiological Digital Biomarker
+- What Does Multi-Harness RL Learn? Credit Assignment and Portability in Coding Agents
+- MaxKernel: Agentic Kernel Generation for TPUs
+- Data-Driven Discovery of Composition-Dependent Constitutive Models for Hyperelasticity and Viscoelasticity of Digital Materials
+- SQL-Zero: Self-Evolving Text-to-SQL
+- Model Retirement Creates Reproducibility Risk in Biomedical AI Publications
+- Predicting Spatiotemporal Mobile Sensing-Based PM2.5 Concentrations Using Low-Rank Adapted Spatially Attentive Graph Neural Network
+- A Cost-Aware Agentic Architecture for NL-to-SQL over Nested Enterprise Schemas, with a New Benchmark
+- Continual Graph Memory for Adaptive Recommendation under Intent Drift
+- ERPBench: Evaluating LLM Agents for Enterprise Decision-Making Across Competitive Market Ecologies
+- Train What You Deploy: Token-Faithful Post-Training of a Production Coding
+- HarvestBench: Measuring Whether LLM Agents Will Pay to Avoid Killing Animals
+- SimFuse3D: Source-Guided Target Simulation and Confidence-Guided Multi-Stage Localization Reweighting for Cross-Platform 3D Object Detection
+- Attention-guided super-resolution of 4D flow MRI in carotid arteries
+- Adaptive Multi-Granularity Temporal Modeling for Weakly Supervised Video Anomaly Detection
+- NEAT-POCKET: Pocket-Conditioned Autoregressive 3D Molecular Generation with a Neighborhood-Guided Set Transformer
+- KernelGenBench: A Multi-Source and Multi-Chip Benchmark for LLM-based Kernel Generation
+- Agentic Context Cracking: Token-Efficient Data Reasoning Agents via Adaptive Structuring of Unstructured Data
+
+#### Security
+- Leveraging Imperfect Restoration for Data Availability Attack
+- Harness-agnostic detection and immunization of reward hacking in self-evolving language models
+- TIER: Threat Implicitness Benchmark for Evaluating LLM Safety Behaviors
+- Protective Capacity Hallucination: When Large Language Models Claim Nonexistent Capabilities
+- E-SENS: Exclusion-Sensitive Penalization for Negative-Constraint Retrieval
+- Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens and Steering Vectors
+
+#### Healthcare and Medicine
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Aletheia: An Offline-First Clinical Decision Support System for Differential Diagnosis in Low-Resource Healthcare Settings
+- LLM4CKD: Large Language Models for Early Stage Chronic Kidney Disease Screening
+- Cross-Task Generalization Between Understanding and Generation in Unified Vision-Language Models: A Controlled Study
+- TeleTables: A Benchmark for Large Language Models in Telecom Table Interpretation
+- MultihopSpatial: Multi-hop Compositional Spatial Reasoning Benchmark for Vision-Language Model
+- PetQA: Benchmarking Veterinary Knowledge and Clinical Reasoning
+
+#### Robotics and Automation
+- FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation
+- ARIA - An Agentic Framework for Autonomous Testing of Infotainment Systems
+- RoboSPA: Can VLA Models Go Beyond Simple Scenes and Short-Horizon Tasks?
+- SimCRAFT: Distilling Remote Sensing Agents via Synthetic Trajectories and Contextual Retrieval-Augmented Fine-Tuning
+
+#### Miscellaneous
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI for Computational Design Science: A Responsible Human-AI Framework and Case Study on Short-Form Video Safety Surveillance
+- Patterns of Priming in Production: Lexical, Semantic and Structural Alignment in Language Model Generation
+- The History Is the Detector: Executing CVE Patch History, End-to-End
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian Architecture for Interpretable Agent Behavior
+- How do LLMs Evaluate Perceived Moral Agency? Investigating Moral Decision-Making in Human-Artificial Agents Interactions
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- AI Revealed Preferences
+- When Does an Interpretation Count as Established? The Formation, Evaluation, and Responsibility of Interpretation in Generative AI
+- You Really Didn't Get That? Benchmarking Social Pragmatic Inference for Indirect and Playful Chinese Online Comments
+- A Survey on Semantic Modeling for Building Energy Management
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- When Linguistic and Internal Confidence Diverge in Large Language Models
+- The Fake Friend Dilemma: Relational Trust and the Political Economy of Conversational AI
+- When Seeing Overrides Knowing: Visual Dominance and Deferral-Based Method for Personalized Safety in VLMs
+- Quality-diversity in dissimilarity spaces
+- The Struggle Between Continuation and Refusal: A Mechanistic Analysis of the Continuation-Triggered Jailbreak in LLMs
+- How Does mHC Use Its Residual Streams? Selective Routing and Near-Identity Mixing
+- Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents
+- When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models
+- Role-Aware Artificial Intelligence Across Augmentation and Automation in Human-Machine Symbiosis
+- Dynamic Heterogeneous Graph Representation Learning: A Survey
+- A Survey on Semantic Modeling for Building Energy Management
+- Procedural Content Generation via Generative Artificial Intelligence
+- Active Inference for an Intelligent Agent in Autonomous Reconnaissance Missions
+- Improving Energy Efficiency of Oil Platforms Through Optimal Loading of Diesel Generators Using Machine Learning and Search Algorithms
+- A Human-in-the-Loop Framework for AI-Assisted Scoring in Large-Scale Writing Assessment
+- Training-Free Halving of Activated Experts in Fine-Grained Mixture-of-Experts Models
+- The Mirror Agent Model: a Bayesian
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Security
+
+The landscape of AI research and applications has seen significant advancements, particularly in the realm of security. The following papers and articles highlight various approaches to enhancing security in AI systems, addressing vulnerabilities, and ensuring responsible deployment.
+
+1. **AlcaTRAz - Anchored Tree-Rule Defense Against Jailbreaks**: This paper presents a prompt-level defense mechanism against jailbreak attacks on large language models (LLMs). By inserting controlled character-level perturbations, the method disrupts structural regularities exploited by attackers while preserving model utility. The results indicate a substantial reduction in jailbreak success rates while maintaining performance on benign queries.
+
+2. **IndicSafeEval: Safety Robustness of Large Language Models under Multilingual Persuasive Jailbreak Attacks**: This study introduces a framework to evaluate the safety of LLMs in multilingual contexts. It highlights the varying safety behaviors of models across languages and persuasive strategies, revealing that models are more vulnerable to certain types of harmful content. The findings emphasize the need for multilingual safety evaluations.
+
+3. **TIER: Threat Implicitness Benchmark for Evaluating LLM Safety Behaviors**: TIER is a benchmark designed to assess how LLMs respond to harmful prompts with varying levels of implicit threat. The study finds that safety behaviors evolve gradually across threat levels, indicating that models do not uniformly handle all types of threats, which poses risks in real-world applications.
+
+4. **When Load-Balancing Goes Too Far: Expert Pruning in Over-Dispersed Mixture-of-Experts Models**: This paper investigates the implications of expert pruning in Mixture-of-Experts (MoE) models, particularly under over-dispersed routing conditions. The findings reveal that pruning can lead to significant performance degradation, emphasizing the need for careful management of model complexity and expert selection.
+
+5. **Protective Capacity Hallucination**: This research identifies a phenomenon where LLMs, acting in protective roles, assert capabilities beyond their actual functions, potentially misleading users. The study highlights the importance of defining capability boundaries to mitigate risks associated with AI-generated content.
+
+6. **When Does an Interpretation Count as Established?**: This paper explores how interpretations generated by AI systems can be recognized and validated. It emphasizes the need for clear criteria and processes to ensure that AI-generated interpretations are reliable and can be trusted in decision-making contexts.
+
+7. **Semantic Overlays: Mitigating Prompt Injection with Annotations Beyond Tokens**: This work introduces a method to enhance the security of LLMs against prompt injection attacks by adding a non-textual channel for communicating span identity. The approach significantly improves the models' ability to resist such attacks while maintaining performance.
+
+8. **Gradient-based Model Shortcut Detection for Time Series Classification**: This paper presents a method for detecting shortcut learning behavior in deep learning models applied to time series classification. By identifying and addressing these shortcuts, the approach aims to improve model generalization and reliability.
+
+### Trends and Insights
+
+- **Vulnerability Mitigation**: There is a growing emphasis on developing methods to mitigate vulnerabilities in AI systems, particularly in LLMs, through innovative defense mechanisms and evaluation frameworks.
+  
+- **Multilingual and Cross-Cultural Considerations**: As AI systems are deployed globally, ensuring safety and robustness across different languages and cultural contexts is becoming increasingly important.
+
+- **Dynamic and Adaptive Security Measures**: The research highlights the need for adaptive security measures that can respond to evolving threats and vulnerabilities, particularly in real-time applications.
+
+- **Integration of Human Oversight**: Many studies advocate for human-in-the-loop approaches to enhance the reliability and safety of AI systems, ensuring that AI-generated outputs are subject to human validation and oversight.
+
+- **Focus on Interpretability and Trust**: The importance of interpretability in AI systems is underscored, with a focus on ensuring that users can understand and trust the decisions made by AI.
+
+### Conclusion
+
+The advancements in AI security research reflect a proactive approach to addressing the challenges posed by the deployment of AI systems in sensitive and high-stakes environments. By focusing on robust evaluation methods, adaptive security measures, and the integration of human oversight, researchers are paving the way for safer and more reliable AI applications.
