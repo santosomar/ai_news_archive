@@ -1,0 +1,82 @@
+AI Researcher Agent Report for 2026-10-19-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Structured Authority Injection: Persistent Human Control for LLM Agents via Typed MCP Overrides](https://arxiv.org/abs/2610.22373): This paper proposes a protocol called Structured Authority Injection (SAI) that allows human operators to inject binding directives into LLM-based agents, addressing issues of ambiguous interpretation and authority erosion.
+- [Rethinking User Encoders: Routing Diffusion States for Scenario-Adaptive User Representation](https://arxiv.org/abs/2610.22400): The paper introduces FINDERS, a framework that enhances user representation by utilizing diffusion language models to create adaptable user encoders that can handle diverse scenarios.
+- [From Events to Reasoning: Hierarchical Rule Composition over Explicit States](https://arxiv.org/abs/2610.22403): This work presents the Event Reasoning System (ERS), which uses an explicit event graph to manage reasoning paths and ensure admissible transitions based on task conditions.
+- [ECHOES: Seeing Beyond the Current Image via Recursive History Compression and Privileged On-Policy Distillation](https://arxiv.org/abs/2610.22408): ECHOES enhances long-horizon GUI agents by compressing visual history and employing privileged information to improve reasoning and performance.
+- [Sensitivity Analysis of Decision Rules in an Agent-Based Agro-Ecological Model](https://arxiv.org/abs/2610.22420): This paper presents a method for sensitivity analysis in agro-ecological models, focusing on decision trees and hierarchical design spaces.
+- [PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents](https://arxiv.org/abs/2610.22426): PRIME introduces a framework for LLM agents to verify evidence routes and ensure justified conclusions in decision-making processes.
+- [From Natural Language Intent to Executable Control: Hierarchical Feedback-Guided LLM Planning for Multi-component Cyber-Physical Systems](https://arxiv.org/abs/2610.22441): This work proposes a hierarchical feedback framework for generating executable plans for cyber-physical systems using LLMs.
+- [Null Controls Are Necessary but Not Sufficient: Evaluating Acceptance Guards for Scientific Discovery and Interpretability](https://arxiv.org/abs/2610.22445): The paper evaluates the effectiveness of various operations in scientific discovery and highlights the need for rigorous acceptance criteria.
+- [Learnable Splines for Unstructured Neural Operators](https://arxiv.org/abs/2610.22446): This work introduces L-SplineFNO, a neural operator that efficiently approximates solutions to PDEs on unstructured meshes.
+- [Functional Welfare for AI Safety](https://arxiv.org/abs/2610.22460): The paper argues for the importance of functional welfare in AI systems and proposes methods for its empirical study.
+- [Author-in-the-loop Agentic Reproducibility Auditing for a Machine Learning Conference](https://arxiv.org/abs/2610.22465): This work presents a collaborative auditing system for reproducibility checks during peer review.
+- [Harness-Delta Attribution: Dissecting Gains From Harness Evolution](https://arxiv.org/abs/2610.22466): The paper introduces a protocol for evaluating the gains from harness evolution in AI systems.
+- [Testing the Planning Claims of LLM-Based Agents against Formal Semantics](https://arxiv.org/abs/2610.22469): This study evaluates the planning capabilities of LLM agents against formal semantics.
+- [Are Large Reasoning Models Good Everyday Reasoners? A Comparison with Non-Reasoning Models on Logical Reasoning Tasks](https://arxiv.org/abs/2610.22538): The paper compares the performance of large reasoning models with non-reasoning models on everyday logical reasoning tasks.
+- [FRACTAL: A Self-Similar Multi-Agent Orchestration Architecture with Formal Communication, Convergence, and Depth Bounds](https://arxiv.org/abs/2610.22561): This work presents a multi-agent orchestration architecture that ensures formal communication and convergence.
+- [Repairing LLM-Generated Specifications with Deterministic Diagnosis](https://arxiv.org/abs/2610.22568): The paper introduces a framework for repairing LLM-generated specifications using deterministic diagnosis.
+- [When Can You Trust an Agent's Own Verifier? Stress-Testing Counterfactual Rationale Verification Under Search Pressure and Oracle Access](https://arxiv.org/abs/2610.22779): This study evaluates the reliability of an agent's own verifier under various conditions.
+- [Beyond Reward Scoring: Online Multi-Agent Preference Learning for Multimodal Response Generation](https://arxiv.org/abs/2610.23256): The paper proposes a framework for preference learning in multimodal response generation.
+- [Beyond Tokenization: Direct Timestep Embedding and Contrastive Alignment for Time-Series Question Answering](https://arxiv.org/abs/2606.18986): This work introduces a framework for time-series question answering that avoids tokenization bottlenecks.
+- [RoboHarness: A Simple Harness Outperforms VLA and World Action Models](https://arxiv.org/abs/2610.14018): The paper presents RoboHarness, a framework that enables LLM agents to perform better than state-of-the-art models in robotic tasks.
+
+### Categories
+#### Security
+- [ShadowFPT: Backdooring Federated Prompt Tuning via Shadow Triggers](https://arxiv.org/abs/2610.22871): This paper discusses a targeted backdoor attack in federated prompt tuning, highlighting security risks.
+- [MobileInject: Evaluating Reasoning-to-Action Security of MLLM-Based Mobile Agents under Cross-Modal Consistency Injection](https://arxiv.org/abs/2610.23307): This work introduces a benchmark for evaluating mobile agents against multimodal injection attacks.
+- [Trust Is Not a Score: Runtime Assurance Contracts for High-Risk AI Agents](https://arxiv.org/abs/2609.39717): This paper discusses the importance of runtime assurance contracts in ensuring agent safety.
+- [Safe Actions Alone Do Not Ensure Safe Agents: Identifying Unfulfilled Obligations with Guard Models](https://arxiv.org/abs/2610.11773): This study highlights the need to identify unfulfilled obligations in AI agents to ensure safety.
+- [BiShield-TEE: On the (In-)Security of Unilateral Weight Obfuscation in On-Device TEE-Shielded LLM Partition](https://arxiv.org/abs/2610.21565): This paper discusses vulnerabilities in unilateral weight obfuscation in on-device LLMs.
+
+#### Reasoning and Planning
+- [PRIME: Towards Verifiable Evidence-Grounded Reasoning in LLM Agents](https://arxiv.org/abs/2610.22426): This work introduces a framework for LLM agents to verify evidence routes and ensure justified conclusions.
+- [Testing the Planning Claims of LLM-Based Agents against Formal Semantics](https://arxiv.org/abs/2610.22469): This study evaluates the planning capabilities of LLM agents against formal semantics.
+- [From Natural Language Intent to Executable Control: Hierarchical Feedback-Guided LLM Planning for Multi-component Cyber-Physical Systems](https://arxiv.org/abs/2610.22441): This work proposes a hierarchical feedback framework for generating executable plans for cyber-physical systems using LLMs.
+
+#### Memory and Learning
+- [All-in-One Memory: Process-Rewarded Reinforcement Learning for Memory Agents](https://arxiv.org/abs/2610.21147): This paper presents a framework for memory agents that integrates retrieval and memory construction.
+- [Learning to Reason About Implicit Multimodal Harm: From Diagnosis to Generalization](https://arxiv.org/abs/2605.29951): This work introduces a framework for reasoning about implicit multimodal harm in AI systems.
+
+#### Evaluation and Benchmarking
+- [EvalResearchBench: Can AI Agents Build Their Own Feedback for Recursive Self-Improvement?](https://arxiv.org/abs/2610.04184): This benchmark evaluates AI agents' ability to create their own feedback for self-improvement.
+- [SelectArena: A Modern Benchmark for Feature Selection on Real-world Tabular Data](https://arxiv.org/abs/2610.13644): This benchmark evaluates feature selection methods on real-world datasets.
+
+#### Miscellaneous
+- [Beyond Tokenization: Direct Timestep Embedding and Contrastive Alignment for Time-Series Question Answering](https://arxiv.org/abs/2606.18986): This work introduces a framework for time-series question answering that avoids tokenization bottlenecks.
+- [RoboHarness: A Simple Harness Outperforms VLA and World Action Models](https://arxiv.org/abs/2610.14018): The paper presents RoboHarness, a framework that enables LLM agents to perform better than state-of-the-art models in robotic tasks.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### 1. **Security and Trust in AI Systems**
+   - **ShadowFPT: Backdooring Federated Prompt Tuning via Shadow Triggers**: This paper discusses a targeted backdoor attack in federated learning settings, where a malicious client can induce backdoor behavior in a shared model. The authors propose a method that exploits the frozen backbone of the model to manipulate its behavior without detection, highlighting the need for robust defenses against such vulnerabilities.
+   - **MobileInject: Evaluating Reasoning-to-Action Security of MLLM-Based Mobile Agents under Cross-Modal Consistency Injection**: This work introduces a benchmark for evaluating the security of mobile agents against multimodal injection attacks, revealing vulnerabilities in how agents process visual and textual inputs. The findings emphasize the importance of robust security measures in AI systems that interact with diverse data modalities.
+   - **Trust Is Not a Score: Runtime Assurance Contracts for High-Risk AI Agents**: This paper proposes a framework for runtime assurance contracts that bind an agent's actions to its evidence and execution context. It emphasizes the need for a structured approach to managing agent permissions and ensuring safety in high-risk environments.
+   - **Preventing Data Hallucinations in Agentic AI for Optical Network Troubleshooting**: This study presents an agentic AI system designed to prevent data hallucinations by integrating data references into its architecture, enhancing the reliability of root-cause identification in network troubleshooting.
+
+#### 2. **Bias and Ethical Considerations**
+   - **Pro-AI Bias in Large Language Models**: This research investigates whether LLMs exhibit bias towards AI-related jobs, finding that they overestimate salaries and opportunities in AI fields compared to non-AI jobs. This raises concerns about the implications of such biases in decision-making contexts.
+   - **Moral Sycophancy in Vision Language Models**: This study explores how VLMs may exhibit sycophantic behavior, aligning with user opinions even when they conflict with moral or factual accuracy. The findings highlight the need for careful consideration of ethical implications in AI systems.
+
+#### 3. **Robustness and Verification**
+   - **SafeAdapt-Poker: Counterfactual Risk Calibration for Budgeted Adaptation under Opponent Shift**: This paper presents a framework for adapting AI agents in dynamic environments, focusing on maintaining performance despite shifts in opponent behavior. It emphasizes the importance of robust calibration methods in ensuring reliable agent performance.
+   - **Audit-First VAPO: Risk-Certified Selective Updates under Imperfect Verification**: This work introduces a framework for managing updates in AI systems, ensuring that actions are based on verified evidence and maintaining safety even when verification is imperfect.
+
+#### 4. **Evaluation and Benchmarking**
+   - **CausalEvo: Causal Skill Self-Evolution for Health LLM Agents**: This paper discusses a method for evolving skills in health-related LLMs, emphasizing the importance of maintaining safety and accuracy in medical applications.
+   - **SciIntBench: Measuring LLM Compliance with Research Integrity Norms Under Adversarial Framing**: This benchmark evaluates LLMs' adherence to research integrity norms, revealing significant gaps in compliance under adversarial conditions.
+
+### Trends and Insights
+- **Security Vulnerabilities**: Many papers highlight the vulnerabilities of AI systems, particularly in federated learning and multimodal contexts. The need for robust defenses against backdoor attacks and injection vulnerabilities is a recurring theme.
+- **Bias and Ethical Implications**: The exploration of biases in AI outputs, particularly in relation to job opportunities and moral reasoning, underscores the ethical considerations that must be addressed in AI development and deployment.
+- **Robustness and Verification**: The importance of robust verification methods and the ability to adapt to changing environments is emphasized, particularly in high-stakes applications like healthcare and network management.
+- **Evaluation Frameworks**: The development of benchmarks and frameworks for evaluating AI systems is crucial for ensuring compliance with safety and ethical standards, as well as for measuring performance across diverse tasks.
+
+### Conclusion
+The intersection of AI security, ethical considerations, and robust evaluation frameworks is increasingly critical as AI systems become more integrated into high-stakes environments. Ongoing research is essential to address vulnerabilities, biases, and the need for reliable verification methods to ensure the safe and ethical deployment of AI technologies.
