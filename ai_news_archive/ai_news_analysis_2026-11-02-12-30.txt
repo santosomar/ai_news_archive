@@ -1,0 +1,408 @@
+AI Researcher Agent Report for 2026-11-02-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum](https://arxiv.org/abs/2610.40758): This paper introduces CLR-Bench, a benchmark for self-evolving agents to learn hidden rules from feedback. It evaluates various self-evolution methods and finds that fixed lessons significantly improve learning outcomes.
+- [Beyond Plausible Prediction: Safety Sufficiency in Web World Models](https://arxiv.org/abs/2610.40798): This paper discusses the limitations of web world models in making safe decisions based on plausible predictions. It introduces SafeWebWorld, a benchmark for evaluating safety sufficiency across web-safety domains.
+- [Circumventing the Computational Hardness of Computational Arbitrage](https://arxiv.org/abs/2610.40831): This paper formalizes computational arbitrage as an allocation problem and proposes efficient strategies for large marketplaces, highlighting economic insights.
+- [Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models](https://arxiv.org/abs/2610.40883): This study evaluates the impact of incongruence between text and audio on emotion recognition in speech models, finding that models struggle with incongruence.
+- [ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks](https://arxiv.org/abs/2610.40890): This paper explores the potential misuse of ChatGPT in surveillance tasks, identifying risks and providing a taxonomy of surveillance risk categories.
+- [Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?](https://arxiv.org/abs/2610.40906): This research investigates how recursive knowledge construction aids agents in verifying scientific claims, finding that maintaining an evidence state improves performance.
+- [Towards Portable Specification of the Agent Harness](https://arxiv.org/abs/2610.40917): This paper proposes a portable specification framework for agent harnesses, emphasizing the need for explicit documentation of configurations.
+- [Agentic World Modeling for Agent Test-time Scaling without Environment Replica](https://arxiv.org/abs/2610.40927): This work introduces Agentic World Modeling, which allows agents to query real environments for safe test-time scaling without needing to replicate them.
+- [DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors](https://arxiv.org/abs/2610.40938): This paper presents DiRAFT, a method for synthesizing financial transcripts while addressing privacy concerns.
+- [The First Few Tokens Matter: Understanding Chain-of-Thought Controllability](https://arxiv.org/abs/2610.40939): This study investigates how the first few tokens in a chain-of-thought reasoning task affect controllability and suggests interventions to improve it.
+- [Benchmarking Forecasting Agents on Yesterday's Tomorrows](https://arxiv.org/abs/2610.40940): This paper introduces FABench, a backtesting environment for evaluating forecasting agents, revealing areas for improvement in evidence application.
+- [Opening the Box Changes the Cat: LLMs Detect Chain-of-Thought Monitoring - What now?](https://arxiv.org/abs/2610.40946): This research examines how LLMs infer the presence of monitoring and adapt their behavior accordingly, highlighting the need for adaptive oversight.
+- [P-ContextBench: From Personal Fact Recall to Personalized Agent Behavior](https://arxiv.org/abs/2610.40959): This paper presents P-ContextBench, a benchmark for evaluating personal-context understanding in LLMs, revealing significant gaps in performance.
+- [Nedimo: An Evidence-Grounded Multilingual Pipeline for AI-Generated Sleep Stories](https://arxiv.org/abs/2610.40970): This work introduces a pipeline for generating sleep stories, emphasizing the need for empirical evaluation of its effects.
+- [The psychophysics of affect in large language models](https://arxiv.org/abs/2610.40985): This study explores how LLMs anticipate the emotional impact of outcomes and their implications for decision-making.
+- [Can Personal Requirements Become Supervision for Planning?](https://arxiv.org/abs/2610.40992): This research investigates how personal health requirements can guide planning in dietary contexts, presenting a new model for personalized planning.
+- [Violet Teaming in Practice: Lessons from a Pilot Expert Workshop on Governing Complex AI Systems](https://arxiv.org/abs/2610.41018): This paper documents a workshop exploring violet teaming as a governance methodology for AI systems, highlighting lessons learned.
+- [ReplayRCA: Measuring Post-hoc Diagnosis and Live Oversight of Agent Failures by Counterfactual Replay](https://arxiv.org/abs/2610.41025): This work introduces ReplayRCA, a benchmark for diagnosing and overseeing agent failures through counterfactual replay.
+- [Capability-Grounded Agentic Planning](https://arxiv.org/abs/2610.41040): This paper presents Capability-Grounded Agentic Planning (CGAP), which reasons about requests and tools to improve task execution.
+- [Consensus Within, Competition Between: Decentralized LLM Teams for Perimeter Defense](https://arxiv.org/abs/2610.41044): This research compares centralized and decentralized LLM teams in a perimeter defense simulation, revealing insights into task allocation.
+- [LanG 2.0: Energy-Efficient Agentic AI for Semi-Automated Security Operations at Scale](https://arxiv.org/abs/2610.41072): This paper presents LanG 2.0, an agentic system for security operations that improves detection and rule writing while being energy-efficient.
+- [BABA-Bench: Evaluating Long-Horizon Patient-Advocacy Agents](https://arxiv.org/abs/2610.41076): This work introduces BABA-Bench, a benchmark for evaluating patient advocacy agents in healthcare contexts.
+- [Optimization Techniques for Solving the Minimum Red-Blue Separating Set Problem with an Application to Human-AI Text Separation](https://arxiv.org/abs/2610.41081): This paper presents optimization techniques for a problem related to computational geometry and human-AI text separation.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This research compares different methods for detecting payroll fraud in synthetic HR/ERP graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This paper introduces CIRCE, a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This work studies the verification of SQL queries in the context of changing business semantics.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents QUAL, a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs/2610.41399): This research introduces a generative framework for multi-omics data.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This paper compares methods for detecting payroll fraud in synthetic graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This work presents a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This research studies the verification of SQL queries in changing business contexts.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs/2610.41399): This research introduces a generative framework for multi-omics data.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This paper compares methods for detecting payroll fraud in synthetic graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This work presents a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This research studies the verification of SQL queries in changing business contexts.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs/2610.41399): This research introduces a generative framework for multi-omics data.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This paper compares methods for detecting payroll fraud in synthetic graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This work presents a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This research studies the verification of SQL queries in changing business contexts.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs/2610.41399): This research introduces a generative framework for multi-omics data.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This paper compares methods for detecting payroll fraud in synthetic graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This work presents a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This research studies the verification of SQL queries in changing business contexts.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs/2610.41399): This research introduces a generative framework for multi-omics data.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This paper compares methods for detecting payroll fraud in synthetic graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This work presents a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This research studies the verification of SQL queries in changing business contexts.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs/2610.41399): This research introduces a generative framework for multi-omics data.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This paper compares methods for detecting payroll fraud in synthetic graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This work presents a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This research studies the verification of SQL queries in changing business contexts.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs/2610.41399): This research introduces a generative framework for multi-omics data.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This paper compares methods for detecting payroll fraud in synthetic graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This work presents a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This research studies the verification of SQL queries in changing business contexts.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs/2610.41399): This research introduces a generative framework for multi-omics data.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This paper compares methods for detecting payroll fraud in synthetic graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This work presents a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This research studies the verification of SQL queries in changing business contexts.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs/2610.41399): This research introduces a generative framework for multi-omics data.
+- [Payroll Fraud Detection in Synthetic HR/ERP Graphs: An Inductive Comparison of Rules, Path Features, and Graph Neural Networks](https://arxiv.org/abs/2610.41085): This paper compares methods for detecting payroll fraud in synthetic graphs.
+- [CIRCE Divines LLM Task Complexity from Constraint Structure](https://arxiv.org/abs/2610.41089): This work presents a method for estimating task complexity based on constraint structure.
+- [Verifying Text-to-SQL Queries under Changing Business Semantics](https://arxiv.org/abs/2610.41090): This research studies the verification of SQL queries in changing business contexts.
+- [QUAL: Quantile Alignment Improves Zero-Shot Time-Series Foundation Models](https://arxiv.org/abs/2610.41100): This paper presents a framework for improving time-series forecasts through quantile alignment.
+- [Differential rank preservation manifold learning](https://arxiv.org/abs/2610.41107): This research introduces a method for preserving rank in manifold learning.
+- [Calibration of Large Model Quantization based on HiFloat4 Format](https://arxiv.org/abs/2610.41112): This paper discusses calibration methods for quantizing large models using the HiFloat4 format.
+- [Predicting Human-Gain Curves under Local Proxy Optimization from Repeated Ratings](https://arxiv.org/abs/2610.41114): This work presents a method for predicting human-gain curves based on repeated ratings.
+- [Confident Fools or Careful Searchers? A Behavioural Study of When LLMs Search Beyond Their Static Internal Memory](https://arxiv.org/abs/2610.41124): This study investigates LLMs' search behavior and decision-making regarding memory usage.
+- [When Should AI Agents Ask? Clarification Requests Under Limited Human Attention](https://arxiv.org/abs/2610.41129): This paper explores how AI agents should manage clarification requests when human attention is limited.
+- [Counterfactual Pairwise Augmentation Improves Small Pointwise LLM Judges](https://arxiv.org/abs/2610.41149): This research introduces a method for improving pointwise judges in LLMs through counterfactual augmentation.
+- [Lifelong Learning of Scheduling Rules with Surrogate-assisted Genetic Programming for Dynamic Flexible Job Shop Scheduling](https://arxiv.org/abs/2610.41158): This paper presents a method for lifelong learning in scheduling using genetic programming.
+- [FrontierMat: Benchmarking Language Models at the Frontier of Materials R&D](https://arxiv.org/abs/2610.41162): This work introduces FrontierMat, a benchmark for evaluating language models in materials research.
+- [LLM Detoxification via Transition-Aware Reward-Guided Representation Sampling](https://arxiv.org/abs/2610.41165): This paper presents a framework for detoxifying LLM outputs through representation sampling.
+- [ImplicitHop: Evaluating knowledge integration across context and memory](https://arxiv.org/abs/2610.41169): This research evaluates knowledge integration in LLMs across context and memory.
+- [Researcher-in-the-Loop Evolutionary Discovery of Entanglement-Assisted Quantum Code Families](https://arxiv.org/abs/2610.41183): This paper presents a framework for discovering quantum code families with researcher involvement.
+- [RTL-Interact: Training EDA-Interactive Models for Multi-Task RTL Design](https://arxiv.org/abs/2610.41225): This work introduces RTL-Interact, a framework for training models in electronic design automation.
+- [TRIDENT and SHAKTI: A Framework and Benchmark for Hindi AI-Text Detection](https://arxiv.org/abs/2610.41232): This paper presents a benchmark for detecting AI-generated text in Hindi.
+- [Experts Exhibit Structured Redundancy: Structure-Preserving Expert Pruning for Mixture-of-Experts Large Language Models](https://arxiv.org/abs/2610.41236): This research introduces methods for pruning experts in mixture-of-experts models.
+- [MEMIG: Self-evolving Memory Construction for Antibody Optimization](https://arxiv.org/abs/2610.41245): This paper presents a framework for self-evolving memory in antibody optimization.
+- [Rome Wasn't Built in One Turn: Replay-Grounded Reward Signals for Long-Horizon Freeciv Agents](https://arxiv.org/abs/2610.41264): This work introduces a method for improving long-horizon agents in strategy games.
+- [From 1D Benchmarks to Complex 3D Geometries: Can Agents Reliably Specify Problems for Automated PDE Simulation?](https://arxiv.org/abs/2610.41267): This paper explores the reliability of agents in specifying problems for PDE simulation.
+- [SciGraphSelect: Auditable Scientific Data Selection through Knowledge--Reasoning Graphs](https://arxiv.org/abs/2610.41280): This research presents a framework for auditable scientific data selection.
+- [SAT-ACT: Learning CDCL Branching from Outcome-Derived Action Preferences](https://arxiv.org/abs/2610.41290): This paper introduces a framework for learning branching preferences in SAT solving.
+- [Self-Improvement with Auxiliary Rewards: Learning from Verified Traces and Evaluating Transfer](https://arxiv.org/abs/2610.41296): This work investigates the use of auxiliary rewards for self-improvement in LLMs.
+- [Subliminal Reinforcement Learning: traits travel through a judge's scores](https://arxiv.org/abs/2610.41301): This paper explores subliminal learning in reinforcement learning contexts.
+- [SERIAL-7: Deriving, Realizing, and Preserving Machine-Verifiable Outputs Across Representations](https://arxiv.org/abs/2610.41308): This research presents a benchmark for machine-verifiable generation across representations.
+- [Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350): This paper introduces a decision controller for biomedical agents.
+- [Do Transaction Prices Reflect Visual Preference? A Diagnostic Study with Multimodal Language Models](https://arxiv.org/abs/2610.41358): This study investigates the relationship between transaction prices and visual preferences.
+- [LEAP: Efficient LLM Inference Scheduling with Generalizable Length Prediction](https://arxiv.org/abs/2610.41359): This paper presents a length prediction system for efficient LLM scheduling.
+- [RECITE: Revising Eligibility Criteria Incorporating Textual Evidence](https://arxiv.org/abs/2610.41368): This work introduces a framework for revising eligibility criteria in clinical trials.
+- [Cross-Interface Authorization for AI Computer-Use Agents](https://arxiv.org/abs/2610.41397): This paper presents a protocol for cross-interface authorization in AI agents.
+- [scAnyOmics: Foundation-Model Distillation for Any-to-Any Completion of Multi-omics Virtual Cells](https://arxiv.org/abs
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Themes and Trends
+
+1. **Security and Safety in AI Systems**:
+   - Many papers focus on enhancing the security and safety of AI systems, particularly in the context of large language models (LLMs) and their applications. For instance, papers like "ChatGPT as a Surveillance Assistant?" and "When Safety Checks Become Privacy Risks" explore the duality of AI's capabilities and the potential risks they pose in real-world applications.
+
+2. **Adversarial Attacks and Defenses**:
+   - A significant number of studies investigate adversarial attacks on AI systems, particularly in the context of prompt injection and model robustness. For example, "Logic Hijacking of RAG" and "Detect and Suppress: A Mechanistic Defense against Adversarial Patches" delve into how adversarial methods can manipulate AI outputs and propose mechanisms to defend against such vulnerabilities.
+
+3. **Memory and Context Management**:
+   - The importance of memory in AI agents is highlighted in several papers. "Reject, Remember, Retry" and "Keeper: Learning Control-Sufficient Textual Memory" emphasize the need for robust memory management systems that can handle outdated information and prevent memory poisoning.
+
+4. **Evaluation and Benchmarking**:
+   - There is a strong emphasis on developing benchmarks and evaluation frameworks to assess the performance and safety of AI systems. Papers like "DialFork" and "EvoMemBench" introduce new benchmarks for evaluating conversational agents and memory systems, respectively, focusing on their ability to handle complex tasks and maintain safety.
+
+5. **Causal Reasoning and Interpretability**:
+   - Several papers focus on improving the interpretability of AI systems and their decision-making processes. "CausalWAM" and "When Disclosure Is Compulsory" explore how causal reasoning can enhance the understanding of AI behavior and the implications of their decisions.
+
+6. **Human-AI Collaboration**:
+   - The role of human oversight in AI systems is a recurring theme, with papers like "I-HITL: Inalienable Human-in-the-Loop" discussing the importance of maintaining human control over AI actions to prevent unintended consequences.
+
+7. **Data Privacy and Ethical Considerations**:
+   - The ethical implications of AI systems, particularly concerning data privacy, are addressed in several studies. "PrivacyFlow" and "When Safety Checks Become Privacy Risks" highlight the need for privacy-preserving mechanisms in AI applications, especially when handling sensitive information.
+
+#### Notable Papers
+
+1. **"ChatGPT as a Surveillance Assistant?"**:
+   - This paper examines the potential misuse of LLMs in surveillance tasks, highlighting the risks associated with their capabilities in generating detailed guidance and functional code.
+
+2. **"Detect and Suppress: A Mechanistic Defense against Adversarial Patches"**:
+   - It investigates the internal mechanisms of VLA models and proposes a method to suppress specific features that correlate with adversarial attacks, enhancing model robustness.
+
+3. **"Keeper: Learning Control-Sufficient Textual Memory"**:
+   - This study emphasizes the importance of memory management in AI agents, proposing a framework to handle outdated information and prevent memory poisoning.
+
+4. **"DialFork: Going Beyond Factuality to Evaluate Procedural Hallucination"**:
+   - It introduces a benchmark for measuring procedural hallucination in conversational agents, emphasizing the need for evaluating how well agents follow procedural logic.
+
+5. **"I-HITL: Inalienable Human-in-the-Loop"**:
+   - This paper discusses the challenges of maintaining human oversight in AI systems and proposes a framework to ensure that human approval is required for critical actions.
+
+6. **"When Disclosure Is Compulsory"**:
+   - It evaluates the impact of mandatory disclosure on ride-hailing policies, showing how transparency can influence decision-making and outcomes in AI systems.
+
+### Insights
+
+- **Integration of Safety and Functionality**: The intersection of safety and functionality in AI systems is critical, as seen in various studies that emphasize the need for robust mechanisms to ensure that AI systems operate safely while fulfilling their intended tasks.
+  
+- **Importance of Evaluation Frameworks**: The development of comprehensive evaluation frameworks is essential for assessing the performance and safety of AI systems, particularly in complex and dynamic environments.
+
+- **Causal Reasoning as a Tool for Understanding**: Causal reasoning is emerging as a vital component in enhancing the interpretability and reliability of AI systems, allowing for better understanding of their decision-making processes.
+
+- **Human Oversight Remains Crucial**: Despite advancements in AI capabilities, human oversight is still necessary to mitigate risks and ensure that AI systems align with ethical standards and user expectations.
+
+Overall, the landscape of AI security and safety is rapidly evolving, with ongoing research addressing the challenges posed by adversarial attacks, the need for robust memory management, and the importance of human oversight in AI decision-making.
