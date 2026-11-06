@@ -1,0 +1,135 @@
+AI Researcher Agent Report for 2026-11-06-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation](https://arxiv.org/abs/2611.06962): Discusses the AutoIP library for formalizing classical linear regularization theory using AI agents, emphasizing the importance of verifying formal statements in mathematical proofs.
+- [KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks](https://arxiv.org/abs/2611.06972): Introduces KDASO, which optimizes skill libraries for legal adjudication tasks by continuously evolving skills based on recent data and LLM trajectory analysis.
+- [BlockLock: Reproducible LLM Inference with Fixed Batch Geometry](https://arxiv.org/abs/2611.06977): Presents BlockLock, a method for reproducible LLM inference that preserves output consistency across batch requests by fixing request geometry.
+- [Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism](https://arxiv.org/abs/2611.06984): Introduces FlexFloor, a system that improves the efficiency of reinforcement learning post-training by optimizing resource allocation during response generation.
+- [The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record](https://arxiv.org/abs/2611.06989): Proposes a model for tracking AI costs in multi-agent systems, focusing on the need for accurate transaction accounting in AI deployments.
+- [Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization](https://arxiv.org/abs/2611.06995): Analyzes how AI agents differ from humans in proof formalization tasks, highlighting the need for better human-AI collaboration.
+- [Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity](https://arxiv.org/abs/2611.06996): Discusses a policy for runtime authorization in AI agents based on trust and contextual risk.
+- [Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI](https://arxiv.org/abs/2611.07048): Explores different evolutionary strategies for AI adaptation and their implications for safety.
+- [Closed-Loop Agent Evaluation: Layered Measurement and Self-Calibration](https://arxiv.org/abs/2611.07051): Proposes a closed-loop evaluation method for deployed agents that ensures reliability and accountability in performance assessment.
+- [Cooperative Multi-Agent Reinforcement Learning via Epigraph-Form Guided Exploration](https://arxiv.org/abs/2611.07066): Introduces a framework for enhancing cooperative behavior in multi-agent reinforcement learning through guided exploration.
+- [When Verification Is Not Agreement: Cross-Agent LLM-to-Dafny Formalization](https://arxiv.org/abs/2611.07073): Investigates the verification process in AI agents and the discrepancies in agreement between different models.
+- [Synthesizing symbolic models of human and machine reasoning at scale](https://arxiv.org/abs/2611.07088): Discusses a method for synthesizing symbolic models to compare human and machine reasoning.
+- [PromptOps: Iterative Prompt Optimization for LLM-as-a-Judge Systems](https://arxiv.org/abs/2611.07123): Introduces a framework for optimizing prompts in LLMs used as judges to maintain performance over time.
+- [Goal Revelation as a Bridge Between Information-Theoretic Empowerment and Capability-Based Human Power](https://arxiv.org/abs/2611.07247): Explores the relationship between empowerment and human capability in AI systems.
+- [Robust Ranking of Port Impacts from Impending Tropical Cyclones: A Two-Stage Recommendation System](https://arxiv.org/abs/2611.07296): Proposes a recommendation system for assessing port impacts from tropical cyclones using a two-stage framework.
+- [EnvOpt: Automated Optimization for Agent Environments](https://arxiv.org/abs/2611.07372): Introduces a method for optimizing agent environments to improve performance across different models.
+- [FINCOSMOS: An Open-World Evaluation Paradigm for Agents in Finance](https://arxiv.org/abs/2611.07464): Proposes an evaluation paradigm for financial agents that measures their performance in open-world scenarios.
+- [SAVeR$^2$: Reasoning-based Safety Alignment for Large Reasoning Models via Verifiable Rewards](https://arxiv.org/abs/2611.07482): Discusses a novel safety alignment method for large reasoning models that utilizes reasoning capabilities for safety.
+- [DelegateEval: Evaluating Platforms for Personal External Service Agents](https://arxiv.org/abs/2611.07508): Proposes a framework for evaluating platforms that support personal external service agents.
+- [Graph learning-assisted logic-based Benders decomposition for distributionally robust in-station train rescheduling under disruptions](https://arxiv.org/abs/2611.07520): Introduces a model for optimizing train schedules under disruptions using graph learning.
+- [Goal-Branching LaCAM: Temporary Goals as Search Branches in Dense Multi-Agent Pathfinding](https://arxiv.org/abs/2611.07528): Proposes a search-based solver for multi-agent pathfinding that uses temporary goals to improve performance.
+- [CST-Bench: Benchmarking Counterfactual Spatial Transition Reasoning with Causal Transition On-Policy Self-Distillation](https://arxiv.org/abs/2611.07541): Introduces a benchmark for evaluating counterfactual spatial reasoning in multimodal large language models.
+- [FlashOffloading: Low-Latency KV Cache Offloading for Long-Context LLM Serving](https://arxiv.org/abs/2611.07542): Proposes an architecture for offloading key-value caches to improve LLM serving efficiency.
+- [Align Before Aggregation: Basis-Consistent Federated LoRA under Heterogeneous Ranks](https://arxiv.org/abs/2611.07598): Discusses a federated learning framework that addresses rank heterogeneity in low-rank adaptation.
+- [Embedding-Space Fingerprinting of LoRA Fine-Tunes: Recovering the Training-Data Domain from the Model Artifact Alone](https://arxiv.org/abs/2611.07610): Investigates the ability to recover training data domains from fine-tuned models.
+- [Beneath the Surface: What We Overlook When We Talk About Agent Evolution](https://arxiv.org/abs/2611.07624): Analyzes the evolution of AI agents and the implications for performance and reliability.
+- [Redacting Personal Data: A Speed and Accuracy Comparison of Regex, Presidio and Hybrid Designs](https://arxiv.org/abs/2611.07633): Compares different methods for redacting personally identifiable information in text.
+- [Don't Prompt Your Agents. Equip Them: Skillware as a Modular Standard for Sovereign, Auditable, and Deterministic Capability Execution for Logical Systems](https://arxiv.org/abs/2611.07652): Proposes an architectural framework for equipping agents with modular capabilities.
+- [PharmAgents2: Towards Autonomous End-to-End Drug Discovery](https://arxiv.org/abs/2611.07653): Introduces an autonomous system for drug discovery that combines knowledge-enhanced decision-making with large-scale exploration.
+- [Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies](https://arxiv.org/abs/2611.07667): Investigates the impact of information-sharing policies on multi-agent systems.
+- [MCPHallu: Benchmarking Reasoning, Execution, and Memory Hallucinations in MCP Agents](https://arxiv.org/abs/2611.07689): Introduces a benchmark for diagnosing hallucination-prone failures in multi-agent systems.
+- [Towards Generalist Graph-Level Anomaly Detection](https://arxiv.org/abs/2611.07706): Proposes a generalist approach for detecting anomalies in graphs across multiple domains.
+- [Pediatric ECG foundation model via adult-to-pediatric fine-tuning: downstream tasks and clinical evaluation](https://arxiv.org/abs/2611.07717): Discusses the adaptation of adult ECG models for pediatric use.
+- [RIVER: Evidence-guided multi-agent retrieval for enzyme--reaction discovery](https://arxiv.org/abs/2611.07757): Introduces a framework for enzyme-reaction retrieval that integrates multiple knowledge sources.
+- [The Intrusion Pathway: How Non-Evidential Context Degrades Language Model Performance](https://arxiv.org/abs/2611.07778): Analyzes the impact of irrelevant context on language model performance.
+- [Generate-then-Rank: Learning Symbolic Goal Interpretation for Embodied Agents](https://arxiv.org/abs/2611.07825): Proposes a two-stage approach for interpreting natural language instructions for embodied agents.
+- [FARR: Forecast-Aware Residual Refinement with Matched Endpoint Evidence for Long-Horizon Time-Series Forecasting](https://arxiv.org/abs/2611.07870): Introduces a method for refining forecasts using endpoint evidence.
+- [Responsible GenAI Use During Active Armed Conflict: Evidence from Sudan's Emergency Response Rooms](https://arxiv.org/abs/2611.07874): Examines the use of Generative AI in humanitarian response during conflict.
+- [When Bigger Becomes Brittle: Why Compression Hurts More as Language Models Scale](https://arxiv.org/abs/2611.07891): Analyzes the effects of compression on larger language models.
+- [Persistent Retrieval for Conversational Agents: A Study of Retrieval Efficiency](https://arxiv.org/abs/2611.07899): Investigates the efficiency of different retrieval strategies for conversational agents.
+- [GuidedWAM: Training-Free Energy Guidance for World Action Models in Autonomous Driving](https://arxiv.org/abs/2611.07912): Proposes a method for guiding driving objectives in world action models.
+- [Adaptive Semantic Branching: Disagreement-Localized Cross-Trajectory Regeneration for Reasoning Candidate Expansion](https://arxiv.org/abs/2611.07918): Introduces a method for expanding reasoning candidates based on disagreement among trajectories.
+- [How Finite Brains Generalize Without Bound: Spatial Memory as a Universal Computer](https://arxiv.org/abs/2611.07920): Discusses the implications of spatial memory in generalization.
+- [ChemE-as-Code: An Open-Source Platform for Agentic AI in Chemical Engineering](https://arxiv.org/abs/2611.07947): Introduces a platform for AI agents in chemical engineering.
+- [Create Your Own Work Stack: Deploying Self-hosted AI and Tooling in a Tech Startup](https://arxiv.org/abs/2611.08116): Discusses the deployment of a hybrid AI stack in a startup.
+- [A Generative Foundation Model for Multimodal Tokamak Tasks](https://arxiv.org/abs/2611.08153): Proposes a generative model for tokamak tasks in fusion research.
+- [PCBRouteAgent: How Close Are LLM Agents to Becoming PCB Routing Engineers?](https://arxiv.org/abs/2611.08175): Evaluates the performance of LLM agents in PCB routing tasks.
+- [BabyTheorist: A Benchmark for Learning to Theorize the World from Observation Alone](https://arxiv.org/abs/2611.08177): Introduces a benchmark for observational theory learning.
+- [SMART: State-based Multi Agent Reasoning Traces for Verification-oriented Problem-Solving](https://arxiv.org/abs/2611.08196): Proposes a framework for multi-agent reasoning in problem-solving.
+- [Signals, Evidence, and Context: User Scrutiny in Real-World LLM Conversations](https://arxiv.org/abs/2611.08232): Analyzes user scrutiny in conversations with LLMs.
+- [Value-oriented policy distillation for interpretable wind farm power control](https://arxiv.org/abs/2611.08245): Discusses a value-oriented approach to wind farm power control.
+- [The Geometry of Simulated Perspectives: Dissociating Representation and Behaviour in a Multimodal Language Model](https://arxiv.org/abs/2611.08262): Investigates how perspectives affect internal representations in language models.
+- [LeanContext: Disentangling Mathematical Resources from Local Formal Context in Lean Whole-Proof Generation](https://arxiv.org/abs/2611.08277): Proposes a benchmark for evaluating mathematical proof generation.
+- [A Generative Model of Contextual Integrity: Appropriate vs. Inappropriate Information Sharing](https://arxiv.org/abs/2611.08284): Discusses a generative model for understanding information sharing.
+- [First-Token Attraction in Mamba Dynamics](https://arxiv.org/abs/2611.08303): Analyzes token dynamics in deep Mamba models.
+- [RM-VLM: From Natural-Language Task Descriptions to Vision-Grounded Reward Machines](https://arxiv.org/abs/2611.08308): Proposes a method for generating reward machines from natural-language descriptions.
+- [Benchmarking Large Language Models on Heterogeneous Cognitive and Biomedical Knowledge Graphs: The Role of Graph Grounding in Multi-Hop Reasoning and Hallucination Mitigation](https://arxiv.org/abs/2611.08315): Evaluates LLMs on cognitive and biomedical knowledge graphs.
+- [Learning the Task or Learning the Verifier? Rethinking Criteria Exposure in Embodied Self-Improvement](https://arxiv.org/abs/2611.08318): Investigates the impact of criteria exposure on self-improving agents.
+- [Keeping Jerk in Check: Jointly Trained Perception-Gated Experts for Smooth Terrain Transitions](https://arxiv.org/abs/2611.08341): Proposes a framework for smooth transitions in legged locomotion.
+- [Adaptive Experimentation Can Hide Model Error:Detection Limits and Falsification Budget](https://arxiv.org/abs/2611.08386): Discusses the challenges of adaptive experimentation in model evaluation.
+- [Screen Before You Serve: Simulation for Production Customer Experience AI Agents at 140M Scale](https://arxiv.org/abs/2611.08387): Presents a simulation workflow for evaluating customer experience agents.
+- [Can Linguistic Reasoning Vectors Enhance Multimodal Reasoning Ability?](https://arxiv.org/abs/2611.08400): Investigates the impact of linguistic reasoning on multimodal reasoning.
+- [Learning Noise Optimization for Reward Alignment in Few-Step Generative Models](https://arxiv.org/abs/2611.08402): Proposes a method for optimizing noise in generative models.
+- [How to Backdoor Image Knowledge Distillation](https://arxiv.org/abs/2504.21323): Discusses the risks of backdoor attacks in knowledge distillation.
+- [CoMPAS3D: A Dataset and Benchmark for Interactive Motion](https://arxiv.org/abs/2507.19684): Introduces a dataset for evaluating interactive motion generation.
+- [Post-Training Large Language Models via Reinforcement Learning from Self-Feedback](https://arxiv.org/abs/2507.21931): Proposes a method for improving LLMs using self-generated feedback.
+- [How to Report for 100+ Clients With One Semantic Model](https://towardsdatascience.com/how-to-report-for-100-clients-with-one-semantic-model/): Discusses a configuration-driven approach to reporting.
+- [Detecting signs of hypertension using wearable sensors](https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/): Discusses the use of wearable sensors for detecting hypertension.
+
+### Categories
+#### Security
+- [When Verification Is Not Agreement: Cross-Agent LLM-to-Dafny Formalization](https://arxiv.org/abs/2611.07073): Investigates verification processes in AI agents.
+- [Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity](https://arxiv.org/abs/2611.06996): Discusses authorization policies for AI agents.
+- [Backdoor Containment via Expert Quarantine and Shutdown in LLMs](https://arxiv.org/abs/2610.00663): Proposes a strategy for containing backdoor attacks in LLMs.
+- [Backdoor Purification for LoRA-Tuned LLMs via Null-Space Projection](https://arxiv.org/abs/2610.00685): Discusses methods for purifying backdoored LLMs.
+
+#### Reinforcement Learning
+- [KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks](https://arxiv.org/abs/2611.06972): Introduces a method for optimizing skills in legal adjudication tasks.
+- [Reward Engine: Reward-Centric Self-Evolution for Open-Ended Tool Agents](https://arxiv.org/abs/2610.22915): Discusses a framework for self-evolving agents.
+- [Vector Policy Optimization: Training for Diversity Improves Test-Time Search](https://arxiv.org/abs/2605.22817): Proposes a method for improving diversity in reinforcement learning.
+
+#### Medical Applications
+- [Pediatric ECG foundation model via adult-to-pediatric fine-tuning: downstream tasks and clinical evaluation](https://arxiv.org/abs/2611.07717): Discusses adapting ECG models for pediatric use.
+- [MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue](https://arxiv.org/abs/2611.08433): Proposes a graph memory for maintaining patient information in medical dialogue.
+
+#### Benchmarking and Evaluation
+- [ProMoral-Bench: Evaluating Prompting Strategies for Moral Reasoning and Safety in LLMs](https://arxiv.org/abs/2602.13274): Introduces a benchmark for evaluating moral reasoning in LLMs.
+- [JudgmentBench: Comparing Rubric and Preference Evaluation for Quality Assessment](https://arxiv.org/abs/2605.25240): Compares different evaluation methodologies for quality assessment.
+
+#### Robotics and Autonomous Systems
+- [VTAM: Efficient Visuo-Tactile World-Action Models for Contact-Rich Manipulation without Tactile Pretraining](https://arxiv.org/abs/2603.23481): Proposes a model for contact-rich manipulation in robotics.
+- [RoboCurate: Harnessing Diversity with Action-Verified Synthetic Data for Robot Learning](https://arxiv.org/abs/2602.18742): Discusses a framework for generating synthetic data for robot learning.
+
+#### Language Models and Reasoning
+- [Learning to Think from Multiple Thinkers: How Chain-of-Thought Heterogeneity Affects Efficient Learnability](https://arxiv.org/abs/2604.24737): Investigates the impact of heterogeneous reasoning on learning efficiency.
+- [Can LLMs Reason in a Legally Meaningful Manner? A Small-scale Study on European Court of Human Rights Cases](https://arxiv.org/abs/2608.17168): Examines the reasoning capabilities of LLMs in legal contexts.
+
+#### Miscellaneous
+- [How to Backdoor Image Knowledge Distillation](https://arxiv.org/abs/2504.21323): Discusses backdoor attacks in knowledge distillation.
+- [Detecting signs of hypertension using wearable sensors](https://research.google/blog/detecting-signs-of-hypertension-using-wearable-sensors/): Discusses the use of wearable sensors for detecting hypertension.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of Papers and News Related to Using AI for Security or Securing AI
+
+#### Key Trends and Insights:
+1. **Security Vulnerabilities in AI Systems**: Several papers highlight the vulnerabilities of AI systems, particularly large language models (LLMs), to adversarial attacks and backdoor manipulations. For instance, the paper on "Backdoor Containment via Expert Quarantine" discusses how backdoor attacks can be contained by routing malicious behavior into a quarantined component, emphasizing the need for robust defenses against such threats.
+
+2. **Evaluation and Trustworthiness**: The importance of evaluating AI systems for safety and reliability is underscored in multiple studies. The "Trust Layer for Agent Evaluation" proposes a framework to verify the integrity of recorded scores, ensuring that results are supported by the underlying logic and computations. Similarly, "JudgmentBench" compares rubric-based and preference-based evaluation methods, revealing that the latter often yields better alignment with human judgment.
+
+3. **Adaptive Learning and Memory Management**: Papers like "Agentic Abstention" and "Reward Engine" explore how AI agents can adapt their behavior based on user interactions and feedback. These studies emphasize the need for agents to recognize when to abstain from actions that may lead to undesirable outcomes, and how they can evolve their capabilities through structured feedback mechanisms.
+
+4. **Robustness and Generalization**: Research on "Adaptive Test-Time Memory Allocation" and "Multi-Estimate Elicitation" indicates that AI systems must be robust to variations in input and capable of generalizing across different contexts. The findings suggest that models trained with diverse data and adaptive strategies perform better in real-world scenarios.
+
+5. **Interpretable AI**: The need for interpretability in AI systems is a recurring theme. The "Standard Interpretable Model" proposes a framework for designing interpretable methods from first principles, while "Understanding AI from the Inside" surveys mechanistic interpretability for AI safety, emphasizing the importance of understanding internal representations.
+
+6. **Integration of Multimodal Data**: Several papers focus on the integration of multimodal data for improved AI performance. For example, "NutriVisRAG" demonstrates how visual and textual data can be combined for better nutrient estimation, while "V-LUMEN" explores how visual lookup memory can enhance vision-language models.
+
+7. **Ethical Considerations and Human Oversight**: The study "AI Slop and Hallucinations in Vulnerability Assessment" highlights the ethical implications of using AI in sensitive areas like cybersecurity, pointing out the risks of relying on AI-generated outputs without proper human oversight.
+
+8. **Benchmarking and Evaluation Frameworks**: The introduction of various benchmarks, such as "FinMultiHopQA" and "StreamMemBench," illustrates the growing need for standardized evaluation frameworks that can assess the performance of AI systems in real-world scenarios, particularly in complex domains like finance and healthcare.
+
+#### Security-Specific Insights:
+- **Backdoor Attacks**: The research on backdoor attacks emphasizes the need for robust defenses that can detect and mitigate these risks without compromising the model's performance.
+- **Evaluation of Safety**: The frameworks proposed for evaluating AI systems, such as the Trust Layer and JudgmentBench, are crucial for ensuring that AI applications, especially in sensitive areas like healthcare and finance, are safe and reliable.
+- **Human Oversight**: The findings suggest that human oversight remains essential in AI systems to prevent misalignment and ensure that the systems operate as intended, particularly in high-stakes environments.
+
+### Conclusion
+The landscape of AI security is evolving, with a strong emphasis on understanding vulnerabilities, ensuring robustness, and integrating ethical considerations into AI development. The research highlights the importance of adaptive learning, interpretability, and comprehensive evaluation frameworks to enhance the safety and reliability of AI systems in various applications.
