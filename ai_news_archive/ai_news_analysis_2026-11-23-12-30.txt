@@ -1,0 +1,125 @@
+AI Researcher Agent Report for 2026-11-23-12-30:
+
+The following are the insights about the papers and news:
+
+### Summary
+- [Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams](https://arxiv.org/abs/2611.26663): This paper explores the impact of AI partnership size and behavioral formation on productivity and diversity in brainstorming sessions. It finds that while two-AI partnerships generate more ideas, they also reduce the quality of human contributions. The study emphasizes the importance of formation in single-AI partnerships.
+- [Coherence by Construction: Synthesizing CTI Knowledge Graphs and the Formal Limits of Coherence Validation](https://arxiv.org/abs/2611.26717): This paper presents a new paradigm for generating knowledge graphs using language models, focusing on coherence validation. It highlights the limitations of existing coherence validation methods and proposes a simulation-based approach to improve coherence in cyber threat intelligence knowledge graphs.
+- [TOUMAII: A 4.5M-Pair Tool-Calling Preference Dataset and Its Source-Agnostic Generator](https://arxiv.org/abs/2611.26722): This paper introduces a large-scale dataset for tool-calling preferences in AI models, addressing the scarcity of such data in realistic multi-turn settings. It also presents a synthetic data generation pipeline to enhance tool-calling capabilities.
+- [ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization](https://arxiv.org/abs/2611.26782): ChatAtom is a multi-agent system that automates molecular dynamics simulations, allowing users to conduct studies without needing to write input scripts. It streamlines the workflow from design to analysis, enhancing accessibility to advanced simulations.
+- [Beyond Final Answers: Interpretable Tumor Immune Microenvironment Reasoning from H&E and mIF](https://arxiv.org/abs/2611.26794): This paper presents HERMES, a multimodal large language model that automates tumor immune microenvironment assessments using histological and immunofluorescence data, achieving high accuracy and interpretability.
+- [Memorization and Generalization in Generative Models: A Perspective From Energy-based Modeling and Associative Memory](https://arxiv.org/abs/2611.26797): This thesis investigates the coexistence of memorization and generalization in generative models, proposing that associative memory principles can explain creative capabilities in models like diffusion models.
+- [Beyond Demographic Discrimination: Benchmarking Normative-Descriptive Calibration in LLMs](https://arxiv.org/abs/2611.26870): This paper introduces a new benchmark for evaluating large language models' normative-descriptive calibration, revealing significant differences in how models treat similar items under different reasoning tasks.
+- [Towards Robust Partial-Edit Deepfake Localization: An edit and Generator Conditioned Analysis](https://arxiv.org/abs/2611.26903): This work analyzes the robustness of deepfake localization systems, presenting a detailed evaluation of their performance across different editing conditions.
+- [Budget-Aware Predict-and-Verify Theorem Proving with Heterogeneous LLM Solvers](https://arxiv.org/abs/2611.26906): This paper presents BudgetPV, a system that allocates computational resources effectively across different LLM solvers for theorem proving, achieving significant efficiency improvements.
+- [AstronautBench: Measuring Agent Self-Improvement Across Episodes Through Knowledge, Evidence, and Progress](https://arxiv.org/abs/2611.26910): AstronautBench is introduced as a benchmark to measure self-improvement in LLM agents, focusing on knowledge retention and evidence-based learning.
+- [Self-Evolving Beyond Human-Crafted Experience for EDA Scripting](https://arxiv.org/abs/2611.26912): This paper presents ZhuLong-SE, an LLM agent that learns from past execution traces to improve electronic design automation scripting.
+- [Self-similar Organization of Information in Language](https://arxiv.org/abs/2611.26935): This work explores the self-similar structure of predictive information in language, providing insights into how LLMs learn from text.
+- [CodeReviewBench: An Automated Benchmark for Evaluating the Software Factory](https://arxiv.org/abs/2611.26942): CodeReviewBench is introduced as a new benchmark for evaluating the effectiveness of code review systems based on developer preferences.
+- [Keep the Process, Change the Supplier: Runtime Governance for Tool-Using AI Agents](https://arxiv.org/abs/2611.26966): This paper discusses the governance of tool-using AI agents, proposing a runtime framework to mediate capability calls and manage uncertain outcomes.
+- [Right Numbers, Wrong Story: When LLMs Narrate Financial Changes Beyond Their Inputs](https://arxiv.org/abs/2611.26968): This study examines how LLMs can misinterpret financial data, leading to unsupported framing in generated reports.
+- [Run One, Get Two: Near-Free Streaming Safety Checks for Local LLMs](https://arxiv.org/abs/2611.26975): This paper presents ToRA, an adapter that improves safety checks in local LLMs while maintaining efficiency.
+- [MixFold: Sub-4-Bit Mixed-Precision LLM Inference via Output-Channel Grouping on Mobile NPUs](https://arxiv.org/abs/2611.26976): MixFold is introduced as a method for efficient mixed-precision inference in mobile devices, achieving significant speed and accuracy improvements.
+- [From Letter-of-Credit Requirements to Executable Specifications: Evaluating Verification Accuracy and Completeness](https://arxiv.org/abs/2611.26988): This paper evaluates the accuracy of letter-of-credit document examination using a language model to convert requirements into executable specifications.
+- [Reward Integrity in Adversarial Reinforcement Learning for LLM Guardrail Red-Teaming](https://arxiv.org/abs/2611.26998): This work studies reward fidelity in adversarial reinforcement learning, proposing a framework for evaluating language model guardrails.
+- [Scalable Evaluation of Medical AI using Evidence-based Practice Recommendations](https://arxiv.org/abs/2611.27007): This paper presents an automated pipeline for evaluating medical AI based on clinical practice recommendations.
+- [Many Plans at Once: Diverse Top-Quality Planning in Continuous Time](https://arxiv.org/abs/2611.27012): This work introduces a planning framework that generates multiple diverse plans for continuous-time tasks.
+- [Same Facts, Different Decision: Fact-Invariant Manipulation and Provenance-Based Defense in Typed Decision Models](https://arxiv.org/abs/2611.27016): This paper explores how external comments can influence decision models, proposing a defense mechanism to mitigate this risk.
+- [Integral Multipliers and Arithmetic Obstructions for Two-Hidden-Layer ReLU Maxima](https://arxiv.org/abs/2611.27018): This work studies the representation of maximum functions by ReLU networks, providing bounds for specific cases.
+- [Disentangling Verbalized Evaluation Awareness and Refusal through Neuron-Level Intervention](https://arxiv.org/abs/2611.27032): This study investigates the relationship between evaluation awareness and refusal behavior in language models.
+- [Actions Speak Louder than Words: Stateful Privacy Sniffing of LLM Agents via Behavioral Covert Channels in Web Interactions](https://arxiv.org/abs/2611.27046): This paper discusses privacy risks in LLM agents during web interactions, proposing a framework for stateful probing.
+- [A Continuous Relaxation of Quantization-Aware Training](https://arxiv.org/abs/2611.27056): This work presents a method for continuous quantization-aware training, achieving significant accuracy improvements.
+- [Dynamic Token Merging for Efficient Vision-Language Models](https://arxiv.org/abs/2611.27064): This paper introduces a token merging framework for vision-language models, improving efficiency and accuracy.
+- [Decision Models Are General-Purpose Process Reward Models](https://arxiv.org/abs/2611.27068): This work presents a framework for using decision models as process reward models in reinforcement learning.
+- [Writing Weights or Training Them? Spatial Reasoning through Weight-Space Programming and Low-Rank Adaptation](https://arxiv.org/abs/2611.27089): This study compares weight-space programming and training-based adaptation for spatial reasoning tasks.
+- [Reasoning in Two Dimensions: Quantifying Chain-of-Thought Faithfulness and Efficiency](https://arxiv.org/abs/2611.27100): This paper quantifies the faithfulness and efficiency of chain-of-thought reasoning in language models.
+- [CoEvoBench: Can LLMs Drive Recursive Co-Evolution of Agentic Systems?](https://arxiv.org/abs/2611.27116): This work introduces a benchmark for evaluating the co-evolution of LLMs and their harnesses across various tasks.
+- [Portable Active Recovery under Timed and Position-Dependent Visual Outages](https://arxiv.org/abs/2611.27121): This paper presents a framework for active recovery in visual-inertial systems during outages.
+- [When Students Fail to Learn from Teachers: Learning Dynamics of On-Policy Distillation](https://arxiv.org/abs/2611.27125): This study investigates the learning dynamics of on-policy distillation in language models.
+- [MAPES: Multi-Value Alignment Pipeline via Expert Specialization](https://arxiv.org/abs/2611.27133): This paper presents a multi-value alignment framework for large language models.
+- [Double counting in LLM evidence fusion: exact posteriors separate rule compliance from posterior gain](https://arxiv.org/abs/2611.27138): This work discusses the challenges of evidence fusion in language models.
+- [Where Structure Enters a World Model: From Predictive Fit to Physical Rollout](https://arxiv.org/abs/2611.27149): This paper explores the role of physical structure in predictive world models.
+- [From Acting to Learning: Experience Selection toward Continually Learning Agents](https://arxiv.org/abs/2611.27159): This study examines experience selection for continual learning in language agents.
+- [Learning Adaptive Defense Strategies: Fine-Tuned LLMs for Network Security Games under Network Mobility](https://arxiv.org/abs/2611.27180): This work investigates the use of fine-tuned LLMs for adaptive defense strategies in network security.
+- [What Does Matching a Human Intervention Effect Establish? Benchmark Checks for LLM Simulations](https://arxiv.org/abs/2611.27186): This paper evaluates the effectiveness of LLM simulations in matching human effects.
+- [CreditFilter: Calibrated Token Weights over the Within-Response Entropy Rank for RLVR](https://arxiv.org/abs/2611.27227): This work presents a method for token reweighting in reinforcement learning with verifiable rewards.
+- [Proactive Defense Benchmark against Deepfake Generation](https://arxiv.org/abs/2611.27253): This paper introduces a benchmark for evaluating proactive defenses against deepfake generation.
+- [EAGLE: Entity-Aware Grounding with Layered Evidence for High-Resolution Image Understanding](https://arxiv.org/abs/2611.27264): This work presents a framework for entity-aware grounding in high-resolution images.
+- [NoiseRater: Meta-Learned Noise Valuation for Diffusion Model Training](https://arxiv.org/abs/2605.08144): This paper introduces a method for scoring noise instances in diffusion model training.
+- [Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution](https://arxiv.org/abs/2605.11229): This work discusses the risks of hijacking agentic workflows and proposes a framework for detection and exploitation.
+- [AI Safety Considerations for Agents With Limited Time to Act](https://arxiv.org/abs/2610.10285): This paper discusses the challenges of ensuring AI safety in environments with limited time for action.
+- [Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale](https://arxiv.org/abs/2608.00101): This study characterizes the usage of coding agents in real-world scenarios using GitHub Copilot traces.
+- [When Figures Disagree with Text: Evaluating Autonomous Visual Evidence Verification in Scientific Papers](https://arxiv.org/abs/2611.24353): This paper evaluates the ability of models to verify visual evidence against textual claims in scientific papers.
+
+### Categories
+#### Security
+- [Learning Adaptive Defense Strategies: Fine-Tuned LLMs for Network Security Games under Network Mobility](https://arxiv.org/abs/2611.27180)
+- [CreditFilter: Calibrated Token Weights over the Within-Response Entropy Rank for RLVR](https://arxiv.org/abs/2611.27227)
+- [Proactive Defense Benchmark against Deepfake Generation](https://arxiv.org/abs/2611.27253)
+- [Comment and Control: Hijacking Agentic Workflows via Context-Grounded Evolution](https://arxiv.org/abs/2605.11229)
+- [AI Safety Considerations for Agents With Limited Time to Act](https://arxiv.org/abs/2610.10285)
+- [What Does Matching a Human Intervention Effect Establish? Benchmark Checks for LLM Simulations](https://arxiv.org/abs/2611.27186)
+
+#### Robotics and Automation
+- [ChatAtom: A Multi-Agent LLM System for Molecular Dynamics Simulation and Visualization](https://arxiv.org/abs/2611.26782)
+- [EgoPhys: Physics-Informed Digital Twins for Deformable Objects from Egocentric Video](https://arxiv.org/abs/2606.16202)
+- [MAWAM: A Multi-Agent World-Action Model for Coordinated Manipulation](https://arxiv.org/abs/2611.25105)
+- [Embodied-Harness: Towards Recursive Self-Improvement for Robotic Manipulation](https://arxiv.org/abs/2611.27689)
+
+#### Multimodal Learning
+- [EAGLE: Entity-Aware Grounding with Layered Evidence for High-Resolution Image Understanding](https://arxiv.org/abs/2611.27264)
+- [R3D: Quantitative 3D Spatial Reasoning for Egocentric Wearables](https://arxiv.org/abs/2607.02921)
+- [VMSA: Video Memory Skill Agent for Long Video Understanding](https://arxiv.org/abs/2611.27381)
+- [CulturalRiddles: A Multicultural Benchmark of Riddles](https://arxiv.org/abs/2610.29968)
+
+#### Evaluation and Benchmarking
+- [CodeReviewBench: An Automated Benchmark for Evaluating the Software Factory](https://arxiv.org/abs/2611.26942)
+- [CredLeakBench: Evaluating Credential Leakage and Recovery in LLM Agents](https://arxiv.org/abs/2610.08871)
+- [SkillForgeBench: Evaluating Agent Reliability Grounded in Agent Skill Specifications](https://arxiv.org/abs/2610.14918)
+- [SquintBench: Evaluating Autonomous Visual Evidence Verification in Scientific Papers](https://arxiv.org/abs/2611.24353)
+
+#### Learning and Adaptation
+- [Self-Evolving Beyond Human-Crafted Experience for EDA Scripting](https://arxiv.org/abs/2611.26912)
+- [MAPES: Multi-Value Alignment Pipeline via Expert Specialization](https://arxiv.org/abs/2611.27133)
+- [Learning When to Ask: Advisor-Aware Post-Training for SLM Agents](https://arxiv.org/abs/2611.27443)
+- [Learning Unknown Oscillators From Bandit Feedback](https://arxiv.org/abs/2611.27492)
+
+#### Miscellaneous
+- [Fool's Gold: Defensive Deception Against Safety-Removal Attacks on Open-Weight Models](https://arxiv.org/abs/2608.17202)
+- [Agentic Coding in the Wild: Characterizing GitHub Copilot Traces at Production Scale](https://arxiv.org/abs/2608.00101)
+- [When Figures Disagree with Text: Evaluating Autonomous Visual Evidence Verification in Scientific Papers](https://arxiv.org/abs/2611.24353)
+
+This categorization helps in understanding the focus areas of the papers and articles, especially those related to security and robotics.
+
+==================================================
+ADDITIONAL ANALYSIS:
+
+### Summary of AI Papers and News Related to Security
+
+#### 1. **Security in AI Systems**
+   - **"When MLLMs miss what humans read: diagnosing and learning to read squint text"**: This paper investigates the limitations of multimodal large language models (MLLMs) in reading text embedded in images, highlighting the need for improved models that can accurately interpret visual information. The study introduces a benchmark (SquintBench) to evaluate the models' performance and proposes a method (Squint OPSD) to enhance their reading capabilities.
+   - **"Fool's Gold: Defensive Deception Against Safety-Removal Attacks on Open-Weight Models"**: This research presents a method (Fool's Gold) to deceive adversaries who attempt to remove safety guardrails from language models. The approach involves training decoy responses that appear plausible but contain falsified information, thus maintaining safety while allowing the model to operate.
+   - **"No-Box Vulnerability Analysis: Description-only Detection of Indirect Prompt Injection Vulnerabilities in MCP Servers"**: This paper discusses the vulnerabilities of model context protocol (MCP) servers to indirect prompt injection attacks. It introduces a prototype (MCPSEC) that audits these servers using only functionality metadata, successfully identifying vulnerabilities without direct access to the systems.
+   - **"Can Coding Agents Write and Transpile Unit Tests"**: This study evaluates the ability of coding agents to generate reliable tests and translate them between programming languages. It highlights the agents' strengths and weaknesses in producing test coverage and the implications for software reliability.
+
+#### 2. **AI and Ethical Considerations**
+   - **"AI Safety Considerations for Agents With Limited Time to Act"**: This paper discusses the challenges of ensuring AI safety in environments where agents must act quickly and under uncertainty. It emphasizes the need for careful consideration of the environment in which AI operates to ensure safe behavior.
+   - **"When evaluation becomes intervention in clinical AI"**: This research examines how AI judges, which assess other systems' outputs, can inadvertently influence the systems they evaluate. It calls for careful design of evaluation protocols to avoid unintended consequences.
+   - **"Alignment by Socialization: Learning Tradeoffs Under Selection"**: This paper explores how AI agents can learn to balance conflicting objectives through socialization, emphasizing the importance of environmental context in shaping agent behavior.
+
+#### 3. **AI in Cybersecurity**
+   - **"SYSEVOLVE: Safe, Autonomous Attack-Defense Co-evolution for Evolving Cyber Defense"**: This paper presents a co-evolutionary system for cyber defense that integrates attack and defense strategies to adapt to evolving threats. It highlights the need for dynamic adaptation in response to adversarial actions.
+   - **"TrojanMaxxing: One-shotting VLM Backdoors with Weight-Space Programming"**: This research demonstrates how adversaries can exploit vulnerabilities in vision-language models (VLMs) by directly editing model weights to create backdoors, raising concerns about the security of AI systems.
+
+#### 4. **AI in Healthcare**
+   - **"Towards Clinically Interpretable Ophthalmic VQA via Spatially-Grounded Lesion Evidence"**: This study introduces a benchmark for visual question answering in ophthalmology that emphasizes the importance of spatially-grounded evidence for clinical interpretability, which is crucial for patient safety and treatment decisions.
+   - **"LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT"**: This paper presents an LLM agent capable of tracking tumors in CT scans without task-specific training, highlighting the potential for AI to assist in clinical decision-making while ensuring accuracy and reliability.
+
+### Trends and Insights
+- **Increased Focus on Security**: There is a growing emphasis on understanding and mitigating vulnerabilities in AI systems, particularly in the context of cybersecurity and safe deployment in sensitive applications like healthcare.
+- **Ethical Considerations**: The discourse around AI safety and ethical implications is becoming more nuanced, with a focus on the interaction between AI systems and human decision-making processes.
+- **Integration of AI in Healthcare**: AI's role in healthcare is expanding, with research focusing on improving interpretability and reliability in clinical applications, which is essential for patient safety.
+- **Dynamic Adaptation**: Many studies highlight the need for AI systems to adapt dynamically to changing environments and threats, suggesting a shift towards more resilient and responsive AI architectures.
+
+### Conclusion
+The reviewed papers and articles illustrate the multifaceted challenges and advancements in AI, particularly concerning security, ethical considerations, and applications in critical fields like healthcare. The emphasis on robust, interpretable, and adaptable AI systems reflects the ongoing efforts to ensure that AI technologies can be safely and effectively integrated into various domains.
